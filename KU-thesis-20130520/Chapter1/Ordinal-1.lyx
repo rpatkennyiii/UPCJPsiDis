@@ -1,0 +1,907 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass kuthesis
+\begin_preamble
+%%\usepackage{latexsym}
+\usepackage{graphicx}
+
+%%\usepackage{psfig}
+%%\usepackage{color}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{ragged2e}
+\RaggedRight
+\setlength{\parindent}{1 em}
+\end_preamble
+\use_default_options false
+\master ../thesis-ku.lyx
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding utf8
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize letterpaper
+\use_geometry false
+\use_amsmath 1
+\use_esint 0
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1in
+\topmargin 1in
+\rightmargin 1in
+\bottommargin 1in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Chapter
+Ordinal Outcomes Regression
+\end_layout
+
+\begin_layout Section
+Introduction
+\end_layout
+
+\begin_layout Standard
+This is my best effort to succinctly explain the theory behind the ordinal
+ logistic regression model (with apologies to the probit model).
+ 
+\end_layout
+
+\begin_layout Standard
+The main takeaway point is supposed to be this: 
+\end_layout
+
+\begin_layout Standard
+The same data leads to different estimates from different programs.
+ That happens because the ordinal model can be written down in several different
+ ways.
+ None of them are wrong, but they are different, and as a result the user
+ must be cautious.
+\end_layout
+
+\begin_layout Standard
+Estimates obtained from four different programs are offered in Table 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "tab:Ordinal-Regression-Results"
+
+\end_inset
+
+.
+ If we line these up side by side, we see that estimates from one of the
+ routines for R matches Stata (after chopping off the small differences
+ in the decimals), while SAS appears to provide the 
+\begin_inset Quotes eld
+\end_inset
+
+wrong sign
+\begin_inset Quotes erd
+\end_inset
+
+ for the first row and the second procedure for R seems to provide the 
+\begin_inset Quotes eld
+\end_inset
+
+wrong signs
+\begin_inset Quotes erd
+\end_inset
+
+ for the second and third rows.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ordinal Regression Results
+\begin_inset CommandInset label
+LatexCommand label
+name "tab:Ordinal-Regression-Results"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<column alignment="center" valignment="top" width="0">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R: polr
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R: lrm
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+SAS
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Stata
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{b}_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.28
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-0.28
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\zeta}_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-4.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-4.24
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-4.24
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\hat{\zeta}_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-2.32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-2.32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+-2.32
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+None of these are actually wrong, they are all correct 
+\emph on
+given the model they specified
+\emph default
+.
+ This the point at which the student may be tempted to give up.
+ Please don't.
+ I've worked very hard to clear this up in the following sections.
+\end_layout
+
+\begin_layout Section
+Extending the Logit Model to deal with Ordinal Dependent Variables
+\end_layout
+
+\begin_layout Standard
+The easiest way to understand regression with ordinal dependent variables
+ is to extend the 
+\begin_inset Quotes eld
+\end_inset
+
+cumulative probability interpretation
+\begin_inset Quotes erd
+\end_inset
+
+ of the two category model 
+\begin_inset CommandInset citation
+LatexCommand citep
+key "pinheiro_mixed-effects_2000"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+In the two category model, 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ is 1 with probability 
+\begin_inset Formula 
+\begin{equation}
+F(b_{0}+b_{1}X_{i})=\int_{-\infty}^{b_{0}+b_{1}X_{i}}f(e_{i})de_{i}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+And, of course, the probability that 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ is 0 will be 
+\begin_inset Formula $1-F(b_{0}+b_{1}X_{i}).$
+\end_inset
+
+ The formula 
+\begin_inset Formula $F$
+\end_inset
+
+ is a 
+\begin_inset Quotes eld
+\end_inset
+
+cumulative distribution function
+\begin_inset Quotes erd
+\end_inset
+
+ (CDF), it represents the probability that a random variable 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+ will be as small or smaller than 
+\begin_inset Formula $b_{0}+b_{1}X_{i}$
+\end_inset
+
+.
+ The function 
+\begin_inset Formula $f$
+\end_inset
+
+ is a 
+\begin_inset Quotes eld
+\end_inset
+
+probability density function
+\begin_inset Quotes erd
+\end_inset
+
+ (PDF), which represents the probability that 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+ is equal to some particular value.
+ This is illustrated in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Dichotomous"
+
+\end_inset
+
+.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
+probability density function
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $f$
+\end_inset
+
+ is defined from left to right and the possible outcomes are divided into
+ two sets by the line drawn at 
+\begin_inset Formula $e_{i}=b_{0}+b_{1}X_{i}$
+\end_inset
+
+.
+ The area under the curve on the left side is the probability of getting
+ a 
+\begin_inset Quotes eld
+\end_inset
+
+yes
+\begin_inset Quotes erd
+\end_inset
+
+ (or 1).
+ The area on the right is the chance of a 
+\begin_inset Quotes eld
+\end_inset
+
+no
+\begin_inset Quotes erd
+\end_inset
+
+ (0).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ordinal-fig-1.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Dichotomous Outcome Variable
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Dichotomous"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Suppose 
+\begin_inset Formula $y_{i}$
+\end_inset
+
+ can have 
+\begin_inset Formula $3$
+\end_inset
+
+ values, 
+\begin_inset Formula $0$
+\end_inset
+
+, 
+\begin_inset Formula $1$
+\end_inset
+
+, and 
+\begin_inset Formula $2$
+\end_inset
+
+.
+ (Keep in mind that this model can be written down in several ways.
+ We tackle my favorite first, and then consider the others.) Leave the predictive
+ part of the model (
+\begin_inset Formula $b_{0}+b_{1}X_{i})$
+\end_inset
+
+ the same, but we now introduce two new positive constants (
+\begin_inset Formula $\Pi_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $\Pi_{1}$
+\end_inset
+
+) that divide the space.
+ Considering Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "cap:Ordinal-Logit"
+
+\end_inset
+
+, it should be easy to see why some people call these new parameters 
+\begin_inset Quotes eld
+\end_inset
+
+thresholds
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename cumulative2.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ordinal Logit
+\begin_inset CommandInset label
+LatexCommand label
+name "cap:Ordinal-Logit"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To summarize the effect of these new thresholds, we write down 1 equation
+ for each possible outcome.
+ My tendency is to write the thresholds as positive values like so:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y_{i}=\left\{ \begin{array}{lll}
+2 & if\, b_{0}+b_{1}X_{i}-e_{i}\geq\Pi_{1}\\
+1 & if\,\Pi_{0}\leq b_{0}+b_{1}X_{i}-e_{i}<\Pi_{1}\\
+0 & if\, b_{0}+b_{1}X_{i}-e_{i}<\Pi_{0}
+\end{array}\right.\label{eq:3category1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Note we don't really need 3 equations.
+ If we have two, say 
+\begin_inset Formula $Pr(y_{i}=0)$
+\end_inset
+
+ and 
+\begin_inset Formula $Pr(y_{i}=1)$
+\end_inset
+
+, then the chance of ending up in the other category is 
+\begin_inset Formula $1-Pr(y_{i}=0)-Pr(y_{i}=1)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+In order to translate this into a model involving the cumulative probability
+ distribution, re-arrange so that the random variable 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+ is by itself.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+y_{i}=\left\{ \begin{array}{lll}
+2 & if\, e_{i}\leq b_{0}+b_{1}X_{i}-\Pi_{1}\\
+1 & if\, b_{0}+b_{1}X_{i}-\Pi_{1}<e_{i}\leq b_{0}+b_{1}X_{i}-\Pi_{0}\\
+0 & if\, b_{0}+b_{1}X_{i}-\Pi_{0}<e_{i}
+\end{array}\right.\label{eq:3category2-1}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+As in the dichotomous case, the probabilities of the various outcomes are
+ calculated by use of cumulative probability.
+ Rearrange 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:3category1"
+
+\end_inset
+
+ to convert these into probabilities of the individual outcomes.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{array}{lll}
+Pr(y_{i}=2) & =Pr(e_{i}\leq b_{0}+b_{1}X_{i}-\Pi_{1}) & =F(b_{0}+b_{1}X_{i}-\Pi_{1})\\
+Pr(y_{i}=1) & =Pr(b_{0}+b_{1}X_{i}-\Pi_{1}\leq e_{i}<b_{0}+b_{1}X_{i}-\Pi_{0})\\
+ & =1-F(b_{0}+b_{1}X_{i}-\Pi_{0})-F(b_{0}+b_{1}X_{i}-\Pi_{1})\\
+Pr(y_{i}=0) & =Pr(b_{0}+b_{1}X_{i}-\Pi_{0}<e_{i}) & =1-F(b_{0}+b_{1}X_{i}-\Pi_{0})
+\end{array}\label{eq:3category2}
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+Note that any one category can be thought of as a 
+\begin_inset Quotes eld
+\end_inset
+
+residual
+\begin_inset Quotes erd
+\end_inset
+
+ category after the others have been assigned their shares.
+ The middle category, 
+\begin_inset Formula $y_{i}=1,$
+\end_inset
+
+ is left over if we 
+\begin_inset Quotes eld
+\end_inset
+
+chop off
+\begin_inset Quotes erd
+\end_inset
+
+ the outcomes on the left (
+\begin_inset Formula $y_{i}=2$
+\end_inset
+
+) and the right (
+\begin_inset Formula $y_{i}=0$
+\end_inset
+
+).
+ We are left with the chance of ending up in the middle.
+ In that sense, the probability of landing in the middle is equal to 
+\begin_inset Formula $1.0$
+\end_inset
+
+ minus the chance of a very small amount of random noise (
+\begin_inset Formula $e_{i}\leq b_{0}+b_{1}X_{i}-\Pi_{1}$
+\end_inset
+
+) and minus the chance of having a very large random noise (
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\noun off
+\color none
+
+\begin_inset Formula $b_{0}+b_{1}X_{i}-\Pi_{0}<e_{i}$
+\end_inset
+
+).
+
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\noun default
+\color inherit
+ Similarly, the chances of being in the top category equal 
+\begin_inset Formula $1$
+\end_inset
+
+ minus the chance of ending up in the lower categories.
+\end_layout
+
+\begin_layout Standard
+Any probability distribution can be used for the random error 
+\begin_inset Formula $e_{i}$
+\end_inset
+
+, the two most common being Logistic and Normal.
+ If the Normal is chosen, it is customary to call this a 
+\begin_inset Quotes eld
+\end_inset
+
+probit
+\begin_inset Quotes erd
+\end_inset
+
+ model and the symbol for the cumulative distribution is usually 
+\begin_inset Formula $\Phi()$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+What if your dependent variable have more categories? Add more thresholds!
+ See the example in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Ordinal-5cat"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ordinal-fig-3.pdf
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+Ordinal Model with More Categories
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Ordinal-5cat"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

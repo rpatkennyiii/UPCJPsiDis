@@ -1,0 +1,117 @@
+%% LyX 2.0.3 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,english]{kuthesis}
+\usepackage{mathptmx}
+\renewcommand{\sfdefault}{lmss}
+\renewcommand{\ttdefault}{lmtt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{url}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{setspace}
+\usepackage{esint}
+%\usepackage{mathtools}
+%\usepackage[authoryear]{natbib}
+\doublespacing
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
+
+%used to align decimals in tables according to APA style
+\usepackage{dcolumn}
+\usepackage{booktabs}
+
+% Set the title and author info
+\title{Please Read the Abstract}
+\author{Abstract Writer}
+
+
+\dept{Department of People who read Abstracts}
+\degreetitle{Doctor of Philosophy}
+\papertype{Dissertation} %capitalization is important here
+\committee{MEMBER 1}{MEMBER 2}{MEMBER 3}{MEMBER 4}{}
+%AT Most 5 members allowed, last here is blank on purpose to demonstrate
+%flexibility
+
+%% These settings are now in the kuthesis.cls file, but users are free
+% to customize. listings has great documentation online
+%% When listings are used, break lines
+%\lstset{
+ %    breaklines=true,  % sets automatic line breaking
+ %    breakindent=2em,
+ %    breakatwhitespace=true,  % sets if automatic breaks should
+ %   breakautoindent=true
+%}
+
+%% The following is OPTIONAL. Remove all 3 of the next 3 lines
+%% to leave dates blank. If dates are included, then both dates 
+%% must be included.
+\@printd@testrue
+\datedefended{October 02, 2012}
+\dateapproved{October 03, 2012}
+
+\@ifundefined{showcaptionsetup}{}{%
+ \PassOptionsToPackage{caption=false}{subfig}}
+\usepackage{subfig}
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\begin{romanpages}
+
+\maketitle
+\begin{abstract}
+
+The first is some \LaTeX{} code, don't change it. 
+
+\begin{acknowledgementslong}
+%%if you want a "quote" environment for acknowledgements,
+%% use acknowledgements instead of acknowledgementslong
+
+I would like to thank all of the little people who made this thesis
+possible. 
+
+\end{acknowledgementslong}
+\end{abstract}
+
+\tableofcontents{}
+
+\listoffigures
+
+\listoftables
+
+\end{romanpages}
+
+\graphicspath{{TheoryChapter/figures/}}
+\include{IntroductionChapter/upcIntroductionChp}
+\include{TheoryChapter/upcTheoryChp}
+\include{DetectorChapter/upcDetectorChp}
+\include{MethodChapter/upcMethodChp}
+\include{ResultsChapter/upcResultsChp}
+\include{ConclusionChapter/upcConclusionChp}
+\include{FutureWorksChapter/upcFutureWorksChp}
+
+\global\long\def\bibname{References}
+
+\bibliographystyle{bbl/utphys}
+\bibliography{bbl/upcTheoryChp}
+
+\appendix
+\include{Appendix1/Appendix1}
+
+\end{document}
+\end{document}
+\end{document}
