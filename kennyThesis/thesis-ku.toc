@@ -1,42 +1,45 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Theoretical Context}{1}
-\contentsline {section}{\numberline {1.2}History }{1}
-\contentsline {chapter}{\numberline {2}Theory}{2}
-\contentsline {section}{\numberline {2.1}Introduction}{2}
-\contentsline {section}{\numberline {2.2}QCD/QGP}{4}
-\contentsline {section}{\numberline {2.3}CGC/intial state}{4}
-\contentsline {section}{\numberline {2.4}Weizacker Williams Approximation}{4}
-\contentsline {section}{\numberline {2.5}Vector Meson Dominance}{9}
-\contentsline {section}{\numberline {2.6}Leading Twist Approach Derivation}{14}
-\contentsline {section}{\numberline {2.7}Perturbative Quantum Chromodynamics}{17}
-\contentsline {section}{\numberline {2.8}Incoherent Photoproduction}{19}
-\contentsline {section}{\numberline {2.9}Photon Induced Nuclear Break-up}{19}
-\contentsline {section}{\numberline {2.10}Theoretical Results}{19}
-\contentsline {chapter}{\numberline {3}The CMS Detector}{23}
-\contentsline {section}{\numberline {3.1}CMS general}{23}
-\contentsline {section}{\numberline {3.2}Muons}{23}
-\contentsline {section}{\numberline {3.3}HCal}{23}
-\contentsline {section}{\numberline {3.4}ZDC}{23}
-\contentsline {section}{\numberline {3.5}Trigger}{23}
-\contentsline {chapter}{\numberline {4}Method}{24}
-\contentsline {section}{\numberline {4.1}MC Simulation}{24}
-\contentsline {section}{\numberline {4.2}Event Selection}{24}
-\contentsline {section}{\numberline {4.3}break up determination}{24}
-\contentsline {section}{\numberline {4.4}Signal Extraction}{24}
-\contentsline {section}{\numberline {4.5}Efficiency determination}{24}
-\contentsline {chapter}{\numberline {5}Results}{25}
-\contentsline {section}{\numberline {5.1}Coherent cross section}{25}
-\contentsline {section}{\numberline {5.2}Incoherent cross section}{25}
-\contentsline {section}{\numberline {5.3}Break up ratios}{25}
-\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{25}
-\contentsline {chapter}{\numberline {6}Conclusion}{26}
-\contentsline {section}{\numberline {6.1}xsection results }{26}
-\contentsline {section}{\numberline {6.2}correlation results}{26}
-\contentsline {chapter}{\numberline {7}Future Works}{27}
-\contentsline {section}{\numberline {7.1}high mass gamma-gamma PbPb 2011}{27}
-\contentsline {section}{\numberline {7.2}UPC hadronic overlap PbPb 2011}{27}
-\contentsline {section}{\numberline {7.3}pPb J/Psi}{27}
-\contentsline {section}{\numberline {7.4}UPC J/Psi 2015}{27}
-\contentsline {section}{\numberline {7.5}UPC Upsilon 2015}{27}
-\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{30}
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Theoretical Context}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}History }{1}{section.1.2}
+\contentsline {chapter}{\numberline {2}Theory}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}QCD/QGP}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}CGC/intial state}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Weizs\"{a}cker-Williams Approximation}{4}{section.2.4}
+\contentsline {section}{\numberline {2.5}Vector Meson Dominance}{9}{section.2.5}
+\contentsline {section}{\numberline {2.6}Leading Twist Approach Derivation}{14}{section.2.6}
+\contentsline {section}{\numberline {2.7}Perturbative Quantum Chromo-dynamics}{17}{section.2.7}
+\contentsline {section}{\numberline {2.8}Incoherent Photoproduction}{19}{section.2.8}
+\contentsline {section}{\numberline {2.9}Photon Induced Nuclear Break-up}{19}{section.2.9}
+\contentsline {section}{\numberline {2.10}Theoretical Results}{19}{section.2.10}
+\contentsline {chapter}{\numberline {3}The CMS Detector}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}CMS general}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Muons}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}HCal}{23}{section.3.3}
+\contentsline {section}{\numberline {3.4}ZDC}{23}{section.3.4}
+\contentsline {section}{\numberline {3.5}Trigger}{23}{section.3.5}
+\contentsline {chapter}{\numberline {4}Method}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}MC Simulation}{24}{section.4.1}
+\contentsline {section}{\numberline {4.2} Trigger Development}{24}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data Sets and Event Selection}{24}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Data Set}{24}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Event Selection}{25}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4}break up determination}{27}{section.4.4}
+\contentsline {section}{\numberline {4.5}Signal Extraction}{27}{section.4.5}
+\contentsline {section}{\numberline {4.6}Efficiency determination}{27}{section.4.6}
+\contentsline {chapter}{\numberline {5}Results}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Coherent cross section}{28}{section.5.1}
+\contentsline {section}{\numberline {5.2}Incoherent cross section}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Break up ratios}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{28}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{29}{chapter.6}
+\contentsline {section}{\numberline {6.1}xsection results }{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}correlation results}{29}{section.6.2}
+\contentsline {chapter}{\numberline {7}Future Works}{30}{chapter.7}
+\contentsline {section}{\numberline {7.1}high mass gamma-gamma PbPb 2011}{30}{section.7.1}
+\contentsline {section}{\numberline {7.2}UPC hadronic overlap PbPb 2011}{30}{section.7.2}
+\contentsline {section}{\numberline {7.3}pPb J/Psi}{30}{section.7.3}
+\contentsline {section}{\numberline {7.4}UPC J/Psi 2015}{30}{section.7.4}
+\contentsline {section}{\numberline {7.5}UPC Upsilon 2015}{30}{section.7.5}
+\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{33}{appendix.A}
