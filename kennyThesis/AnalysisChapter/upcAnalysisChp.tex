@@ -1,0 +1,221 @@
+\chapter{Analysis}	
+  \section{MC Simulation}
+  \section{\label{sec:TrigDev} Trigger Development} 
+    Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
+      PbPb collisions using CMS. 
+    Design of the UPC triggers required studies of the 2010 data to estimate 
+      rates and assure that the bandwidth used by these trigger would be
+      sufficiently low. 
+    All the different physics analyses must share the limited readout rate of 
+      the detector.
+    For this reason, conservation of bandwidth was a major design consideration.
+
+    To estimate the 2011 rates prior to the run, the 2010 rates were used to 
+      extrapolate to the interaction rate of the 2011 run. 
+    The unique UPC triggers were estimated by combining existing triggers from
+      the 2010 run. 
+    By calculating the ratio between the UPC trigger rates and the minimum bias
+      trigger rate, the UPC trigger rates were scaled up to the 2011 
+      interaction rates using the 2010 data. 
+    The extrapolated rates allowed for a package triggers to be created, which 
+      fit within the bandwidth requirement of CMS Heavy Ions. 
+    
+    The trigger package for 2011 contained ZDC based efficiency monitoring 
+      triggers, muon and electron based triggers for measuring $J/\psi$, and 
+      backup triggers in case there was a problem with the original muon and 
+      electron triggers.
+    In order to recorded the trigger efficiency monitoring data, the ZDC 
+      triggers had to be prescaled to a lower rate. 
+    The scaling down of the monitoring triggers were setup to assure overlap
+      with the signal triggers.
+    By balancing the competing objectives of rate reduction and increasing 
+      the overlap between the monitoring and signal triggers, 
+      the prescales for the trigger were as seen in Table ~\ref{triggerTabel2011}.
+
+    \subsection{L1 Trigger}
+      The goal of the L1 triggers was to record enough data to measure dimuons
+        and dielectrons in UPC events.
+      To achieve this, the loosest muon trigger and lowest threshold ECAL 
+        triggers where paired with a trigger on energy in the ZDC and a veto on
+	energy in the BSC or HF.
+      The L1 package that was constructed for the analysis of UPC $J/\psi$ 
+        is presented in Table~\ref{tab:l1Triggers2011}.
+
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{|l|l|}
+		  L1 Trigger Seed  & Type \\ \hline \hline
+		  L1\_MuOpen\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
+		  L1\_EG2\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
+		  L1\_EG5\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\ \hline
+		  L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
+		  L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
+		  L1\_MuOpen\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
+		  L1\_EG2\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
+		  L1\_EG5\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline \hline
+		\end{tabular}
+		\caption{List of 2011 L1 seeds.}
+		\label{tab:l1Triggers2011}
+	\end{table}
+       
+       The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
+         required to be 200 Hz.
+       This requirement stemmed from the need to keep the tracker read-out rate
+         low. 
+       The trackers baseline voltage can fluctuate due to the high tracker hit 
+         multiplicities in PbPb collisions.
+       In order to monitor the zero suppression of the tracker, the zero 
+         suppression algorithm was executed using the HLT computing farm 
+	 rather than the in the tracker firmware. 
+       The additional computing cycles needed to run the zero suppression 
+         set the limit for L1 bandwidth. 
+
+    \subsection{HLT Trigger}
+      As opposed to the L1 trigger, which reads out the tracker, the HLT has 
+        access to the tracker information. 
+      Reconstruction of a track in the pixel detector is used by the UPC paths.
+      The use of the pixel detector only, as opposed to using the whole tracker 
+        including the silicon strip detector, allows for quick track 
+	reconstruction saving computing cycles.
+      The requirement of at least on reconstructed pixel track for the HLT 
+        triggers was designed to reject backgrounds where no particles are 
+	reconstructed by the tracker. 
+              \begin{table}[h]
+		\centering
+		\begin{tabular}{|l|l|}
+		  \hline HLT Trigger  \\ \hline \hline
+		  HLT\_HIUPCNeuMuPixel\_SingleTrack & Physics   \\\hline
+		  HLT\_HIUPCNeuEG2Pixel\_SingleTrack & Physics   \\\hline
+		  HLT\_HIUPCNeuEG5Pixel\_SingleTrack & Physics   \\\hline
+		  HLT\_HIMinBiasZDC\_Calo\_PlusOrMinus\_v1  & Monitor  \\\hline
+		  HLT\_HIMinBiasZDC\_PlusOrMinusPixel\_SingleTrack\_v1   & Monitor \\\hline
+		  HLT\_HIUPCNeuHcalHfMuPixel\_SingleTrack & Backup   \\\hline
+		  HLT\_HIUPCNeuHcalHfEG2Pixel\_SingleTrack & Backup   \\\hline
+		  HLT\_HIUPCNeuHcalHfEG5Pixel\_SingleTrack & Backup   \\\hline\hline
+		\end{tabular}
+		\caption{List of 2011 HLT trigger.}
+		\label{tab:hltTriggers2011}
+	\end{table}
+
+	The total HLT output for the UPC trigger paths was 20 Hz. 
+	The limiting factor for the HLT rate was the amount of disk space 
+	  available to store the data. 
+
+  \section{\label{sec:DataSetEvSel} Data Sets and Event Selection}
+  \subsection{Data Set}
+    In order to investigate novel physics processes like UPC $J/\psi$ 
+     production, the LHC has delivered unprecedented amounts of data.
+    The data for this analysis was recorded during the 2011 LHC PbPb run. 
+    During this period, 157 $\mu$$b^{-1}$ where recorded by the CMS detector,
+      corresponding to over a billion PbPb collisions. 
+    Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
+
+    Three specially selected samples are used.
+    A list of triggers used in this analysis can be found in 
+      Section~\ref{sec:TrigDev}.
+    The $J/\psi$ events come from a sample triggered by UPC triggers 
+      specifically designed for this measurement.
+    A minimum bias sample was recorded for the sake of estimating efficiencies.
+    Last, a zero bias sample was recored for investigating the ZDC and the 
+      noise distributions of HF.
+    By recording this hierarchy of samples, interesting events are selected 
+      with a much higher purity the physics sample, while the zero bias and 
+      minimum bias samples allow for the investigation of the selection 
+      criteria. 
+
+    To record the physics sample containing the $J/\psi$ signal, a muon trigger
+      was paired with a veto on energy in the BSC and a requirement that there 
+      be energy in at least one of two sides the ZDC. 
+    This trigger utilizes the unlikely chance of having overlapping noise in
+      in the ZDC and muon detector.
+    Because of the characteristically low momentum of UPC $J/\psi$ as compared
+      to $J/\psi$ created by other physics process, the loosest muon 
+      trigger was used.
+    The trigger rejects muon noise by requiring that a interaction took place
+      that deposits energy in the ZDC.
+    Contributions from hadronic interactions are reduced by the veto on the 
+      BSC.
+    In this way the balance between reducing the rate and maximizing the 
+      efficiency was struck, allowing for the data to be recorded without 
+      producing high rates resulting in dead time for the detector.  
+    
+    In order to investigate the muon trigger and the other parts of the events 
+      selection, a minimum bias sample was recorded using the ZDC. 
+    For ZDC triggered sample, any event which had energy consistent with at 
+      least one neutron in either of the two sides of the ZDC was recorded.
+    This process is much more common than the UPC $J/\psi$ production.
+    For this reason, the rates of this trigger are much higher than the physics
+      trigger, and only a small sub set of these events are recorded.
+    From this trigger the pixel track efficiency was estimated. 
+
+    In addition to the minimum bias and physics sample, a zero bias sample was 
+      recorded to examine the ZDC trigger and the HF noise distributions. 
+    This sample records every event when both beams passed through CMS. 
+    Only 4 events out every million triggered were recorded for this sample. 
+    This sample allowed for an unbiased measurement of the ZDC trigger 
+      efficiency. 
+    Because the zero bias trigger does not require any activity any of the
+      CMS sub detectors, the sample contains very few hadronic collisions. 
+    This allowed for a measurement of the electronic noise distributions in
+      the HF.
+
+    \begin{table}
+	    \centering
+	    \begin{tabular}{|l|l|l|}
+	      \hline Sample & Events & $L_{int}$ \\ \hline \hline
+	      Physics & \textcolor{red}{300K} & \textcolor{red}{143.3 
+	        $\mu$$b$} \\ \hline
+	      Minimum Bias & \textcolor{red}{100K} & \textcolor{red}{X} \\ \hline
+	      Zero Bias & \textcolor{red}{5M} & \textcolor{red}{580 b} \\ \hline \hline
+	    \end{tabular}
+	    \caption{Integrated luminosities and number of events for the three
+	      samples used in this analysis.}
+	    \label{tab:sampleLumiNevt}
+    \end{table}
+
+  \subsection{Event Selection}
+    Two sets of event selection cuts are applied to reject background events. 
+    The first set rejects background from the beam.
+    The second reject events where hadronic collisions have occurred.
+    
+    Three cuts are used to eliminate beam backgrounds.
+    For this purpose, the following cuts are applied:
+    \begin{itemize}
+	    \item the reconstructed vertex must be within X cm in the in 
+		    transverse dimension and X cm in the longitudinal
+	    \item muon beam halo rejection
+	    \item pixel cluster shape compatibility
+    \end{itemize}
+    The vertex cut assures that reconstructed particles are come from 
+      interactions between the two beams rather than then event where one of
+      the two beams interact with gas particles near the interaction point. 
+    The pixel cluster shape compatibility cut requires that the clustering
+      of energy deposits in the silicon tracker point back to the reconstructed
+      primary vertex. 
+    This cut rejects events where remnants of the beam scrap the innermost 
+      most layer of the tracker. 
+    By using timing on either side of the interaction point, the beam halo cut
+      rejects events where muons surrounding stream through the detector. 
+
+    Three cuts are applied to reject hadronic interactions. 
+    \begin{itemize}
+	    \item no more than 2 reconstructed tracks in the event
+	    \item maximum RecHit energy in HF consistent with electronic noise 
+	    \item Energy in the ZDCs consistent with neutrons on only one side 
+		    of the interaction point
+    \end{itemize}
+    Each of these cuts are designed to reject topologies that are produced when
+      the two colliding nuclei overlap and interact through the strong force. 
+    The track requirement rejects events that produce many charge particles.
+    Nearly all hadronic interactions (~98\%) produce particles in the 
+      range $3<|\eta|<5$ covered by the HF detector.
+    By requiring that the energy deposits in HF resemble noise, nearly all
+      elastic hadronic collisions are expected to be rejected.
+    In elastic hadronic events the both nuclei break-up. 
+    By requiring that ZDC only reconstruct neutrons on one side of the 
+      interaction point, hadronic interactions that produce neutrons on both 
+      sides are reject.
+
+  \section{break up determination}
+  \section{Signal Extraction}
+  \section{Efficiency determination}

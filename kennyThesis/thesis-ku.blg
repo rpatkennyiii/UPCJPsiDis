@@ -4,7 +4,7 @@ The top-level auxiliary file: thesis-ku.aux
 A level-1 auxiliary file: IntroductionChapter/upcIntroductionChp.aux
 A level-1 auxiliary file: TheoryChapter/upcTheoryChp.aux
 A level-1 auxiliary file: DetectorChapter/upcDetectorChp.aux
-A level-1 auxiliary file: MethodChapter/upcMethodChp.aux
+A level-1 auxiliary file: AnalysisChapter/upcAnalysisChp.aux
 A level-1 auxiliary file: ResultsChapter/upcResultsChp.aux
 A level-1 auxiliary file: ConclusionChapter/upcConclusionChp.aux
 A level-1 auxiliary file: FutureWorksChapter/upcFutureWorksChp.aux
@@ -13,7 +13,7 @@ A level-1 auxiliary file: Appendix1/Appendix1.aux
 Database file #1: bbl/upcTheoryChp.bib
 You've used 11 entries,
             2328 wiz_defined-function locations,
-            676 strings with 7138 characters,
+            676 strings with 7142 characters,
 and the built_in function-call counts, 3960 in all, are:
 = -- 434
 > -- 96
