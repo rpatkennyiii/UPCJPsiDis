@@ -1,8 +1,181 @@
 \chapter{The CMS Detector}	
-  \section{CMS general}
-  \section{Muons}
-  \section{HCal}
-  \section{ZDC}
+CMS is housed at interaction point 5 of the LHC. 
+The LHC is designed to pursue physics at the TeV scale. 
+This is the scale where electroweak symmetry breaking is believed to occur
+	\cite{CmsPTdrv2}.
+While this means that the search for the standard model Higs is the central 
+	driving design consideration, the wide range of possibilities for
+	finding new physics signals requires a general purpose detector.
+The expedient discovery of new physics through low cross section interactions 
+	requires high luminosity.
+This consideration leads inevitably to pile up, where multiple collisions 
+	occurs at a single bunch crossing.
+At peak luminosity the LHC is expected to produce on average 20 hard 
+	proton-proton (pp) collisions per bunch crossing \cite{tCmsE}.
+These particle physics considerations of high multiplicity due to pileup and the
+	need for a general purpose detector make CMS serendipitously well suited
+	for heavy ion physics.
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=.5\textwidth]{cms}
+  \caption{The Compact Muon Solenoid from Reference~\cite{tCmsE}.}
+  \label{cms}
+\end{figure}
+
+The general purpose design of CMS is dominated by the massive 4T 
+	superconducting solenoid at its core.
+The magnets is 13m long with a 6m diameter, and pushes the limits of power
+	and compactness \cite{tCmsE}. 
+These two conflicting limits are achieved through the novel design of 
+	interweaving structural and conducting elements together in the coil of
+	the solenoid.
+
+Within the solenoid resides three different sub detectors.
+The inner most is the world's largest silicon tracker \cite{tCmsE}.
+The tracker is surrounded by a highly effective lead tungstate crystal 
+	electromagnetic calorimeter (ECAL).
+ECAL is encapsulated in a brass scintillating hadronic calorimeter (HCAL).
+Outside the magnet, muon chambers are used to aid in the measurement and 
+	triggering of muon events. 
+Altogether CMS weighs 12,500 metric tons, has a diameter of 14.6m,
+	and a length of 21.6m \cite{tCmsE}.
+
+The Silicon Tracker is the innermost sub-detector of CMS, and has active
+	elements as close as 4.4cm to the interaction point \cite{tCmsE}. 
+The tracker has a length 5.8m, a diameter of 2.6m and
+	covers a range in pseudorapidity of \(|\eta| <\) 2.5.
+Pseudorapidity is defined as $\eta\equiv-\ln(\tan(\theta/2))$, where $\theta$ is 
+	the polar angle, and $\phi$ is the azimuthal angle with respect to the 
+	beam axis.
+At the center of the tracker are three rings of silicon pixels around the beam 
+	with two disks of silicon pixels to cap the rings.
+The pixel portion of the silicon tracker is comprised of 66x10$^{6}$
+	pixels.
+The silicon pixels are surrounded by silicon strips.
+The silicon strips are separated into 4 different sections: 
+	the Tracker Inner Barrel, the Tracker Inner Disk, the Tracker Outer 
+	Barrel, and the Tracker End Caps.
+The silicon strip detectors as a whole are comprised of 9.3x10$^{6}$ silicon 
+	strips.
+The high number of pixels and strips allow for the ability to distinguish
+	and collect enough distinct points to reconstruct the path of the 1000
+	or so charge particles per bunch crossing expected at peak luminosity
+	\cite{tCmsE}.  
+
+The next detector beyond the tracker is ECAL.
+ECAL is made of 61,200 lead tungstate (PbWO$_{4}$) crystals in the central
+	barrel and 7,324 on each of the two endcaps \cite{tCmsE}.
+The barrel (EB) covers a pseudorapidity range $|\eta| < 1.479$ and has an
+	approximate $\eta-\phi$ segmentation of $0.0174\times0.0174$.
+Lead tungstate is very dense, which is reflect in the high number of interaction
+	lengths the short depth of one crystal provides.
+The crystals of the barrel have a depth of 230 mm corresponding to 25.8 
+	radiation lengths ($X_{0}$).
+The radiation length is the mean distance a high energy particle travels before
+	giving up one e-fold of kinetic energy through electromagnetic
+	interactions.
+For example, after one radiation length $E \rightarrow E/e$, where 
+	$e = 2.71828183$. 
+The endcaps (EE) cover the psuedorapitity region $1.479 < |\eta| < 3$.
+In the endcap the crystals have an exposed area of 28.62 $\times$ 28.62 
+	mm$^{2}$, and a depth of 220 mm corresponding to 24.7 $X_{0}$.
+The energy resolution of the ECAL as measured by test beam data can be seen in
+	Figure~\ref{ECALeRes}.
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.5\textwidth]{ECALeRes}
+  \caption{The energy resolution of ECAL as a function of energy from 
+	Reference~\cite{tCmsE}.}
+  \label{ECALeRes}
+\end{figure}
+
+The HCAL like the ECAL has both a barrel (HB) and endcaps (HE).
+The pseudorapidity region $|\eta|<1.3$ is covered by HB \cite{tCmsE}. 
+HB has an $\eta-\phi$ segmentation of $0.0897\times0.0897$, and is 25 times more
+	sparsely granulated than EB.
+HE covers the pseudorapidity region $1.3<|\eta|<3$.
+HE, like EE and the tracker endcaps, is aligned perpendicular to the beam axis
+	resulting in granularity that changes with $\eta$.
+In the region $1.3 <|\eta|< 1.6$ HE has an $\eta-\phi$ segmentation of 
+	$0.0897\times0.0897$.
+The $\eta-\phi$ segmentation roughly doubles to $0.17\times0.17$ in the region
+	$1.6 <|\eta|< 3$.
+The energy resolution of the barrel and endcaps can be seen in  
+	Figure~\ref{HCALeRes}.
+The thickness of the hadronic calorimeter is best described in interaction
+	lengths, the mean distance for a particle to give up an e-fold of energy
+	through nuclear interactions. 
+At $\eta = 0$ the barrel has a thickness 5.82 interaction lengths 
+	($\lambda_{I}$), and increases as the path length through the material 
+	increases to 10.6 $\lambda_{I}$ at $|\eta| = 1.3$.
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=0.5\textwidth]{HCALeRes}
+  \caption{The $E_{T}$ resolution of HCAL as a function of $|\eta|$ and $E_{T}$
+	from Reference~\cite{tCmsE}.}
+  \label{HCALeRes}
+\end{figure}
+
+In addition to HB and HE, HCAL has two additional calorimeters.
+Because the space between ECAL and the magnet is restricted to 1.18 m, an
+	outer hadronic calorimeter section (HO) is placed beyond the magnet
+	in the region $|\eta|<1.3$ \cite{tCmsE}.
+The main function of HO is to collect energy from the highest energy hadrons
+	before they reach the muon system.
+HO is not used in this analysis, but does contribute to the material budget. 
+To increase the total calorimetric coverage, HCAL also has a quartz fiber 
+	calorimeter (HF) in the forward region, $3 < |\eta| < 5$.
+For the majority of HF's 13 $\eta$ rings the $\eta-\phi$ segmentation is 
+	$0.175\times0.175$.
+In the lowest $|\eta|$ ring the segmentation is $0.111\times0.175$ in 
+	$\eta-\phi$.
+In the highest two $|\eta|$ rings the segmentation in $\phi$ is 0.349, with an
+	$\eta$ segmentation of 0.175 in the outer and 0.300 in the innermost 
+	ring. 
+The longitudinal direction is effectively segmented by using short fibers and
+	long fibers.
+The measure energy deposited deeper than 22 cm is measured in both the short
+	and long fibers, where as the long fibers are present throughout.
+This allows electromagnetic showers to be distinguished from purely hadronic 
+	showers \cite{tCmsE}.
+The energy resolution for HF can be seen in Figure~\ref{HCALeRes}.  
+
+Beyond HF there are two more detectors in the forward region.
+CASTOR covers the range 5.2 $< \eta <$ 6.6 on the positive side of the beam. 
+The Zero Degree Calorimeters (ZDC) sit between the beam pipes on either side of
+	the interaction point covering the area around $\theta = 0$, $|\eta| > 
+	8.3$.
+Both detectors are tungsten quartz Cerenkov detectors, and can contribute to
+	the proposed measurement.
+In heavy ion collisions the ZDC has the ability to measure neutral particles 
+	that do not participate in the collision \cite{tCmsE}.
+CASTOR extends the total coverage of the CMS as whole giving more access to 
+	low-x physics \cite{tCmsE}.
+
+The muon system resides just outside of the superconducting magnet.
+It consists of three complementary systems: drift tube (DT) chambers in the
+	barrel, cathode strip chambers (CSC) in the endcaps, and resistive 
+	plate chambers (RPC) in both the barrel and endcap regions \cite{tCmsE}.
+Ultimately the muon system is most useful for triggering on muons \cite{tCmsE}.
+
+The heavy ion community is making use of the capabilities of CMS in a myriad of
+	ways.
+The muon trigger has been used in the search for suppression of quarkonium 
+	states. 
+This is an important probe of the correlation length within the hot dense state
+	known as the quark gluon plasma (QGP).
+The tracker has been utilized for to study charged particle multiplicities, and
+	and elliptical flow, two probes of the thermal expansion of the QGP.
+HCAL has aided in measuring jet suppression, which probes the strength with 
+	which the QGP interacts with strong interacting objects.
+Through its general purpose design and its ability to handle the high
+	multiplicities produce by the LHC, CMS proves to be an excellent 
+	detector for investigating strongly interacting mater through heavy ion
+	collisions. 
+%  \section{CMS general}
+%  \section{Muons}
+%  \section{HCal}
+%  \section{ZDC}
   \section{Trigger}
     The CMS trigger is two teired. 
     The L1 trigger is the lower level hardward based system. 

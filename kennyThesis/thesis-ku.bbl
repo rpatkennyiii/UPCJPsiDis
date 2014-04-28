@@ -1,5 +1,10 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{tCmsE}
+S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
+  Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
+  \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
+
 \bibitem{dAuOniaPHENIX}
 {\bfseries PHENIX Collaboration} Collaboration, A.~Adare {\em et~al.}, ``{Cold
   Nuclear Matter Effects on $J/\psi$ Yields as a Function of Rapidity and

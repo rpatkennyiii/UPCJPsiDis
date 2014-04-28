@@ -11,44 +11,51 @@ A level-1 auxiliary file: FutureWorksChapter/upcFutureWorksChp.aux
 The style file: bbl/utphys.bst
 A level-1 auxiliary file: Appendix1/Appendix1.aux
 Database file #1: bbl/upcTheoryChp.bib
-You've used 11 entries,
+I was expecting a `,' or a `}'---line 12 of file bbl/upcTheoryChp.bib
+ :   
+ :   authnote={G Hmayakyan and V Khachatryan and A M Sirunyan and W Adam and T Bauer and T
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "CmsPTdrv2"
+You've used 12 entries,
             2328 wiz_defined-function locations,
-            676 strings with 7142 characters,
-and the built_in function-call counts, 3960 in all, are:
-= -- 434
-> -- 96
+            687 strings with 7312 characters,
+and the built_in function-call counts, 4286 in all, are:
+= -- 472
+> -- 104
 < -- 0
-+ -- 36
-- -- 25
-* -- 340
-:= -- 453
-add.period$ -- 25
-call.type$ -- 11
-change.case$ -- 19
++ -- 39
+- -- 27
+* -- 361
+:= -- 488
+add.period$ -- 27
+call.type$ -- 12
+change.case$ -- 20
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 227
-empty$ -- 389
-format.name$ -- 25
-if$ -- 1047
+cite$ -- 12
+duplicate$ -- 249
+empty$ -- 418
+format.name$ -- 27
+if$ -- 1138
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 37
-newline$ -- 47
-num.names$ -- 13
-pop$ -- 60
+int.to.str$ -- 12
+missing$ -- 41
+newline$ -- 50
+num.names$ -- 14
+pop$ -- 65
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 170
+skip$ -- 190
 stack$ -- 0
-substring$ -- 220
-swap$ -- 116
+substring$ -- 232
+swap$ -- 129
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 26
-width$ -- 13
-write$ -- 108
+while$ -- 28
+width$ -- 14
+write$ -- 116
+(There was 1 error message)

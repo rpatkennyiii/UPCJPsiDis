@@ -30,7 +30,7 @@
       with the signal triggers.
     By balancing the competing objectives of rate reduction and increasing 
       the overlap between the monitoring and signal triggers, 
-      the prescales for the trigger were as seen in Table ~\ref{triggerTabel2011}.
+      the prescales for the trigger were as seen in Table .%~\ref{triggerTabel2011}.
 
     \subsection{L1 Trigger}
       The goal of the L1 triggers was to record enough data to measure dimuons
@@ -217,5 +217,57 @@
       sides are reject.
 
   \section{break up determination}
+    \subsection{ZDC Signal Reconstruction}
+      There are 18 zdc channel. 
+      There are 4 hadronic channels and 8 electromagnetic channels on each side
+        of the CMS. 
+      To measure neutrons in the ZDC the charge in each channel is first 
+        converted to a signal. 
+
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=\textwidth]{zdcPulseShape}
+		\caption{ZDC pluse shape.}
+		\label{fig:zdcPulseShape}
+	\end{figure}
+
+      Channel Signal definition:
+      The signal in the zdc calculated two ways. 
+      \begin{enumerate}
+	\item Method 1
+	\begin{enumerate}
+	  \item signal: 4,5,6 
+          \item background: 1,2
+        \end{enumerate}
+	\item Method 2
+	\begin{enumerate}
+	  \item signal: 4
+	  \item background: 5
+        \end{enumerate}
+      \end{enumerate}
+
+        As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
+	  signal time slices and uses the maximum number of “clean” non signal 
+	  time slices to estimate the noise pedestal event by event. 
+	This minimizes the effect of random noise time slice by time slice by 
+	  averaging over the maximum number of time slices per event. 
+
+        Method 2 uses only the two time slice that are most likely to be above 
+	  zero. 
+	Because all signal that is less than zero is not measured, method 1 
+	  only allows for a noise pedestal measurement half the time.
+	
+	From these two methods the ZDC+ and ZDC- energy spectra near the 
+	  one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
+	While method 1 in blue and method 2 in reddo not differ much in ZDC-, 
+	  the clear separation of the one neutron peak signal from the noise 
+	  peak about zero is evident. 
+	  \begin{figure}[h]
+	    \centering
+	    \includegraphics[width=\textwidth]{zdcSpec2v1}
+	    \caption{Comparison of ZDC signal reconstruction methods.}
+	    \label{fig:zdcSpec2v1}
+	  \end{figure}
+	
   \section{Signal Extraction}
   \section{Efficiency determination}
