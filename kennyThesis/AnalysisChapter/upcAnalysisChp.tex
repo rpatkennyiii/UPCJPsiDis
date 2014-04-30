@@ -246,28 +246,36 @@
         \end{enumerate}
       \end{enumerate}
 
-        As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
-	  signal time slices and uses the maximum number of “clean” non signal 
-	  time slices to estimate the noise pedestal event by event. 
-	This minimizes the effect of random noise time slice by time slice by 
-	  averaging over the maximum number of time slices per event. 
+      As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
+        signal time slices and uses the maximum number of “clean” non signal 
+        time slices to estimate the noise pedestal event by event. 
+      This minimizes the effect of random noise time slice by time slice by 
+        averaging over the maximum number of time slices per event. 
 
-        Method 2 uses only the two time slice that are most likely to be above 
-	  zero. 
-	Because all signal that is less than zero is not measured, method 1 
-	  only allows for a noise pedestal measurement half the time.
-	
-	From these two methods the ZDC+ and ZDC- energy spectra near the 
-	  one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
-	While method 1 in blue and method 2 in reddo not differ much in ZDC-, 
-	  the clear separation of the one neutron peak signal from the noise 
-	  peak about zero is evident. 
-	  \begin{figure}[h]
-	    \centering
-	    \includegraphics[width=\textwidth]{zdcSpec2v1}
-	    \caption{Comparison of ZDC signal reconstruction methods.}
-	    \label{fig:zdcSpec2v1}
-	  \end{figure}
-	
+      Method 2 uses only the two time slice that are most likely to be above 
+        zero. 
+      Because all signal that is less than zero is not measured, method 1 
+        only allows for a noise pedestal measurement half the time.
+    
+      From these two methods the ZDC+ and ZDC- energy spectra near the 
+        one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
+      While method 1 in blue and method 2 in reddo not differ much in ZDC-, 
+        the clear separation of the one neutron peak signal from the noise 
+        peak about zero is evident. 
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{zdcSpec2v1}
+        \caption{Comparison of ZDC signal reconstruction methods.}
+        \label{fig:zdcSpec2v1}
+      \end{figure}
+
+    \subsection{Determination of the on neutron thresholds}
+      The ZDC thresholds used to establish the break-up mode were measured from
+        zero bias data.
+      By using this dataset, the spectrum does not contain a trigger bias. 
+      The trigger requriment in the event is that both beams were present in 
+        CMS.
+
+        
   \section{Signal Extraction}
   \section{Efficiency determination}
