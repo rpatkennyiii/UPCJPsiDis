@@ -17,9 +17,10 @@ I was expecting a `,' or a `}'---line 24 of file bbl/upcTheoryChp.bib
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "CmsPTdrv2"
+Warning--I didn't find a database entry for "upcJets1"
 You've used 13 entries,
             2328 wiz_defined-function locations,
-            696 strings with 7533 characters,
+            698 strings with 7549 characters,
 and the built_in function-call counts, 4602 in all, are:
 = -- 509
 > -- 108

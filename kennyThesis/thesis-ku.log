@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  30 APR 2014 01:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  5 MAY 2014 22:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -826,7 +826,7 @@ Chapter 2.
 
 
 
-] <TheoryChapter/figures/boost.png, id=337, 291.0875pt x 155.58125pt>
+] <TheoryChapter/figures/boost.png, id=342, 291.0875pt x 155.58125pt>
 File: TheoryChapter/figures/boost.png Graphic file (type png)
 
 <use TheoryChapter/figures/boost.png>
@@ -873,7 +873,7 @@ Overfull \hbox (28.42389pt too wide) in alignment at lines 186--195
  [][][] []
  []
 
-[6] <TheoryChapter/figures/bess.png, id=385, 160.6pt x 120.45pt>
+[6] <TheoryChapter/figures/bess.png, id=389, 160.6pt x 120.45pt>
 File: TheoryChapter/figures/bess.png Graphic file (type png)
 
 <use TheoryChapter/figures/bess.png>
@@ -887,7 +887,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--238
 
 [7 <./TheoryChapter/figures/bess.png (PNG copy)>] [8] [9] [10] [11] [12]
 [13] [14] [15] [16] [17] [18]
-<TheoryChapter/figures/aliceDsigDy.png, id=557, 628.3475pt x 449.68pt>
+<TheoryChapter/figures/aliceDsigDy.png, id=561, 628.3475pt x 449.68pt>
 File: TheoryChapter/figures/aliceDsigDy.png Graphic file (type png)
 
 <use TheoryChapter/figures/aliceDsigDy.png>
@@ -895,14 +895,14 @@ Package pdftex.def Info: TheoryChapter/figures/aliceDsigDy.png used on input li
 ne 816.
 (pdftex.def)             Requested size: 234.8775pt x 168.08751pt.
  [19] [20 <./TheoryChapter/figures/aliceDsigDy.png>]
-<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=577, 516.93124pt x 583.17876pt>
+<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=581, 516.93124pt x 583.17876pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSub.png Graphic file (type png)
 <use TheoryChapter/figures/ltaAndPqcdNucSub.png>
 Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSub.png used on inp
 ut line 852.
 (pdftex.def)             Requested size: 234.8775pt x 264.9819pt.
 
-<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=578, 570.13pt x 343.2825pt>
+<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=582, 570.13pt x 343.2825pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png Graphic file (type png)
 
 <use TheoryChapter/figures/ltaAndPqcdNucSubVMD.png>
@@ -918,7 +918,7 @@ Chapter 3.
 
 LaTeX Warning: Citation `CmsPTdrv2' on page 23 undefined on input line 5.
 
-<DetectorChapter/figures/cms.png, id=596, 550.055pt x 419.5675pt>
+<DetectorChapter/figures/cms.png, id=600, 550.055pt x 419.5675pt>
 File: DetectorChapter/figures/cms.png Graphic file (type png)
 
 <use DetectorChapter/figures/cms.png>
@@ -933,7 +933,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] <DetectorChapter/figures/ECALeRes.png, id=610, 538.01pt x 527.9725pt>
+] <DetectorChapter/figures/ECALeRes.png, id=614, 538.01pt x 527.9725pt>
 File: DetectorChapter/figures/ECALeRes.png Graphic file (type png)
 
 <use DetectorChapter/figures/ECALeRes.png>
@@ -947,7 +947,7 @@ of 61,200 lead tungstate (PbWO$[]$)
  []
 
 [24 <./DetectorChapter/figures/cms.png>]
-<DetectorChapter/figures/HCALeRes.png, id=620, 525.965pt x 377.41pt>
+<DetectorChapter/figures/HCALeRes.png, id=624, 525.965pt x 377.41pt>
 File: DetectorChapter/figures/HCALeRes.png Graphic file (type png)
 
 <use DetectorChapter/figures/HCALeRes.png>
@@ -978,7 +978,7 @@ File: omsptm.fd
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 184.
  [32]
-<AnalysisChapter/figures/zdcPulseShape.png, id=668, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcPulseShape.png, id=672, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPulseShape.png>
@@ -986,19 +986,42 @@ Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
 t line 229.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
  [33 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
-<AnalysisChapter/figures/zdcSpec2v1.png, id=677, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcSpec2v1.png, id=681, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcSpec2v1.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
 ine 267.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
- [34 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]) [35]
+ [34 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=692, 698.61pt x 473.77pt
+>
+File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
+
+ <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
+ on input line 291.
+(pdftex.def)             Requested size: 469.75502pt x 318.57368pt.
+
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=694, 698.61pt x 473.77pt
+>
+File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
+
+ <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
+ on input line 303.
+(pdftex.def)             Requested size: 469.75502pt x 318.57368pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>]) [36 <./AnalysisChap
+ter/figures/zdcMinusSingleNuNoSub.png>]
 \openout2 = `ResultsChapter/upcResultsChp.aux'.
 
  (./ResultsChapter/upcResultsChp.tex
 Chapter 5.
-) [36
+) [37
 
 
 
@@ -1007,7 +1030,7 @@ Chapter 5.
 
  (./ConclusionChapter/upcConclusionChp.tex
 Chapter 6.
-) [37
+) [38
 
 
 
@@ -1050,12 +1073,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-[38
+[39
 
 
 
 ]
-<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=704, 569.12625pt x 5
+<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=717, 569.12625pt x 5
 55.07375pt>
 File: FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf Graphic file (type 
 pdf)
@@ -1067,22 +1090,62 @@ used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[39] [40 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [41])
-[42] (./thesis-ku.bbl
+[40] [41 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [42]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\psi' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 155.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\psi' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\Upsilon' on input line 182.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 182.
+
+[43]
+
+LaTeX Warning: Citation `upcJets1' on page 44 undefined on input line 214.
+
+[44]) [45] (./thesis-ku.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 6.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [43
+) [46
 
 
-]) [44]
+]) [47]
 \openout2 = `Appendix1/Appendix1.aux'.
 
 
 (./Appendix1/Appendix1.tex
 Appendix A.
-) [45
+) [48
 
 
 ]
@@ -1096,7 +1159,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
 Package rerunfilecheck Info: File `thesis-ku.out' has not changed.
-(rerunfilecheck)             Checksum: 69333BD11FA9AAE66FB90AE1F9B0EFC7;3122.
+(rerunfilecheck)             Checksum: 44C8F83A06E9D56EB14FF3571FB5154C;3120.
 
 
 LaTeX Warning: There were undefined references.
@@ -1104,11 +1167,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
  ) 
 Here is how much of TeX's memory you used:
- 10585 strings out of 493308
- 155645 string characters out of 6137822
- 264927 words of memory out of 5000000
- 13579 multiletter control sequences out of 15000+600000
- 64492 words of font info for 115 fonts, out of 8000000 for 9000
+ 10606 strings out of 493308
+ 156286 string characters out of 6137822
+ 265123 words of memory out of 5000000
+ 13590 multiletter control sequences out of 15000+600000
+ 64792 words of font info for 116 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,43p,385b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
@@ -1123,10 +1186,10 @@ type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/s
 ymbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a
 .pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis-ku.pdf (54 pages, 982084 bytes).
+Output written on thesis-ku.pdf (57 pages, 1026418 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
- 756 compressed objects within 8 object streams
- 168 named destinations out of 1000 (max. 500000)
- 432 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 879 PDF objects out of 1000 (max. 8388607)
+ 775 compressed objects within 8 object streams
+ 173 named destinations out of 1000 (max. 500000)
+ 442 words of extra memory for PDF output out of 10000 (max. 10000000)
 
