@@ -11,12 +11,23 @@
 \contentsline {figure}{\numberline {3.2}{\ignorespaces The energy resolution of ECAL as a function of energy from Reference~\cite {tCmsE}.\relax }}{25}{figure.caption.11}
 \contentsline {figure}{\numberline {3.3}{\ignorespaces The $E_{T}$ resolution of HCAL as a function of $|\eta |$ and $E_{T}$ from Reference~\cite {tCmsE}.\relax }}{26}{figure.caption.12}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces ZDC pluse shape.\relax }}{33}{figure.caption.16}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of ZDC signal reconstruction methods.\relax }}{34}{figure.caption.17}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Effects of requiring in time signal in ZDC hadronic channels.\relax }}{35}{figure.caption.18}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{36}{figure.caption.19}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Comparison of the of the dimuon rapidity distributions between coherent MC sample and Data.\relax }}{28}{figure.caption.13}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of the of the dimuon $\varphi $ distributions between coherent MC sample and Data.\relax }}{29}{figure.caption.14}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Comparison of the of the dimuon p$_{\textrm {T}}$ distributions between coherent MC sample and Data.\relax }}{30}{figure.caption.15}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces ZDC pluse shape.\relax }}{35}{figure.caption.19}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison of ZDC signal reconstruction methods.\relax }}{37}{figure.caption.20}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Effects of requiring in time signal in ZDC hadronic channels.\relax }}{37}{figure.caption.21}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{37}{figure.caption.22}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Mass fit to J/$\psi $ using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{39}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.\relax }}{39}{figure.caption.24}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the coherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{41}{figure.caption.25}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the incoherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{41}{figure.caption.26}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same or opposite rapidity direction from data (left) and from theory (right). \relax }}{42}{figure.caption.30}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Ratio between the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the opposite direction and the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same direction. \relax }}{43}{figure.caption.31}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces The rapidity distribution of the coherent (top) and incoherent (bottom) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$. \relax }}{46}{figure.caption.32}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces The rapidity distribution of the coherent (left) and incoherent (right) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$ from MC (particle gun with customized $J/\psi p_{T}$ input distribution). \relax }}{47}{figure.caption.33}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{41}{figure.caption.20}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{51}{figure.caption.35}
 \addvspace {10\p@ }

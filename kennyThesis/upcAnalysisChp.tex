@@ -1,5 +1,15 @@
 \chapter{Analysis}	
   \section{MC Simulation}
+    Monte Carlo (MC) simulations are used to understand how the detector 
+      effects the measurement.
+
+
+    Two main classes of Monte Carlo (MC) simulation samples were used. 
+    The first class uses STARlight to generate events. 
+    The Second class uses PYTHIA6 to create and decay $J/\psi$s with a given
+      input $p_{T}$ and rapidity distribution. 
+    The 
+
   \section{\label{sec:TrigDev} Trigger Development} 
     Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
       PbPb collisions using CMS. 
@@ -80,7 +90,7 @@
       The requirement of at least on reconstructed pixel track for the HLT 
         triggers was designed to reject backgrounds where no particles are 
 	reconstructed by the tracker. 
-              \begin{table}[h]
+  \begin{table}[h]
 		\centering
 		\begin{tabular}{|l|l|}
 		  \hline HLT Trigger  \\ \hline \hline
@@ -101,7 +111,7 @@
 	The limiting factor for the HLT rate was the amount of disk space 
 	  available to store the data. 
 
-  \section{\label{sec:DataSetEvSel} Data Sets and Event Selection}
+    \section{\label{sec:DataSetEvSel} Data Sets and Event Selection}
   \subsection{Data Set}
     In order to investigate novel physics processes like UPC $J/\psi$ 
      production, the LHC has delivered unprecedented amounts of data.
@@ -110,34 +120,38 @@
       corresponding to over a billion PbPb collisions. 
     Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
 
-    Three specially selected samples are used.
-    A list of triggers used in this analysis can be found in 
+    Three specially selected samples are used (see Table~\ref{tab:sampleLumiNevt}).
+    These samples were recorded using subsets of the triggers found in 
       Section~\ref{sec:TrigDev}.
-    The $J/\psi$ events come from a sample triggered by UPC triggers 
-      specifically designed for this measurement.
+    The $J/\psi$ events discussed in this thesis were obtained analyzing the 
+    sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
     A minimum bias sample was recorded for the sake of estimating efficiencies.
     Last, a zero bias sample was recored for investigating the ZDC and the 
       noise distributions of HF.
     By recording this hierarchy of samples, interesting events are selected 
-      with a much higher purity the physics sample, while the zero bias and 
+      with a much higher purity in the physics sample, while the zero bias and 
       minimum bias samples allow for the investigation of the selection 
-      criteria. 
+      criteria as will be discussed in the next section. 
 
     To record the physics sample containing the $J/\psi$ signal, a muon trigger
-      was paired with a veto on energy in the BSC and a requirement that there 
+      was paired with a veto on energy in the BSCs and a requirement that there 
       be energy in at least one of two sides the ZDC. 
-    This trigger utilizes the unlikely chance of having overlapping noise in
+    This trigger utilizes the unlikely chance of having overlapping noise
       in the ZDC and muon detector.
     Because of the characteristically low momentum of UPC $J/\psi$ as compared
-      to $J/\psi$ created by other physics process, the loosest muon 
+      to $J/\psi$ created by other hadronic process, the loosest muon 
       trigger was used.
-    The trigger rejects muon noise by requiring that a interaction took place
-      that deposits energy in the ZDC.
+    The standard muon trigger for hadronicly produced $J/\psi$s contains a 3 
+      GeV $p_{\mathrm{T}}$ threshold, which would reject nearly all UPC 
+      $J/\psi$s.
+    The ZDC was included as part of this physics trigger because it was thought
+      to reduce possible noise contributions when used in coincidence with 
+      the muon chambers. 
     Contributions from hadronic interactions are reduced by the veto on the 
       BSC.
     In this way the balance between reducing the rate and maximizing the 
-      efficiency was struck, allowing for the data to be recorded without 
-      producing high rates resulting in dead time for the detector.  
+      efficiency was struck, allowing for the data to be recorded within 
+      the bandwidth limitations set by the physics program of CMS Heavy Ions.
     
     In order to investigate the muon trigger and the other parts of the events 
       selection, a minimum bias sample was recorded using the ZDC. 
@@ -146,7 +160,8 @@
     This process is much more common than the UPC $J/\psi$ production.
     For this reason, the rates of this trigger are much higher than the physics
       trigger, and only a small sub set of these events are recorded.
-    From this trigger the pixel track efficiency was estimated. 
+    From this trigger the pixel track efficiency was estimated (see 
+      Section. 
 
     In addition to the minimum bias and physics sample, a zero bias sample was 
       recorded to examine the ZDC trigger and the HF noise distributions. 
@@ -159,6 +174,12 @@
     This allowed for a measurement of the electronic noise distributions in
       the HF.
 
+    The integrated luminosity for the each of the three samples is calculated
+      by recording activity in HF. 
+    The cross section for HF activity is measured from a van der Meer scan and
+      the cross section was found to be \textcolor{red}{X}.
+    In this way the amount of integrated luminosity for any period running is
+      related to the activity in HF. 
     \begin{table}
 	    \centering
 	    \begin{tabular}{|l|l|l|}
@@ -172,8 +193,16 @@
 	      samples used in this analysis.}
 	    \label{tab:sampleLumiNevt}
     \end{table}
+    To check the values that come from the van der Meer scan technique, the 
+      number of events that fire the L1 minimum bias trigger in the zero bias
+      sample were counted and used to estimate the integrated luminosity for 
+      that sample using the inelastic PbPb cross section. 
+    From and integrated luminosity of 595$\pm 60$ barns is estimated, which  
+      agrees with in uncertainty with the van der Meer scan method. 
 
   \subsection{Event Selection}
+    
+
     Two sets of event selection cuts are applied to reject background events. 
     The first set rejects background from the beam.
     The second reject events where hadronic collisions have occurred.
@@ -288,7 +317,7 @@
         slice.
       \begin{figure}[h]
         \centering
-        \includegraphics{zdcTimingCuts}
+        \includegraphics[width=\textwidth]{zdcMinusSingleNuNoInc}
         \caption{Effects of requiring in time signal in ZDC hadronic 
           channels.}
         \label{fig:zdcTimingCuts}
@@ -300,17 +329,15 @@
         emerges.
       \begin{figure}[h]
         \centering
-        \includegraphics{zdcMinusSingleNuNoSub.png}
+        \includegraphics[width=\textwidth]{zdcMinusSingleNuNoSub}
         \caption{Effect of ZDC signal timing requirements after noise 
           subtraction.}
         \label{fig:zdcTimingAfterNoiseSub}
       \end{figure}
+      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms that both noise 
+        subtraction and the timing require produce the same signal.
+      This gives confidence that the signal is not an artifact of either cut, 
+        but the true neutron signal. 
 
-
-
-
-        
-
-        
   \section{Signal Extraction}
-  \section{Efficiency determination}
+  \section{\label{sec:effDet} Efficiency determination}

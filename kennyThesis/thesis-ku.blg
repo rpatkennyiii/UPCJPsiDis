@@ -11,7 +11,12 @@ A level-1 auxiliary file: FutureWorksChapter/upcFutureWorksChp.aux
 The style file: bbl/utphys.bst
 A level-1 auxiliary file: Appendix1/Appendix1.aux
 Database file #1: bbl/upcTheoryChp.bib
-I was expecting a `,' or a `}'---line 24 of file bbl/upcTheoryChp.bib
+You're missing a field name---line 6 of file bbl/upcTheoryChp.bib
+ : 
+ : %    URL          = "http://cdsweb.cern.ch/record/962045",
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 340 of file bbl/upcTheoryChp.bib
  :   
  :   authnote={G Hmayakyan and V Khachatryan and A M Sirunyan and W Adam and T Bauer and T
 (Error may have been on previous line)
@@ -59,4 +64,4 @@ warning$ -- 0
 while$ -- 30
 width$ -- 15
 write$ -- 124
-(There was 1 error message)
+(There were 2 error messages)
