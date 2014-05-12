@@ -361,6 +361,7 @@
         emerges.
       \begin{figure}[h]
         \centering
+        \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoSub}
         \caption{Effect of ZDC signal timing requirements after noise 
           subtraction.}
         \label{fig:zdcTimingAfterNoiseSub}
@@ -387,7 +388,7 @@
       from the dimuon Pt distribution, around the J/psi mass, after fitting 
       together MC templates for both signal and background.
 
-      \begin{figure*}[H]
+      \begin{figure*}[!Hhtb]
         \centering
         \includegraphics[width=.45\textwidth]{massFitSimple}
         \includegraphics[width=.45\textwidth]{massFitCBPoly2}
@@ -396,7 +397,7 @@
         \label{fig:massFit}
       \end{figure*}
 
-      \begin{figure}[h]
+      \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=.6\textwidth]{ptTemplateFit}
         \caption{Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.}
@@ -404,4 +405,62 @@
       \end{figure}
 
   \section{\label{sec:effDet} Efficiency determination}
-    This section will talk about the efficiencies.
+    \subsection{Muon Efficiencies}
+      The muon efficiencies are measured from M.C and data.
+      The M.C. based measurement accounts for the detector acceptance and the 
+        efficiency of the muon quality discussed in 
+        Section~\ref{sec:DataSetEvSel}.
+      The trigger efficiencies were measured by tag and probe.
+      
+      To measure the detector acceptance, the muon daughter reconstruction 
+        efficiency is measured.
+        $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$
+        \begin{figure*}[!Hhtb]
+          \centering
+          $ \begin{array}{cc}
+            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpCo} &
+            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
+            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
+            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
+          \end{array} $
+          \caption{ Muon daughter detectability from coherent J/$\psi$, 
+            incoherent J/$\psi$, photon-photon, and J/$\psi$ gun samples.}
+          \label{fig:muonDaughterDet}
+        \end{figure*}
+      Muon daughter detectability cuts were established from 
+        Fig.~\ref{fig:muonDaughterDet}.
+      All muons that were reconstructed with an efficiency better than 20\% 
+        were declared detectable.
+      Fig.~\ref{fig:muonDaughterDet} shows that reconstruction of the muon 
+        daughters does not depend on the generator used.
+      The ability to reconstruct a muon depends only on the detector. 
+
+      CMS has a limited acceptance for $J/\psi$s. 
+      This is particularly the case for $J/\psi$s with low momentum like those
+        produced in UPC events. 
+      To measure the CMSs acceptance for $J/\psi$, reconstructed dimuon 
+        candidates were considered detectable if both reconstructed daughters 
+        in fell into the 20\% detectability region defined by 
+        Fig.~\ref{fig:muonDaughterDet}.
+      The acceptance of the reconstructed dimuons are calculated from MC in 
+        using the following formula:
+      \begin{equation}
+        A=\frac{N_{detectable}(y,p_{T})}{N_{gen}(y,p_{T})}
+        \label{eq:jpsiAccEq}
+      \end{equation}
+      From Eq.~\ref{eq:jpsiAccEq}, the acceptance for $J/\psi$ was calculated
+        as a function of y, and p$_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
+        \begin{figure*}[!Hhtb]
+          \centering
+          $ \begin{array}{cc}
+            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpCoStep} &
+            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpInCoStep} \\
+            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccGammaStep}
+          \end{array} $
+          \caption{Dimuon acceptance from coherent J/$\psi$ (top left), incoherent 
+            J$\psi$ (top right), and photon-photon interactions (lower).}
+          \label{fig:jpsiAcceptance}
+        \end{figure*}
+
+
+
