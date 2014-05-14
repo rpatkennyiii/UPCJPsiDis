@@ -277,7 +277,7 @@
       \end{itemize}
        These cuts are applied to reduce the number of fake muons.
   
-  \section{break up determination}
+  \section{\label{sec:breakUpDet} Break up determination}
     \subsection{ZDC Signal Reconstruction}
       There are 18 zdc channel. 
       There are 4 hadronic channels and 8 electromagnetic channels on each side
@@ -320,7 +320,7 @@
     
       From these two methods the ZDC+ and ZDC- energy spectra near the 
         one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
-      While method 1 in blue and method 2 in reddo not differ much in ZDC-, 
+      While method 1 in blue and method 2 in red not differ much in ZDC-, 
         the clear separation of the one neutron peak signal from the noise 
         peak about zero is evident. 
       \begin{figure}[h]
@@ -357,7 +357,7 @@
       In Fig.~\ref{fig:zdcTimingCuts} no noise subtraction is used. 
       As each additional hadronic channel is required to have a maximum signal
         in the fourth time slice, the single neutron peak emerges. 
-      Using the noise subtraction method described by Method 1, same signal
+      Using the noise subtraction method described by Method 1, the same signal
         emerges.
       \begin{figure}[h]
         \centering
@@ -370,6 +370,49 @@
         subtraction and the timing require produce the same signal.
       This gives confidence that the signal is not an artifact of either cut, 
         but the true neutron signal. 
+
+      Fig.~\ref{fig:zdcTimingAfterNoiseSub} and Fig.~\ref{fig:zdcSpec2v1} 
+        demonstrate the consistence of the using timing cuts and noise 
+        subtraction to enhance the signal neutron peak. 
+      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms the legitimacy of the 
+        noise subtraction method in ZDC$^{-}$ by showing the that the same signal
+        emerges from the noise subtraction method as the timing method.
+      Fig.~\ref{fig:zdcSpec2v1} demonstrates the corresponds between between
+        noise subtraction method 1 and method 2 on in ZDC$^{-}$ where signal is 
+        better separated from the electronic noise. 
+      This allows for confidence that the signal seen in ZDC$^{+}$ using method 2 
+        is the one neutron peak.
+
+      The spectrum for method 1 and 2 are fit to a series of Gaussians.
+      \begin{figure}[!Hh]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=0.45\textwidth]{zdcMinusZBFitTimeCut} &
+          \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
+        \end{array} $
+        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
+          method 1}
+        \label{fig:zdcM1Fit}
+      \end{figure}
+      The electronic noise is fit to a Gaussian about zero.
+      The one, two, and three neutron peaks are fit Gaussians that are 
+        successively broader.
+      The mean of each peak was initially set to multiples of the mean of the 
+        one neutron peak. 
+      \begin{figure}[!Hh]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
+          \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
+        \end{array} $
+        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
+          method 2}
+        \label{fig:zdcM2Fit}
+      \end{figure}
+      The threshold for a neutron in the ZDC was taken from the fits in 
+        Fig.~\ref{fig:zdcM1Fit} and Fig.~\ref{fig:zdcM2Fit}.
+      Any signal greater 2 $\sigma$ below the mean of the one neutron peak was 
+        considered signal. 
 
   \section{Signal extraction}
     The invariant mass distribution for opposite sign dimuons is shown in 
@@ -397,12 +440,36 @@
         \label{fig:massFit}
       \end{figure*}
 
+    Fig.~\ref{fig:massFit} demonstrates the small dependence the raw J/$\psi$ 
+      yield has on the fitting function. 
+    Both fit functions agree well, with reduced $\chi^{2}$ values below one.
+    The Crystal ball fit give an upper estimate for the J/$\psi$ yield.
+    The Gaussian fit gives an lower estimate. 
+    The main difference comes from the lower mass tails.
+    In the Crystal ball fit the lower tail is considered to be signal due to 
+      shifting of the mass spectrum to lower mass due to radiation from the 
+      final state muons. 
+    In the Gaussian fit the lower mass tail is considered to be background and 
+      the signal is sharper.
+
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=.6\textwidth]{ptTemplateFit}
         \caption{Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.}
         \label{fig:ptTempFit}
       \end{figure}
+
+      The templates for the fit come form the three STARlight M.C. samples. 
+      The normalization for the coherent and incoherent templates are left
+        free. 
+      The shape of the photon-photon process and coherent J/$\psi$ are very 
+        similar in p$_{T}$.
+      These two shapes normalizations are highly anti-correlated in the fit.
+      To address this issue the template from the photon-photon process was 
+        fixed to the cross section value given by STARlight and normalized to
+        the integrated luminosity of the data. 
+      The normalization for the photon-photon template was allowed a range of 
+        20\% due to the 20\% uncertainty in the STARlight cross section.
 
   \section{\label{sec:effDet} Efficiency determination}
     \subsection{Muon Efficiencies}
@@ -462,5 +529,41 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
+        Tag and probe method is used to measure the trigger efficiency of the 
+          muon daughters. 
+        The method uses a tag and probe pairs where the high quality tag is 
+          paired with a lower quality probe. 
+        The probe is then checked.
+        If it meets the criteria of a passing probe that pair is marked as 
+          passing. 
+        The pairs with, passing probes, failing probes, and all probes are 
+          plotted and fit. 
+        The three sets of pairs are fit using a simultaneous fit for the signal
+          with the failing and passing background shapes left independent.
+        The signal yields have to be consistent between the three sets of pairs.
+        The number of signal passing pairs and failing pairs is forced to 
+          equal the number of total pairs. 
 
+        To measure the trigger efficiency a tag is required to pass all muon
+          quality cuts and matched to the trigger.
+        The probe is required to pass all quality cuts. 
+        A passing probe is a probe that is also matched to the trigger. 
+        In this way the tag leaves the probe in biased by the trigger and the 
+          efficiency can be measued by fitting mass.  
 
+        Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
+        \begin{figure}[!Hh]
+          \centering
+          \includegraphics[width=.6\textwidth]{tNp/tnpFits}
+          \caption{Fits to tag and probe pairs in the J/$\psi$ mass region.}
+          \label{fig:tnpFitPlot}
+        \end{figure}
+        This fit is done for each bin of the probes p$_{T}$ and $\eta$.
+        The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
+        \begin{figure}[!Hh]
+          \centering
+          \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
+          \caption{Muon trigger efficiencies in p$_{T}$ and $\eta$ bins from 
+            the tag and probe method.}
+          \label{fig:tnpTrigMap}
+        \end{figure}

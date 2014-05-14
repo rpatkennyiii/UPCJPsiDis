@@ -18,20 +18,24 @@
 \contentsline {figure}{\numberline {4.5}{\ignorespaces Comparison of ZDC signal reconstruction methods.\relax }}{37}{figure.caption.20}
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Effects of requiring in time signal in ZDC hadronic channels.\relax }}{37}{figure.caption.21}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{38}{figure.caption.22}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Mass fit to J/$\psi $ using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{39}{figure.caption.23}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.\relax }}{39}{figure.caption.24}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Muon daughter detectability from coherent J/$\psi $, incoherent J/$\psi $, photon-photon, and J/$\psi $ gun samples.\relax }}{41}{figure.caption.25}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Dimuon acceptance from coherent J/$\psi $ (top left), incoherent J$\psi $ (top right), and photon-photon interactions (lower).\relax }}{42}{figure.caption.26}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using method 1\relax }}{38}{figure.caption.23}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using method 2\relax }}{39}{figure.caption.24}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Mass fit to J/$\psi $ using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{40}{figure.caption.25}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.\relax }}{40}{figure.caption.26}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Muon daughter detectability from coherent J/$\psi $, incoherent J/$\psi $, photon-photon, and J/$\psi $ gun samples.\relax }}{42}{figure.caption.27}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Dimuon acceptance from coherent J/$\psi $ (top left), incoherent J$\psi $ (top right), and photon-photon interactions (lower).\relax }}{43}{figure.caption.28}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Fits to tag and probe pairs in the J/$\psi $ mass region.\relax }}{44}{figure.caption.29}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Muon trigger efficiencies in p$_{T}$ and $\eta $ bins from the tag and probe method.\relax }}{44}{figure.caption.30}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the coherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{44}{figure.caption.27}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the incoherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{44}{figure.caption.28}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with $p_{T} < 150$ MeV.\relax }}{45}{figure.caption.31}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with 0.2 $< p_{T} <$ 1.5 GeV.\relax }}{46}{figure.caption.32}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same or opposite rapidity direction from data (left) and from theory (right). \relax }}{47}{figure.caption.34}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Ratio between the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the opposite direction and the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same direction. \relax }}{47}{figure.caption.35}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces The rapidity distribution of the coherent (top) and incoherent (bottom) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$. \relax }}{50}{figure.caption.36}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces The rapidity distribution of the coherent (left) and incoherent (right) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$ from MC (particle gun with customized $J/\psi p_{T}$ input distribution). \relax }}{51}{figure.caption.37}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the coherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{46}{figure.caption.31}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the incoherent $J/\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{46}{figure.caption.32}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with $p_{T}$ below 150 MeV.\relax }}{47}{figure.caption.35}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with 0.2 $< p_{T} <$ 1.5 GeV.\relax }}{48}{figure.caption.36}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same or opposite rapidity direction from data (left) and from theory (right). \relax }}{49}{figure.caption.38}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Ratio between the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the opposite direction and the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same direction. \relax }}{49}{figure.caption.39}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces The rapidity distribution of the coherent (top) and incoherent (bottom) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$. \relax }}{52}{figure.caption.40}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces The rapidity distribution of the coherent (left) and incoherent (right) $J/\psi $ for the ZDC$^{+}$ and ZDC$^{-}$ from MC (particle gun with customized $J/\psi p_{T}$ input distribution). \relax }}{53}{figure.caption.41}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{55}{figure.caption.39}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{57}{figure.caption.43}
 \addvspace {10\p@ }
