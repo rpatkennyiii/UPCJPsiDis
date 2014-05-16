@@ -125,7 +125,7 @@
 
     The basic strategy in 2013 was the same as in 2012, use the loosest 
       available ECAL and muon L1 triggers to push to capture the lowest $p_{T}$
-      electrons and muons possible paired with a veto on hadronic interactions,
+      electrons and muons possible and veto on hadronic interactions,
       but was impemented differently.
     Because of the L1 bandwidth restrictions in 2011, both the ZDC and the BCS 
       were used on the L1 to reduce rates.
@@ -137,6 +137,27 @@
       the increased sophistication of the reconstruction on the HLT.
     In addition, an increase in cross section of the underlying physics process
       was achieved by relaxing the neutron emission requirement.
+
+    The HLT triggers in 2013 rejected hadronic interactions through counting
+      tracks. 
+    For the five UPC trigger paths included in the HLT meanu, 
+      three levels of reconstruction were done at the HLT. 
+    Pixel tracks were reconstructed from the inner pixel section of the 
+      silicone tracker alone, tracks were reconstructed using the full
+      tracker using the strips as well, and full dimuon reconstruction was 
+      done using the tracker and muon detector. 
+    The least restrictive pixel track paths required at least 
+      one track reconstructed from the pixel detector and less than 10 pixel 
+      tracks in the event.
+    Full tracking paths were added on top of the pixel track paths and included
+      an additional requirement of one full track and less than 7 reconstructed
+      tracks.
+    The most restrictive path added to the pixel and full tracking paths and 
+      required reconstruction of dimuons with a mass between 2 and 10 GeV.
+    The design of these triggers allowed for higher signal purity relative to 
+      2012 through use of full tracking on the HLT and allowed for increased
+      exposure to the cross section by removing the break-up requirement 
+      implicit in requiring a ZDC trigger on the L1.
 
     The PbPb run in 2015 will be at higher beam energies and luminosities.
     The $sqrt{s_{NN}}$ will increase from 2.76 TeV in 2011 to 5.1 TeV with
@@ -195,16 +216,31 @@
       As with the $J/\psi$, Additional L1 bandwidth, increased beam energy, and
         and intensity will increase the $\Upsilon$ yield significantly relative
         to 2011. 
-      CMS's acceptance for $\Upsilon$ is far higher than for $J/\psi$.
       The acceptance for $\Upsilon$ is near 40\% for all rapidities between 
-        -2.4 to 2.4.
+      -2.4 to 2.4 (see Fig~\ref{fig:accEffUps2015}).
+      \begin{figure}[!Hhtb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{effDiMuRapPbPb2015}
+        \caption{$\upsilon$ efficiency times acceptance in CMS from STARlight
+          for $\sqrt{s_{NN}}$ = 5.1 TeV as function of $y$.}
+        \label{fig:accEffUps2015}
+      \end{figure}
       Conversely, $J/\psi$ acceptance is 8\% near 2 in dimuon rapidity only. 
       Below 1.6 in rapidity there is not acceptance for for UPC $J/\psi$.
+      \begin{figure}[!Hhtb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{accEffPtJpsiUps2015}
+        \caption{Comparison of $\upsilon$ and J/$\psi$ efficiency times 
+            acceptance in CMS from STARlight
+            for $\sqrt{s_{NN}}$ = 5.1 TeV as function of p$_{T}$.}
+        \label{fig:accEffPtJpsiUps2015}
+      \end{figure}
       Estimates from STARlight predict a factor of 17-60 increase in yield
         depending on the total delivered integrated luminosity. 
       The $\Upsilon$ measurement will be a new measurement that will expand the 
         range of x and $Q^{2}$ probed with a higher energy probe that is better
         suited to the acceptance of CMS.
+
 
     \subsection{UPC jets}
       Like $\Upsilon$s, UPC photoproduction of jets is a novel probe.

@@ -32,7 +32,7 @@
     Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
       PbPb collisions using CMS. 
     Design of the UPC triggers required studies of the 2010 data to estimate 
-      rates and assure that the bandwidth used by these trigger would be
+      rates and insure that the bandwidth used by these trigger would be
       sufficiently low. 
     All the different physics analyses must share the limited readout rate of 
       the detector.
@@ -54,7 +54,7 @@
       electron triggers.
     In order to recorded the trigger efficiency monitoring data, the ZDC 
       triggers had to be prescaled to a lower rate. 
-    The scaling down of the monitoring triggers were setup to assure overlap
+    The scaling down of the monitoring triggers were setup to insure overlap
       with the signal triggers.
     By balancing the competing objectives of rate reduction and increasing 
       the overlap between the monitoring and signal triggers, 
@@ -228,7 +228,7 @@
       \begin{itemize}
         \item The reconstructed vertex must be within \textcolor{red}{X} cm in 
           the transverse direction and \textcolor{red}{X} cm in the 
-          longitudinal direction. This cut assures that reconstructed particles 
+          longitudinal direction. This cut insures that reconstructed particles 
           come from interactions between the two beams rather than event where 
           one of the two beams interact with gas particles near the interaction 
           point. 
@@ -414,7 +414,7 @@
       Any signal greater 2 $\sigma$ below the mean of the one neutron peak was 
         considered signal. 
 
-  \section{Signal extraction}
+  \section{\label{sec:sigEx} Signal extraction}
     The invariant mass distribution for opposite sign dimuons is shown in 
       Figure~\ref{fig:massFit}. 
     A J/$\psi$ signal is clearly visible together with tails at higher and lower mass
@@ -459,7 +459,7 @@
         \label{fig:ptTempFit}
       \end{figure}
 
-      The templates for the fit come form the three STARlight M.C. samples. 
+      The templates for the fit come form the three STARlight MC samples. 
       The normalization for the coherent and incoherent templates are left
         free. 
       The shape of the photon-photon process and coherent J/$\psi$ are very 
@@ -473,50 +473,54 @@
 
   \section{\label{sec:effDet} Efficiency determination}
     \subsection{Muon Efficiencies}
-      The muon efficiencies are measured from M.C and data.
-      The M.C. based measurement accounts for the detector acceptance and the 
+      The muon efficiencies are measured from MC and data.
+      The MC based measurement accounts for the detector acceptance and the 
         efficiency of the muon quality discussed in 
         Section~\ref{sec:DataSetEvSel}.
-      The trigger efficiencies were measured by tag and probe.
-      
-      To measure the detector acceptance, the muon daughter reconstruction 
-        efficiency is measured.
-        $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$
+      The trigger efficiencies were measured in data using the tag and probe 
+        method, which is discussed below. 
+
+       CMS has a limited acceptance for $J/\psi$s, particularly in the case of 
+        $J/\psi$s with low momentum like those produced in UPC events. 
+      To measure the acceptance of CMS for $J/\psi$s, reconstructed dimuon 
+        candidates were considered detectable if both reconstructed daughters 
+        fell into a detectability region.
+      This region was defined using the coherent J/$\psi$ events obtained from 
+        STARlight.
+      The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
+        is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
+        where $N^{\mu}_{reco}$ is the number reconstructed muons after 
+        after the full CMS detector simulation and that pass the standard
+        muon quality cuts, and $N^{\mu}_{gen}$ is the number of generated 
+        muons from STARlight.
         \begin{figure*}[!Hhtb]
           \centering
-          $ \begin{array}{cc}
-            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpCo} &
-            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
-            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
-            \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
-          \end{array} $
+%          $ \begin{array}{cc}
+            \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} %&
+      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
+      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
+      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
+ %         \end{array} $
           \caption{ Muon daughter detectability from coherent J/$\psi$, 
             incoherent J/$\psi$, photon-photon, and J/$\psi$ gun samples.}
           \label{fig:muonDaughterDet}
         \end{figure*}
-      Muon daughter detectability cuts were established from 
-        Fig.~\ref{fig:muonDaughterDet}.
-      All muons that were reconstructed with an efficiency better than 20\% 
-        were declared detectable.
-      Fig.~\ref{fig:muonDaughterDet} shows that reconstruction of the muon 
-        daughters does not depend on the generator used.
-      The ability to reconstruct a muon depends only on the detector. 
-
-      CMS has a limited acceptance for $J/\psi$s. 
-      This is particularly the case for $J/\psi$s with low momentum like those
-        produced in UPC events. 
-      To measure the CMSs acceptance for $J/\psi$, reconstructed dimuon 
-        candidates were considered detectable if both reconstructed daughters 
-        in fell into the 20\% detectability region defined by 
-        Fig.~\ref{fig:muonDaughterDet}.
-      The acceptance of the reconstructed dimuons are calculated from MC in 
+      Fig.~\ref{fig:muonDaughterDet} shows the efficiency for reconstructing
+        single muons from coherent J/$\psi$ events.
+      To avoid the edges of the detectors acceptance, all reconstructed muons 
+        that fall into a (p$_{T}$,$|\eta|$) bin that has an efficiency less 
+        than 20\% were rejected thus defining the detectability region.
+      The acceptance for reconstructing dimuons was calculated from MC
         using the following formula:
       \begin{equation}
-        A=\frac{N_{detectable}(y,p_{T})}{N_{gen}(y,p_{T})}
+        A=\frac{N_{det}(|y|,p_{T})}{N_{gen}(|y|,p_{T})},
         \label{eq:jpsiAccEq}
       \end{equation}
+        where $N_{det}$ is the number of reconstructed dimuons where both 
+        daughters fall in to the detectability region, and $N_{gen}$ is the
+        number of generated dimuons. 
       From Eq.~\ref{eq:jpsiAccEq}, the acceptance for $J/\psi$ was calculated
-        as a function of y, and p$_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
+        as a function of $|y|$, and p$_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
         \begin{figure*}[!Hhtb]
           \centering
           $ \begin{array}{cc}
@@ -529,20 +533,33 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
-        Tag and probe method is used to measure the trigger efficiency of the 
-          muon daughters. 
-        The method uses a tag and probe pairs where the high quality tag is 
-          paired with a lower quality probe. 
-        The probe is then checked.
-        If it meets the criteria of a passing probe that pair is marked as 
-          passing. 
-        The pairs with, passing probes, failing probes, and all probes are 
-          plotted and fit. 
-        The three sets of pairs are fit using a simultaneous fit for the signal
-          with the failing and passing background shapes left independent.
-        The signal yields have to be consistent between the three sets of pairs.
-        The number of signal passing pairs and failing pairs is forced to 
-          equal the number of total pairs. 
+        The tag and probe method is used to measure the trigger efficiency of 
+          the muon daughters, which is a data driven approach. 
+        In this method there are three categories of daughter muons. 
+        Tag muons are high quality muons.
+        Passing probes are reconstructed muons that match the muon trigger, 
+          while failing probes do not. 
+        Each dimuon will have one daughter classified as a tag and the other
+          as a probe.
+        From here three invariant mass histograms are studied. 
+        One histogram is created from all pairs. 
+        The second comes from pairs where the probe is a passing probe.  
+        The last histogram comes from pairs where the probe fails to fulfill
+          the trigger, \textit{i.e.} the probe is a failing probe. 
+        Because this depends on the p$_{T}$ and $|\eta|$ of the probe, one set 
+          of three histograms for each (p$_{T}$,$|\eta|$) bin of the probe is 
+          created.
+
+        To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
+          each set of invariant mass histograms was simultaneously fitted. 
+        The signal was fitted using a Crystal Ball function, and the background 
+          was fitted to an exponential.
+        The Crystal Ball parameters were simultaneously fitted to all three 
+          histograms.
+        The exponential function was fitted to the failing and passing probe 
+          histograms separately.
+        Because the background shapes are in principal different for the two 
+          samples, the efficiency is driven by this difference. 
 
         To measure the trigger efficiency a tag is required to pass all muon
           quality cuts and matched to the trigger.
@@ -560,10 +577,52 @@
         \end{figure}
         This fit is done for each bin of the probes p$_{T}$ and $\eta$.
         The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
-        \begin{figure}[!Hh]
+        \begin{figure}[!Hhbt]
           \centering
           \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
           \caption{Muon trigger efficiencies in p$_{T}$ and $\eta$ bins from 
             the tag and probe method.}
           \label{fig:tnpTrigMap}
         \end{figure}
+
+      \subsection{ZDC trigger efficiency}
+        The ZDC trigger efficiency is measured from a minimum bias sample. 
+        The sample was triggered by the ZDC with the additional requirement
+          that the event contain at leas one pixel track and a veto on a 
+          coincidences between the two sides of the BSC detector.
+        To account for the bias of using the ZDC trigger to record the sampel, 
+          the sample was divided into two over lapping sub samples, events 
+          triggered by ZDC$^{+}$ and events triggered by ZDC$^{-}$. 
+        This produced one sample for studying the ZDC$^{+}$ trigger and one for
+          studying the ZDC$^{-}$ trigger.
+
+        The trigger efficiency for reconstructed ZDC energies above the
+          single neutron threshold were estimated (see for Sec.~\ref{sec:breakUpDet}).
+        The ZDC$^{+}$ efficiency was calculated using the ZDC$^{-}$ triggered 
+          sample.
+        To estimate the efficiency, the number of events with energy in 
+          ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
+          were measured.
+        From this set of events, the number of events that also fire the 
+          ZDC$^{+}$ are measured.
+        The ratio between the number of single neutron events that fire the 
+          trigger and all single neutron events was taken as the estimate of 
+          trigger efficiency. 
+        The same procedure is applied for each side of the ZDC. 
+
+        \begin{table}
+          \centering
+          \begin{tabular}{|c|c|c|c|c|}
+             ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
+             ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+             ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+             ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+             ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+          \end{tabular}
+          \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
+            2}
+          \label{tab:zdcEfficiency}
+        \end{table}
+
+        
+
