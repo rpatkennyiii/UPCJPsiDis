@@ -1,5 +1,56 @@
 \chapter{Results} 
   \section{Coherent cross section}
+
+  For the coherent cross section, the raw yield of dimuon candidates was
+    measured after applying the cuts described in Section~\ref{sec:DataSetEvSel}.
+  \begin{figure}[!Hhtb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{rawYield}
+    \caption{Raw yield for the Coherent cross section measurement.}
+    \label{fig:rawYieldCo}
+  \end{figure}
+
+  Trigger efficiency from data is calculated for the daughter muons.
+  For this reason, the efficiency of the dimuon candidates was calculated 
+    separately for each candidate. 
+  To combined the trigger efficiency with acceptance measured from the MC, 
+    the efficiency measured from each candidate is averaged in each (p$_{T}$,$|y|$)
+    bin.
+  \begin{figure}[!Hhbt]
+    \centering
+    \includegraphics[width=0.6\textwidth]{averageTriggerEff}
+    \caption{The trigger efficiency from tag and probe averaged over candidates
+      in each (p$_{T}$,$|y|$) bin.}
+    \label{fig:avTrigEffCo}
+  \end{figure}
+  The average trigger efficiency was multiplied by the acceptance from the MC 
+    to produce a total efficiency times acceptance factor. 
+  \begin{figure}[!Hhtb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{averageExA}
+    \caption{The acceptance times averaged trigger efficiency from tag and 
+      probe.}
+    \label{fig:avAccEff}
+  \end{figure}
+
+  The raw yields were divided by the total efficiency times acceptance factors
+    to produce corrected yields.
+  \begin{figure}[!Hhtb]
+    \centering
+    \includegraphics[width=0.6\textwidth]{correctedYieldAverage}
+    \caption{Corrected yields for the coherent p$_{T}$ region.}
+    \label{fig:corYieldCo}
+  \end{figure}
+
+  The corrected yields in the 2.0-2.1 and 2.1-2.2 $|y|$ rapidity bins were added 
+    together to get calculate the cross section. 
+  These bins were selected to assure a total acceptance times efficiency 
+    greater than 5\%.
+
+  The contribution from coherent production was estimated from the template fit
+    in Fig.~\ref{fig:ptTempFit}.
+  The first three bins are used to estimate the contribution below 150 MeV.
+
   \section{Incoherent cross section}
   \section{Break up ratios}
     In Table~\ref{tab:r2} the ratio between raw yields for different break up 

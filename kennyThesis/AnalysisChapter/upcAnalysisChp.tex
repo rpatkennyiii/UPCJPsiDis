@@ -134,11 +134,12 @@
       In order to investigate novel physics processes like UPC $J/\psi$ 
        production, the LHC has delivered unprecedented amounts of data.
       The data for this analysis was recorded during the 2011 LHC PbPb run. 
-      During this period, 157 $\mu$$b^{-1}$ where recorded by the CMS detector,
+      During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
         corresponding to over a billion PbPb collisions. 
       Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
   
-      Three specially selected samples are used (see Table~\ref{tab:sampleLumiNevt}).
+      Three specially selected samples were used for the present analysis 
+        (see Table~\ref{tab:sampleLumiNevt}).
       These samples were recorded using subsets of the triggers found in 
         Section~\ref{sec:TrigDev}.
       The $J/\psi$ events discussed in this thesis were obtained analyzing the 
@@ -215,14 +216,33 @@
     \subsection{Event selection}
       The analysis described in this thesis focuses on UPC $J/\psi$s decaying to 
         muons. 
-      The trigger used for this analysis recored \textcolor{red}{X} events.
+      The trigger used for this analysis recored 346841 events.
       A set of off-line cuts were applied to increase the relative contribution 
         of UPC events relative to background processes. 
       The following cuts were applied. 
-  
-      Two sets of event selection cuts are applied to reject background events. 
+ 
+      \begin{table}
+        \centering
+        \begin{tabular}{|c|c|c|} \hline 
+          cut & cut type & events \\ \hline
+          all triggered & -- & 346841 \\ \hline
+          good vertex requirement & beam background rejection & 340997 \\ \hline
+          beam halo muon rejection & beam background rejection & 302777 \\ \hline
+          cluster shape compatibility requirement & beam background rejection & 233590 \\ \hline
+          single-sided neutron requirement & hadronic interaction rejection & 149992 \\ \hline
+          two track requirement & hadronic interaction rejection & 32732 \\ \hline
+          HF signal rejection & hadronic interaction rejection & 5392 \\ \hline
+          muon quality requirement & fake muon rejection & 1956\\ \hline
+          J/$\psi$ mass requirement & kinematic cut & 662 \\ \hline
+          muon detectability cuts & kinematic cut & 541 \\ \hline
+        \end{tabular}
+        \caption{Effects of event selection cuts.}
+        \label{tab:evSelCutNumbers}
+      \end{table}
+
+      Two sets of event selection cuts were applied to reject background events. 
       The first set rejects background from the beam.
-      The second reject events where hadronic collisions have occurred.
+      The second rejects events where hadronic collisions have occurred.
       
       To reject beam induced background the following cuts were applied:
       \begin{itemize}
@@ -275,7 +295,7 @@
           cm in the transverse direction and withing 30 cm in the longitudinal 
           direction with respect to the primary vertex.
       \end{itemize}
-       These cuts are applied to reduce the number of fake muons.
+      These cuts are applied to reduce the number of fake muons.
   
   \section{\label{sec:breakUpDet} Break up determination}
     \subsection{ZDC Signal Reconstruction}
@@ -493,18 +513,18 @@
         after the full CMS detector simulation and that pass the standard
         muon quality cuts, and $N^{\mu}_{gen}$ is the number of generated 
         muons from STARlight.
-        \begin{figure*}[!Hhtb]
-          \centering
+      \begin{figure*}[!Hhtb]
+        \centering
 %          $ \begin{array}{cc}
-            \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} %&
-      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
-      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
-      %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
- %         \end{array} $
-          \caption{ Muon daughter detectability from coherent J/$\psi$, 
-            incoherent J/$\psi$, photon-photon, and J/$\psi$ gun samples.}
-          \label{fig:muonDaughterDet}
-        \end{figure*}
+          \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} %&
+    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
+    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
+    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
+%         \end{array} $
+        \caption{ Muon daughter detectability from coherent J/$\psi$, 
+          incoherent J/$\psi$, photon-photon, and J/$\psi$ gun samples.}
+        \label{fig:muonDaughterDet}
+      \end{figure*}
       Fig.~\ref{fig:muonDaughterDet} shows the efficiency for reconstructing
         single muons from coherent J/$\psi$ events.
       To avoid the edges of the detectors acceptance, all reconstructed muons 
@@ -533,96 +553,119 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
-        The tag and probe method is used to measure the trigger efficiency of 
-          the muon daughters, which is a data driven approach. 
-        In this method there are three categories of daughter muons. 
-        Tag muons are high quality muons.
-        Passing probes are reconstructed muons that match the muon trigger, 
-          while failing probes do not. 
-        Each dimuon will have one daughter classified as a tag and the other
-          as a probe.
-        From here three invariant mass histograms are studied. 
-        One histogram is created from all pairs. 
-        The second comes from pairs where the probe is a passing probe.  
-        The last histogram comes from pairs where the probe fails to fulfill
-          the trigger, \textit{i.e.} the probe is a failing probe. 
-        Because this depends on the p$_{T}$ and $|\eta|$ of the probe, one set 
-          of three histograms for each (p$_{T}$,$|\eta|$) bin of the probe is 
-          created.
+      The tag and probe method is used to measure the trigger efficiency of 
+        the muon daughters, which is a data driven approach. 
+      In this method there are three categories of daughter muons. 
+      Tag muons are high quality muons.
+      Passing probes are reconstructed muons that match the muon trigger, 
+        while failing probes do not. 
+      Each dimuon will have one daughter classified as a tag and the other
+        as a probe.
+      From here three invariant mass histograms are studied. 
+      One histogram is created from all pairs. 
+      The second comes from pairs where the probe is a passing probe.  
+      The last histogram comes from pairs where the probe fails to fulfill
+        the trigger, \textit{i.e.} the probe is a failing probe. 
+      Because this depends on the p$_{T}$ and $|\eta|$ of the probe, one set 
+        of three histograms for each (p$_{T}$,$|\eta|$) bin of the probe is 
+        created.
 
-        To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
-          each set of invariant mass histograms was simultaneously fitted. 
-        The signal was fitted using a Crystal Ball function, and the background 
-          was fitted to an exponential.
-        The Crystal Ball parameters were simultaneously fitted to all three 
-          histograms.
-        The exponential function was fitted to the failing and passing probe 
-          histograms separately.
-        Because the background shapes are in principal different for the two 
-          samples, the efficiency is driven by this difference. 
+      To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
+        each set of invariant mass histograms was simultaneously fitted. 
+      The signal was fitted using a Crystal Ball function, and the background 
+        was fitted to an exponential.
+      The Crystal Ball parameters were simultaneously fitted to all three 
+        histograms.
+      The exponential function was fitted to the failing and passing probe 
+        histograms separately.
+      Because the background shapes are in principal different for the two 
+        samples, the efficiency is driven by this difference. 
 
-        To measure the trigger efficiency a tag is required to pass all muon
-          quality cuts and matched to the trigger.
-        The probe is required to pass all quality cuts. 
-        A passing probe is a probe that is also matched to the trigger. 
-        In this way the tag leaves the probe in biased by the trigger and the 
-          efficiency can be measued by fitting mass.  
+      To measure the trigger efficiency a tag is required to pass all muon
+        quality cuts and matched to the trigger.
+      The probe is required to pass all quality cuts. 
+      A passing probe is a probe that is also matched to the trigger. 
+      In this way the tag leaves the probe in biased by the trigger and the 
+        efficiency can be measued by fitting mass.  
 
-        Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
-        \begin{figure}[!Hh]
-          \centering
-          \includegraphics[width=.6\textwidth]{tNp/tnpFits}
-          \caption{Fits to tag and probe pairs in the J/$\psi$ mass region.}
-          \label{fig:tnpFitPlot}
-        \end{figure}
-        This fit is done for each bin of the probes p$_{T}$ and $\eta$.
-        The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
-        \begin{figure}[!Hhbt]
-          \centering
-          \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
-          \caption{Muon trigger efficiencies in p$_{T}$ and $\eta$ bins from 
-            the tag and probe method.}
-          \label{fig:tnpTrigMap}
-        \end{figure}
+      Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
+      \begin{figure}[!Hh]
+        \centering
+        \includegraphics[width=.6\textwidth]{tNp/tnpFits}
+        \caption{Fits to tag and probe pairs in the J/$\psi$ mass region.}
+        \label{fig:tnpFitPlot}
+      \end{figure}
+      This fit is done for each bin of the probes p$_{T}$ and $\eta$.
+      The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
+        \caption{Muon trigger efficiencies in p$_{T}$ and $\eta$ bins from 
+          the tag and probe method.}
+        \label{fig:tnpTrigMap}
+      \end{figure}
 
-      \subsection{ZDC trigger efficiency}
-        The ZDC trigger efficiency is measured from a minimum bias sample. 
-        The sample was triggered by the ZDC with the additional requirement
-          that the event contain at leas one pixel track and a veto on a 
-          coincidences between the two sides of the BSC detector.
-        To account for the bias of using the ZDC trigger to record the sampel, 
-          the sample was divided into two over lapping sub samples, events 
-          triggered by ZDC$^{+}$ and events triggered by ZDC$^{-}$. 
-        This produced one sample for studying the ZDC$^{+}$ trigger and one for
-          studying the ZDC$^{-}$ trigger.
+    \subsection{ZDC trigger efficiency}
+      A special trigger was prepared to monitor the ZDC trigger efficiency. 
+      This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
+        least one pixel track. 
+      Events were accepted offline if there was no activity in the BSCs or 
+        activity on a single side. 
+      This sample suffers from a trigger bias. 
+      For example, a sample triggered by ZDC$^{+}$ would always produce a ZDC$^{+}$ 
+        trigger efficiency of one. 
+      To avoid this, the special trigger sample was divided into two 
+        subsamples in the following way. 
+      A first sample triggered by the ZDC$^{+}$ input and second one triggered by 
+        the ZDC$^{-}$. 
+      The ZDC$^{+}$ trigger efficiency is measured from the ZDC$^{-}$ sample, and vice 
+        versa.
 
-        The trigger efficiency for reconstructed ZDC energies above the
-          single neutron threshold were estimated (see for Sec.~\ref{sec:breakUpDet}).
-        The ZDC$^{+}$ efficiency was calculated using the ZDC$^{-}$ triggered 
-          sample.
-        To estimate the efficiency, the number of events with energy in 
-          ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
-          were measured.
-        From this set of events, the number of events that also fire the 
-          ZDC$^{+}$ are measured.
-        The ratio between the number of single neutron events that fire the 
-          trigger and all single neutron events was taken as the estimate of 
-          trigger efficiency. 
-        The same procedure is applied for each side of the ZDC. 
+      The trigger efficiency for reconstructed ZDC energies above the
+        single neutron threshold were estimated (see for Sec.~\ref{sec:breakUpDet}).
+      The ZDC$^{+}$ efficiency was calculated using the ZDC$^{-}$ triggered 
+        sample.
+      To estimate the efficiency, the number of events with energy in 
+        ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
+        were measured.
+      From this set of events, the number of events that also fire the 
+        ZDC$^{+}$ are measured.
+      The ratio between the number of single neutron events that fire the 
+        trigger and all single neutron events was taken as the estimate of 
+        trigger efficiency. 
+      The same procedure is applied for each side of the ZDC. 
 
-        \begin{table}
-          \centering
-          \begin{tabular}{|c|c|c|c|c|}
-             ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-             ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
-             ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
-             ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
-             ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
-          \end{tabular}
-          \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
-            2}
-          \label{tab:zdcEfficiency}
-        \end{table}
-
-        
-
+      \begin{table}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+           ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
+           ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+           ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+        \end{tabular}
+        \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
+          2}
+        \label{tab:zdcEfficiency}
+      \end{table}
+  \section{Systematic checks}
+    \subsection{ZDC efficiency}
+      To estimate systematic errors in the ZDC trigger efficiency, the trigger
+        efficiency was measured from five additional samples. 
+      \begin{table}
+        \centering
+        \begin{tabular}{|c|c|c|c|c|}
+           ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
+           (ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track \\ \hline 
+           ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+           ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+        \end{tabular}
+        \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
+          2}
+        \label{tab:zdcEfficiencySys}
+      \end{table}
+      
+    \subsection{Tag and probe}
+    \subsection{Template fit}
