@@ -31,24 +31,25 @@
 \contentsline {subsection}{\numberline {4.6.1}Muon Efficiencies}{41}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{44}{subsection.4.6.2}
 \contentsline {section}{\numberline {4.7}Systematic checks}{46}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}ZDC efficiency}{46}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Tag and probe}{46}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Template fit}{46}{subsection.4.7.3}
-\contentsline {chapter}{\numberline {5}Results}{47}{chapter.5}
-\contentsline {section}{\numberline {5.1}Coherent cross section}{47}{section.5.1}
-\contentsline {section}{\numberline {5.2}Incoherent cross section}{50}{section.5.2}
-\contentsline {section}{\numberline {5.3}Break up ratios}{50}{section.5.3}
-\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{51}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{58}{chapter.6}
-\contentsline {section}{\numberline {6.1}xsection results }{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}correlation results}{58}{section.6.2}
-\contentsline {chapter}{\numberline {7}Future Works}{59}{chapter.7}
-\contentsline {section}{\numberline {7.1}Studies of 2011 PbPb data}{59}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}High mass $\gamma -\gamma \rightarrow e^{+} e^{-}$ in PbPb 2011}{59}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}UPC Hadronic Overlap and PbPb 2011}{60}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}UPC with muons in HF}{62}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Studies of 2013 pPb data and 2015 PbPb data}{62}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{63}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{64}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}UPC jets}{64}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{69}{appendix.A}
+\contentsline {subsection}{\numberline {4.7.1}Tag and probe}{46}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Template fit}{46}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}MC acceptance}{46}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}ZDC efficiency}{48}{subsection.4.7.4}
+\contentsline {chapter}{\numberline {5}Results}{50}{chapter.5}
+\contentsline {section}{\numberline {5.1}Coherent cross section}{50}{section.5.1}
+\contentsline {section}{\numberline {5.2}Incoherent cross section}{53}{section.5.2}
+\contentsline {section}{\numberline {5.3}Break up ratios}{53}{section.5.3}
+\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{54}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{61}{chapter.6}
+\contentsline {section}{\numberline {6.1}xsection results }{61}{section.6.1}
+\contentsline {section}{\numberline {6.2}correlation results}{61}{section.6.2}
+\contentsline {chapter}{\numberline {7}Future Works}{62}{chapter.7}
+\contentsline {section}{\numberline {7.1}Studies of 2011 PbPb data}{62}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}High mass $\gamma -\gamma \rightarrow e^{+} e^{-}$ in PbPb 2011}{62}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}UPC Hadronic Overlap and PbPb 2011}{63}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}UPC with muons in HF}{65}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Studies of 2013 pPb data and 2015 PbPb data}{65}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{66}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{67}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}UPC jets}{67}{subsection.7.2.3}
+\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{72}{appendix.A}

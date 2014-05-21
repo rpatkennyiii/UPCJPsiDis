@@ -649,23 +649,81 @@
         \label{tab:zdcEfficiency}
       \end{table}
   \section{Systematic checks}
+    \subsection{Tag and probe}
+      To estimate the effect the tag and probe fits, the tag and probe 
+        efficiencies were additionally measured by counting probes in the 
+        J/$\psi$ mass window. 
+      \begin{figure}[!Hhbt]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=.45\textwidth]{tNp/tnpCounting} &
+          \includegraphics[width=.45\textwidth]{tNp/tnpFromFit}
+        \end{array} $ 
+        \caption{Tag and probe trigger efficiencies from counting (left) 
+          compared to fitting (right)}
+        \label{fig:tnpCntVFit}
+      \end{figure}
+    \subsection{Template fit}
+    \subsection{MC acceptance}
+      To estimate the effect of the GEN level p$_{T}$ distribution on the 
+        acceptance the incoherent sample was used to correct the coherent 
+        yield.
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=0.6\textwidth]{coCorInCoAcc}
+        \caption{Yields corrected by the MC incoherent acceptance map.}
+        \label{fig:coYieldInCoCor}
+      \end{figure}
+
+      The effect of polarization was estimated by correcting by the acceptance
+        for an polarized J/$\psi$ sample.
+      \begin{figure}[!Hhtb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{coCoGaussGun}
+        \caption{Yields corrected by an unpolarized J/$\psi$ sample.}
+        \label{fig:coYieldGaussCor}
+      \end{figure}
     \subsection{ZDC efficiency}
       To estimate systematic errors in the ZDC trigger efficiency, the trigger
         efficiency was measured from five additional samples. 
       \begin{table}
         \centering
         \begin{tabular}{|c|c|c|c|c|}
-           ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-           (ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track \\ \hline 
+          \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track} \\ \hline 
            ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
            ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
            ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
            ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$)} \\ \hline 
+           ZDC$^{+}$ & 1 & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
+           ZDC$^{+}$ & 2 & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
+           ZDC$^{-}$ & 1 & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
+           ZDC$^{-}$ & 2 & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
+           \multicolumn{5}{|c|}{ Zero Bias} \\ \hline 
+           ZDC$^{+}$ & 1 & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
+           ZDC$^{+}$ & 2 & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
+           ZDC$^{-}$ & 1 & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
+           ZDC$^{-}$ & 2 & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
+           \multicolumn{5}{|c|}{ Zero Bias with ZDC timing cuts} \\ \hline 
+           ZDC$^{+}$ & 1 & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
+           ZDC$^{+}$ & 2 & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
+           ZDC$^{-}$ & 1 & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
+           ZDC$^{-}$ & 2 & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$), 1 pixel track, and L1 Muon trigger} \\ \hline 
+           ZDC$^{+}$ & 1 & 65466  & 63376  & 0.9681 $\pm$ 0.0054  \\ \hline
+           ZDC$^{+}$ & 2 & 65543  & 63358  & 0.9667 $\pm$ 0.0054 \\ \hline
+           ZDC$^{-}$ & 1 & 71929  & 63512  & 0.8830  $\pm$ 0.0048 \\ \hline
+           ZDC$^{-}$ & 2 & 72932  & 63582  & 0.8718  $\pm$ 0.0047 \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$), 1 pixel track, and L1 EG trigger } \\ \hline 
+           ZDC$^{+}$ & 1 & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
+           ZDC$^{+}$ & 2 & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
+           ZDC$^{-}$ & 1 & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
+           ZDC$^{-}$ & 2 & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
         \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
-          2}
+          2 for different trigger samples}
         \label{tab:zdcEfficiencySys}
       \end{table}
       
-    \subsection{Tag and probe}
-    \subsection{Template fit}
+
