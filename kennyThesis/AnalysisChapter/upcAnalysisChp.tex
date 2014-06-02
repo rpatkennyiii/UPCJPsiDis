@@ -238,7 +238,7 @@
           This cut requires that energy deposits in the silicon tracker point 
             back to the reconstructed  primary vertex. 
       \end{itemize}
-      These beam background cuts do not reject any UPC $J/\psi$ candidates. 
+      These beam background cuts do not reject any UPC J/$\psi$ candidates. 
   
       The second set of background rejection cuts were designed to 
         reduce contamination from hadronic interactions. 
@@ -248,21 +248,39 @@
           particles.
   	    \item Maximum reconstructed hit energy in HF was required to be below 
             the threshold for electronic noise. 
-          Nearly all hadronic interactions ($\sim$ 98\%) produce particles in the 
-            range $3<|\eta|<5$ covered by the HF detector.
+          Nearly all hadronic interactions ($\sim$ 98\%) produce particles in 
+            the range $3<|\eta|<5$ covered by the HF detector.
           By requiring that the energy deposits in HF resemble noise, nearly all
             elastic hadronic collisions are expected to be rejected.
   	    \item Energy in the ZDCs consistent with neutrons on only one side 
-            of the interaction point
+            of the interaction point.
           In hadronic interactions both nuclei break-up. 
           By requiring that ZDC only reconstruct neutrons on one side of the 
-            interaction point, hadronic interactions that produce neutrons on both 
-            sides were rejected.
+            interaction point, hadronic interactions that produce neutrons on 
+            both sides were rejected.
       \end{itemize}
       Each of these cuts are designed to reject topologies produced by hadronic
         interactions.
       The effect of these cuts can be seen in Table\textcolor{red}{X}.
-  
+
+      To establish the HF noise thresholds, the noise distributions were 
+        measured in zero bias events. 
+      Only presences of both beams was required for these events. 
+      An Off-line selection of events with no reconstructed tracks was used
+        insure that no collision had taken place. 
+      The noise distribution from this zero bias sample is compared to the 
+        physics sample and MC in Fig.~\ref{fig:hfNoiseDist}.
+      The HF noise threshold defined as the cut that keeps \%99 of the zero 
+        bias events.
+
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=.6\textwidth]{hfNoiseComp}
+        \caption{Comparison of HF noise distributions in zero bias data, 
+          physics triggered data, and MC.}
+        \label{fig:hfNoiseDist}
+      \end{figure}
+
       The following standard muon quality cuts are applied:
       \begin{itemize}
         \item Tracker track matched with at least one muon segment 
@@ -715,6 +733,109 @@
         \label{tab:zdcEfficiency}
       \end{table}
   \section{\label{sec:sysCheck} Systematic checks}
+    \subsection{HF noise threshold}
+      The way in which the HF noise distribution is measured effects the events 
+        selection.
+      In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
+        is evident. 
+      The HF cut requires signal consistent with noise and in turn rejects 
+        hadronic events. 
+      The HF noise cut rejects \textcolor{red}{X} of the events that remaining. 
+      The systematic uncertainties on the HF noise requirement is important for
+        this reason.
+      The result must not depend significantly on the method used to apply the
+        cut on the noise because of the large reduction of events that result
+        from it. 
+      
+      Four different approaches were employed to estimate the systematic effect
+        arising from pick a particular method. 
+      By looking at the variation of the number of events that remain after 
+        applying the thresholds derived from these four methods, the systematic
+        uncertainty for the HF noise cut was estimated.
+      The four methods are derive from combinations of two variations. 
+      The type of object was varied from a low-level detector object called a 
+        RecHit to a higher level physics object called a CaloTower. 
+      The distinction between the two is that the RecHit is the energy 
+        deposited in a single calorimeter detector element, where as the 
+        CaloTower is a collection of RecHits with varrious threholds, which 
+        represent a full energy deposit that would come from a particle or 
+        a collection of particles from a jet passing through the detector. 
+      The second variation is on the separation of the two sides.
+      In one case the threshold is derived for the two sides combined.
+      In another case the thresholds are calculated separately for the two 
+        sides of HF.
+      By combining these two variations a total of four estimates of the effect
+        of the HF noise cut were made.
+      Table~\ref{tab:hfNoiseThreshAsym} below shows the thresholds that are 
+        measured for each of the four methods.
+      The resulting yields from the four different methods are displayed in 
+        Table~\ref{tab:hfCutYieldEffects}.
+
+      \begin{table}[!Hhbt]
+        \centering
+        \begin{tabular}{|c|c|c|c|}
+          \hline
+          Object type & HF (GeV) & HF$^{-}$ (GeV) & HF$^{+}$ (GeV) \\ \hline
+          RecHits & 3.85 & 3.25 & 3.45 \\ \hline
+          CaloTowers & 4.25 & 3.25 & 3.75 \\ \hline
+        \end{tabular}
+        \caption{HF noise theresholds for various noise measurement methods.}
+        \label{tab:hfNoiseThreshAsym}
+      \end{table}
+
+      \begin{table}[!Hhbt]
+        \centering
+        \begin{tabular}{|c|c|c|}
+          \hline
+          Object type & Combinded HF threshold & Two-sided thresholds \\ \hline
+          RecHits & 298 & 290 \\ \hline
+          CaloTowers & 302 & 288 \\ \hline
+        \end{tabular}
+        \caption{Candidate yields below 1.05 GeV p$_{T}$ for various HF noise
+          cuts.}
+        \label{tab:hfCutYieldEffects}
+      \end{table}
+
+      The threshold was adjusted to estimate the effect of tightening the
+        requirement on the zero bias data.
+      By successively lowering the percentage of the zero bias sample
+        that was included, the HF noise cut was made more restrictive including
+        first 98\%, than 97\% of all zero bias events. 
+      This was done for both object types, RecHits and CaloTowers.
+      This allows for an estimate of the systematic uncertainty on selecting 
+        a 99\% cut.
+      Table~\ref{tab:hfAdjustedThresholds} shows the effect on the thresholds
+        themselves for both RecHits and CaloToweres, whereas 
+        Table~\ref{tab:hfAdjThreshYields} shows the effect on the candidate 
+        yields.
+
+      \begin{table}[!Hhbt]
+        \begin{center}
+          \caption{Values of the energy cuts for the HF calorimeter for RecHit and CaloTower in GeV.}
+          \label{tab:hfAdjustedThresholds}
+          \begin{tabular}{|c|c|c|} \hline
+            \% &  $E_{RecHit}$ GeV & $E_{CaloTower}$ GeV\\ 
+            \hline
+            99 & 3.85& 4.25 \\ \hline
+            98 & 3.25& 3.75 \\ \hline
+            97 & 2.95& 3.25 \\  \hline
+           \end{tabular}
+         \end{center}
+      \end{table}
+
+      \begin{table}[!Hhbt]
+        \begin{center}
+          \caption{Number of dimuon candidates with  p$_{T} <$1.05 when changing HF calorimeter cuts for RecHit and CaloTower.}
+          \label{tab:hfAdjThreshYields}
+          \begin{tabular}{|c|c|c|} \hline
+            \% &  RecHit cut & CaloTower cut\\ \hline
+            99 &   298 & 302 \\ \hline
+            98 &  287  & 294 \\ \hline
+            97 & 284 & 280 \\ \hline
+          \end{tabular}
+        \end{center}
+      \end{table}
+
     \subsection{MC vs Data compairson}
       \begin{figure}[h]
         \centering
@@ -816,7 +937,6 @@
           signal and a polynomial for the background}
         \label{fig:massFitSys}
       \end{figure*}
-
       Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw J/$\psi$ 
         yield has on the fitting function. 
       Both fit functions agree well, with reduced $\chi^{2}$ values below one.
