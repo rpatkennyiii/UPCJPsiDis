@@ -5,29 +5,8 @@
     Two main classes of Monte Carlo (MC) simulation samples were used. 
     The first class uses STARlight to generate events. 
     The Second class uses PYTHIA6 to create and decay $J/\psi$s with a given
-      input $p_{T}$ and rapidity distribution. 
-    \begin{figure}[h]
-      \centering
-      \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
-      \caption{Comparison of the of the dimuon rapidity distributions between 
-        coherent MC sample and Data.}
-      \label{fig:jpsiAbsRapCoherent}
-    \end{figure}
-    \begin{figure}[h]
-      \centering
-      \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
-      \caption{Comparison of the of the dimuon $\varphi$ distributions 
-        between coherent MC sample and Data.}
-      \label{fig:jpsiPhiCoherent}
-    \end{figure}
-    \begin{figure}[h]
-      \centering
-      \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-      \caption{Comparison of the of the dimuon p$_{\textrm{T}}$ distributions 
-        between coherent MC sample and Data.}
-      \label{fig:jpsiPtCoherent}
-    \end{figure}
-
+      input $p_{T}$ and rapidity distribution.
+    
   \section{\label{sec:TrigDev} Trigger Development} 
     Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
       PbPb collisions using CMS. 
@@ -65,38 +44,38 @@
         and dielectrons in UPC events.
       To achieve this, the loosest muon trigger and lowest threshold ECAL 
         triggers where paired with a trigger on energy in the ZDC and a veto on
-	    energy in the BSC or HF.
+	      energy in the BSC or HF.
       The L1 package that was constructed for the analysis of UPC $J/\psi$ 
         is presented in Table~\ref{tab:l1Triggers2011}.
 
-	\begin{table}[h]
-		\centering
-		\begin{tabular}{|l|l|}
-		  L1 Trigger Seed  & Type \\ \hline \hline
-		  L1\_MuOpen\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
-		  L1\_EG2\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
-		  L1\_EG5\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\ \hline
-		  L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
-		  L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
-		  L1\_MuOpen\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
-		  L1\_EG2\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
-		  L1\_EG5\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline \hline
-		\end{tabular}
-		\caption{List of 2011 L1 seeds.}
-		\label{tab:l1Triggers2011}
-	\end{table}
-       
-       The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
-         required to be 200 Hz.
-       This requirement stemmed from the need to keep the tracker read-out rate
-         low. 
-       The trackers baseline voltage can fluctuate due to the high tracker hit 
-         multiplicities in PbPb collisions.
-       In order to monitor the zero suppression of the tracker, the zero 
-         suppression algorithm was executed using the HLT computing farm 
-	 rather than the in the tracker firmware. 
-       The additional computing cycles needed to run the zero suppression 
-         set the limit for L1 bandwidth. 
+      \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|}
+          L1 Trigger Seed  & Type \\ \hline \hline
+          L1\_MuOpen\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
+          L1\_EG2\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
+          L1\_EG5\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\ \hline
+          L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
+          L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
+          L1\_MuOpen\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
+          L1\_EG2\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
+          L1\_EG5\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline \hline
+        \end{tabular}
+        \caption{List of 2011 L1 seeds.}
+        \label{tab:l1Triggers2011}
+      \end{table}
+
+      The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
+        required to be 200 Hz.
+      This requirement stemmed from the need to keep the tracker read-out rate
+        low. 
+      The trackers baseline voltage can fluctuate due to the high tracker hit 
+        multiplicities in PbPb collisions.
+      In order to monitor the zero suppression of the tracker, the zero 
+        suppression algorithm was executed using the HLT computing farm 
+	      rather than the in the tracker firmware. 
+      The additional computing cycles needed to run the zero suppression 
+        the limit for L1 bandwidth. 
 
     \subsection{HLT Trigger}
       As opposed to the L1 trigger, which reads out the tracker, the HLT has 
@@ -337,7 +316,36 @@
         zero. 
       Because all signal that is less than zero is not measured, method 1 
         only allows for a noise pedestal measurement half the time.
-    
+
+      The noise spectrum was measured from the pre collisions time slices. 
+      Each time slice in Fig.~\ref{fig:zdcPulseShape} is 25 ns in length.
+      In Fig.~\ref{fig:zdcPulseShape} higher than average signal can be seen
+        in the 0th time slice. 
+      This is due to events where activity was present in the ZDC for 
+        two consecutive bunch crossings, and corresponds to a separation of 200
+        ns.
+      Time slices 1 and 2 are therefore occurred between colliding bunch 
+        crossings.
+      These time slices were used to estimate the noise spectrum.
+
+      \begin{figure}[!Hhbt]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=.45\textwidth]{zdcNegEMNoiseFromZBNoCor} & 
+          \includegraphics[width=.45\textwidth]{zdcPosEMNoiseFromZBNoCor} \\
+          \includegraphics[width=.45\textwidth]{zdcNegHDNoiseFromZB} &
+          \includegraphics[width=.45\textwidth]{zdcPosHDNoiseFromZB}
+        \end{array} $
+        \caption{ZDC noise spectra from ZDC$^{-}$ EM section (upper left), 
+          ZDC$^{+}$ EM section (upper right), ZDC$^{-}$ HAD section (lower left), 
+          and ZDC$^{+}$ HAD section (lower right).}
+        \label{fig:zdcNoiseSpectra}
+      \end{figure}
+
+      Fig~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
+        EM and HAD sections for the two sides of the ZDC. 
+      The spectra determined which sections contain only noise. 
+      
       From these two methods the ZDC+ and ZDC- energy spectra near the 
         one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
       While method 1 in blue and method 2 in red not differ much in ZDC-, 
@@ -443,53 +451,75 @@
       function to account for the J/psi signal and a first and second order polynomial 
       function for the photon-photon process.
     The extracted number of J/$\psi$ candidates from this fit includes all J/$\psi$s in
-      the mass window that pass the analysis cuts. 
-    
-    The p$_{T}$ spectrum is fit using templates from the three physics MC samples. 
+      the mass window that pass the analysis cuts.
+
+    \begin{figure}[!Hhtb]
+      \centering
+      \includegraphics[width=.6\textwidth]{massFitSimple}
+      \caption{Mass fit to J/$\psi$ using Gaussian for the 
+        signal and a first order polynomial for the background}
+      \label{fig:massFit}
+    \end{figure}
+   
+    The p$_{T}$ spectrum is fit using templates from the three physics MC 
+      samples. 
     These contributions display a different shape in transverse momenta. 
-    For this reason, the number of coherent J/psi candidates were extracted 
-      from the dimuon Pt distribution, around the J/psi mass, after fitting 
-      together MC templates for both signal and background.
+    For this reason, the number of coherent J/$\psi$ candidates were extracted 
+      from the dimuon p$_{T}$ distribution, around the J/$\psi$ mass, 
+      after fitting together MC templates for both signal and background.
+    The templates for the fit come form the three STARlight MC samples. 
 
-      \begin{figure*}[!Hhtb]
-        \centering
-        \includegraphics[width=.45\textwidth]{massFitSimple}
-        \includegraphics[width=.45\textwidth]{massFitCBPoly2}
-        \caption{Mass fit to J/$\psi$ using Gaussian (Left) and Crystal Ball (Right) for the 
-          signal and a polynomial for the background}
-        \label{fig:massFit}
-      \end{figure*}
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=.6\textwidth]{ptOnly}
+      \caption{ Fit to MC p$_{T}$ templates. }
+      \label{fig:ptTemps}
+    \end{figure}
 
-    Fig.~\ref{fig:massFit} demonstrates the small dependence the raw J/$\psi$ 
-      yield has on the fitting function. 
-    Both fit functions agree well, with reduced $\chi^{2}$ values below one.
-    The Crystal ball fit give an upper estimate for the J/$\psi$ yield.
-    The Gaussian fit gives an lower estimate. 
-    The main difference comes from the lower mass tails.
-    In the Crystal ball fit the lower tail is considered to be signal due to 
-      shifting of the mass spectrum to lower mass due to radiation from the 
-      final state muons. 
-    In the Gaussian fit the lower mass tail is considered to be background and 
-      the signal is sharper.
+    The shape of the photon-photon process and coherent J/$\psi$ are very 
+      similar in p$_{T}$.
+    These two shapes normalizations are highly anti-correlated in the fit 
+      (see Fig.~\ref{fig:ptOnlyCor}).
 
-      \begin{figure}[!Hhtb]
-        \centering
-        \includegraphics[width=.6\textwidth]{ptTemplateFit}
-        \caption{Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.}
-        \label{fig:ptTempFit}
-      \end{figure}
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=.6\textwidth]{nCoNGammaCorPtOnly}
+      \caption{68\%, 95\%, and 99\% confidence contours from the p$_{T}$ 
+        template fit. }
+      \label{fig:ptOnlyCor}
+    \end{figure}
 
-      The templates for the fit come form the three STARlight MC samples. 
-      The normalization for the coherent and incoherent templates are left
-        free. 
-      The shape of the photon-photon process and coherent J/$\psi$ are very 
-        similar in p$_{T}$.
-      These two shapes normalizations are highly anti-correlated in the fit.
-      To address this issue the template from the photon-photon process was 
-        fixed to the cross section value given by STARlight and normalized to
-        the integrated luminosity of the data. 
-      The normalization for the photon-photon template was allowed a range of 
-        20\% due to the 20\% uncertainty in the STARlight cross section.
+    To utilize the mass fits ability to distinguish the photon-photon process 
+      from the coherent and incoherent process all while utilizing the p$_{T}$
+      fits ability to separate the coherent and photon-photon processes from 
+      the incoherent, a simultaneous fit to the mass spectrum and p$_{T}$ 
+      spectrum was preformed.
+    In the simultaneous fit, the parameter for the contribution from the 
+      photon-photon process is shared by the two fits.
+    
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=0.9\textwidth]{ptMassSimGaussLine}
+      \caption{Simultaneous fit to the mass and p$_{T}$ spectra.}
+      \label{fig:simFitMassPtGauss}
+    \end{figure}
+
+    By simultaneously fitting both spectra, the anti-correlation between the 
+      photon-photon and coherent normalization parameters was reduced as well
+      as the overall error on the parameters.
+    The slope of the confidence contours in Fig.~\ref{fig:ptOnlyCor} and 
+      Fig.~\ref{fig:simGaussCor} demonstrate the reduction in the correlation
+      between the normalization parameters. 
+    The slope in of the confidence contours in Fig.~\ref{fig:ptOnlyCor} 
+      is noticeably closer to 0 than the apparent negative slope in 
+      Fig.~\ref{fig:simGaussCor}.
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=0.6\textwidth]{nCoNGammaCorPtMass}
+      \caption{68\%, 95\%, and 99\% confidence contours from the 
+        simultaneous fit. }
+      \label{fig:simGaussCor}
+    \end{figure}
 
   \section{\label{sec:effDet} Efficiency determination}
     \subsection{Muon Efficiencies}
@@ -605,6 +635,42 @@
         \label{fig:tnpTrigMap}
       \end{figure}
 
+      The dimuon trigger efficiency $\varepsilon_{dimuon trigger}$ was measured
+        from the single muon efficiencies. 
+      The efficiency of each candidate was calculated using the following
+        equation:
+      \begin{equation}
+        \label{eq:dimuTrigEff}
+        \varepsilon_{dimuon trigger}=1-(1-\varepsilon_{trigger}^{\mu_{1}})(1-\varepsilon_{trigger}^{\mu_{2}}),
+      \end{equation}
+      where $\varepsilon_{trigger}^{\mu_{1}}$ is the tag and probe efficiency
+        of the first dimuon daughter, and $\varepsilon_{trigger}^{\mu_{2}}$ is
+        the efficiency of the second muon daughter. 
+      In Eq.~\ref{eq:dimuTrigEff} the probability of at least one daughter
+        firing the trigger is calculated by subtracting one from the
+        probability that neither daughter fires the trigger,
+        thus giving the dimuon trigger efficiency. 
+
+      The average dimuon trigger efficiency for each dimuon (p$_{T}$,$|y|$) bin
+        was calculated by averageing the individual dimuon candidates in each
+        bin. 
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=0.6\textwidth]{averageTriggerEff}
+        \caption{The trigger efficiency from tag and probe averaged over candidates
+          in each (p$_{T}$,$|y|$) bin.}
+        \label{fig:avTrigEffCo}
+      \end{figure}
+      The average trigger efficiency was multiplied by the acceptance from the MC 
+        to produce a total efficiency times acceptance factor. 
+      \begin{figure}[!Hhtb]
+        \centering
+        \includegraphics[width=0.6\textwidth]{averageExA}
+        \caption{The acceptance times averaged trigger efficiency from tag and 
+          probe.}
+        \label{fig:avAccEff}
+      \end{figure}
+
     \subsection{ZDC trigger efficiency}
       A special trigger was prepared to monitor the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
@@ -648,7 +714,30 @@
           2}
         \label{tab:zdcEfficiency}
       \end{table}
-  \section{Systematic checks}
+  \section{\label{sec:sysCheck} Systematic checks}
+    \subsection{MC vs Data compairson}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
+        \caption{Comparison of the of the dimuon rapidity distributions between 
+          coherent MC sample and Data.}
+        \label{fig:jpsiAbsRapCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
+        \caption{Comparison of the of the dimuon $\varphi$ distributions 
+          between coherent MC sample and Data.}
+        \label{fig:jpsiPhiCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
+        \caption{Comparison of the of the dimuon p$_{T}$ distributions 
+          between coherent MC sample and Data.}
+        \label{fig:jpsiPtCoherent}
+      \end{figure}
+
     \subsection{Tag and probe}
       To estimate the effect the tag and probe fits, the tag and probe 
         efficiencies were additionally measured by counting probes in the 
@@ -664,6 +753,92 @@
         \label{fig:tnpCntVFit}
       \end{figure}
     \subsection{Template fit}
+      \begin{figure}[!Hhtb]
+        \centering
+        \includegraphics[width=.6\textwidth]{ptOnly}
+        \caption{Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.}
+        \label{fig:ptTempFit}
+      \end{figure}
+
+      The normalization for the coherent and incoherent templates are left
+        free. 
+      To address this issue the template from the photon-photon process was 
+        fixed to the cross section value given by STARlight and normalized to
+        the integrated luminosity of the data. 
+      The normalization for the photon-photon template was allowed a range of 
+        20\% due to the 20\% uncertainty in the STARlight cross section.
+
+      The systematic uncertainty for the contribution to the three components
+        of the signal was estimated by varying the mass fit.
+      Because the mass fit is used to fix the contribution to the p$_{T}$ 
+        spectrum of the photon-photon process, the change of the mass fit
+        results in different coherent contributions from the p$_{T}$ template
+        fit.
+
+      \begin{figure}[!Hhbt]
+        \centering
+        $ \begin{array}{ccc}
+          \includegraphics[width=.3\textwidth]{cbPolyBkgEst} &
+          \includegraphics[width=.3\textwidth]{gausLinBkgEst} &
+          \includegraphics[width=.3\textwidth]{gausCCBkgEst} \\
+          \includegraphics[width=.3\textwidth]{cbPoly} &
+          \includegraphics[width=.3\textwidth]{gausLin} &
+          \includegraphics[width=.3\textwidth]{gausCC}
+        \end{array} $
+        \caption{Various mass distribution fits and the corresponding p$_{T}$
+          template fit.}
+        \label{fig:massPtFitsForSyst}
+      \end{figure}
+
+      Moving from left to right in Fig~\ref{fig:massPtFitsForSyst} the 
+        contribution from the photon process increases. 
+      The left most fit uses a Crystal Ball function to account for the 
+        radiative decay of the final state daughters of the J/$\psi$.
+      The low mass exponential portion however picks up background events 
+        and overestimates the J/$\psi$ contribution. 
+      The right most plot fits the background to a 2nd order Cheby-Chev 
+        polyinomial, which overestimates the background.
+      Because the Cheby-Chev peaks just below the J/$\psi$ peak, this fit 
+        overestimates the background and in turn underestimates the signal 
+        contribution.
+      The Gaussian fit with a linear background however does a reasonable job
+        of fitting both the background and the signal. 
+
+      From these three fits an upper and lower bound of the systematics due
+        the choice of fit functions was estimated. 
+
+    \subsection{Mass fit}
+      \begin{figure*}[!Hhtb]
+        \centering
+        \includegraphics[width=.45\textwidth]{massFitSimple}
+        \includegraphics[width=.45\textwidth]{massFitCBPoly2}
+        \caption{Mass fit to J/$\psi$ using Gaussian (Left) and Crystal Ball (Right) for the 
+          signal and a polynomial for the background}
+        \label{fig:massFitSys}
+      \end{figure*}
+
+      Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw J/$\psi$ 
+        yield has on the fitting function. 
+      Both fit functions agree well, with reduced $\chi^{2}$ values below one.
+      The Crystal ball fit give an upper estimate for the J/$\psi$ yield.
+      The Gaussian fit gives an lower estimate. 
+      The main difference comes from the lower mass tails.
+      In the Crystal ball fit the lower tail is considered to be signal due to 
+        shifting of the mass spectrum to lower mass due to radiation from the 
+        final state muons. 
+      In the Gaussian fit the lower mass tail is considered to be background and 
+        the signal is sharper.
+
+      As check on the simultaneous p$_{T}$ and mass fit, the mass fit is done
+        using mass templates from STARlight.
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=0.6\textwidth]{ptMassSimTemp}
+        \caption{Simultaneous fit to the mass and p$_{T}$ using mass templates
+          for the mass fit. }
+        \label{fig:simFitTemp}
+      \end{figure}
+
     \subsection{MC acceptance}
       To estimate the effect of the GEN level p$_{T}$ distribution on the 
         acceptance the incoherent sample was used to correct the coherent 
