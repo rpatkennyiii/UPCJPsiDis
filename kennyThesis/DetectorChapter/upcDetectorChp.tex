@@ -145,12 +145,50 @@ CASTOR covers the range 5.2 $< \eta <$ 6.6 on the positive side of the beam.
 The Zero Degree Calorimeters (ZDC) sit between the beam pipes on either side of
 	the interaction point covering the area around $\theta = 0$, $|\eta| > 
 	8.3$.
-Both detectors are tungsten quartz Cerenkov detectors, and can contribute to
-	the proposed measurement.
 In heavy ion collisions the ZDC has the ability to measure neutral particles 
 	that do not participate in the collision \cite{tCmsE}.
 CASTOR extends the total coverage of the CMS as whole giving more access to 
 	low-x physics \cite{tCmsE}.
+
+The ZDC has a total of 18 channels.
+Half of these 18 channels are on either side of the interaction point.
+The 9 channels on the side of CMS that correspond to positive $\eta$
+  are denoted ZDC$^{+}$, where as the 9 channels on the negative side are
+  denoted ZDC$^{-}$.
+The 9 channels on each side are further sub-divided into an electro-magnetic  
+  (EM) section and a hadronic (HAD) section.
+The EM section is positioned in front of the HAD section with respect to the 
+  interaction point and is segmented transverse to the beam direction.
+The 5 EM sections are positioned in front to absorb the energy from 
+  electro-magnetically induced showers, which develop over a shorter distance 
+  than hadronically induced showers.
+The transverse segmentation allows for a measurement of the transverse shower
+  width and the size of the beam spot at the ZDC.
+The HAD section is segmented in the direction of the beam and consists of 4
+  channels.
+The longitudinal segmentation allows for absorption of the full extended 
+  hadronic shower and the ability to measure the longitudinal shower shape.
+
+Each the 18 channels contains a tungsten target and quartz fibers.
+The dense tungsten target is used to initiate the shower.
+The quartz fibers shine Cerenkov light as the high momentum charged particles
+  from the shower pass through it. 
+the light from the quartz fibers is channeled to photo-multiplier tubes, one 
+  for each ZDC channel. 
+Through a cascade of photon induced electrical discharges, the photo-multiplier
+  converts the Cerenkov light to an electrical pulse. 
+
+This electrical pulse travels $\sim$ 200 m down a coaxial cable from the LHC
+  tunnel to the counting house in the CMS service cavern. 
+There the electrical pulse is digitized by the Charge Integrator and Encoder 
+  (QIE).
+The QIE integrates the current each 25 nano seconds.
+The charge is than mapped logarithmically to the 128 bits. 
+This bit is sent across a small fiber optic cable to the HTR firmware card.
+Here each 25 ns signal is stored in a 250 ns buffer, and the timing is sync
+  with the rest of the detector to insure the ZDC signal arrives at the central
+  data acquisition system at the same time as the other sub detectors from the 
+  same collision. 
 
 The muon system resides just outside of the superconducting magnet.
 It consists of three complementary systems: drift tube (DT) chambers in the

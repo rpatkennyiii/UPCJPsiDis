@@ -265,13 +265,13 @@
 
       To establish the HF noise thresholds, the noise distributions were 
         measured in zero bias events. 
-      Only presences of both beams was required for these events. 
+      Only presences of both beams was required for these events to be recorded. 
       An Off-line selection of events with no reconstructed tracks was used
-        insure that no collision had taken place. 
+        to insure that no collision had taken place. 
+      The HF noise threshold was defined as the cut that keeps \%99 of the 
+        zero bias events.
       The noise distribution from this zero bias sample is compared to the 
         physics sample and MC in Fig.~\ref{fig:hfNoiseDist}.
-      The HF noise threshold defined as the cut that keeps \%99 of the zero 
-        bias events.
 
       \begin{figure}[!Hhbt]
         \centering
@@ -296,11 +296,8 @@
   
   \section{\label{sec:breakUpDet} Break up determination}
     \subsection{ZDC Signal Reconstruction}
-      There are 18 zdc channel. 
-      There are 4 hadronic channels and 8 electromagnetic channels on each side
-        of the CMS. 
-      To measure neutrons in the ZDC the charge in each channel is first 
-        converted to a signal. 
+      As described in Section\textcolor{red}{ZDC}, the ZDC consists of 18 
+        channels.
 
 	\begin{figure}[h]
 		\centering
@@ -310,23 +307,23 @@
 	\end{figure}
 
       Channel Signal definition:
-      The signal in the zdc calculated two ways. 
+      The signal in the zdc was calculated two ways. 
       \begin{enumerate}
-	\item Method 1
-	\begin{enumerate}
-	  \item signal: 4,5,6 
+        \item Method 1
+        \begin{enumerate}
+          \item signal: 4,5,6 
           \item background: 1,2
         \end{enumerate}
-	\item Method 2
-	\begin{enumerate}
-	  \item signal: 4
-	  \item background: 5
+        \item Method 2
+        \begin{enumerate}
+          \item signal: 4
+          \item background: 5
         \end{enumerate}
       \end{enumerate}
 
       As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
-        signal time slices and uses the maximum number of “clean” non signal 
-        time slices to estimate the noise pedestal event by event. 
+        signal time slices and uses the maximum number of "clean" non signal 
+        time slices to estimate the noise pedestal event by event.
       This minimizes the effect of random noise time slice by time slice by 
         averaging over the maximum number of time slices per event. 
 
@@ -463,13 +460,13 @@
   \section{\label{sec:sigEx} Signal extraction}
     The invariant mass distribution for opposite sign dimuons is shown in 
       Figure~\ref{fig:massFit}. 
-    A J/$\psi$ signal is clearly visible together with tails at higher and lower mass
-      due to the photon-photon process
-    A fit to the invariant mass distribution was done using a Gaussian and a Crystal Ball
-      function to account for the J/psi signal and a first and second order polynomial 
-      function for the photon-photon process.
-    The extracted number of J/$\psi$ candidates from this fit includes all J/$\psi$s in
-      the mass window that pass the analysis cuts.
+    A J/$\psi$ signal is clearly visible together with tails at higher and lower 
+      mass due to the photon-photon process.
+    A fit to the invariant mass distribution was done using a Gaussian and a 
+      Crystal Ball function to account for the J/psi signal and a first and 
+      second order polynomial function for the photon-photon process.
+    The extracted number of J/$\psi$ candidates from this fit includes all 
+      J/$\psi$s in the mass window that pass the analysis cuts.
 
     \begin{figure}[!Hhtb]
       \centering
@@ -734,13 +731,13 @@
       \end{table}
   \section{\label{sec:sysCheck} Systematic checks}
     \subsection{HF noise threshold}
-      The way in which the HF noise distribution is measured effects the events 
+      The way in which the HF noise distribution is measured effects the event 
         selection.
+      In addition, this cut plays a significant role in rejecting hadronic 
+        events.
       In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
         is evident. 
-      The HF cut requires signal consistent with noise and in turn rejects 
-        hadronic events. 
-      The HF noise cut rejects \textcolor{red}{X} of the events that remaining. 
+      The HF noise cut rejects \textcolor{red}{X} of the events the remaining. 
       The systematic uncertainties on the HF noise requirement is important for
         this reason.
       The result must not depend significantly on the method used to apply the
@@ -748,7 +745,7 @@
         from it. 
       
       Four different approaches were employed to estimate the systematic effect
-        arising from pick a particular method. 
+        arising from picking a particular method. 
       By looking at the variation of the number of events that remain after 
         applying the thresholds derived from these four methods, the systematic
         uncertainty for the HF noise cut was estimated.
