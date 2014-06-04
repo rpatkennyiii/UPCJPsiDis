@@ -1,12 +1,117 @@
 \chapter{Analysis}	
   \section{\label{sec:mcSim} MC Simulation}
-    Monte Carlo (MC) simulations are used to understand how the detector 
-      effects the measurement.
-    Two main classes of Monte Carlo (MC) simulation samples were used. 
-    The first class uses STARlight to generate events. 
-    The Second class uses PYTHIA6 to create and decay $J/\psi$s with a given
+    Every physical measurement is the product of the underlaying physics 
+      convolved with the response of the detector used to do the measurement. 
+    In order to understand the underlaying physical process the detector's 
+      effect on the measurement must be understood and accounted for. 
+    As instruments become more and more complicated, the interplay between all
+      of the many parts of the detector makes an analytic approach to the 
+      problem untenable.
+    For this reason, the numerical technique of Monte Carlo (MC) simulation is
+      the most useful approach.
+
+    MC simulations use random number generation to solve the problem 
+      numerically by brute force. 
+    First, particles are generated according the theoretical distributions.
+    This particles are then propagated through the detector.
+    As the particles pass through the detector, random numbers are again used
+      to determine how these particles interact with the materials of the 
+      detector based on the know properties of the material. 
+    In this way, the theoretical distributions are merged with the complex 
+      response of the detector. 
+    The collective combination of the many sub detectors response with the 
+      theoretical distributions emerges from the successive creation of random
+      events.
+    The result is the convolved response of the detector with the underlaying 
+      physical process that is to be studied. 
+
+    In this thesis, two main classes of MC simulation samples were used. 
+    The first class uses STARlight to generate events.
+    This class of MC samples corresponds to the theoretical calculations 
+      described in in Section~\ref{sec:vdmTheory}.
+    There are three different physical process described.
+    Coherent J/$\psi$ production, where the photon couples to the nucleus as
+      a whole, incoherent J/$\psi$ production, where the photon couples to a
+      nucleon within the nucleus, and photon-photon process, where the photons
+      from the two nuclei interact with each other to produce a lepton pair 
+      directly.
+    All three STARlight sample produce a $\mu^{+}$ and $\mu^{-}$ in the final 
+      state that interacts with the detector.
+    The second class uses PYTHIA6 to decay $J/\psi$s with a given
       input $p_{T}$ and rapidity distribution.
+    Two samples of this class of particle gun data were produced each with 
+      different $p_{T}$ distributions (See Fig.).
+
+    The software chain used for producing the STARlight samples has five steps.
+    Because STARlight is not integrated into the standard CMS software 
+      framework, this chain was developed for the analysis described in this
+      thesis.
+    First, STARlight is run in the specified mode, and a single file is 
+      created for each physics process, for this thesis, one file for the 
+      coherent process, the incoherent process, and the photon-photon process.
+    The output from the STARlight generator is in a format specific to 
+      STARlight, therefore, the output from the original generation step is 
+      then converted to the Les Houches (LHE) format. 
+    In this conversion to LHE format, either the parent J/$\psi$ for the 
+      J/$\psi$ production samples, or the initial photon-photon pair are added
+      LHE output file.
+    The standard STARlight output only includes the final state particles.
+    Additionally, the initial output from STARlight is split into a collection 
+      of smaller LHE files so that each the smaller samples can be 
+      processed in parallel.
+    Each of the LHE files was then used as input to the CMS software frame work
+      (CMSSW).
+    The three remaining steps take place within the frame work. 
+    First the generated particles are propagated through the GEANT4 detector 
+      simulation.
+    This accounts for all the interactions with the detector and produces as 
+      output a format identical to the raw data that is recorded during data
+      taking.
+    The next two steps are identical to data taking.
+    The reconstruction software used during data taking is run on the output 
+      of the detector simulation, and last, the output of the reconstruction
+      is reduced to the information that is needed for the final analysis.
+
+    The particle gun samples were created entirely within the CMSSW.
+    An interface to PYTHIA6 is included within CMSSW, which takes the J/$\psi$
+      $p_{T}$ and rapidity distributions as input. 
+    The J/$\psi$ are created according to the input distributions and than 
+      PYTHIA6 to $\mu^{+}$ and $\mu^{-}$.
+    As with the STARlight samples these muons are propagated through the GEANT4
+      simulation of the detector and the raw data is produced.
+    The remain steps of running the reconstruction code and reducing the 
+      data to the final data needed for the analysis is identical to the 
+      STARlight production.
+
+    The five MC samples, three STARlight samples, and two particle gun samples,
+      differ primarily in the $p_{T}$ distribution of the J/$\psi$s produced
+      and the polarization of the J/$\psi$s, which effects angle at which
+      the muon daughters are emitted relative to the direction in which the
+      J/$\psi$ is traveling. 
+    In Fig.GenPtDist the $p_{T}$ of J/$\psi$ for the coherent and photon-photon
+      samples are peaked steeply a low $p_{T}$, and neither sample extends much
+      beyond 0.15 GeV in $p_{T}$.
+    The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
+    The two particle gun samples resemble the incoherent and coherent samples.
+    The first sample has a Gaussian $p_{T}$ distribution extending to 
+      approximately 0.15 GeV, whereas the second is flat in $p_{T}$ up to
+      2 GeV.
+    The particle gun samples are unpolarized, whereas the STARlight samples 
+      have transverse polarization. 
+    The for the particle gun samples there is no preferred direction for the 
+      emission of the daughter muons.
+    In the STARlight samples however the daughters tend to be emitted in line
+      with the direction of the motion of the J/$\psi$.
+    This is particularly pronounced for the photon-photon process. 
     
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
+      \caption{ The J/$\psi$ polarization of the \textcolor{red}{particle gun}
+        , \textcolor{blue}{coherent}, and incoherent samples are plotted as the
+        cosine of the helicity angle.} 
+      \label{fig:genHXAngle}
+    \end{figure}
   \section{\label{sec:TrigDev} Trigger Development} 
     Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
       PbPb collisions using CMS. 

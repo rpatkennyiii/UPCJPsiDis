@@ -17,42 +17,42 @@
 \contentsline {section}{\numberline {3.1}Trigger}{28}{section.3.1}
 \contentsline {chapter}{\numberline {4}Analysis}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1} MC Simulation}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2} Trigger Development}{29}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1} L1 Trigger}{30}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}HLT Trigger}{31}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3} Data Sets and Event Selection}{31}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Set}{31}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Event selection}{33}{subsection.4.3.2}
-\contentsline {section}{\numberline {4.4} Break up determination}{36}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}ZDC Signal Reconstruction}{36}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{37}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5} Signal extraction}{41}{section.4.5}
-\contentsline {section}{\numberline {4.6} Efficiency determination}{43}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muon Efficiencies}{43}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{49}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7} Systematic checks}{50}{section.4.7}
-\contentsline {subsection}{\numberline {4.7.1}HF noise threshold}{50}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}MC vs Data compairson}{51}{subsection.4.7.2}
-\contentsline {subsection}{\numberline {4.7.3}Tag and probe}{51}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}Template fit}{52}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}Mass fit}{53}{subsection.4.7.5}
-\contentsline {subsection}{\numberline {4.7.6}MC acceptance}{56}{subsection.4.7.6}
-\contentsline {subsection}{\numberline {4.7.7}ZDC efficiency}{56}{subsection.4.7.7}
-\contentsline {chapter}{\numberline {5}Results}{59}{chapter.5}
-\contentsline {section}{\numberline {5.1}Coherent cross section}{59}{section.5.1}
-\contentsline {section}{\numberline {5.2}Incoherent cross section}{60}{section.5.2}
-\contentsline {section}{\numberline {5.3}Break up ratios}{60}{section.5.3}
-\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{61}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{69}{chapter.6}
-\contentsline {section}{\numberline {6.1}xsection results }{69}{section.6.1}
-\contentsline {section}{\numberline {6.2}correlation results}{69}{section.6.2}
-\contentsline {chapter}{\numberline {7}Future Works}{70}{chapter.7}
-\contentsline {section}{\numberline {7.1}Studies of 2011 PbPb data}{70}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}High mass $\gamma -\gamma \rightarrow e^{+} e^{-}$ in PbPb 2011}{70}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}UPC Hadronic Overlap and PbPb 2011}{71}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}UPC with muons in HF}{73}{subsection.7.1.3}
-\contentsline {section}{\numberline {7.2}Studies of 2013 pPb data and 2015 PbPb data}{73}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{74}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{75}{subsection.7.2.2}
-\contentsline {subsection}{\numberline {7.2.3}UPC jets}{75}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{80}{appendix.A}
+\contentsline {section}{\numberline {4.2} Trigger Development}{32}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1} L1 Trigger}{32}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}HLT Trigger}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3} Data Sets and Event Selection}{34}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Data Set}{34}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Event selection}{36}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.4} Break up determination}{38}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}ZDC Signal Reconstruction}{38}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{40}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5} Signal extraction}{43}{section.4.5}
+\contentsline {section}{\numberline {4.6} Efficiency determination}{46}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muon Efficiencies}{46}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{50}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.7} Systematic checks}{52}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}HF noise threshold}{52}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}MC vs Data compairson}{54}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Tag and probe}{54}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Template fit}{54}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}Mass fit}{56}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.6}MC acceptance}{59}{subsection.4.7.6}
+\contentsline {subsection}{\numberline {4.7.7}ZDC efficiency}{59}{subsection.4.7.7}
+\contentsline {chapter}{\numberline {5}Results}{62}{chapter.5}
+\contentsline {section}{\numberline {5.1}Coherent cross section}{62}{section.5.1}
+\contentsline {section}{\numberline {5.2}Incoherent cross section}{63}{section.5.2}
+\contentsline {section}{\numberline {5.3}Break up ratios}{63}{section.5.3}
+\contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{64}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{72}{chapter.6}
+\contentsline {section}{\numberline {6.1}xsection results }{72}{section.6.1}
+\contentsline {section}{\numberline {6.2}correlation results}{72}{section.6.2}
+\contentsline {chapter}{\numberline {7}Future Works}{73}{chapter.7}
+\contentsline {section}{\numberline {7.1}Studies of 2011 PbPb data}{73}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}High mass $\gamma -\gamma \rightarrow e^{+} e^{-}$ in PbPb 2011}{73}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}UPC Hadronic Overlap and PbPb 2011}{74}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}UPC with muons in HF}{76}{subsection.7.1.3}
+\contentsline {section}{\numberline {7.2}Studies of 2013 pPb data and 2015 PbPb data}{76}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{77}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{78}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}UPC jets}{78}{subsection.7.2.3}
+\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{83}{appendix.A}
