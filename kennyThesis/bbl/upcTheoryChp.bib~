@@ -1,30 +1,3 @@
-@article{CGC2Lec,
-      author         = "McLerran, Larry",
-      title          = "{The Color Glass Condensate and Glasma}",
-      year           = "2008",
-      eprint         = "0804.1736",
-      archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
-      SLACcitation   = "%%CITATION = ARXIV:0804.1736;%%",
-}
-
-@article{CGCandGlasma,
-  title = "Color Glass Condensate and glasma ",
-  journal = "Nuclear Physics A ",
-  volume = "854",
-  number = "1",
-  pages = "10 - 17",
-  year = "2011",
-  note = "Saturation, the Color Glass Condensate and the Glasma: What Have We Learned from RHIC? ",
-  issn = "0375-9474",
-  doi = "http://dx.doi.org/10.1016/j.nuclphysa.2010.09.001",
-  url = "http://www.sciencedirect.com/science/article/pii/S0375947410006615",
-  author = "Fran\c{c}ois Gelis",
-  keywords = "\{QCD\}",
-  keywords = "Gluon saturation",
-  keywords = "Heavy ion collisions "
-}
-
 @ARTICLE{CMS_AN_2008-098,
     AUTHOR       = "M. Mulders I. Bloch, E. James A. Everett D. Barge, C. Campagnari, P. Kalavase, V. Krutelyov, D. Kovalskyi, J. Ribnik N. Amapane",
     TITLE        = "Muon Identification in CMS",

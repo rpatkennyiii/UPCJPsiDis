@@ -1,61 +1,62 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces The electromagnetic field boosted and at rest. \relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces The zero and first order modified Bessel functions. \relax }}{7}{figure.caption.5}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces AB is the pQCD method, RSZ-LTA is the LTA method, and STARlight is the VMD model.\relax }}{20}{figure.caption.7}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Nuclear supression factor, $S$, in the pQCD and LTA methods.\relax }}{21}{figure.caption.8}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Nuclear supression factor, $S$, in VMD method.\relax }}{22}{figure.caption.9}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces A representation of HERA deep inelastic scattering data, which shows the accumulation of low-x partons from Reference~\cite {CGC2Lec}.\relax }}{4}{figure.caption.4}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces The electromagnetic field boosted and at rest. \relax }}{5}{figure.caption.5}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces The zero and first order modified Bessel functions. \relax }}{8}{figure.caption.6}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces AB is the pQCD method, RSZ-LTA is the LTA method, and STARlight is the VMD model.\relax }}{21}{figure.caption.8}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Nuclear supression factor, $S$, in the pQCD and LTA methods.\relax }}{22}{figure.caption.9}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Nuclear supression factor, $S$, in VMD method.\relax }}{23}{figure.caption.10}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces The Compact Muon Solenoid from Reference~\cite {tCmsE}.\relax }}{24}{figure.caption.10}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces The energy resolution of ECAL as a function of energy from Reference~\cite {tCmsE}.\relax }}{25}{figure.caption.11}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces The $E_{T}$ resolution of HCAL as a function of $|\eta |$ and $E_{T}$ from Reference~\cite {tCmsE}.\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces The Compact Muon Solenoid from Reference~\cite {tCmsE}.\relax }}{25}{figure.caption.11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The energy resolution of ECAL as a function of energy from Reference~\cite {tCmsE}.\relax }}{26}{figure.caption.12}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces The $E_{T}$ resolution of HCAL as a function of $|\eta |$ and $E_{T}$ from Reference~\cite {tCmsE}.\relax }}{27}{figure.caption.13}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The J/$\psi $ polarization of the \leavevmode {\color {red}particle gun} , \leavevmode {\color {blue}coherent}, and incoherent samples are plotted as the cosine of the helicity angle.\relax }}{31}{figure.caption.13}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of HF noise distributions in zero bias data, physics triggered data, and MC.\relax }}{38}{figure.caption.18}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces ZDC pluse shape.\relax }}{39}{figure.caption.19}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces The fraction of signal in time slice 5 over time slice 4 as a function of the signal in time slice 5 in ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{40}{figure.caption.20}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ (right)\relax }}{41}{figure.caption.21}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces ZDC noise spectra from ZDC$^{-}$ EM section (upper left), ZDC$^{+}$ EM section (upper right), ZDC$^{-}$ HAD section (lower left), and ZDC$^{+}$ HAD section (lower right).\relax }}{42}{figure.caption.22}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Mass fit to J/$\psi $ using Gaussian for the signal and a first order polynomial for the background\relax }}{43}{figure.caption.23}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Fit to MC $p_{T}$ templates. \relax }}{44}{figure.caption.24}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces 68\%, 95\%, and 99\% confidence contours from the $p_{T}$ template fit. \relax }}{44}{figure.caption.25}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Simultaneous fit to the mass and $p_{T}$ spectra.\relax }}{45}{figure.caption.26}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces 68\%, 95\%, and 99\% confidence contours from the simultaneous fit. \relax }}{46}{figure.caption.27}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces Muon daughter detectability from coherent J/$\psi $, incoherent J/$\psi $, photon-photon, and J/$\psi $ gun samples.\relax }}{47}{figure.caption.28}
-\contentsline {figure}{\numberline {4.13}{\ignorespaces Dimuon acceptance from coherent J/$\psi $ (top left), incoherent J$\psi $ (top right), and photon-photon interactions (lower).\relax }}{48}{figure.caption.29}
-\contentsline {figure}{\numberline {4.14}{\ignorespaces Fits to tag and probe pairs in the J/$\psi $ mass region.\relax }}{49}{figure.caption.30}
-\contentsline {figure}{\numberline {4.15}{\ignorespaces Muon trigger efficiencies in $p_{T}$ and $\eta $ bins from the tag and probe method.\relax }}{49}{figure.caption.31}
-\contentsline {figure}{\numberline {4.16}{\ignorespaces The trigger efficiency from tag and probe averaged over candidates in each ($p_{T}$,$|y|$) bin.\relax }}{50}{figure.caption.32}
-\contentsline {figure}{\numberline {4.17}{\ignorespaces The acceptance times averaged trigger efficiency from tag and probe.\relax }}{51}{figure.caption.33}
-\contentsline {figure}{\numberline {4.18}{\ignorespaces Comparison of the of the dimuon rapidity distributions between coherent MC sample and Data.\relax }}{54}{figure.caption.39}
-\contentsline {figure}{\numberline {4.19}{\ignorespaces Comparison of the of the dimuon $\varphi $ distributions between coherent MC sample and Data.\relax }}{55}{figure.caption.40}
-\contentsline {figure}{\numberline {4.20}{\ignorespaces Comparison of the of the dimuon $p_{T}$ distributions between coherent MC sample and Data.\relax }}{56}{figure.caption.41}
-\contentsline {figure}{\numberline {4.21}{\ignorespaces Tag and probe trigger efficiencies from counting (left) compared to fitting (right)\relax }}{56}{figure.caption.42}
-\contentsline {figure}{\numberline {4.22}{\ignorespaces Coherent, incohernt, and photon-photon process $p_{T}$ template fit to data.\relax }}{57}{figure.caption.43}
-\contentsline {figure}{\numberline {4.23}{\ignorespaces Various mass distribution fits and the corresponding $p_{T}$ template fit.\relax }}{57}{figure.caption.44}
-\contentsline {figure}{\numberline {4.24}{\ignorespaces Mass fit to J/$\psi $ using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{58}{figure.caption.45}
-\contentsline {figure}{\numberline {4.25}{\ignorespaces Simultaneous fit to the mass and $p_{T}$ using mass templates for the mass fit. \relax }}{58}{figure.caption.46}
-\contentsline {figure}{\numberline {4.26}{\ignorespaces Yields corrected by the MC incoherent acceptance map.\relax }}{59}{figure.caption.47}
-\contentsline {figure}{\numberline {4.27}{\ignorespaces Yields corrected by an unpolarized J/$\psi $ sample.\relax }}{59}{figure.caption.48}
-\contentsline {figure}{\numberline {4.28}{\ignorespaces Comparison of ZDC signal reconstruction methods.\relax }}{60}{figure.caption.49}
-\contentsline {figure}{\numberline {4.29}{\ignorespaces Effects of requiring in time signal in ZDC hadronic channels.\relax }}{61}{figure.caption.50}
-\contentsline {figure}{\numberline {4.30}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{61}{figure.caption.51}
-\contentsline {figure}{\numberline {4.31}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using method 1\relax }}{61}{figure.caption.52}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The J/$\psi $ polarization of the \leavevmode {\color {red}particle gun} , \leavevmode {\color {blue}coherent}, and incoherent samples are plotted as the cosine of the helicity angle.\relax }}{32}{figure.caption.14}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Comparison of HF noise distributions in zero bias data, physics triggered data, and MC.\relax }}{39}{figure.caption.19}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces ZDC pluse shape.\relax }}{40}{figure.caption.20}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces The fraction of signal in time slice 5 over time slice 4 as a function of the signal in time slice 5 in ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{41}{figure.caption.21}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ (right)\relax }}{42}{figure.caption.22}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces ZDC noise spectra from ZDC$^{-}$ EM section (upper left), ZDC$^{+}$ EM section (upper right), ZDC$^{-}$ HAD section (lower left), and ZDC$^{+}$ HAD section (lower right).\relax }}{43}{figure.caption.23}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Mass fit to J/$\psi $ using Gaussian for the signal and a first order polynomial for the background\relax }}{44}{figure.caption.24}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Fit to MC $p_{T}$ templates. \relax }}{45}{figure.caption.25}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces 68\%, 95\%, and 99\% confidence contours from the $p_{T}$ template fit. \relax }}{45}{figure.caption.26}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Simultaneous fit to the mass and $p_{T}$ spectra.\relax }}{46}{figure.caption.27}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces 68\%, 95\%, and 99\% confidence contours from the simultaneous fit. \relax }}{47}{figure.caption.28}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Muon daughter detectability from coherent J/$\psi $, incoherent J/$\psi $, photon-photon, and J/$\psi $ gun samples.\relax }}{48}{figure.caption.29}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Dimuon acceptance from coherent J/$\psi $ (top left), incoherent J$\psi $ (top right), and photon-photon interactions (lower).\relax }}{49}{figure.caption.30}
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Fits to tag and probe pairs in the J/$\psi $ mass region.\relax }}{50}{figure.caption.31}
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Muon trigger efficiencies in $p_{T}$ and $\eta $ bins from the tag and probe method.\relax }}{50}{figure.caption.32}
+\contentsline {figure}{\numberline {4.16}{\ignorespaces The trigger efficiency from tag and probe averaged over candidates in each ($p_{T}$,$|y|$) bin.\relax }}{51}{figure.caption.33}
+\contentsline {figure}{\numberline {4.17}{\ignorespaces The acceptance times averaged trigger efficiency from tag and probe.\relax }}{52}{figure.caption.34}
+\contentsline {figure}{\numberline {4.18}{\ignorespaces Comparison of the of the dimuon rapidity distributions between coherent MC sample and Data.\relax }}{55}{figure.caption.40}
+\contentsline {figure}{\numberline {4.19}{\ignorespaces Comparison of the of the dimuon $\varphi $ distributions between coherent MC sample and Data.\relax }}{56}{figure.caption.41}
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Comparison of the of the dimuon $p_{T}$ distributions between coherent MC sample and Data.\relax }}{57}{figure.caption.42}
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Tag and probe trigger efficiencies from counting (left) compared to fitting (right)\relax }}{57}{figure.caption.43}
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Coherent, incohernt, and photon-photon process $p_{T}$ template fit to data.\relax }}{58}{figure.caption.44}
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Various mass distribution fits and the corresponding $p_{T}$ template fit.\relax }}{58}{figure.caption.45}
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Mass fit to J/$\psi $ using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{59}{figure.caption.46}
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Simultaneous fit to the mass and $p_{T}$ using mass templates for the mass fit. \relax }}{59}{figure.caption.47}
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Yields corrected by the MC incoherent acceptance map.\relax }}{60}{figure.caption.48}
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Yields corrected by an unpolarized J/$\psi $ sample.\relax }}{60}{figure.caption.49}
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Comparison of the \leavevmode {\color {red}new} ZDC reconstruction method and the \leavevmode {\color {blue}standard} method for ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{61}{figure.caption.50}
+\contentsline {figure}{\numberline {4.29}{\ignorespaces Effects of requiring in-time signal in successively more ZDC hadronic channels, no timing, at least \leavevmode {\color {red}one}, at least \leavevmode {\color {green}two}, at least \leavevmode {\color {blue}three}, and all \leavevmode {\color {yellow}four} HAD channels have a maximum signal in the fourth time slice.\relax }}{62}{figure.caption.51}
+\contentsline {figure}{\numberline {4.30}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{63}{figure.caption.52}
+\contentsline {figure}{\numberline {4.31}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using method 1\relax }}{63}{figure.caption.53}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Raw yield for the Coherent cross section measurement.\relax }}{64}{figure.caption.54}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Corrected yields for the coherent p$_{T}$ region.\relax }}{65}{figure.caption.55}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with $p_{T}$ below 150 MeV.\relax }}{66}{figure.caption.56}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with 0.2 $< p_{T} <$ 1.5 GeV.\relax }}{67}{figure.caption.57}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the coherent J/$\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{67}{figure.caption.59}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the incoherent J/$\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{68}{figure.caption.60}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the same or opposite rapidity direction from data (left) and from theory (right). \relax }}{69}{figure.caption.63}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Ratio between the transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the opposite direction and the transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the same direction. \relax }}{70}{figure.caption.64}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces The rapidity distribution of the coherent (top) and incoherent (bottom) J/$\psi $ for the ZDC$^{+}$ and ZDC$^{-}$. \relax }}{72}{figure.caption.65}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces The rapidity distribution of the coherent (left) and incoherent (right) J/$\psi $ for the ZDC$^{+}$ and ZDC$^{-}$ from MC (particle gun with customized $J/\psi p_{T}$ input distribution). \relax }}{73}{figure.caption.66}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Raw yield for the Coherent cross section measurement.\relax }}{66}{figure.caption.55}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Corrected yields for the coherent p$_{T}$ region.\relax }}{67}{figure.caption.56}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with $p_{T}$ below 150 MeV.\relax }}{68}{figure.caption.57}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Ratio between J/$\psi $ yeilds XnXn and 1n0n break-up modes compared the Xn0n break-up mode for J/$\psi $ with 0.2 $< p_{T} <$ 1.5 GeV.\relax }}{69}{figure.caption.58}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the coherent J/$\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{69}{figure.caption.60}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Invariant mass spectrum of the opposite signs di-muons originating from the incoherent J/$\psi $ for $X_{n}0_{n}$ breakup mode for two invariant mass regions. \relax }}{70}{figure.caption.61}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the same or opposite rapidity direction from data (left) and from theory (right). \relax }}{71}{figure.caption.64}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Ratio between the transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the opposite direction and the transverse momentum distribution of the J/$\psi $ when J/$\psi $ and neutron have the same direction. \relax }}{72}{figure.caption.65}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces The rapidity distribution of the coherent (top) and incoherent (bottom) J/$\psi $ for the ZDC$^{+}$ and ZDC$^{-}$. \relax }}{74}{figure.caption.66}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces The rapidity distribution of the coherent (left) and incoherent (right) J/$\psi $ for the ZDC$^{+}$ and ZDC$^{-}$ from MC (particle gun with customized $J/\psi p_{T}$ input distribution). \relax }}{75}{figure.caption.67}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{77}{figure.caption.68}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces $\upsilon $ efficiency times acceptance in CMS from STARlight for $\sqrt {s_{NN}}$ = 5.1 TeV as function of $y$.\relax }}{81}{figure.caption.69}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Comparison of $\upsilon $ and J/$\psi $ efficiency times acceptance in CMS from STARlight for $\sqrt {s_{NN}}$ = 5.1 TeV as function of p$_{T}$.\relax }}{82}{figure.caption.70}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{79}{figure.caption.69}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces $\upsilon $ efficiency times acceptance in CMS from STARlight for $\sqrt {s_{NN}}$ = 5.1 TeV as function of $y$.\relax }}{83}{figure.caption.70}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Comparison of $\upsilon $ and J/$\psi $ efficiency times acceptance in CMS from STARlight for $\sqrt {s_{NN}}$ = 5.1 TeV as function of p$_{T}$.\relax }}{84}{figure.caption.71}
 \addvspace {10\p@ }

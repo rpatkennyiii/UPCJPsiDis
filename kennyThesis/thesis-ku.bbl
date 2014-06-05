@@ -1,5 +1,10 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{CGC2Lec}
+L.~McLerran, ``{The Color Glass Condensate and Glasma},''
+\href{http://arxiv.org/abs/0804.1736}{{\ttfamily arXiv:0804.1736 [hep-ph]}}.
+%%CITATION = ARXIV:0804.1736;%%.
+
 \bibitem{tCmsE}
 S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
   Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
@@ -13,6 +18,14 @@ S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
   {\bfseries 107} (2011) 142301},
 \href{http://arxiv.org/abs/1010.1246}{{\ttfamily arXiv:1010.1246 [nucl-ex]}}.
 %%CITATION = ARXIV:1010.1246;%%.
+
+\bibitem{CGCandGlasma}
+F.~Gelis, ``Color glass condensate and glasma,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysa.2010.09.001}{{\em
+  Nuclear Physics A} {\bfseries 854} no.~1, (2011) 10 -- 17}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0375947410006615}.
+  Saturation, the Color Glass Condensate and the Glasma: What Have We Learned
+  from RHIC?
 
 \bibitem{WWJackson}
 J.~D. Jackson, {\em Classical electrodynamics}.

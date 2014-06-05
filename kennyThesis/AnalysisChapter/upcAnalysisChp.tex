@@ -1090,45 +1090,80 @@
       \end{figure}
 
     \subsection{ZDC reconstruction}
-       As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
-        signal time slices and uses the maximum number of "clean" non signal 
-        time slices to estimate the noise pedestal event by event.
-      This minimizes the effect of random noise time slice by time slice by 
-        averaging over the maximum number of time slices per event. 
+      An additional method for estimating the ZDC neutron thresholds was used
+        to estimate the systematic errors on the threshold measurements.  
+      This additional method used in previous ZDC measurements differs 
+        in the way the signal time slices are used to calculate the 
+        the signal from each channel.
+      In the standard method used in previous analyses, the signal is
+        taken from the sum of time slices 4, 5, and 6.
+      To estimate the event by event noise pedestal the sum of time slice 
+        1 and 2 are used. 
+      The signal for an individual ZDC channel is then calculated as the 
+        sum of the signal time slices minus the sum of the noise time slices
+        weighted by a factor of 3/2 to account for the differing number of 
+        noise versus signal time slices.
+      In the standard method, the EM section is weighted by a factor of 0.1 
+        as in the method described in Section~\ref{sec:breakUpDet}.
+      The advantage of the standard method is that by using multiple signal
+        and noise time slices the signal and noise are effectively averaged
+        reducing time slice to time slice fluctuations.
+      However, by using time slices 1 and 2 for measuring the noise, the noise
+        can only be measured half the time due to unmeasurable negative 
+        fluctuations of the dominant low frequency component of the noise.
 
-      Method 2 uses only the two time slice that are most likely to be above 
-        zero. 
-      Because all signal that is less than zero is not measured, method 1 
-        only allows for a noise pedestal measurement half the time.
-
-      The ZDC$^{+}$ and ZDC$^{-}$ signals near the one neutron peak are 
-        plotted in Fig.~\ref{fig:zdcSpec2v1}.
-      While method 1 in blue and method 2 in red not differ much in ZDC-, 
-        the clear separation of the one neutron peak signal from the noise 
-        peak about zero is evident. 
+      The new method relative to the standard method separates low signal from 
+        the noise more effectively for each side of the ZDC as whole.
+      This is particularly important for ZDC$^{+}$ where the 1st HAD section
+        had a lower gain than the other sections. 
+      The ZDC$^{+}$ and ZDC$^{-}$ signals near the one neutron peak using the
+        standard and new reconstruction methods were plotted for comparison in 
+        Fig.~\ref{fig:zdcSpec2v1}.
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{zdcSpec2v1}
-        \caption{Comparison of ZDC signal reconstruction methods.}
+        \caption{Comparison of the \textcolor{red}{new} ZDC reconstruction 
+          method and the \textcolor{blue}{standard} method for ZDC$^{-}$ (left) and 
+          ZDC$^{+}$ (right).}
         \label{fig:zdcSpec2v1}
       \end{figure}
+      In Fig.~\ref{fig:zdcSpec2v1}, the shrinking of width of the noise peak 
+        around zero in the new method versus the old method is apparent for
+        both ZDC$^{+}$ and ZDC$^{-}$.
 
-       In Fig.~\ref{fig:zdcPulseShape} the pulse shape peaks in the peaks in the
-        fourth time slice, for electronic noise however, any of the ten time 
-        slices are equally likely to have a peak value.
+      Timing cuts were applied to enhance the signal relative to the background
+        in order to resolve the one neutron peak in ZDC$^{+}$ using the 
+        standard method. 
+      Because the products of the collision are synced with time slice 4, noise
+        can be rejected by selecting channels where the maximum signal falls 
+        into time slice 4.
+      The noise will have no preferred time slice (see Fig.~\ref{fig:zdcPulseShape}). 
       Using this fact, signal can be preferably selected by requiring that the
         hadronic channels of the ZDC have a peak signal in the fourth time 
         slice.
-      \begin{figure}[h]
+      Through these timing cuts the single neutron peak was recovered using the
+       standard reconstruction for ZDC$^{+}$.
+
+      To examine the effectiveness of the timing cuts, event by event noise 
+        subtraction was removed from the standard reconstruction.
+      The signal from each channel was taken from time slices 4,5, and 6 with
+        out subtracting 1 and 2.
+      The signal spectrum from ZDC$^{-}$ was then plotted with the result
+        shown in Fig.~\ref{fig:zdcTimingCuts}.
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoInc}
-        \caption{Effects of requiring in time signal in ZDC hadronic 
-          channels.}
+        \caption{Effects of requiring in-time signal in successively more 
+          ZDC hadronic channels, no timing, at least \textcolor{red}{one}, at least \textcolor{green}{two},
+            at least \textcolor{blue}{three}, and all \textcolor{yellow}{four} HAD channels have a maximum signal
+            in the fourth time slice.}
         \label{fig:zdcTimingCuts}
       \end{figure}
-      In Fig.~\ref{fig:zdcTimingCuts} no noise subtraction is used. 
       As each additional hadronic channel is required to have a maximum signal
         in the fourth time slice, the single neutron peak emerges. 
+      Fig.~\ref{fig:zdcTimingCuts} demonstrates that the single neutron peak 
+        can be recovered from the noise using timing cuts alone. 
+
       Using the noise subtraction method described by Method 1, the same signal
         emerges.
        \begin{figure}[h]
