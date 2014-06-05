@@ -400,54 +400,149 @@
       These cuts are applied to reduce the number of fake muons.
   
   \section{\label{sec:breakUpDet} Break up determination}
+    As described in Section.~\ref{sec:ltaTheory}, UPC J/$\psi$ photoproduction 
+      can be accompanied by the emission of neutrons from either of the two 
+      colliding nuclei.
+    The various neutron emission scenarios, or break-up break up modes, can 
+      be distinguished by the ZDC.
+    By separating events where the ZDC signal is consistent with 1 neutron 
+      versus several neutrons, the different break-up modes can be separated
+      and compared to theory. 
+    For this reason, reconstruction of the ZDC signal plays an important role 
+      in this thesis. 
+    In order to maximize the ability to explore the one neutron peak, which 
+      sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
+      method was devised. 
+    This new reconstruction method was than used to establish a one neutron and
+      many neutron threshold.
+    In this section the ZDC signal reconstruction is described and how the 
+      neutron thresholds on this signal were set.
+    
     \subsection{ZDC Signal Reconstruction}
-      As described in Section\textcolor{red}{ZDC}, the ZDC consists of 18 
-        channels.
+      The ZDC signal is built up from the pulse shapes for each of the 
+        18 individual ZDC channels. 
+      The pulse shape is recorded in 250 ns second chunks and is divided into
+        10 time slices of 25 ns (See Fig~\ref{fig:zdcPulseShape}).
+      Counting from 0, the 4th time slice is synced with the timing of the rest
+        of the detector and corresponds to when the products of the recorded 
+        collision reached the ZDC.
+      For this reason the channel signal is taken from the 4th time slice.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{zdcPulseShape}
+        \caption{ZDC pluse shape.}
+        \label{fig:zdcPulseShape}
+      \end{figure}
 
-	\begin{figure}[h]
-		\centering
-		\includegraphics[width=\textwidth]{zdcPulseShape}
-		\caption{ZDC pluse shape.}
-		\label{fig:zdcPulseShape}
-	\end{figure}
+      The ZDC signal sits on top of a low frequency noise pedestal. 
+      Over the time scale of 250 ns, this low frequency noise signal appears
+        as a constant that shifts randomly from event to event.
+      The contribution from this noise is therefore measured event by event
+        in order to subtract it.
+      Time slice 5 is used for this purpose.
 
-      Channel Signal definition:
-      The signal in the zdc was calculated two ways. 
-      \begin{enumerate}
-        \item Method 1
-        \begin{enumerate}
-          \item signal: 4,5,6 
-          \item background: 1,2
-        \end{enumerate}
-        \item Method 2
-        \begin{enumerate}
-          \item signal: 4
-          \item background: 5
-        \end{enumerate}
-      \end{enumerate}
+      Time slices 1 and 2 could also be used to estimate the low frequency 
+        noise.
+      However because the noise fluctuates to negative values of charge that 
+        can't be measured by the QIE, these time slice can only provide a 
+        measurement half the time. 
+      By using time slice 5 which contains the falling tail of the signal, 
+        the noise can be measured any time the signal raises significantly 
+        above the noise.
+      If the fraction of signal in time slice 4 and 5 are constant and
+        the noise contributes the same value to both time slices, the 
+        following formula is applicable:
+      \begin{equation}
+        Ts4 \propto (Ts4 + C) - ( Ts5 + C ) = Ts4 - R_{Ts5/Ts4}*Ts4 
+        = Ts4(1-R_{Ts5/Ts4}),
+        \label{eq:ts4ish}
+      \end{equation}
+      where $Ts4$ is the signal contribution in time slice 4, $Ts5$ is the 
+        signal contribution to time slice 5, $C$ is a random noise constant
+        from the low frequency noise, and $R_{Ts5/Ts4}$ is the ratio between
+        the signal contribution from time slice 5 over time slice 4.
+      Fig.~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
+        fraction and validates the unconventional method of using the falling 
+        tail of the signal to estimate the low frequency noise. 
+      By using time slice 5 the chances measuring the noise are maximized 
+        allowing for the possiblity to sperate the signal from the noise and
+        measure the ZDC signal near noise at the bottom of the ZDC dynamic 
+        range.
+      \begin{figure}[!Hhbt]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=.4\textwidth]{negTs5overTs4vts5} &
+          \includegraphics[width=.4\textwidth]{posTs5overTs4vts5}
+        \end{array} $  
+        \caption{ The fraction of signal in time slice 5 over time slice 4 
+          as a function of the signal in time slice 5 in ZDC$^{-}$ (left) and 
+          ZDC$^{+}$ (right).}
+        \label{fig:zdcTs4OvTs5VTs5}
+      \end{figure}
+      
+      To measure one signal value for ZDC$^{+}$ and one for ZDC$^{-}$, the 
+        signals from each of the channels are combined.
+      Channels from the EM section and HD section are combined first. 
+      Only channels with signal above zero in time slice 5 and time slice 
+        4 are included. 
+      The EM section of the calorimeter is more densely packed with optical 
+        fibers and therefore has a higher gain relative to the HAD section. 
+      To account for this, the combination of EM channels is weighted with
+        a factor of 0.1 to match the HAD channel gains.
+      The value for each side of the ZDC's signal is given by the sum of the 
+        HAD channel combination and weighted EM channel combination.
+      It is this signal, one for ZDC$^{+}$ and one for ZDC$^{-}$, 
+        which is plotted to measure the neutron thresholds.
 
-      As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
-        signal time slices and uses the maximum number of "clean" non signal 
-        time slices to estimate the noise pedestal event by event.
-      This minimizes the effect of random noise time slice by time slice by 
-        averaging over the maximum number of time slices per event. 
+    \subsection{Determination of the one neutron thresholds}
+      The ZDC thresholds used to establish the various break-up modes were 
+        measured from zero bias data.
+      By using this dataset, the spectrum does not contain a trigger bias. 
+      The trigger requirement for the zero bias events is that both beams were 
+        present in CMS.
+      This does however include a significant electronic noise contribution due
+        to events where no neutrons are emitted in the direction of the ZDC.
 
-      Method 2 uses only the two time slice that are most likely to be above 
-        zero. 
-      Because all signal that is less than zero is not measured, method 1 
-        only allows for a noise pedestal measurement half the time.
+      To determine the thresholds for one and multiple neutrons, the ZDC$^{+}$ 
+        and ZDC$^{-}$ spectra are fit.
+      Four Gaussian functions were combined to fit the spectra. 
+      The electronic noise was fit to a Gaussian about zero.
+      The one, two, and three neutron peaks are fit to Gaussians that are 
+        successively broader.
+      The mean of each peak was initially set to multiples of the mean of the 
+        one neutron peak. 
+      \begin{figure}[!Hh]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
+          \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
+        \end{array} $
+        \caption{Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ 
+          (right)}
+        \label{fig:zdcM2Fit}
+      \end{figure}
+      The threshold for a neutron in the ZDC was taken from the fits in 
+        Fig.~\ref{fig:zdcM2Fit}.
+      Any signal greater 2 $\sigma$ below the mean of the one neutron peak was 
+        considered signal.
+      Any signal greater than 2 $\sigma$ above was considered multiple 
+        neutrons.
+      In this way the single neutron break up modes could be separated from the
+        multiple neutron modes.
 
-      The noise spectrum was measured from the pre collisions time slices. 
-      Each time slice in Fig.~\ref{fig:zdcPulseShape} is 25 ns in length.
+      Several of the break-up mode calculations that have been done involve
+        single sided configurations where neutrons are present on one side
+        of the interaction point and not the other.
+      To identify signal consistent with noise, noise distributions for the 
+        combined EM sections and the combined HAD sections were measured.
+      The beams are only made to collide every 200 ns. 
       In Fig.~\ref{fig:zdcPulseShape} higher than average signal can be seen
-        in the 0th time slice. 
+        in the 0th time slice, which precedes the main signal time slice 
+        time slice 4 by 200 ns. 
       This is due to events where activity was present in the ZDC for 
-        two consecutive bunch crossings, and corresponds to a separation of 200
-        ns.
-      Time slices 1 and 2 are therefore occurred between colliding bunch 
-        crossings.
+        two consecutive collisions.
+      Time slices 1 and 2, however, occurred between collisions.
       These time slices were used to estimate the noise spectrum.
-
       \begin{figure}[!Hhbt]
         \centering
         $ \begin{array}{cc}
@@ -464,103 +559,16 @@
 
       Fig~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
         EM and HAD sections for the two sides of the ZDC. 
-      The spectra determined which sections contain only noise. 
-      
-      From these two methods the ZDC+ and ZDC- energy spectra near the 
-        one neutron peak are plotted in Fig.~\ref{fig:zdcSpec2v1}.
-      While method 1 in blue and method 2 in red not differ much in ZDC-, 
-        the clear separation of the one neutron peak signal from the noise 
-        peak about zero is evident. 
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=\textwidth]{zdcSpec2v1}
-        \caption{Comparison of ZDC signal reconstruction methods.}
-        \label{fig:zdcSpec2v1}
-      \end{figure}
-
-    \subsection{Determination of the one neutron thresholds}
-      The ZDC thresholds used to establish the break-up mode were measured from
-        zero bias data.
-      By using this dataset, the spectrum does not contain a trigger bias. 
-      The trigger requriment in the event is that both beams were present in 
-        CMS.
-      This does however include a significant electronic noise contribution due
-        to events where no neutrons are emitted in the direction of the zdc.
-      To sperate the signal from the electronic noise additional cuts are 
-        applied in the zero bias data.
-
-      In Fig.~\ref{fig:zdcPulseShape} the pulse shape peaks in the peaks in the
-        fourth time slice, for electronic noise however, any of the ten time 
-        slices are equally likely to have a peak value.
-      Using this fact, signal can be preferably selected by requiring that the
-        hadronic channels of the ZDC have a peak signal in the fourth time 
-        slice.
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoInc}
-        \caption{Effects of requiring in time signal in ZDC hadronic 
-          channels.}
-        \label{fig:zdcTimingCuts}
-      \end{figure}
-      In Fig.~\ref{fig:zdcTimingCuts} no noise subtraction is used. 
-      As each additional hadronic channel is required to have a maximum signal
-        in the fourth time slice, the single neutron peak emerges. 
-      Using the noise subtraction method described by Method 1, the same signal
-        emerges.
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoSub}
-        \caption{Effect of ZDC signal timing requirements after noise 
-          subtraction.}
-        \label{fig:zdcTimingAfterNoiseSub}
-      \end{figure}
-      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms that both noise 
-        subtraction and the timing require produce the same signal.
-      This gives confidence that the signal is not an artifact of either cut, 
-        but the true neutron signal. 
-
-      Fig.~\ref{fig:zdcTimingAfterNoiseSub} and Fig.~\ref{fig:zdcSpec2v1} 
-        demonstrate the consistence of the using timing cuts and noise 
-        subtraction to enhance the signal neutron peak. 
-      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms the legitimacy of the 
-        noise subtraction method in ZDC$^{-}$ by showing the that the same signal
-        emerges from the noise subtraction method as the timing method.
-      Fig.~\ref{fig:zdcSpec2v1} demonstrates the corresponds between between
-        noise subtraction method 1 and method 2 on in ZDC$^{-}$ where signal is 
-        better separated from the electronic noise. 
-      This allows for confidence that the signal seen in ZDC$^{+}$ using method 2 
-        is the one neutron peak.
-
-      The spectrum for method 1 and 2 are fit to a series of Gaussians.
-      \begin{figure}[!Hh]
-        \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=0.45\textwidth]{zdcMinusZBFitTimeCut} &
-          \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
-        \end{array} $
-        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
-          method 1}
-        \label{fig:zdcM1Fit}
-      \end{figure}
-      The electronic noise is fit to a Gaussian about zero.
-      The one, two, and three neutron peaks are fit Gaussians that are 
-        successively broader.
-      The mean of each peak was initially set to multiples of the mean of the 
-        one neutron peak. 
-      \begin{figure}[!Hh]
-        \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
-          \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
-        \end{array} $
-        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
-          method 2}
-        \label{fig:zdcM2Fit}
-      \end{figure}
-      The threshold for a neutron in the ZDC was taken from the fits in 
-        Fig.~\ref{fig:zdcM1Fit} and Fig.~\ref{fig:zdcM2Fit}.
-      Any signal greater 2 $\sigma$ below the mean of the one neutron peak was 
-        considered signal. 
+      As with the signal measurements, the low frequency noise pedestal is 
+        subtracted event by event by subtracting time slice 2 from time slice
+        one before the channel signals are combined for each section.
+      A side is considered consistent with noise if both HAD section and EM 
+        section signal measurements from the signal method involving time slice
+        4 and time slice 5 are lower than 2 sigma below the mean in 
+        Fig.~\ref{fig:zdcNoiseSpectra}.
+      With the single nuetron, multi-neutron, and noise thresholds established,
+        the contributions to the various break-up modes were estimated and 
+        compared to theory. 
 
   \section{\label{sec:sigEx} Signal extraction}
     The invariant mass distribution for opposite sign dimuons is shown in 
@@ -581,38 +589,38 @@
       \label{fig:massFit}
     \end{figure}
    
-    The p$_{T}$ spectrum is fit using templates from the three physics MC 
+    The $p_{T}$ spectrum is fit using templates from the three physics MC 
       samples. 
     These contributions display a different shape in transverse momenta. 
     For this reason, the number of coherent J/$\psi$ candidates were extracted 
-      from the dimuon p$_{T}$ distribution, around the J/$\psi$ mass, 
+      from the dimuon $p_{T}$ distribution, around the J/$\psi$ mass, 
       after fitting together MC templates for both signal and background.
     The templates for the fit come form the three STARlight MC samples. 
 
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{ptOnly}
-      \caption{ Fit to MC p$_{T}$ templates. }
+      \caption{ Fit to MC $p_{T}$ templates. }
       \label{fig:ptTemps}
     \end{figure}
 
     The shape of the photon-photon process and coherent J/$\psi$ are very 
-      similar in p$_{T}$.
+      similar in $p_{T}$.
     These two shapes normalizations are highly anti-correlated in the fit 
       (see Fig.~\ref{fig:ptOnlyCor}).
 
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{nCoNGammaCorPtOnly}
-      \caption{68\%, 95\%, and 99\% confidence contours from the p$_{T}$ 
+      \caption{68\%, 95\%, and 99\% confidence contours from the $p_{T}$ 
         template fit. }
       \label{fig:ptOnlyCor}
     \end{figure}
 
     To utilize the mass fits ability to distinguish the photon-photon process 
-      from the coherent and incoherent process all while utilizing the p$_{T}$
+      from the coherent and incoherent process all while utilizing the $p_{T}$
       fits ability to separate the coherent and photon-photon processes from 
-      the incoherent, a simultaneous fit to the mass spectrum and p$_{T}$ 
+      the incoherent, a simultaneous fit to the mass spectrum and $p_{T}$ 
       spectrum was preformed.
     In the simultaneous fit, the parameter for the contribution from the 
       photon-photon process is shared by the two fits.
@@ -620,7 +628,7 @@
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.9\textwidth]{ptMassSimGaussLine}
-      \caption{Simultaneous fit to the mass and p$_{T}$ spectra.}
+      \caption{Simultaneous fit to the mass and $p_{T}$ spectra.}
       \label{fig:simFitMassPtGauss}
     \end{figure}
 
@@ -678,7 +686,7 @@
       Fig.~\ref{fig:muonDaughterDet} shows the efficiency for reconstructing
         single muons from coherent J/$\psi$ events.
       To avoid the edges of the detectors acceptance, all reconstructed muons 
-        that fall into a (p$_{T}$,$|\eta|$) bin that has an efficiency less 
+        that fall into a ($p_{T}$,$|\eta|$) bin that has an efficiency less 
         than 20\% were rejected thus defining the detectability region.
       The acceptance for reconstructing dimuons was calculated from MC
         using the following formula:
@@ -690,7 +698,7 @@
         daughters fall in to the detectability region, and $N_{gen}$ is the
         number of generated dimuons. 
       From Eq.~\ref{eq:jpsiAccEq}, the acceptance for $J/\psi$ was calculated
-        as a function of $|y|$, and p$_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
+        as a function of $|y|$, and $p_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
         \begin{figure*}[!Hhtb]
           \centering
           $ \begin{array}{cc}
@@ -716,8 +724,8 @@
       The second comes from pairs where the probe is a passing probe.  
       The last histogram comes from pairs where the probe fails to fulfill
         the trigger, \textit{i.e.} the probe is a failing probe. 
-      Because this depends on the p$_{T}$ and $|\eta|$ of the probe, one set 
-        of three histograms for each (p$_{T}$,$|\eta|$) bin of the probe is 
+      Because this depends on the $p_{T}$ and $|\eta|$ of the probe, one set 
+        of three histograms for each ($p_{T}$,$|\eta|$) bin of the probe is 
         created.
 
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
@@ -745,12 +753,12 @@
         \caption{Fits to tag and probe pairs in the J/$\psi$ mass region.}
         \label{fig:tnpFitPlot}
       \end{figure}
-      This fit is done for each bin of the probes p$_{T}$ and $\eta$.
+      This fit is done for each bin of the probes $p_{T}$ and $\eta$.
       The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
-        \caption{Muon trigger efficiencies in p$_{T}$ and $\eta$ bins from 
+        \caption{Muon trigger efficiencies in $p_{T}$ and $\eta$ bins from 
           the tag and probe method.}
         \label{fig:tnpTrigMap}
       \end{figure}
@@ -771,14 +779,14 @@
         probability that neither daughter fires the trigger,
         thus giving the dimuon trigger efficiency. 
 
-      The average dimuon trigger efficiency for each dimuon (p$_{T}$,$|y|$) bin
+      The average dimuon trigger efficiency for each dimuon ($p_{T}$,$|y|$) bin
         was calculated by averageing the individual dimuon candidates in each
         bin. 
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{averageTriggerEff}
         \caption{The trigger efficiency from tag and probe averaged over candidates
-          in each (p$_{T}$,$|y|$) bin.}
+          in each ($p_{T}$,$|y|$) bin.}
         \label{fig:avTrigEffCo}
       \end{figure}
       The average trigger efficiency was multiplied by the acceptance from the MC 
@@ -893,7 +901,7 @@
           RecHits & 298 & 290 \\ \hline
           CaloTowers & 302 & 288 \\ \hline
         \end{tabular}
-        \caption{Candidate yields below 1.05 GeV p$_{T}$ for various HF noise
+        \caption{Candidate yields below 1.05 GeV $p_{T}$ for various HF noise
           cuts.}
         \label{tab:hfCutYieldEffects}
       \end{table}
@@ -956,7 +964,7 @@
       \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-        \caption{Comparison of the of the dimuon p$_{T}$ distributions 
+        \caption{Comparison of the of the dimuon $p_{T}$ distributions 
           between coherent MC sample and Data.}
         \label{fig:jpsiPtCoherent}
       \end{figure}
@@ -979,7 +987,7 @@
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=.6\textwidth]{ptOnly}
-        \caption{Coherent, incohernt, and photon-photon process p$_{T}$ template fit to data.}
+        \caption{Coherent, incohernt, and photon-photon process $p_{T}$ template fit to data.}
         \label{fig:ptTempFit}
       \end{figure}
 
@@ -993,9 +1001,9 @@
 
       The systematic uncertainty for the contribution to the three components
         of the signal was estimated by varying the mass fit.
-      Because the mass fit is used to fix the contribution to the p$_{T}$ 
+      Because the mass fit is used to fix the contribution to the $p_{T}$ 
         spectrum of the photon-photon process, the change of the mass fit
-        results in different coherent contributions from the p$_{T}$ template
+        results in different coherent contributions from the $p_{T}$ template
         fit.
 
       \begin{figure}[!Hhbt]
@@ -1008,7 +1016,7 @@
           \includegraphics[width=.3\textwidth]{gausLin} &
           \includegraphics[width=.3\textwidth]{gausCC}
         \end{array} $
-        \caption{Various mass distribution fits and the corresponding p$_{T}$
+        \caption{Various mass distribution fits and the corresponding $p_{T}$
           template fit.}
         \label{fig:massPtFitsForSyst}
       \end{figure}
@@ -1051,18 +1059,18 @@
       In the Gaussian fit the lower mass tail is considered to be background and 
         the signal is sharper.
 
-      As check on the simultaneous p$_{T}$ and mass fit, the mass fit is done
+      As check on the simultaneous $p_{T}$ and mass fit, the mass fit is done
         using mass templates from STARlight.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{ptMassSimTemp}
-        \caption{Simultaneous fit to the mass and p$_{T}$ using mass templates
+        \caption{Simultaneous fit to the mass and $p_{T}$ using mass templates
           for the mass fit. }
         \label{fig:simFitTemp}
       \end{figure}
 
     \subsection{MC acceptance}
-      To estimate the effect of the GEN level p$_{T}$ distribution on the 
+      To estimate the effect of the GEN level $p_{T}$ distribution on the 
         acceptance the incoherent sample was used to correct the coherent 
         yield.
       \begin{figure}[!Hhbt]
@@ -1080,6 +1088,85 @@
         \caption{Yields corrected by an unpolarized J/$\psi$ sample.}
         \label{fig:coYieldGaussCor}
       \end{figure}
+
+    \subsection{ZDC reconstruction}
+       As seen in Fig~\ref{fig:zdcPulseShape}, method 1 uses all the dominant 
+        signal time slices and uses the maximum number of "clean" non signal 
+        time slices to estimate the noise pedestal event by event.
+      This minimizes the effect of random noise time slice by time slice by 
+        averaging over the maximum number of time slices per event. 
+
+      Method 2 uses only the two time slice that are most likely to be above 
+        zero. 
+      Because all signal that is less than zero is not measured, method 1 
+        only allows for a noise pedestal measurement half the time.
+
+      The ZDC$^{+}$ and ZDC$^{-}$ signals near the one neutron peak are 
+        plotted in Fig.~\ref{fig:zdcSpec2v1}.
+      While method 1 in blue and method 2 in red not differ much in ZDC-, 
+        the clear separation of the one neutron peak signal from the noise 
+        peak about zero is evident. 
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=\textwidth]{zdcSpec2v1}
+        \caption{Comparison of ZDC signal reconstruction methods.}
+        \label{fig:zdcSpec2v1}
+      \end{figure}
+
+       In Fig.~\ref{fig:zdcPulseShape} the pulse shape peaks in the peaks in the
+        fourth time slice, for electronic noise however, any of the ten time 
+        slices are equally likely to have a peak value.
+      Using this fact, signal can be preferably selected by requiring that the
+        hadronic channels of the ZDC have a peak signal in the fourth time 
+        slice.
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoInc}
+        \caption{Effects of requiring in time signal in ZDC hadronic 
+          channels.}
+        \label{fig:zdcTimingCuts}
+      \end{figure}
+      In Fig.~\ref{fig:zdcTimingCuts} no noise subtraction is used. 
+      As each additional hadronic channel is required to have a maximum signal
+        in the fourth time slice, the single neutron peak emerges. 
+      Using the noise subtraction method described by Method 1, the same signal
+        emerges.
+       \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoSub}
+        \caption{Effect of ZDC signal timing requirements after noise 
+          subtraction.}
+        \label{fig:zdcTimingAfterNoiseSub}
+      \end{figure}
+      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms that both noise 
+        subtraction and the timing require produce the same signal.
+      This gives confidence that the signal is not an artifact of either cut, 
+        but the true neutron signal.
+
+      The spectrum for method 1 and 2 are fit to a series of Gaussians.
+      \begin{figure}[!Hhtb]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=0.45\textwidth]{zdcMinusZBFitTimeCut} &
+          \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
+        \end{array} $
+        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
+          method 1}
+        \label{fig:zdcM1Fit}
+      \end{figure}
+
+       Fig.~\ref{fig:zdcTimingAfterNoiseSub} and Fig.~\ref{fig:zdcSpec2v1} 
+        demonstrate the consistence of the using timing cuts and noise 
+        subtraction to enhance the signal neutron peak. 
+      Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms the legitimacy of the 
+        noise subtraction method in ZDC$^{-}$ by showing the that the same signal
+        emerges from the noise subtraction method as the timing method.
+      Fig.~\ref{fig:zdcSpec2v1} demonstrates the corresponds between between
+        noise subtraction method 1 and method 2 on in ZDC$^{-}$ where signal is 
+        better separated from the electronic noise. 
+      This allows for confidence that the signal seen in ZDC$^{+}$ using method 2 
+        is the one neutron peak.
+ 
     \subsection{ZDC efficiency}
       To estimate systematic errors in the ZDC trigger efficiency, the trigger
         efficiency was measured from five additional samples. 
