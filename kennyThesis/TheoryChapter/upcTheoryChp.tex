@@ -801,7 +801,168 @@
 
 
   \section{Photon Induced Nuclear Break-up}
+    Two different approaches are discussed.
+    The first is to measure the desired cross-section directly.
+    This can be done by bombarding the target material with mono-energetic real photons, varying the energies of the photons over a range of frequencies, and extrapolating that data up to the photon energies that arise in the Weizäcker-Williams approximation [3].
+    The other approach is to create a theoretical model of how the target reacts to a photon flux [4].
+    In the theoretical model that will be discussed in this paper, the photonuclear cross-section, the cross-section governing the absorption of photons by a nucleus, is formulated as the sum of two other cross-sections that are known better.
+    In both, the more detailed theoretical approach and the empirical approach to the problem, the interaction of the Weizäcker-Williams quasi-real photons is assumed to be identical to the interaction of real photons with the target.
 
+    To model the interaction of the photons with the target nuclei, as done in Ref.
+    [4], the photonuclear cross-section is broken down into two parts.
+    
+    (16)
+    The Giant Dipole Resonance (GDR) cross-section dominates at lower photon frequencies and is the result of the collective motion of the protons relative to the neutrons.
+    The Quasi-Deuterium (QD) cross-section dominates at higher photon energies and is the result of treating the nucleus as a collection of proton-neutron pairs, which is deuterium.
+
+    The giant dipole resonance has been studied for decades.
+    In 1947, Baldwin and Klaiber first observed the giant dipole resonance [6].
+    At the General Electric Research Laboratory, Baldwin and Klaiber found that by bombarding a uranium target with photons in the range 10 – 100 MeV, a peak in the spectrum was found for photons at 20 MeV.
+    A year later, Goldhaber and Teller theorized that this was the result of the protons moving back and forth with respect to the neutrons [6].
+    In this model, the protons and neutrons are treated as two separate liquid dots.
+    Then in 1950, Steinwedel and Jensen modified this theory by modeling the protons and neutrons as fluids contained in a single sphere rather than two separate dots moving back and forth [6].
+    
+    In order to understand the Goldhaber and Teller model, it is useful to consider a nucleus where the number of protons and neutrons are equal, Z=A/2.
+    The collection of protons and the collection of neutrons move opposite each other and only in the z direction.
+    In order to construct a Hamiltonian, first the kinetic energy should be considered.
+    
+    (17)
+    Eq.
+    17 is the familiar equation for kinetic energy simply summed over all the constituent nucleons of the nucleus.
+    The protons and neutrons are modeled as separate liquid drops with densities $\rho$p and  $\rho$n.
+    These liquid dots will oscillate back and forth in opposite phase relative to the center of mass maintaining there individual density profiles.
+    
+    The potential holding protons and neutrons together depends on the difference of the two densities squared.
+    If the two exactly overlap, there is no difference in the densities and the potential energy is zero.
+    If the two density distributions are separated, there will be regions where the neutron density is greater and regions where the proton density is greater.
+    In the separated configuration, there will be potential energy.
+    The potential energy can be shown to have the form of a harmonic oscillator with a spring constant that depends on the initial density distribution [6].
+
+    (18)
+    If the nucleus has a shape cut off in density at it's very edge, then the integral is dominated  by the region at the surface, and the spring constant K becomes proportional to the mass number to the 2/3rds power, A2/3.
+    This is the consequence of the of geometry of a sphere.
+    The surface area of a sphere is proportional to its volume to the 2/3rds power.
+    Recalling the angular frequency of a harmonic oscillator,
+    (19)
+    it is seen that the frequency of the giant dipole resonance in the Goldhaber and Teller model is proportional to the mass number to the negative 1/6th power, A-1/6.
+    This dependence describes light nuclei well, but it does not describe heavier nuclei [6].
+
+    In order to describe heavier nuclei, the Steinwedel and Jensen model must be used.
+    In the  Steinwedel and Jensen model, the proton and neutron fluids are confined to a single sphere where they are allowed to slosh back and forth creating the same effect as the Goldhaber and Teller model.
+    In this model, there is no global separation of the proton and neutron fluids.
+    The dipole is created by underdensities and overdensities of the proton and neutron fluids.
+    It can be shown that this results in a frequency of oscillation which depends on one over the radius of the nucleus [6]:
+    (20)
+    As before, the relationship in Eq.
+    20 arises from the geometry of a sphere.
+    The dependence of the giant dipole resonance that is seen in the Steinwedel and Jensen describes medium and heavier mass nuclei well.
+    Empirically, both models are stitched together to give the following mass number dependence of the peak dipole resonance [6].
+
+    (21)
+    In order to compute the effect of an excitation in either model, the harmonic oscillator solutions found earlier can be driven by an interacting force.
+    The resulting differential equation can then be solved using a Fourier transform to eliminate the time derivatives and reduce the equation to an algebraic equation.
+    Following this procedure produces the shape of energy dependence of the giant dipole resonance, and this gives a cross-section for photon absorption by the giant dipole resonance with Lorentzian form [6]:
+    (22)
+    here $\sigma$max is the maximum cross-section, when E$\gamma$g = EGDR, EGDR is the peak resonance energy, and $\Gamma$GDR is the width of the resonance.
+    The width, $\Gamma$GDR, of this distribution lies in a range from 4-8 MeV and depends on the orbital arrangement to the neutrons and protons in the given nucleus [6].
+    
+    For higher energy photons, the quasi-deuterium cross-section is needed.
+    The quasi-deuterium approach amounts to treating the nucleus as a bunch of proton-neutron pairs, which are screened by the rest of the nucleus.
+    Eq.
+    23 models this behavior [4].
+    
+    (23)
+    Here $\sigma$d is the deuterium disintegration cross-section for $\gamma$g+d $\rightarrow$ p+n.
+    F is a function that arising from Pauli blocking of fermions, and L is an empirical parameter set by data that is equal to 6.5.
+    Certain energy levels are not available to the products of the deuterium disintegration process because of the presence of the rest of the nucleus.
+    The result is a reduction of the cross-section.
+    
+    F can be modeled with an exponential cutoff below 20 MeV, a polynomial in the intermediate range with nearly linear dependence on E$\gamma$g, and above 140 MeV an inverted exponential pushing F to one at higher values of E$\gamma$g [4].
+    Essentially, the model at low photon energies disallows deuterium disintegration because the products have no available state to occupy, and at high energies the rest of the nucleus becomes transparent and looks more and more like a collection of deuterium.
+    The deuterium disintegration cross-section is found empirically and is fit to the following function [4]:
+    (24)
+    In order to produce a final state for the target nucleus, a branching ratio is needed.
+    The branching ratio gives the probability that the photo-excited nucleus will end up in a particular state.
+    This determines the sort of emission that will result from the de-excitation process.
+    There are two phases of deexcitation, the nonequlibrium phase and the equilibrium phase.
+    In the time before reaching equilibrium, fast nucleons are emitted.
+    Subsequently, in the equilibrium phase, slow nucleons evaporate.
+    These two phases are simulated in complex computer codes that calculate branching ratios (see discussion in Ref.
+    [4]).
+
+    All the tools are now assembled to calculate the cross-section for any particular electromagnetic dissociation process.
+    The first step in the calculation is to assume that the number of photons absorbed by either nucleus in the collision obeys the Poisson distribution [3,4].
+    An average number of absorptions is calculated and used in the construction of the distribution.
+
+    (25)
+    When using the model of Ref.
+    [4], the cross-section involved in Eq.
+    25 will be the photonuclear cross-section, and the calculation will produce the average number of photons absorbed by the target.
+    If instead the empirically measured photoneutron cross-section is used as in Ref.
+    [3], the mean calculated in Eq.
+    25 will be the number of photons absorbed that result in neutron emission from the target.
+    This restricts the calculation to only de-excitation modes that produce neutrons.
+    Both averages are for a given impact parameter b.
+
+    Following Ref.
+    [3] and using the experimentally measured photoneutron cross-section, the probability Pn for the target to produce a number of neutrons, k, due to the photon flux of the projectile can be calculated using Eq.
+    26.
+
+    (26)
+    This is just the Poisson distribution.
+    In the collider situation, where both nuclei can be treated as the target and the projectile, the probability of mutual emission, one nucleus emitting x neutrons and the other emitting y neutrons, can be calculated from Eq 27.
+
+    (27)
+    It is also interesting to consider the situation where at least one neutron is emitted.
+    This can be calculated by subtracting the probability of no neutrons being emitted from one.
+
+    When using the model of Ref.
+    [4], a branching ratio is needed to calculate the probability of de-exciting into a given state.
+    The probability of photon absorption is calculated as in Eq.
+    26, only using the model of Ref.
+    [4].
+    This is the probability of the target absorbing k photons rather than then the nucleus absorbing a photon and emitting a neutron.
+    In Ref.
+    [4], the probability of any final state i due to the absorption of a single photon can be calculated using Eq.
+    28.
+
+    (28)
+    Here Pa is the probability that the target absorbs a single photon as calculated by Eq.
+    26, q is the probability that the photon will have the frequency $\omega$, and fi is the branching ratio.
+    The following equation describes q [5].
+
+    (29)
+    By multiplying Eq.
+    26 and 29 in Eq.
+    28, the m(b) terms cancel and produce a simplified equation.
+    The forms for probability functions, like Eq.
+    28, that involve absorption of multiple photons have additional terms.
+    But they follow that same scheme of multiplying the probability of absorption times the probability that the absorbed photon has a particular frequency times the branching ratio.
+
+    The probability functions Eq.
+    26 and Eq.
+    28 can than be used to produce cross-sections.
+    For any given process, using Eq.
+    28 can be used by inserting the appropriate branching ratio.
+    For emission of neutrons, Eq.
+    26 can be used.
+    This is done by integrating over the impact parameter to get an area that is weighted by the probability functions [3,4].
+
+    (30)
+    If the branching ratio for neutron emission is selected in Eq.
+    28, then Eq.
+    28 and Eq.
+    26 can be used to compute the same cross-section through the use of Eq.
+    30.
+    
+    Three parameters arise when calculating the cross-section in Eq.
+    30, the minimum impact parameter bo, the minimum emitted photon frequency $\omega$min, and the maximum emitted photon frequency $\omega$max.
+    The need for a minimum impact parameter is necessitated by the Bessel function in the photon flux in Eq.
+    14.
+    At zero, the modified Bessel function does not converge.
+    Physically, a minimum impact parameter is selected in order to separate the domains between electromagnetic interactions and the strong interactions that happen inside the nucleus.
+    To serve this end, the minimum impact parameter is set to the radius of the nuclei [3,4].
+    This excludes collisions where the nuclei overlap in the calculation, and assures only electromagnetic interactions are involved.
 
   \section{Theoretical Results}
   The UPC photoproduction cross section calculations depend significantly on 
