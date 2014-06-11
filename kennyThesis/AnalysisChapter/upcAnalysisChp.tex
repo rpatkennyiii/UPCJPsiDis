@@ -2,7 +2,7 @@
   \section{\label{sec:mcSim} MC Simulation}
     Every physical measurement is the product of the underlaying physics 
       convolved with the response of the detector used to do the measurement. 
-    In order to understand the underlaying physical process the detector's 
+    In order to understand the underlaying physical process, the detector's 
       effect on the measurement must be understood and accounted for. 
     As instruments become more and more complicated, the interplay between all
       of the many parts of the detector makes an analytic approach to the 
@@ -13,13 +13,13 @@
     MC simulations use random number generation to solve the problem 
       numerically by brute force. 
     First, particles are generated according the theoretical distributions.
-    This particles are then propagated through the detector.
+    These particles are then propagated through a simulation of the detector.
     As the particles pass through the detector, random numbers are again used
       to determine how these particles interact with the materials of the 
-      detector based on the know properties of the material. 
-    In this way, the theoretical distributions are merged with the complex 
+      detector based on the known properties of the material. 
+    In this way, the theoretical distributions are merged with the complicated 
       response of the detector. 
-    The collective combination of the many sub detectors response with the 
+    The collective combination of the many sub detectors responses with the 
       theoretical distributions emerges from the successive creation of random
       events.
     The result is the convolved response of the detector with the underlaying 
@@ -72,14 +72,14 @@
       of the detector simulation, and last, the output of the reconstruction
       is reduced to the information that is needed for the final analysis.
 
-    The particle gun samples were created entirely within the CMSSW.
+    The particle gun samples were created entirely within CMSSW.
     An interface to PYTHIA6 is included within CMSSW, which takes the J/$\psi$
       $p_{T}$ and rapidity distributions as input. 
-    The J/$\psi$ are created according to the input distributions and than 
+    The J/$\psi$ are created according to the input distributions and then uses
       PYTHIA6 to $\mu^{+}$ and $\mu^{-}$.
     As with the STARlight samples these muons are propagated through the GEANT4
-      simulation of the detector and the raw data is produced.
-    The remain steps of running the reconstruction code and reducing the 
+      simulation of the detector, and the raw data is produced.
+    The remaining steps of running the reconstruction code and reducing the 
       data to the final data needed for the analysis is identical to the 
       STARlight production.
 
@@ -570,32 +570,59 @@
         the contributions to the various break-up modes were estimated and 
         compared to theory. 
 
+
   \section{\label{sec:sigEx} Signal extraction}
+    After all event selection cuts, the coherent J/$\psi$, incoherent J/$\psi$,
+      and photon-photon process all contribute to the remaining events.
+    Each process must be separated from the final mix.
+    To achieve this, the invariant mass and $p_{T}$ distributions are used 
+      to distinguish between the three processes. 
+    The photon-photon process is extended in invariant mass whereas the 
+      J/$\psi$ is peak strongly near 3.1 GeV.
+    In $p_{T}$ the photon-photon and coherent process have similar 
+      distributions, both peaked shapely below 0.1 GeV, whereas the incoherent 
+      process is more broadly distributed across an interval extending to 
+      nearly 1 GeV.
+    The mass distribution was fitted to separate the photon-photon process from
+      the J/$\psi$ process.
+    The $p_{T}$ distribution was used to separate the incoherent process from 
+      the photon-photon process, and the coherent process. 
+    In this way, a separate yield was extracted for all three processes. 
+    
     The invariant mass distribution for opposite sign dimuons is shown in 
-      Figure~\ref{fig:massFit}. 
-    A J/$\psi$ signal is clearly visible together with tails at higher and lower 
-      mass due to the photon-photon process.
-    A fit to the invariant mass distribution was done using a Gaussian and a 
-      Crystal Ball function to account for the J/psi signal and a first and 
-      second order polynomial function for the photon-photon process.
+      Fig.~\ref{fig:massFit}. 
+    A J/$\psi$ signal is clearly visible together with tails at higher and in
+      lower mass due to the photon-photon process.
+    A fit to the invariant mass distribution was done using a Gaussian
+      to account for the J/$\psi$ signal and a first order polynomial function 
+      for the photon-photon process.
     The extracted number of J/$\psi$ candidates from this fit includes all 
-      J/$\psi$s in the mass window that pass the analysis cuts.
+      J/$\psi$s in the mass window that passed the analysis cuts, i.e. both
+      coherent and incoherent process contribute to yield from the mass
+      fit.
+    The $p_{T}$ distribution is needed to separate the two different 
+      contributions to the J/$\psi$ peak. 
 
     \begin{figure}[!Hhtb]
       \centering
       \includegraphics[width=.6\textwidth]{massFitSimple}
       \caption{Mass fit to J/$\psi$ using Gaussian for the 
-        signal and a first order polynomial for the background}
+        signal and a first order polynomial for the photon-photon continuum}
       \label{fig:massFit}
     \end{figure}
    
-    The $p_{T}$ spectrum is fit using templates from the three physics MC 
-      samples. 
-    These contributions display a different shape in transverse momenta. 
-    For this reason, the number of coherent J/$\psi$ candidates were extracted 
-      from the dimuon $p_{T}$ distribution, around the J/$\psi$ mass, 
-      after fitting together MC templates for both signal and background.
-    The templates for the fit come form the three STARlight MC samples. 
+    The same candidates from Fig.~\ref{fig:massFit} are plotted as a function
+      of $p_{T}$ in Fig.~\ref{fig:ptTemps}.
+    The clear overlap of the coherent and photon-photon process, and the 
+      clear separation of these two lower $p_{T}$ processes from the incoherent
+      process are apparent.
+    The shape of the $p_{T}$ distribution for the coherent, incoherent, and 
+      photon-photon process are taken from the final output of MC after
+      applying all analysis cuts. 
+    To obtain the yields for each of the three process, the $p_{T}$ 
+      distribution was fit to the three templates.
+    In Fig.\ref{fig:ptTemps}, the yield parameters that were fit were left
+      unconstrained for all three process.
 
     \begin{figure}[!Hhbt]
       \centering
@@ -606,8 +633,19 @@
 
     The shape of the photon-photon process and coherent J/$\psi$ are very 
       similar in $p_{T}$.
-    These two shapes normalizations are highly anti-correlated in the fit 
-      (see Fig.~\ref{fig:ptOnlyCor}).
+    Accordingly, the contribution from the photon-photon process and the 
+      coherent process are difficult to separate from the $p_{T}$ distribution.
+    The confidence contours in Fig.~\ref{fig:ptOnlyCor} from the template fit
+      in Fig.~\ref{fig:ptTemps} demonstrate the strong anti-correlation 
+      between the coherent yield parameter, $nCo$, and the yield parameter 
+      for the photon-photon process, $nGamma$.
+    Because of the anti-correlation, the statistical uncertainty on $nCo$ and 
+      $nGamma$ from the fit are larger than $\sqrt{nCo}$ and $\sqrt{nGamma}$
+      expected from Poisson statistics. 
+    The information from the invariant mass and $p_{T}$ distributions was 
+      combined to break this correlation. 
+    Through this combination, the contribution to the final yield from 
+      the three process was measured.
 
     \begin{figure}[!Hhbt]
       \centering
@@ -622,9 +660,18 @@
       fits ability to separate the coherent and photon-photon processes from 
       the incoherent, a simultaneous fit to the mass spectrum and $p_{T}$ 
       spectrum was preformed.
-    In the simultaneous fit, the parameter for the contribution from the 
-      photon-photon process is shared by the two fits.
-    
+    Fig.~\ref{fig:simFitMassPtGauss} shows the result of the simultaneous fit.
+    The simultaneous fit forces the parameter $nGamma$ to both describe the 
+      photon-photon continuum present in the side bands of the J/$\psi$ mass 
+      peak as well the photon-photon contribution to the low-$p_{T}$ part of 
+      the $p_{T}$ spectrum.
+    In addition, the J/$\psi$ yield from the mass fit is forced to equal the
+      contribution from from the incoherent and coherent process in the 
+      fit to the $p_{T}$ distribution. 
+    In this way, the correlation between the yield parameters was broken, and 
+      the contribution from the three process are left independent of each 
+      other.
+      
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.9\textwidth]{ptMassSimGaussLine}
@@ -632,15 +679,23 @@
       \label{fig:simFitMassPtGauss}
     \end{figure}
 
-    By simultaneously fitting both spectra, the anti-correlation between the 
-      photon-photon and coherent normalization parameters was reduced as well
-      as the overall error on the parameters.
-    The slope of the confidence contours in Fig.~\ref{fig:ptOnlyCor} and 
-      Fig.~\ref{fig:simGaussCor} demonstrate the reduction in the correlation
-      between the normalization parameters. 
-    The slope in of the confidence contours in Fig.~\ref{fig:ptOnlyCor} 
+    By simultaneously fitting both the mass and $p_{T}$ spectra, the yields
+      from the coherent, incoherent, and photon-photon process were separated 
+      from each other in total yield of final candidates.
+    The ambiguity between the coherent and incoherent processes in the mass fit
+      the ambiguity between the coherent and the photon-photon process was over
+      come by combining the two fits.
+    Fig.~\ref{fig:simGaussCor} shows the confidence contours for nCo and nGamma
+      from the simultaneous fit in Fig.~\ref{fig:simFitMassPtGauss}.  
+    The slope of the confidence contours in Fig.~\ref{fig:simGaussCor} 
       is noticeably closer to 0 than the apparent negative slope in 
-      Fig.~\ref{fig:simGaussCor}.
+      Fig.~\ref{fig:ptOnlyCor}.
+    The contours for the simultaneous fit are also reduced compared to 
+      Fig.~\ref{fig:ptOnlyCor} with widths in $nCo$ and $nGamma$ similar to 
+      those expected from Poison statistics. 
+    From the simultaneous fit, reasonable statistical errors were obtained 
+      along with the yields for the three processes. 
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.6\textwidth]{nCoNGammaCorPtMass}
