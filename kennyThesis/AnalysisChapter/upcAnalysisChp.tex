@@ -227,8 +227,9 @@
       These samples were recorded using subsets of the triggers found in 
         Section~\ref{sec:TrigDev}.
       The $J/\psi$ events discussed in this thesis were obtained analyzing the 
-      sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
-      A minimum bias sample was recorded for the sake of estimating efficiencies.
+        sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
+      A minimum bias sample was recorded for the sake of estimating 
+        efficiencies.
       Last, a zero bias sample was recored for investigating the ZDC and the 
         noise distributions of HF.
       By recording this hierarchy of samples, interesting events are selected 
@@ -238,14 +239,15 @@
   
       To record the physics sample containing the $J/\psi$ signal, a muon trigger
         was paired with a veto on energy in the BSC and a requirement that there 
-        be energy in at least one of two sides the ZDC. 
+        be energy in at least one of two sides of the ZDC. 
       This trigger utilizes the unlikely chance of having overlapping noise in
         in the ZDC and muon detector.
       Because of the characteristically low momentum of UPC $J/\psi$ as compared
         to $J/\psi$ created by other physics process, the loosest muon 
         trigger was used.
-      The trigger rejects muon noise by requiring that a interaction took place
-        that deposits energy in the ZDC.
+      By pairing the muon trigger with the ZDC on the L1, the noise contribution
+        was reduced from the noise contribution from either of the two 
+        sub-detectors to the noise coincidence between the two sub-detectors. 
       Contributions from hadronic interactions are reduced by the veto on the 
         BSC.
       In this way the balance between reducing the rate and maximizing the 
@@ -259,7 +261,8 @@
       This process is much more common than the UPC $J/\psi$ production.
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
-      From this trigger the pixel track efficiency was estimated. 
+      From this trigger the pixel track portion of the HLT trigger efficiency 
+        was estimated. 
   
       In addition to the minimum bias and physics sample, a zero bias sample was 
         recorded to examine the ZDC trigger and the HF noise distributions. 
@@ -898,6 +901,27 @@
         \label{tab:zdcEfficiency}
       \end{table}
   \section{\label{sec:sysCheck} Systematic checks}
+
+    \begin{table}[!Hhtb]
+      \begin{center}
+        \caption{Summary of systematic uncertainties}
+        \label{tab:sumsyst}
+        \begin{tabular}{|c|c|c|}
+          \hline
+          systematic & uncertainty in \%  \\ \hline
+          Neutron tagging  & 5.7\%  \\ \hline
+          \JPsi mass & 3.7\%    \\ \hline
+          Coherent fraction extraction & 2.9\%    \\ \hline
+          ZDC efficiency estimation & 2.2\%    \\ \hline
+          \JPsi extraction & 1.9\%    \\ \hline
+          MC corrections & 1.25\%    \\ \hline
+          Exclusivity cuts & 1 \%    \\ 
+          \hline \hline
+          Total systematic & 8.1\%    \\ \hline
+          \end{tabular}
+      \end{center}
+    \end{table}
+
     \subsection{HF noise threshold}
       The way in which the HF noise distribution is measured effects the event 
         selection.
@@ -1258,46 +1282,78 @@
         is the one neutron peak.
  
     \subsection{ZDC efficiency}
-      To estimate systematic errors in the ZDC trigger efficiency, the trigger
-        efficiency was measured from five additional samples. 
+      The ZDC trigger efficiency measurement is sensitive to the underlying 
+        neutron distribution.
+      The more neutrons that high the ZDC the higher the trigger efficiency 
+        will be.
+      To estimate the effect the input sample has on the efficiency, the ZDC 
+        trigger efficiency was measured from five different samples.
+      The Table~\ref{tab:zdcEfficiencySys} shows the results from the 
+       five samples. 
+      Both the new and standard ZDC reconstruction methods are shown for 
+        comparison.
+
       \begin{table}
         \centering
         \begin{tabular}{|c|c|c|c|c|}
           \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
            \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track} \\ \hline 
-           ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
-           ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
-           ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
-           ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
-           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$)} \\ \hline 
-           ZDC$^{+}$ & 1 & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
-           ZDC$^{+}$ & 2 & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
-           ZDC$^{-}$ & 1 & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
-           ZDC$^{-}$ & 2 & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
-           \multicolumn{5}{|c|}{ Zero Bias} \\ \hline 
-           ZDC$^{+}$ & 1 & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
-           ZDC$^{+}$ & 2 & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
-           ZDC$^{-}$ & 1 & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
-           ZDC$^{-}$ & 2 & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
+           ZDC$^{-}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+           ZDC$^{-}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+           ZDC$^{+}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+           ZDC$^{+}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 EG trigger } \\ \hline 
+           ZDC$^{-}$ & 1 & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
+           ZDC$^{-}$ & 2 & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
+           ZDC$^{+}$ & 1 & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
+           ZDC$^{+}$ & 2 & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 Muon trigger} \\ \hline 
+           ZDC$^{-}$ & 1 & 65466  & 63376  & 0.9681 $\pm$ 0.0054  \\ \hline
+           ZDC$^{-}$ & 2 & 65543  & 63358  & 0.9667 $\pm$ 0.0054 \\ \hline
+           ZDC$^{+}$ & 1 & 71929  & 63512  & 0.8830  $\pm$ 0.0048 \\ \hline
+           ZDC$^{+}$ & 2 & 72932  & 63582  & 0.8718  $\pm$ 0.0047 \\ \hline
            \multicolumn{5}{|c|}{ Zero Bias with ZDC timing cuts} \\ \hline 
-           ZDC$^{+}$ & 1 & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
-           ZDC$^{+}$ & 2 & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
-           ZDC$^{-}$ & 1 & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
-           ZDC$^{-}$ & 2 & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
-           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$), 1 pixel track, and L1 Muon trigger} \\ \hline 
-           ZDC$^{+}$ & 1 & 65466  & 63376  & 0.9681 $\pm$ 0.0054  \\ \hline
-           ZDC$^{+}$ & 2 & 65543  & 63358  & 0.9667 $\pm$ 0.0054 \\ \hline
-           ZDC$^{-}$ & 1 & 71929  & 63512  & 0.8830  $\pm$ 0.0048 \\ \hline
-           ZDC$^{-}$ & 2 & 72932  & 63582  & 0.8718  $\pm$ 0.0047 \\ \hline
-           \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$), 1 pixel track, and L1 EG trigger } \\ \hline 
-           ZDC$^{+}$ & 1 & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
-           ZDC$^{+}$ & 2 & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
-           ZDC$^{-}$ & 1 & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
-           ZDC$^{-}$ & 2 & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
+           ZDC$^{-}$ & 1 & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
+           ZDC$^{-}$ & 2 & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
+           ZDC$^{+}$ & 1 & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
+           ZDC$^{+}$ & 2 & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$)} \\ \hline 
+           ZDC$^{-}$ & 1 & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
+           ZDC$^{-}$ & 2 & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
+           ZDC$^{+}$ & 1 & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
+           ZDC$^{+}$ & 2 & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
+           \multicolumn{5}{|c|}{ Zero Bias} \\ \hline 
+           ZDC$^{-}$ & 1 & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
+           ZDC$^{-}$ & 2 & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
+           ZDC$^{+}$ & 1 & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
+           ZDC$^{+}$ & 2 & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
         \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
           2 for different trigger samples}
         \label{tab:zdcEfficiencySys}
       \end{table}
       
+      The amount of electronic noise in the sample also effects the measurement.
+      The more noise sits below the one neutron peak, the worse the efficiency 
+        is. 
+      In Table~\ref{tab:zdcEfficiencySys}, the Zero Bias sample compared the 
+        Zero Bias sample with the timing cuts the described in the previous 
+        section shows a significant increase in efficiency in the sample
+        with reduced noise. 
+      The same increase is seen when comparing the ZDC triggered sample with 
+        the ZDC triggered sample that also requires a pixel track. 
+      The effect of the electronic noise is also present in the difference seen
+        in using the two methods.
+      As seen in Fig.~\ref{fig:zdcSpec2v1}, the new reconstruction method 
+        shows better separation of the one neutron peak from the electronic 
+        noise, in particular in ZDC$^{+}$ where the signal gain is lower.
+      For this reason, the Zero Bias data, which contains that largest 
+        contribution from electronic noise, shows the most separation between 
+        the two methods and give the lowest estimate for the ZDC trigger 
+        efficiency.
 
+      The systematic uncertainty due to the uncertainty in the 
+        underlaying distribution was estimated by calculating the standard 
+        deviation of the least extreme values from Table~\ref{tab:zdcEfficiencySys}.
+      Any value greater than three standard deviations from the mean was thrown
+        out. 
