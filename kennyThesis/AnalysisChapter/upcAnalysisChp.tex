@@ -102,7 +102,19 @@
       emission of the daughter muons.
     In the STARlight samples however the daughters tend to be emitted in line
       with the direction of the motion of the J/$\psi$.
-    This is particularly pronounced for the photon-photon process. 
+    This is particularly pronounced for the photon-photon process.
+
+    \begin{figure}[!Hhbt]
+      \centering
+      $ \begin{array}{cc}
+        \includegraphics[width=0.45\textwidth]{genRapDis} &
+        \includegraphics[width=0.45\textwidth]{genPtDis}
+      \end{array} $
+      \caption{Generator level rapidity (left) and $p_{T}$ (right) 
+          distributions for the coherent, \textcolor{red}{incoherent}, 
+          and \textcolor{green}{photon-photon} process}
+      \label{fig:starlightRapPtDist}
+    \end{figure}
     
     \begin{figure}[!Hhbt]
       \centering
@@ -305,7 +317,7 @@
         muons. 
       The trigger used for this analysis recored 346841 events.
       A set of off-line cuts were applied to increase the relative contribution 
-        of UPC events relative to background processes. 
+        of UPC events to background processes. 
       The following cuts were applied. 
  
       \begin{table}
@@ -904,7 +916,6 @@
 
     \begin{table}[!Hhtb]
       \begin{center}
-        \caption{Summary of systematic uncertainties}
         \label{tab:sumsyst}
         \begin{tabular}{|c|c|c|}
           \hline
@@ -918,7 +929,8 @@
           Exclusivity cuts & 1 \%    \\ 
           \hline \hline
           Total systematic & 8.1\%    \\ \hline
-          \end{tabular}
+        \end{tabular}
+        \caption{Summary of systematic uncertainties}
       \end{center}
     \end{table}
 
@@ -1049,9 +1061,36 @@
       \end{figure}
 
     \subsection{Tag and probe}
-      To estimate the effect the tag and probe fits, the tag and probe 
-        efficiencies were additionally measured by counting probes in the 
-        J/$\psi$ mass window. 
+      The main purpose for fitting the mass spectra to estimate the efficiency
+        is to separate the background from true signal. 
+      The background may not have the same efficiency as the signal, so 
+        separating the two is important if this is the case.
+      In the tag and probe fit the signal peak from the J/$\psi$ resonance
+        is fit to the probes, passing probes, and failing probes alike (see
+        Fig.~\ref{fig:tnpFitPlot}). 
+      The signal shape, if from the same physical signal, will be 
+        identical in each of the three distributions. 
+      The background is for the passing and failing probes is fit using 
+        different parameters for the background because the background
+        may come from different physical processes than the signal or 
+        non-physical sources like combinatorial backgrounds or misidentified
+        fake particles.
+      When the background comes from sources other than the physical signal,
+        the background may give an efficiency estimate that is lower than
+        the signal. 
+
+      The trigger efficiency measured by the tag and probe method depend on
+        the fitting functions use to estimate the background and signal 
+        contributions. 
+      Depending on what functions is used to fit the spectra, the amount of
+        amount of background can be over or underestimated and effect the 
+        efficiency measurement.
+      To estimate this effect, the tag and probe efficiencies were additionally
+        measured by counting probes in the J/$\psi$ mass window. 
+      The whole mass window is used to estimate the efficiency including all 
+        the events from the mass side bands.
+      In this way, a worst case scenario estimate is given where all background
+        events are included as signal. 
       \begin{figure}[!Hhbt]
         \centering
         $ \begin{array}{cc}
@@ -1062,6 +1101,20 @@
           compared to fitting (right)}
         \label{fig:tnpCntVFit}
       \end{figure}
+
+      From Fig.~\ref{fig:tnpCntVFit} it is apparent that the choice of fit 
+        function and therefore the amount of background from the mass side 
+        bands is included in the signal measurement has very little effect on 
+        the tag and probe efficiency measurement.
+      The small effect of including the side bands is due to the side bands 
+        being comprised mostly of photon-photon events.
+      Because this background is neither decays from other particles like pions
+        nor is it non-physical background like combinatorics, the efficiency
+        for muons from the sidebands are nearly identical to J/$\psi$ signal.
+      The photon-photon process directly produces two muons just like the 
+        J/$\psi$, therefore efficiency estimated from the side bands has 
+        little effect on the measurement because of this similarity. 
+
     \subsection{Template fit}
       \begin{figure}[!Hhtb]
         \centering
