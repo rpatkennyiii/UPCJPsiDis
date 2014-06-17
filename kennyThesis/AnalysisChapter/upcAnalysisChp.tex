@@ -1,8 +1,28 @@
-\chapter{Analysis}	
+\chapter{Analysis}
+  In the following chapter the various parts of the measurements done for this
+    thesis are explained. 
+  The following chapter contains seven sections explain each of these parts: 
+    mc simulation, trigger development, data sets and event selection,
+    break-up determination, signal extraction, efficiency determination,
+    and systematic checks. 
+  In Section~\ref{sec:mcSim} the simulations used to estimated the detectors 
+    ability to measure UPC processes is discussed. 
+  Section~\ref{sec:TrigDev} explains the considerations that went into the 
+    triggers which were developed for the analyses discussed in this thesis.
+  How the final events were selected and how triggers were used to separate the
+    data in to data sets is detailed in Section~\ref{sec:DataSetEvSel}.
+  Extraction of the number of events from each of the three physics processes 
+    discussed in this thesis, coherent, incoherent, and photon-photon process
+    from the final selected events is discussed is Section~\ref{sec:sigEx}.
+  The estimates of the detectors efficiency for measuring UPC events is 
+    explained in Section~\ref{sec:effDet}.
+  Section~\ref{sec:sysCheck} lays out how the systematic uncertainties are 
+    estimated.
+
   \section{\label{sec:mcSim} MC Simulation}
-    Every physical measurement is the product of the underlaying physics 
+    Every physical measurement is the product of the underlying physics 
       convolved with the response of the detector used to do the measurement. 
-    In order to understand the underlaying physical process, the detector's 
+    In order to understand the underlying physical process, the detector's 
       effect on the measurement must be understood and accounted for. 
     As instruments become more and more complicated, the interplay between all
       of the many parts of the detector makes an analytic approach to the 
@@ -22,7 +42,7 @@
     The collective combination of the many sub detectors responses with the 
       theoretical distributions emerges from the successive creation of random
       events.
-    The result is the convolved response of the detector with the underlaying 
+    The result is the convolved response of the detector with the underlying 
       physical process that is to be studied. 
 
     In this thesis, two main classes of MC simulation samples were used. 
@@ -44,23 +64,23 @@
 
     The software chain used for producing the STARlight samples has five steps.
     Because STARlight is not integrated into the standard CMS software 
-      framework, this chain was developed for the analysis described in this
+      framework (CMSSW), this chain was developed for the analysis described in this
       thesis.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process, for this thesis, one file for the 
-      coherent process, the incoherent process, and the photon-photon process.
+      coherent process, the incoherent process, and the photon-photon process
+      for a total of three files.
     The output from the STARlight generator is in a format specific to 
       STARlight, therefore, the output from the original generation step is 
       then converted to the Les Houches (LHE) format. 
     In this conversion to LHE format, either the parent J/$\psi$ for the 
       J/$\psi$ production samples, or the initial photon-photon pair are added
-      LHE output file.
+      to the LHE output file.
     The standard STARlight output only includes the final state particles.
     Additionally, the initial output from STARlight is split into a collection 
-      of smaller LHE files so that each the smaller samples can be 
+      of smaller LHE files so that each of the smaller samples can be 
       processed in parallel.
-    Each of the LHE files was then used as input to the CMS software frame work
-      (CMSSW).
+    Each of the LHE files is used as input to CMSSW.
     The three remaining steps take place within the frame work. 
     First the generated particles are propagated through the GEANT4 detector 
       simulation.
@@ -73,14 +93,14 @@
       is reduced to the information that is needed for the final analysis.
 
     The particle gun samples were created entirely within CMSSW.
-    An interface to PYTHIA6 is included within CMSSW, which takes the J/$\psi$
+    An interface to PYTHIA6 is included within CMSSW, which takes J/$\psi$
       $p_{T}$ and rapidity distributions as input. 
-    The J/$\psi$ are created according to the input distributions and then uses
-      PYTHIA6 to $\mu^{+}$ and $\mu^{-}$.
-    As with the STARlight samples these muons are propagated through the GEANT4
+    The J/$\psi$ are created according to the input distributions, and then uses
+      PYTHIA6 to decay the J/$\psi$s to $\mu^{+}$ and $\mu^{-}$.
+    As with the STARlight samples, these muons are propagated through the GEANT4
       simulation of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
-      data to the final data needed for the analysis is identical to the 
+      data to the final data needed for the analysis are identical to the 
       STARlight production.
 
     The five MC samples, three STARlight samples, and two particle gun samples,
@@ -88,9 +108,9 @@
       and the polarization of the J/$\psi$s, which effects angle at which
       the muon daughters are emitted relative to the direction in which the
       J/$\psi$ is traveling. 
-    In Fig.GenPtDist the $p_{T}$ of J/$\psi$ for the coherent and photon-photon
-      samples are peaked steeply a low $p_{T}$, and neither sample extends much
-      beyond 0.15 GeV in $p_{T}$.
+    In Fig.~\ref{fig:starlightRapPtDist} the $p_{T}$ of J/$\psi$s from the 
+      coherent and photon-photon samples are peaked steeply a low $p_{T}$, and 
+      neither sample extends much beyond 0.15 GeV in $p_{T}$.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
     The two particle gun samples resemble the incoherent and coherent samples.
     The first sample has a Gaussian $p_{T}$ distribution extending to 
@@ -98,10 +118,10 @@
       2 GeV.
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization. 
-    Therefor the particle gun samples there is no preferred direction for the 
+    Therefor, the particle gun samples there is no preferred direction for the 
       emission of the daughter muons.
     In the STARlight samples however the daughters tend to be emitted in line
-      with the direction of the motion of the J/$\psi$.
+      with the direction of the J/$\psi$'s momentum.
     This is particularly pronounced for the photon-photon process.
 
     \begin{figure}[!Hhbt]
@@ -124,6 +144,28 @@
         cosine of the helicity angle.} 
       \label{fig:genHXAngle}
     \end{figure}
+
+    The momentum of the final state muons is the main drivers of whether the 
+      candidate can be measured. 
+    The polarization and the $p_{T}$ distribution of dimuons from the generator
+      determine the momentum of the daughters. 
+    The low $p_{T}$ of the J/$\psi$ restricts the momentum of the $\mu^{+}$ and
+      $\mu^{-}$ daughters produced from the J/$\psi$ decay. 
+    The polarization effects how the momentum is shared between the daughters.
+    In the rest frame of the parent particle from which the daughters decay
+      equal momentum is given to each daughter. 
+    However in the lab frame of the detector, the muon daughters which are 
+      emitted from transversely polarized J/$\psi$ will tend to be emitted in
+      the direction of J/$\psi$ and will have unequal momentum in the lab 
+      frame.
+    The daughter traveling in the direction of the J/$\psi$ will have increased
+      momentum, whereas the daughter traveling opposite to the J/$\psi$ 
+      direction will have decreased momentum. 
+    The combination of these two effects create a muon with very low momentum 
+      compared to the typical momenta of muons measured by CMS. 
+    The momentum of the lower momentum muon daughters is the main restriction
+      on whether or not the J/$\psi$ can be measured. 
+    
   \section{\label{sec:TrigDev} Trigger Development} 
     Prior to the 2011 LHC PbPb run, UPC events had not been directly studied in 
       PbPb collisions using CMS. 
@@ -141,8 +183,8 @@
     By calculating the ratio between the UPC trigger rates and the minimum bias
       trigger rate, the UPC trigger rates were scaled up to the 2011 
       interaction rates using the 2010 data. 
-    The extrapolated rates allowed for a package triggers to be created, which 
-      fit within the bandwidth requirement of CMS Heavy Ions. 
+    The extrapolated rates allowed for a package triggers to be created that 
+      fit within the bandwidth requirement of CMS Heavy Ions group. 
     
     The trigger package for 2011 contained ZDC based efficiency monitoring 
       triggers, muon and electron based triggers for measuring $J/\psi$, and 
@@ -161,7 +203,9 @@
         and dielectrons in UPC events.
       To achieve this, the loosest muon trigger and lowest threshold ECAL 
         triggers where paired with a trigger on energy in the ZDC and a veto on
-	      energy in the BSC or HF.
+	      energy in the BSC.
+      Additional triggers which vetoed on energy in HF were commissioned in case
+        radiation damaged to the BSCs.
       The L1 package that was constructed for the analysis of UPC $J/\psi$ 
         is presented in Table~\ref{tab:l1Triggers2011}.
 
@@ -190,9 +234,10 @@
         multiplicities in PbPb collisions.
       In order to monitor the zero suppression of the tracker, the zero 
         suppression algorithm was executed using the HLT computing farm 
-	      rather than the in the tracker firmware. 
-      The additional computing cycles needed to run the zero suppression 
-        the limit for L1 bandwidth. 
+	      rather than the in the tracker firmware.
+      The rate at which the tracker could be readout without zero suppression
+        set the limit for the L1 bandwidth.
+
 
     \subsection{HLT Trigger}
       As opposed to the L1 trigger, which reads out the tracker, the HLT has 
@@ -200,10 +245,10 @@
       Reconstruction of a track in the pixel detector is used by the UPC paths.
       The use of the pixel detector only, as opposed to using the whole tracker 
         including the silicon strip detector, allows for quick track 
-	reconstruction saving computing cycles.
-      The requirement of at least on reconstructed pixel track for the HLT 
+        reconstruction saving computing cycles.
+      The requirement of at least one reconstructed pixel track for the HLT 
         triggers was designed to reject backgrounds where no particles are 
-	reconstructed by the tracker. 
+        reconstructed by the tracker. 
   \begin{table}[h]
 		\centering
 		\begin{tabular}{|l|l|}
@@ -221,32 +266,38 @@
 		\label{tab:hltTriggers2011}
 	\end{table}
 
-	The total HLT output for the UPC trigger paths was 20 Hz. 
-	The limiting factor for the HLT rate was the amount of disk space 
-	  available to store the data. 
+      The total HLT output for the UPC trigger package was 20 Hz. 
+      The limiting factor for the HLT rate was the amount of disk space 
+        available to store the data. 
+      To meet the bandwidth the requirements and collected a significant sample
+        of data for estimating efficiencies, the prescales for the triggers 
+        were set. 
+      The ZDC trigger that was passed through from the L1 was given a larger 
+        prescale to account for the higher rate relative to the more selective 
+        ZDC path, which also required a pixel track on the HLT.
 
   \section{\label{sec:DataSetEvSel} Data Sets and Event Selection}
-    \subsection{Data Set}
-      In order to investigate novel physics processes like UPC $J/\psi$ 
-       production, the LHC has delivered unprecedented amounts of data.
-      The data for this analysis was recorded during the 2011 LHC PbPb run. 
-      During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
-        corresponding to over a billion PbPb collisions. 
-      Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
+    In order to investigate novel physics processes like UPC $J/\psi$ 
+     production, the LHC has delivered unprecedented amounts of data.
+    The data for this analysis was recorded during the 2011 LHC PbPb run. 
+    During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
+      corresponding to over a billion PbPb collisions. 
+    Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
   
+    \subsection{Data Set}
       Three specially selected samples were used for the present analysis 
         (see Table~\ref{tab:sampleLumiNevt}).
       These samples were recorded using subsets of the triggers found in 
         Section~\ref{sec:TrigDev}.
       The $J/\psi$ events discussed in this thesis were obtained analyzing the 
         sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
-      A minimum bias sample was recorded for the sake of estimating 
+      A ZDC triggered sample was recorded for the sake of estimating 
         efficiencies.
       Last, a zero bias sample was recored for investigating the ZDC and the 
         noise distributions of HF.
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias and 
-        minimum bias samples allow for the investigation of the selection 
+      ZDC triggered samples allow for the investigation of the selection 
         criteria. 
   
       To record the physics sample containing the $J/\psi$ signal, a muon trigger
@@ -266,7 +317,7 @@
         efficiency was struck, allowing for the data to be recorded without 
         producing high rates resulting in dead time for the detector.  
       
-      In order to investigate the muon trigger and the other parts of the events 
+      In order to investigate the muon trigger and the other parts of the event 
         selection, a minimum bias sample was recorded using the ZDC. 
       For ZDC triggered sample, any event which had energy consistent with at 
         least one neutron in either of the two sides of the ZDC was recorded.
@@ -289,9 +340,9 @@
   
       The integrated luminosity for each of the three samples is calculated
         by recording activity in HF. 
-      The cross section for HF activity is measured from a van der Meer scan, and
-        the cross section was found to be \textcolor{red}{X}.
-      In this way the amount of integrated luminosity for any period running is
+      The cross section for HF activity is measured from a van der Meer scan, 
+        and the cross section was found to be \textcolor{red}{X}.
+      In this way the amount of integrated luminosity for any running period is
         related to the activity in HF. 
       \begin{table}
   	    \centering
@@ -413,7 +464,7 @@
           direction with respect to the primary vertex.
       \end{itemize}
       These cuts are applied to reduce the number of fake muons.
-  
+
   \section{\label{sec:breakUpDet} Break up determination}
     As described in Section.~\ref{sec:ltaTheory}, UPC J/$\psi$ photoproduction 
       can be accompanied by the emission of neutrons from either of the two 
@@ -920,13 +971,12 @@
         \begin{tabular}{|c|c|c|}
           \hline
           systematic & uncertainty in \%  \\ \hline
-          Neutron tagging  & 5.7\%  \\ \hline
-          \JPsi mass & 3.7\%    \\ \hline
-          Coherent fraction extraction & 2.9\%    \\ \hline
-          ZDC efficiency estimation & 2.2\%    \\ \hline
-          \JPsi extraction & 1.9\%    \\ \hline
-          MC corrections & 1.25\%    \\ \hline
-          Exclusivity cuts & 1 \%    \\ 
+          Template fit normalized & +9.5\% -12\%    \\ \hline
+          ZDC reconstruction  & 2.9\%  \\ \hline
+          ZDC trigger efficiency & 2.2\%    \\ \hline
+          HF noise threshold & +1.3\% -3.4\%    \\ 
+          MC acceptance & 1.1\%    \\ \hline
+          Mass fits & 1.9\%    \\ \hline
           \hline \hline
           Total systematic & 8.1\%    \\ \hline
         \end{tabular}
@@ -936,12 +986,11 @@
 
     \subsection{HF noise threshold}
       The way in which the HF noise distribution is measured effects the event 
-        selection.
-      In addition, this cut plays a significant role in rejecting hadronic 
-        events.
+        selection and therefore the final candidate yeild.
+      This cut plays a significant role in rejecting hadronic events.
       In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
         is evident. 
-      The HF noise cut rejects \textcolor{red}{X} of the events the remaining. 
+      The HF noise cut rejects a little less than 1/5 of the remaining events. 
       The systematic uncertainties on the HF noise requirement is important for
         this reason.
       The result must not depend significantly on the method used to apply the
@@ -949,24 +998,25 @@
         from it. 
       
       Four different approaches were employed to estimate the systematic effect
-        arising from picking a particular method. 
+        arising from picking a particular method for setting the HF noise
+        threshold. 
       By looking at the variation of the number of events that remain after 
         applying the thresholds derived from these four methods, the systematic
         uncertainty for the HF noise cut was estimated.
       The four methods are derive from combinations of two variations. 
       The type of object was varied from a low-level detector object called a 
         RecHit to a higher level physics object called a CaloTower. 
-      The distinction between the two is that the RecHit is the energy 
-        deposited in a single calorimeter detector element, where as the 
-        CaloTower is a collection of RecHits with varrious threholds, which 
-        represent a full energy deposit that would come from a particle or 
-        a collection of particles from a jet passing through the detector. 
+      The RecHit is the energy deposited in a single calorimeter detector 
+        element, where as the CaloTower is a collection of RecHits with 
+        varrious threholds, which represent a full energy deposit that would 
+        come from a particle or a collection of particles from a jet passing 
+        through the detector. 
       The second variation is on the separation of the two sides.
       In one case the threshold is derived for the two sides combined.
       In another case the thresholds are calculated separately for the two 
         sides of HF.
-      By combining these two variations a total of four estimates of the effect
-        of the HF noise cut were made.
+      By combining these two variations, a total of four estimates of the 
+        effect of the HF noise cut were made.
       Table~\ref{tab:hfNoiseThreshAsym} below shows the thresholds that are 
         measured for each of the four methods.
       The resulting yields from the four different methods are displayed in 
@@ -1037,106 +1087,42 @@
         \end{center}
       \end{table}
 
-    \subsection{MC vs Data compairson}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
-        \caption{Comparison of the of the dimuon rapidity distributions between 
-          coherent MC sample and Data.}
-        \label{fig:jpsiAbsRapCoherent}
-      \end{figure}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
-        \caption{Comparison of the of the dimuon $\varphi$ distributions 
-          between coherent MC sample and Data.}
-        \label{fig:jpsiPhiCoherent}
-      \end{figure}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-        \caption{Comparison of the of the dimuon $p_{T}$ distributions 
-          between coherent MC sample and Data.}
-        \label{fig:jpsiPtCoherent}
-      \end{figure}
+      The systematic uncertainty in the HF noise threshold measurement was 
+        calculated taking the difference from the 99\% combined RecHit method
+        with the upper and lower extrema. 
+      The systematic uncertainty from this method is calculated to be +1.3\% 
+        -3.4\%.
 
-    \subsection{Tag and probe}
-      The main purpose for fitting the mass spectra to estimate the efficiency
-        is to separate the background from true signal. 
-      The background may not have the same efficiency as the signal, so 
-        separating the two is important if this is the case.
-      In the tag and probe fit the signal peak from the J/$\psi$ resonance
-        is fit to the probes, passing probes, and failing probes alike (see
-        Fig.~\ref{fig:tnpFitPlot}). 
-      The signal shape, if from the same physical signal, will be 
-        identical in each of the three distributions. 
-      The background is for the passing and failing probes is fit using 
-        different parameters for the background because the background
-        may come from different physical processes than the signal or 
-        non-physical sources like combinatorial backgrounds or misidentified
-        fake particles.
-      When the background comes from sources other than the physical signal,
-        the background may give an efficiency estimate that is lower than
-        the signal. 
 
-      The trigger efficiency measured by the tag and probe method depend on
-        the fitting functions use to estimate the background and signal 
-        contributions. 
-      Depending on what functions is used to fit the spectra, the amount of
-        amount of background can be over or underestimated and effect the 
-        efficiency measurement.
-      To estimate this effect, the tag and probe efficiencies were additionally
-        measured by counting probes in the J/$\psi$ mass window. 
-      The whole mass window is used to estimate the efficiency including all 
-        the events from the mass side bands.
-      In this way, a worst case scenario estimate is given where all background
-        events are included as signal. 
-      \begin{figure}[!Hhbt]
-        \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=.45\textwidth]{tNp/tnpCounting} &
-          \includegraphics[width=.45\textwidth]{tNp/tnpFromFit}
-        \end{array} $ 
-        \caption{Tag and probe trigger efficiencies from counting (left) 
-          compared to fitting (right)}
-        \label{fig:tnpCntVFit}
-      \end{figure}
-
-      From Fig.~\ref{fig:tnpCntVFit} it is apparent that the choice of fit 
-        function and therefore the amount of background from the mass side 
-        bands is included in the signal measurement has very little effect on 
-        the tag and probe efficiency measurement.
-      The small effect of including the side bands is due to the side bands 
-        being comprised mostly of photon-photon events.
-      Because this background is neither decays from other particles like pions
-        nor is it non-physical background like combinatorics, the efficiency
-        for muons from the sidebands are nearly identical to J/$\psi$ signal.
-      The photon-photon process directly produces two muons just like the 
-        J/$\psi$, therefore efficiency estimated from the side bands has 
-        little effect on the measurement because of this similarity. 
-
-    \subsection{Template fit}
+    \subsection{Template fit normalization}
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=.6\textwidth]{ptOnly}
-        \caption{Coherent, incohernt, and photon-photon process $p_{T}$ template fit to data.}
+        \caption{Coherent, incoherent, and photon-photon process $p_{T}$ template fit to data.}
         \label{fig:ptTempFit}
       \end{figure}
+     
+      The $p_{T}$ template fit depends on the functions chosen for the fit
+        to the mass distribution.
+      As described in Section~\ref{sec:sigEx}, the similarity of the of the 
+        $p_{T}$ distribution for the coherent and photon-photon process make
+        the contributions from the two process difficult to separate from the 
+        $p_{T}$ distribution alone.
+      The mass distribution was used to distinguish between these two processes.
+      In turn, the $p_{T}$ becomes dependent on the mass fit. 
 
-      The normalization for the coherent and incoherent templates are left
-        free. 
-      To address this issue the template from the photon-photon process was 
-        fixed to the cross section value given by STARlight and normalized to
-        the integrated luminosity of the data. 
-      The normalization for the photon-photon template was allowed a range of 
-        20\% due to the 20\% uncertainty in the STARlight cross section.
-
-      The systematic uncertainty for the contribution to the three components
-        of the signal was estimated by varying the mass fit.
-      Because the mass fit is used to fix the contribution to the $p_{T}$ 
-        spectrum of the photon-photon process, the change of the mass fit
-        results in different coherent contributions from the $p_{T}$ template
+      The systematic uncertainty due to the choose of functions used to fit
+        the mass distribution was estimated by varying the signal and 
+        background functions.
+      The contribution to the background from the mass fit was used to fix the
+        contribution from the photon-photon process in the $p_{T}$ template
         fit.
+      Two functions were used to describe the signal, a Gaussian, and a Crystal
+        ball function. 
+      The background was fit to a linear function, a 2nd order polynomial, and
+        a 2nd order Cheby-Chev polynomial. 
+      The resulting variation on the coherent contribution was used to as an
+        estimate of this systematic effect. 
 
       \begin{figure}[!Hhbt]
         \centering
@@ -1153,14 +1139,17 @@
         \label{fig:massPtFitsForSyst}
       \end{figure}
 
-      Moving from left to right in Fig~\ref{fig:massPtFitsForSyst} the 
-        contribution from the photon process increases. 
+      Moving from left to right in Fig~\ref{fig:massPtFitsForSyst}, the 
+        contribution from the photon process increases.
+      The $\chi^{2}$ pre degree of freedom is similar between the three 
+        fits indicating a similar goodness of fit.
+      On this basis, neither fit is preferred. 
       The left most fit uses a Crystal Ball function to account for the 
         radiative decay of the final state daughters of the J/$\psi$.
       The low mass exponential portion however picks up background events 
         and overestimates the J/$\psi$ contribution. 
       The right most plot fits the background to a 2nd order Cheby-Chev 
-        polyinomial, which overestimates the background.
+        polynomial.
       Because the Cheby-Chev peaks just below the J/$\psi$ peak, this fit 
         overestimates the background and in turn underestimates the signal 
         contribution.
@@ -1169,18 +1158,27 @@
 
       From these three fits an upper and lower bound of the systematics due
         the choice of fit functions was estimated. 
+      The difference between the Gaussian-Linear fit and the 
+        Crystal Ball-polynomial fit was taken as an upper bound. 
+      The difference between the Gaussian-Linear fit and the 
+          Gaussian-Cheby-Chev fit was taken as a lower bound. 
+      The overall systematic uncertainty due to the choose of mass fit 
+        functions is found to be +9.5\% -12\%.
 
     \subsection{Mass fit}
-      \begin{figure*}[!Hhtb]
+      
+      \begin{figure}[!Hhtb]
         \centering
-        \includegraphics[width=.45\textwidth]{massFitSimple}
-        \includegraphics[width=.45\textwidth]{massFitCBPoly2}
+        $ \begin{array}{cc}
+          \includegraphics[width=.45\textwidth]{massFitSimple} &
+          \includegraphics[width=.45\textwidth]{massFitCBPoly2}
+        \end{array} $
         \caption{Mass fit to J/$\psi$ using Gaussian (Left) and Crystal Ball (Right) for the 
           signal and a polynomial for the background}
         \label{fig:massFitSys}
-      \end{figure*}
-      Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw J/$\psi$ 
-        yield has on the fitting function. 
+      \end{figure}
+      Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw 
+        J/$\psi$ yield has on the fitting function. 
       Both fit functions agree well, with reduced $\chi^{2}$ values below one.
       The Crystal ball fit give an upper estimate for the J/$\psi$ yield.
       The Gaussian fit gives an lower estimate. 
@@ -1202,18 +1200,31 @@
       \end{figure}
 
     \subsection{MC acceptance}
-      To estimate the effect of the GEN level $p_{T}$ distribution on the 
-        acceptance the incoherent sample was used to correct the coherent 
-        yield.
+      The MC derived acceptance correction factors depend on the input physics
+        generator. 
+      The underlaying $p_{T}$ distribution was assumed to be correctly 
+        described by STARlight for the coherent cross section measurement.
+      To estimate the effect of changing the underlaying $p_{T}$ distribution 
+        on the acceptance measured from the MC, the incoherent sample was used 
+        to correct the coherent yield.
+      By using the broader $p_{T}$ distribution of the incoherent process, an 
+        estimate of acceptance measurements dependence on the assumed shape of
+        the $p_{T}$ distribution was obtained.
+      The systematic uncertainty due to the dependence of the acceptance 
+        correction on the $p_{T}$ distribution of the input physics generator
+        was estimated by the difference between the correction factors from 
+        the coherent and incoherent MC samples. 
+      Half the difference was used as the estimate and was found to be 1.1\%.
+
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{coCorInCoAcc}
         \caption{Yields corrected by the MC incoherent acceptance map.}
         \label{fig:coYieldInCoCor}
       \end{figure}
-
+      
       The effect of polarization was estimated by correcting by the acceptance
-        for an polarized J/$\psi$ sample.
+        for an unpolarized J/$\psi$ sample.
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=0.6\textwidth]{coCoGaussGun}
@@ -1224,28 +1235,68 @@
     \subsection{ZDC reconstruction}
       An additional method for estimating the ZDC neutron thresholds was used
         to estimate the systematic errors on the threshold measurements.  
-      This additional method used in previous ZDC measurements differs 
-        in the way the signal time slices are used to calculate the 
-        the signal from each channel.
-      In the standard method used in previous analyses, the signal is
-        taken from the sum of time slices 4, 5, and 6.
+      This additional method, used in previous ZDC measurements, differs 
+        in the way the signal time slices are used to calculate the signal from
+        each channel.
+      In the standard method, the signal is taken from the sum of time slices 
+        4, 5, and 6.
       To estimate the event by event noise pedestal the sum of time slice 
         1 and 2 are used. 
       The signal for an individual ZDC channel is then calculated as the 
         sum of the signal time slices minus the sum of the noise time slices
         weighted by a factor of 3/2 to account for the differing number of 
         noise versus signal time slices.
-      In the standard method, the EM section is weighted by a factor of 0.1 
-        as in the method described in Section~\ref{sec:breakUpDet}.
       The advantage of the standard method is that by using multiple signal
         and noise time slices the signal and noise are effectively averaged
         reducing time slice to time slice fluctuations.
       However, by using time slices 1 and 2 for measuring the noise, the noise
         can only be measured half the time due to unmeasurable negative 
         fluctuations of the dominant low frequency component of the noise.
+      
+      As in the new method described in Section~\ref{sec:breakUpDet}, 
+        the standard method combines the channels to create a signal 
+        measurement from the whole of each side of the ZDC, one
+        measurement for ZDC$^{+}$, and one for ZDC$^{-}$.
+      The noise subtracted signal from each of the HAD channels are added 
+        together.
+      Then the EM section channels are summed. 
+      The EM section is weighted by a factor of 0.1 as in the new method. 
+      After the weighting the EM and HAD channels are added to each to create
+        one measurement for ZDC$^{+}$ and another measurement for ZDC$^{-}$.
+    
+      Fig.~\ref{fig:zdcM1Fit} shows the spectra for ZDC$^{+}$ and ZDC${-}$ 
+        using the standard method. 
+      The same fit used for the new method is applied to standard method. 
+      As in the new method, the single neutron threshold is set to 2$\sigma$
+        below the mean from the fit to the one neutron peak.
+      The multi-neutron threshold was set to 2$\sigma$ above the one neutron
+        peak.
 
+      \begin{figure}[!Hhtb]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=0.45\textwidth]{zdcMinusZBFitTimeCut} &
+          \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
+        \end{array} $
+        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ 
+          (right) using the standard reconstruction method}
+        \label{fig:zdcM1Fit}
+      \end{figure}
+
+      The systematic uncertainty due to the ZDC reconstruction method are
+        estimated from the difference between the UPC J/$\psi$ candidate yields.
+      Both the reconstruction method and thresholds were changed to calculate 
+        the effect of the reconstruction method.
+      The yields for the new and standard ZDC reconstruction method in the Xn0n
+        break up where found to be 298 and 315 respectively. 
+      Half the difference between the two methods was used as an estimated of 
+        the systematic uncertainty.
+      The systematic uncertainty due to the ZDC reconstruction method was 
+        found to be 2.9\%.
+
+    \subsection{ZDC reconstruction method comparison}
       The new method relative to the standard method separates low signal from 
-        the noise more effectively for each side of the ZDC as whole.
+        the noise more effectively for both sides of the ZDC.
       This is particularly important for ZDC$^{+}$ where the 1st HAD section
         had a lower gain than the other sections. 
       The ZDC$^{+}$ and ZDC$^{-}$ signals near the one neutron peak using the
@@ -1262,6 +1313,8 @@
       In Fig.~\ref{fig:zdcSpec2v1}, the shrinking of width of the noise peak 
         around zero in the new method versus the old method is apparent for
         both ZDC$^{+}$ and ZDC$^{-}$.
+      For the standard method no single neutron peak is resolved in ZDC$^{+}$,
+        whereas the single neutron peak is resolved using the new method. 
 
       Timing cuts were applied to enhance the signal relative to the background
         in order to resolve the one neutron peak in ZDC$^{+}$ using the 
@@ -1296,8 +1349,8 @@
       Fig.~\ref{fig:zdcTimingCuts} demonstrates that the single neutron peak 
         can be recovered from the noise using timing cuts alone. 
 
-      Using the noise subtraction method described by Method 1, the same signal
-        emerges.
+      Using the standard noise subtraction method, the same signal that emerges
+        from the timing cuts alone appear without timing cuts.
        \begin{figure}[h]
         \centering
         \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoSub}
@@ -1306,35 +1359,23 @@
         \label{fig:zdcTimingAfterNoiseSub}
       \end{figure}
       Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms that both noise 
-        subtraction and the timing require produce the same signal.
+        subtraction and the timing requirement produce the same signal.
       This gives confidence that the signal is not an artifact of either cut, 
         but the true neutron signal.
-
-      The spectrum for method 1 and 2 are fit to a series of Gaussians.
-      \begin{figure}[!Hhtb]
-        \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=0.45\textwidth]{zdcMinusZBFitTimeCut} &
-          \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
-        \end{array} $
-        \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using 
-          method 1}
-        \label{fig:zdcM1Fit}
-      \end{figure}
 
        Fig.~\ref{fig:zdcTimingAfterNoiseSub} and Fig.~\ref{fig:zdcSpec2v1} 
         demonstrate the consistence of the using timing cuts and noise 
         subtraction to enhance the signal neutron peak. 
       Fig.~\ref{fig:zdcTimingAfterNoiseSub} confirms the legitimacy of the 
-        noise subtraction method in ZDC$^{-}$ by showing the that the same signal
-        emerges from the noise subtraction method as the timing method.
-      Fig.~\ref{fig:zdcSpec2v1} demonstrates the corresponds between between
-        noise subtraction method 1 and method 2 on in ZDC$^{-}$ where signal is 
-        better separated from the electronic noise. 
-      This allows for confidence that the signal seen in ZDC$^{+}$ using method 2 
-        is the one neutron peak.
+        timing requirement method in ZDC$^{-}$ by showing the that the same
+        signal emerges from the noise subtraction method as the timing method.
+      Fig.~\ref{fig:zdcSpec2v1} demonstrates the corresponds between
+        the new noise subtraction method and the standard method on in 
+        ZDC$^{-}$ where signal is better separated from the electronic noise. 
+      This allows for confidence that the signal seen in ZDC$^{+}$ using 
+        the new method is the one neutron peak.
  
-    \subsection{ZDC efficiency}
+    \subsection{ZDC trigger efficiency}
       The ZDC trigger efficiency measurement is sensitive to the underlying 
         neutron distribution.
       The more neutrons that high the ZDC the higher the trigger efficiency 
@@ -1406,7 +1447,89 @@
         efficiency.
 
       The systematic uncertainty due to the uncertainty in the 
-        underlaying distribution was estimated by calculating the standard 
-        deviation of the least extreme values from Table~\ref{tab:zdcEfficiencySys}.
+        underlying distribution was estimated by calculating the standard 
+        deviation of the least extreme values from 
+        Table~\ref{tab:zdcEfficiencySys}.
       Any value greater than three standard deviations from the mean was thrown
         out. 
+
+    \subsection{Tag and probe}
+      The main purpose for fitting the mass spectra to estimate the efficiency
+        is to separate the background from true signal. 
+      The background may not have the same efficiency as the signal, so 
+        separating the two is important if this is the case.
+      In the tag and probe fit the signal peak from the J/$\psi$ resonance
+        is fit to the probes, passing probes, and failing probes alike (see
+        Fig.~\ref{fig:tnpFitPlot}). 
+      The signal shape, if from the same physical signal, will be 
+        identical in each of the three distributions. 
+      The background is for the passing and failing probes is fit using 
+        different parameters for the background because the background
+        may come from different physical processes than the signal or 
+        non-physical sources like combinatorial backgrounds or misidentified
+        fake particles.
+      When the background comes from sources other than the physical signal,
+        the background may give an efficiency estimate that is lower than
+        the signal. 
+
+      The trigger efficiency measured by the tag and probe method depend on
+        the fitting functions use to estimate the background and signal 
+        contributions. 
+      Depending on what functions is used to fit the spectra, the amount of
+        amount of background can be over or underestimated and effect the 
+        efficiency measurement.
+      To estimate this effect, the tag and probe efficiencies were additionally
+        measured by counting probes in the J/$\psi$ mass window. 
+      The whole mass window is used to estimate the efficiency including all 
+        the events from the mass side bands.
+      In this way, a worst case scenario estimate is given where all background
+        events are included as signal. 
+      \begin{figure}[!Hhbt]
+        \centering
+        $ \begin{array}{cc}
+          \includegraphics[width=.45\textwidth]{tNp/tnpCounting} &
+          \includegraphics[width=.45\textwidth]{tNp/tnpFromFit}
+        \end{array} $ 
+        \caption{Tag and probe trigger efficiencies from counting (left) 
+          compared to fitting (right)}
+        \label{fig:tnpCntVFit}
+      \end{figure}
+
+      From Fig.~\ref{fig:tnpCntVFit} it is apparent that the choice of fit 
+        function and therefore the amount of background from the mass side 
+        bands is included in the signal measurement has very little effect on 
+        the tag and probe efficiency measurement.
+      The small effect of including the side bands is due to the side bands 
+        being comprised mostly of photon-photon events.
+      Because this background is neither decays from other particles like pions
+        nor is it non-physical background like combinatorics, the efficiency
+        for muons from the sidebands are nearly identical to J/$\psi$ signal.
+      The photon-photon process directly produces two muons just like the 
+        J/$\psi$, therefore efficiency estimated from the side bands has 
+        little effect on the measurement because of this similarity.
+      The counting and fitting trigger efficiency measurements agree within 
+        statistcal uncertainties, so this uncertianty was taken to be negliable.
+
+    \subsection{MC vs Data compairson}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
+        \caption{Comparison of the of the dimuon rapidity distributions between 
+          coherent MC sample and Data.}
+        \label{fig:jpsiAbsRapCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
+        \caption{Comparison of the of the dimuon $\varphi$ distributions 
+          between coherent MC sample and Data.}
+        \label{fig:jpsiPhiCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
+        \caption{Comparison of the of the dimuon $p_{T}$ distributions 
+          between coherent MC sample and Data.}
+        \label{fig:jpsiPtCoherent}
+      \end{figure}
+
