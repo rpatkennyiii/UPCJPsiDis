@@ -23,20 +23,20 @@
 \BOOKMARK [2][-]{subsection.4.3.1}{Data Set}{section.4.3}% 23
 \BOOKMARK [2][-]{subsection.4.3.2}{Event selection}{section.4.3}% 24
 \BOOKMARK [1][-]{section.4.4}{ Break up determination}{chapter.4}% 25
-\BOOKMARK [2][-]{subsection.4.4.1}{ZDC Signal Reconstruction}{section.4.4}% 26
+\BOOKMARK [2][-]{subsection.4.4.1}{ZDC signal reconstruction}{section.4.4}% 26
 \BOOKMARK [2][-]{subsection.4.4.2}{Determination of the one neutron thresholds}{section.4.4}% 27
 \BOOKMARK [1][-]{section.4.5}{ Signal extraction}{chapter.4}% 28
 \BOOKMARK [1][-]{section.4.6}{ Efficiency determination}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.6.1}{Muon Efficiencies}{section.4.6}% 30
+\BOOKMARK [2][-]{subsection.4.6.1}{Muon efficiencies}{section.4.6}% 30
 \BOOKMARK [2][-]{subsection.4.6.2}{ZDC trigger efficiency}{section.4.6}% 31
 \BOOKMARK [1][-]{section.4.7}{ Systematic checks}{chapter.4}% 32
 \BOOKMARK [2][-]{subsection.4.7.1}{HF noise threshold}{section.4.7}% 33
-\BOOKMARK [2][-]{subsection.4.7.2}{Template fit}{section.4.7}% 34
+\BOOKMARK [2][-]{subsection.4.7.2}{Template fit normalization}{section.4.7}% 34
 \BOOKMARK [2][-]{subsection.4.7.3}{Mass fit}{section.4.7}% 35
 \BOOKMARK [2][-]{subsection.4.7.4}{MC acceptance}{section.4.7}% 36
 \BOOKMARK [2][-]{subsection.4.7.5}{ZDC reconstruction}{section.4.7}% 37
 \BOOKMARK [2][-]{subsection.4.7.6}{ZDC reconstruction method comparison}{section.4.7}% 38
-\BOOKMARK [2][-]{subsection.4.7.7}{ZDC efficiency}{section.4.7}% 39
+\BOOKMARK [2][-]{subsection.4.7.7}{ZDC trigger efficiency}{section.4.7}% 39
 \BOOKMARK [2][-]{subsection.4.7.8}{Tag and probe}{section.4.7}% 40
 \BOOKMARK [2][-]{subsection.4.7.9}{MC vs Data compairson}{section.4.7}% 41
 \BOOKMARK [0][-]{chapter.5}{Results}{}% 42

@@ -57,7 +57,7 @@
       directly.
     All three STARlight sample produce a $\mu^{+}$ and $\mu^{-}$ in the final 
       state that interacts with the detector.
-    The second class uses PYTHIA6 to decay $J/\psi$s with a given
+    The second class uses PYTHIA6 to decay J/$\psi$s with a given
       input $p_{T}$ and rapidity distribution.
     Two samples of this class of particle gun data were produced each with 
       different $p_{T}$ distributions (See Fig.).
@@ -187,7 +187,7 @@
       fit within the bandwidth requirement of CMS Heavy Ions group. 
     
     The trigger package for 2011 contained ZDC based efficiency monitoring 
-      triggers, muon and electron based triggers for measuring $J/\psi$, and 
+      triggers, muon and electron based triggers for measuring J/$\psi$, and 
       backup triggers in case there was a problem with the original muon and 
       electron triggers.
     In order to recorded the trigger efficiency monitoring data, the ZDC 
@@ -206,7 +206,7 @@
 	      energy in the BSC.
       Additional triggers which vetoed on energy in HF were commissioned in case
         radiation damaged to the BSCs.
-      The L1 package that was constructed for the analysis of UPC $J/\psi$ 
+      The L1 package that was constructed for the analysis of UPC J/$\psi$ 
         is presented in Table~\ref{tab:l1Triggers2011}.
 
       \begin{table}[h]
@@ -277,7 +277,7 @@
         ZDC path, which also required a pixel track on the HLT.
 
   \section{\label{sec:DataSetEvSel} Data Sets and Event Selection}
-    In order to investigate novel physics processes like UPC $J/\psi$ 
+    In order to investigate novel physics processes like UPC J/$\psi$ 
      production, the LHC has delivered unprecedented amounts of data.
     The data for this analysis was recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
@@ -289,7 +289,7 @@
         (see Table~\ref{tab:sampleLumiNevt}).
       These samples were recorded using subsets of the triggers found in 
         Section~\ref{sec:TrigDev}.
-      The $J/\psi$ events discussed in this thesis were obtained analyzing the 
+      The J/$\psi$ events discussed in this thesis were obtained analyzing the 
         sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered sample was recorded for the sake of estimating 
         efficiencies.
@@ -300,13 +300,13 @@
       ZDC triggered samples allow for the investigation of the selection 
         criteria. 
   
-      To record the physics sample containing the $J/\psi$ signal, a muon trigger
+      To record the physics sample containing the J/$\psi$ signal, a muon trigger
         was paired with a veto on energy in the BSC and a requirement that there 
         be energy in at least one of two sides of the ZDC. 
       This trigger utilizes the unlikely chance of having overlapping noise in
         in the ZDC and muon detector.
-      Because of the characteristically low momentum of UPC $J/\psi$ as compared
-        to $J/\psi$ created by other physics process, the loosest muon 
+      Because of the characteristically low momentum of UPC J/$\psi$ as compared
+        to J/$\psi$ created by other physics process, the loosest muon 
         trigger was used.
       By pairing the muon trigger with the ZDC on the L1, the noise contribution
         was reduced from the noise contribution from either of the two 
@@ -321,7 +321,7 @@
         selection, a minimum bias sample was recorded using the ZDC. 
       For ZDC triggered sample, any event which had energy consistent with at 
         least one neutron in either of the two sides of the ZDC was recorded.
-      This process is much more common than the UPC $J/\psi$ production.
+      This process is much more common than the UPC J/$\psi$ production.
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
       From this trigger the pixel track portion of the HLT trigger efficiency 
@@ -364,7 +364,7 @@
         section. 
   
     \subsection{Event selection}
-      The analysis described in this thesis focuses on UPC $J/\psi$s decaying to 
+      The analysis described in this thesis focuses on UPC J/$\psi$s decaying to 
         muons. 
       The trigger used for this analysis recored 346841 events.
       A set of off-line cuts were applied to increase the relative contribution 
@@ -466,10 +466,10 @@
       These cuts are applied to reduce the number of fake muons.
 
   \section{\label{sec:breakUpDet} Break up determination}
-    As described in Section.~\ref{sec:ltaTheory}, UPC J/$\psi$ photoproduction 
+    As described in Section~\ref{sec:ltaTheory}, UPC J/$\psi$ photoproduction 
       can be accompanied by the emission of neutrons from either of the two 
       colliding nuclei.
-    The various neutron emission scenarios, or break-up break up modes, can 
+    The various neutron emission scenarios, or break-up modes, can 
       be distinguished by the ZDC.
     By separating events where the ZDC signal is consistent with 1 neutron 
       versus several neutrons, the different break-up modes can be separated
@@ -479,12 +479,12 @@
     In order to maximize the ability to explore the one neutron peak, which 
       sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
       method was devised. 
-    This new reconstruction method was than used to establish a one neutron and
+    This new reconstruction method was then used to establish a one neutron and
       many neutron threshold.
     In this section the ZDC signal reconstruction is described and how the 
       neutron thresholds on this signal were set.
     
-    \subsection{ZDC Signal Reconstruction}
+    \subsection{ZDC signal reconstruction}
       The ZDC signal is built up from the pulse shapes for each of the 
         18 individual ZDC channels. 
       The pulse shape is recorded in 250 ns second chunks and is divided into
@@ -496,7 +496,9 @@
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{zdcPulseShape}
-        \caption{ZDC pluse shape.}
+        \caption{Average ZDC pluse shape is plotted as the charge as a function
+          of time slice for the first hadronic from ZDC$^{-}$ (left) and 
+          ZDC$^{+}$ (right).}
         \label{fig:zdcPulseShape}
       \end{figure}
 
@@ -510,8 +512,8 @@
       Time slices 1 and 2 could also be used to estimate the low frequency 
         noise.
       However because the noise fluctuates to negative values of charge that 
-        can't be measured by the QIE, these time slice can only provide a 
-        measurement half the time. 
+        cannot be measured, these time slices can only provide a 
+        measurement of the noise half the time. 
       By using time slice 5 which contains the falling tail of the signal, 
         the noise can be measured any time the signal raises significantly 
         above the noise.
@@ -519,7 +521,7 @@
         the noise contributes the same value to both time slices, the 
         following formula is applicable:
       \begin{equation}
-        Ts4 \propto (Ts4 + C) - ( Ts5 + C ) = Ts4 - R_{Ts5/Ts4}*Ts4 
+        Ts4 \propto (Ts4 + C) - ( Ts5 + C ) = Ts4 - R_{Ts5/Ts4}Ts4 
         = Ts4(1-R_{Ts5/Ts4}),
         \label{eq:ts4ish}
       \end{equation}
@@ -530,10 +532,10 @@
       Fig.~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
         fraction and validates the unconventional method of using the falling 
         tail of the signal to estimate the low frequency noise. 
-      By using time slice 5 the chances measuring the noise are maximized 
-        allowing for the possiblity to sperate the signal from the noise and
-        measure the ZDC signal near noise at the bottom of the ZDC dynamic 
-        range.
+      By using time slice 5, the chances of measuring the noise are maximized. 
+      Separating the signal from the noise is especially important because
+        the ZDC signal for the one neutron peak sits near the noise at the 
+        bottom of the ZDC dynamic range.
       \begin{figure}[!Hhbt]
         \centering
         $ \begin{array}{cc}
@@ -558,40 +560,43 @@
       The value for each side of the ZDC's signal is given by the sum of the 
         HAD channel combination and weighted EM channel combination.
       It is this signal, one for ZDC$^{+}$ and one for ZDC$^{-}$, 
-        which is plotted to measure the neutron thresholds.
+        which is plotted in Fig.~\ref{fig:zdcM2Fit} to measure the neutron 
+        thresholds.
 
     \subsection{Determination of the one neutron thresholds}
       The ZDC thresholds used to establish the various break-up modes were 
         measured from zero bias data.
-      By using this dataset, the spectrum does not contain a trigger bias. 
-      The trigger requirement for the zero bias events is that both beams were 
-        present in CMS.
-      This does however include a significant electronic noise contribution due
+      By using this dataset, the neutron spectrum does not contain a trigger 
+        bias. 
+      Zero bias trigger required that both beams were present in CMS.
+      This does, however, include a significant electronic noise contribution due
         to events where no neutrons are emitted in the direction of the ZDC.
 
       To determine the thresholds for one and multiple neutrons, the ZDC$^{+}$ 
-        and ZDC$^{-}$ spectra are fit.
+        and ZDC$^{-}$ spectra were fit.
       Four Gaussian functions were combined to fit the spectra. 
-      The electronic noise was fit to a Gaussian about zero.
+      The electronic noise was fit to a Gaussian around zero.
       The one, two, and three neutron peaks are fit to Gaussians that are 
         successively broader.
       The mean of each peak was initially set to multiples of the mean of the 
         one neutron peak. 
       \begin{figure}[!Hh]
         \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
-          \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
-        \end{array} $
+        $ 
+          \begin{array}{cc}
+            \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
+            \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
+          \end{array} 
+        $
         \caption{Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ 
           (right)}
         \label{fig:zdcM2Fit}
       \end{figure}
       The threshold for a neutron in the ZDC was taken from the fits in 
         Fig.~\ref{fig:zdcM2Fit}.
-      Any signal greater 2 $\sigma$ below the mean of the one neutron peak was 
+      Any signal greater 2$\sigma$ below the mean of the one neutron peak was 
         considered signal.
-      Any signal greater than 2 $\sigma$ above was considered multiple 
+      Any signal greater than 2$\sigma$ above was considered multiple 
         neutrons.
       In this way the single neutron break up modes could be separated from the
         multiple neutron modes.
@@ -632,7 +637,7 @@
         section signal measurements from the signal method involving time slice
         4 and time slice 5 are lower than 2 sigma below the mean in 
         Fig.~\ref{fig:zdcNoiseSpectra}.
-      With the single nuetron, multi-neutron, and noise thresholds established,
+      With the single neutron, multi-neutron, and noise thresholds established,
         the contributions to the various break-up modes were estimated and 
         compared to theory. 
 
@@ -657,7 +662,7 @@
     
     The invariant mass distribution for opposite sign dimuons is shown in 
       Fig.~\ref{fig:massFit}. 
-    A J/$\psi$ signal is clearly visible together with tails at higher and in
+    A J/$\psi$ signal is clearly visible together with tails at higher and
       lower mass due to the photon-photon process.
     A fit to the invariant mass distribution was done using a Gaussian
       to account for the J/$\psi$ signal and a first order polynomial function 
@@ -677,11 +682,11 @@
       \label{fig:massFit}
     \end{figure}
    
-    The same candidates from Fig.~\ref{fig:massFit} are plotted as a function
+    The same candidates from Fig.~\ref{fig:massFit} were plotted as a function
       of $p_{T}$ in Fig.~\ref{fig:ptTemps}.
     The clear overlap of the coherent and photon-photon process, and the 
       clear separation of these two lower $p_{T}$ processes from the incoherent
-      process are apparent.
+      process is apparent.
     The shape of the $p_{T}$ distribution for the coherent, incoherent, and 
       photon-photon process are taken from the final output of MC after
       applying all analysis cuts. 
@@ -697,7 +702,7 @@
       \label{fig:ptTemps}
     \end{figure}
 
-    The shape of the photon-photon process and coherent J/$\psi$ are very 
+    The shape of the photon-photon and coherent J/$\psi$ process are very 
       similar in $p_{T}$.
     Accordingly, the contribution from the photon-photon process and the 
       coherent process are difficult to separate from the $p_{T}$ distribution.
@@ -708,7 +713,7 @@
     Because of the anti-correlation, the statistical uncertainty on $nCo$ and 
       $nGamma$ from the fit are larger than $\sqrt{nCo}$ and $\sqrt{nGamma}$
       expected from Poisson statistics. 
-    The information from the invariant mass and $p_{T}$ distributions was 
+    The information from the invariant mass and $p_{T}$ distributions were
       combined to break this correlation. 
     Through this combination, the contribution to the final yield from 
       the three process was measured.
@@ -732,10 +737,10 @@
       peak as well the photon-photon contribution to the low-$p_{T}$ part of 
       the $p_{T}$ spectrum.
     In addition, the J/$\psi$ yield from the mass fit is forced to equal the
-      contribution from from the incoherent and coherent process in the 
+      contribution from the incoherent and coherent process in the 
       fit to the $p_{T}$ distribution. 
     In this way, the correlation between the yield parameters was broken, and 
-      the contribution from the three process are left independent of each 
+      the contribution from the three process were made independent of each 
       other.
       
     \begin{figure}[!Hhbt]
@@ -745,14 +750,11 @@
       \label{fig:simFitMassPtGauss}
     \end{figure}
 
-    By simultaneously fitting both the mass and $p_{T}$ spectra, the yields
-      from the coherent, incoherent, and photon-photon process were separated 
-      from each other in total yield of final candidates.
     The ambiguity between the coherent and incoherent processes in the mass fit
-      the ambiguity between the coherent and the photon-photon process was over
-      come by combining the two fits.
-    Fig.~\ref{fig:simGaussCor} shows the confidence contours for nCo and nGamma
-      from the simultaneous fit in Fig.~\ref{fig:simFitMassPtGauss}.  
+      and the ambiguity between the coherent and the photon-photon process was 
+      over come through used of the simultaneous fit.
+    Fig.~\ref{fig:simGaussCor} shows the confidence contours for $nCo$ and 
+      $nGamma$ from the simultaneous fit in Fig.~\ref{fig:simFitMassPtGauss}.  
     The slope of the confidence contours in Fig.~\ref{fig:simGaussCor} 
       is noticeably closer to 0 than the apparent negative slope in 
       Fig.~\ref{fig:ptOnlyCor}.
@@ -771,39 +773,33 @@
     \end{figure}
 
   \section{\label{sec:effDet} Efficiency determination}
-    \subsection{Muon Efficiencies}
+    \subsection{Muon efficiencies}
       The muon efficiencies are measured from MC and data.
       The MC based measurement accounts for the detector acceptance and the 
         efficiency of the muon quality discussed in 
         Section~\ref{sec:DataSetEvSel}.
       The trigger efficiencies were measured in data using the tag and probe 
-        method, which is discussed below. 
+      method \cite{cmsTnP}, which is discussed below. 
 
-       CMS has a limited acceptance for $J/\psi$s, particularly in the case of 
-        $J/\psi$s with low momentum like those produced in UPC events. 
-      To measure the acceptance of CMS for $J/\psi$s, reconstructed dimuon 
+       CMS has a limited acceptance for J/$\psi$s, particularly in the case of 
+        J/$\psi$s with low momentum like those produced in UPC events. 
+      To measure the acceptance of CMS for J/$\psi$s, reconstructed dimuon 
         candidates were considered detectable if both reconstructed daughters 
         fell into a detectability region.
       This region was defined using the coherent J/$\psi$ events obtained from 
         STARlight.
       The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
         is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
-        where $N^{\mu}_{reco}$ is the number reconstructed muons after 
-        after the full CMS detector simulation and that pass the standard
+        where $N^{\mu}_{reco}$ is the number reconstructed muons obtained 
+        after the full CMS detector simulation and that passed the standard
         muon quality cuts, and $N^{\mu}_{gen}$ is the number of generated 
         muons from STARlight.
-      \begin{figure*}[!Hhtb]
+      \begin{figure}[!Hhtb]
         \centering
-%          $ \begin{array}{cc}
-          \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} %&
-    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuJpInCo} \\
-    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGamma} &
-    %      \includegraphics[width=.45\textwidth]{mcEffMaps/accMuGun}
-%         \end{array} $
-        \caption{ Muon daughter detectability from coherent J/$\psi$, 
-          incoherent J/$\psi$, photon-photon, and J/$\psi$ gun samples.}
+          \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} 
+        \caption{ Muon daughter detectability from coherent J/$\psi$}
         \label{fig:muonDaughterDet}
-      \end{figure*}
+      \end{figure}
       Fig.~\ref{fig:muonDaughterDet} shows the efficiency for reconstructing
         single muons from coherent J/$\psi$ events.
       To avoid the edges of the detectors acceptance, all reconstructed muons 
@@ -816,9 +812,9 @@
         \label{eq:jpsiAccEq}
       \end{equation}
         where $N_{det}$ is the number of reconstructed dimuons where both 
-        daughters fall in to the detectability region, and $N_{gen}$ is the
+        daughters fall into the detectability region, and $N_{gen}$ is the
         number of generated dimuons. 
-      From Eq.~\ref{eq:jpsiAccEq}, the acceptance for $J/\psi$ was calculated
+      From Eq.~\ref{eq:jpsiAccEq}, the acceptance for J/$\psi$ was calculated
         as a function of $|y|$, and $p_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
         \begin{figure*}[!Hhtb]
           \centering
@@ -835,9 +831,9 @@
       The tag and probe method is used to measure the trigger efficiency of 
         the muon daughters, which is a data driven approach. 
       In this method there are three categories of daughter muons. 
-      Tag muons are high quality muons.
-      Passing probes are reconstructed muons that match the muon trigger, 
-        while failing probes do not. 
+      \textit{Tag muons} are high quality muons.
+      \textit{Passing probes} are reconstructed muons that match the muon trigger, 
+        while \textit{failing probes} do not. 
       Each dimuon will have one daughter classified as a tag and the other
         as a probe.
       From here three invariant mass histograms are studied. 
@@ -857,15 +853,15 @@
         histograms.
       The exponential function was fitted to the failing and passing probe 
         histograms separately.
-      Because the background shapes are in principal different for the two 
+      Because the background shapes are in principle different for the two 
         samples, the efficiency is driven by this difference. 
 
       To measure the trigger efficiency a tag is required to pass all muon
         quality cuts and matched to the trigger.
       The probe is required to pass all quality cuts. 
       A passing probe is a probe that is also matched to the trigger. 
-      In this way the tag leaves the probe in biased by the trigger and the 
-        efficiency can be measued by fitting mass.  
+      In this way, the tag leaves the probe unbiased by the trigger and the 
+        efficiency can be measured by fitting the mass distribution.  
 
       Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
       \begin{figure}[!Hh]
@@ -884,13 +880,13 @@
         \label{fig:tnpTrigMap}
       \end{figure}
 
-      The dimuon trigger efficiency $\varepsilon_{dimuon trigger}$ was measured
+      The dimuon trigger efficiency $\varepsilon^{dimuon}_{trigger}$ was measured
         from the single muon efficiencies. 
       The efficiency of each candidate was calculated using the following
         equation:
       \begin{equation}
         \label{eq:dimuTrigEff}
-        \varepsilon_{dimuon trigger}=1-(1-\varepsilon_{trigger}^{\mu_{1}})(1-\varepsilon_{trigger}^{\mu_{2}}),
+        \varepsilon^{dimuon}_{trigger}=1-(1-\varepsilon_{trigger}^{\mu_{1}})(1-\varepsilon_{trigger}^{\mu_{2}}),
       \end{equation}
       where $\varepsilon_{trigger}^{\mu_{1}}$ is the tag and probe efficiency
         of the first dimuon daughter, and $\varepsilon_{trigger}^{\mu_{2}}$ is
@@ -911,7 +907,7 @@
         \label{fig:avTrigEffCo}
       \end{figure}
       The average trigger efficiency was multiplied by the acceptance from the MC 
-        to produce a total efficiency times acceptance factor. 
+        to produce a total factor for both efficiency and acceptance. 
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=0.6\textwidth]{averageExA}
@@ -920,12 +916,29 @@
         \label{fig:avAccEff}
       \end{figure}
 
+      The total combined efficiency and acceptance factor coherent J/$\psi$ 
+        between 2.0 < |y| 2.2 was found to be around 5\%.
+      The roughly 7\% acceptance factor from the MC is the main contributor
+        to the total efficiency. 
+      Primarily, the interplay of the polarization of the J/$\psi$ and
+        the material in detector drive down the efficiency by creating an 
+        effective momentum threshold for detection (see 
+        Section~\ref{sec:mcSim}).
+      The reconstruction efficiency of the daughters is ranges between 
+        20\%-60\% for muons in the defined detectability range. 
+      The trigger efficiency for the detectable muons ranges from 30\%-80\% 
+        depending on $p_{T}$. 
+      The typical trigger efficiency for the dimuons was just over 60\%.
+        
+
     \subsection{ZDC trigger efficiency}
-      A special trigger was prepared to monitor the ZDC trigger efficiency. 
+      As discussed in Section~\ref{sec:breakUpDet}, a special trigger was 
+        prepared to monitor the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
         least one pixel track. 
       Events were accepted offline if there was no activity in the BSCs or 
         activity on a single side. 
+
       This sample suffers from a trigger bias. 
       For example, a sample triggered by ZDC$^{+}$ would always produce a ZDC$^{+}$ 
         trigger efficiency of one. 
@@ -944,11 +957,13 @@
         ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
         were measured.
       From this set of events, the number of events that also fire the 
-        ZDC$^{+}$ are measured.
-      The ratio between the number of single neutron events that fire the 
+        ZDC$^{+}$ was measured.
+      The ratio between the number of single neutron events that fired the 
         trigger and all single neutron events was taken as the estimate of 
         trigger efficiency. 
-      The same procedure is applied for each side of the ZDC. 
+      The same procedure was applied for each side of the ZDC.
+      The trigger efficiency of the ZDC was found to be 98\% for ZDC$^{-}$
+        and 94\% for ZDC$^{+}$.
 
       \begin{table}
         \centering
@@ -963,11 +978,18 @@
           2}
         \label{tab:zdcEfficiency}
       \end{table}
-  \section{\label{sec:sysCheck} Systematic checks}
 
+  \section{\label{sec:sysCheck} Systematic checks}
+    
+    Table~\ref{tab:sumsyst} shows the systematic errors that were estimated.
+    The method used to separate the coherent from the photon-photon process 
+     is the most dominant error.
+    The ZDC reconstruction method used to estimate the neutron thresholds 
+      is the next most dominant, followed by the method used to estimate
+      the HF noise threshold. 
+    
     \begin{table}[!Hhtb]
       \begin{center}
-        \label{tab:sumsyst}
         \begin{tabular}{|c|c|c|}
           \hline
           systematic & uncertainty in \%  \\ \hline
@@ -976,11 +998,11 @@
           ZDC trigger efficiency & 2.2\%    \\ \hline
           HF noise threshold & +1.3\% -3.4\%    \\ 
           MC acceptance & 1.1\%    \\ \hline
-          Mass fits & 1.9\%    \\ \hline
           \hline \hline
           Total systematic & 8.1\%    \\ \hline
         \end{tabular}
         \caption{Summary of systematic uncertainties}
+        \label{tab:sumsyst}
       \end{center}
     \end{table}
 
@@ -1288,7 +1310,7 @@
       Both the reconstruction method and thresholds were changed to calculate 
         the effect of the reconstruction method.
       The yields for the new and standard ZDC reconstruction method in the Xn0n
-        break up where found to be 298 and 315 respectively. 
+        break up were found to be 298 and 315 respectively. 
       Half the difference between the two methods was used as an estimated of 
         the systematic uncertainty.
       The systematic uncertainty due to the ZDC reconstruction method was 

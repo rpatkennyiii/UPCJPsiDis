@@ -30,45 +30,45 @@ I was expecting a `,' or a `}'---line 393 of file bbl/upcTheoryChp.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "CmsPTdrv2"
 Warning--I didn't find a database entry for "upcJets1"
-You've used 15 entries,
+You've used 16 entries,
             2328 wiz_defined-function locations,
-            714 strings with 7960 characters,
-and the built_in function-call counts, 5120 in all, are:
-= -- 572
-> -- 116
+            722 strings with 8131 characters,
+and the built_in function-call counts, 5429 in all, are:
+= -- 609
+> -- 120
 < -- 0
-+ -- 45
-- -- 30
-* -- 428
-:= -- 583
-add.period$ -- 34
-call.type$ -- 15
-change.case$ -- 23
++ -- 47
+- -- 31
+* -- 448
+:= -- 615
+add.period$ -- 36
+call.type$ -- 16
+change.case$ -- 24
 chr.to.int$ -- 0
-cite$ -- 15
-duplicate$ -- 298
-empty$ -- 500
-format.name$ -- 30
-if$ -- 1364
+cite$ -- 16
+duplicate$ -- 320
+empty$ -- 529
+format.name$ -- 31
+if$ -- 1451
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 52
-newline$ -- 63
-num.names$ -- 17
-pop$ -- 78
+int.to.str$ -- 16
+missing$ -- 56
+newline$ -- 66
+num.names$ -- 18
+pop$ -- 83
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 224
+skip$ -- 243
 stack$ -- 0
-substring$ -- 272
-swap$ -- 153
+substring$ -- 284
+swap$ -- 166
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 34
-width$ -- 17
-write$ -- 141
+while$ -- 36
+width$ -- 18
+write$ -- 149
 (There was 1 error message)

@@ -706,15 +706,3 @@
   doi = {10.1103/PhysRevD.88.012005},
   url = {http://link.aps.org/doi/10.1103/PhysRevD.88.012005}
 }
-
-@article{cmsTnP,
-  author={The CMS collaboration},
-  title={Performance of CMS muon reconstruction in pp collision events at $sqrt{s}$ = 7 TeV},
-  journal={Journal of Instrumentation},
-  volume={7},
-  number={10},
-  pages={P10002},
-  url={http://stacks.iop.org/1748-0221/7/i=10/a=P10002},
-  year={2012},
-  abstract={The performance of muon reconstruction, identification, and triggering in CMS has been studied using 40 pb −1 of data collected in pp collisions at $sqrt{s}$ = 7 TeV at the LHC in 2010. A few benchmark sets of selection criteria covering a wide range of physics analysis needs have been examined. For all considered selections, the efficiency to reconstruct and identify a muon with a transverse momentum p T larger than a few GeV/c is above 95% over the whole region of pseudorapidity covered by the CMS muon system, $|\eta|$ < 2.4, while the probability to misidentify a hadron as a muon is well below 1%. The efficiency to trigger on single muons with $p_{T}$ above a few GeV/c is higher than 90% over the full $\eta$ range, and typically substantially better. The overall momentum scale is measured to a precision of 0.2% with muons from Z decays. The transverse momentum resolution varies from 1% to 6% depending on pseudorapidity for muons with $p_{T}$ below 100GeV/c and, using cosmic rays, it is shown to be better than 10% in the central region up to $p_{T}$ = 1 TeV/c. Observed distributions of all quantities are well reproduced by the Monte Carlo simulation.}
-}

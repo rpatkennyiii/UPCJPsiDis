@@ -24,22 +24,22 @@
 \contentsline {subsection}{\numberline {4.3.1}Data Set}{43}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Event selection}{44}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4} Break up determination}{47}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}ZDC Signal Reconstruction}{47}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.1}ZDC signal reconstruction}{47}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{49}{subsection.4.4.2}
 \contentsline {section}{\numberline {4.5} Signal extraction}{51}{section.4.5}
-\contentsline {section}{\numberline {4.6} Efficiency determination}{56}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muon Efficiencies}{56}{subsection.4.6.1}
-\contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{60}{subsection.4.6.2}
+\contentsline {section}{\numberline {4.6} Efficiency determination}{55}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Muon efficiencies}{55}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{61}{subsection.4.6.2}
 \contentsline {section}{\numberline {4.7} Systematic checks}{62}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}HF noise threshold}{62}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Template fit}{64}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{64}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{66}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {4.7.4}MC acceptance}{67}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{67}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{68}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}ZDC reconstruction method comparison}{70}{subsection.4.7.6}
-\contentsline {subsection}{\numberline {4.7.7}ZDC efficiency}{72}{subsection.4.7.7}
-\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{74}{subsection.4.7.8}
-\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{75}{subsection.4.7.9}
+\contentsline {subsection}{\numberline {4.7.7}ZDC trigger efficiency}{72}{subsection.4.7.7}
+\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{73}{subsection.4.7.8}
+\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{76}{subsection.4.7.9}
 \contentsline {chapter}{\numberline {5}Results}{78}{chapter.5}
 \contentsline {section}{\numberline {5.1}Coherent cross section}{78}{section.5.1}
 \contentsline {section}{\numberline {5.2}Incoherent cross section}{79}{section.5.2}
