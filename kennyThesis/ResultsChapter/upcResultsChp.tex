@@ -1,31 +1,79 @@
+
 \chapter{Results} 
+  The main results of this thesis are give here:
+    the cross section for coherent \JPsi production, the incoherent \JPsi cross
+    section, the cross section for muon pairs from photon-photon interactions,
+    the ratio between break up mode yields, and the rapidity correlations 
+    between dimuon candidates and neutrons in the ZDC.
+
   \section{Coherent cross section}
-  For the coherent cross section, the raw yield of dimuon candidates was
-    measured after applying the cuts described in Section~\ref{sec:DataSetEvSel}.
+  The coherent cross section in calculated from the following equation:
+  \begin{equation}
+    \frac{d\sigma^{J/\psi}_{co}}{dy}  = \frac{N_{cor} f_{co}  }
+    { \Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon_{p_{T}} 
+      BR_{\mu^{+}\mu^{-}}}
+    \label{eq:expXSecCo}
+   \end{equation}
+   where $N_{cor}$ is corrected dimuon yield, $f_{co}$ is the 
+     fraction of events that come from the coherent process, 
+     $BR_{\mu^{+}\mu^{-}}$ is the branching ratio for \JPsi to $\mu^{+}\mu^{-}$, 
+     $\varepsilon_{ZDC}$ is the efficiency for triggering the ZDC, 
+     $\varepsilon_{p_{T}}$ is the efficiency for the 0.15 GeV cut in $p_{T}$, 
+     $\mathcal{L}_{int}$ is the integrated luminosity, and $\Delta y$ is the 
+     width the rapidity interval.
+
+  The raw yield of dimuon candidates was measured after applying the cuts 
+    described in Section~\ref{sec:DataSetEvSel}.
   \begin{figure}[!Hhtb]
     \centering
     \includegraphics[width=0.6\textwidth]{rawYield}
     \caption{Raw yield for the Coherent cross section measurement.}
     \label{fig:rawYieldCo}
   \end{figure}
-
-  The raw yields were divided by the total efficiency times acceptance factors
-    to produce corrected yields.
+  $N_{cor}$ was calculated by dividing the raw yields from 
+    Fig.~\ref{fig:rawYieldCo} by the acceptance and efficiency factor from 
+    Fig.~\ref{fig:avAccEff}, which combines $A$ and 
+    $\varepsilon^{dimuon}_{trigger}$ as described in Section.~\ref{sec:effDet}.
+  The corrected yields, $N_{cor}$, are shown in Fig.~\ref{fig:corYieldCo}.
   \begin{figure}[!Hhtb]
     \centering
     \includegraphics[width=0.6\textwidth]{correctedYieldAverage}
     \caption{Corrected yields for the coherent p$_{T}$ region.}
     \label{fig:corYieldCo}
   \end{figure}
+  For the coherent cross section measurement, $N_{cor}$ is taken from the 
+    region 2.0 < $|y|$ < 2.2 and $p_{T}$ < 0.15 GeV to avoid the edges of the
+    detectors acceptance, bin migration in the calculation of $A$, and overlap
+    between the coherent and incoherent process.
+  From this procedure the $N_{cor}$ was measured to be 1903.
+  
+  To measure $f_{co}$, the simultaneous fit shown in 
+    Fig.~\ref{fig:simFitMassPtGauss} was used.
+  The normalizations for each of the three components to the signal are fixed 
+  by the fit as described in Section~\ref{sec:sigEx}.
+  The normalized coherent template is integrated up to 0.15 GeV in $p_{T}$ and
+    divided by the integral of the data $p_{T}$ spectrum up to 0.15 GeV.
+  The statistical error taken from the fit, $f_{co}$ = 0.60 $\pm$ 0.11.
 
-  The corrected yields in the 2.0-2.1 and 2.1-2.2 $|y|$ rapidity bins were added 
-    together to calculate the cross section. 
-  These bins were selected to insure a total acceptance times efficiency 
-    greater than 5\%.
-
-  The contribution from coherent production was estimated from the template fit
-    in Fig.~\ref{fig:ptTempFit}.
-  The first three bins are used to estimate the contribution below 150 MeV.
+  The two efficiency terms, $\varepsilon_{ZDC}$ and $\varepsilon_{p_{T}}$, were
+    measured from data and MC respectively.
+  As described in Section~\ref{sec:breakUpDet}, $\varepsilon_{ZDC}$ was 
+    measured in the from the ZDC triggered data set by dividing the number of 
+    events both fire the ZDC trigger and pass the one neutron threshold.
+  $\varepsilon_{ZDC}$ was measured to be 0.96 with a negligible statistical 
+    error.
+  The efficiency of the 0.15 GeV $p_{T}$ cut was estimated from MC by dividing 
+    the number of events that are lost by applying the $p_{T}$ cut after all
+    other cuts are applied. 
+  From this method $\varepsilon_{p_{T}}$ = 0.95.
+  
+  The remaining two terms, $\mathcal{L}_{int}$ and $BR_{\mu^{+}\mu^{-}}$, 
+    depend on Ref.~\cite{cmsLumi} and Ref.~\cite{pdg}.
+  Ref.~\cite{cmsLumi} describes the method of using activity in HF to measure 
+    the luminosity. 
+  From this method, $\mathcal{L}_{int}$ was measured to be 143.3$\mu b^{-1}\pm$7.2.
+  $BR_{\mu^{+}\mu^{-}}$ from Ref.~\cite{pdg} is 0.0593 $\pm$ 0.0006.
+  From Equation~\ref{eq:expXSecCo}, $\frac{d\sigma^{J/\psi}_{co}}{dy}$ = 368 $mb$.
 
   \section{Incoherent cross section}
   \section{Break up ratios}
