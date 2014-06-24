@@ -16,13 +16,13 @@
 \contentsline {chapter}{\numberline {3}The CMS Detector}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Trigger}{34}{section.3.1}
 \contentsline {chapter}{\numberline {4}Analysis}{36}{chapter.4}
-\contentsline {section}{\numberline {4.1} MC Simulation}{36}{section.4.1}
-\contentsline {section}{\numberline {4.2} Trigger Development}{40}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1} L1 Trigger}{41}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}HLT Trigger}{42}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3} Data Sets and Event Selection}{42}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data Set}{43}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Event selection}{44}{subsection.4.3.2}
+\contentsline {section}{\numberline {4.1} MC simulation}{36}{section.4.1}
+\contentsline {section}{\numberline {4.2} Trigger development}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1} L1 trigger}{41}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}HLT trigger}{42}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3} Event selection}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Data sets}{43}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Event selection cuts}{44}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4} Break up determination}{47}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}ZDC signal reconstruction}{47}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{49}{subsection.4.4.2}
@@ -36,9 +36,9 @@
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{66}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {4.7.4}MC acceptance}{67}{subsection.4.7.4}
 \contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{68}{subsection.4.7.5}
-\contentsline {subsection}{\numberline {4.7.6}ZDC reconstruction method comparison}{70}{subsection.4.7.6}
-\contentsline {subsection}{\numberline {4.7.7}ZDC trigger efficiency}{72}{subsection.4.7.7}
-\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{73}{subsection.4.7.8}
+\contentsline {subsection}{\numberline {4.7.6}ZDC trigger efficiency}{70}{subsection.4.7.6}
+\contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{72}{subsection.4.7.7}
+\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{74}{subsection.4.7.8}
 \contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{76}{subsection.4.7.9}
 \contentsline {chapter}{\numberline {5}Results}{78}{chapter.5}
 \contentsline {section}{\numberline {5.1}Coherent cross section}{78}{section.5.1}

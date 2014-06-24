@@ -15,13 +15,13 @@
 \BOOKMARK [0][-]{chapter.3}{The CMS Detector}{}% 15
 \BOOKMARK [1][-]{section.3.1}{Trigger}{chapter.3}% 16
 \BOOKMARK [0][-]{chapter.4}{Analysis}{}% 17
-\BOOKMARK [1][-]{section.4.1}{ MC Simulation}{chapter.4}% 18
-\BOOKMARK [1][-]{section.4.2}{ Trigger Development}{chapter.4}% 19
-\BOOKMARK [2][-]{subsection.4.2.1}{ L1 Trigger}{section.4.2}% 20
-\BOOKMARK [2][-]{subsection.4.2.2}{HLT Trigger}{section.4.2}% 21
-\BOOKMARK [1][-]{section.4.3}{ Data Sets and Event Selection}{chapter.4}% 22
-\BOOKMARK [2][-]{subsection.4.3.1}{Data Set}{section.4.3}% 23
-\BOOKMARK [2][-]{subsection.4.3.2}{Event selection}{section.4.3}% 24
+\BOOKMARK [1][-]{section.4.1}{ MC simulation}{chapter.4}% 18
+\BOOKMARK [1][-]{section.4.2}{ Trigger development}{chapter.4}% 19
+\BOOKMARK [2][-]{subsection.4.2.1}{ L1 trigger}{section.4.2}% 20
+\BOOKMARK [2][-]{subsection.4.2.2}{HLT trigger}{section.4.2}% 21
+\BOOKMARK [1][-]{section.4.3}{ Event selection}{chapter.4}% 22
+\BOOKMARK [2][-]{subsection.4.3.1}{Data sets}{section.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.3.2}{Event selection cuts}{section.4.3}% 24
 \BOOKMARK [1][-]{section.4.4}{ Break up determination}{chapter.4}% 25
 \BOOKMARK [2][-]{subsection.4.4.1}{ZDC signal reconstruction}{section.4.4}% 26
 \BOOKMARK [2][-]{subsection.4.4.2}{Determination of the one neutron thresholds}{section.4.4}% 27
@@ -35,8 +35,8 @@
 \BOOKMARK [2][-]{subsection.4.7.3}{Mass fit}{section.4.7}% 35
 \BOOKMARK [2][-]{subsection.4.7.4}{MC acceptance}{section.4.7}% 36
 \BOOKMARK [2][-]{subsection.4.7.5}{ZDC reconstruction}{section.4.7}% 37
-\BOOKMARK [2][-]{subsection.4.7.6}{ZDC reconstruction method comparison}{section.4.7}% 38
-\BOOKMARK [2][-]{subsection.4.7.7}{ZDC trigger efficiency}{section.4.7}% 39
+\BOOKMARK [2][-]{subsection.4.7.6}{ZDC trigger efficiency}{section.4.7}% 38
+\BOOKMARK [2][-]{subsection.4.7.7}{ZDC reconstruction method comparison}{section.4.7}% 39
 \BOOKMARK [2][-]{subsection.4.7.8}{Tag and probe}{section.4.7}% 40
 \BOOKMARK [2][-]{subsection.4.7.9}{MC vs Data compairson}{section.4.7}% 41
 \BOOKMARK [0][-]{chapter.5}{Results}{}% 42

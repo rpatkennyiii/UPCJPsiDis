@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  19 JUN 2014 11:38
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  20 JUN 2014 02:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 Package: ulem 2012/05/18
 \ULdepth=\dimen157
 ) (./diffMain.aux
-(./diff.aux))
+(./diffAn.aux))
 \openout1 = `diffMain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -754,9 +754,9 @@ LaTeX Info: Redefining \nameref on input line 95.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `diff.aux'.
+\openout2 = `diffAn.aux'.
 
- (./diff.tex
+ (./diffAn.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -764,312 +764,306 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-Overfull \hbox (0.84341pt too wide) in paragraph at lines 21--22
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []
- []
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 19.
+
+
+LaTeX Warning: Reference `sec:sysCheck' on page 1 undefined on input line 19.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 23.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
 [1
 
 
 
 {/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 53.
 
+LaTeX Warning: Reference `sec:vdmTheory' on page 2 undefined on input line 51.
 
-LaTeX Warning: Reference `sec:vdmTheory' on page 2 undefined on input line 53.
-
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 55
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 53
 .
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 55
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 53
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 55
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 53
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 55
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 53
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 55.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-LaTeX Font Info:    Try loading font information for U+esint on input line 55.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 53.
+LaTeX Font Info:    Try loading font information for U+esint on input line 53.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-Overfull \hbox (6.15767pt too wide) in paragraph at lines 67--97
+Overfull \hbox (6.15767pt too wide) in paragraph at lines 65--94
 []\T1/ptm/m/n/12 The soft-ware chain used for pro-duc-ing the STARlight sam-ple
 s has five steps. Be-cause STARlight
  []
 
-[2] [3]
-<AnalysisChapter/figures/genRapDis.pdf, id=134, 569.12625pt x 546.04pt>
+[2] [3] <AnalysisChapter/figures/genRapDis.pdf, id=93, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genRapDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genRapDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genRapDis.pdf used on input li
-ne 133.
+ne 130.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/genPtDis.pdf, id=135, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/genPtDis.pdf, id=94, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genPtDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genPtDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genPtDis.pdf used on input lin
-e 134.
+e 131.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/polCosThetaHXGen.png, id=136, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/polCosThetaHXGen.png, id=95, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/polCosThetaHXGen.png Graphic file (type png)
 
 <use AnalysisChapter/figures/polCosThetaHXGen.png>
 Package pdftex.def Info: AnalysisChapter/figures/polCosThetaHXGen.png used on i
-nput line 144.
+nput line 141.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
  [4 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./An
 alysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees> <./AnalysisChap
 ter/figures/polCosThetaHXGen.png>] [5]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 207.
- [6] [7]pdfTeX warning (ext4): destination with the same identifier (name{subse
-ction.1.3.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.300 ...IFaddbegin \subsection{\DIFadd{Data Set}}
-                                                   [8] [9]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 413.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 201.
+ [6] [7] [8]
 
+LaTeX Warning: Citation `cmsLumi' on page 9 undefined on input line 347.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 404.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 413.
- [10]
-<AnalysisChapter/figures/hfNoiseComp.pdf, id=264, 569.12625pt x 385.44pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 404.
+ [9] [10]
+<AnalysisChapter/figures/hfNoiseComp.pdf, id=223, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/hfNoiseComp.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/hfNoiseComp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/hfNoiseComp.pdf used on input 
-line 463.
+line 454.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
  [11 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `sec:ltaTheory' on page 12 undefined on input line 483
+LaTeX Warning: Reference `sec:ltaTheory' on page 12 undefined on input line 474
 .
 
-<AnalysisChapter/figures/zdcPulseShape.png, id=314, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcPulseShape.png, id=273, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPulseShape.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
-t line 512.
+t line 503.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12]
-<AnalysisChapter/figures/negTs5overTs4vts5.png, id=321, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/negTs5overTs4vts5.png, id=280, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/negTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/negTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/negTs5overTs4vts5.png used on 
-input line 558.
+input line 549.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
 
-<AnalysisChapter/figures/posTs5overTs4vts5.png, id=322, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/posTs5overTs4vts5.png, id=281, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/posTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/posTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/posTs5overTs4vts5.png used on 
-input line 559.
+input line 550.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
  [13 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
-<AnalysisChapter/figures/zdcFit45Neg.png, id=332, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcFit45Neg.png, id=291, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Neg.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Neg.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Neg.png used on input 
-line 603.
+line 594.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcFit45Pos.png, id=333, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcFit45Pos.png, id=292, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Pos.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Pos.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Pos.png used on input 
-line 604.
+line 595.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
  [14 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figur
 es/posTs5overTs4vts5.png>]
-<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=341, 698.61pt x 473.7
+<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=300, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png u
-sed on input line 636.
+sed on input line 627.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=342, 698.61pt x 473.7
+<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=301, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png u
-sed on input line 637.
+sed on input line 628.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=343, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=302, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcNegHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png used o
-n input line 638.
+n input line 629.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=344, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=303, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png used o
-n input line 639.
+n input line 630.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
  [15 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdc
 Fit45Pos.png>] [16 <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./
 AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figure
 s/zdcNegHDNoiseFromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
 
-<AnalysisChapter/figures/massFitSimple.pdf, id=357, 569.12625pt x 495.8525pt>
+<AnalysisChapter/figures/massFitSimple.pdf, id=316, 569.12625pt x 495.8525pt>
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 696.
+t line 687.
 (pdftex.def)             Requested size: 281.85587pt x 245.58015pt.
  [17 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
 
-<AnalysisChapter/figures/ptOnly.pdf, id=411, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/ptOnly.pdf, id=370, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-717.
+708.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=414, 569.12625pt x 546.04pt
+<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=373, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf used on
- input line 741.
+ input line 732.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
  [18 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=464, 569.12625pt x 272.0162
+<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=423, 569.12625pt x 272.0162
 5pt>
 File: AnalysisChapter/figures/ptMassSimGaussLine.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptMassSimGaussLine.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimGaussLine.pdf used on
- input line 766.
+ input line 757.
 (pdftex.def)             Requested size: 422.77664pt x 202.07748pt.
 
-Overfull \hbox (2.58018pt too wide) in paragraph at lines 774--789
+Overfull \hbox (2.58018pt too wide) in paragraph at lines 765--780
 []|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
 ]   |   []   |   []   |   []   |   []   |   []   |   []
  []
 
 [19 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degre
 es>]
-<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=519, 569.12625pt x 546.04pt
+<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=478, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtMass.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf used on
- input line 792.
+ input line 783.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `cmsTnP' on page 20 undefined on input line 808.
+LaTeX Warning: Citation `cmsTnP' on page 20 undefined on input line 799.
 
 
-<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=521, 569.12625pt x 546.04p
+<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=480, 569.12625pt x 546.04p
 t>
 File: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf used o
-n input line 829.
+n input line 820.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
  [20 <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degr
 ees>]
-<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=574, 598.235pt x 574.
+<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=532, 598.235pt x 574.
 145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png u
-sed on input line 860.
+sed on input line 851.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=575, 598.235pt x 57
+<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=533, 598.235pt x 57
 4.145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png Graphic file (type
  png)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png
- used on input line 861.
+ used on input line 852.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=576, 598.235pt x 574
+<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=534, 598.235pt x 574
 .145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png Graphic file (type 
 png)
  <use AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png 
-used on input line 862.
+used on input line 853.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
  [21 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
 ees>]
 [22 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 degr
 ees>]
-<AnalysisChapter/figures/tNp/tnpFits.pdf, id=675, 569.12625pt x 385.44pt>
+<AnalysisChapter/figures/tNp/tnpFits.pdf, id=634, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/tNp/tnpFits.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFits.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFits.pdf used on input 
-line 907.
+line 898.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
 
-<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=677, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=636, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 915.
+ut line 906.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
@@ -1080,887 +1074,776 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 etAccGammaStep.png>] [24 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is ro
 tated 90 degrees> <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotate
 d 90 degrees>]
-<AnalysisChapter/figures/averageTriggerEff.png, id=776, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageTriggerEff.png, id=735, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageTriggerEff.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageTriggerEff.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageTriggerEff.png used on 
-input line 942.
+input line 933.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
 
-<AnalysisChapter/figures/averageExA.png, id=777, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageExA.png, id=736, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageExA.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageExA.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageExA.png used on input l
-ine 951.
+ine 942.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
  [25 <./AnalysisChapter/figures/averageTriggerEff.png>] [26 <./AnalysisChapter/
-figures/averageExA.png>] [27]
+figures/averageExA.png>]
+
+LaTeX Warning: Reference `tab:sumsyst' on page 27 undefined on input line 1024.
+
+
+[27]
+
+LaTeX Warning: Reference `tab:hfNoiseThreshAsym' on page 28 undefined on input 
+line 1083.
+
+
+LaTeX Warning: Reference `tab:hfCutYieldEffects' on page 28 undefined on input 
+line 1086.
+
+
+LaTeX Warning: Reference `tab:hfAdjustedThresholds' on page 28 undefined on inp
+ut line 1121.
+
+
+LaTeX Warning: Reference `tab:hfAdjThreshYields' on page 28 undefined on input 
+line 1123.
+
 [28]
-Overfull \hbox (11.64381pt too wide) in paragraph at lines 1177--1204
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   [][] []|   []
- []
-
-
-Overfull \hbox (1.49219pt too wide) in paragraph at lines 1228--1229
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-[29pdfTeX warning (ext4): destination with the same identifier (name{subsection
-.1.7.2}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.1229 
-       ]
-<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=818, 569.12625pt x 546.04pt>
-File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
-
-<use AnalysisChapter/figures/tNp/tnpCounting.pdf>
-Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
-put line 1250.
-(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-
-Runaway argument?
-\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
-! Forbidden control sequence found while scanning use of \UL@word.
-<inserted text> 
-                \par 
-l.1250         }
-                %DIFDELCMD < \caption{%
-? 
-Runaway argument?
-\@empty 
-! Paragraph ended before \UL@word was complete.
-<to be read again> 
-                   \par 
-l.1250         }
-                %DIFDELCMD < \caption{%
-? 
-File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
-<use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
-Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 1250.
-(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1282 \subsection
-                  {\DIFdel{Template fit}}
-? 
-
-! LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1282 \subsection
-                  {\DIFdel{Template fit}}
-? 
-! Undefined control sequence.
-\UL@leaders ...L@skip \tw@ \UL@pixel \UL@leadtype 
-                                                  \LA@hskip \UL@skip \LA@hsk...
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-? 
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
-7.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-! Extra }, or forgotten \endgroup.
-\DIFdeltex #1->{\protect \color {red}\sout {#1}}
-                                                
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-? 
-! Extra }, or forgotten \endgroup.
-\H@old@sect ...c }\interlinepenalty \@M #8\@@par }
-                                                  \endgroup \csname #1mark\e...
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1282 \subsection{\DIFdel{Template fit}}
-                                         
-? 
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
-7.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1285 ...ion{\DIFadd{Template fit normalization}}
-                                                  
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
-
-<use AnalysisChapter/figures/ptOnly.pdf>
+ <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-1288.
+1163.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [30]
-<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=825, 569.12625pt x 546.04pt>
+ [29]
+<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=775, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPolyBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPolyBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPolyBkgEst.pdf used on input
- line 1336.
+ line 1193.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLinBkgEst.pdf, id=826, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLinBkgEst.pdf, id=776, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLinBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLinBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLinBkgEst.pdf used on inpu
-t line 1337.
+t line 1194.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCCBkgEst.pdf, id=827, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCCBkgEst.pdf, id=777, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCCBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCCBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCCBkgEst.pdf used on input
- line 1338.
+ line 1195.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/cbPoly.pdf, id=828, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/cbPoly.pdf, id=778, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPoly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPoly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPoly.pdf used on input line 
-1339.
+1196.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLin.pdf, id=829, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLin.pdf, id=779, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLin.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLin.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLin.pdf used on input line
- 1340.
+ 1197.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCC.pdf, id=830, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCC.pdf, id=780, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCC.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCC.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCC.pdf used on input line 
-1341.
+1198.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
- [31]
-Overfull \hbox (40.72086pt too wide) in paragraph at lines 1365--1374
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []
- []
 
-[32 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
+
+LaTeX Warning: Reference `fig:massPtFitsForSyst' on page 30 undefined on input 
+line 1205.
+
+[30]
+File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
+ <use AnalysisChapter/figures/massFitSimple.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
+t line 1236.
+(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
+
+<AnalysisChapter/figures/massFitCBPoly2.pdf, id=786, 569.12625pt x 495.8525pt>
+File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/massFitCBPoly2.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
+ut line 1237.
+(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
+
+
+LaTeX Warning: Reference `fig:massFitSys' on page 31 undefined on input line 12
+43.
+
+[31 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
 /AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Anal
 ysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisCh
 apter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figure
 s/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.pd
 f, page is rotated 90 degrees>]
-File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
-
-<use AnalysisChapter/figures/massFitSimple.pdf>
-Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 1389.
-(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
-
-Runaway argument?
-\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
-! Forbidden control sequence found while scanning use of \UL@word.
-<inserted text> 
-                \par 
-l.1389         }
-                \DIFaddendFL \caption{Mass fit to J/$\psi$ using Gaussian (L...
-
-? 
-Runaway argument?
-\@empty 
-! Paragraph ended before \UL@word was complete.
-<to be read again> 
-                   \par 
-l.1389         }
-                \DIFaddendFL \caption{Mass fit to J/$\psi$ using Gaussian (L...
-
-? 
-
-<AnalysisChapter/figures/massFitCBPoly2.pdf, id=1102, 569.12625pt x 495.8525pt>
-File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
-<use AnalysisChapter/figures/massFitCBPoly2.pdf>
-Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
-ut line 1389.
-(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
-
-! You can't use `\hrule' here except with leaders.
-\caption@hrule ->\hrule 
-                        \@height \z@ 
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \vskip 
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \vskip 
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1390 ...nal and a polynomial for the background}
-                                                  
-? 
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1394 \DIFdelendFL \DIFaddbeginFL \end{figure}
-                                               
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.1394 \DIFdelendFL \DIFaddbeginFL \end{figure}
-                                               
-? 
-
-<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1104, 569.12625pt x 272.01625pt>
+<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1053, 569.12625pt x 272.01625pt>
 File: AnalysisChapter/figures/ptMassSimTemp.pdf Graphic file (type pdf)
 <use AnalysisChapter/figures/ptMassSimTemp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimTemp.pdf used on inpu
-t line 1411.
+t line 1259.
 (pdftex.def)             Requested size: 281.85587pt x 134.72108pt.
-
-Overfull \hbox (13.30061pt too wide) in paragraph at lines 1422--1434
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []
- []
-
-
-Overfull \hbox (4.69542pt too wide) in paragraph at lines 1422--1434
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-[33 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1154, 569.12625pt x 546.04pt>
+ [32 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>
+ <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1146, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCorInCoAcc.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCorInCoAcc.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCorInCoAcc.pdf used on input
- line 1437.
+ line 1284.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/coCoGaussGun.pdf, id=1155, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/coCoGaussGun.pdf, id=1147, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCoGaussGun.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCoGaussGun.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCoGaussGun.pdf used on input
- line 1446.
+ line 1293.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [34 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
-Overfull \hbox (13.21635pt too wide) in paragraph at lines 1474--1485
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]
- []
+ [33 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>] 
+[34 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
 
-[35 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1257, 698.61pt x 473.77pt
+LaTeX Warning: Reference `fig:zdcM1Fit' on page 35 undefined on input line 1330
+.
+
+
+<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1248, 698.61pt x 473.77pt
 >
 File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
  <use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
-on input line 1501.
+on input line 1341.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-Runaway argument?
-\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
-! Forbidden control sequence found while scanning use of \UL@word.
-<inserted text> 
-                \par 
-l.1501         }
-                \caption{\DIFaddFL{Fit to charge spectrum from ZDC$^{-}$ (le...
-
-? 
-Runaway argument?
-\@empty 
-! Paragraph ended before \UL@word was complete.
-<to be read again> 
-                   \par 
-l.1501         }
-                \caption{\DIFaddFL{Fit to charge spectrum from ZDC$^{-}$ (le...
-
-? 
-
-<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1258, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1249, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
-n input line 1501.
+n input line 1342.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-! You can't use `\hrule' here except with leaders.
-\caption@hrule ->\hrule 
-                        \@height \z@ 
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \vskip 
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \vskip 
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Dimension too large.
-\UL@on ...UL@height \advance \UL@height -\ULdepth 
-                                                  \setbox \UL@box \hbox {{#1...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Dimension too large.
-\UL@on ...UL@height \advance \UL@height -\ULdepth 
-                                                  \setbox \UL@box \hbox {{#1...
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
 
-Overfull \hbox (76.24974pt too wide) in paragraph at lines 1502--1502
-[]\T1/ptm/m/n/12 Figure 1.25: |[]|   [][]| 
- []
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 35 undefined on input line 13
+67.
 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1502 ...ing the standard reconstruction method}}
-                                                  
-? 
-! Too many }'s.
-\color@endbox ->\color@endgroup \egroup 
-                                        
-l.1504       \end{figure}
-                         
-? 
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1504       \end{figure}
-                         
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.1504       \end{figure}
-                         
-? 
-
-Overfull \hbox (10.3733pt too wide) in paragraph at lines 1516--1517
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-Overfull \hbox (1.34795pt too wide) in paragraph at lines 1516--1517
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-<AnalysisChapter/figures/zdcSpec2v1.png, id=1260, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcSpec2v1.png, id=1250, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcSpec2v1.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
-ine 1528.
+ine 1370.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
- [36 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
-<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1269, 698.61pt x 473.77p
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 35 undefined on input line 13
+76.
+
+[35 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
+ures/zdcPlusZBFitTimeCut.png>]
+
+LaTeX Warning: Reference `fig:zdcTimingCuts' on page 36 undefined on input line
+ 1400.
+
+
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1257, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
- on input line 1562.
+ on input line 1403.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
 
-<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1271, 698.61pt x 473.77p
+
+LaTeX Warning: Reference `fig:zdcTimingCuts' on page 36 undefined on input line
+ 1412.
+
+[36 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1264, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
- on input line 1578.
+ on input line 1419.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
 
-Overfull \hbox (4.09328pt too wide) in paragraph at lines 1574--1587
-[]\T1/ptm/m/n/12 Using the []|   []   []noise sub-trac-tion method[]|   []   | 
-  []   |   []   |   [][], the same sig-nal []|   [][][]|   []
- []
+
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 37 undefined on i
+nput line 1424.
+
+[37 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png> <./AnalysisChapter/fi
+gures/zdcMinusSingleNuNoSub.png>]
+
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 38 undefined on i
+nput line 1429.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
+29.
 
-File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
-<use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
-Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
-on input line 1596.
-(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-Runaway argument?
-\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
-! Forbidden control sequence found while scanning use of \UL@word.
-<inserted text> 
-                \par 
-l.1596         }
-                %DIFDELCMD < \caption{%
-? 
-Runaway argument?
-\@empty 
-! Paragraph ended before \UL@word was complete.
-<to be read again> 
-                   \par 
-l.1596         }
-                %DIFDELCMD < \caption{%
-? 
-File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
-<use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
-Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
-n input line 1596.
-(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 38 undefined on i
+nput line 1432.
 
-! Undefined control sequence.
-\UL@leaders ...L@skip \tw@ \UL@pixel \UL@leadtype 
-                                                  \LA@hskip \UL@skip \LA@hsk...
-l.1606 \DIFdelend Fig.~
-                       \ref{fig:zdcTimingAfterNoiseSub} and Fig.~\ref{fig:zd...
 
-? 
-[37 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>] [38 <./AnalysisChapt
-er/figures/zdcMinusSingleNuNoSub.png>] [39]
-Overfull \hbox (1.49219pt too wide) in paragraph at lines 1717--1718
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
+35.
 
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 38 undefined on input l
+ine 1448.
+
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 38 undefined on input l
+ine 1496.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 15
+04.
+
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 38 undefined on input l
+ine 1515.
+
+[38] [39]
+<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1283, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
+
 <use AnalysisChapter/figures/tNp/tnpCounting.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
-put line 1737.
+put line 1553.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-
-Runaway argument?
-\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
-! Forbidden control sequence found while scanning use of \UL@word.
-<inserted text> 
-                \par 
-l.1737         }
-                \caption{\DIFaddFL{Tag and probe trigger efficiencies from c...
-
-? 
-Runaway argument?
-\@empty 
-! Paragraph ended before \UL@word was complete.
-<to be read again> 
-                   \par 
-l.1737         }
-                \caption{\DIFaddFL{Tag and probe trigger efficiencies from c...
-
-? 
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
+
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 1737.
+ut line 1554.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-! You can't use `\hrule' here except with leaders.
-\caption@hrule ->\hrule 
-                        \@height \z@ 
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing number, treated as zero.
-<to be read again> 
-                   \vskip 
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \vskip 
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Dimension too large.
-\UL@on ...UL@height \advance \UL@height -\ULdepth 
-                                                  \setbox \UL@box \hbox {{#1...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
-                                                  \egroup \UL@putbox \fi \if...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Extra }, or forgotten \endgroup.
-\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
-                                                  \UL@putbox \fi \ifnum \UL@...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Dimension too large.
-\UL@on ...UL@height \advance \UL@height -\ULdepth 
-                                                  \setbox \UL@box \hbox {{#1...
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.1738           compared to fitting (right)}}
-                                              
-? 
+
+LaTeX Warning: Reference `fig:tnpCntVFit' on page 40 undefined on input line 15
+61.
+
 [40]
-
-! LaTeX Error: \begin{document} ended by \end{figure}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1740       \end{figure}
-                         
-? 
-! Extra \endgroup.
-<recently read> \endgroup 
-                          
-l.1740       \end{figure}
-                         
-? 
-
-Overfull \hbox (10.5622pt too wide) in paragraph at lines 1756--1757
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |  
- []
- []
-
-
-<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1303, 569.12625p
+<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1289, 569.12625p
 t x 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf Graphic file (t
 ype pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.
-pdf used on input line 1761.
+pdf used on input line 1579.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1304, 569.12625pt x
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1290, 569.12625pt x
  546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf Graphic file (type
  pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
- used on input line 1768.
+ used on input line 1586.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1305, 569.12625pt x 
+<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1291, 569.12625pt x 
 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf Graphic file (type 
 pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf 
-used on input line 1775.
+used on input line 1593.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [41 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
-ated 90 degrees>] [42 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
-, page is rotated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoher
-ent.pdf, page is rotated 90 degrees>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 98.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 98.
- (./diffMain.aux (./diff.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 98.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 98.
+) [41 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degree
+s>] [42 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is r
+otated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, p
+age is rotated 90 degrees>] [43 <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoh
+erent.pdf, page is rotated 90 degrees>]
+\openout2 = `diffRes.aux'.
+
+ (./diffRes.tex
+Chapter 2.
+
+Overfull \hbox (6.2926pt too wide) in paragraph at lines 6--12
+[]\T1/ptm/m/n/12 J/$\OML/ztmcm/m/it/12  $[]|   []   |   []   |   []   []\T1/ptm
+/m/n/12 J/$\OML/ztmcm/m/it/12  $\T1/ptm/m/n/12 cross sec-tion, the []|   []   |
+   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+! Argument of \frac has an extra }.
+<inserted text> 
+                \par 
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've run across a `}' that doesn't seem to match anything.
+For example, `\def\a#1{...}' and `\a}' would produce
+this error. If you simply proceed now, the `\par' that
+I've just inserted will cause me to report a runaway
+argument that might be the root of the problem. But if
+your `}' was spurious, just type `2' and it will go away.
+
+Runaway argument?
+! Paragraph ended before \frac was complete.
+<to be read again> 
+                   \par 
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Display math should end with $$.
+<to be read again> 
+                   \@@@par 
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+! Extra }, or forgotten \endgroup.
+<recently read> }
+                 
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Limit controls must follow a math operator.
+<recently read> \limits 
+                        
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I'm ignoring this misplaced \limits or \nolimits command.
+
+! Undefined control sequence.
+\UL@onmath ...rn \z@ #1}\limits \sb {\UL@leadtype 
+                                                  \LA@hskip \p@ plus1fill}}\...
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Extra }, or forgotten $.
+\UL@onmath ...L@leadtype \LA@hskip \p@ plus1fill}}
+                                                  \egroup 
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\UL@onmath ...pe \LA@hskip \p@ plus1fill}}\egroup 
+                                                  
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten $.
+\DIFaddtex #1->{\protect \color {blue}\uwave {#1}}
+                                                  
+l.17     }
+          { \DIFadd{\Delta y~\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon...
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! You can't use `\eqno' in math mode.
+\H@endequation ->\eqno 
+                       \hbox {\@eqnnum }$$\@ignoretrue 
+l.20    }\end{equation}
+                       
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.20    }\end{equation}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+<AnalysisChapter/figures/rawYield.png, id=1484, 598.235pt x 574.145pt>
+File: AnalysisChapter/figures/rawYield.png Graphic file (type png)
+
+<use AnalysisChapter/figures/rawYield.png>
+Package pdftex.def Info: AnalysisChapter/figures/rawYield.png used on input lin
+e 34.
+(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
+ [44
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{section.2.1})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.39 
+     ]
+
+LaTeX Warning: Reference `fig:rawYieldCo' on page 45 undefined on input line 48
+.
+
+
+LaTeX Warning: Reference `fig:corYieldCo' on page 45 undefined on input line 48
+.
+
+
+<AnalysisChapter/figures/correctedYieldAverage.png, id=1495, 598.235pt x 574.14
+5pt>
+File: AnalysisChapter/figures/correctedYieldAverage.png Graphic file (type png)
+
+ <use AnalysisChapter/figures/correctedYieldAverage.png>
+Package pdftex.def Info: AnalysisChapter/figures/correctedYieldAverage.png used
+ on input line 50.
+(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
+
+Overfull \hbox (2.56952pt too wide) in paragraph at lines 43--55
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[45 <./AnalysisChapter/figures/rawYield.png>]
+
+LaTeX Warning: Reference `fig:ptTempFit' on page 46 undefined on input line 93.
+
+
+
+LaTeX Warning: Citation `cmsLumi' on page 46 undefined on input line 117.
+
+
+LaTeX Warning: Citation `pdg' on page 46 undefined on input line 117.
+
+
+LaTeX Warning: Citation `cmsLumi' on page 46 undefined on input line 117.
+
+
+LaTeX Warning: Citation `pdg' on page 46 undefined on input line 117.
+
+
+LaTeX Warning: Reference `eq:expXSecCo' on page 46 undefined on input line 117.
+
+
+
+Overfull \hbox (0.28328pt too wide) in paragraph at lines 117--118
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[46 <./AnalysisChapter/figures/correctedYieldAverage.png>]
+
+LaTeX Warning: Reference `tab:r2' on page 47 undefined on input line 121.
+
+<ResultsChapter/figures/coherentBreakup.pdf, id=1509, 569.12625pt x 546.04pt>
+File: ResultsChapter/figures/coherentBreakup.pdf Graphic file (type pdf)
+
+<use ResultsChapter/figures/coherentBreakup.pdf>
+Package pdftex.def Info: ResultsChapter/figures/coherentBreakup.pdf used on inp
+ut line 125.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+
+
+LaTeX Warning: Reference `fig:coherentBreakUp' on page 47 undefined on input li
+ne 132.
+
+
+LaTeX Warning: Reference `fig:incoherentBreakUp' on page 47 undefined on input 
+line 132.
+
+
+<ResultsChapter/figures/incoherentBreakup.pdf, id=1510, 569.12625pt x 546.04pt>
+File: ResultsChapter/figures/incoherentBreakup.pdf Graphic file (type pdf)
+<use ResultsChapter/figures/incoherentBreakup.pdf>
+Package pdftex.def Info: ResultsChapter/figures/incoherentBreakup.pdf used on i
+nput line 137.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+
+
+LaTeX Warning: Reference `tab:r3' on page 47 undefined on input line 144.
+
+
+LaTeX Warning: Reference `fig:r1' on page 47 undefined on input line 166.
+
+
+LaTeX Warning: Reference `fig:r2' on page 47 undefined on input line 166.
+
+<ResultsChapter/figures/coherentJPsiMass.png, id=1511, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/coherentJPsiMass.png Graphic file (type png)
+
+<use ResultsChapter/figures/coherentJPsiMass.png>
+Package pdftex.def Info: ResultsChapter/figures/coherentJPsiMass.png used on in
+put line 169.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/coherentMass.png, id=1512, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/coherentMass.png Graphic file (type png)
+
+<use ResultsChapter/figures/coherentMass.png>
+Package pdftex.def Info: ResultsChapter/figures/coherentMass.png used on input 
+line 170.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+ [47 <./ResultsChapter/figures/coherentBreakup.pdf, page is rotated 90 degrees>
+]
+<ResultsChapter/figures/incoherentJPsiMassInCo.png, id=1564, 598.235pt x 574.14
+5pt>
+File: ResultsChapter/figures/incoherentJPsiMassInCo.png Graphic file (type png)
+
+ <use ResultsChapter/figures/incoherentJPsiMassInCo.png>
+Package pdftex.def Info: ResultsChapter/figures/incoherentJPsiMassInCo.png used
+ on input line 180.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/incoherentMassInCo.png, id=1565, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/incoherentMassInCo.png Graphic file (type png)
+<use ResultsChapter/figures/incoherentMassInCo.png>
+Package pdftex.def Info: ResultsChapter/figures/incoherentMassInCo.png used on 
+input line 181.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+
+LaTeX Warning: Reference `tab:r1' on page 48 undefined on input line 192.
+
+
+LaTeX Warning: Reference `tab:r2' on page 48 undefined on input line 194.
+
+
+LaTeX Warning: Reference `tab:r3' on page 48 undefined on input line 196.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Reference `fig:r3' on page 48 undefined on input line 235.
+
+
+LaTeX Warning: Reference `fig:r4' on page 48 undefined on input line 240.
+
+[48 <./ResultsChapter/figures/incoherentBreakup.pdf, page is rotated 90 degrees
+>] <ResultsChapter/figures/Pt.png, id=1616, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/Pt.png Graphic file (type png)
+
+<use ResultsChapter/figures/Pt.png>
+Package pdftex.def Info: ResultsChapter/figures/Pt.png used on input line 247.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/PtTheory.png, id=1617, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/PtTheory.png Graphic file (type png)
+
+<use ResultsChapter/figures/PtTheory.png>
+Package pdftex.def Info: ResultsChapter/figures/PtTheory.png used on input line
+ 248.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/RoppSame.png, id=1618, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/RoppSame.png Graphic file (type png)
+
+<use ResultsChapter/figures/RoppSame.png>
+Package pdftex.def Info: ResultsChapter/figures/RoppSame.png used on input line
+ 258.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+
+LaTeX Warning: Reference `fig:r5' on page 49 undefined on input line 267.
+
+
+LaTeX Warning: Reference `fig:r6' on page 49 undefined on input line 270.
+
+
+LaTeX Warning: Reference `tab:uref' on page 49 undefined on input line 275.
+
+[49 <./ResultsChapter/figures/coherentJPsiMass.png> <./ResultsChapter/figures/c
+oherentMass.png> <./ResultsChapter/figures/incoherentJPsiMassInCo.png> <./Resul
+tsChapter/figures/incoherentMassInCo.png>]
+<ResultsChapter/figures/coherentRapidity1.png, id=1627, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/coherentRapidity1.png Graphic file (type png)
+
+<use ResultsChapter/figures/coherentRapidity1.png>
+Package pdftex.def Info: ResultsChapter/figures/coherentRapidity1.png used on i
+nput line 279.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/incoherentRapidity1.png, id=1628, 598.235pt x 574.145pt
+>
+File: ResultsChapter/figures/incoherentRapidity1.png Graphic file (type png)
+ <use ResultsChapter/figures/incoherentRapidity1.png>
+Package pdftex.def Info: ResultsChapter/figures/incoherentRapidity1.png used on
+ input line 280.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/rapDistFromLTAGun.png, id=1629, 598.235pt x 574.145pt>
+File: ResultsChapter/figures/rapDistFromLTAGun.png Graphic file (type png)
+
+<use ResultsChapter/figures/rapDistFromLTAGun.png>
+Package pdftex.def Info: ResultsChapter/figures/rapDistFromLTAGun.png used on i
+nput line 290.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+<ResultsChapter/figures/rapDistFromLTAGunInCo.png, id=1630, 598.235pt x 574.145
+pt>
+File: ResultsChapter/figures/rapDistFromLTAGunInCo.png Graphic file (type png)
+ <use ResultsChapter/figures/rapDistFromLTAGunInCo.png>
+Package pdftex.def Info: ResultsChapter/figures/rapDistFromLTAGunInCo.png used 
+on input line 291.
+(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
+
+
+LaTeX Warning: Reference `tab:uref' on page 50 undefined on input line 299.
+
+
+LaTeX Warning: Reference `tab:uref' on page 50 undefined on input line 303.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--310
+
+ []
+
+
+Overfull \hbox (56.88704pt too wide) in paragraph at lines 316--325
+ [] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 329--330
+
+ []
+
+[50 <./ResultsChapter/figures/Pt.png> <./ResultsChapter/figures/PtTheory.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 331--332
+
+ []
+
+[51 <./ResultsChapter/figures/RoppSame.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 347--349
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 353--355
+
+ []
+
+) [52] [53 <./ResultsChapter/figures/coherentRapidity1.png> <./ResultsChapter/f
+igures/incoherentRapidity1.png>] [54 <./ResultsChapter/figures/rapDistFromLTAGu
+n.png> <./ResultsChapter/figures/rapDistFromLTAGunInCo.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
+ (./diffMain.aux
+(./diffAn.aux) (./diffRes.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
 
 
 Package rerunfilecheck Warning: File `diffMain.out' has changed.
@@ -1968,48 +1851,40 @@ Package rerunfilecheck Warning: File `diffMain.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `diffMain.out':
-(rerunfilecheck)             Before: 5AE41BC64C9474AC38A27ABAB3122E47;1757
-(rerunfilecheck)             After:  9CDF5E64DA3F7B9B07AFC6CB7F9C510A;1919.
+(rerunfilecheck)             Before: C4C7664151E316A4EC51FFDA09AB7625;1031
+(rerunfilecheck)             After:  1D886F67E3AAEFE931FBC290579C593A;2123.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 98.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
  ) 
 Here is how much of TeX's memory you used:
- 10899 strings out of 493308
- 164891 string characters out of 6137822
- 307670 words of memory out of 5000000
- 13941 multiletter control sequences out of 15000+600000
- 48974 words of font info for 76 fonts, out of 8000000 for 9000
+ 11037 strings out of 493308
+ 168702 string characters out of 6137822
+ 285379 words of memory out of 5000000
+ 14008 multiletter control sequences out of 15000+600000
+ 54612 words of font info for 80 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,14n,42p,483b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.40} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
- exist, replaced by a fixed one
-
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
-live/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-di
-st/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/font
-s/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
-/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb
-8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></u
-sr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diffMain.pdf (42 pages, 927094 bytes).
+ 44i,13n,42p,485b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
+exlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbo
+l/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diffMain.pdf (54 pages, 1181987 bytes).
 PDF statistics:
- 1512 PDF objects out of 1728 (max. 8388607)
- 825 compressed objects within 9 object streams
- 114 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1731 PDF objects out of 2073 (max. 8388607)
+ 919 compressed objects within 10 object streams
+ 146 named destinations out of 1000 (max. 500000)
+ 421 words of extra memory for PDF output out of 10000 (max. 10000000)
 
