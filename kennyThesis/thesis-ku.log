@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  23 JUN 2014 20:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  29 JUN 2014 21:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -831,7 +831,7 @@ Chapter 2.
 
 
 
-] [3] <TheoryChapter/figures/HeraData.png, id=575, 336.25626pt x 277.035pt>
+] [3] <TheoryChapter/figures/HeraData.png, id=614, 336.25626pt x 277.035pt>
 File: TheoryChapter/figures/HeraData.png Graphic file (type png)
 
 <use TheoryChapter/figures/HeraData.png>
@@ -839,7 +839,7 @@ Package pdftex.def Info: TheoryChapter/figures/HeraData.png used on input line
 93.
 (pdftex.def)             Requested size: 234.8775pt x 193.51312pt.
  [4 <./TheoryChapter/figures/HeraData.png>] <TheoryChapter/figures/boost.png, i
-d=587, 291.0875pt x 155.58125pt>
+d=626, 291.0875pt x 155.58125pt>
 File: TheoryChapter/figures/boost.png Graphic file (type png)
 
 <use TheoryChapter/figures/boost.png>
@@ -886,7 +886,7 @@ Overfull \hbox (28.42389pt too wide) in alignment at lines 235--244
  [][][] []
  []
 
-[7] <TheoryChapter/figures/bess.png, id=630, 160.6pt x 120.45pt>
+[7] <TheoryChapter/figures/bess.png, id=670, 160.6pt x 120.45pt>
 File: TheoryChapter/figures/bess.png Graphic file (type png)
 
 <use TheoryChapter/figures/bess.png>
@@ -900,7 +900,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 275--287
 
 [8 <./TheoryChapter/figures/bess.png (PNG copy)>] [9] [10] [11] [12] [13]
 [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24]
-<TheoryChapter/figures/aliceDsigDy.png, id=824, 628.3475pt x 449.68pt>
+<TheoryChapter/figures/aliceDsigDy.png, id=863, 628.3475pt x 449.68pt>
 File: TheoryChapter/figures/aliceDsigDy.png Graphic file (type png)
 
 <use TheoryChapter/figures/aliceDsigDy.png>
@@ -908,14 +908,14 @@ Package pdftex.def Info: TheoryChapter/figures/aliceDsigDy.png used on input li
 ne 1026.
 (pdftex.def)             Requested size: 234.8775pt x 168.08751pt.
  [25]
-<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=836, 516.93124pt x 583.17876pt>
+<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=875, 516.93124pt x 583.17876pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSub.png Graphic file (type png)
 <use TheoryChapter/figures/ltaAndPqcdNucSub.png>
 Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSub.png used on inp
 ut line 1062.
 (pdftex.def)             Requested size: 234.8775pt x 264.9819pt.
 
-<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=837, 570.13pt x 343.2825pt>
+<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=876, 570.13pt x 343.2825pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png Graphic file (type png)
 
 <use TheoryChapter/figures/ltaAndPqcdNucSubVMD.png>
@@ -933,7 +933,7 @@ Chapter 3.
 
 LaTeX Warning: Citation `CmsPTdrv2' on page 29 undefined on input line 5.
 
-<DetectorChapter/figures/cms.png, id=861, 550.055pt x 419.5675pt>
+<DetectorChapter/figures/cms.png, id=900, 550.055pt x 419.5675pt>
 File: DetectorChapter/figures/cms.png Graphic file (type png)
 
 <use DetectorChapter/figures/cms.png>
@@ -948,40 +948,109 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-] <DetectorChapter/figures/ECALeRes.png, id=875, 538.01pt x 527.9725pt>
+] <DetectorChapter/figures/ECALeRes.png, id=914, 538.01pt x 527.9725pt>
 File: DetectorChapter/figures/ECALeRes.png Graphic file (type png)
 
 <use DetectorChapter/figures/ECALeRes.png>
 Package pdftex.def Info: DetectorChapter/figures/ECALeRes.png used on input lin
-e 86.
+e 88.
 (pdftex.def)             Requested size: 234.8775pt x 230.49597pt.
-
-Overfull \hbox (2.38596pt too wide) in paragraph at lines 65--91
-[]\T1/ptm/m/n/12 The next de-tec-tor be-yond the tracker is ECAL. ECAL is made 
-of 61,200 lead tungstate (PbWO$[]$)
- []
-
-[30 <./DetectorChapter/figures/cms.png>]
-<DetectorChapter/figures/HCALeRes.png, id=886, 525.965pt x 377.41pt>
+ [30 <./DetectorChapter/figures/cms.png>] <DetectorChapter/figures/HCALeRes.png
+, id=925, 525.965pt x 377.41pt>
 File: DetectorChapter/figures/HCALeRes.png Graphic file (type png)
 
 <use DetectorChapter/figures/HCALeRes.png>
 Package pdftex.def Info: DetectorChapter/figures/HCALeRes.png used on input lin
-e 113.
+e 116.
 (pdftex.def)             Requested size: 234.8775pt x 168.53719pt.
  [31 <./DetectorChapter/figures/ECALeRes.png>] [32 <./DetectorChapter/figures/H
-CALeRes.png>] [33] [34]) [35]
+CALeRes.png>] [33]
+<DetectorChapter/figures/muonSys.pdf, id=949, 708.6475pt x 527.9725pt>
+File: DetectorChapter/figures/muonSys.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/muonSys.pdf>
+Package pdftex.def Info: DetectorChapter/figures/muonSys.pdf used on input line
+ 207.
+(pdftex.def)             Requested size: 305.33789pt x 227.491pt.
+
+<DetectorChapter/figures/dtStruct.pdf, id=951, 273.02pt x 150.5625pt>
+File: DetectorChapter/figures/dtStruct.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/dtStruct.pdf>
+Package pdftex.def Info: DetectorChapter/figures/dtStruct.pdf used on input lin
+e 217.
+(pdftex.def)             Requested size: 305.33789pt x 168.3945pt.
+
+<DetectorChapter/figures/dtCell.pdf, id=952, 273.02pt x 110.4125pt>
+File: DetectorChapter/figures/dtCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/dtCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/dtCell.pdf used on input line 
+218.
+(pdftex.def)             Requested size: 305.33789pt x 123.48929pt.
+
+<DetectorChapter/figures/rpcCell.pdf, id=953, 273.02pt x 116.435pt>
+File: DetectorChapter/figures/rpcCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/rpcCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/rpcCell.pdf used on input line
+ 225.
+(pdftex.def)             Requested size: 305.33789pt x 130.22508pt.
+
+<DetectorChapter/figures/cscStruct.pdf, id=954, 273.02pt x 475.7775pt>
+File: DetectorChapter/figures/cscStruct.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/cscStruct.pdf>
+Package pdftex.def Info: DetectorChapter/figures/cscStruct.pdf used on input li
+ne 233.
+(pdftex.def)             Requested size: 164.41711pt x 286.52136pt.
+
+<DetectorChapter/figures/cscCell.pdf, id=955, 273.02pt x 231.86626pt>
+File: DetectorChapter/figures/cscCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/cscCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/cscCell.pdf used on input line
+ 234.
+(pdftex.def)             Requested size: 305.33789pt x 259.32755pt.
+
+Overfull \hbox (19.99998pt too wide) in paragraph at lines 232--236
+ []$[]$ 
+ []
+
+
+<DetectorChapter/figures/materialThickness.pdf, id=956, 273.02pt x 187.70125pt>
+File: DetectorChapter/figures/materialThickness.pdf Graphic file (type pdf)
+<use DetectorChapter/figures/materialThickness.pdf>
+Package pdftex.def Info: DetectorChapter/figures/materialThickness.pdf used on 
+input line 242.
+(pdftex.def)             Requested size: 273.01933pt x 187.70079pt.
+
+<DetectorChapter/figures/muonRes.pdf, id=957, 818.05624pt x 466.74374pt>
+File: DetectorChapter/figures/muonRes.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/muonRes.pdf>
+Package pdftex.def Info: DetectorChapter/figures/muonRes.pdf used on input line
+ 250.
+(pdftex.def)             Requested size: 305.33789pt x 174.20944pt.
+ [34]
+
+LaTeX Warning: Text page 35 contains only floats.
+
+[35 <./DetectorChapter/figures/muonSys.pdf> <./DetectorChapter/figures/dtStruct
+.pdf> <./DetectorChapter/figures/dtCell.pdf>] [36 <./DetectorChapter/figures/rp
+cCell.pdf> <./DetectorChapter/figures/cscStruct.pdf> <./DetectorChapter/figures
+/cscCell.pdf>] [37 <./DetectorChapter/figures/materialThickness.pdf> <./Detecto
+rChapter/figures/muonRes.pdf>]) [38]
 \openout2 = `AnalysisChapter/upcAnalysisChp.aux'.
 
-
-(./AnalysisChapter/upcAnalysisChp.tex
+ (./AnalysisChapter/upcAnalysisChp.tex
 Chapter 4.
-[36
+[39
 
 
 
-] [37] [38]
-<AnalysisChapter/figures/genRapDis.pdf, id=939, 569.12625pt x 546.04pt>
+] [40] [41]
+<AnalysisChapter/figures/genRapDis.pdf, id=1024, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genRapDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genRapDis.pdf>
@@ -989,7 +1058,7 @@ Package pdftex.def Info: AnalysisChapter/figures/genRapDis.pdf used on input li
 ne 130.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/genPtDis.pdf, id=940, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/genPtDis.pdf, id=1025, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genPtDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genPtDis.pdf>
@@ -997,304 +1066,299 @@ Package pdftex.def Info: AnalysisChapter/figures/genPtDis.pdf used on input lin
 e 131.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/polCosThetaHXGen.png, id=941, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/polCosThetaHXGen.png, id=1026, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/polCosThetaHXGen.png Graphic file (type png)
 
 <use AnalysisChapter/figures/polCosThetaHXGen.png>
 Package pdftex.def Info: AnalysisChapter/figures/polCosThetaHXGen.png used on i
 nput line 141.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
- [39 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./A
+ [42 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./A
 nalysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees> <./AnalysisCha
-pter/figures/polCosThetaHXGen.png>]
-
-LaTeX Warning: Reference `triggerTabel2011' on page 40 undefined on input line 
-198.
-
-[40]
+pter/figures/polCosThetaHXGen.png>] [43]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 200.
- [41] [42] [43]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 393.
+ [44] [45] [46]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 392.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 393.
- [44] [45]
-<AnalysisChapter/figures/hfNoiseComp.pdf, id=1069, 569.12625pt x 385.44pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 392.
+ [47] [48]
+<AnalysisChapter/figures/hfNoiseComp.pdf, id=1156, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/hfNoiseComp.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/hfNoiseComp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/hfNoiseComp.pdf used on input 
-line 444.
+line 443.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
- [46 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/zdcPulseShape.png, id=1119, 1397.22pt x 473.77pt>
+ [49 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/zdcPulseShape.png, id=1206, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPulseShape.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
-t line 494.
+t line 493.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]
-<AnalysisChapter/figures/negTs5overTs4vts5.png, id=1125, 698.61pt x 473.77pt>
+[50]
+<AnalysisChapter/figures/negTs5overTs4vts5.png, id=1212, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/negTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/negTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/negTs5overTs4vts5.png used on 
-input line 538.
+input line 537.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
 
-<AnalysisChapter/figures/posTs5overTs4vts5.png, id=1126, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/posTs5overTs4vts5.png, id=1213, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/posTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/posTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/posTs5overTs4vts5.png used on 
-input line 539.
+input line 538.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
- [48 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
-<AnalysisChapter/figures/zdcFit45Neg.png, id=1134, 698.61pt x 473.77pt>
+ [51 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
+<AnalysisChapter/figures/zdcFit45Neg.png, id=1220, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Neg.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Neg.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Neg.png used on input 
-line 583.
+line 582.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcFit45Pos.png, id=1135, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcFit45Pos.png, id=1221, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Pos.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Pos.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Pos.png used on input 
-line 584.
+line 583.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=1138, 698.61pt x 473.
+<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=1224, 698.61pt x 473.
 77pt>
 File: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png u
-sed on input line 616.
+sed on input line 615.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=1139, 698.61pt x 473.
+<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=1225, 698.61pt x 473.
 77pt>
 File: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png u
-sed on input line 617.
+sed on input line 616.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=1140, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=1226, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcNegHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png used o
-n input line 618.
+n input line 617.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=1141, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=1227, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png used o
-n input line 619.
+n input line 618.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
- [49 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figur
-es/posTs5overTs4vts5.png>] [50 <./AnalysisChapter/figures/zdcFit45Neg.png> <./A
-nalysisChapter/figures/zdcFit45Pos.png>] [51 <./AnalysisChapter/figures/zdcNegE
+ [52 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figur
+es/posTs5overTs4vts5.png>] [53 <./AnalysisChapter/figures/zdcFit45Neg.png> <./A
+nalysisChapter/figures/zdcFit45Pos.png>] [54 <./AnalysisChapter/figures/zdcNegE
 MNoiseFromZBNoCor.png> <./AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
  <./AnalysisChapter/figures/zdcNegHDNoiseFromZB.png> <./AnalysisChapter/figures
 /zdcPosHDNoiseFromZB.png>]
-<AnalysisChapter/figures/massFitSimple.pdf, id=1157, 569.12625pt x 495.8525pt>
+<AnalysisChapter/figures/massFitSimple.pdf, id=1244, 569.12625pt x 495.8525pt>
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 675.
+t line 674.
 (pdftex.def)             Requested size: 281.85587pt x 245.58015pt.
 
-<AnalysisChapter/figures/ptOnly.pdf, id=1161, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/ptOnly.pdf, id=1248, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-696.
+695.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [52 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
+ [55 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
 
-<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=1212, 569.12625pt x 546.04p
+<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=1298, 569.12625pt x 546.04p
 t>
 File: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf used on
- input line 719.
+ input line 718.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [53 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=1261, 569.12625pt x 272.016
+ [56 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=1348, 569.12625pt x 272.016
 25pt>
 File: AnalysisChapter/figures/ptMassSimGaussLine.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptMassSimGaussLine.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimGaussLine.pdf used on
- input line 744.
+ input line 743.
 (pdftex.def)             Requested size: 422.77664pt x 202.07748pt.
- [54 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degr
+ [57 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degr
 ees> <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degr
 ees>]
-<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=1358, 569.12625pt x 546.04p
+<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=1444, 569.12625pt x 546.04p
 t>
 File: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtMass.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf used on
- input line 765.
+ input line 764.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [55 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
+ [58 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
 ees>]
-<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=1409, 569.12625pt x 546.04
+<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=1494, 569.12625pt x 546.04
 pt>
 File: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf used o
-n input line 795.
+n input line 794.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=1413, 598.235pt x 574
+<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=1498, 598.235pt x 574
 .145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png u
-sed on input line 818.
+sed on input line 817.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=1414, 598.235pt x 5
+<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=1499, 598.235pt x 5
 74.145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png Graphic file (type
  png)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png
- used on input line 819.
+ used on input line 818.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=1415, 598.235pt x 57
+<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=1500, 598.235pt x 57
 4.145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png Graphic file (type 
 png)
  <use AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png 
-used on input line 820.
+used on input line 819.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
- [56 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 deg
+ [59 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 deg
 rees>]
-[57 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapter
+[60 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapter
 /figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/d
 etAccGammaStep.png>]
-<AnalysisChapter/figures/tNp/tnpFits.pdf, id=1470, 569.12625pt x 385.44pt>
+<AnalysisChapter/figures/tNp/tnpFits.pdf, id=1557, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/tNp/tnpFits.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFits.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFits.pdf used on input 
-line 865.
+line 864.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
 
-<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=1472, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=1559, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 873.
+ut line 872.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [58 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/averageTriggerEff.png, id=1521, 598.235pt x 574.145pt>
+ [61 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/averageTriggerEff.png, id=1608, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageTriggerEff.png Graphic file (type png)
 <use AnalysisChapter/figures/averageTriggerEff.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageTriggerEff.png used on 
-input line 900.
+input line 899.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
 
-<AnalysisChapter/figures/averageExA.png, id=1522, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageExA.png, id=1609, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageExA.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageExA.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageExA.png used on input l
-ine 909.
+ine 908.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
- [59 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>
+ [62 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>
 ]
 
-LaTeX Warning: Text page 60 contains only floats.
+LaTeX Warning: Text page 63 contains only floats.
 
-[60 <./AnalysisChapter/figures/averageTriggerEff.png> <./AnalysisChapter/figure
-s/averageExA.png>] [61] [62] [63]
+[63 <./AnalysisChapter/figures/averageTriggerEff.png> <./AnalysisChapter/figure
+s/averageExA.png>] [64] [65] [66]
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-1117.
+1116.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=1599, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=1685, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPolyBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPolyBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPolyBkgEst.pdf used on input
- line 1147.
+ line 1146.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLinBkgEst.pdf, id=1600, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLinBkgEst.pdf, id=1686, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLinBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLinBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLinBkgEst.pdf used on inpu
-t line 1148.
+t line 1147.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCCBkgEst.pdf, id=1601, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCCBkgEst.pdf, id=1687, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCCBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCCBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCCBkgEst.pdf used on input
- line 1149.
+ line 1148.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/cbPoly.pdf, id=1602, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/cbPoly.pdf, id=1688, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPoly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPoly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPoly.pdf used on input line 
-1150.
+1149.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLin.pdf, id=1603, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLin.pdf, id=1689, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLin.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLin.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLin.pdf used on input line
- 1151.
+ 1150.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCC.pdf, id=1604, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCC.pdf, id=1690, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCC.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCC.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCC.pdf used on input line 
-1152.
+1151.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
- [64]
+ [67]
 
-LaTeX Warning: Text page 65 contains only floats.
+LaTeX Warning: Text page 68 contains only floats.
 
-[65 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
+[68 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
 /AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Anal
 ysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisCh
 apter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figure
@@ -1304,340 +1368,328 @@ File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 1190.
+t line 1189.
 (pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
 
-<AnalysisChapter/figures/massFitCBPoly2.pdf, id=1873, 569.12625pt x 495.8525pt>
+<AnalysisChapter/figures/massFitCBPoly2.pdf, id=1960, 569.12625pt x 495.8525pt>
 File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
 <use AnalysisChapter/figures/massFitCBPoly2.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
-ut line 1191.
+ut line 1190.
 (pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
- [66 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>
+ [69 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>
 ]
-<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1923, 569.12625pt x 272.01625pt>
+<AnalysisChapter/figures/ptMassSimTemp.pdf, id=2009, 569.12625pt x 272.01625pt>
 File: AnalysisChapter/figures/ptMassSimTemp.pdf Graphic file (type pdf)
 <use AnalysisChapter/figures/ptMassSimTemp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimTemp.pdf used on inpu
-t line 1213.
+t line 1212.
 (pdftex.def)             Requested size: 281.85587pt x 134.72108pt.
 
-<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1924, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/coCorInCoAcc.pdf, id=2010, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCorInCoAcc.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCorInCoAcc.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCorInCoAcc.pdf used on input
- line 1238.
+ line 1237.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/coCoGaussGun.pdf, id=1925, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/coCoGaussGun.pdf, id=2011, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCoGaussGun.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCoGaussGun.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCoGaussGun.pdf used on input
- line 1247.
+ line 1246.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [67 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
- [68 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=2023, 698.61pt x 473.77pt
+ [70 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
+ [71 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=2108, 698.61pt x 473.77pt
 >
 File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
  <use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
-on input line 1295.
+on input line 1294.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=2024, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=2109, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
-n input line 1296.
+n input line 1295.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
- [69 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>] 
-[70 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
-ures/zdcPlusZBFitTimeCut.png>] [71]
-<AnalysisChapter/figures/zdcSpec2v1.png, id=2085, 1397.22pt x 473.77pt>
+ [72 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>] 
+[73 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
+ures/zdcPlusZBFitTimeCut.png>] [74]
+<AnalysisChapter/figures/zdcSpec2v1.png, id=2172, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcSpec2v1.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
-ine 1402.
+ine 1401.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
- [72 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
-<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=2094, 698.61pt x 473.77p
+ [75 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=2180, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
- on input line 1435.
+ on input line 1434.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
 
-<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=2096, 698.61pt x 473.77p
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=2182, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
- on input line 1451.
+ on input line 1450.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[73 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>] [74 <./AnalysisChapt
+[76 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>] [77 <./AnalysisChapt
 er/figures/zdcMinusSingleNuNoSub.png>]
-<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=2111, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=2197, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpCounting.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
-put line 1507.
+put line 1506.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 1508.
+ut line 1507.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [75 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degrees
+ [78 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degrees
 >]
-<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=2161, 569.12625p
+<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=2247, 569.12625p
 t x 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf Graphic file (t
 ype pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.
-pdf used on input line 1533.
+pdf used on input line 1532.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=2162, 569.12625pt x
+<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=2248, 569.12625pt x
  546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf Graphic file (type
  pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
- used on input line 1540.
+ used on input line 1539.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=2163, 569.12625pt x 
+<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=2249, 569.12625pt x 
 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf Graphic file (type 
 pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf 
-used on input line 1547.
+used on input line 1546.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [76 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
-ated 90 degrees>] [77 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
+) [79 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
+ated 90 degrees>] [80 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
 , page is rotated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoher
 ent.pdf, page is rotated 90 degrees>]
 \openout2 = `ResultsChapter/upcResultsChp.aux'.
 
  (./ResultsChapter/upcResultsChp.tex
 Chapter 5.
-<AnalysisChapter/figures/rawYield.png, id=2302, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/rawYield.png, id=2389, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/rawYield.png Graphic file (type png)
 
 <use AnalysisChapter/figures/rawYield.png>
 Package pdftex.def Info: AnalysisChapter/figures/rawYield.png used on input lin
-e 29.
+e 28.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
 
-<AnalysisChapter/figures/correctedYieldAverage.png, id=2307, 598.235pt x 574.14
+<AnalysisChapter/figures/correctedYieldAverage.png, id=2394, 598.235pt x 574.14
 5pt>
 File: AnalysisChapter/figures/correctedYieldAverage.png Graphic file (type png)
 
  <use AnalysisChapter/figures/correctedYieldAverage.png>
 Package pdftex.def Info: AnalysisChapter/figures/correctedYieldAverage.png used
- on input line 40.
+ on input line 39.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
- [78
+ [81
 
 
 
-] [79 <./AnalysisChapter/figures/rawYield.png> <./AnalysisChapter/figures/corre
+] [82 <./AnalysisChapter/figures/rawYield.png> <./AnalysisChapter/figures/corre
 ctedYieldAverage.png>]
-<ResultsChapter/figures/coherentBreakup.pdf, id=2327, 569.12625pt x 546.04pt>
+<ResultsChapter/figures/coherentBreakup.pdf, id=2413, 569.12625pt x 546.04pt>
 File: ResultsChapter/figures/coherentBreakup.pdf Graphic file (type pdf)
 
 <use ResultsChapter/figures/coherentBreakup.pdf>
 Package pdftex.def Info: ResultsChapter/figures/coherentBreakup.pdf used on inp
-ut line 84.
+ut line 85.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<ResultsChapter/figures/incoherentBreakup.pdf, id=2330, 569.12625pt x 546.04pt>
+<ResultsChapter/figures/incoherentBreakup.pdf, id=2416, 569.12625pt x 546.04pt>
 File: ResultsChapter/figures/incoherentBreakup.pdf Graphic file (type pdf)
 <use ResultsChapter/figures/incoherentBreakup.pdf>
 Package pdftex.def Info: ResultsChapter/figures/incoherentBreakup.pdf used on i
-nput line 95.
+nput line 96.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [80]
+ [83]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[81 <./ResultsChapter/figures/coherentBreakup.pdf, page is rotated 90 degrees>]
-[82 <./ResultsChapter/figures/incoherentBreakup.pdf, page is rotated 90 degrees
->] [83]
-<ResultsChapter/figures/cohOppAndSameNeutronDir.png, id=2444, 698.61pt x 473.77
+[84 <./ResultsChapter/figures/coherentBreakup.pdf, page is rotated 90 degrees>]
+[85 <./ResultsChapter/figures/incoherentBreakup.pdf, page is rotated 90 degrees
+>] [86]
+<ResultsChapter/figures/cohOppAndSameNeutronDir.png, id=2531, 698.61pt x 473.77
 pt>
 File: ResultsChapter/figures/cohOppAndSameNeutronDir.png Graphic file (type png
 )
  <use ResultsChapter/figures/cohOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/cohOppAndSameNeutronDir.png use
-d on input line 227.
+d on input line 228.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/incohOppAndSameNeutronDir.png, id=2445, 698.61pt x 473.
+<ResultsChapter/figures/incohOppAndSameNeutronDir.png, id=2532, 698.61pt x 473.
 77pt>
 File: ResultsChapter/figures/incohOppAndSameNeutronDir.png Graphic file (type p
 ng)
  <use ResultsChapter/figures/incohOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/incohOppAndSameNeutronDir.png u
-sed on input line 228.
+sed on input line 229.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png, id=2446, 698.61pt x 4
+<ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png, id=2533, 698.61pt x 4
 73.77pt>
 File: ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png Graphic file (typ
 e png)
  <use ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/ratiocohOppAndSameNeutronDir.pn
-g used on input line 229.
+g used on input line 230.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png, id=2447, 698.61pt x
+<ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png, id=2534, 698.61pt x
  473.77pt>
 File: ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png Graphic file (t
 ype png)
  <use ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/ratioincohOppAndSameNeutronDir.
-png used on input line 230.
+png used on input line 231.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/RoppsameVsTheory.png, id=2449, 598.235pt x 574.145pt>
+<ResultsChapter/figures/RoppsameVsTheory.png, id=2536, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/RoppsameVsTheory.png Graphic file (type png)
 
 <use ResultsChapter/figures/RoppsameVsTheory.png>
 Package pdftex.def Info: ResultsChapter/figures/RoppsameVsTheory.png used on in
-put line 247.
+put line 248.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-<ResultsChapter/figures/cohyOppAndSameNeutronDir.png, id=2453, 698.61pt x 473.7
+ [87 <./ResultsChapter/figures/cohOppAndSameNeutronDir.png> <./ResultsChapter/f
+igures/incohOppAndSameNeutronDir.png> <./ResultsChapter/figures/ratiocohOppAndS
+ameNeutronDir.png> <./ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png
+>]
+<ResultsChapter/figures/cohyOppAndSameNeutronDir.png, id=2544, 698.61pt x 473.7
 7pt>
 File: ResultsChapter/figures/cohyOppAndSameNeutronDir.png Graphic file (type pn
 g)
  <use ResultsChapter/figures/cohyOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/cohyOppAndSameNeutronDir.png us
-ed on input line 260.
+ed on input line 261.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/incohyOppAndSameNeutronDir.png, id=2454, 698.61pt x 473
+<ResultsChapter/figures/incohyOppAndSameNeutronDir.png, id=2545, 698.61pt x 473
 .77pt>
 File: ResultsChapter/figures/incohyOppAndSameNeutronDir.png Graphic file (type 
 png)
  <use ResultsChapter/figures/incohyOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/incohyOppAndSameNeutronDir.png 
-used on input line 261.
+used on input line 262.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png, id=2455, 698.61pt x 
+<ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png, id=2546, 698.61pt x 
 473.77pt>
 File: ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png Graphic file (ty
 pe png)
  <use ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.p
-ng used on input line 262.
+ng used on input line 263.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png, id=2456, 698.61pt 
+<ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png, id=2547, 698.61pt 
 x 473.77pt>
 File: ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png Graphic file (
 type png)
  <use ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/ratioincohyOppAndSameNeutronDir
-.png used on input line 263.
+.png used on input line 264.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
 <ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png, id=2
-457, 698.61pt x 473.77pt>
+548, 698.61pt x 473.77pt>
 File: ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png 
 Graphic file (type png)
 
 <use ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png>
 Package pdftex.def Info: ResultsChapter/figures/compiledratioincohandcohyOppAnd
-SameNeutronDir.png used on input line 275.
+SameNeutronDir.png used on input line 276.
 (pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
 
-<ResultsChapter/figures/ZDCDimuCorrCoh.png, id=2459, 598.235pt x 574.145pt>
+<ResultsChapter/figures/ZDCDimuCorrCoh.png, id=2550, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/ZDCDimuCorrCoh.png Graphic file (type png)
 
 <use ResultsChapter/figures/ZDCDimuCorrCoh.png>
 Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrCoh.png used on inpu
-t line 287.
+t line 288.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
 
-<ResultsChapter/figures/ZDCDimuCorrIncoh.png, id=2460, 598.235pt x 574.145pt>
+<ResultsChapter/figures/ZDCDimuCorrIncoh.png, id=2551, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/ZDCDimuCorrIncoh.png Graphic file (type png)
 
 <use ResultsChapter/figures/ZDCDimuCorrIncoh.png>
 Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrIncoh.png used on in
-put line 288.
+put line 289.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
 
-<ResultsChapter/figures/ZDCDimuCorrGammaGamma.png, id=2461, 598.235pt x 574.145
+<ResultsChapter/figures/ZDCDimuCorrGammaGamma.png, id=2552, 598.235pt x 574.145
 pt>
 File: ResultsChapter/figures/ZDCDimuCorrGammaGamma.png Graphic file (type png)
  <use ResultsChapter/figures/ZDCDimuCorrGammaGamma.png>
 Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrGammaGamma.png used 
-on input line 289.
+on input line 290.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-
-LaTeX Warning: Float too large for page by 121.38184pt on input line 295.
-
-[84 <./ResultsChapter/figures/cohOppAndSameNeutronDir.png> <./ResultsChapter/fi
-gures/incohOppAndSameNeutronDir.png> <./ResultsChapter/figures/ratiocohOppAndSa
-meNeutronDir.png> <./ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png>
-]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<ResultsChapter/figures/RCompiledYCorr.png, id=2473, 598.235pt x 574.145pt>
+ [88 <./ResultsChapter/figures/RoppsameVsTheory.png>] [89 <./ResultsChapter/fig
+ures/cohyOppAndSameNeutronDir.png> <./ResultsChapter/figures/incohyOppAndSameNe
+utronDir.png> <./ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png> <./R
+esultsChapter/figures/ratioincohyOppAndSameNeutronDir.png> <./ResultsChapter/fi
+gures/compiledratioincohandcohyOppAndSameNeutronDir.png>]
+<ResultsChapter/figures/RCompiledYCorr.png, id=2568, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/RCompiledYCorr.png Graphic file (type png)
 
 <use ResultsChapter/figures/RCompiledYCorr.png>
 Package pdftex.def Info: ResultsChapter/figures/RCompiledYCorr.png used on inpu
-t line 370.
+t line 371.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-) [85 <./ResultsChapter/figures/RoppsameVsTheory.png>] [86 <./ResultsChapter/fi
-gures/cohyOppAndSameNeutronDir.png> <./ResultsChapter/figures/incohyOppAndSameN
-eutronDir.png> <./ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png> <./
-ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png> <./ResultsChapter/f
-igures/compiledratioincohandcohyOppAndSameNeutronDir.png>] [87 <./ResultsChapte
-r/figures/ZDCDimuCorrCoh.png> <./ResultsChapter/figures/ZDCDimuCorrIncoh.png> <
-./ResultsChapter/figures/ZDCDimuCorrGammaGamma.png>] [88 <./ResultsChapter/figu
-res/RCompiledYCorr.png>]
+) [90] [91 <./ResultsChapter/figures/ZDCDimuCorrCoh.png> <./ResultsChapter/figu
+res/ZDCDimuCorrIncoh.png> <./ResultsChapter/figures/ZDCDimuCorrGammaGamma.png>]
+ [92 <./ResultsChapter/figures/RCompiledYCorr.png>]
 \openout2 = `ConclusionChapter/upcConclusionChp.aux'.
 
-
-(./ConclusionChapter/upcConclusionChp.tex
+ (./ConclusionChapter/upcConclusionChp.tex
 Chapter 6.
-) [89
+) [93
 
 
 
@@ -1680,12 +1732,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-[90
+[94
 
 
 
 ]
-<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=2504, 569.12625pt x 
+<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=2593, 569.12625pt x 
 555.07375pt>
 File: FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf Graphic file (type 
 pdf)
@@ -1697,7 +1749,7 @@ used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[91] [92 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [93]
+[95] [96 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [97]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
@@ -1710,7 +1762,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
 
-[94]
+[98]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
@@ -1736,7 +1788,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
 
 
-<FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, id=2540, 569.12625pt x 546.
+<FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, id=2631, 569.12625pt x 546.
 04pt>
 File: FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf Graphic file (type pdf)
 
@@ -1745,7 +1797,7 @@ Package pdftex.def Info: FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf used
  on input line 223.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, id=2541, 569.12625pt x 546
+<FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, id=2632, 569.12625pt x 546
 .04pt>
 File: FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf Graphic file (type pdf
 )
@@ -1755,25 +1807,25 @@ d on input line 232.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `upcJets1' on page 95 undefined on input line 250.
+LaTeX Warning: Citation `upcJets1' on page 99 undefined on input line 250.
 
-[95] [96 <./FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, page is rotated 
-90 degrees>]) [97 <./FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, page i
-s rotated 90 degrees>] (./thesis-ku.bbl
+[99] [100 <./FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, page is rotated
+ 90 degrees>]) [101 <./FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, page
+ is rotated 90 degrees>] (./thesis-ku.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [98
+) [102
 
 
-] [99] [100])
-[101]
+] [103]
+[104]) [105]
 \openout2 = `Appendix1/Appendix1.aux'.
 
  (./Appendix1/Appendix1.tex
 Appendix A.
-) [102
+) [106
 
 
 ]
@@ -1787,7 +1839,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 125.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `thesis-ku.out' has not changed.
-(rerunfilecheck)             Checksum: 95DB7C269D203D022B3A385FE0FBC4F4;3990.
+(rerunfilecheck)             Checksum: DB9E151ED539292194C8D67EE467EBEC;4248.
 
 
 LaTeX Warning: There were undefined references.
@@ -1795,10 +1847,10 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 125.
  ) 
 Here is how much of TeX's memory you used:
- 11234 strings out of 493308
- 175009 string characters out of 6137822
- 285053 words of memory out of 5000000
- 13940 multiletter control sequences out of 15000+600000
+ 11307 strings out of 493308
+ 176822 string characters out of 6137822
+ 284761 words of memory out of 5000000
+ 13982 multiletter control sequences out of 15000+600000
  78178 words of font info for 138 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,13n,43p,572b,485s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1815,10 +1867,10 @@ w/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis-ku.pdf (115 pages, 2021779 bytes).
+Output written on thesis-ku.pdf (119 pages, 2325655 bytes).
 PDF statistics:
- 2807 PDF objects out of 2984 (max. 8388607)
- 1844 compressed objects within 19 object streams
- 302 named destinations out of 1000 (max. 500000)
- 848 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2899 PDF objects out of 2984 (max. 8388607)
+ 1915 compressed objects within 20 object streams
+ 317 named destinations out of 1000 (max. 500000)
+ 928 words of extra memory for PDF output out of 10000 (max. 10000000)
 

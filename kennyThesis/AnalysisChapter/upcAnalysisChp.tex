@@ -195,7 +195,7 @@
       with the signal triggers.
     By balancing the competing objectives of rate reduction and increasing 
       the overlap between the monitoring and signal triggers, 
-      the prescales for the trigger were as seen in Table~\ref{triggerTabel2011}.
+      the prescales for the trigger were as seen in Table~\ref{tab:l1Triggers2011}.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
       The goal of the L1 triggers was to record enough data to measure dimuons
@@ -213,14 +213,13 @@
         \centering
         \begin{tabular}{|l|l|}
           L1 Trigger Seed  & Type \\ \hline \hline
-          L1\_MuOpen\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
-          L1\_EG2\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\  \hline
-          L1\_EG5\_ZdcCalo\_NotBscMinBiasThresh2\_BptxAND & Physics \\ \hline
-          L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
-          L1\_ZdcCaloMinus\_BptxAND & Monitor \\  \hline
-          L1\_MuOpen\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
-          L1\_EG2\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline
-          L1\_EG5\_ZdcCalo\_NotHcalHfCoincidencePm\_BptxAND & Backup \\ \hline \hline
+          MuonOpen and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
+          ECAL2 and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
+          ECAL5 and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
+          (ZDC$^{+}$ or ZDC$^{-}$) & Monitor \\  \hline
+          MuonOpen and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
+          ECAL2 and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
+          ECAL5 and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
         \end{tabular}
         \caption{List of 2011 L1 seeds.}
         \label{tab:l1Triggers2011}

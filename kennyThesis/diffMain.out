@@ -1,11 +1,11 @@
 \BOOKMARK [0][-]{chapter.1}{Analysis}{}% 1
-\BOOKMARK [1][-]{section.1.1}{ MC Simulation}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{ Trigger Development}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{ L1 Trigger}{section.1.2}% 4
-\BOOKMARK [2][-]{subsection.1.2.2}{HLT Trigger}{section.1.2}% 5
-\BOOKMARK [1][-]{section.1.3}{ Data Sets and Event Selection}{chapter.1}% 6
-\BOOKMARK [2][-]{subsection.1.3.1}{Data Set}{section.1.3}% 7
-\BOOKMARK [2][-]{subsection.1.3.2}{Event selection}{section.1.3}% 8
+\BOOKMARK [1][-]{section.1.1}{ MC simulation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{ Trigger development}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{ L1 trigger}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{HLT trigger}{section.1.2}% 5
+\BOOKMARK [1][-]{section.1.3}{ Event selection}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.3.1}{Data sets}{section.1.3}% 7
+\BOOKMARK [2][-]{subsection.1.3.2}{Event selection cuts}{section.1.3}% 8
 \BOOKMARK [1][-]{section.1.4}{ Break up determination}{chapter.1}% 9
 \BOOKMARK [2][-]{subsection.1.4.1}{ZDC signal reconstruction}{section.1.4}% 10
 \BOOKMARK [2][-]{subsection.1.4.2}{Determination of the one neutron thresholds}{section.1.4}% 11
@@ -19,13 +19,14 @@
 \BOOKMARK [2][-]{subsection.1.7.3}{Mass fit}{section.1.7}% 19
 \BOOKMARK [2][-]{subsection.1.7.4}{MC acceptance}{section.1.7}% 20
 \BOOKMARK [2][-]{subsection.1.7.5}{ZDC reconstruction}{section.1.7}% 21
-\BOOKMARK [2][-]{subsection.1.7.6}{ZDC reconstruction method comparison}{section.1.7}% 22
-\BOOKMARK [2][-]{subsection.1.7.7}{ZDC trigger efficiency}{section.1.7}% 23
-\BOOKMARK [2][-]{subsection.1.7.8}{Tag and probe}{section.1.7}% 24
-\BOOKMARK [2][-]{subsection.1.7.9}{MC vs Data compairson}{section.1.7}% 25
-\BOOKMARK [0][-]{chapter.2}{Results}{}% 26
-\BOOKMARK [1][-]{section.2.1}{}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.1.7.6}{}{section.1.7}% 22
+\BOOKMARK [2][-]{subsection.1.7.6}{ZDC trigger efficiency}{section.1.7}% 23
+\BOOKMARK [2][-]{subsection.1.7.7}{ZDC reconstruction method comparison}{section.1.7}% 24
+\BOOKMARK [2][-]{subsection.1.7.8}{Tag and probe}{section.1.7}% 25
+\BOOKMARK [2][-]{subsection.1.7.9}{MC vs Data compairson}{section.1.7}% 26
+\BOOKMARK [0][-]{chapter.2}{Results}{}% 27
 \BOOKMARK [1][-]{section.2.1}{Coherent cross section}{chapter.2}% 28
 \BOOKMARK [1][-]{section.2.2}{Incoherent cross section}{chapter.2}% 29
 \BOOKMARK [1][-]{section.2.3}{Break up ratios}{chapter.2}% 30
-\BOOKMARK [1][-]{section.2.4}{diMuon-neutron correlations}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.4}{}{chapter.2}% 31
+\BOOKMARK [1][-]{section.2.4}{diMuon-neutron correlations}{chapter.2}% 32
