@@ -143,17 +143,14 @@
     	showers \cite{tCmsE}.
     The energy resolution for HF can be seen in Figure~\ref{HCALeRes}.  
     
-    Beyond HF there are two more detectors in the forward region.
-    CASTOR covers the range 5.2 $< \eta <$ 6.6 on the positive side of the beam. 
-    The Zero Degree Calorimeters (ZDC) sit between the beam pipes on either side of
-    	the interaction point covering the area around $\theta = 0$, $|\eta| > 
-    	8.3$.
+  \section{ZDC} 
+    Beyond HF, the Zero Degree Calorimeters(ZDC) covers the very forward 
+      rapidity region.
+    ZDC sit between the beam pipes on either side of the interaction point 
+      covering the area around $\theta = 0$, $|\eta| > 8.3$.
     In heavy ion collisions the ZDC has the ability to measure neutral particles 
     	that do not participate in the collision \cite{tCmsE}.
-    CASTOR extends the total coverage of the CMS as whole giving more access to 
-    	low-x physics \cite{tCmsE}.
     
-  \section{ZDC} 
     The ZDC has a total of 18 channels.
         Half of these 18 channels are on either side of the interaction point.
     The 9 channels on the side of CMS that correspond to positive $\eta$
@@ -211,7 +208,20 @@
       \label{fig:muonSys}
     \end{figure}
 
-    As seen in Fig.~\ref{fig:muonSys}, the DTs reside only in the barrel.
+    As seen in Fig.~\ref{fig:muonSys}, the DTs reside only in the barrel, 
+      covering the region $|\eta|$ < 1.2.
+    Consisting of a total of 172,000 cells, the DT cells are collected into
+      250 chambers. 
+    The DT chambers are in interwoven into the magnet field return yoke and are
+      labeled by 5 segmentations in $z$, YB-2 to YB+2.
+    Each $z$ segment is divided into 12 $\phi$ segments labeled 1 at $\phi$ = 0
+      and going to 12 rotating in positive $\phi$ with segments 4 and 10 
+      contain 2 chambers.
+   The segmentation in $r$ is divided in to four parts, MB1-MB4.
+   Fig.~\ref{fig:dtSchem} shows how each chamber is made of three super layers.
+   Super layers SL $\Phi_{1}$ and SL $\Phi_{2}$ measure $(r-\phi)$, whereas 
+    SL $\Theta$ measures $z$.
+
     \begin{figure*}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{dtStruct} \\
@@ -220,12 +230,61 @@
       \label{fig:dtSchem}
     \end{figure*}
 
+    The RPC complement the DTs in the barrel and the CSCs in the endcap 
+      primarily for the purpose of triggering.
+    Six layers of RPC chambers are embedded in the barrel iron yoke, two
+      located in each of the first and second muon stations (RB1, RB2) and 
+      one in each of the two last stations (RB3, RB4), where RB1 corresponds 
+      to $r$ segment in the DTs MB1 and RB2 with MB2 etc. 
+    The redundancy in the first two stations allows the trigger algorithm to 
+      perform the reconstruction always on the basis of 4 layers, even for low 
+      \pt particles, which may stop inside the iron yoke. 
+    In total there are 480 rectangular chambers, each one 2455 mm
+      long in the beam direction. 
+    The strips run along the beam direction providing position measurements in 
+      the $(r-\phi)$  plane. 
+    In the endcap region, 3 layers of RPCs to cover the region up to $|\eta|$ =
+      1.6. 
+    They are mounted on both faces of the disks.
+    The double-gaps in every station have a trapezoidal shape and are arranged
+      in 3 concentric rings in the $(r-\phi)$  plane. 
+    They overlap in $\phi$ to avoid dead space at chamber edges.
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{rpcCell}
       \caption{Schematic of a RPC cell.}
       \label{fig:rpcSchem}
     \end{figure}
+  
+    The CMS Endcap Muon system will consist of 468 CSC arranged in groups as
+      follows: 72 ME1/1, 72 ME1/2, 72 ME1/3, 36 ME2/1, 72 ME2/2, 36 ME3/1,
+      72 ME3/2, and 36 ME4/1. 
+    The chambers are trapezoidal and cover either 10$^{\circ}$ or 20 $^{\circ}$
+      in $\phi$; all chambers, except for the ME1/3, overlap and provide 
+      contiguous-coverage. 
+    A muon in the pseudorapidity range 1.2 < $|\eta|$ <2.4 crosses 3 or 4 CSCs.
+    The CSCs are multiwire proportional chambers comprised of 6 anode wire 
+      planes interleaved among 7 cathode panels. 
+    Wires run azimuthally and define a tracks radial coordinate. 
+    Strips are on cathode panels and run lengthwise at constant $\Delta\phi$ 
+      width. 
+    The largest chambers, ME2/2 and ME3/2, are about 3.4x1.5 m$^{2}$ in size. 
+    The overall area covered by the sensitive planes of all chambers is about 
+      5000 m4$^{2}$, for a gas volume more than 50 m$^{3}$, and a number of 
+      wires of about 2 million. 
+    There are about 9000 high-voltage channels in the system, about 220,000 
+      cathode strip read-out channels with 12-bit signal digitization, and 
+      about 180,000 anode wire read-out channels. 
+    This system will ensure at least 99\% efficiency per chamber for finding 
+      track stubs by the L1 trigger and at least 92\% probability per chamber 
+      of identifying correct bunch crossings by the L1 trigger. 
+    This efficiency per chamber and 3-4 CSCs on a muon track path, ensure that 
+      the reconstructed muons will be assigned the correct bunch crossing 
+      number in more than 99\% of cases. 
+    The CSC system guarantees a $(r-\phi)$ resolution at the L1 trigger of 
+      about 2 mm, that improves up to 75 $\mu$m in off-line reconstruction for 
+      ME1/1 and ME1/2 chambers and about 150 $\mu$m for all others.
 
     \begin{figure}[!Hhbt]
       \centering
