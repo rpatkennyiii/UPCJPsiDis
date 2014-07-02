@@ -102,6 +102,13 @@ V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
   Physics Letters B} {\bfseries 726} no.~1–3, (2013) 290 -- 295}.
   \url{http://www.sciencedirect.com/science/article/pii/S0370269313006825}.
 
+\bibitem{CmsPTdrv2}
+{\bfseries CMS Collaboration} Collaboration, G.~Bayatian {\em et~al.}, ``{CMS
+  technical design report, volume II: Physics performance},''
+\href{http://dx.doi.org/10.1088/0954-3899/34/6/S01}{{\em J.Phys.} {\bfseries
+  G34} (2007) 995--1579}.
+%%CITATION = JPHGB,G34,995;%%.
+
 \bibitem{cmsLumi}
 {\bfseries CMS Collaboration} Collaboration,
 ``{Measurement of CMS Luminosity},''.
