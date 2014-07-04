@@ -1,18 +1,17 @@
 \select@language {english}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}Theoretical Context}{1}{section.1.1}
-\contentsline {section}{\numberline {1.2}History }{1}{section.1.2}
-\contentsline {chapter}{\numberline {2}Theory}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introduction}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}QCD/QGP}{3}{section.2.2}
-\contentsline {section}{\numberline {2.3}CGC/intial state}{3}{section.2.3}
-\contentsline {section}{\numberline {2.4}Weizs\"{a}cker-Williams Approximation}{5}{section.2.4}
-\contentsline {section}{\numberline {2.5}Vector Meson Dominance}{10}{section.2.5}
-\contentsline {section}{\numberline {2.6}Leading Twist Approach Derivation}{15}{section.2.6}
-\contentsline {section}{\numberline {2.7}Perturbative Quantum Chromo-dynamics}{18}{section.2.7}
-\contentsline {section}{\numberline {2.8}Incoherent Photoproduction}{20}{section.2.8}
-\contentsline {section}{\numberline {2.9}Photon Induced Nuclear Break-up}{20}{section.2.9}
-\contentsline {section}{\numberline {2.10}Theoretical Results}{25}{section.2.10}
+\contentsline {section}{\numberline {1.1}Theoretical Context}{2}{section.1.1}
+\contentsline {section}{\numberline {1.2}History }{2}{section.1.2}
+\contentsline {chapter}{\numberline {2}Theory}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}QCD/QGP}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}CGC/intial state}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Weizs\"{a}cker-Williams Approximation}{6}{section.2.3}
+\contentsline {section}{\numberline {2.4}Vector Meson Dominance}{11}{section.2.4}
+\contentsline {section}{\numberline {2.5}Leading Twist Approach Derivation}{15}{section.2.5}
+\contentsline {section}{\numberline {2.6}Perturbative Quantum Chromo-dynamics}{18}{section.2.6}
+\contentsline {section}{\numberline {2.7}Incoherent Photoproduction}{20}{section.2.7}
+\contentsline {section}{\numberline {2.8}Photon Induced Nuclear Break-up}{20}{section.2.8}
+\contentsline {section}{\numberline {2.9}Theoretical Results}{25}{section.2.9}
 \contentsline {chapter}{\numberline {3}The CMS Detector}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Tracker}{30}{section.3.1}
 \contentsline {section}{\numberline {3.2}ECAL}{31}{section.3.2}
