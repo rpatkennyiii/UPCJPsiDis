@@ -155,7 +155,7 @@
     However in the lab frame of the detector, the muon daughters which are 
       emitted from transversely polarized J/$\psi$ will tend to be emitted in
       the direction of J/$\psi$ and will have unequal momentum in the lab 
-      frame.
+      frame \cite{oniaPol}.
     The daughter traveling in the direction of the J/$\psi$ will have increased
       momentum, whereas the daughter traveling opposite to the J/$\psi$ 
       direction will have decreased momentum. 
@@ -208,23 +208,21 @@
       The L1 package that was constructed for the analysis of UPC J/$\psi$ 
         is presented in Table~\ref{tab:l1Triggers2011}.
 
-%%%%%%Fix this table%%%%%%%%%%%%%%%%%%%%%%%%%%
       \begin{table}[h]
         \centering
-        \begin{tabular}{|l|l|}
-          L1 Trigger Seed  & Type \\ \hline \hline
-          MuonOpen and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
-          ECAL2 and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
-          ECAL5 and (ZDC$^{+}$ or ZDC$^{-}$) and BSC veto & Physics \\  \hline
-          (ZDC$^{+}$ or ZDC$^{-}$) & Monitor \\  \hline
-          MuonOpen and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
-          ECAL2 and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
-          ECAL5 and (ZDC$^{+}$ or ZDC$^{-}$) and HF veto & Backup \\  \hline
+        \begin{tabular}{|l|l|l|l|l|}
+          \hline L1 trigger & Rate (Hz) & Prescale & Id & Type \\ \hline \hline
+          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 2.1 & 1 & 1 & Physics \\  \hline
+          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 1.8 & 2 & 2 & Physics \\  \hline
+          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 0.3 & 1 & 3 & Physics \\  \hline
+          (ZDC$^{+}$~or~ZDC$^{-}$) & 35 & 1500 & 4 & Monitor \\  \hline
+          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 5 & Backup \\  \hline
+          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 6 & Backup \\  \hline
+          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 7 & Backup \\  \hline
         \end{tabular}
         \caption{List of 2011 L1 seeds.}
         \label{tab:l1Triggers2011}
       \end{table}
-%%%%%%Fix this table%%%%%%%%%%%%%%%%%%%%%%%%%%
       The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
         required to be 200 Hz.
       This requirement stemmed from the need to keep the tracker read-out rate
@@ -237,7 +235,6 @@
       The rate at which the tracker could be readout without zero suppression
         set the limit for the L1 bandwidth.
 
-
     \subsection{HLT trigger}
       As opposed to the L1 trigger, which reads out the tracker, the HLT has 
         access to the tracker information. 
@@ -248,32 +245,33 @@
       The requirement of at least one reconstructed pixel track for the HLT 
         triggers was designed to reject backgrounds where no particles are 
         reconstructed by the tracker. 
-  \begin{table}[h]
-		\centering
-		\begin{tabular}{|l|l|}
-		  \hline HLT Trigger  \\ \hline \hline
-		  HLT\_HIUPCNeuMuPixel\_SingleTrack & Physics   \\ \hline
-		  HLT\_HIUPCNeuEG2Pixel\_SingleTrack & Physics   \\ \hline
-		  HLT\_HIUPCNeuEG5Pixel\_SingleTrack & Physics   \\ \hline
-		  HLT\_HIMinBiasZDC\_Calo\_PlusOrMinus\_v1  & Monitor  \\ \hline
-		  HLT\_HIMinBiasZDC\_PlusOrMinusPixel\_SingleTrack\_v1   & Monitor \\ \hline
-		  HLT\_HIUPCNeuHcalHfMuPixel\_SingleTrack & Backup   \\ \hline
-		  HLT\_HIUPCNeuHcalHfEG2Pixel\_SingleTrack & Backup   \\ \hline
-		  HLT\_HIUPCNeuHcalHfEG5Pixel\_SingleTrack & Backup   \\ \hline \hline
-		\end{tabular}
-		\caption{List of 2011 HLT trigger.}
-		\label{tab:hltTriggers2011}
-	\end{table}
+      \begin{table}[h]
+        \centering
+        \begin{tabular}{|l|l|l|l|l|l|}
+          \hline HLT trigger  & Rate (Hz) & L1 prescale & HLT prescale & L1 seed & Type \\ \hline \hline
+          MuPixel\_SingleTrack & 0.52 & 1 & 1 & 1 & Physics   \\ \hline
+          EG2Pixel\_SingleTrack & 1.65 & 2 & 1 & 2 & Physics   \\ \hline
+          EG5Pixel\_SingleTrack & 0.26 & 1 & 1 & 3 & Physics   \\ \hline
+          ZDC\_PlusOrMinus & 3.6 & 1500 & 11 & 4 & Monitor  \\ \hline
+          ZDC\_PlusOrMinusPixel\_SingleTrack & 2.8 & 1500 & 1 & 4 & Monitor \\ \hline
+          HfMuPixel\_SingleTrack & 0 & off & off & 5 & Backup   \\ \hline
+          HfEG2Pixel\_SingleTrack & 0 & off & off & 6 & Backup   \\ \hline
+          HfEG5Pixel\_SingleTrack & 0 & off & off & 7 & Backup   \\ \hline 
+        \end{tabular}
+        \caption{List of 2011 HLT trigger.}
+        \label{tab:hltTriggers2011}
+      \end{table}
 
       The total HLT output for the UPC trigger package was 20 Hz. 
       The limiting factor for the HLT rate was the amount of disk space 
         available to store the data. 
-      To meet the bandwidth the requirements and collect a significant sample
+      To meet the bandwidth requirements and collect a significant sample
         of data for estimating efficiencies, the prescales for the triggers 
         were set. 
-      The ZDC trigger that was passed through from the L1 was given a larger 
-        prescale to account for the higher rate relative to the more selective 
-        ZDC path, which also required a pixel track on the HLT.
+      The ZDC trigger that was passed through from the L1 was given a additional 
+        prescale factor of 11 on the HLT.
+      The ZDC path that also required a pixel track on the HLT, which used 
+        the same L1 seed, was only prescaled at the L1.
 
   \section{\label{sec:DataSetEvSel} Event selection}
     In order to investigate novel physics processes like UPC J/$\psi$ 
@@ -347,10 +345,9 @@
   	    \centering
   	    \begin{tabular}{|l|l|l|}
   	      \hline Sample & Events & $\mathcal{L}_{int}$ \\ \hline \hline
-  	      Physics & \textcolor{red}{300K} & \textcolor{red}{143.3 
-  	        $\mu$$b$} \\ \hline
-  	      Minimum Bias & \textcolor{red}{100K} & \textcolor{red}{X} \\ \hline
-  	      Zero Bias & \textcolor{red}{5M} & \textcolor{red}{580 b} \\ \hline \hline
+          Physics & 3.46K & 143.3 $\mu$$b^{-1}$ \\ \hline
+          Monitor & 1.1M & 31.6 $mb^{-1}$ \\ \hline
+          Zero Bias & 8.8M & 580 $b^{-1}$ \\ \hline 
   	    \end{tabular}
   	    \caption{Integrated luminosities and number of events for the three
   	      samples used in this analysis.}
@@ -371,17 +368,17 @@
       \begin{table}
         \centering
         \begin{tabular}{|c|c|c|} \hline 
-          cut & cut type & events \\ \hline
-          all triggered & -- & 346841 \\ \hline
-          good vertex requirement & beam background rejection & 340997 \\ \hline
-          beam halo muon rejection & beam background rejection & 302777 \\ \hline
-          cluster shape compatibility requirement & beam background rejection & 233590 \\ \hline
-          single-sided neutron requirement & hadronic interaction rejection & 149992 \\ \hline
-          two track requirement & hadronic interaction rejection & 32732 \\ \hline
-          HF signal rejection & hadronic interaction rejection & 5392 \\ \hline
-          muon quality requirement & fake muon rejection & 1956\\ \hline
-          J/$\psi$ mass requirement & kinematic cut & 662 \\ \hline
-          muon detectability cuts & kinematic cut & 541 \\ \hline
+          Cut type & Cut & Events \\ \hline
+          -- & all triggered & 346841 \\ \hline
+          \multirow{3}{*}{beam background rejection} & good vertex requirement & 340997 \\ \hhline{~--}
+          & beam halo muon rejection & 302777 \\ \hhline{~--}
+          & cluster shape compatibility requirement & 233590 \\ \hline
+          \multirow{3}{*}{hadronic interaction rejection} & single-sided neutron requirement & 149992 \\ \hhline{~--}
+          & two track requirement & 32732 \\ \hhline{~--}
+          & HF signal rejection & 5392 \\ \hline
+          fake muon rejection & muon quality requirement & 1956\\ \hline
+          \multirow{2}{*}{kinematic cut} & J/$\psi$ mass requirement & 662 \\ \hhline{~--}
+          & muon detectability cuts & 541 \\ \hline
         \end{tabular}
         \caption{Effects of event selection cuts.}
         \label{tab:evSelCutNumbers}
