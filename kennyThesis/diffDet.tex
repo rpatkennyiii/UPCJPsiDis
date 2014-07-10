@@ -3,33 +3,43 @@
   The LHC is designed to pursue physics at the TeV scale. 
   This is the scale where electroweak symmetry breaking is believed to occur
   	\cite{CmsPTdrv2}.
-  While this means that the search for the standard model Higgs boson was the 
+  While this means that the search for the standard model \DIFdelbegin \DIFdel{Higs is }\DIFdelend \DIFaddbegin \DIFadd{Higgs boson was }\DIFaddend the 
     central driving design consideration, the wide range of possibilities for
   	finding new physics signals requires a general purpose detector.
   The expedient discovery of new physics through low cross section interactions 
   	requires high luminosity.
-  While the difference is scale, 125 GeV for the mass of the Higgs bosson as 
-    compared to 3.1 GeV for the mass of the \JPsi, create difficulties which 
+  \DIFdelbegin \DIFdel{This consideration leads inevitably to pile up, where multiple collisions 
+	occurs at a single bunch crossing.
+  At peak luminosity the LHC is expected to produce on average 20 hard 
+	proton-proton (pp) collisions per bunch crossing \mbox{%DIFAUXCMD
+\cite{tCmsE}
+}%DIFAUXCMD
+. 
+  These particle physics considerations of high multiplicity due to pileup and the need for a general purpose detector make CMSserendipitously well suited
+	for heavy ion physics. 
+}\DIFdelend \DIFaddbegin \DIFadd{While the difference is scale, 125 GeV for the mass of the Higgs bosson as 
+    compared to 3.1 GeV for the mass of the }\JPsi\DIFadd{, create difficulties which 
     will be discussed below, these two considerations created the opportunity 
-    to explore UPC \JPsi.
+    to explore UPC }\JPsi\DIFadd{.
   Prior to the discovery of the Higgs boson, the decay 
     $H \rightarrow Z^{0}Z^{0*} \rightarrow \mu^{+} \mu^{-} \mu^{+} \mu^{-}$ 
     because very few other process can create a four muon final state. 
-  Muon capabilities developed for this process can be used to study \JPsi, 
+  Muon capabilities developed for this process can be used to study }\JPsi\DIFadd{, 
     which also decays to muons. 
   A versatile trigger is needed to accommodate the high interaction rates that 
     accompany the high luminosities. 
   By exploiting the versatility of the trigger and CMS's muon systems it
-    is possible to explore process like UPC \JPsi production, which push to the
+    is possible to explore process like UPC }\JPsi \DIFadd{production, which push to the
     very edge of the detectors capabilities. 
+}
 
-  \begin{figure}[h]
+  \DIFaddend \begin{figure}[h]
     \centering
       \includegraphics[width=.5\textwidth]{cms}
     \caption{The Compact Muon Solenoid from Reference~\cite{tCmsE}.}
     \label{cms}
   \end{figure}
-  
+
   The general purpose design of CMS is dominated by the massive 4T 
   	superconducting solenoid at its core.
   The magnets is 13m long with a 6m diameter, and pushes the limits of power
@@ -48,12 +58,15 @@
   Altogether CMS weighs 12,500 metric tons, has a diameter of 14.6m,
     and a length of 21.6m \cite{tCmsE}.
 
-  \section{Tracker}
-    The Silicon Tracker is the innermost sub-detector of CMS, and has active
+  \DIFaddbegin \section{\DIFadd{Tracker}}
+    \DIFaddend The Silicon Tracker is the innermost sub-detector of CMS, and has active
     	elements as close as 4.4cm to the interaction point \cite{tCmsE}. 
     The tracker has a length 5.8m, a diameter of 2.6m and
     	covers a range in pseudorapidity of \(|\eta| <\) 2.5.
-    At the center of the tracker are three rings of silicon pixels around the beam 
+    \DIFdelbegin \DIFdel{Pseudorapidity is defined as $\eta\equiv-\ln(\tan(\theta/2))$, where $\theta$ is 
+	the polar angle, and $\phi$ is the azimuthal angle with respect to the 
+	beam axis.
+}\DIFdelend At the center of the tracker are three rings of silicon pixels around the beam 
     	with two disks of silicon pixels to cap the rings.
     The pixel portion of the silicon tracker is comprised of 66x10$^{6}$
     	pixels.
@@ -68,16 +81,16 @@
     	or so charge particles per bunch crossing expected at peak luminosity
     	\cite{tCmsE}.
 
-    \begin{figure}[!Hhbt]
+    \DIFaddbegin \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.75\textwidth]{trackerLayout}
-      \caption{Layout of the silicon tracker with the pixels closest to the 
+      \caption{\DIFaddFL{Layout of the silicon tracker with the pixels closest to the 
         interaction point marked with a black dot and the strips segments 
-        beyond making up the remainder.}
+        beyond making up the remainder.}}
       \label{fig:fig:trackerLayout}
     \end{figure}
 
-    The amount of material present in the tracker is substantial enough to
+    \DIFadd{The amount of material present in the tracker is substantial enough to
       alter the path of particles as they pass through the tracker. 
     Fig.~\ref{fig:matBudge} shows the amount of material in the tracker 
       as a function of radiation lengths ($X_{0}$).
@@ -90,19 +103,20 @@
       field, momentum resolution for lower momentum tracks is limited by the 
       lose of energy due to scattering of these particles off the material of 
       the detector.
-    For UPC \JPsi~this is the primary factor contributing to the resolution of
+    For UPC }\JPsi\DIFadd{~this is the primary factor contributing to the resolution of
       the reconstructed muon tracks. 
-  
+  }
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.65\textwidth]{matBudge}
-      \caption{Material in the tracker broken down by sub-detector(left) and
-        category (right).}
+      \caption{\DIFaddFL{Material in the tracker broken down by sub-detector(left) and
+        category (right).}}
       \label{fig:matBudge}
     \end{figure}
 
-  \section{ECAL}
-    The next detector beyond the tracker is ECAL.
+  \section{\DIFadd{ECAL}}
+    \DIFaddend The next detector beyond the tracker is ECAL.
     ECAL is made of 61,200 lead tungstate (PbWO$_{4}$) crystals in the central
     	barrel and 7,324 on each of the two endcaps \cite{tCmsE}.
     The barrel (EB) covers a pseudorapidity range $|\eta| < 1.479$ and has an
@@ -110,8 +124,14 @@
     Lead tungstate is very dense, which is reflect in the high number of interaction
     	lengths the short depth of one crystal provides.
     The crystals of the barrel have a depth of 230 mm corresponding to 25.8 
-    	$X_{0}$.
-    The endcaps (EE) cover the psuedorapitity region $1.479 < |\eta| < 3$.
+    	\DIFdelbegin \DIFdel{radiation lengths (}\DIFdelend $X_{0}$\DIFdelbegin \DIFdel{).
+    The radiation length is the mean distance a high energy particle travels before
+	giving up one e-fold of kinetic energy through electromagnetic
+	interactions.
+For example, after one radiation length $E \rightarrow E/e$, where 
+	$e = 2.71828183$. 
+The }\DIFdelend \DIFaddbegin \DIFadd{.
+    The }\DIFaddend endcaps (EE) cover the psuedorapitity region $1.479 < |\eta| < 3$.
     In the endcap the crystals have an exposed area of 28.62 $\times$ 28.62 
     	mm$^{2}$, and a depth of 220 mm corresponding to 24.7 $X_{0}$.
     The energy resolution of the ECAL as measured by test beam data can be seen in
@@ -124,8 +144,8 @@
       \label{ECALeRes}
     \end{figure}
 
-  \section{HCAL}
-    The HCAL like the ECAL has both a barrel (HB) and endcaps (HE).
+  \DIFaddbegin \section{\DIFadd{HCAL}}
+    \DIFaddend The HCAL like the ECAL has both a barrel (HB) and endcaps (HE).
     The pseudorapidity region $|\eta|<1.3$ is covered by HB \cite{tCmsE}. 
     HB has an $\eta-\phi$ segmentation of $0.0897\times0.0897$, and is 25 times more
     	sparsely granulated than EB.
@@ -151,7 +171,7 @@
     	from Reference~\cite{tCmsE}.}
       \label{HCALeRes}
     \end{figure}
-    
+
     In addition to HB and HE, HCAL has two additional calorimeters.
     Because the space between ECAL and the magnet is restricted to 1.18 m, an
     	outer hadronic calorimeter section (HO) is placed beyond the magnet
@@ -175,15 +195,23 @@
     This allows electromagnetic showers to be distinguished from purely hadronic 
     	showers \cite{tCmsE}.
     The energy resolution for HF can be seen in Figure~\ref{HCALeRes}.  
-    
-  \section{ZDC} 
-    Beyond HF, the Zero Degree Calorimeters(ZDC) covers the very forward 
+
+  \DIFdelbegin \DIFdel{Beyond HF there are two more detectors in the forward region.
+CASTOR covers the range 5.2 $< \eta <$ 6.6 on the positive side of the beam. 
+The }\DIFdelend \DIFaddbegin \section{\DIFadd{ZDC}} 
+    \DIFadd{Beyond HF, the }\DIFaddend Zero Degree Calorimeters(ZDC) \DIFaddbegin \DIFadd{covers the very forward 
       rapidity region.
-    ZDC sit between the beam pipes on either side of the interaction point 
+    ZDC }\DIFaddend sit between the beam pipes on either side of the interaction point 
       covering the area around $\theta = 0$, $|\eta| > 8.3$.
     In heavy ion collisions the ZDC has the ability to measure neutral particles 
     	that do not participate in the collision \cite{tCmsE}.
-    
+    \DIFdelbegin \DIFdel{CASTOR extends the total coverage of the CMS as whole giving more access to 
+	low-x physics \mbox{%DIFAUXCMD
+\cite{tCmsE}
+}%DIFAUXCMD
+.
+}\DIFdelend 
+
     The ZDC has a total of 18 channels.
         Half of these 18 channels are on either side of the interaction point.
     The 9 channels on the side of CMS that correspond to positive $\eta$
@@ -202,7 +230,7 @@
       channels.
     The longitudinal segmentation allows for absorption of the full extended 
       hadronic shower and the ability to measure the longitudinal shower shape.
-    
+
     Each the 18 channels contains a tungsten target and quartz fibers.
     The dense tungsten target is used to initiate the shower.
     The quartz fibers shine Cerenkov light as the high momentum charged particles
@@ -211,7 +239,7 @@
       for each ZDC channel. 
     Through a cascade of photon induced electrical discharges, the photo-multiplier
       converts the Cerenkov light to an electrical pulse. 
-    
+
     This electrical pulse travels $\sim$ 200 m down a coaxial cable from the LHC
       tunnel to the counting house in the CMS service cavern. 
     There the electrical pulse is digitized by the Charge Integrator and Encoder 
@@ -223,13 +251,16 @@
       with the rest of the detector to insure the ZDC signal arrives at the central
       data acquisition system at the same time as the other sub detectors from the 
       same collision. 
-    
-  \section{Muons}
-    The muon system resides just outside of the superconducting magnet.
+
+  \DIFaddbegin \section{\DIFadd{Muons}}
+    \DIFaddend The muon system resides just outside of the superconducting magnet.
     It consists of three complementary systems: drift tube (DT) chambers in the
       barrel, cathode strip chambers (CSC) in the endcaps, and resistive 
       plate chambers (RPC) in both the barrel and endcap regions \cite{tCmsE}.
-    Each of the gaseous detectors function in the same basic way.
+    \DIFdelbegin \DIFdel{Ultimately the muon system is most useful for triggering on muons \mbox{%DIFAUXCMD
+\cite{tCmsE}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{Each of the gaseous detectors function in the same basic way.
     As the muon penetrates the gas volume electrons are knocked off of the 
       gas atoms and these electrons are collected in the positively charged
       anode, where as the ionized gas moves to the cathode. 
@@ -238,18 +269,22 @@
       precise timing. 
     The combination of the DTs and RPCs in the barrel and the CSCs and RPCs 
       in the endcap allow for fast triggering and muon identification during
-      data reconstruction. 
+      data reconstruction}\DIFaddend . 
 
-    \begin{figure}[!Hhbt]
+    \DIFdelbegin \DIFdel{The heavy ion community is making use of the capabilities of CMS in a myriad of ways. 
+    The muon trigger has been used in the search for suppression of quarkonium 
+	states.
+    This is an important probe of the correlation length within the hot dense state
+	known as the quark gluon plasma (QGP)}\DIFdelend \DIFaddbegin \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{muonSys}
-      \caption{ The CMS muon system showing the four DT stations in 
+      \caption{\DIFaddFL{ The CMS muon system showing the four DT stations in 
         the barrel (MB1-MB4), the four CSC stations in the endcap (ME1-ME4), 
-        and the RPC stations.}
+        and the RPC stations.}}
       \label{fig:muonSys}
     \end{figure}
 
-    As seen in Fig.~\ref{fig:muonSys}, the DTs reside only in the barrel, 
+    \DIFadd{As seen in Fig.~\ref{fig:muonSys}, the DTs reside only in the barrel, 
       covering the region $|\eta|$ < 1.2.
     Consisting of a total of 172,000 cells, the DT cells are collected into
       250 chambers. 
@@ -261,25 +296,26 @@
    The segmentation in $r$ is divided in to four parts, MB1-MB4.
    Fig.~\ref{fig:dtSchem} shows how each chamber is made of three super layers.
    Super layers SL $\Phi_{1}$ and SL $\Phi_{2}$ measure $(r,\phi)$, whereas 
-    SL $\Theta$ measures $z$.
+    SL $\Theta$ measures $z$}\DIFaddend .
+\DIFdelbegin \DIFdel{The tracker has been utilized for to study charged particle multiplicities, }\DIFdelend \DIFaddbegin 
 
     \begin{figure*}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{dtStruct} \\
       \includegraphics[width=.65\textwidth]{dtCell}
-      \caption{Schematic of the DT chambers and an individual DT cell.}
+      \caption{\DIFaddFL{Schematic of the DT chambers and an individual DT cell.}}
       \label{fig:dtSchem}
     \end{figure*}
 
-    The RPC complement the DTs in the barrel and the CSCs in the endcap 
+    \DIFadd{The RPC complement the DTs in the barrel and the CSCs in the endcap 
       primarily for the purpose of triggering.
     Six layers of RPC chambers are embedded in the barrel iron yoke, two
       located in each of the first and second muon stations (RB1, RB2) and 
       one in each of the two last stations (RB3, RB4), where RB1 corresponds 
-      to $r$ segment in the DTs MB1 and RB2 with MB2 etc. 
+      to $r$ segment in the DTs MB1 }\DIFaddend and \DIFaddbegin \DIFadd{RB2 with MB2 etc. 
     The redundancy in the first two stations allows the trigger algorithm to 
       perform the reconstruction always on the basis of 4 layers, even for low 
-      \pt particles, which may stop inside the iron yoke. 
+      }\pt \DIFadd{particles, which may stop inside the iron yoke. 
     In total there are 480 rectangular chambers, each one 2455 mm
       long in the beam direction. 
     The strips run along the beam direction providing position measurements in 
@@ -290,15 +326,16 @@
     The double-gaps in every station have a trapezoidal shape and are arranged
       in 3 concentric rings in the $(r-\phi)$  plane.  
     They overlap in $\phi$ to avoid dead space at chamber edges.
+}
 
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{rpcCell}
-      \caption{Schematic of a RPC cell.}
+      \caption{\DIFaddFL{Schematic of a RPC cell.}}
       \label{fig:rpcSchem}
     \end{figure}
-  
-    The CMS Endcap Muon system will consist of 468 CSC arranged in groups as
+
+    \DIFadd{The CMS Endcap Muon system will consist of 468 CSC arranged in groups as
       follows: 72 ME1/1, 72 ME1/2, 72 ME1/3, 36 ME2/1, 72 ME2/2, 36 ME3/1,
       72 ME3/2, and 36 ME4/1. 
     The chambers are trapezoidal and cover either 10$^{\circ}$ or 20 $^{\circ}$
@@ -310,7 +347,7 @@
     Wires run azimuthally and define a tracks radial coordinate. 
     Strips are on cathode panels and run lengthwise at constant $\Delta\phi$ 
       width. 
-    The largest chambers, ME2/2 and ME3/2, are about 3.4x1.5 m$^{2}$ in size. 
+    The largest chambers, ME2/2 }\DIFaddend and \DIFdelbegin \DIFdel{elliptical flow, two probes of }\DIFdelend \DIFaddbegin \DIFadd{ME3/2, are about 3.4x1.5 m$^{2}$ in size. 
     The overall area covered by the sensitive planes of all chambers is about 
       5000 m4$^{2}$, for a gas volume more than 50 m$^{3}$, and a number of 
       wires of about 2 million. 
@@ -326,24 +363,36 @@
     The CSC system guarantees a $(r-\phi)$ resolution at the L1 trigger of 
       about 2 mm, that improves up to 75 $\mu$m in off-line reconstruction for 
       ME1/1 and ME1/2 chambers and about 150 $\mu$m for all others.
+}
 
     \begin{figure}[!Hhbt]
       \centering
-      $ \begin{array}{cc}
+      \DIFaddFL{$ \begin{array}{cc}
         \includegraphics[width=.35\textwidth]{cscStruct} &
         \includegraphics[width=.65\textwidth]{cscCell}
       \end{array} $
-      \caption{Schematic of the CSC chambers and an individual CSC cell.}
+      }\caption{\DIFaddFL{Schematic of the CSC chambers and an individual CSC cell.}}
       \label{fig:cscSchem}
     \end{figure}
 
-    The primary function of the muon systems are to allow for triggering on and
+    \DIFadd{The primary function of the muon systems are to allow for triggering on and
       identification of muons.
     The tracker is still the primary instrument for measuring the muons. 
     Fig.~\ref{fig:muonRes} shows the resolution of reconstructed muons with 
-      the tracker only is only improved upon for muons with momenta above 
+      }\DIFaddend the \DIFdelbegin \DIFdel{thermal expansion of the QGP. 
+    HCAL has aided in measuring jet suppression, which probes the strength with 
+      which the QGP interacts with strong interacting objects. 
+    Through its general purpose design and its ability to handle the high
+	multiplicities produce by the LHC, CMS proves to be an excellent 
+	detector for investigating strongly interacting mater through heavy ion
+	collisions.
+    %DIF <   \section{CMS general}
+%DIF <   \section{Muons}
+%DIF <   \section{HCal}
+%DIF <   \section{ZDC}
+  }\DIFdelend \DIFaddbegin \DIFadd{tracker only is only improved upon for muons with momenta above 
       100 GeV. 
-    For UPC \JPsi~events where muons momenta are between 1-2 GeV, the muon
+    For UPC }\JPsi\DIFadd{~events where muons momenta are between 1-2 GeV, the muon
       system does not provide any advantage in terms of improved resolution.
     The muon system does distinguish muons from other particles.
     Because of their increase mass relative to electrons, muons emit less 
@@ -358,43 +407,46 @@
     By eliminating backgrounds from both electrons and hadrons, the CMS muons 
       system allows for identification of muons for both triggering and 
       reconstruction.
-  
+  }
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.65\textwidth]{muonRes}
-      \caption{ The momentum resolution of the muon system using only the 
+      \caption{\DIFaddFL{ The momentum resolution of the muon system using only the 
         tracker and the whole muon system in the barrel (left) and end cap 
-        (right).}
+        (right).}}
       \label{fig:muonRes}
-    \end{figure}i
+    \end{figure}\DIFadd{i
+}
 
-    The low-momentum nature of UPC physics creates complications due to the 
+    \DIFadd{The low-momentum nature of UPC physics creates complications due to the 
       large amount of material between the interaction point and the muon 
       systems.
     About 3 GeV of momentum is needed to reach the first layers of the muon 
       system.
-    In the rest frame of the \JPsi, the \JPsi equally shares its rest mass with 
+    In the rest frame of the }\JPsi\DIFadd{, the }\JPsi \DIFadd{equally shares its rest mass with 
       its decay products creating 2 muons with momenta of about 1.5 GeV.
-    For these daughter muons to reach the muon system, their parent \JPsi must
+    For these daughter muons to reach the muon system, their parent }\JPsi \DIFadd{must
       be pushed to higher momentum by the initial particles which created the
-      \JPsi.
+      }\JPsi\DIFadd{.
     For this reason, muons from UPC J/$\psi$s are only detected at higher 
       $\eta$ values.
     Understanding this momentum restriction of the muon system was a major 
       focus of the analysis discussed in this thesis with details described in 
       Section.~\ref{sec:effDet}.
+}
 
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics{materialThickness}
-      \caption{The amount of material in CMS as a function of $\eta$ in 
-        number of interaction lengths.}
+      \caption{\DIFaddFL{The amount of material in CMS as a function of $\eta$ in 
+        number of interaction lengths.}}
       \label{fig:matThick}
     \end{figure}
- 
-  \section{Trigger}
-    The CMS trigger is two tiered. 
-    The L1 trigger is the lower level hardware based system. 
+
+  \DIFaddend \section{Trigger}
+    The CMS trigger is two \DIFdelbegin \DIFdel{teired}\DIFdelend \DIFaddbegin \DIFadd{tiered}\DIFaddend . 
+    The L1 trigger is the lower level \DIFdelbegin \DIFdel{hardward }\DIFdelend \DIFaddbegin \DIFadd{hardware }\DIFaddend based system. 
     The High Level Trigger (HLT) is software base and runs on a computer farm
       at point 5 where CMS is housed.
 
@@ -410,7 +462,8 @@
       HLT and to read out the tracker. 
 
     If an event passes the L1 trigger, the data from all the sub-detectors
-      including the Tracker are sent to the HLT computing farm. 
+      \DIFdelbegin \DIFdel{in
+      }\DIFdelend including the Tracker are sent to the HLT computing farm. 
     At this level the raw data from all the sub-detectors is unpacked and 
       combined.
     The information from the calorimeters, muon system, and tracker can all 

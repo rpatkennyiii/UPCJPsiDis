@@ -22,10 +22,10 @@
 \contentsline {chapter}{\numberline {4}Analysis}{42}{chapter.4}
 \contentsline {section}{\numberline {4.1} MC simulation}{42}{section.4.1}
 \contentsline {section}{\numberline {4.2} Trigger development}{46}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1} L1 trigger}{47}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}HLT trigger}{48}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.1} L1 trigger}{46}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}HLT trigger}{47}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3} Event selection}{48}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Data sets}{49}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.1}Data sets}{48}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}Event selection cuts}{50}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4} Break up determination}{53}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}ZDC signal reconstruction}{53}{subsection.4.4.1}
@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{70}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{72}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {4.7.4}MC acceptance}{73}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{74}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{75}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}ZDC trigger efficiency}{76}{subsection.4.7.6}
 \contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{78}{subsection.4.7.7}
 \contentsline {subsection}{\numberline {4.7.8}Tag and probe}{80}{subsection.4.7.8}
@@ -61,4 +61,4 @@
 \contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{101}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{102}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}UPC jets}{102}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{108}{appendix.A}
+\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{109}{appendix.A}

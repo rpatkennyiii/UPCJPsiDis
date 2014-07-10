@@ -109,6 +109,37 @@ V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
   G34} (2007) 995--1579}.
 %%CITATION = JPHGB,G34,995;%%.
 
+\bibitem{lheFormat}
+J.~Alwall, A.~Ballestrero, P.~Bartalini, S.~Belov, E.~Boos, {\em et~al.}, ``{A
+  Standard format for Les Houches event files},''
+  \href{http://dx.doi.org/10.1016/j.cpc.2006.11.010}{{\em Comput.Phys.Commun.}
+  {\bfseries 176} (2007) 300--304},
+\href{http://arxiv.org/abs/hep-ph/0609017}{{\ttfamily arXiv:hep-ph/0609017
+  [hep-ph]}}.
+%%CITATION = HEP-PH/0609017;%%.
+
+\bibitem{geant}
+J.~Allison, K.~Amako, J.~Apostolakis, H.~Araujo, P.~Dubois, M.~Asai,
+  G.~Barrand, R.~Capra, S.~Chauvie, R.~Chytracek, G.~A.~P. Cirrone,
+  G.~Cooperman, G.~Cosmo, G.~Cuttone, G.~G. Daquino, M.~Donszelmann,
+  M.~Dressel, G.~Folger, F.~Foppiano, J.~Generowicz, V.~Grichine, S.~Guatelli,
+  P.~Gumplinger, A.~Heikkinen, I.~Hrivnacova, A.~Howard, S.~Incerti,
+  V.~Ivanchenko, T.~Johnson, F.~Jones, T.~Koi, R.~Kokoulin, M.~Kossov,
+  H.~Kurashige, V.~Lara, S.~Larsson, F.~Lei, O.~Link, F.~Longo, M.~Maire,
+  A.~Mantero, B.~Mascialino, I.~McLaren, P.~Lorenzo, K.~Minamimoto,
+  K.~Murakami, P.~Nieminen, L.~Pandola, S.~Parlati, L.~Peralta, J.~Perl,
+  A.~Pfeiffer, M.~Pia, A.~Ribon, P.~Rodrigues, G.~Russo, S.~Sadilov, G.~Santin,
+  T.~Sasaki, D.~Smith, N.~Starkov, S.~Tanaka, E.~Tcherniaev, B.~Tome,
+  A.~Trindade, P.~Truscott, L.~Urban, M.~Verderi, A.~Walkden, J.~P. Wellisch,
+  D.~Williams, D.~Wright, and H.~Yoshida, ``Geant4 developments and
+  applications,'' \href{http://dx.doi.org/10.1109/TNS.2006.869826}{{\em Nuclear
+  Science, IEEE Transactions on} {\bfseries 53} no.~1, (Feb, 2006) 270--278}.
+
+\bibitem{pythia}
+T.~Sj\"{o}strand, S.~Mrenna, and P.~Skands, ``Pythia 6.4 physics and manual,''
+  {\em Journal of High Energy Physics} {\bfseries 2006} no.~05, (2006) 026.
+  \url{http://stacks.iop.org/1126-6708/2006/i=05/a=026}.
+
 \bibitem{oniaPol}
 P.~Faccioli, C.~Lourenco, J.~Seixas, and H.~K. Wohri, ``{Towards the
   experimental clarification of quarkonium polarization},''

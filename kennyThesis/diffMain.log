@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  23 JUN 2014 22:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  10 JUL 2014 01:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -647,7 +647,7 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 Package: ulem 2012/05/18
 \ULdepth=\dimen157
 ) (./diffMain.aux
-(./diffAn.aux) (./diffRes.aux))
+(./miAnDiff.aux))
 \openout1 = `diffMain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
@@ -665,8 +665,7 @@ LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 95.
 LaTeX Font Info:    ... okay on input line 95.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 95.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -755,9 +754,9 @@ LaTeX Info: Redefining \nameref on input line 95.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `diffAn.aux'.
+\openout2 = `diffIntro.aux'.
 
- (./diffAn.tex
+ (./diffIntro.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -765,1883 +764,1224 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 22.
- [1
-
-
-
-{/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 52.
-
-
-LaTeX Warning: Reference `sec:vdmTheory' on page 2 undefined on input line 52.
-
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 54
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 15
 .
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 54
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 15
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 54
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 15
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 54
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 15
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 15.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-LaTeX Font Info:    Try loading font information for U+esint on input line 54.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 15.
+LaTeX Font Info:    Try loading font information for U+esint on input line 15.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
-)
-Overfull \hbox (6.15767pt too wide) in paragraph at lines 67--96
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   []\T1/ptm/m/n/12 Be-cause STARlight
+) [1
+
+
+
+{/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+) [2]
+\openout2 = `diffDet.aux'.
+
+ (./diffDet.tex
+Chapter 2.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 5.
+
+LaTeX Warning: Citation `CmsPTdrv2' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `tCmsE' on page 3 undefined on input line 20.
+
+[3
+
+
+
+] <DetectorChapter/figures/cms.png, id=131, 550.055pt x 419.5675pt>
+File: DetectorChapter/figures/cms.png Graphic file (type png)
+
+<use DetectorChapter/figures/cms.png>
+Package pdftex.def Info: DetectorChapter/figures/cms.png used on input line 38.
+
+(pdftex.def)             Requested size: 234.8775pt x 179.1557pt.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 46.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 52.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 59.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 63.
+
+
+LaTeX Warning: Citation `tCmsE' on page 4 undefined on input line 82.
+
+[4 <./DetectorChapter/figures/cms.png>]
+<DetectorChapter/figures/trackerLayout.pdf, id=140, 826.08624pt x 387.4475pt>
+File: DetectorChapter/figures/trackerLayout.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/trackerLayout.pdf>
+Package pdftex.def Info: DetectorChapter/figures/trackerLayout.pdf used on inpu
+t line 86.
+(pdftex.def)             Requested size: 352.31625pt x 165.24533pt.
+
+
+LaTeX Warning: Reference `fig:matBudge' on page 5 undefined on input line 106.
+
+<DetectorChapter/figures/matBudge.pdf, id=141, 1604.99625pt x 812.03375pt>
+File: DetectorChapter/figures/matBudge.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/matBudge.pdf>
+Package pdftex.def Info: DetectorChapter/figures/matBudge.pdf used on input lin
+e 112.
+(pdftex.def)             Requested size: 305.33789pt x 154.47388pt.
+
+
+LaTeX Warning: Citation `tCmsE' on page 5 undefined on input line 121.
+
+
+LaTeX Warning: Reference `ECALeRes' on page 5 undefined on input line 138.
+
+<DetectorChapter/figures/ECALeRes.png, id=142, 538.01pt x 527.9725pt>
+File: DetectorChapter/figures/ECALeRes.png Graphic file (type png)
+
+<use DetectorChapter/figures/ECALeRes.png>
+Package pdftex.def Info: DetectorChapter/figures/ECALeRes.png used on input lin
+e 141.
+(pdftex.def)             Requested size: 234.8775pt x 230.49597pt.
+
+
+LaTeX Warning: Citation `tCmsE' on page 5 undefined on input line 143.
+
+
+LaTeX Warning: Citation `tCmsE' on page 5 undefined on input line 143.
+
+[5 <./DetectorChapter/figures/trackerLayout.pdf>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: Citation `tCmsE' on page 6 undefined on input line 149.
+
+
+LaTeX Warning: Reference `HCALeRes' on page 6 undefined on input line 160.
+
+<DetectorChapter/figures/HCALeRes.png, id=151, 525.965pt x 377.41pt>
+File: DetectorChapter/figures/HCALeRes.png Graphic file (type png)
+
+<use DetectorChapter/figures/HCALeRes.png>
+Package pdftex.def Info: DetectorChapter/figures/HCALeRes.png used on input lin
+e 169.
+(pdftex.def)             Requested size: 234.8775pt x 168.53719pt.
+
+
+LaTeX Warning: Citation `tCmsE' on page 6 undefined on input line 171.
+
+
+LaTeX Warning: Citation `tCmsE' on page 6 undefined on input line 171.
+
+[6 <./DetectorChapter/figures/matBudge.pdf>]
+
+LaTeX Warning: Citation `tCmsE' on page 7 undefined on input line 178.
+
+
+LaTeX Warning: Citation `tCmsE' on page 7 undefined on input line 196.
+
+
+LaTeX Warning: Reference `HCALeRes' on page 7 undefined on input line 197.
+
+[7 <./DetectorChapter/figures/ECALeRes.png> <./DetectorChapter/figures/HCALeRes
+.png>]
+
+LaTeX Warning: Citation `tCmsE' on page 8 undefined on input line 207.
+
+
+LaTeX Warning: Citation `tCmsE' on page 8 undefined on input line 213.
+
+[8]
+
+LaTeX Warning: Citation `tCmsE' on page 9 undefined on input line 259.
+
+
+LaTeX Warning: Citation `tCmsE' on page 9 undefined on input line 263.
+
+[9] <DetectorChapter/figures/muonSys.pdf, id=181, 708.6475pt x 527.9725pt>
+File: DetectorChapter/figures/muonSys.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/muonSys.pdf>
+Package pdftex.def Info: DetectorChapter/figures/muonSys.pdf used on input line
+ 280.
+(pdftex.def)             Requested size: 305.33789pt x 227.491pt.
+
+
+LaTeX Warning: Reference `fig:muonSys' on page 10 undefined on input line 299.
+
+
+LaTeX Warning: Reference `fig:dtSchem' on page 10 undefined on input line 299.
+
+[10 <./DetectorChapter/figures/muonSys.pdf>]
+<DetectorChapter/figures/dtStruct.pdf, id=191, 273.02pt x 150.5625pt>
+File: DetectorChapter/figures/dtStruct.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/dtStruct.pdf>
+Package pdftex.def Info: DetectorChapter/figures/dtStruct.pdf used on input lin
+e 304.
+(pdftex.def)             Requested size: 305.33789pt x 168.3945pt.
+
+<DetectorChapter/figures/dtCell.pdf, id=192, 273.02pt x 110.4125pt>
+File: DetectorChapter/figures/dtCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/dtCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/dtCell.pdf used on input line 
+305.
+(pdftex.def)             Requested size: 305.33789pt x 123.48929pt.
+
+! Undefined control sequence.
+l.318       }\pt
+                 \DIFadd{particles, which may stop inside the iron yoke.
+? R
+OK, entering \nonstopmode...
+<DetectorChapter/figures/rpcCell.pdf, id=193, 273.02pt x 116.435pt>
+File: DetectorChapter/figures/rpcCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/rpcCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/rpcCell.pdf used on input line
+ 333.
+(pdftex.def)             Requested size: 305.33789pt x 130.22508pt.
+ [11 <./DetectorChapter/figures/dtStruct.pdf> <./DetectorChapter/figures/dtCell
+.pdf>]
+<DetectorChapter/figures/cscStruct.pdf, id=206, 273.02pt x 475.7775pt>
+File: DetectorChapter/figures/cscStruct.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/cscStruct.pdf>
+Package pdftex.def Info: DetectorChapter/figures/cscStruct.pdf used on input li
+ne 374.
+(pdftex.def)             Requested size: 164.41711pt x 286.52136pt.
+
+Runaway argument?
+\@empty \unskip \relax $\LA@hskip \z@ plus1fil\relax \LA@hskip \col@sep 
+! Forbidden control sequence found while scanning use of \UL@word.
+<inserted text> 
+                \par 
+l.374       }
+             \caption{\DIFaddFL{Schematic of the CSC chambers and an individ...
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+Runaway argument?
+\@empty 
+! Paragraph ended before \UL@word was complete.
+<to be read again> 
+                   \par 
+l.374       }
+             \caption{\DIFaddFL{Schematic of the CSC chambers and an individ...
+I suspect you've forgotten a `}', causing me to apply this
+control sequence to too much text. How can we recover?
+My plan is to forget the whole thing and hope for the best.
+
+<DetectorChapter/figures/cscCell.pdf, id=207, 273.02pt x 231.86626pt>
+File: DetectorChapter/figures/cscCell.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/cscCell.pdf>
+Package pdftex.def Info: DetectorChapter/figures/cscCell.pdf used on input line
+ 374.
+(pdftex.def)             Requested size: 305.33789pt x 259.32755pt.
+
+! You can't use `\hrule' here except with leaders.
+\caption@hrule ->\hrule 
+                        \@height \z@ 
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+To put a horizontal rule in an hbox or an alignment,
+you should use \leaders or \hrulefill (see The TeXbook).
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vskip 
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \vskip 
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
+                                                  \egroup \UL@putbox \fi \if...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I can't work with sizes bigger than about 19 feet.
+Continue and I'll use the largest value I can.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Extra }, or forgotten \endgroup.
+\UL@stop ...z@ \else \UL@putbox \fi \else \egroup 
+                                                  \egroup \UL@putbox \fi \if...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I can't work with sizes bigger than about 19 feet.
+Continue and I'll use the largest value I can.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.374 ...SC chambers and an individual CSC cell.}}
+                                                  
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Too many }'s.
+\color@endbox ->\color@endgroup \egroup 
+                                        
+l.376     \end{figure}
+                      
+You've closed more groups than you opened.
+Such booboos are generally harmless, so keep going.
+
+
+! LaTeX Error: \begin{document} ended by \end{figure}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.376     \end{figure}
+                      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.376     \end{figure}
+                      
+Things are pretty mixed up, but I think the worst is over.
+
+
+LaTeX Warning: Reference `fig:muonRes' on page 12 undefined on input line 382.
+
+
+LaTeX Warning: Reference `fig:matThick' on page 12 undefined on input line 410.
+
+
+
+Overfull \hbox (9.00359pt too wide) in paragraph at lines 382--411
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []   |   []   |   []   |   []
  []
 
-[2] [3]
-<AnalysisChapter/figures/genRapDis.pdf, id=156, 569.12625pt x 546.04pt>
+[12 <./DetectorChapter/figures/rpcCell.pdf>]
+<DetectorChapter/figures/muonRes.pdf, id=216, 818.05624pt x 466.74374pt>
+File: DetectorChapter/figures/muonRes.pdf Graphic file (type pdf)
+
+<use DetectorChapter/figures/muonRes.pdf>
+Package pdftex.def Info: DetectorChapter/figures/muonRes.pdf used on input line
+ 414.
+(pdftex.def)             Requested size: 305.33789pt x 174.20944pt.
+ [13 <./DetectorChapter/figures/muonRes.pdf>]
+<DetectorChapter/figures/materialThickness.pdf, id=227, 273.02pt x 187.70125pt>
+File: DetectorChapter/figures/materialThickness.pdf Graphic file (type pdf)
+<use DetectorChapter/figures/materialThickness.pdf>
+Package pdftex.def Info: DetectorChapter/figures/materialThickness.pdf used on 
+input line 441.
+(pdftex.def)             Requested size: 273.01933pt x 187.70079pt.
+ [14 <./DetectorChapter/figures/materialThickness.pdf>]) [15]
+\openout2 = `diffAn.aux'.
+
+ (./diffAn.tex
+Chapter 3.
+
+Overfull \hbox (17.51224pt too wide) in paragraph at lines 2--25
+|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
+  |   []   |   []   |   []
+ []
+
+[16
+
+
+
+]
+
+LaTeX Warning: Reference `sec:vdmTheory' on page 17 undefined on input line 63.
+
+
+[17]
+
+LaTeX Warning: Citation `lheFormat' on page 18 undefined on input line 100.
+
+
+LaTeX Warning: Citation `geant' on page 18 undefined on input line 120.
+
+
+LaTeX Warning: Citation `pythia' on page 18 undefined on input line 138.
+
+[18]
+
+LaTeX Warning: Reference `fig:starlightRapPtDist' on page 19 undefined on input
+ line 150.
+
+<AnalysisChapter/figures/genRapDis.pdf, id=261, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genRapDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genRapDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genRapDis.pdf used on input li
-ne 132.
+ne 169.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/genPtDis.pdf, id=157, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/genPtDis.pdf, id=262, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genPtDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genPtDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genPtDis.pdf used on input lin
-e 133.
+e 170.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/polCosThetaHXGen.png, id=158, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/polCosThetaHXGen.png, id=263, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/polCosThetaHXGen.png Graphic file (type png)
 
 <use AnalysisChapter/figures/polCosThetaHXGen.png>
 Package pdftex.def Info: AnalysisChapter/figures/polCosThetaHXGen.png used on i
-nput line 143.
+nput line 180.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
- [4 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./An
-alysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees>] [5 <./Analysis
-Chapter/figures/polCosThetaHXGen.png>]
 
-LaTeX Warning: Reference `triggerTabel2011' on page 6 undefined on input line 2
-09.
+
+LaTeX Warning: Citation `oniaPol' on page 19 undefined on input line 200.
+
+[19] [20 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> 
+<./AnalysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees> <./Analysi
+sChapter/figures/polCosThetaHXGen.png>]
+
+LaTeX Warning: Reference `triggerTabel2011' on page 21 undefined on input line 
+242.
 
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 211.
-[6] [7] [8]
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 244.
+[21]
+Overfull \hbox (9.4121pt too wide) in paragraph at lines 261--283
+ [][] 
+ []
 
-LaTeX Warning: Citation `cmsLumi' on page 9 undefined on input line 359.
 
-[9]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 422.
+Overfull \hbox (66.1528pt too wide) in paragraph at lines 314--337
+ [][] 
+ []
 
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
+
+Overfull \hbox (1.02332pt too wide) in paragraph at lines 300--340
+|   []   |   []   |   []   |   [][]\T1/ptm/m/n/12 , the HLT has ac-cess to []| 
+  []   |   []   |   [][][]|   []   |   []   |   []
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] [23] [24]
+
+LaTeX Warning: Citation `cmsLumi' on page 25 undefined on input line 434.
+
+! Undefined control sequence.
+l.473           \DIFaddbeginFL \multirow
+                                        {3}{*}{beam background rejection} & ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.476 \DIFdelendFL \DIFaddbeginFL \hhline
+                                         {~--}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.480 \DIFdelendFL \DIFaddbeginFL \hhline
+                                         {~--}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.483           \DIFaddbeginFL \multirow
+                                        {3}{*}{hadronic interaction rejectio...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.486 \DIFdelendFL \DIFaddbeginFL \hhline
+                                         {~--}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.490 \DIFdelendFL \DIFaddbeginFL \hhline
+                                         {~--}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.495           \DIFaddbeginFL \multirow
+                                        {2}{*}{kinematic cut} & \DIFaddendFL...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+l.498 \DIFdelendFL \DIFaddbeginFL \hhline
+                                         {~--}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (161.83858pt too wide) in paragraph at lines 468--502
+ [][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 508.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 422.
- [10]
-<AnalysisChapter/figures/hfNoiseComp.pdf, id=289, 569.12625pt x 385.44pt>
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 508.
+ [25] [26]
+<AnalysisChapter/figures/hfNoiseComp.pdf, id=412, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/hfNoiseComp.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/hfNoiseComp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/hfNoiseComp.pdf used on input 
-line 473.
+line 559.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
- [11]
+ [27 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `sec:ltaTheory' on page 12 undefined on input line 494
+LaTeX Warning: Reference `sec:ltaTheory' on page 28 undefined on input line 580
 .
 
-[12 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/zdcPulseShape.png, id=344, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcPulseShape.png, id=462, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPulseShape.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
-t line 523.
+t line 609.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
+ [28 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
 
-<AnalysisChapter/figures/negTs5overTs4vts5.png, id=346, 698.61pt x 473.77pt>
+LaTeX Warning: Reference `fig:zdcTs4OvTs5VTs5' on page 29 undefined on input li
+ne 643.
+
+<AnalysisChapter/figures/negTs5overTs4vts5.png, id=470, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/negTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/negTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/negTs5overTs4vts5.png used on 
-input line 567.
+input line 653.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
 
-<AnalysisChapter/figures/posTs5overTs4vts5.png, id=347, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/posTs5overTs4vts5.png, id=471, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/posTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/posTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/posTs5overTs4vts5.png used on 
-input line 568.
+input line 654.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
- [13 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>] [14 <./AnalysisC
-hapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figures/posTs5overTs4v
-ts5.png>]
-<AnalysisChapter/figures/zdcFit45Neg.png, id=363, 698.61pt x 473.77pt>
+ [29 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figur
+es/posTs5overTs4vts5.png>]
+
+LaTeX Warning: Reference `fig:zdcM2Fit' on page 30 undefined on input line 674.
+
+
+<AnalysisChapter/figures/zdcFit45Neg.png, id=478, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Neg.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Neg.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Neg.png used on input 
-line 612.
+line 698.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcFit45Pos.png, id=364, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcFit45Pos.png, id=479, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Pos.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Pos.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Pos.png used on input 
-line 613.
+line 699.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=367, 698.61pt x 473.7
+
+LaTeX Warning: Reference `fig:zdcM2Fit' on page 30 undefined on input line 707.
+
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=481, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png u
-sed on input line 645.
+sed on input line 731.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=368, 698.61pt x 473.7
+<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=482, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png u
-sed on input line 646.
+sed on input line 732.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=369, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=483, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcNegHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png used o
-n input line 647.
+n input line 733.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=370, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=484, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png used o
-n input line 648.
+n input line 734.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
- [15 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdc
-Fit45Pos.png>] [16 <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./
-AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figure
-s/zdcNegHDNoiseFromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
+ [30]
 
-<AnalysisChapter/figures/massFitSimple.pdf, id=384, 569.12625pt x 495.8525pt>
+LaTeX Warning: Reference `fig:zdcNoiseSpectra' on page 31 undefined on input li
+ne 742.
+
+
+LaTeX Warning: Reference `fig:zdcNoiseSpectra' on page 31 undefined on input li
+ne 750.
+
+[31 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdcF
+it45Pos.png> <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./Analys
+isChapter/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figures/zdcN
+egHDNoiseFromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
+[32]
+<AnalysisChapter/figures/massFitSimple.pdf, id=503, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 704.
-(pdftex.def)             Requested size: 281.85587pt x 245.58015pt.
- [17 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
+t line 790.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/ptOnly.pdf, id=436, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/ptOnly.pdf, id=507, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-725.
+811.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [18 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=488, 569.12625pt x 546.04pt
+ [33 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
+
+<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=560, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf used on
- input line 748.
+ input line 834.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=490, 569.12625pt x 272.0162
+<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=562, 569.12625pt x 272.0162
 5pt>
 File: AnalysisChapter/figures/ptMassSimGaussLine.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptMassSimGaussLine.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimGaussLine.pdf used on
- input line 773.
+ input line 859.
 (pdftex.def)             Requested size: 422.77664pt x 202.07748pt.
- [19 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degr
-ees>]
-<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=545, 569.12625pt x 546.04pt
+ [34 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>] [35 <.
+/AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degrees> <.
+/AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=710, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtMass.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf used on
- input line 794.
+ input line 880.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `cmsTnP' on page 20 undefined on input line 807.
+LaTeX Warning: Citation `cmsTnP' on page 36 undefined on input line 893.
 
 
-<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=547, 569.12625pt x 546.04p
+<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=712, 569.12625pt x 546.04p
 t>
 File: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf used o
-n input line 824.
+n input line 910.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [20 <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degr
+ [36 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
 ees>]
-<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=600, 598.235pt x 574.
+
+LaTeX Warning: Reference `fig:jpsiAcceptance' on page 37 undefined on input lin
+e 929.
+
+
+<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=766, 598.235pt x 574.
 145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png u
-sed on input line 847.
+sed on input line 933.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=601, 598.235pt x 57
+<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=767, 598.235pt x 57
 4.145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png Graphic file (type
  png)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png
- used on input line 848.
+ used on input line 934.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=602, 598.235pt x 574
+<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=768, 598.235pt x 574
 .145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png Graphic file (type 
 png)
  <use AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png 
-used on input line 849.
+used on input line 935.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
- [21 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
-ees>]
-[22 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 degr
-ees>]
-<AnalysisChapter/figures/tNp/tnpFits.pdf, id=701, 569.12625pt x 385.44pt>
+ [37 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 deg
+rees>]
+[38 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapter
+/figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/d
+etAccGammaStep.png>]
+<AnalysisChapter/figures/tNp/tnpFits.pdf, id=827, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/tNp/tnpFits.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFits.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFits.pdf used on input 
-line 894.
+line 980.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
 
-<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=703, 569.12625pt x 546.04pt>
+! Undefined control sequence.
+<argument> ...2 < |$\eta $| < 2.2 and 1.55 < }\pt 
+                                                  \DIFaddFL {< 1.8 GeV}\DIFa...
+l.982 ... }\pt \DIFaddFL{< 1.8 GeV}\DIFaddendFL .}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...2 < |$\eta $| < 2.2 and 1.55 < }\pt 
+                                                  \DIFaddFL {< 1.8 GeV}\DIFa...
+l.982 ... }\pt \DIFaddFL{< 1.8 GeV}\DIFaddendFL .}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> ...2 < |$\eta $| < 2.2 and 1.55 < }\pt 
+                                                  \DIFaddFL {< 1.8 GeV}\DIFa...
+l.982 ... }\pt \DIFaddFL{< 1.8 GeV}\DIFaddendFL .}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=829, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 902.
+ut line 989.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapter
-/figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/d
-etAccGammaStep.png>] [24 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is ro
-tated 90 degrees> <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotate
-d 90 degrees>]
-<AnalysisChapter/figures/averageTriggerEff.png, id=803, 598.235pt x 574.145pt>
+ [39 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/averageTriggerEff.png, id=879, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageTriggerEff.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageTriggerEff.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageTriggerEff.png used on 
-input line 929.
+input line 1016.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
 
-<AnalysisChapter/figures/averageExA.png, id=804, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageExA.png, id=880, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageExA.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageExA.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageExA.png used on input l
-ine 938.
+ine 1025.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
- [25 <./AnalysisChapter/figures/averageTriggerEff.png>] [26 <./AnalysisChapter/
-figures/averageExA.png>] [27]
-[28]
+ [40 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>
+]
+
+LaTeX Warning: Text page 41 contains only floats.
+
+[41 <./AnalysisChapter/figures/averageTriggerEff.png> <./AnalysisChapter/figure
+s/averageExA.png>] [42] [43] [44]
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-1146.
+1233.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [29]
-<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=844, 569.12625pt x 546.04pt>
+
+<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=973, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPolyBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPolyBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPolyBkgEst.pdf used on input
- line 1176.
+ line 1263.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLinBkgEst.pdf, id=845, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLinBkgEst.pdf, id=974, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLinBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLinBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLinBkgEst.pdf used on inpu
-t line 1177.
+t line 1264.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCCBkgEst.pdf, id=846, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCCBkgEst.pdf, id=975, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCCBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCCBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCCBkgEst.pdf used on input
- line 1178.
+ line 1265.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/cbPoly.pdf, id=847, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/cbPoly.pdf, id=976, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPoly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPoly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPoly.pdf used on input line 
-1179.
+1266.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLin.pdf, id=848, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLin.pdf, id=977, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLin.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLin.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLin.pdf used on input line
- 1180.
+ 1267.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCC.pdf, id=849, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCC.pdf, id=978, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCC.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCC.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCC.pdf used on input line 
-1181.
+1268.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
- [30]
+
+
+LaTeX Warning: Reference `fig:massPtFitsForSyst' on page 45 undefined on input 
+line 1275.
+
+[45]
+
+LaTeX Warning: Text page 46 contains only floats.
+
+[46 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
+/AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Anal
+ysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisCh
+apter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figure
+s/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.pd
+f, page is rotated 90 degrees>]
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 1219.
-(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
+t line 1306.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/massFitCBPoly2.pdf, id=857, 569.12625pt x 495.8525pt>
+<AnalysisChapter/figures/massFitCBPoly2.pdf, id=1251, 569.12625pt x 495.8525pt>
 File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
-
 <use AnalysisChapter/figures/massFitCBPoly2.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
-ut line 1220.
+ut line 1307.
 (pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
- [31 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <
-./AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Ana
-lysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisC
-hapter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figur
-es/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.p
-df, page is rotated 90 degrees>]
-<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1124, 569.12625pt x 272.01625pt>
+
+
+LaTeX Warning: Reference `fig:massFitSys' on page 47 undefined on input line 13
+13.
+
+[47 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>]
+
+<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1301, 569.12625pt x 272.01625pt>
 File: AnalysisChapter/figures/ptMassSimTemp.pdf Graphic file (type pdf)
 <use AnalysisChapter/figures/ptMassSimTemp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimTemp.pdf used on inpu
-t line 1242.
+t line 1329.
 (pdftex.def)             Requested size: 281.85587pt x 134.72108pt.
- [32 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>
- <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1217, 569.12625pt x 546.04pt>
+ [48 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
+
+<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1351, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCorInCoAcc.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCorInCoAcc.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCorInCoAcc.pdf used on input
- line 1267.
+ line 1354.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/coCoGaussGun.pdf, id=1218, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/coCoGaussGun.pdf, id=1352, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCoGaussGun.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCoGaussGun.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCoGaussGun.pdf used on input
- line 1276.
+ line 1363.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [33 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>] 
-[34 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1317, 698.61pt x 473.77pt
+ [49 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:zdcM1Fit' on page 50 undefined on input line 1400
+.
+
+
+<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1405, 698.61pt x 473.77pt
 >
 File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
  <use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
-on input line 1324.
+on input line 1411.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1318, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1406, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
-n input line 1325.
+n input line 1412.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
-
-Overfull \hbox (3.82034pt too wide) in paragraph at lines 1353--1372
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-[35 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
-ures/zdcPlusZBFitTimeCut.png>] [36]
-Overfull \hbox (5.37764pt too wide) in paragraph at lines 1448--1449
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{subsection.1.
-7.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1451 ...lend \subsection{ZDC trigger efficiency}
-                                                   [37] [38]
-<AnalysisChapter/figures/zdcSpec2v1.png, id=1357, 1397.22pt x 473.77pt>
+ [50 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>] 
+[51 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
+ures/zdcPlusZBFitTimeCut.png>] [52]
+<AnalysisChapter/figures/zdcSpec2v1.png, id=1471, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcSpec2v1.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
-ine 1540.
+ine 1518.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
-
-Overfull \hbox (3.82034pt too wide) in paragraph at lines 1538--1552
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1361, 698.61pt x 473.77p
+ [53 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1482, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
- on input line 1575.
+ on input line 1551.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
- [39 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
-<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1367, 698.61pt x 473.77p
+
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1484, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
- on input line 1592.
+ on input line 1567.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-Overfull \hbox (5.37764pt too wide) in paragraph at lines 1613--1614
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-[40 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>]
-<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1379, 569.12625pt x 546.04pt>
+[54 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>] [55 <./AnalysisChapt
+er/figures/zdcMinusSingleNuNoSub.png>]
+<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1505, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpCounting.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
-put line 1649.
+put line 1623.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 1650.
+ut line 1624.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
- [41 <./AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>]
-<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1386, 569.12625p
+
+
+LaTeX Warning: Reference `fig:tnpCntVFit' on page 56 undefined on input line 16
+31.
+
+[56 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degrees>
+]
+<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1554, 569.12625p
 t x 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf Graphic file (t
 ype pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.
-pdf used on input line 1675.
+pdf used on input line 1649.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1387, 569.12625pt x
+<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1555, 569.12625pt x
  546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf Graphic file (type
  pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
- used on input line 1682.
+ used on input line 1656.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1388, 569.12625pt x 
+<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1556, 569.12625pt x 
 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf Graphic file (type 
 pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf 
-used on input line 1689.
+used on input line 1663.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [42 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degree
-s>] [43 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is r
-otated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, p
-age is rotated 90 degrees>] [44 <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoh
-erent.pdf, page is rotated 90 degrees>]
-\openout2 = `diffRes.aux'.
-
- (./diffRes.tex
-Chapter 2.
-<AnalysisChapter/figures/rawYield.png, id=1579, 598.235pt x 574.145pt>
-File: AnalysisChapter/figures/rawYield.png Graphic file (type png)
-
-<use AnalysisChapter/figures/rawYield.png>
-Package pdftex.def Info: AnalysisChapter/figures/rawYield.png used on input lin
-e 29.
-(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
-
-<AnalysisChapter/figures/correctedYieldAverage.png, id=1584, 598.235pt x 574.14
-5pt>
-File: AnalysisChapter/figures/correctedYieldAverage.png Graphic file (type png)
-
- <use AnalysisChapter/figures/correctedYieldAverage.png>
-Package pdftex.def Info: AnalysisChapter/figures/correctedYieldAverage.png used
- on input line 40.
-(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
- [45
-
-
-
-] [46 <./AnalysisChapter/figures/rawYield.png> <./AnalysisChapter/figures/corre
-ctedYieldAverage.png>]
-
-LaTeX Warning: Citation `cmsLumi' on page 47 undefined on input line 71.
-
-
-LaTeX Warning: Citation `pdg' on page 47 undefined on input line 71.
-
-
-LaTeX Warning: Citation `cmsLumi' on page 47 undefined on input line 72.
-
-
-LaTeX Warning: Citation `pdg' on page 47 undefined on input line 75.
-
-<ResultsChapter/figures/coherentBreakup.pdf, id=1602, 569.12625pt x 546.04pt>
-File: ResultsChapter/figures/coherentBreakup.pdf Graphic file (type pdf)
-
-<use ResultsChapter/figures/coherentBreakup.pdf>
-Package pdftex.def Info: ResultsChapter/figures/coherentBreakup.pdf used on inp
-ut line 84.
-(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-<ResultsChapter/figures/incoherentBreakup.pdf, id=1605, 569.12625pt x 546.04pt>
-File: ResultsChapter/figures/incoherentBreakup.pdf Graphic file (type pdf)
-<use ResultsChapter/figures/incoherentBreakup.pdf>
-Package pdftex.def Info: ResultsChapter/figures/incoherentBreakup.pdf used on i
-nput line 98.
-(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-Overfull \hbox (55.46634pt too wide) in paragraph at lines 114--146
-[][]|   []   [][]|   []   |   []   [][]|   [][][]|   [][][]|   [][][]|   []   |
-   [][][]|   [][][]|   [][][]|   [][][]|   []   |   []   [][]|   [][][]|   [][]
-[]|   []
- []
-
-[47]
-Overfull \hbox (1.78082pt too wide) in paragraph at lines 152--167
-|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [] 
-  |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (1884.4887pt too wide) in paragraph at lines 243--262
- [] 
- []
-
-[48 <./ResultsChapter/figures/coherentBreakup.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{section.2.4})
- has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.266 ...ion{\DIFadd{diMuon-neutron correlations}}
-                                                  
-! Undefined control sequence.
-l.278 ...a sample this corresponds to the low-}\pt
-                                                   \JPsi
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.279             \DIFadd{(}\pt
-                               \DIFadd{$<$0.15~GeV).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[49 <./ResultsChapter/figures/incoherentBreakup.pdf, page is rotated 90 degrees
->]
-! Undefined control sequence.
-l.280 ...rent interaction: here a single high }\pt
-                                                   \DIFadd{photoni
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.284 ... sample this corresponds to the high-}\pt
-                                                   \JPsi
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.285             \DIFadd{(0.15$<$}\pt
-                                      \DIFadd{$<$1.05).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `tab:corrneutronjpsi' on page 50 undefined on input li
-ne 302.
-
-[50]
-
-LaTeX Warning: Reference `tab:corrneutronjpsi' on page 51 undefined on input li
-ne 334.
-
-
-LaTeX Warning: Reference `fig:PtcorrandRation' on page 51 undefined on input li
-ne 336.
-
-! Undefined control sequence.
-l.336 ...gure~\ref{fig:PtcorrandRation} gives }\pt
-                                                   \DIFadd{distributions of ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.338 ... the same rapidity direction for low-}\pt
-                                                   \DIFadd{and high-}\pt \JP...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.338 ...ection for low-}\pt \DIFadd{and high-}\pt
-                                                   \JPsi\DIFadd{.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:PtcorrandRation' on page 51 undefined on input li
-ne 339.
-
-! Undefined control sequence.
-l.339 ...on} gives the $R_{opp/same}$ for low-}\pt
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.340       \DIFadd{and high-}\pt
-                                  \JPsi\DIFadd{.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.341 ...his plot that in the case of the low-}\pt
-                                                   \JPsi \DIFadd{this
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.342 ...lose to 1 and is decreasing when the }\pt
-                                                   \DIFadd{of
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (2.12584pt too wide) in paragraph at lines 336--345
-[]|   []   |   []   |   []   [][]|   []   |   []   |   []   []\T1/ptm/m/n/12 J/
-$\OML/ztmcm/m/it/12  $[]|   []   []\T1/ptm/m/n/12 J/$\OML/ztmcm/m/it/12  $[]|  
- []   |   []   |   []   |   []   |   []   |   []   |   []
- []
-
-
-<ResultsChapter/figures/cohOppAndSameNeutronDir.png, id=1729, 698.61pt x 473.77
-pt>
-File: ResultsChapter/figures/cohOppAndSameNeutronDir.png Graphic file (type png
-)
- <use ResultsChapter/figures/cohOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/cohOppAndSameNeutronDir.png use
-d on input line 358.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/incohOppAndSameNeutronDir.png, id=1730, 698.61pt x 473.
-77pt>
-File: ResultsChapter/figures/incohOppAndSameNeutronDir.png Graphic file (type p
-ng)
- <use ResultsChapter/figures/incohOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/incohOppAndSameNeutronDir.png u
-sed on input line 359.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png, id=1731, 698.61pt x 4
-73.77pt>
-File: ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png Graphic file (typ
-e png)
- <use ResultsChapter/figures/ratiocohOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/ratiocohOppAndSameNeutronDir.pn
-g used on input line 360.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png, id=1732, 698.61pt x
- 473.77pt>
-File: ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png Graphic file (t
-ype png)
- <use ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/ratioincohOppAndSameNeutronDir.
-png used on input line 361.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddFL {(top left) and ...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddFL {(top left) and high-}\pt 
-                                                  \DIFaddFL {(top right) }\J...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... Ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddFL {( left) and hig...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...pt \DIFaddFL {( left) and high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddFL {(top left) and ...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddFL {(top left) and high-}\pt 
-                                                  \DIFaddFL {(top right) }\J...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... Ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddFL {( left) and hig...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...pt \DIFaddFL {( left) and high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddFL {(top left) and ...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddFL {(top left) and high-}\pt 
-                                                  \DIFaddFL {(top right) }\J...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... Ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddFL {( left) and hig...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...pt \DIFaddFL {( left) and high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.368 ...pt \DIFaddFL{( right) }\JPsi\DIFaddFL{.}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.372     \DIFaddbegin \DIFadd{Compiled for }\pt
-                                                \DIFadd{$<$1.05~GeV $R_{opp/...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.372 ...GeV $R_{opp/same}$ ratio between the }\pt
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-<ResultsChapter/figures/RoppsameVsTheory.png, id=1734, 598.235pt x 574.145pt>
-File: ResultsChapter/figures/RoppsameVsTheory.png Graphic file (type png)
-
-<use ResultsChapter/figures/RoppsameVsTheory.png>
-Package pdftex.def Info: ResultsChapter/figures/RoppsameVsTheory.png used on in
-put line 387.
-(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-
-LaTeX Warning: Reference `fig:PtcorrandRation' on page 51 undefined on input li
-ne 405.
-
-[51]
-<ResultsChapter/figures/cohyOppAndSameNeutronDir.png, id=1748, 698.61pt x 473.7
-7pt>
-File: ResultsChapter/figures/cohyOppAndSameNeutronDir.png Graphic file (type pn
-g)
- <use ResultsChapter/figures/cohyOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/cohyOppAndSameNeutronDir.png us
-ed on input line 411.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/incohyOppAndSameNeutronDir.png, id=1749, 698.61pt x 473
-.77pt>
-File: ResultsChapter/figures/incohyOppAndSameNeutronDir.png Graphic file (type 
-png)
- <use ResultsChapter/figures/incohyOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/incohyOppAndSameNeutronDir.png 
-used on input line 412.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png, id=1750, 698.61pt x 
-473.77pt>
-File: ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png Graphic file (ty
-pe png)
- <use ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/ratiocohyOppAndSameNeutronDir.p
-ng used on input line 415.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-<ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png, id=1751, 698.61pt 
-x 473.77pt>
-File: ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png Graphic file (
-type png)
- <use ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/ratioincohyOppAndSameNeutronDir
-.png used on input line 416.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddendFL (top \DIFaddb...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL (\DIFdelbegin...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... \DIFaddbeginFL \DIFaddFL {low-}\pt 
-                                                  \DIFaddFL {( left) }\DIFad...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddendFL (top \DIFaddb...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL (\DIFdelbegin...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... \DIFaddbeginFL \DIFaddFL {low-}\pt 
-                                                  \DIFaddFL {( left) }\DIFad...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...ame rapidity direction for low-}\pt 
-                                                  \DIFaddendFL (top \DIFaddb...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL (\DIFdelbegin...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... \DIFaddbeginFL \DIFaddFL {low-}\pt 
-                                                  \DIFaddFL {( left) }\DIFad...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddFL {( right) }\JPsi...
-l.424 ... \DIFaddFL{( right) }\JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-<ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png, id=1
-752, 698.61pt x 473.77pt>
-File: ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png 
-Graphic file (type png)
-
-<use ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.png>
-Package pdftex.def Info: ResultsChapter/figures/compiledratioincohandcohyOppAnd
-SameNeutronDir.png used on input line 433.
-(pdftex.def)             Requested size: 698.60829pt x 473.76884pt.
-
-! Undefined control sequence.
-<argument> ... ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddendFL ( left) and \...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL ( right) \DIF...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddendFL ( left) and \...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL ( right) \DIF...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... ratios $R_{opp/same}$ for low-}\pt 
-                                                  \DIFaddendFL ( left) and \...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...\DIFaddbeginFL \DIFaddFL {high-}\pt 
-                                                  \DIFaddendFL ( right) \DIF...
-l.437 ...endFL \DIFaddbeginFL \JPsi\DIFaddendFL .}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `fig:rNeutDimuCorr' on page 52 undefined on input line
- 442.
-
-<ResultsChapter/figures/ZDCDimuCorrCoh.png, id=1755, 598.235pt x 574.145pt>
-File: ResultsChapter/figures/ZDCDimuCorrCoh.png Graphic file (type png)
-
-<use ResultsChapter/figures/ZDCDimuCorrCoh.png>
-Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrCoh.png used on inpu
-t line 456.
-(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-<ResultsChapter/figures/ZDCDimuCorrIncoh.png, id=1756, 598.235pt x 574.145pt>
-File: ResultsChapter/figures/ZDCDimuCorrIncoh.png Graphic file (type png)
-
-<use ResultsChapter/figures/ZDCDimuCorrIncoh.png>
-Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrIncoh.png used on in
-put line 459.
-(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-<ResultsChapter/figures/ZDCDimuCorrGammaGamma.png, id=1757, 598.235pt x 574.145
-pt>
-File: ResultsChapter/figures/ZDCDimuCorrGammaGamma.png Graphic file (type png)
- <use ResultsChapter/figures/ZDCDimuCorrGammaGamma.png>
-Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrGammaGamma.png used 
-on input line 460.
-(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-! Undefined control sequence.
-<argument> ... positive rapidity for the low-}\pt 
-                                                  \JPsi \DIFaddFL {(top), hi...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...t \JPsi \DIFaddFL {(top), high-}\pt 
-                                                  \JPsi \DIFaddFL {(middle) ...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... positive rapidity for the low-}\pt 
-                                                  \JPsi \DIFaddFL {(top), hi...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...t \JPsi \DIFaddFL {(top), high-}\pt 
-                                                  \JPsi \DIFaddFL {(middle) ...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... positive rapidity for the low-}\pt 
-                                                  \JPsi \DIFaddFL {(top), hi...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ...t \JPsi \DIFaddFL {(top), high-}\pt 
-                                                  \JPsi \DIFaddFL {(middle) ...
-l.464 ...      $\gamma \gamma$ sample (bottom). }}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Float too large for page by 126.11407pt on input line 466.
-
-
-LaTeX Warning: Reference `eq:Ration' on page 52 undefined on input line 474.
-
-
-LaTeX Warning: Reference `tab:corrneutronjpsi' on page 52 undefined on input li
-ne 474.
-
-
-LaTeX Warning: Reference `tab:corrneutronjpsieffcorr' on page 52 undefined on i
-nput line 474.
-
-
-LaTeX Warning: Reference `tab:corrneutronjpsi' on page 52 undefined on input li
-ne 474.
-
-[52 <./ResultsChapter/figures/cohOppAndSameNeutronDir.png> <./ResultsChapter/fi
-gures/incohOppAndSameNeutronDir.png> <./ResultsChapter/figures/ratiocohOppAndSa
-meNeutronDir.png> <./ResultsChapter/figures/ratioincohOppAndSameNeutronDir.png>
-]
-! Undefined control sequence.
-l.504 ...elendFL \DIFaddbeginFL \DIFaddFL{low-}\pt
-                                                   \JPsi \DIFaddendFL & \DIF...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.508 ...lendFL \DIFaddbeginFL \DIFaddFL{high-}\pt
-                                                   \JPsi \DIFaddendFL & \DIF...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (395.16501pt too wide) in paragraph at lines 494--520
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Improper \spacefactor.
-<argument> ...def \UL@spfactor {\the \spacefactor 
-                                                  }
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! Extra }, or forgotten $.
-\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
-                                                  \egroup \unskip \unskip \u...
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\UL@word ...expandafter \UL@end #1\egroup \egroup 
-                                                  \unskip \unskip \unskip \s...
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\spacefactor' in math mode.
-\UL@word ... \unskip \unskip \unskip \spacefactor 
-                                                  \UL@spfactor \let \UL@word...
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Extra }, or forgotten $.
-\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
-                                                  \@empty 
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\DIFdeltex #1->{\protect \color {red}\sout {#1}}
-                                                
-l.533 ...mbox{and}~y<0 + ZDC^{+} \mbox{and}~y>0} }
-                                                  \end{displaymath}%DIFAUXCMD
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.533 ...DC^{+} \mbox{and}~y>0} }\end{displaymath}
-                                                  %DIFAUXCMD
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.534 \DIFdelendFL \DIFaddbeginFL \hline
-                                        
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.534 \DIFdelendFL \DIFaddbeginFL \hline
-                                        
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.534 \DIFdelendFL \DIFaddbeginFL \hline
-                                        
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.534 \DIFdelendFL \DIFaddbeginFL \hline
-                                        
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-l.535           \DIFaddFL{low-}\pt
-                                   \JPsi &  \DIFaddFL{\textcolor{blue}{1.59 ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.562 ...ed as }\DIFdelendFL \DIFaddbeginFL \hline
-                                                  
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.562 ...ed as }\DIFdelendFL \DIFaddbeginFL \hline
-                                                  
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.562 ...ed as }\DIFdelendFL \DIFaddbeginFL \hline
-                                                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.562 ...ed as }\DIFdelendFL \DIFaddbeginFL \hline
-                                                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-! Undefined control sequence.
-l.563           \DIFaddFL{high-}\pt
-                                    \JPsi  & \DIFaddFL{\textcolor{blue}{7.45...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Improper \spacefactor.
-<argument> ...def \UL@spfactor {\the \spacefactor 
-                                                  }
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-You can refer to \spacefactor only in horizontal mode;
-you can refer to \prevdepth only in vertical mode; and
-neither of these is meaningful inside \write. So
-I'm forgetting what you said and using zero instead.
-
-! Extra }, or forgotten $.
-\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
-                                                  \egroup \unskip \unskip \u...
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\UL@word ...expandafter \UL@end #1\egroup \egroup 
-                                                  \unskip \unskip \unskip \s...
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! You can't use `\spacefactor' in math mode.
-\UL@word ... \unskip \unskip \unskip \spacefactor 
-                                                  \UL@spfactor \let \UL@word...
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-! Extra }, or forgotten $.
-\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
-                                                  \@empty 
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Extra }, or forgotten $.
-\DIFdeltex #1->{\protect \color {red}\sout {#1}}
-                                                
-l.568         \mbox{and}~y>0} }
-                               \end{displaymath}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-! LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.568         \mbox{and}~y>0} }\end{displaymath}
-                                                
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.571     }\DIFdelendFL \DIFaddbeginFL \hline
-                                             
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-! You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.571     }\DIFdelendFL \DIFaddbeginFL \hline
-                                             
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.571     }\DIFdelendFL \DIFaddbeginFL \hline
-                                             
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.571     }\DIFdelendFL \DIFaddbeginFL \hline
-                                             
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-
-Overfull \hbox (1932.745pt too wide) in paragraph at lines 529--581
- [] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: Reference `tab:corrneutronjpsieffcorr' on page 53 undefined on i
-nput line 596.
-
-
-LaTeX Warning: Reference `fig:integRatios' on page 53 undefined on input line 5
-96.
-
-<ResultsChapter/figures/RCompiledYCorr.png, id=1764, 598.235pt x 574.145pt>
-File: ResultsChapter/figures/RCompiledYCorr.png Graphic file (type png)
-
-<use ResultsChapter/figures/RCompiledYCorr.png>
-Package pdftex.def Info: ResultsChapter/figures/RCompiledYCorr.png used on inpu
-t line 613.
-(pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
-
-! Undefined control sequence.
-<argument> ... in rapidity for low- and high-}\pt 
-                                                  \JPsi \DIFaddFL {and also ...
-l.618           from $\gamma \gamma$ sample. }}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... in rapidity for low- and high-}\pt 
-                                                  \JPsi \DIFaddFL {and also ...
-l.618           from $\gamma \gamma$ sample. }}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> ... in rapidity for low- and high-}\pt 
-                                                  \JPsi \DIFaddFL {and also ...
-l.618           from $\gamma \gamma$ sample. }}
-                                               
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-Overfull \hbox (0.16226pt too wide) in paragraph at lines 600--622
-[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
-]   |   []   |   []   |   []   |   []   |   []   [][]|   []
- []
-
-[53 <./ResultsChapter/figures/RoppsameVsTheory.png>]
-
-LaTeX Warning: Text page 54 contains only floats.
-
-[54 <./ResultsChapter/figures/cohyOppAndSameNeutronDir.png> <./ResultsChapter/f
-igures/incohyOppAndSameNeutronDir.png> <./ResultsChapter/figures/ratiocohyOppAn
-dSameNeutronDir.png> <./ResultsChapter/figures/ratioincohyOppAndSameNeutronDir.
-png> <./ResultsChapter/figures/compiledratioincohandcohyOppAndSameNeutronDir.pn
-g>]
-
-LaTeX Warning: Reference `tab:corrneutronjpsi' on page 55 undefined on input li
-ne 624.
-
-
-LaTeX Warning: Reference `fig:rNeutDimuCorr' on page 55 undefined on input line
- 624.
-
-! Undefined control sequence.
-l.625 ...tron rapidity in the case of the low-}\pt
-                                                   \JPsi \DIFadd{and
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-l.627     In the case of the high-}\pt
-                                       \JPsi \DIFadd{the correlation is clea...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [55] [56 <./ResultsChapter/figures/ZDCDimuCorrCoh.png> <./ResultsChapter/figu
-res/ZDCDimuCorrIncoh.png> <./ResultsChapter/figures/ZDCDimuCorrGammaGamma.png>]
-[57 <./ResultsChapter/figures/RCompiledYCorr.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 99.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 99.
- (./diffMain.aux
-(./diffAn.aux) (./diffRes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 99.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 99.
+) [57 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
+ated 90 degrees>] [58 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
+, page is rotated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoher
+ent.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 100.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 100.
+ (./diffMain.aux (./diffIntro.aux)
+(./diffDet.aux) (./diffAn.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 100.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 100.
 
 
 Package rerunfilecheck Warning: File `diffMain.out' has changed.
@@ -2649,44 +1989,146 @@ Package rerunfilecheck Warning: File `diffMain.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `diffMain.out':
-(rerunfilecheck)             Before: 1D886F67E3AAEFE931FBC290579C593A;2123
-(rerunfilecheck)             After:  5E75BD89696FFCDFE2B60D3E7F1E05F7;2169.
+(rerunfilecheck)             Before: EFD020C16C0D21090B1BDEBC82B4105E;1803
+(rerunfilecheck)             After:  8951DE2CD4D2FE6BA7C91DFE8CDCAB42;2282.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 99.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 100.
  ) 
 Here is how much of TeX's memory you used:
- 11096 strings out of 493308
- 170795 string characters out of 6137822
- 333562 words of memory out of 5000000
- 14045 multiletter control sequences out of 15000+600000
- 54612 words of font info for 80 fonts, out of 8000000 for 9000
+ 11088 strings out of 493308
+ 168725 string characters out of 6137822
+ 327442 words of memory out of 5000000
+ 14015 multiletter control sequences out of 15000+600000
+ 48974 words of font info for 76 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,14n,42p,1224b,472s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{figure.caption.56} has been referenced but does n
+ 44i,13n,42p,485b,414s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{figure.caption.39} has been referenced but does n
 ot exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.51} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.50} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.38} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.49} has been referenced but does not
+pdfTeX warning (dest): name{figure.caption.37} has been referenced but does not
  exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.52} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.28} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{table.caption.39} has been referenced but does not 
+pdfTeX warning (dest): name{table.caption.27} has been referenced but does not 
 exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does not
+pdfTeX warning (dest): name{table.caption.26} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.24} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.1.6.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.1.6.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.17} has been referenced but does not
  exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.16} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.15} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.14} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.4} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.5} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.3} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.1} has been referenced but does not 
+exist, replaced by a fixed one
 
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
 live/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texm
@@ -2700,10 +2142,10 @@ urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbol/
 usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diffMain.pdf (57 pages, 1192828 bytes).
+Output written on diffMain.pdf (58 pages, 1677317 bytes).
 PDF statistics:
- 1866 PDF objects out of 2073 (max. 8388607)
- 1047 compressed objects within 11 object streams
- 159 named destinations out of 1000 (max. 500000)
- 564 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1782 PDF objects out of 2073 (max. 8388607)
+ 1006 compressed objects within 11 object streams
+ 191 named destinations out of 1000 (max. 500000)
+ 499 words of extra memory for PDF output out of 10000 (max. 10000000)
 

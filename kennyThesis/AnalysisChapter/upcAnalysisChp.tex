@@ -1,23 +1,18 @@
 \chapter{Analysis}
-  In this chapter the various parts of the measurements done for this
-    thesis are explained. 
-  The following chapter contains seven sections explain each of these parts: 
-    Monte Carlo simulation, trigger development, data sets and event selection,
-    break-up determination, signal extraction, efficiency determination,
-    and systematic checks. 
-  In Section~\ref{sec:mcSim}, the simulations used to estimate the detectors 
+  In this chapter the various parts of the analysis are explained. 
+  In Section~\ref{sec:mcSim}, the simulations used to estimate the detector's 
     ability to measure UPC processes are discussed. 
   Section~\ref{sec:TrigDev} explains the considerations that went into the 
-    triggers which were developed for the analyses discussed in this thesis.
-  How the final events were selected and how triggers were used to separate the
-    data in to data sets is detailed in Section~\ref{sec:DataSetEvSel}.
+    triggers that were developed for this measurement.
+  The event selection for the various data sets is detailed in 
+    Section~\ref{sec:DataSetEvSel}.
   Extraction of the number of events from each of the three physics processes 
     discussed in this thesis, coherent, incoherent, and photon-photon process
-    from the final selected events is discussed is Section~\ref{sec:sigEx}.
+    is discussed is Section~\ref{sec:sigEx}.
   The determination of the detectors efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
-  Section~\ref{sec:sysCheck} lays out how the systematic uncertainties are 
-    estimated.
+  Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
+    estimates on the measurements.
 
   \section{\label{sec:mcSim} MC simulation}
     Every physical measurement is the product of the underlying physics 
@@ -32,82 +27,74 @@
 
     MC simulations use random number generation to solve the problem 
       numerically by brute force. 
-    First, particles are generated according the theoretical distributions.
+    First, particles are generated according to theoretical distributions.
     These particles are then propagated through a simulation of the detector.
     As the particles pass through the detector, random numbers are again used
       to determine how these particles interact with the materials of the 
       detector based on the known properties of the material. 
-    In this way, the theoretical distributions are merged with the realistic 
-      response of the detector. 
-    The collective combination of the many sub detector responses with the 
-      theoretical distributions emerges from the successive creation of random
-      events.
-    The result is the convolved response of the detector with the underlying 
-      physical process that is to be studied. 
-
-    In this thesis, two main classes of MC simulation samples were used. 
-    The first class uses STARlight to generate events.
-    This class of MC samples corresponds to the theoretical calculations 
-      described in Section~\ref{sec:vdmTheory}.
-    There are three different physical process described.
-    Coherent J/$\psi$ production, where the photon couples to the nucleus as
+    In this way, the theoretical distributions are convolved with a realistic 
+      model of the detector's response. 
+    A more detailed picture of how the detector shapes the underlaying 
+      distributions with each successive event. 
+    The set of events that are produced resemble as closely as possible the 
+      results that would be seen were the physical process to be measured 
+      by the detector and physical process being simulated.
+    
+    In this thesis, two main classes of MC simulation samples were used, 
+      STARlight and a particle gun.
+    The STARlight samples corresponds to the theoretical calculations 
+      described in Section~\ref{sec:vdmTheory}, while the particle gun produces
+      particles with a user defined momentum distribution. 
+    For STARlight three different physical process are simulated;
+      coherent J/$\psi$ production, where the photon couples to the nucleus as
       a whole, incoherent J/$\psi$ production, where the photon couples to a
-      nucleon within the nucleus, and the photon-photon process, where the 
-      photons from the two nuclei interact with each other to produce a lepton 
-      pair directly.
-    All three STARlight samples produce a $\mu^{+}$ and $\mu^{-}$ in the final 
-      state that interacts with the detector.
-    The second class uses PYTHIA6 to decay J/$\psi$s with a given
-      input $p_{T}$ and rapidity distribution.
-    Two samples of this class of particle gun data were produced each with 
-      different $p_{T}$ distributions (See Fig.).
+      nucleon within the nucleus, and photon-photon interactions, where the 
+      photons from the two nuclei interact with each other to produce a pair 
+      of oppositely charge muons directly.
+    All three STARlight samples contain a $\mu^{+}$ and $\mu^{-}$ in the final 
+      state.
+    The second class uses PYTHIA6 to decay J/$\psi$s produced with a user 
+      defined $p_{T}$ and rapidity distribution into muon pairs.
 
     Because STARlight is not integrated into the standard CMS software 
-      framework (CMSSW), a simulation software chain using STARlight was 
-      developed for the analysis described in this thesis.
-    The software chain used for producing the STARlight samples has five steps.
+      framework (CMSSW), a simulation software chain with 5 steps was developed.
     First, STARlight is run in the specified mode, and a single file is 
-      created for each physics process, for this thesis, one file for the 
-      coherent process, the incoherent process, and the photon-photon process
-      for a total of three files.
-    The output from the STARlight generator is in a format specific to 
-      STARlight, therefore, the output from the original generation step is 
-      then converted to the Les Houches (LHE) format. 
-    In this conversion to LHE format, either the parent J/$\psi$ for the 
-      J/$\psi$ production samples, or the initial photon-photon pair are added
-      to the LHE output file.
-    The standard STARlight output only includes the final state particles.
-    Additionally, the initial output from STARlight is split into a collection 
-      of smaller LHE files so that each of the smaller samples can be 
-      processed in parallel.
-    Each of the LHE files is used as input to CMSSW.
-    The three remaining steps take place within the framework. 
-    First the generated particles are propagated through the GEANT4 detector 
-      simulation.
+      created for each physics process. 
+    In step 2 the STARlight output file is converted to the Les Houches (LHE) 
+      format \cite{lheFormat}, and the momentum of the parent J/$\psi$ or the 
+      initial photon-photon pair is added to the record of each event.
+    The event record produced by STARlight only contains the final state 
+      particles.
+
+    To process the events in parallel, the STARlight files are subdivided 
+      into in step 2, creating several LHE files from a single STARlight file.
+    The LHE files are used as input to CMSSW.
+    Steps 3 to 5 take place within CMSSW. 
+    In step three the generated particles are propagated through the GEANT4 
+      \cite{geant} detector simulation.
     This accounts for all the interactions with the detector and produces as 
       output a format identical to the raw data that is recorded during data
       taking.
-    The next two steps are identical to data taking.
-    The reconstruction software used during data taking is run on the output 
-      of the detector simulation, and last, the output of the reconstruction
-      is reduced to the information that is needed for the final analysis.
+    Steps 4 and 5 are processed using the same software as in data taking.
+    In step 4 the reconstruction software used during data taking is run on 
+      the output of the detector simulation
+    The output of the reconstruction is reduced to the information that is 
+      needed for the final analysis in the final step.
 
     The particle gun samples were created entirely within CMSSW.
-    An interface to PYTHIA6 is included within CMSSW, which takes J/$\psi$
-      $p_{T}$ and rapidity distributions as input. 
-    The J/$\psi$ are created according to the input distributions, and then uses
-      PYTHIA6 to decay the J/$\psi$s to $\mu^{+}$ and $\mu^{-}$.
+    J/$\psi$ mesons were created according to user defined $p_{T}$ and rapidity
+      distributions. 
+    PYTHIA6 \cite{pythia} decays the J/$\psi$s to $\mu^{+}$ and $\mu^{-}$.
     As with the STARlight samples, these muons are propagated through the GEANT4
       simulation of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
       data to the final data needed for the analysis are identical to the 
       STARlight production.
 
-    The five MC samples, three STARlight samples, and two particle gun samples,
-      differ primarily in the $p_{T}$ distribution of the J/$\psi$s produced
-      and the polarization of the J/$\psi$s, which effects angle at which
-      the muon daughters are emitted relative to the direction in which the
-      J/$\psi$ is traveling. 
+    The various MC samplesv, three STARlight samples differ primarily in the 
+      $p_{T}$ distribution and the polarization of the J/$\psi$s produced. 
+    The polarization of the \JPsi effects the angle at which the muon daughters
+      are emitted relative to the direction in which the J/$\psi$ is traveling. 
     In Fig.~\ref{fig:starlightRapPtDist} the $p_{T}$ of J/$\psi$s from the 
       coherent and photon-photon samples are peaked steeply a low $p_{T}$, and 
       neither sample extends much beyond 0.15 GeV in $p_{T}$.
@@ -175,15 +162,16 @@
       the detector.
     For this reason, conservation of bandwidth was a major design consideration.
 
-    The 2010 rates were used to extrapolate to the interaction rate of the 2011 i
-      run. 
+    The 2010 rates were used to extrapolate to the interaction rate expected 
+      prior to the 2011 run. 
     The unique UPC triggers were estimated by combining existing triggers from
       the 2010 run. 
     By calculating the ratio between the UPC trigger rates and the minimum bias
       trigger rate, the UPC trigger rates were scaled up to the 2011 
       interaction rates using the 2010 data. 
-    The extrapolated rates allowed for a package triggers to be created that 
-      fit within the bandwidth requirement of CMS Heavy Ions group. 
+    The extrapolated rates allowed for the create of a package of triggers to 
+      be created that  fit within the bandwidth requirement of CMS Heavy Ions 
+      group. 
     
     The trigger package for 2011 contained ZDC based efficiency monitoring 
       triggers, muon and electron based triggers for measuring J/$\psi$, and 
@@ -198,15 +186,13 @@
       the prescales for the trigger were as seen in Table~\ref{tab:l1Triggers2011}.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
-      The goal of the L1 triggers was to record enough data to measure dimuons
-        and dielectrons in UPC events.
-      To achieve this, the loosest muon trigger and lowest threshold ECAL 
-        triggers where paired with a trigger on energy in the ZDC and a veto on
-	      energy in the BSC.
+      The goal of the UPC L1 triggers was to record enough data to measure 
+        UPC \JPsi production via the dimuons and dielectrons channels.
+      To achieve this, the loosest muon and electron triggers where paired with
+        a trigger on energy in the ZDC and a veto on energy in the BSC.
       Additional triggers that vetoed on energy in HF were commissioned in case
-        radiation damage during the run reduced the sensitivity of BSCs.
-      The L1 package that was constructed for the analysis of UPC J/$\psi$ 
-        is presented in Table~\ref{tab:l1Triggers2011}.
+        radiation damage during the run reduced the sensitivity of the BSCs.
+      These triggers are summarized in Table~\ref{tab:l1Triggers2011}. 
 
       \begin{table}[h]
         \centering
@@ -236,8 +222,9 @@
         set the limit for the L1 bandwidth.
 
     \subsection{HLT trigger}
-      As opposed to the L1 trigger, which reads out the tracker, the HLT has 
-        access to the tracker information. 
+      As opposed to the L1 trigger, which has access only to information from
+        calorimeters and muon chambers, the HLT has access to all the 
+        sub-detectors including the tracker. 
       Reconstruction of a track in the pixel detector is used by the UPC paths.
       The use of the pixel detector only, as opposed to using the whole tracker 
         including the silicon strip detector, allows for quick track 
@@ -268,10 +255,19 @@
       To meet the bandwidth requirements and collect a significant sample
         of data for estimating efficiencies, the prescales for the triggers 
         were set. 
-      The ZDC trigger that was passed through from the L1 was given a additional 
-        prescale factor of 11 on the HLT.
+      As an example of the balancing of the prescales, the  ZDC trigger that 
+        was passed through from the L1 was given a additional prescale factor 
+        of 11 on the HLT.
       The ZDC path that also required a pixel track on the HLT, which used 
         the same L1 seed, was only prescaled at the L1.
+      The prescale of 11 was set to ensure that a large enough sample of the 
+        pixel track ZDC triggers overlapped with the ZDC L1 only triggers 
+        so that efficiency of the pixel track requirement in the trigger could
+        be estimated from the tracks lost. 
+      The prescale on the ZDC triggers were set to minimize the over all rate 
+        from the ZDC triggers all while ensuring a precision of 1\% from the 
+        statistical errors from the efficiency measurement. 
+
 
   \section{\label{sec:DataSetEvSel} Event selection}
     In order to investigate novel physics processes like UPC J/$\psi$ 
@@ -279,27 +275,27 @@
     The data for this analysis was recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
       corresponding to over a billion PbPb collisions. 
-    Of this, 143 $\mu$$b^{-1}$ are used in this analysis.
+    Of this, 143 $\mu$$b^{-1}$ were used in this analysis.
   
     \subsection{Data sets}
-      Three specially selected samples were used for the present analysis 
-        (see Table~\ref{tab:sampleLumiNevt}).
-      These samples were recorded using subsets of the triggers found in 
-        Section~\ref{sec:TrigDev}.
-      The J/$\psi$ events discussed in this thesis were obtained analyzing the 
-        sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
-      A ZDC triggered sample was recorded for the sake of estimating 
-        efficiencies.
-      Last, a zero bias sample was recored for investigating the ZDC and the 
-        noise distributions of HF.
+      Three specially selected samples were used for the present analysis, 
+        Physics, Monitoring, and Zero bias, see Table~\ref{tab:sampleLumiNevt}.
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias and 
-      ZDC triggered samples allow for the investigation of the selection 
+       ZDC triggered samples allow for the investigation of the selection 
         criteria. 
+      These samples were recorded using subsets of the HLT triggers found in 
+        Table~\ref{tab:hltTriggers2011} of Section~\ref{sec:TrigDev}.
+      The J/$\psi$ events discussed in this thesis were obtained analyzing the 
+        sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
+      A ZDC triggered monitoring sample was recorded for the sake of estimating
+        efficiencies.
+      Lastly, a zero bias sample was recored for investigating the ZDC and the 
+        noise distributions of HF.
   
       To record the physics sample containing the J/$\psi$ signal, a muon trigger
         was paired with a veto on energy in the BSC and a requirement that there 
-        be energy in at least one of two sides of the ZDC. 
+        be energy in at least one of the two ZDCs. 
       This trigger utilizes the unlikely chance of having overlapping noise in
         in the ZDC and muon detector.
       Because of the characteristically low momentum of UPC J/$\psi$ as compared
@@ -310,7 +306,7 @@
         sub-detectors to the noise coincidence between the two sub-detectors. 
       Contributions from hadronic interactions are reduced by the veto on the 
         BSC.
-      In this way the balance between reducing the rate and maximizing the 
+      In this way, the balance between reducing the rate and maximizing the 
         efficiency was struck, allowing for the data to be recorded without 
         producing high rates resulting in dead time for the detector.  
       
@@ -345,7 +341,7 @@
   	    \centering
   	    \begin{tabular}{|l|l|l|}
   	      \hline Sample & Events & $\mathcal{L}_{int}$ \\ \hline \hline
-          Physics & 3.46K & 143.3 $\mu$$b^{-1}$ \\ \hline
+          Physics & 346K & 143.3 $\mu$$b^{-1}$ \\ \hline
           Monitor & 1.1M & 31.6 $mb^{-1}$ \\ \hline
           Zero Bias & 8.8M & 580 $b^{-1}$ \\ \hline 
   	    \end{tabular}
@@ -376,9 +372,9 @@
           \multirow{3}{*}{hadronic interaction rejection} & single-sided neutron requirement & 149992 \\ \hhline{~--}
           & two track requirement & 32732 \\ \hhline{~--}
           & HF signal rejection & 5392 \\ \hline
-          fake muon rejection & muon quality requirement & 1956\\ \hline
-          \multirow{2}{*}{kinematic cut} & J/$\psi$ mass requirement & 662 \\ \hhline{~--}
-          & muon detectability cuts & 541 \\ \hline
+          fake muon rejection & muon quality requirement & 2047 \\ \hline
+          \multirow{2}{*}{kinematic cut} & J/$\psi$ mass requirement & 696 \\ \hhline{~--}
+          & muon detectability cuts & 567 \\ \hline
         \end{tabular}
         \caption{Effects of event selection cuts.}
         \label{tab:evSelCutNumbers}
@@ -859,7 +855,8 @@
       \begin{figure}[!Hh]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFits}
-        \caption{Fits to tag and probe pairs in the J/$\psi$ mass region.}
+        \caption{Fits to tag and probe pairs in the J/$\psi$ mass region for
+          pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt < 1.8 GeV.}
         \label{fig:tnpFitPlot}
       \end{figure}
       This fit is done for each bin of the probes $p_{T}$ and $\eta$.
