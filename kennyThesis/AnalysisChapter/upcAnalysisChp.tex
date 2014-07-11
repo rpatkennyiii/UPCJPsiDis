@@ -12,7 +12,7 @@
   The determination of the detectors efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
   Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
-    estimates on the measurements.
+    estimates for the measurements.
 
   \section{\label{sec:mcSim} MC simulation}
     Every physical measurement is the product of the underlying physics 
@@ -38,7 +38,7 @@
       distributions with each successive event. 
     The set of events that are produced resemble as closely as possible the 
       results that would be seen were the physical process to be measured 
-      by the detector and physical process being simulated.
+      by the detector.
     
     In this thesis, two main classes of MC simulation samples were used, 
       STARlight and a particle gun.
@@ -46,22 +46,22 @@
       described in Section~\ref{sec:vdmTheory}, while the particle gun produces
       particles with a user defined momentum distribution. 
     For STARlight three different physical process are simulated;
-      coherent J/$\psi$ production, where the photon couples to the nucleus as
-      a whole, incoherent J/$\psi$ production, where the photon couples to a
+      coherent \JPsi{} production, where the photon couples to the nucleus as
+      a whole, incoherent \JPsi{} production, where the photon couples to a
       nucleon within the nucleus, and photon-photon interactions, where the 
       photons from the two nuclei interact with each other to produce a pair 
       of oppositely charge muons directly.
     All three STARlight samples contain a $\mu^{+}$ and $\mu^{-}$ in the final 
       state.
-    The second class uses PYTHIA6 to decay J/$\psi$s produced with a user 
-      defined $p_{T}$ and rapidity distribution into muon pairs.
+    The second class uses PYTHIA6 to decay \JPsi{}s produced with a user 
+      defined \pt{} and rapidity distribution into muon pairs.
 
     Because STARlight is not integrated into the standard CMS software 
       framework (CMSSW), a simulation software chain with 5 steps was developed.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process. 
     In step 2 the STARlight output file is converted to the Les Houches (LHE) 
-      format \cite{lheFormat}, and the momentum of the parent J/$\psi$ or the 
+      format \cite{lheFormat}, and the momentum of the parent \JPsi{} or the 
       initial photon-photon pair is added to the record of each event.
     The event record produced by STARlight only contains the final state 
       particles.
@@ -82,33 +82,34 @@
       needed for the final analysis in the final step.
 
     The particle gun samples were created entirely within CMSSW.
-    J/$\psi$ mesons were created according to user defined $p_{T}$ and rapidity
+    \JPsi{} mesons were created according to user defined \pt{} and rapidity
       distributions. 
-    PYTHIA6 \cite{pythia} decays the J/$\psi$s to $\mu^{+}$ and $\mu^{-}$.
+    PYTHIA6 \cite{pythia} decays the \JPsi{}s to $\mu^{+}$ and $\mu^{-}$.
     As with the STARlight samples, these muons are propagated through the GEANT4
       simulation of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
       data to the final data needed for the analysis are identical to the 
       STARlight production.
 
-    The various MC samplesv, three STARlight samples differ primarily in the 
-      $p_{T}$ distribution and the polarization of the J/$\psi$s produced. 
-    The polarization of the \JPsi effects the angle at which the muon daughters
-      are emitted relative to the direction in which the J/$\psi$ is traveling. 
-    In Fig.~\ref{fig:starlightRapPtDist} the $p_{T}$ of J/$\psi$s from the 
-      coherent and photon-photon samples are peaked steeply a low $p_{T}$, and 
-      neither sample extends much beyond 0.15 GeV in $p_{T}$.
+    The various MC samples differ primarily in the 
+      \pt{} distribution and the polarization of the \JPsi{}s produced. 
+      The polarization of the \JPsi{} effects the angle at which the muon daughters
+      are emitted relative to the direction in which the \JPsi{} is traveling 
+      \cite{oniaPol}. 
+    In Fig.~\ref{fig:starlightRapPtDist} the \pt{} of \JPsi{}s from the 
+      coherent and photon-photon samples are peaked steeply a low \pt{}, and 
+      neither sample extends much beyond 0.15 GeV in \pt{}.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
     The two particle gun samples resemble the incoherent and coherent samples.
-    The first sample has a Gaussian $p_{T}$ distribution extending to 
-      approximately 0.15 GeV, whereas the second is flat in $p_{T}$ up to
+    The first sample has a Gaussian \pt{} distribution extending to 
+      approximately 0.15 GeV, whereas the second is flat in \pt{} up to
       2 GeV.
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization. 
     Therefore, the particle gun samples there is no preferred direction for the 
       emission of the daughter muons.
     In the STARlight samples however the daughters tend to be emitted in line
-      with the direction of the J/$\psi$'s momentum.
+      with the direction of the \JPsi{}'s momentum.
     This is particularly pronounced for the photon-photon process.
 
     \begin{figure}[!Hhbt]
@@ -117,7 +118,7 @@
         \includegraphics[width=0.45\textwidth]{genRapDis} &
         \includegraphics[width=0.45\textwidth]{genPtDis}
       \end{array} $
-      \caption{Generator level rapidity (left) and $p_{T}$ (right) 
+      \caption{Generator level rapidity (left) and \pt{} (right) 
           distributions for the coherent (black), incoherent (red), 
           and photon-photon process (green).}
       \label{fig:starlightRapPtDist}
@@ -126,85 +127,81 @@
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
-      \caption{ The J/$\psi$ polarization of the particle gun (red),
+      \caption{ The \JPsi{} polarization of the particle gun (red),
         coherent (blue), and incoherent samples are plotted as the
         cosine of the helicity angle.} 
       \label{fig:genHXAngle}
     \end{figure}
 %%%%%Fix this paragraph%%%%%%
     The momentum of the final state muons is the main drivers of whether the 
-      candidate can be measured. 
-    The polarization and the $p_{T}$ distribution of dimuons from the generator
+      candidate can be measured.
+    If neither muon daughter of the \JPsi{} possess enough momentum to reach 
+      the muon chambers and fire the trigger, the event will not be recorded.
+    The polarization and the \pt{} distribution of dimuons from the generator
       determine the momentum of the daughters. 
     The polarization effects how the momentum is shared between the daughters.
     In the rest frame of the parent particle from which the daughters decay,
       equal momentum is given to each daughter. 
     However in the lab frame of the detector, the muon daughters which are 
-      emitted from transversely polarized J/$\psi$ will tend to be emitted in
-      the direction of J/$\psi$ and will have unequal momentum in the lab 
-      frame \cite{oniaPol}.
-    The daughter traveling in the direction of the J/$\psi$ will have increased
-      momentum, whereas the daughter traveling opposite to the J/$\psi$ 
+      emitted from transversely polarized \JPsi{} will tend to be emitted in
+      the direction of \JPsi{} and will have unequal momentum in the lab 
+      frame.
+    The daughter traveling in the direction of the \JPsi{} will have increased
+      momentum, whereas the daughter traveling opposite to the \JPsi{} 
       direction will have decreased momentum. 
-    The combination of these two effects create a muon with very low momentum 
-      compared to the typical momenta of muons measured by CMS. 
     The momentum of the lower momentum muon daughters is the main restriction
-      on whether or not the J/$\psi$ can be measured. 
+      on whether or not the \JPsi{} can be reconstructed in CMS. 
 %%%%%Fix this paragraph%%%%%%
     
   \section{\label{sec:TrigDev} Trigger development} 
-    CMS collected dedicated UPC triggers for the first time during the 2011 
-      PbPb run.
-    Design of the UPC triggers required studies of the 2010 data to estimate 
-      rates and ensure that the bandwidth used by these trigger would be
-      sufficiently low. 
-    All the different physics analyses must share the limited readout rate of 
-      the detector.
-    For this reason, conservation of bandwidth was a major design consideration.
-
-    The 2010 rates were used to extrapolate to the interaction rate expected 
-      prior to the 2011 run. 
-    The unique UPC triggers were estimated by combining existing triggers from
+    The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
+      nearly a factor of 15. 
+    To accommodate this increase in rate, the 2011 trigger scheme needed to be 
+      more selective than in 2010 where CMS could take any event which 
+      appeared to have a collision.
+    The available bandwidth was allocated equally amongst the various heavy ion
+      analysis groups to pursue as wide a physics program as possible.
+    From this consideration, bandwidth limits were placed on the trigger rates
+      for each analysis group's trigger package. 
+    To ensure that UPC physics could be explored all while respecting the
+      goals of the CMS Heavy Ions group as a whole, a collection of UPC triggers
+      were commissioned. 
+  
+    The UPC triggers were estimated by combining existing triggers from
       the 2010 run. 
     By calculating the ratio between the UPC trigger rates and the minimum bias
-      trigger rate, the UPC trigger rates were scaled up to the 2011 
-      interaction rates using the 2010 data. 
-    The extrapolated rates allowed for the create of a package of triggers to 
-      be created that  fit within the bandwidth requirement of CMS Heavy Ions 
-      group. 
-    
+      trigger rate, the UPC trigger rates were scaled up to the anticipated 2011 
+      interaction rates using the 2010 data.
     The trigger package for 2011 contained ZDC based efficiency monitoring 
-      triggers, muon and electron based triggers for measuring J/$\psi$, and 
+      triggers, muon and electron based triggers for measuring \JPsi{}, and 
       backup triggers in case there was a problem with the original muon and 
       electron triggers.
-    In order to record the trigger efficiency monitoring data, the ZDC 
-      triggers had to be prescaled to a lower rate. 
-    The scaling down of the monitoring triggers were setup to insure overlap
-      with the signal triggers.
-    By balancing the competing objectives of rate reduction and increasing 
-      the overlap between the monitoring and signal triggers, 
-      the prescales for the trigger were as seen in Table~\ref{tab:l1Triggers2011}.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
       The goal of the UPC L1 triggers was to record enough data to measure 
         UPC \JPsi production via the dimuons and dielectrons channels.
       To achieve this, the loosest muon and electron triggers where paired with
-        a trigger on energy in the ZDC and a veto on energy in the BSC.
+        a trigger on energy in the ZDC and a veto on energy in the BSCs.
       Additional triggers that vetoed on energy in HF were commissioned in case
         radiation damage during the run reduced the sensitivity of the BSCs.
-      These triggers are summarized in Table~\ref{tab:l1Triggers2011}. 
+      These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
+      The 5 and 2 for the ECAL triggers in Table~\ref{tab:l1Triggers2011}
+        indicate a 5 and 2 GeV threshold on $E_{T}$ measured in the ECAL.
+      The Open in the muon trigger indicates that the trigger only 
+        requires a muon candidate in one of the three muon sub-systems and that
+        there is not momentum threshold.
 
       \begin{table}[h]
         \centering
         \begin{tabular}{|l|l|l|l|l|}
           \hline L1 trigger & Rate (Hz) & Prescale & Id & Type \\ \hline \hline
-          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 2.1 & 1 & 1 & Physics \\  \hline
-          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 1.8 & 2 & 2 & Physics \\  \hline
-          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 0.3 & 1 & 3 & Physics \\  \hline
+          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 2.1 & 1 & 1 & \multirow{3}{*}{Physics} \\  \hhline{----~}
+          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 1.8 & 2 & 2 & \\  \hhline{----~}
+          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 0.3 & 1 & 3 & \\  \hline
           (ZDC$^{+}$~or~ZDC$^{-}$) & 35 & 1500 & 4 & Monitor \\  \hline
-          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 5 & Backup \\  \hline
-          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 6 & Backup \\  \hline
-          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 7 & Backup \\  \hline
+          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 5 & \multirow{3}{*}{Backup} \\ \hhline{----~}
+          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 6 & \\  \hhline{----~}
+          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 7 & \\  \hline
         \end{tabular}
         \caption{List of 2011 L1 seeds.}
         \label{tab:l1Triggers2011}
@@ -218,32 +215,43 @@
       In order to monitor the zero suppression of the tracker, the zero 
         suppression algorithm was executed using the HLT computing farm 
 	      rather than in the tracker firmware.
-      The rate at which the tracker could be readout without zero suppression
-        set the limit for the L1 bandwidth.
+
+      In order to record the efficiency monitoring data, the ZDC triggers had 
+        to be prescaled to a lower rate. 
+      The scaling down of the monitoring trigger was setup to insure overlap
+        with the signal triggers.
+      The prescales for the triggers were set to balance the competing objectives 
+        of rate reduction and increasing the overlap between the monitoring and
+        signal triggers.
 
     \subsection{HLT trigger}
       As opposed to the L1 trigger, which has access only to information from
         calorimeters and muon chambers, the HLT has access to all the 
         sub-detectors including the tracker. 
-      Reconstruction of a track in the pixel detector is used by the UPC paths.
+      Reconstruction of a track in the pixel detector is used by the UPC 
+        trigger paths.
       The use of the pixel detector only, as opposed to using the whole tracker 
         including the silicon strip detector, allows for quick track 
         reconstruction saving computing cycles.
       The requirement of at least one reconstructed pixel track for the HLT 
         triggers was designed to reject backgrounds where no particles are 
-        reconstructed by the tracker. 
+        reconstructed by the tracker.
+      For the muon trigger in Table~\ref{tab:hltTrigger2011} the rate was 
+        reduced by nearly a factor or 4 compared to its L1 seed rate in 
+        Table~\ref{tab:l1Triggers2011}.
+      This is due to the additional pixel track requirement. 
       \begin{table}[h]
         \centering
         \begin{tabular}{|l|l|l|l|l|l|}
           \hline HLT trigger  & Rate (Hz) & L1 prescale & HLT prescale & L1 seed & Type \\ \hline \hline
-          MuPixel\_SingleTrack & 0.52 & 1 & 1 & 1 & Physics   \\ \hline
-          EG2Pixel\_SingleTrack & 1.65 & 2 & 1 & 2 & Physics   \\ \hline
-          EG5Pixel\_SingleTrack & 0.26 & 1 & 1 & 3 & Physics   \\ \hline
-          ZDC\_PlusOrMinus & 3.6 & 1500 & 11 & 4 & Monitor  \\ \hline
-          ZDC\_PlusOrMinusPixel\_SingleTrack & 2.8 & 1500 & 1 & 4 & Monitor \\ \hline
-          HfMuPixel\_SingleTrack & 0 & off & off & 5 & Backup   \\ \hline
-          HfEG2Pixel\_SingleTrack & 0 & off & off & 6 & Backup   \\ \hline
-          HfEG5Pixel\_SingleTrack & 0 & off & off & 7 & Backup   \\ \hline 
+          L1UPCMuon and Pixel Track & 0.52 & 1 & 1 & 1 & \multirow{3}{*}{Physics} \\ \hhline{-----~} 
+          L1UPCECAL2 and Pixel Track & 1.65 & 2 & 1 & 2 & \\ \hhline{-----~}
+          L1UPCECAL5 and Pixel Track & 0.26 & 1 & 1 & 3 & \\ \hline
+          L1ZDCOr & 3.6 & 1500 & 11 & 4 & \multirow{2}{*}{Monitor}  \\ \hhline{-----~}
+          L1ZDCOr and Pixel Track & 2.8 & 1500 & 1 & 4 & \\ \hline
+          L1UPCMuonHFVeto and Pixel Track & 0 & off & off & 5 & \multirow{3}{*}{Backup}   \\ \hhline{-----~}
+          L1UPCECAL2HFVeto and Pixel Track & 0 & off & off & 6 & \\ \hhline{-----~}
+          L1UPCECAL5HFVeto and Pixel Track & 0 & off & off & 7 & \\ \hline 
         \end{tabular}
         \caption{List of 2011 HLT trigger.}
         \label{tab:hltTriggers2011}
@@ -253,24 +261,21 @@
       The limiting factor for the HLT rate was the amount of disk space 
         available to store the data. 
       To meet the bandwidth requirements and collect a significant sample
-        of data for estimating efficiencies, the prescales for the triggers 
-        were set. 
+        of data for estimating efficiencies, the prescales were balanced with 
+        the goal of achieving at least 5\% statistical precision on the 
+        efficiency estimates. 
       As an example of the balancing of the prescales, the  ZDC trigger that 
         was passed through from the L1 was given a additional prescale factor 
         of 11 on the HLT.
       The ZDC path that also required a pixel track on the HLT, which used 
         the same L1 seed, was only prescaled at the L1.
-      The prescale of 11 was set to ensure that a large enough sample of the 
-        pixel track ZDC triggers overlapped with the ZDC L1 only triggers 
-        so that efficiency of the pixel track requirement in the trigger could
-        be estimated from the tracks lost. 
-      The prescale on the ZDC triggers were set to minimize the over all rate 
-        from the ZDC triggers all while ensuring a precision of 1\% from the 
-        statistical errors from the efficiency measurement. 
-
+      The prescale of 11 was set to ensure that at least 1000 of the pixel track 
+        ZDC triggers overlapped with the ZDC L1 only triggers so that efficiency
+        of the pixel track requirement in the trigger could be estimated from 
+        the tracks lost. 
 
   \section{\label{sec:DataSetEvSel} Event selection}
-    In order to investigate novel physics processes like UPC J/$\psi$ 
+    In order to investigate novel physics processes like UPC \JPsi{} 
      production, the LHC has delivered unprecedented amounts of data.
     The data for this analysis was recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
@@ -286,20 +291,20 @@
         criteria. 
       These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Section~\ref{sec:TrigDev}.
-      The J/$\psi$ events discussed in this thesis were obtained analyzing the 
+      The \JPsi{} events discussed in this thesis were obtained analyzing the 
         sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered monitoring sample was recorded for the sake of estimating
         efficiencies.
       Lastly, a zero bias sample was recored for investigating the ZDC and the 
         noise distributions of HF.
   
-      To record the physics sample containing the J/$\psi$ signal, a muon trigger
+      To record the physics sample containing the \JPsi{} signal, a muon trigger
         was paired with a veto on energy in the BSC and a requirement that there 
         be energy in at least one of the two ZDCs. 
       This trigger utilizes the unlikely chance of having overlapping noise in
         in the ZDC and muon detector.
-      Because of the characteristically low momentum of UPC J/$\psi$ as compared
-        to J/$\psi$ created by any other physics process, the loosest muon 
+      Because of the characteristically low momentum of UPC \JPsi{} as compared
+        to \JPsi{} created by any other physics process, the loosest muon 
         trigger was used.
       By pairing the muon trigger with the ZDC on the L1, the noise contribution
         was reduced from the noise contribution from either of the two 
@@ -314,7 +319,7 @@
         selection, a minimum bias sample was recorded using the ZDC. 
       For ZDC triggered sample, any event which had energy consistent with at 
         least one neutron in either of the two sides of the ZDC was recorded.
-      This process is much more common than the UPC J/$\psi$ production.
+      This process is much more common than the UPC \JPsi{} production.
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
       From this trigger the pixel track portion of the HLT trigger efficiency 
@@ -351,7 +356,7 @@
       \end{table}
   
     \subsection{Event selection cuts}
-      The analysis described in this thesis focuses on UPC J/$\psi$s decaying to 
+      The analysis described in this thesis focuses on UPC \JPsi{}s decaying to 
         muons. 
       The trigger used for this analysis recored 346841 events.
       A set of off-line cuts were applied to increase the relative contribution 
@@ -373,7 +378,7 @@
           & two track requirement & 32732 \\ \hhline{~--}
           & HF signal rejection & 5392 \\ \hline
           fake muon rejection & muon quality requirement & 2047 \\ \hline
-          \multirow{2}{*}{kinematic cut} & J/$\psi$ mass requirement & 696 \\ \hhline{~--}
+          \multirow{2}{*}{kinematic cut} & \JPsi{} mass requirement & 696 \\ \hhline{~--}
           & muon detectability cuts & 567 \\ \hline
         \end{tabular}
         \caption{Effects of event selection cuts.}
@@ -395,7 +400,7 @@
           This cut requires that energy deposits in the silicon tracker point 
             back to the reconstructed  primary vertex. 
       \end{itemize}
-      These beam background cuts do not reject any UPC J/$\psi$ candidates. 
+      These beam background cuts do not reject any UPC \JPsi{} candidates. 
   
       The second set of background rejection cuts were designed to 
         reduce contamination from hadronic interactions. 
@@ -454,7 +459,7 @@
         validated for standard muon analyses.
 
   \section{\label{sec:breakUpDet} Break up determination}
-    As described in Section~\ref{sec:ltaTheory}, UPC J/$\psi$ photoproduction 
+    As described in Section~\ref{sec:ltaTheory}, UPC \JPsi{} photoproduction 
       can be accompanied by the emission of neutrons from either of the two 
       colliding nuclei.
     The various neutron emission scenarios, or break-up modes, can 
@@ -631,54 +636,54 @@
 
 
   \section{\label{sec:sigEx} Signal extraction}
-    After all event selection cuts, the coherent J/$\psi$, incoherent J/$\psi$,
+    After all event selection cuts, the coherent \JPsi{}, incoherent \JPsi{},
       and photon-photon process all contribute to the remaining events.
     Each process must be separated from the final mix.
-    To achieve this, the invariant mass and $p_{T}$ distributions are used 
+    To achieve this, the invariant mass and \pt{} distributions are used 
       to distinguish between the three processes. 
     The photon-photon process is extended in invariant mass whereas the 
-      J/$\psi$ is peak strongly near 3.1 GeV.
-    In $p_{T}$ the photon-photon and coherent process have similar 
+      \JPsi{} is peak strongly near 3.1 GeV.
+    In \pt{} the photon-photon and coherent process have similar 
       distributions, both peaked shapely below 0.1 GeV, whereas the incoherent 
       process is more broadly distributed across an interval extending to 
       nearly 1 GeV.
     The mass distribution was fit to separate the photon-photon process from
-      the J/$\psi$ process.
-    The $p_{T}$ distribution was used to separate the incoherent process from 
+      the \JPsi{} process.
+    The \pt{} distribution was used to separate the incoherent process from 
       the photon-photon process, and the coherent process. 
     In this way, a separate yield was extracted for all three processes. 
     
     The invariant mass distribution for opposite sign dimuons is shown in 
       Fig.~\ref{fig:massFit}. 
-    A J/$\psi$ signal is clearly visible together with tails at higher and
+    A \JPsi{} signal is clearly visible together with tails at higher and
       lower mass due to the photon-photon process.
     A fit to the invariant mass distribution was done using a Gaussian
-      to account for the J/$\psi$ signal and a first order polynomial function 
+      to account for the \JPsi{} signal and a first order polynomial function 
       for the photon-photon process.
-    The extracted number of J/$\psi$ candidates from this fit includes all 
-      J/$\psi$s in the mass window that passed the analysis cuts, i.e. both
+    The extracted number of \JPsi{} candidates from this fit includes all 
+      \JPsi{}s in the mass window that passed the analysis cuts, i.e. both
       coherent and incoherent process contribute to yield from the mass
       fit.
-    The $p_{T}$ distribution is needed to separate the two different 
-      contributions to the J/$\psi$ peak. 
+    The \pt{} distribution is needed to separate the two different 
+      contributions to the \JPsi{} peak. 
 
     \begin{figure}[!Hhtb]
       \centering
       \includegraphics[width=.6\textwidth]{massFitSimple}
-      \caption{Mass fit to J/$\psi$ using Gaussian for the 
+      \caption{Mass fit to \JPsi{} using Gaussian for the 
         signal and a first order polynomial for the photon-photon continuum}
       \label{fig:massFit}
     \end{figure}
    
     The same candidates from Fig.~\ref{fig:massFit} were plotted as a function
-      of $p_{T}$ in Fig.~\ref{fig:ptTemps}.
+      of \pt{} in Fig.~\ref{fig:ptTemps}.
     The clear overlap of the coherent and photon-photon process, and the 
-      clear separation of these two lower $p_{T}$ processes from the incoherent
+      clear separation of these two lower \pt{} processes from the incoherent
       process is apparent.
-    The shape of the $p_{T}$ distribution for the coherent, incoherent, and 
+    The shape of the \pt{} distribution for the coherent, incoherent, and 
       photon-photon process are taken from the final output of MC after
       applying all analysis cuts. 
-    To obtain the yields for each of the three process, the $p_{T}$ 
+    To obtain the yields for each of the three process, the \pt{} 
       distribution was fit to the three templates.
     In Fig.\ref{fig:ptTemps}, the yield parameters that were fit were left
       unconstrained for all three process.
@@ -686,14 +691,14 @@
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{ptOnly}
-      \caption{ Fit to MC $p_{T}$ templates. }
+      \caption{ Fit to MC \pt{} templates. }
       \label{fig:ptTemps}
     \end{figure}
 
-    The shape of the photon-photon and coherent J/$\psi$ process are very 
-      similar in $p_{T}$.
+    The shape of the photon-photon and coherent \JPsi{} process are very 
+      similar in \pt{}.
     Accordingly, the contribution from the photon-photon process and the 
-      coherent process are difficult to separate from the $p_{T}$ distribution.
+      coherent process are difficult to separate from the \pt{} distribution.
     The confidence contours in Fig.~\ref{fig:ptOnlyCor} from the template fit
       in Fig.~\ref{fig:ptTemps} demonstrate the strong anti-correlation 
       between the coherent yield parameter, $nCo$, and the yield parameter 
@@ -701,7 +706,7 @@
     Because of the anti-correlation, the statistical uncertainty on $nCo$ and 
       $nGamma$ from the fit are larger than $\sqrt{nCo}$ and $\sqrt{nGamma}$
       expected from Poisson statistics. 
-    The information from the invariant mass and $p_{T}$ distributions were
+    The information from the invariant mass and \pt{} distributions were
       combined to break this correlation. 
     Through this combination, the contribution to the final yield from 
       the three process was measured.
@@ -709,24 +714,24 @@
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{nCoNGammaCorPtOnly}
-      \caption{68\%, 95\%, and 99\% confidence contours from the $p_{T}$ 
+      \caption{68\%, 95\%, and 99\% confidence contours from the \pt{} 
         template fit. }
       \label{fig:ptOnlyCor}
     \end{figure}
 
     To utilize the mass fits ability to distinguish the photon-photon process 
-      from the coherent and incoherent process all while utilizing the $p_{T}$
+      from the coherent and incoherent process all while utilizing the \pt{}
       fits ability to separate the coherent and photon-photon processes from 
-      the incoherent, a simultaneous fit to the mass spectrum and $p_{T}$ 
+      the incoherent, a simultaneous fit to the mass spectrum and \pt{} 
       spectrum was preformed.
     Fig.~\ref{fig:simFitMassPtGauss} shows the result of the simultaneous fit.
     The simultaneous fit forces the parameter $nGamma$ to both describe the 
-      photon-photon continuum present in the side bands of the J/$\psi$ mass 
-      peak as well the photon-photon contribution to the low-$p_{T}$ part of 
-      the $p_{T}$ spectrum.
-    In addition, the J/$\psi$ yield from the mass fit is forced to equal the
+      photon-photon continuum present in the side bands of the \JPsi{} mass 
+      peak as well the photon-photon contribution to the low-\pt{} part of 
+      the \pt{} spectrum.
+    In addition, the \JPsi{} yield from the mass fit is forced to equal the
       contribution from the incoherent and coherent process in the 
-      fit to the $p_{T}$ distribution. 
+      fit to the \pt{} distribution. 
     In this way, the correlation between the yield parameters was broken, and 
       the contribution from the three process were made independent of each 
       other.
@@ -734,7 +739,7 @@
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.9\textwidth]{ptMassSimGaussLine}
-      \caption{Simultaneous fit to the mass and $p_{T}$ spectra.}
+      \caption{Simultaneous fit to the mass and \pt{} spectra.}
       \label{fig:simFitMassPtGauss}
     \end{figure}
 
@@ -769,12 +774,12 @@
       The trigger efficiencies were measured in data using the tag and probe 
       method \cite{cmsTnP}, which is discussed below. 
 
-       CMS has a limited acceptance for J/$\psi$s, particularly in the case of 
-        J/$\psi$s with low momentum like those produced in UPC events. 
-      To measure the acceptance of CMS for J/$\psi$s, reconstructed dimuon 
+       CMS has a limited acceptance for \JPsi{}s, particularly in the case of 
+        \JPsi{}s with low momentum like those produced in UPC events. 
+      To measure the acceptance of CMS for \JPsi{}s, reconstructed dimuon 
         candidates were considered detectable if both reconstructed daughters 
         fell into a detectability region.
-      This region was defined using the coherent J/$\psi$ events obtained from 
+      This region was defined using the coherent \JPsi{} events obtained from 
         STARlight.
       The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
         is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
@@ -785,13 +790,13 @@
       \begin{figure}[!Hhtb]
         \centering
           \includegraphics[width=.6\textwidth]{mcEffMaps/accMuJpCo} 
-        \caption{ Muon daughter detectability from coherent J/$\psi$}
+        \caption{ Muon daughter detectability from coherent \JPsi{}}
         \label{fig:muonDaughterDet}
       \end{figure}
       Fig.~\ref{fig:muonDaughterDet} shows the efficiency for reconstructing
-        single muons from coherent J/$\psi$ events.
+        single muons from coherent \JPsi{} events.
       To avoid the edges of the detectors acceptance, all reconstructed muons 
-        that fall into a ($p_{T}$,$|\eta|$) bin that has an efficiency less 
+        that fall into a (\pt{},$|\eta|$) bin that has an efficiency less 
         than 20\% were rejected thus defining the detectability region.
       The acceptance for reconstructing dimuons was calculated from MC
         using the following formula:
@@ -802,8 +807,8 @@
         where $N_{det}$ is the number of reconstructed dimuons where both 
         daughters fall into the detectability region, and $N_{gen}$ is the
         number of generated dimuons. 
-      From Eq.~\ref{eq:jpsiAccEq}, the acceptance for J/$\psi$ was calculated
-        as a function of $|y|$, and $p_{T}$ (see Fig.~\ref{fig:jpsiAcceptance}).
+      From Eq.~\ref{eq:jpsiAccEq}, the acceptance for \JPsi{} was calculated
+        as a function of $|y|$, and \pt{} (see Fig.~\ref{fig:jpsiAcceptance}).
         \begin{figure*}[!Hhtb]
           \centering
           $ \begin{array}{cc}
@@ -811,7 +816,7 @@
             \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpInCoStep} \\
             \includegraphics[width=.45\textwidth]{mcEffMaps/detAccGammaStep}
           \end{array} $
-          \caption{Dimuon acceptance from coherent J/$\psi$ (top left), incoherent 
+          \caption{Dimuon acceptance from coherent \JPsi{} (top left), incoherent 
             J$\psi$ (top right), and photon-photon interactions (lower).}
           \label{fig:jpsiAcceptance}
         \end{figure*}
@@ -829,8 +834,8 @@
       The second comes from pairs where the probe is a passing probe.  
       The last histogram comes from pairs where the probe fails to fulfill
         the trigger, \textit{i.e.} the probe is a failing probe. 
-      Because this depends on the $p_{T}$ and $|\eta|$ of the probe, one set 
-        of three histograms for each ($p_{T}$,$|\eta|$) bin of the probe is 
+      Because this depends on the \pt{} and $|\eta|$ of the probe, one set 
+        of three histograms for each (\pt{},$|\eta|$) bin of the probe is 
         created.
 
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
@@ -855,16 +860,16 @@
       \begin{figure}[!Hh]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFits}
-        \caption{Fits to tag and probe pairs in the J/$\psi$ mass region for
-          pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt < 1.8 GeV.}
+        \caption{Fits to tag and probe pairs in the \JPsi{} mass region for
+        pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt{} < 1.8 GeV.}
         \label{fig:tnpFitPlot}
       \end{figure}
-      This fit is done for each bin of the probes $p_{T}$ and $\eta$.
+      This fit is done for each bin of the probes \pt{} and $\eta$.
       The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
-        \caption{Muon trigger efficiencies in $p_{T}$ and $\eta$ bins from 
+        \caption{Muon trigger efficiencies in \pt{} and $\eta$ bins from 
           the tag and probe method.}
         \label{fig:tnpTrigMap}
       \end{figure}
@@ -885,14 +890,14 @@
         probability that neither daughter fires the trigger,
         thus giving the dimuon trigger efficiency. 
 
-      The average dimuon trigger efficiency for each dimuon ($p_{T}$,$|y|$) bin
+      The average dimuon trigger efficiency for each dimuon (\pt{},$|y|$) bin
         was calculated by averageing the individual dimuon candidates in each
         bin. 
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{averageTriggerEff}
         \caption{The trigger efficiency from tag and probe averaged over candidates
-          in each ($p_{T}$,$|y|$) bin.}
+          in each (\pt{},$|y|$) bin.}
         \label{fig:avTrigEffCo}
       \end{figure}
       The average trigger efficiency was multiplied by the acceptance from the MC 
@@ -905,18 +910,18 @@
         \label{fig:avAccEff}
       \end{figure}
 
-      The total combined efficiency and acceptance factor coherent J/$\psi$ 
+      The total combined efficiency and acceptance factor coherent \JPsi{} 
         between 2.0 < |y| 2.2 was found to be around 5\%.
       The roughly 7\% acceptance factor from the MC is the main contributor
         to the total efficiency. 
-      Primarily, the interplay of the polarization of the J/$\psi$ and
+      Primarily, the interplay of the polarization of the \JPsi{} and
         the material in detector drive down the efficiency by creating an 
         effective momentum threshold for detection (see 
         Section~\ref{sec:mcSim}).
       The reconstruction efficiency of the daughters range between 
         20\%-60\% for muons in the defined detectability range. 
       The trigger efficiency for the detectable muons ranges from 30\%-80\% 
-        depending on $p_{T}$. 
+        depending on \pt{}. 
       The typical trigger efficiency for the dimuons ranges from 60\% to 80\%.
 
     \subsection{ZDC trigger efficiency}
@@ -1052,7 +1057,7 @@
           RecHits & 298 & 290 \\ \hline
           CaloTowers & 302 & 288 \\ \hline
         \end{tabular}
-        \caption{Candidate yields below 1.05 GeV $p_{T}$ for various HF noise
+        \caption{Candidate yields below 1.05 GeV \pt{} for various HF noise
           cuts.}
         \label{tab:hfCutYieldEffects}
       \end{table}
@@ -1108,24 +1113,24 @@
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=.6\textwidth]{ptOnly}
-        \caption{Coherent, incoherent, and photon-photon process $p_{T}$ template fit to data.}
+        \caption{Coherent, incoherent, and photon-photon process \pt{} template fit to data.}
         \label{fig:ptTempFit}
       \end{figure}
      
-      The $p_{T}$ template fit depends on the functions chosen for the fit
+      The \pt{} template fit depends on the functions chosen for the fit
         to the mass distribution.
       As described in Section~\ref{sec:sigEx}, the similarity of the of the 
-        $p_{T}$ distribution for the coherent and photon-photon process make
+        \pt{} distribution for the coherent and photon-photon process make
         the contributions from the two process difficult to separate from the 
-        $p_{T}$ distribution alone.
+        \pt{} distribution alone.
       The mass distribution was used to distinguish between these two processes.
-      In turn, the $p_{T}$ becomes dependent on the mass fit. 
+      In turn, the \pt{} becomes dependent on the mass fit. 
 
       The systematic uncertainty due to the choose of functions used to fit
         the mass distribution was estimated by varying the signal and 
         background functions.
       The contribution to the background from the mass fit was used to fix the
-        contribution from the photon-photon process in the $p_{T}$ template
+        contribution from the photon-photon process in the \pt{} template
         fit.
       Two functions were used to describe the signal, a Gaussian, and a Crystal
         ball function. 
@@ -1144,7 +1149,7 @@
           \includegraphics[width=.3\textwidth]{gausLin} &
           \includegraphics[width=.3\textwidth]{gausCC}
         \end{array} $
-        \caption{Various mass distribution fits and the corresponding $p_{T}$
+        \caption{Various mass distribution fits and the corresponding \pt{}
           template fit.}
         \label{fig:massPtFitsForSyst}
       \end{figure}
@@ -1155,12 +1160,12 @@
         fits indicating a similar goodness of fit.
       On this basis, neither fit is preferred. 
       The left most fit uses a Crystal Ball function to account for the 
-        radiative decay of the final state daughters of the J/$\psi$.
+        radiative decay of the final state daughters of the \JPsi{}.
       The low mass exponential portion however picks up background events 
-        and overestimates the J/$\psi$ contribution. 
+        and overestimates the \JPsi{} contribution. 
       The right most plot fits the background to a 2nd order Cheby-Chev 
         polynomial.
-      Because the Cheby-Chev peaks just below the J/$\psi$ peak, this fit 
+      Because the Cheby-Chev peaks just below the \JPsi{} peak, this fit 
         overestimates the background and in turn underestimates the signal 
         contribution.
       The Gaussian fit with a linear background however does a reasonable job
@@ -1183,14 +1188,14 @@
           \includegraphics[width=.45\textwidth]{massFitSimple} &
           \includegraphics[width=.45\textwidth]{massFitCBPoly2}
         \end{array} $
-        \caption{Mass fit to J/$\psi$ using Gaussian (Left) and Crystal Ball (Right) for the 
+        \caption{Mass fit to \JPsi{} using Gaussian (Left) and Crystal Ball (Right) for the 
           signal and a polynomial for the background}
         \label{fig:massFitSys}
       \end{figure}
       Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw 
-        J/$\psi$ yield has on the fitting function. 
+        \JPsi{} yield has on the fitting function. 
       Both fit functions agree well, with reduced $\chi^{2}$ values below one.
-      The Crystal ball fit give an upper estimate for the J/$\psi$ yield.
+      The Crystal ball fit give an upper estimate for the \JPsi{} yield.
       The Gaussian fit gives an lower estimate. 
       The main difference comes from the lower mass tails.
       In the Crystal ball fit the lower tail is considered to be signal due to 
@@ -1199,12 +1204,12 @@
       In the Gaussian fit the lower mass tail is considered to be background and 
         the signal is sharper.
 
-      As check on the simultaneous $p_{T}$ and mass fit, the mass fit is done
+      As check on the simultaneous \pt{} and mass fit, the mass fit is done
         using mass templates from STARlight.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.6\textwidth]{ptMassSimTemp}
-        \caption{Simultaneous fit to the mass and $p_{T}$ using mass templates
+        \caption{Simultaneous fit to the mass and \pt{} using mass templates
           for the mass fit. }
         \label{fig:simFitTemp}
       \end{figure}
@@ -1212,16 +1217,16 @@
     \subsection{MC acceptance}
       The MC derived acceptance correction factors depend on the input physics
         generator. 
-      The underlaying $p_{T}$ distribution was assumed to be correctly 
+      The underlaying \pt{} distribution was assumed to be correctly 
         described by STARlight for the coherent cross section measurement.
-      To estimate the effect of changing the underlaying $p_{T}$ distribution 
+      To estimate the effect of changing the underlaying \pt{} distribution 
         on the acceptance measured from the MC, the incoherent sample was used 
         to correct the coherent yield.
-      By using the broader $p_{T}$ distribution of the incoherent process, an 
+      By using the broader \pt{} distribution of the incoherent process, an 
         estimate of acceptance measurements dependence on the assumed shape of
-        the $p_{T}$ distribution was obtained.
+        the \pt{} distribution was obtained.
       The systematic uncertainty due to the dependence of the acceptance 
-        correction on the $p_{T}$ distribution of the input physics generator
+        correction on the \pt{} distribution of the input physics generator
         was estimated by the difference between the correction factors from 
         the coherent and incoherent MC samples. 
       Half the difference was used as the estimate and was found to be 1.1\%.
@@ -1234,11 +1239,11 @@
       \end{figure}
       
       The effect of polarization was estimated by correcting by the acceptance
-        for an unpolarized J/$\psi$ sample.
+        for an unpolarized \JPsi{} sample.
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=0.6\textwidth]{coCoGaussGun}
-        \caption{Yields corrected by an unpolarized J/$\psi$ sample.}
+        \caption{Yields corrected by an unpolarized \JPsi{} sample.}
         \label{fig:coYieldGaussCor}
       \end{figure}
 
@@ -1294,7 +1299,7 @@
       \end{figure}
 
       The systematic uncertainty due to the ZDC reconstruction method are
-        estimated from the difference between the UPC J/$\psi$ candidate yields.
+        estimated from the difference between the UPC \JPsi{} candidate yields.
       Both the reconstruction method and thresholds were changed to calculate 
         the effect of the reconstruction method.
       The yields for the new and standard ZDC reconstruction method in the Xn0n
@@ -1468,7 +1473,7 @@
         is to separate the background from true signal. 
       The background may not have the same efficiency as the signal, so 
         separating the two is important if this is the case.
-      In the tag and probe fit the signal peak from the J/$\psi$ resonance
+      In the tag and probe fit the signal peak from the \JPsi{} resonance
         is fit to the probes, passing probes, and failing probes alike (see
         Fig.~\ref{fig:tnpFitPlot}). 
       The signal shape, if from the same physical signal, will be 
@@ -1489,7 +1494,7 @@
         amount of background can be over or underestimated and effect the 
         efficiency measurement.
       To estimate this effect, the tag and probe efficiencies were additionally
-        measured by counting probes in the J/$\psi$ mass window. 
+        measured by counting probes in the \JPsi{} mass window. 
       The whole mass window is used to estimate the efficiency including all 
         the events from the mass side bands.
       In this way, a worst case scenario estimate is given where all background
@@ -1513,9 +1518,9 @@
         being comprised mostly of photon-photon events.
       Because this background is neither decays from other particles like pions
         nor is it non-physical background like combinatorics, the efficiency
-        for muons from the sidebands are nearly identical to J/$\psi$ signal.
+        for muons from the sidebands are nearly identical to \JPsi{} signal.
       The photon-photon process directly produces two muons just like the 
-        J/$\psi$, therefore efficiency estimated from the side bands has 
+        \JPsi{}, therefore efficiency estimated from the side bands has 
         little effect on the measurement because of this similarity.
       The counting and fitting trigger efficiency measurements agree within 
         statistcal uncertainties, so this uncertianty was taken to be negliable.
@@ -1538,7 +1543,7 @@
       \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-        \caption{Comparison of the of the dimuon $p_{T}$ distributions 
+        \caption{Comparison of the of the dimuon \pt{} distributions 
           between coherent MC sample and Data.}
         \label{fig:jpsiPtCoherent}
       \end{figure}
