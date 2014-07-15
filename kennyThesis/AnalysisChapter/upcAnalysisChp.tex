@@ -688,17 +688,21 @@
         signal and a first order polynomial for the photon-photon continuum}
       \label{fig:massFit}
     \end{figure}
-   
-    The same candidates from Fig.~\ref{fig:massFit} were plotted as a function
-      of \pt{} in Fig.~\ref{fig:ptTemps}.
+  
+    Figure~\ref{fig:ptTemps} shows the \pt{} spectrum of the events plotted 
+      in Fig.~\ref{fig:massFit}.  
+    There is a clear coherent peak at \pt{} = 60 MeV followed by broad 
+      distribution that peaks near \pt{} = 450 MeV. 
+    To extract the contribution of coherent, incoherent and gamma-gamma 
+      processes in the data the spectrum in  Fig.~\ref{fig:ptTemps} was fit to 
+      the sum of three MC templates corresponding to the final output of the MC
+      simulations for these three processes.       
     The clear overlap of the coherent and photon-photon process, and the 
       clear separation of these two lower \pt{} processes from the incoherent
       process is apparent.
     The shape of the \pt{} distribution for the coherent, incoherent, and 
       photon-photon process are taken from the final output of MC after
       applying all analysis cuts. 
-    To obtain the yields for each of the three process, the \pt{} 
-      distribution was fit to the three templates.
     In Fig.\ref{fig:ptTemps}, the yield parameters that were fit were left
       unconstrained for all three process.
 
@@ -733,11 +737,11 @@
       \label{fig:ptOnlyCor}
     \end{figure}
 
-    To utilize the mass fits ability to distinguish the photon-photon process 
-      from the coherent and incoherent process all while utilizing the \pt{}
-      fits ability to separate the coherent and photon-photon processes from 
-      the incoherent, a simultaneous fit to the mass spectrum and \pt{} 
-      spectrum was preformed.
+    A simultaneous fit to the mass spectrum and \pt{} 
+      spectrum was preformed to utilize the mass fits ability to distinguish 
+      the photon-photon process from the coherent and incoherent process all 
+      while utilizing the \pt{} fits ability to separate the coherent and 
+      photon-photon processes from the incoherent.
     Fig.~\ref{fig:simFitMassPtGauss} shows the result of the simultaneous fit.
     The simultaneous fit forces the parameter $nGamma$ to both describe the 
       photon-photon continuum present in the side bands of the \JPsi{} mass 
@@ -757,14 +761,10 @@
       \label{fig:simFitMassPtGauss}
     \end{figure}
 
-    The ambiguity between the coherent and incoherent processes in the mass fit
-      and the ambiguity between the coherent and the photon-photon process was 
-      over come through used of the simultaneous fit.
     Fig.~\ref{fig:simGaussCor} shows the confidence contours for $nCo$ and 
       $nGamma$ from the simultaneous fit in Fig.~\ref{fig:simFitMassPtGauss}.  
     The slope of the confidence contours in Fig.~\ref{fig:simGaussCor} 
-      is noticeably closer to 0 than the apparent negative slope in 
-      Fig.~\ref{fig:ptOnlyCor}.
+      is noticeably than in Fig.~\ref{fig:ptOnlyCor}.
     The contours for the simultaneous fit are also reduced compared to 
       Fig.~\ref{fig:ptOnlyCor} with widths in $nCo$ and $nGamma$ similar to 
       those expected from Poison statistics. 
@@ -780,21 +780,35 @@
     \end{figure}
 
   \section{\label{sec:effDet} Efficiency determination}
+    Each step of the triggering, event selection, and analysis has an associated
+      efficiency that must be accounted for in the  measurement of the \JPsi{} 
+      cross section.  
+    The ZDC trigger efficiency, the muon trigger efficiency, and the muon 
+      reconstruction efficiency are the two most significant contributors to 
+      the total efficiency measurement. 
+    The efficiency of the pixel track requirement, and the veto on activity in 
+      the BSCs from the trigger are also estimated but found to be consistent 
+      with fully efficient. 
+    The following section explains how each of these efficiencies were measured
+      with a special emphasis on the ZDC trigger efficiency and the muon 
+      trigger and reconstruction efficiencies. 
+
     \subsection{Muon efficiencies}
-      The muon efficiencies are measured from MC and data.
+      The muon efficiencies were measured using a combination of MC and data 
+        based methods.
       The MC based measurement accounts for the detector acceptance and the 
-        efficiency of the muon quality discussed in 
+        efficiency of the muon quality cuts discussed in 
         Section~\ref{sec:DataSetEvSel}.
       The trigger efficiencies were measured in data using the tag and probe 
       method \cite{cmsTnP}, which is discussed below. 
 
-       CMS has a limited acceptance for \JPsi{}s, particularly in the case of 
+      CMS has a limited acceptance for \JPsi{}s, particularly in the case of 
         \JPsi{}s with low momentum like those produced in UPC events. 
       To measure the acceptance of CMS for \JPsi{}s, reconstructed dimuon 
-        candidates were considered detectable if both reconstructed daughters 
-        fell into a detectability region.
-      This region was defined using the coherent \JPsi{} events obtained from 
-        STARlight.
+        candidates were considered detectable if both reconstructed muon 
+        daughters fell into a detectability region in \pt{} and $\eta$.
+      The muon detectability region was defined using the coherent \JPsi{} 
+        events obtained from STARlight.
       The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
         is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
         where $N^{\mu}_{reco}$ is the number reconstructed muons obtained 
@@ -811,7 +825,8 @@
         single muons from coherent \JPsi{} events.
       To avoid the edges of the detectors acceptance, all reconstructed muons 
         that fall into a (\pt{},$|\eta|$) bin that has an efficiency less 
-        than 20\% were rejected thus defining the detectability region.
+        than 20\% were rejected.
+      This condition defines the detectability region.
       The acceptance for reconstructing dimuons was calculated from MC
         using the following formula:
       \begin{equation}
@@ -835,12 +850,12 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
-      The tag and probe method is used to measure the trigger efficiency of 
-        the muon daughters, which is a data driven approach. 
+      The tag and probe method is a data driven approach used to measure the 
+        trigger efficiency of the muon daughters from \JPsi{} decays.
       In this method there are three categories of daughter muons. 
       \textit{Tag muons} are high quality muons.
-      \textit{Passing probes} are reconstructed muons that match the muon trigger, 
-        while \textit{failing probes} do not. 
+      \textit{Passing probes} are reconstructed muons that match the muon 
+        trigger, while \textit{failing probes} do not. 
       Each dimuon will have one daughter classified as a tag and the other
         as a probe.
       From here three invariant mass histograms are studied. 
@@ -848,12 +863,15 @@
       The second comes from pairs where the probe is a passing probe.  
       The last histogram comes from pairs where the probe fails to fulfill
         the trigger, \textit{i.e.} the probe is a failing probe. 
-      Because this depends on the \pt{} and $|\eta|$ of the probe, one set 
-        of three histograms for each (\pt{},$|\eta|$) bin of the probe is 
-        created.
+      By matching the tag to the trigger, the probe is unbiased by the trigger 
+        and the  efficiency can be measured by fitting the three mass 
+        histograms. 
 
+      Because the trigger efficiency depends on the \pt{} and $|\eta|$ of the 
+        muon, one set of three histograms for each (\pt{},$|\eta|$) bin of the
+        probe is created.
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
-        each set of invariant mass histograms was simultaneously fitted. 
+        each set of invariant mass histograms were simultaneously fit. 
       The signal was fitted using a Crystal Ball function, and the background 
         was fitted to an exponential.
       The Crystal Ball parameters were simultaneously fitted to all three 
@@ -863,13 +881,6 @@
       Because the background shapes are in principle different for the two 
         samples, the efficiency is driven by this difference. 
 
-      To measure the trigger efficiency a tag is required to pass all muon
-        quality cuts and matched to the trigger.
-      The probe is required to pass all quality cuts. 
-      A passing probe is a probe that is also matched to the trigger. 
-      In this way, the tag leaves the probe unbiased by the trigger and the 
-        efficiency can be measured by fitting the mass distribution.  
-
       Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
       \begin{figure}[!Hh]
         \centering
@@ -878,8 +889,8 @@
         pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt{} < 1.8 GeV.}
         \label{fig:tnpFitPlot}
       \end{figure}
-      This fit is done for each bin of the probes \pt{} and $\eta$.
-      The resulting fit is in Fig.~\ref{fig:tnpTrigMap}.
+      This fit was done for each bin of the probes \pt{} and $\eta$.
+      The efficiency from the fits in each bin are in Fig.~\ref{fig:tnpTrigMap}.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
@@ -888,9 +899,8 @@
         \label{fig:tnpTrigMap}
       \end{figure}
 
-      The dimuon trigger efficiency $\varepsilon^{dimuon}_{trigger}$ was measured
-        from the single muon efficiencies. 
-      The efficiency of each candidate was calculated using the following
+      The dimuon trigger efficiency $\varepsilon^{dimuon}_{trigger}$ was 
+        calculated from the single muon efficiencies using the following
         equation:
       \begin{equation}
         \label{eq:dimuTrigEff}
@@ -905,7 +915,7 @@
         thus giving the dimuon trigger efficiency. 
 
       The average dimuon trigger efficiency for each dimuon (\pt{},$|y|$) bin
-        was calculated by averageing the individual dimuon candidates in each
+        was calculated by averaging the efficiency of dimuon candidates in each
         bin. 
       \begin{figure}[!Hhbt]
         \centering
@@ -914,8 +924,16 @@
           in each (\pt{},$|y|$) bin.}
         \label{fig:avTrigEffCo}
       \end{figure}
-      The average trigger efficiency was multiplied by the acceptance from the MC 
-        to produce a total factor for both efficiency and acceptance. 
+      The dimuon trigger efficiency ranges from $\approx 50$\% to 87\%. 
+      As expected the \JPsi{} trigger efficiency increase with rapidity since 
+        the longitudinal momentum of the \JPsi{} is given 
+        $p_Z= M_{J/\psi} \cdot sinh(y)$. 
+      Thus \JPsi{} mesons at forward rapidity distribute more momentum to their
+        daughter muons which therefore have a greater chance of punching 
+        through into the muon chamber.  
+      The average trigger efficiency was multiplied by the acceptance and 
+        reconstruction efficiency from the MC to produce a total factor for 
+        both efficiency and acceptance. 
       \begin{figure}[!Hhtb]
         \centering
         \includegraphics[width=0.6\textwidth]{averageExA}
@@ -925,18 +943,16 @@
       \end{figure}
 
       The total combined efficiency and acceptance factor coherent \JPsi{} 
-        between 2.0 < |y| 2.2 was found to be around 5\%.
-      The roughly 7\% acceptance factor from the MC is the main contributor
-        to the total efficiency. 
-      Primarily, the interplay of the polarization of the \JPsi{} and
-        the material in detector drive down the efficiency by creating an 
-        effective momentum threshold for detection (see 
-        Section~\ref{sec:mcSim}).
+        between $2.0 \le |y| \le 2.2$ was found to be $\approx 5$\%.
+      The acceptance factor of roughly 7\% from the MC was found to be the main
+        contributor to the total efficiency. 
+      The interplay of the polarization of the \JPsi{} and the material in 
+        detector drive down the efficiency by creating an effective momentum 
+        threshold for detection (see Section~\ref{sec:mcSim}).
       The reconstruction efficiency of the daughters range between 
         20\%-60\% for muons in the defined detectability range. 
       The trigger efficiency for the detectable muons ranges from 30\%-80\% 
         depending on \pt{}. 
-      The typical trigger efficiency for the dimuons ranges from 60\% to 80\%.
 
     \subsection{ZDC trigger efficiency}
       As discussed in Section~\ref{sec:breakUpDet}, a special trigger was 
