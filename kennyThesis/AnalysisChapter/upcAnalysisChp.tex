@@ -955,29 +955,28 @@
         depending on \pt{}. 
 
     \subsection{ZDC trigger efficiency}
-      As discussed in Section~\ref{sec:breakUpDet}, a special trigger was 
-        prepared to monitor the ZDC trigger efficiency. 
+      As discussed in Section~\ref{sec:breakUpDet}, the trigger labeled 
+        "L1ZDCOr and Pixel Track" in Table~\ref{tab:hltTriggers2011} was used 
+        to estimate the measure the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
         least one pixel track. 
       The veto on the BSC minimum bias trigger, as in the physics triggers, was
         applied offline.
-      The BSC veto excludes events where  BSCs from both sides of the 
+      The BSC veto excludes events where BSCs from both sides of the 
         interaction point are above threshold. 
+      This trigger was used in order to collect the most inclusive possible 
+        sample without using the minimum bias triggers designed to collect 
+        hadronic interactions.
+        
+      This ZDC triggered sample suffers from a trigger bias. 
+      For example, a sample triggered by ZDC$^{+}$ would always produce a i
+        ZDC$^{+}$ trigger efficiency of one. 
+      To avoid this, a similar technique to tag and probe was used.
+      Each event is either tagged as triggered by ZDC$^{+}$ or triggered 
+        by the ZDC$^{-}$. 
+      The ZDC$^{+}$ trigger efficiency is measured from the ZDC$^{-}$ tagged 
+        sample, and vice versa.
 
-      This sample suffers from a trigger bias. 
-      For example, a sample triggered by ZDC$^{+}$ would always produce a ZDC$^{+}$ 
-        trigger efficiency of one. 
-      To avoid this, the special trigger sample was divided into two 
-        subsamples in the following way. 
-      A first sample triggered by the ZDC$^{+}$ input and second one triggered by 
-        the ZDC$^{-}$. 
-      The ZDC$^{+}$ trigger efficiency is measured from the ZDC$^{-}$ sample, and vice 
-        versa.
-
-      The trigger efficiency for reconstructed ZDC energies above the
-        single neutron threshold were estimated (see for Sec.~\ref{sec:breakUpDet}).
-      The ZDC$^{+}$ efficiency was calculated using the ZDC$^{-}$ triggered 
-        sample.
       To estimate the efficiency, the number of events with energy in 
         ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
         were measured.
@@ -987,10 +986,10 @@
         trigger and all single neutron events was taken as the estimate of 
         trigger efficiency. 
       The same procedure was applied for each side of the ZDC.
-      The trigger efficiency of the ZDC was found to be 98\% for ZDC$^{-}$
+      The trigger efficiency was found to be 98\% for ZDC$^{-}$
         and 94\% for ZDC$^{+}$.
 
-      \begin{table}
+      \begin{table}zo
         \centering
         \begin{tabular}{|c|c|c|c|c|}
            ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
@@ -1037,37 +1036,41 @@
       This cut plays a significant role in rejecting hadronic events.
       In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
         is evident. 
-      The HF noise cut rejects a little less than 1/5 of the remaining events. 
+      The HF noise cut rejects a nearly 1/5 of the remaining events. 
       The systematic uncertainties on the HF noise requirement is important for
         this reason.
-      The result must not depend significantly on the method used to apply the
-        cut on the noise because of the large reduction of events that result
-        from it. 
-      
-      Four different approaches were employed to estimate the systematic effect
-        arising from picking a particular method for setting the HF noise
-        threshold. 
-      By looking at the variation of the number of events that remain after 
-        applying the thresholds derived from these four methods, the systematic
-        uncertainty for the HF noise cut was estimated.
-      The four methods are derive from combinations of two variations. 
-      The type of object was varied from a low-level detector object called a 
-        RecHit to a higher level physics object called a CaloTower. 
-      The RecHit is the energy deposited in a single calorimeter detector 
-        element, where as the CaloTower is a collection of RecHits with 
-        varrious threholds, which represent a full energy deposit that would 
-        come from a particle or a collection of particles from a jet passing 
-        through the detector. 
-      The second variation is on the separation of the two sides.
-      In one case the threshold is derived for the two sides combined.
-      In another case the thresholds are calculated separately for the two 
-        sides of HF.
-      By combining these two variations, a total of four estimates of the 
-        effect of the HF noise cut were made.
-      Table~\ref{tab:hfNoiseThreshAsym} below shows the thresholds that are 
-        measured for each of the four methods.
-      The resulting yields from the four different methods are displayed in 
-        Table~\ref{tab:hfCutYieldEffects}.
+     
+      The most fine grained data from the HF detectors are called RecHits. 
+      Their is one RecHit per phototube on HF. 
+      The RecHit signal is calibrated in GeV and no noise subtraction is done. 
+      The CaloTowers are formed from geometrical groups of RecHits. 
+      They are the first stage of the CMS jet trigger and perform some noise 
+        suppression.
+
+      The default HF noise cut required that the maximum RecHit energy
+        from both HF+ and HF- be less than 3.85 GeV. 
+      This cut was designed to accept 99\% of the noise events, 
+        see Fig.~\ref{fig:hfNoiseDist}. 
+      The stability of this cut was tested by
+      \begin{enumerate}
+        \item Summing CaloTowers instead of RecHits
+        \item Making separate cuts on HF- and HF+
+        \item Tightening the threshold so that only 98\% or 97\% noise events 
+          passed the cut.
+      \end{enumerate}
+
+      Table~\ref{tab:hfNoiseThreshAsym} shows the noise thresholds for RecHits 
+        and CalowTowers for both the combined HF+ and HF- calorimeters and the 
+        individual calorimeters when 99\% of noise events are accepted.
+      Table~\ref{tab:hfAdjThreshYields} compares the threshold for the cases 
+        when 99\%, 98\% and 97\% of noise events are accepted.
+      The number of J$/\psi$ events remaining after these cuts is shown in 
+        EXPANDED TABLE. 
+      The efficiency corrected numbers are also shown. 
+      The fractional systematic error is then estimated by finding the maximum 
+        and minimum deviation from the default method. 
+      The systematic uncertainty from this method is calculated to be +1.3\% 
+        -3.4\%.
 
       \begin{table}[!Hhbt]
         \centering
@@ -1093,19 +1096,6 @@
           cuts.}
         \label{tab:hfCutYieldEffects}
       \end{table}
-
-      The threshold was adjusted to estimate the effect of tightening the
-        requirement on the zero bias data.
-      By successively lowering the percentage of the zero bias sample
-        that was included, the HF noise cut was made more restrictive including
-        first 98\%, than 97\% of all zero bias events. 
-      This was done for both object types, RecHits and CaloTowers.
-      This allows for an estimate of the systematic uncertainty on selecting 
-        a 99\% cut.
-      Table~\ref{tab:hfAdjustedThresholds} shows the effect on the thresholds
-        themselves for both RecHits and CaloToweres, whereas 
-        Table~\ref{tab:hfAdjThreshYields} shows the effect on the candidate 
-        yields.
 
       \begin{table}[!Hhbt]
         \begin{center}
@@ -1133,12 +1123,6 @@
           \end{tabular}
         \end{center}
       \end{table}
-
-      The systematic uncertainty in the HF noise threshold measurement was 
-        calculated taking the difference from the 99\% combined RecHit method
-        with the upper and lower extrema. 
-      The systematic uncertainty from this method is calculated to be +1.3\% 
-        -3.4\%.
 
 
     \subsection{Template fit normalization}

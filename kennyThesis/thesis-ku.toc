@@ -36,13 +36,13 @@
 \contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{67}{subsection.4.6.2}
 \contentsline {section}{\numberline {4.7} Systematic checks}{68}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}HF noise threshold}{69}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{71}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{70}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{73}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}MC acceptance}{74}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{74}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.4}MC acceptance}{73}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{75}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}ZDC trigger efficiency}{77}{subsection.4.7.6}
-\contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{79}{subsection.4.7.7}
-\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{81}{subsection.4.7.8}
+\contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{77}{subsection.4.7.7}
+\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{80}{subsection.4.7.8}
 \contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{82}{subsection.4.7.9}
 \contentsline {chapter}{\numberline {5}Results}{85}{chapter.5}
 \contentsline {section}{\numberline {5.1}Coherent cross section}{85}{section.5.1}
