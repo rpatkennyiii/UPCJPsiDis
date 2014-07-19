@@ -4,15 +4,14 @@
     ability to measure UPC processes are discussed. 
   Section~\ref{sec:TrigDev} explains the considerations that went into the 
     triggers that were developed for this measurement.
-  The event selection for the various data sets is detailed in 
+  The event selection for picking out UPC events is detailed in 
     Section~\ref{sec:DataSetEvSel}.
-  Extraction of the number of events from each of the three physics processes 
-    discussed in this thesis, coherent, incoherent, and photon-photon process
-    is discussed is Section~\ref{sec:sigEx}.
-  The determination of the detectors efficiency for measuring UPC events is 
+  Extraction of the number of coherent \JPsi{} candidates is explained in 
+    Section~\ref{sec:sigEx}.
+  The determination of the detector's efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
   Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
-    estimates for the measurements.
+    for the measurement.
 
   \section{\label{sec:mcSim} MC simulation}
     Every physical measurement is the product of the underlying physics 
@@ -35,7 +34,7 @@
     In this way, the theoretical distributions are convolved with a realistic 
       model of the detector's response. 
     A more detailed picture of how the detector shapes the underlaying 
-      distributions with each successive event. 
+      distributions emerges with each successive event. 
     The set of events that are produced resemble as closely as possible the 
       results that would be seen were the physical process to be measured 
       by the detector.
@@ -60,15 +59,15 @@
       framework (CMSSW), a simulation software chain with 5 steps was developed.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process. 
-    In step 2 the STARlight output file is converted to the Les Houches (LHE) 
+    In step 2, the STARlight output file is converted to the Les Houches (LHE) 
       format \cite{lheFormat}, and the momentum of the parent \JPsi{} or the 
       initial photon-photon pair is added to the record of each event.
     The event record produced by STARlight only contains the final state 
       particles.
-
     To process the events in parallel, the STARlight files are subdivided 
-      into in step 2, creating several LHE files from a single STARlight file.
+      in step 2, creating several LHE files from a single STARlight file.
     The LHE files are used as input to CMSSW.
+
     Steps 3 to 5 take place within CMSSW. 
     In step three the generated particles are propagated through the GEANT4 
       \cite{geant} detector simulation.
@@ -77,7 +76,7 @@
       taking.
     Steps 4 and 5 are processed using the same software as in data taking.
     In step 4 the reconstruction software used during data taking is run on 
-      the output of the detector simulation
+      the output of the detector simulation.
     The output of the reconstruction is reduced to the information that is 
       needed for the final analysis in the final step.
 
@@ -91,26 +90,43 @@
       data to the final data needed for the analysis are identical to the 
       STARlight production.
 
-    The various MC samples differ primarily in the 
-      \pt{} distribution and the polarization of the \JPsi{}s produced. 
-      The polarization of the \JPsi{} effects the angle at which the muon daughters
-      are emitted relative to the direction in which the \JPsi{} is traveling 
-      \cite{oniaPol}. 
+    The momentum of the final state muons is the main drivers of whether the 
+      candidate can be measured.
+    One of the two daughters muons must have enough momentum to fire the 
+      trigger, and both muons  must have enough momentum to be 
+      reconstructed and tagged as a muon. 
+    There are at least 10 interactions lengths of material through which the 
+      muons must travel in order reach the muon chambers 
+      (see Fig.~\ref{fig:matThick}).
+    This imposes an effect momentum threshold on which muons can fire the 
+      trigger and be reconstructed. 
+
+    The \pt{} distribution and the polarization of the \JPsi{}s produced are 
+      the main factors controlling the momentum of the muon daughters, which
+      vary for the different MC samples. 
+    The polarization effects how the momentum is shared between the daughters
+      \cite{oniaPol}.
+    In the rest frame of the parent \JPsi{}, equal momentum is given to each 
+      daughter muon. 
+    However in the lab frame of the detector, the muon daughters which are 
+      emitted from transversely polarized \JPsi{} will tend to be emitted in
+      the direction the \JPsi{} is traveling and will have unequal momentum in 
+      the lab frame.
+    The daughter traveling in the direction of the \JPsi{} will have increased
+      momentum, whereas the daughter traveling opposite to the \JPsi{} 
+      direction will have decreased momentum. 
+
     In Fig.~\ref{fig:starlightRapPtDist} the \pt{} of \JPsi{}s from the 
-      coherent and photon-photon samples are peaked steeply a low \pt{}, and 
-      neither sample extends much beyond 0.15 GeV in \pt{}.
+      coherent, incoherent, and photon-photon samples are compared.
+    Both the coherent and the photon-photon samples are concentrated a low 
+      \pt{}, and neither sample extends much beyond 0.15 GeV.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
-    The two particle gun samples resemble the incoherent and coherent samples.
+    The two particle gun samples resemble the incoherent and coherent samples
+      \pt{} distributions.
     The first sample has a Gaussian \pt{} distribution extending to 
       approximately 0.15 GeV, whereas the second is flat in \pt{} up to
       2 GeV.
-    The particle gun samples are unpolarized, whereas the STARlight samples 
-      have transverse polarization. 
-    Therefore, the particle gun samples there is no preferred direction for the 
-      emission of the daughter muons.
-    In the STARlight samples however the daughters tend to be emitted in line
-      with the direction of the \JPsi{}'s momentum.
-    This is particularly pronounced for the photon-photon process.
+
 
     \begin{figure}[!Hhbt]
       \centering
@@ -124,6 +140,15 @@
       \label{fig:starlightRapPtDist}
     \end{figure}
     
+    The particle gun samples are unpolarized, whereas the STARlight samples 
+      have transverse polarization.
+    In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the particle 
+      gun samples and the STARlight samples are shown.
+    For the STARlight sample the helicity angle, the angle between the 
+      direction of the $\mu^{+}$ daughter and the \JPsi{} direction in the rest
+      frame of the \JPsi{}, prefer to be either parallel or anit-parallel.
+    However, the particle gun samples have no preferred direction of emission.
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
@@ -132,26 +157,6 @@
         cosine of the helicity angle.} 
       \label{fig:genHXAngle}
     \end{figure}
-%%%%%Fix this paragraph%%%%%%
-    The momentum of the final state muons is the main drivers of whether the 
-      candidate can be measured.
-    If neither muon daughter of the \JPsi{} possess enough momentum to reach 
-      the muon chambers and fire the trigger, the event will not be recorded.
-    The polarization and the \pt{} distribution of dimuons from the generator
-      determine the momentum of the daughters. 
-    The polarization effects how the momentum is shared between the daughters.
-    In the rest frame of the parent particle from which the daughters decay,
-      equal momentum is given to each daughter. 
-    However in the lab frame of the detector, the muon daughters which are 
-      emitted from transversely polarized \JPsi{} will tend to be emitted in
-      the direction of \JPsi{} and will have unequal momentum in the lab 
-      frame.
-    The daughter traveling in the direction of the \JPsi{} will have increased
-      momentum, whereas the daughter traveling opposite to the \JPsi{} 
-      direction will have decreased momentum. 
-    The momentum of the lower momentum muon daughters is the main restriction
-      on whether or not the \JPsi{} can be reconstructed in CMS. 
-%%%%%Fix this paragraph%%%%%%
     
   \section{\label{sec:TrigDev} Trigger development} 
     The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
@@ -167,7 +172,7 @@
       goals of the CMS Heavy Ions group as a whole, a collection of UPC triggers
       were commissioned. 
   
-    The UPC triggers were estimated by combining existing triggers from
+    The UPC trigger for 2011 were created by combining existing triggers from 
       the 2010 run. 
     By calculating the ratio between the UPC trigger rates and the minimum bias
       trigger rate, the UPC trigger rates were scaled up to the anticipated 2011 
@@ -178,14 +183,14 @@
       electron triggers.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
-      The goal of the UPC L1 triggers was to record enough data to measure 
-        UPC \JPsi production via the dimuons and dielectrons channels.
+      The goal of the UPC L1 triggers were to record enough data to measure 
+        UPC \JPsi{} production via the dimuon and dielectron channels.
       To achieve this, the loosest muon and electron triggers where paired with
         a trigger on energy in the ZDC and a veto on energy in the BSCs.
       Additional triggers that vetoed on energy in HF were commissioned in case
         radiation damage during the run reduced the sensitivity of the BSCs.
       These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
-      The 5 and 2 for the ECAL triggers in Table~\ref{tab:l1Triggers2011}
+      The 5 and 2 in the ECAL trigger names in Table~\ref{tab:l1Triggers2011}
         indicate a 5 and 2 GeV threshold on $E_{T}$ measured in the ECAL.
       The Open in the muon trigger indicates that the trigger only 
         requires a muon candidate in one of the three muon sub-systems and that
@@ -207,7 +212,7 @@
         \label{tab:l1Triggers2011}
       \end{table}
       The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
-        required to be 200 Hz.
+        required to be no greater than 200 Hz.
       This requirement stemmed from the need to keep the tracker read-out rate
         low. 
       The trackers baseline voltage can fluctuate due to the high tracker hit 
@@ -218,7 +223,7 @@
 
       In order to record the efficiency monitoring data, the ZDC triggers had 
         to be prescaled to a lower rate. 
-      The scaling down of the monitoring trigger was setup to insure overlap
+      The scaling down of the monitoring trigger was setup to ensure overlap
         with the signal triggers.
       The prescales for the triggers were set to balance the competing objectives 
         of rate reduction and increasing the overlap between the monitoring and
@@ -257,7 +262,7 @@
         \label{tab:hltTriggers2011}
       \end{table}
 
-      The total HLT output for the UPC trigger package was 20 Hz. 
+      The total HLT output for the UPC trigger package was limited to 20 Hz. 
       The limiting factor for the HLT rate was the amount of disk space 
         available to store the data. 
       To meet the bandwidth requirements and collect a significant sample
@@ -283,8 +288,8 @@
     Of this, 143 $\mu$$b^{-1}$ were used in this analysis.
   
     \subsection{Data sets}
-      Three specially selected samples were used for the present analysis, 
-        Physics, Monitoring, and Zero bias, see Table~\ref{tab:sampleLumiNevt}.
+      Three specially selected samples were used for this analysis, 
+        Physics, Monitoring, and Zero bias (see Table~\ref{tab:sampleLumiNevt}).
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias and 
         ZDC triggered samples allow for the investigation of the selection 
@@ -302,7 +307,7 @@
         trigger labeled "L1UPCMuon and Pixel Track" in 
         Table~\ref{tab:hltTriggers2011}. 
       Because of the characteristically low momentum of UPC \JPsi{} as compared
-        to \JPsi{} created by any other physics processes, the loosest muon 
+        to \JPsi{} created by other physics processes, the loosest muon 
         trigger was used.
       The noise trigger rate for the muon trigger alone was 50Hz, but in 
         coincidence with the BCS veto and the ZDC trigger the noise rate was
@@ -321,11 +326,11 @@
         consistent with at least one neutron in either of the ZDCs.
       This process is much more common than the UPC \JPsi{} production.
       Neutron production has cross sections on the order of 100 b compared
-        to 10 mb from \JPsi{} production. 
+        to 10 mb predicted from \JPsi{} production. 
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
       From this trigger the pixel track portion of the HLT trigger efficiency 
-        was estimated as well as the ZDC trigger efficiency as will be described 
+        was estimated as well as the ZDC trigger efficiency, as will be described 
         in Section~\ref{sec:effDet}. 
   
       In addition to the monitoring and physics sample, a zero bias sample was 
@@ -342,7 +347,7 @@
         interactions.
   
       The integrated luminosity for each of the three samples is calculated
-      by recording activity in HF \cite{cmsLumi}. 
+        by recording activity in HF \cite{cmsLumi}. 
       The cross section for HF activity is measured from a van der Meer scan, 
         and the cross section was found to be 45 mb for proton-proton running.
       In this way, the amount of integrated luminosity for any running period is
@@ -472,8 +477,7 @@
       versus several neutrons, or where neutrons are present on only one or 
       both sides, the different break-up modes can be separated
       and compared to theory. 
-    For this reason, reconstruction of the ZDC signal plays an important role 
-      in this thesis. 
+
     In order to maximize the ability to explore the one neutron peak, which 
       sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
       method was devised. 
@@ -546,7 +550,6 @@
         \label{fig:zdcTs4OvTs5VTs5}
       \end{figure}
       
-     
       When summing the 9 channels in each ZDC only channels with signals above 
         zero in time slices 4 and 5 were included. 
       The EM section of the calorimeter is more densely packed with quartz 
@@ -969,7 +972,7 @@
         hadronic interactions.
         
       This ZDC triggered sample suffers from a trigger bias. 
-      For example, a sample triggered by ZDC$^{+}$ would always produce a i
+      For example, a sample triggered by ZDC$^{+}$ would always produce a 
         ZDC$^{+}$ trigger efficiency of one. 
       To avoid this, a similar technique to tag and probe was used.
       Each event is either tagged as triggered by ZDC$^{+}$ or triggered 
