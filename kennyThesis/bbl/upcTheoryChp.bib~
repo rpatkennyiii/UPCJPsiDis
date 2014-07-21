@@ -907,18 +907,3 @@ authnote = "M.M. Aggarwal and Z. Ahammed and J. Amonett and B.D. Anderson and D.
   reprotNumber   = "POC-2002-FRBT03",
   SLACcitation   = "%%CITATION = NUCL-EX/0210009;%%",
 } 
-
-@article{spsHI,
-      author         = "Satz, Helmut",
-      title          = "{The SPS heavy ion programme}",
-      journal        = "Phys.Rept.",
-      volume         = "403-404",
-      pages          = "33-50",
-      doi            = "10.1016/j.physrep.2004.08.009",
-      year           = "2004",
-      eprint         = "hep-ph/0405051",
-      archivePrefix  = "arXiv",
-      primaryClass   = "hep-ph",
-      reportNumber   = "BI-TP-2004-11",
-      SLACcitation   = "%%CITATION = HEP-PH/0405051;%%",
-}
