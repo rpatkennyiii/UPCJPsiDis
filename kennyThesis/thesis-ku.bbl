@@ -5,6 +5,37 @@ L.~McLerran, ``{The Color Glass Condensate and Glasma},''
 \href{http://arxiv.org/abs/0804.1736}{{\ttfamily arXiv:0804.1736 [hep-ph]}}.
 %%CITATION = ARXIV:0804.1736;%%.
 
+\bibitem{upcNeuPHENIX}
+M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
+  ``Measurement of mutual coulomb dissociation in
+  $\sqrt{{s}_{\mathrm{NN}}}\phantom{\rule{0ex}{0ex}}=\phantom{\rule{0ex}{0ex}}130\mathrm{GeV}$
+  $au+au$ collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.89.012302}{{\em Phys. Rev. Lett.}
+  {\bfseries 89} (Jun, 2002) 012302}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.012302}.
+
+\bibitem{upcRhoSTAR08}
+{\bfseries STAR Collaboration} Collaboration, B.~I. Abelev {\em et~al.},
+  ``$\rho^{0}$ photoproduction in ultraperipheral relativistic heavy ion
+  collisions at $\sqrt{s_{NN}}$ = 200 gev,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.77.034910}{{\em Phys. Rev. C}
+  {\bfseries 77} (Mar, 2008) 034910}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.77.034910}.
+
+\bibitem{upcRhoSTAR02}
+{\bfseries STAR Collaboration} Collaboration, C.~Adler and otheres, ``Coherent
+  $\rho^{0}$ production in ultraperipheral heavy-ion collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.89.272302}{{\em Phys. Rev. Lett.}
+  {\bfseries 89} (Dec, 2002) 272302}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.272302}.
+
+\bibitem{upcJPsiPHENIX}
+S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
+  ultra-peripheral au-au collisions at $\sqrt{s_{NN}}$,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2009.07.061}{{\em
+  Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
+
 \bibitem{tCmsE}
 S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
   Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
