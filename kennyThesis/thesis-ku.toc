@@ -52,9 +52,7 @@
 \contentsline {section}{\numberline {5.2}Incoherent cross section}{93}{section.5.2}
 \contentsline {section}{\numberline {5.3}Break up ratios}{93}{section.5.3}
 \contentsline {section}{\numberline {5.4}diMuon-neutron correlations}{95}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{103}{chapter.6}
-\contentsline {section}{\numberline {6.1}xsection results }{103}{section.6.1}
-\contentsline {section}{\numberline {6.2}correlation results}{103}{section.6.2}
+\contentsline {chapter}{\numberline {6}Summary}{103}{chapter.6}
 \contentsline {chapter}{\numberline {7}Future Works}{104}{chapter.7}
 \contentsline {section}{\numberline {7.1}Studies of 2011 PbPb data}{104}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}High mass $\gamma -\gamma \rightarrow e^{+} e^{-}$ in PbPb 2011}{104}{subsection.7.1.1}
