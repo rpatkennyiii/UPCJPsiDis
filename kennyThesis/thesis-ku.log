@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  23 JUL 2014 21:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  25 JUL 2014 17:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1858,11 +1858,11 @@ gures/ZDCDimuCorrIncoh.png> <./ResultsChapter/figures/ZDCDimuCorrGammaGamma.png
 
  (./ConclusionChapter/upcConclusionChp.tex
 Chapter 6.
-) [103
+[103
 
 
 
-]
+] [104]) [105]
 \openout2 = `FutureWorksChapter/upcFutureWorksChp.aux'.
 
  (./FutureWorksChapter/upcFutureWorksChp.tex
@@ -1901,12 +1901,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 4.
 
-[104
+[106
 
 
 
 ]
-<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=2755, 569.12625pt x 
+<FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf, id=2772, 569.12625pt x 
 555.07375pt>
 File: FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf Graphic file (type 
 pdf)
@@ -1918,7 +1918,7 @@ used on input line 61.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[105] [106 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [107]
+[107] [108 <./FutureWorksChapter/figures/2012-Sep-24-excess7090.pdf>] [109]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
@@ -1931,7 +1931,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 176.
 
-[108]
+[110]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
@@ -1957,7 +1957,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 203.
 
 
-<FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, id=2793, 569.12625pt x 546.
+<FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, id=2810, 569.12625pt x 546.
 04pt>
 File: FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf Graphic file (type pdf)
 
@@ -1966,7 +1966,7 @@ Package pdftex.def Info: FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf used
  on input line 223.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, id=2794, 569.12625pt x 546
+<FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, id=2811, 569.12625pt x 546
 .04pt>
 File: FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf Graphic file (type pdf
 )
@@ -1976,25 +1976,25 @@ d on input line 232.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `upcJets1' on page 109 undefined on input line 250.
+LaTeX Warning: Citation `upcJets1' on page 111 undefined on input line 250.
 
-[109] [110 <./FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, page is rotate
-d 90 degrees>]) [111 <./FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, pag
+[111] [112 <./FutureWorksChapter/figures/effDiMuRapPbPb2015.pdf, page is rotate
+d 90 degrees>]) [113 <./FutureWorksChapter/figures/accEffPtJpsiUps2015.pdf, pag
 e is rotated 90 degrees>] (./thesis-ku.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 5.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [112
+) [114
 
 
-] [113]
-[114]) [115]
+] [115]
+[116]) [117]
 \openout2 = `Appendix1/Appendix1.aux'.
 
  (./Appendix1/Appendix1.tex
 Appendix A.
-) [116
+) [118
 
 
 ]
@@ -2016,8 +2016,8 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 128.
  ) 
 Here is how much of TeX's memory you used:
- 11484 strings out of 493308
- 181200 string characters out of 6137822
+ 11486 strings out of 493308
+ 181216 string characters out of 6137822
  287883 words of memory out of 5000000
  14088 multiletter control sequences out of 15000+600000
  78178 words of font info for 138 fonts, out of 8000000 for 9000
@@ -2036,10 +2036,10 @@ w/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis-ku.pdf (130 pages, 3014860 bytes).
+Output written on thesis-ku.pdf (132 pages, 3020036 bytes).
 PDF statistics:
- 3088 PDF objects out of 3580 (max. 8388607)
- 2056 compressed objects within 21 object streams
- 355 named destinations out of 1000 (max. 500000)
+ 3105 PDF objects out of 3580 (max. 8388607)
+ 2071 compressed objects within 21 object streams
+ 357 named destinations out of 1000 (max. 500000)
  1003 words of extra memory for PDF output out of 10000 (max. 10000000)
 
