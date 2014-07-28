@@ -110,7 +110,7 @@
     The critical energy density, $\epsilon_{crit}$, and critical temperature, 
       $T_{crit}$, are calculated to be 1.5 GeV and 170 MeV from lattice QCD 
       estimates \cite{ }.
-    The measurement of the $\frac{d\E_{T}}{d\eta}$ provides a means of 
+    The measurement of the $\frac{dE_{T}}{d\eta}$ provides a means of 
       estimating the energy density of the hot state created in heavy ion
       collisions. 
     The temperature can be estimated from the transverse momentum, \pt{}, 
@@ -122,14 +122,93 @@
       confirm that the critical values for energy density and temperature are
       exceeded.
 
-    The $\frac{dE}{d\eta}$ measured by CMS \cite{cmsEt} and PHENIX is done 
-      using the expirements' calorimeter systems.
+    The value of $\frac{dE}{d\eta}$ measured by CMS \cite{cmsEt} and PHENIX 
+      \cite{phenixDeDeta} was done using the expirements' calorimeter systems.
+    The value of $E_{T}$ for this measurement is defined as 
+      $E_{T}=\sum_{i}E_{i}sin\theta_{i}$, where $E_{i}$ is the energy measured 
+      by the ith calorimeter element and $\theta$ is the angle between the 
+      center of the detector element and the interaction point. 
+    The calculated $\frac{dE_{T}}{d\eta}\bracevert_{0}$, the interval 
+      $0.35<|\eta|$ was used by both experiments and corrisponds to the full
+      coverage of the PHENIX calorimeters. 
+    From the $\frac{dE_{T}}{d\eta}\bracevert_{0}$ measurements, the energy 
+      density of the created medium at the LHC and RHIC were estimated from the
+      Bjorken energy density formula, 
+      $\epsilon_{Bj}=\frac{1}{A\tau}\frac{dE_{T}}{dy}$, where $A$ is the region
+      of overlap between the two colliding nuclie and $\tau$ is the formation
+      time of the medium \cite{bjEdense}.
+    The energy density, $\epsilon{Bj}\dot\tau$, from PHENIX was measured at
+      RHIC to be 5.4$\pm$0.6 GeV fm$^{-2}$c$^{-1}$ for the 5\% most energetic 
+      collisions compared to the 14 GeV fm$^{-2}$c$^{-1}$ at the LHC as 
+      measured by CMS. 
+    Both values are well above $\sim$ 1.5 GeV fm$^{3}$ critical energy density
+      calculated from lattice QCD when assuming a medium formation time $\tau$ 
+      = 1fm/c.
+      \begin{figure}[!Hhbt]
+        \centering
+        \includegraphics[width=.65\textwidth]{dEtdEta}
+        \caption{Comparison of $\frac{dE_{T}}{d\eta}$ as a function of 
+          collision energy, $\sqrt{s_{NN}}$, normalized by the number 
+          participating nucleons, $N_{p}$, to account for the difference in 
+          the ion species collided at the various different experiments.}
+        \label{fig:dEtdEta}
+      \end{figure}
 
-    The direct photons were measured this way.
+    Direct photons, thermal photon created in the QGP, have been measured 
+      at RHIC by PHENIX \cite{phenixPhoton2010} and at the LHC by ALICE 
+      \cite{photonALICE} through the measurements of electron-positron pairs.
+    Each experiment measured the inclusive \pt{} spectrum from 
+      electron-positron pairs, all pairs from the sample are taken without
+      regard to the creation mechanism.
+    The PHENIX measurement was taken from pp collisions and top 20\% most 
+      energetic AuAu collisions, collisions with a centrality of 0-20\%. 
+    The ALICE measurement analyzed the 0-40\% centrality, 40\%-80\% centrality
+      PbPb collisions, and pp collisions. 
+    In both measurements, the contribution to the inclusive spectrum was sorted 
+      into a direct component and a component from background, primary decays
+      from hadrons such as pions and eta. 
+    In the PHENIX measurement this was done by preforming a fit to the mass 
+      distribution of the electron-positron pair for each \pt{}.
+    For the ALICE measurement, the double ratio between the inclusive photons 
+      to pions over the ratio between photons from hadron decays and pions was
+      measured to estimate the direct contribution. 
+    The inclusive photon \pt{} were then rescaled by the direct photon 
+      fractions to produce a direct photon spectrum.
+    The slope of an exponential fit to the low \pt{} portion the direct photon 
+      spectrum is used to measure the temperature.
+    \begin{figure}[!Hhbt]
+      \centering
+      $ \begin{array}{c c}
+        \includegraphics[width=.4\textwidth]{phenixDirectPhoton} &
+        \includegraphics[width=.55\textwidth]{aliceDirectPhoton}
+      \end{array} $
+      \caption{Direct photon invariant yield as a function of \pt{} from 
+        PHENIX \cite{phenixPhoton2010} (left) and ALICE \cite{photonALICE} 
+        (right)}
+      \label{fig:directPhotonPt}
+    \end{figure}
 
-    The energy density and temperature were found to be blah. 
-    It was this much higher at LHC than at RHIC
+    The direct photon through measurement of the temperature offers a clear 
+      way of establishing whether the critical temperature for deconfinement
+      was achieved. 
+    The direct photon \pt{} spectra in Fig.~\ref{fig:directPhotonPt} show a 
+      clear enhancement at low \pt{} compared to the rescaling to the pp 
+      spectra that fits the high \pt{} part of the spectrum, indicating a 
+      clear deviation for pp collisions.
+    The low \pt{} photons therefore primarily come directly from the thermal 
+      activity of the QGP.
+    The thermal spectrum of the QGP is therefor imprinted on this part of the 
+      spectrum.
+    The exponential fits to the spectra provide this temperature. 
+    The temperature from PHENIX was measured to be 221 $\pm$ 21 MeV and 
+      304 $\pm$ 51 MeV from ALICE, both well above the critical temperture
+      estimated from lattice QCD of $\sim$ 170 MeV.
 
+    The combination of the energy density and temperture measurements are RHIC
+      create a consistent picture, both RHIC and the LHC have created a 
+      deconfined state, and due the higher collision energies at the LHC the 
+      the medium gets hotter. 
+    
     Prior to the RHIC, the QGP was thought to be a gas of quarks and gluons.
     At RHIC the measurements at STAR showed that the medium appeared to obey 
       hydrodynamic equations and flows like a fluid.
@@ -155,27 +234,6 @@
       \includegraphics{elipFlowSchem}
       \caption{ Elliptical flow schematic diagram.}
       \label{fig:elipFlowSchem}
-    \end{figure}
-
-    \begin{figure}[!Hhbt]
-      \centering
-      \includegraphics{hadRaaRhic}
-      \caption{Hadron R$_{AA}$ from RHIC}
-      \label{fig:hadRaaRhic}
-    \end{figure}
-
-    \begin{figure}[!Hhbt]
-      \centering
-      \includegraphics[width=.45\textwidth]{hadRaaLhc}
-      \caption{Hadron R$_{AA}$ from the LHC.}
-      \label{fig:hadRaaLhc}
-    \end{figure}
-
-    \begin{figure}[!Hhbt]
-      \centering
-      \includegraphics[width=.45\textwidth]{noRaaLhc}
-      \caption{R$_{AA}$ for unsuppressed Z bosons and isolated photons.}
-      \label{fig:noRaaLhc}
     \end{figure}
 
   \section{Recent results from HI control measurements}

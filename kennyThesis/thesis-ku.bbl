@@ -1,5 +1,23 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{phenixPhoton2010}
+{\bfseries PHENIX Collaboration} Collaboration, A.~Adare {\em et~al.},
+  ``Enhanced production of direct photons in $\mathrm{Au}+\mathrm{Au}$
+  collisions at $\sqrt{{s}_{NN}}=200\mathrm{GeV}$ and implications for the
+  initial temperature,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.104.132301}{{\em Phys. Rev.
+  Lett.} {\bfseries 104} (Mar, 2010) 132301}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.104.132301}.
+
+\bibitem{photonALICE}
+M.~Wilde, ``Measurement of direct photons in pp and pb–pb collisions with
+  \{ALICE\},''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysa.2013.02.079}{{\em
+  Nuclear Physics A} {\bfseries 904–905} no.~0, (2013) 573c -- 576c}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0375947413001954}. The
+  Quark Matter 2012 Proceedings of the \{XXIII\} International Conference on
+  Ultrarelativistic Nucleus-Nucleus Collisions.
+
 \bibitem{CGC2Lec}
 L.~McLerran, ``{The Color Glass Condensate and Glasma},''
 \href{http://arxiv.org/abs/0804.1736}{{\ttfamily arXiv:0804.1736 [hep-ph]}}.
@@ -49,6 +67,28 @@ S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
   {\bfseries 107} (2011) 142301},
 \href{http://arxiv.org/abs/1010.1246}{{\ttfamily arXiv:1010.1246 [nucl-ex]}}.
 %%CITATION = ARXIV:1010.1246;%%.
+
+\bibitem{cmsEt}
+{\bfseries CMS Collaboration} Collaboration, S.~Chatrchyan {\em et~al.},
+  ``Measurement of the pseudorapidity and centrality dependence of the
+  transverse energy density in pb-pb collisions at snn=2.76\,\,tev,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.109.152303}{{\em Phys. Rev.
+  Lett.} {\bfseries 109} (Oct, 2012) 152303}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.109.152303}.
+
+\bibitem{phenixDeDeta}
+{\bfseries PHENIX Collaboration} Collaboration, S.~S. Adler {\em et~al.},
+  ``Systematic studies of the centrality and $\sqrt{s_{NN}}$ dependence of the
+  $de_{T}/d\eta$ and $dn_{ch}/d\eta$ in heavy ion collisions at midrapidity,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.71.034908}{{\em Phys. Rev. C}
+  {\bfseries 71} (Mar, 2005) 034908}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.71.034908}.
+
+\bibitem{bjEdense}
+J.~D. Bjorken, ``Highly relativistic nucleus-nucleus collisions: The central
+  rapidity region,'' \href{http://dx.doi.org/10.1103/PhysRevD.27.140}{{\em
+  Phys. Rev. D} {\bfseries 27} (Jan, 1983) 140--151}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevD.27.140}.
 
 \bibitem{CGCandGlasma}
 F.~Gelis, ``Color glass condensate and glasma,''

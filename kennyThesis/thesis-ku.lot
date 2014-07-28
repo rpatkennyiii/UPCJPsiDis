@@ -1,26 +1,26 @@
 \select@language {english}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces $\sigma _{AA\rightarrow AAJ/\psi } (mb)$ the LTA, VMD, pQCD methods. Four different gluon density models are used in the pQCD method. STARlight is a simulation software package that utilizes the VMD model.\relax }}{29}{table.caption.12}
+\contentsline {table}{\numberline {2.1}{\ignorespaces $\sigma _{AA\rightarrow AAJ/\psi } (mb)$ the LTA, VMD, pQCD methods. Four different gluon density models are used in the pQCD method. STARlight is a simulation software package that utilizes the VMD model.\relax }}{31}{table.caption.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces List of 2011 L1 seeds.\relax }}{53}{table.caption.37}
-\contentsline {table}{\numberline {4.2}{\ignorespaces List of 2011 HLT trigger.\relax }}{54}{table.caption.38}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Integrated luminosities and number of events for the three samples used in this analysis.\relax }}{56}{table.caption.39}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Effects of event selection cuts.\relax }}{57}{table.caption.40}
-\contentsline {table}{\numberline {4.5}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2\relax }}{74}{table.caption.57}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of systematic uncertainties\relax }}{75}{table.caption.58}
-\contentsline {table}{\numberline {4.7}{\ignorespaces HF noise theresholds for various noise measurement methods.\relax }}{76}{table.caption.59}
-\contentsline {table}{\numberline {4.8}{\ignorespaces Candidate yields below 1.05 GeV $p_{T}${} for various HF noise cuts.\relax }}{76}{table.caption.60}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Values of the energy cuts for the HF calorimeter for RecHit and CaloTower in GeV.\relax }}{76}{table.caption.61}
-\contentsline {table}{\numberline {4.10}{\ignorespaces Number of dimuon candidates with p$_{T} <$1.05 when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{76}{table.caption.62}
-\contentsline {table}{\numberline {4.11}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for different trigger samples\relax }}{84}{table.caption.70}
+\contentsline {table}{\numberline {4.1}{\ignorespaces List of 2011 L1 seeds.\relax }}{55}{table.caption.36}
+\contentsline {table}{\numberline {4.2}{\ignorespaces List of 2011 HLT trigger.\relax }}{56}{table.caption.37}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Integrated luminosities and number of events for the three samples used in this analysis.\relax }}{58}{table.caption.38}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Effects of event selection cuts.\relax }}{59}{table.caption.39}
+\contentsline {table}{\numberline {4.5}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2\relax }}{76}{table.caption.56}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of systematic uncertainties\relax }}{77}{table.caption.57}
+\contentsline {table}{\numberline {4.7}{\ignorespaces HF noise theresholds for various noise measurement methods.\relax }}{78}{table.caption.58}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Candidate yields below 1.05 GeV $p_{T}${} for various HF noise cuts.\relax }}{78}{table.caption.59}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Values of the energy cuts for the HF calorimeter for RecHit and CaloTower in GeV.\relax }}{78}{table.caption.60}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Number of dimuon candidates with p$_{T} <$1.05 when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{78}{table.caption.61}
+\contentsline {table}{\numberline {4.11}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for different trigger samples\relax }}{86}{table.caption.69}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Number of coherent J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{94}{table.caption.82}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Number of coherent J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{95}{table.caption.83}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Number of J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{96}{table.caption.84}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Number of dimuon pairs for different directions of the neutron rapidity direction together with $R_{(\mu \mu )^{-}}^{n^{-}/n^{+}}$ and $R_{(\mu \mu )^{+}}^{n^{-}/n^{+}}$.\relax }}{100}{table.caption.90}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Ratios $R_{(\mu \mu )^{-}}^{\varepsilon _{ZDC}(n^{-}/n^{+})}$ and $R_{(\mu \mu )^{+}}^{\varepsilon _{ZDC}(n^{-}/n^{+})} $ i.e. $R_{(\mu \mu )^{-}}^{n^{-}/n^{+}}$ and $R_{(\mu \mu )^{+}}^{n^{-}/n^{+}} $ corrected by the ZDC$^{+}$ and ZDC$^{-}$ efficiencies.\relax }}{100}{table.caption.91}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Number of coherent J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{96}{table.caption.81}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Number of coherent J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{97}{table.caption.82}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Number of J/$\psi $ integrated over $p_{T}$ and $y$ with statistical uncertainty.\relax }}{98}{table.caption.83}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Number of dimuon pairs for different directions of the neutron rapidity direction together with $R_{(\mu \mu )^{-}}^{n^{-}/n^{+}}$ and $R_{(\mu \mu )^{+}}^{n^{-}/n^{+}}$.\relax }}{102}{table.caption.89}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Ratios $R_{(\mu \mu )^{-}}^{\varepsilon _{ZDC}(n^{-}/n^{+})}$ and $R_{(\mu \mu )^{+}}^{\varepsilon _{ZDC}(n^{-}/n^{+})} $ i.e. $R_{(\mu \mu )^{-}}^{n^{-}/n^{+}}$ and $R_{(\mu \mu )^{+}}^{n^{-}/n^{+}} $ corrected by the ZDC$^{+}$ and ZDC$^{-}$ efficiencies.\relax }}{102}{table.caption.90}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
