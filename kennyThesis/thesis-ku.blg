@@ -29,47 +29,47 @@ I was expecting a `,' or a `}'---line 404 of file bbl/upcTheoryChp.bib
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "sps"
 Warning--I didn't find a database entry for "qgpThresh"
-Warning--I didn't find a database entry for ""
+Warning--I didn't find a database entry for "whi"
 Warning--I didn't find a database entry for "upcJets1"
-You've used 32 entries,
+You've used 37 entries,
             2328 wiz_defined-function locations,
-            865 strings with 11939 characters,
-and the built_in function-call counts, 11066 in all, are:
-= -- 1229
-> -- 276
+            904 strings with 13209 characters,
+and the built_in function-call counts, 12793 in all, are:
+= -- 1422
+> -- 325
 < -- 0
-+ -- 105
-- -- 73
-* -- 953
-:= -- 1254
-add.period$ -- 68
-call.type$ -- 32
-change.case$ -- 58
++ -- 123
+- -- 86
+* -- 1099
+:= -- 1441
+add.period$ -- 78
+call.type$ -- 37
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 633
-empty$ -- 1036
-format.name$ -- 73
-if$ -- 2940
+cite$ -- 37
+duplicate$ -- 743
+empty$ -- 1181
+format.name$ -- 86
+if$ -- 3404
 int.to.chr$ -- 0
-int.to.str$ -- 32
-missing$ -- 119
-newline$ -- 122
-num.names$ -- 34
-pop$ -- 149
+int.to.str$ -- 37
+missing$ -- 139
+newline$ -- 137
+num.names$ -- 39
+pop$ -- 171
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 504
+skip$ -- 603
 stack$ -- 0
-substring$ -- 601
-swap$ -- 347
+substring$ -- 661
+swap$ -- 417
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 75
-width$ -- 34
-write$ -- 286
+while$ -- 85
+width$ -- 39
+write$ -- 329
 (There was 1 error message)

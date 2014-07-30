@@ -1,64 +1,67 @@
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
 \BOOKMARK [1][-]{section.1.1}{Overview}{chapter.1}% 2
 \BOOKMARK [1][-]{section.1.2}{Confirmation and characterization of the QGP from HI measurements}{chapter.1}% 3
-\BOOKMARK [1][-]{section.1.3}{Recent results from HI control measurements}{chapter.1}% 4
-\BOOKMARK [2][-]{subsection.1.3.1}{The HI collision}{section.1.3}% 5
-\BOOKMARK [0][-]{chapter.2}{Theory}{}% 6
-\BOOKMARK [1][-]{section.2.1}{QCD/QGP}{chapter.2}% 7
-\BOOKMARK [1][-]{section.2.2}{CGC/intial state}{chapter.2}% 8
-\BOOKMARK [1][-]{section.2.3}{Weizs\344cker-Williams Approximation}{chapter.2}% 9
-\BOOKMARK [1][-]{section.2.4}{Vector Meson Dominance}{chapter.2}% 10
-\BOOKMARK [1][-]{section.2.5}{Leading Twist Approach Derivation}{chapter.2}% 11
-\BOOKMARK [1][-]{section.2.6}{Perturbative Quantum Chromo-dynamics}{chapter.2}% 12
-\BOOKMARK [1][-]{section.2.7}{Incoherent Photoproduction}{chapter.2}% 13
-\BOOKMARK [1][-]{section.2.8}{Photon Induced Nuclear Break-up}{chapter.2}% 14
-\BOOKMARK [1][-]{section.2.9}{Theoretical Results}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.10}{Expiremental Results}{chapter.2}% 16
-\BOOKMARK [0][-]{chapter.3}{The CMS Detector}{}% 17
-\BOOKMARK [1][-]{section.3.1}{Tracker}{chapter.3}% 18
-\BOOKMARK [1][-]{section.3.2}{ECAL}{chapter.3}% 19
-\BOOKMARK [1][-]{section.3.3}{HCAL}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.4}{ZDC}{chapter.3}% 21
-\BOOKMARK [1][-]{section.3.5}{Muons}{chapter.3}% 22
-\BOOKMARK [1][-]{section.3.6}{Trigger}{chapter.3}% 23
-\BOOKMARK [0][-]{chapter.4}{Analysis}{}% 24
-\BOOKMARK [1][-]{section.4.1}{ MC simulation}{chapter.4}% 25
-\BOOKMARK [1][-]{section.4.2}{ Trigger development}{chapter.4}% 26
-\BOOKMARK [2][-]{subsection.4.2.1}{ L1 trigger}{section.4.2}% 27
-\BOOKMARK [2][-]{subsection.4.2.2}{HLT trigger}{section.4.2}% 28
-\BOOKMARK [1][-]{section.4.3}{ Event selection}{chapter.4}% 29
-\BOOKMARK [2][-]{subsection.4.3.1}{Data sets}{section.4.3}% 30
-\BOOKMARK [2][-]{subsection.4.3.2}{Event selection cuts}{section.4.3}% 31
-\BOOKMARK [1][-]{section.4.4}{ Break up determination}{chapter.4}% 32
-\BOOKMARK [2][-]{subsection.4.4.1}{ZDC signal reconstruction}{section.4.4}% 33
-\BOOKMARK [2][-]{subsection.4.4.2}{Determination of the one neutron thresholds}{section.4.4}% 34
-\BOOKMARK [1][-]{section.4.5}{ Signal extraction}{chapter.4}% 35
-\BOOKMARK [1][-]{section.4.6}{ Efficiency determination}{chapter.4}% 36
-\BOOKMARK [2][-]{subsection.4.6.1}{Muon efficiencies}{section.4.6}% 37
-\BOOKMARK [2][-]{subsection.4.6.2}{ZDC trigger efficiency}{section.4.6}% 38
-\BOOKMARK [1][-]{section.4.7}{ Systematic checks}{chapter.4}% 39
-\BOOKMARK [2][-]{subsection.4.7.1}{HF noise threshold}{section.4.7}% 40
-\BOOKMARK [2][-]{subsection.4.7.2}{Template fit normalization}{section.4.7}% 41
-\BOOKMARK [2][-]{subsection.4.7.3}{Mass fit}{section.4.7}% 42
-\BOOKMARK [2][-]{subsection.4.7.4}{MC acceptance}{section.4.7}% 43
-\BOOKMARK [2][-]{subsection.4.7.5}{ZDC reconstruction}{section.4.7}% 44
-\BOOKMARK [2][-]{subsection.4.7.6}{ZDC trigger efficiency}{section.4.7}% 45
-\BOOKMARK [2][-]{subsection.4.7.7}{ZDC reconstruction method comparison}{section.4.7}% 46
-\BOOKMARK [2][-]{subsection.4.7.8}{Tag and probe}{section.4.7}% 47
-\BOOKMARK [2][-]{subsection.4.7.9}{MC vs Data compairson}{section.4.7}% 48
-\BOOKMARK [0][-]{chapter.5}{Results}{}% 49
-\BOOKMARK [1][-]{section.5.1}{Coherent cross section}{chapter.5}% 50
-\BOOKMARK [1][-]{section.5.2}{Incoherent cross section}{chapter.5}% 51
-\BOOKMARK [1][-]{section.5.3}{Break up ratios}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.4}{diMuon-neutron correlations}{chapter.5}% 53
-\BOOKMARK [0][-]{chapter.6}{Summary}{}% 54
-\BOOKMARK [0][-]{chapter.7}{Future Works}{}% 55
-\BOOKMARK [1][-]{section.7.1}{Studies of 2011 PbPb data}{chapter.7}% 56
-\BOOKMARK [2][-]{subsection.7.1.1}{High mass -e+ e- in PbPb 2011}{section.7.1}% 57
-\BOOKMARK [2][-]{subsection.7.1.2}{UPC Hadronic Overlap and PbPb 2011}{section.7.1}% 58
-\BOOKMARK [2][-]{subsection.7.1.3}{UPC with muons in HF}{section.7.1}% 59
-\BOOKMARK [1][-]{section.7.2}{Studies of 2013 pPb data and 2015 PbPb data}{chapter.7}% 60
-\BOOKMARK [2][-]{subsection.7.2.1}{pPb J/}{section.7.2}% 61
-\BOOKMARK [2][-]{subsection.7.2.2}{UPC J/ and \040in 2015}{section.7.2}% 62
-\BOOKMARK [2][-]{subsection.7.2.3}{UPC jets}{section.7.2}% 63
-\BOOKMARK [0][-]{appendix.A}{My Appendix, Next to my Spleen}{}% 64
+\BOOKMARK [2][-]{subsection.1.2.1}{Variables in heavy ion measurements}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Temperature and energy density of the QGP}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Elliptic flow and viscosity in the QGP}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Recent results from HI control measurements}{section.1.2}% 7
+\BOOKMARK [0][-]{chapter.2}{Theory}{}% 8
+\BOOKMARK [1][-]{section.2.1}{QCD/QGP}{chapter.2}% 9
+\BOOKMARK [1][-]{section.2.2}{CGC/intial state}{chapter.2}% 10
+\BOOKMARK [1][-]{section.2.3}{Weizs\344cker-Williams Approximation}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.4}{Vector Meson Dominance}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.5}{Leading Twist Approach Derivation}{chapter.2}% 13
+\BOOKMARK [1][-]{section.2.6}{Perturbative Quantum Chromo-dynamics}{chapter.2}% 14
+\BOOKMARK [1][-]{section.2.7}{Incoherent Photoproduction}{chapter.2}% 15
+\BOOKMARK [1][-]{section.2.8}{Photon Induced Nuclear Break-up}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.9}{Experimental Results}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.9.1}{ UPC vector mesons photoproduction at RHIC }{section.2.9}% 18
+\BOOKMARK [2][-]{subsection.2.9.2}{ UPC J/ at the LHC}{section.2.9}% 19
+\BOOKMARK [0][-]{chapter.3}{ The CMS Detector}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Tracker}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{ECAL}{chapter.3}% 22
+\BOOKMARK [1][-]{section.3.3}{HCAL}{chapter.3}% 23
+\BOOKMARK [1][-]{section.3.4}{ZDC}{chapter.3}% 24
+\BOOKMARK [1][-]{section.3.5}{Muons}{chapter.3}% 25
+\BOOKMARK [1][-]{section.3.6}{Trigger}{chapter.3}% 26
+\BOOKMARK [0][-]{chapter.4}{ Analysis}{}% 27
+\BOOKMARK [1][-]{section.4.1}{ MC simulation}{chapter.4}% 28
+\BOOKMARK [1][-]{section.4.2}{ Trigger development}{chapter.4}% 29
+\BOOKMARK [2][-]{subsection.4.2.1}{ L1 trigger}{section.4.2}% 30
+\BOOKMARK [2][-]{subsection.4.2.2}{HLT trigger}{section.4.2}% 31
+\BOOKMARK [1][-]{section.4.3}{ Event selection}{chapter.4}% 32
+\BOOKMARK [2][-]{subsection.4.3.1}{Data sets}{section.4.3}% 33
+\BOOKMARK [2][-]{subsection.4.3.2}{Event selection cuts}{section.4.3}% 34
+\BOOKMARK [1][-]{section.4.4}{ Break up determination}{chapter.4}% 35
+\BOOKMARK [2][-]{subsection.4.4.1}{ZDC signal reconstruction}{section.4.4}% 36
+\BOOKMARK [2][-]{subsection.4.4.2}{Determination of the one neutron thresholds}{section.4.4}% 37
+\BOOKMARK [1][-]{section.4.5}{ Signal extraction}{chapter.4}% 38
+\BOOKMARK [1][-]{section.4.6}{ Efficiency determination}{chapter.4}% 39
+\BOOKMARK [2][-]{subsection.4.6.1}{Muon efficiencies}{section.4.6}% 40
+\BOOKMARK [2][-]{subsection.4.6.2}{ZDC trigger efficiency}{section.4.6}% 41
+\BOOKMARK [1][-]{section.4.7}{ Systematic checks}{chapter.4}% 42
+\BOOKMARK [2][-]{subsection.4.7.1}{HF noise threshold}{section.4.7}% 43
+\BOOKMARK [2][-]{subsection.4.7.2}{Template fit normalization}{section.4.7}% 44
+\BOOKMARK [2][-]{subsection.4.7.3}{Mass fit}{section.4.7}% 45
+\BOOKMARK [2][-]{subsection.4.7.4}{MC acceptance}{section.4.7}% 46
+\BOOKMARK [2][-]{subsection.4.7.5}{ZDC reconstruction}{section.4.7}% 47
+\BOOKMARK [2][-]{subsection.4.7.6}{ZDC trigger efficiency}{section.4.7}% 48
+\BOOKMARK [2][-]{subsection.4.7.7}{ZDC reconstruction method comparison}{section.4.7}% 49
+\BOOKMARK [2][-]{subsection.4.7.8}{Tag and probe}{section.4.7}% 50
+\BOOKMARK [2][-]{subsection.4.7.9}{MC vs Data compairson}{section.4.7}% 51
+\BOOKMARK [0][-]{chapter.5}{Results}{}% 52
+\BOOKMARK [1][-]{section.5.1}{Coherent cross section}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.2}{Incoherent cross section}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.3}{Break up ratios}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.4}{diMuon-neutron correlations}{chapter.5}% 56
+\BOOKMARK [0][-]{chapter.6}{Summary}{}% 57
+\BOOKMARK [0][-]{chapter.7}{Future Works}{}% 58
+\BOOKMARK [1][-]{section.7.1}{Studies of 2011 PbPb data}{chapter.7}% 59
+\BOOKMARK [2][-]{subsection.7.1.1}{High mass -e+ e- in PbPb 2011}{section.7.1}% 60
+\BOOKMARK [2][-]{subsection.7.1.2}{UPC Hadronic Overlap and PbPb 2011}{section.7.1}% 61
+\BOOKMARK [2][-]{subsection.7.1.3}{UPC with muons in HF}{section.7.1}% 62
+\BOOKMARK [1][-]{section.7.2}{Studies of 2013 pPb data and 2015 PbPb data}{chapter.7}% 63
+\BOOKMARK [2][-]{subsection.7.2.1}{pPb J/}{section.7.2}% 64
+\BOOKMARK [2][-]{subsection.7.2.2}{UPC J/ and \040in 2015}{section.7.2}% 65
+\BOOKMARK [2][-]{subsection.7.2.3}{UPC jets}{section.7.2}% 66
+\BOOKMARK [0][-]{appendix.A}{My Appendix, Next to my Spleen}{}% 67

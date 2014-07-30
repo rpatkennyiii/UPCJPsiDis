@@ -32,28 +32,6 @@ M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
   {\bfseries 89} (Jun, 2002) 012302}.
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.012302}.
 
-\bibitem{upcRhoSTAR08}
-{\bfseries STAR Collaboration} Collaboration, B.~I. Abelev {\em et~al.},
-  ``$\rho^{0}$ photoproduction in ultraperipheral relativistic heavy ion
-  collisions at $\sqrt{s_{NN}}$ = 200 gev,''
-  \href{http://dx.doi.org/10.1103/PhysRevC.77.034910}{{\em Phys. Rev. C}
-  {\bfseries 77} (Mar, 2008) 034910}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevC.77.034910}.
-
-\bibitem{upcRhoSTAR02}
-{\bfseries STAR Collaboration} Collaboration, C.~Adler and otheres, ``Coherent
-  $\rho^{0}$ production in ultraperipheral heavy-ion collisions,''
-  \href{http://dx.doi.org/10.1103/PhysRevLett.89.272302}{{\em Phys. Rev. Lett.}
-  {\bfseries 89} (Dec, 2002) 272302}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.272302}.
-
-\bibitem{upcJPsiPHENIX}
-S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
-  ultra-peripheral au-au collisions at $\sqrt{s_{NN}}$,''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2009.07.061}{{\em
-  Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
-
 \bibitem{tCmsE}
 S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
   Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
@@ -89,6 +67,36 @@ J.~D. Bjorken, ``Highly relativistic nucleus-nucleus collisions: The central
   rapidity region,'' \href{http://dx.doi.org/10.1103/PhysRevD.27.140}{{\em
   Phys. Rev. D} {\bfseries 27} (Jan, 1983) 140--151}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.27.140}.
+
+\bibitem{phobosFlow}
+B.~Alver {\em et~al.}, ``Importance of correlations and fluctuations on the
+  initial source eccentricity in high-energy nucleus-nucleus collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.77.014906}{{\em Phys. Rev. C}
+  {\bfseries 77} (Jan, 2008) 014906}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.77.014906}.
+
+\bibitem{cmsFlow}
+{\bfseries CMS Collaboration} Collaboration, S.~Chatrchyan {\em et~al.},
+  ``Measurement of the elliptic anisotropy of charged particles produced in
+  pbpb collisions at $\sqrt{{s}_{NN}}=2.76$ tev,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.87.014902}{{\em Phys. Rev. C}
+  {\bfseries 87} (Jan, 2013) 014902}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.87.014902}.
+
+\bibitem{etaOvSinit}
+H.~Song, S.~A. Bass, U.~Heinz, T.~Hirano, and C.~Shen, ``200 $a$ gev
+  $\mathrm{Au}+\mathrm{Au}$ collisions serve a nearly perfect quark-gluon
+  liquid,'' \href{http://dx.doi.org/10.1103/PhysRevLett.106.192301}{{\em Phys.
+  Rev. Lett.} {\bfseries 106} (May, 2011) 192301}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.106.192301}.
+
+\bibitem{starFlow}
+{\bfseries STAR Collaboration and STAR-RICH Collaboration} Collaboration,
+  J.~Adams {\em et~al.}, ``Azimuthal anisotropy in au+au collisions at
+  $\sqrt{{s}_{\mathit{NN}}}=200\phantom{\rule{0.3em}{0ex}}\mathrm{GeV}$,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.72.014904}{{\em Phys. Rev. C}
+  {\bfseries 72} (Jul, 2005) 014904}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.72.014904}.
 
 \bibitem{CGCandGlasma}
 F.~Gelis, ``Color glass condensate and glasma,''
@@ -146,6 +154,36 @@ A.~Adeluyi and C.~A. Bertulani, ``Gluon distributions in nuclei probed at
   \href{http://dx.doi.org/10.1103/PhysRevC.84.024916}{{\em Phys. Rev. C}
   {\bfseries 84} (Aug, 2011) 024916}.
   \url{http://link.aps.org/doi/10.1103/PhysRevC.84.024916}.
+
+\bibitem{upcRhoSTAR12}
+{\bfseries STAR Collaboration} Collaboration, G.~Agakishiev and otheres,
+  ``$\rho^{0}$ photoproduction in auau collisions at $\sqrt{s_{NN}}$ = 62.4 gev
+  measured with the star detector,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.85.014910}{{\em Phys. Rev. C}
+  {\bfseries 85} (Jan, 2012) 014910}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.85.014910}.
+
+\bibitem{upcRhoSTAR02}
+{\bfseries STAR Collaboration} Collaboration, C.~Adler and otheres, ``Coherent
+  $\rho^{0}$ production in ultraperipheral heavy-ion collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.89.272302}{{\em Phys. Rev. Lett.}
+  {\bfseries 89} (Dec, 2002) 272302}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.272302}.
+
+\bibitem{upcRhoSTAR08}
+{\bfseries STAR Collaboration} Collaboration, B.~I. Abelev {\em et~al.},
+  ``$\rho^{0}$ photoproduction in ultraperipheral relativistic heavy ion
+  collisions at $\sqrt{s_{NN}}$ = 200 gev,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.77.034910}{{\em Phys. Rev. C}
+  {\bfseries 77} (Mar, 2008) 034910}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.77.034910}.
+
+\bibitem{upcJPsiPHENIX}
+S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
+  ultra-peripheral au-au collisions at $\sqrt{s_{NN}}$,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2009.07.061}{{\em
+  Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
 
 \bibitem{pQCD2013.02}
 A.~Adeluyi and T.~Nguyen, ``{Coherent photoproduction of $\psi$ and $\Upsilon$
