@@ -1,4 +1,4 @@
-\chapter{Theory}
+\chapter{Photo-nuclear interactions \label{ch:photoNuc}}
     The colliding nuclei interact electromagnetically in an UPC event, avoiding
       the complicated mixing of final state and initial state effects found 
       in nuclear collisions.
@@ -13,9 +13,9 @@
       understanding of the initial state. 
     
     The interactions between the field of photons surrounding the colliding 
-      nuclei and the gluons of nuclei can produce a $J/\psi$ probing the 
+      nuclei and the gluons of nuclei can produce a \JPsi{} probing the 
       gluon density.
-    The UPC $J/\psi$ photoproduction cross section is therefore a probe of 
+    The UPC \JPsi{} photoproduction cross section is therefore a probe of 
       the initial state of the nucleus. 
     The Weizsi\"{a}cker-Williams approximation provides a way to calculate the 
       density of probing photons that surrounds the nucleus. 
@@ -26,65 +26,62 @@
       flux with the proton scattering data to calculate the nuclear 
       photoproduction cross section.
     Each of these methods handle the gluon density of the nucleus differently 
-      producing a measurable difference in the value of the $J/\psi$ 
+      producing a measurable difference in the value of the \JPsi{} 
       photoproduction cross section. 
 
-  \section{QCD/QGP}
+  \section{CGC/intial state \label{sec:cgc}}
+    The color glass condensate (CGC) is an effective theory of parton saturation
+    	and coupling that aims to explain the initial state of hadronic matter 
+    	in high energy heavy ions collisions \cite{CGCandGlasma}. 
+    CGC was developed to calculate the distribution of partons within a nucleus. 
+    The theory's name is instructive of how this is achieved \cite{CGC2Lec}. 
+    The first term color steams from the fact that the partons carry a color 
+    	charge.
+    The second terms refers to a coupling within the theory of the low momentum 
+    	partons to the high momentum partons.
+    In CGC the low momentum partons take on the time scales of the higher momentum 
+    	partons, which can be described perturbatively. 
+    This behavior is analogous to glass, which behaves like a solid on short time 
+    	scales and a liquid on long time scales.
+    The last term condensate refers to saturation.
+    The CGC predicts that as hadronic matter is boosted to higher and higher 
+    	energies, low momentum states are filled and become increasingly less 
+    	favorable to higher momentum states.
+    In the theory the higher momentum states are treated as the source of the lower
+    	momentum states in the same manor that an electron is the source of an
+    	electric and magnetic field.
+    This couples the low momentum partons to the weakly coupled high momentum 
+    	partons. 
+    
+    \begin{figure}[h]
+      \centering
+        \includegraphics[width=0.5\textwidth]{HeraData}
+      \caption{A representation of HERA deep inelastic scattering data, which shows
+    	the accumulation of low-x partons from Reference~\cite{CGC2Lec}.}
+      \label{HeraData}
+    \end{figure}
+    The CGC was inspired by and gives a natural explanation of deep inelastic
+    	scattering data. 
+    Figure~\ref{HeraData} gives a representation of the data collected by the HERA 
+    	experiment. 
+    The HERA data shows that as the constituents of a heavy ion are explored the
+    	number constituents at lower momentum grows. 
+    Following from right to left in Figure~\ref{HeraData} the gluon density
+    	increases as $x$ decreases, where $x$ is the fraction of the total
+    	momentum the constituent holds.
+    The number of low momentum constituents can not however grow with out bound, a 
+    	plateau must emerge.
+    A plateau is required in order to assure unitarity, which requires that the
+    	probability of scattering off the nucleus does not exceed one. 
+    Emergence of a plateau would indicate evidence of saturation, the point where 
+    	it becomes less favorable to produce more low momentum constituents. 
+    As seen in Figure~\ref{HeraData}, the saturation scale increases as the momentum 
+    	transfered to the probe $Q^2$ increases.
+    This effect suggests that the saturation scale can be used to measure the 
+    	running of the strong coupling constant predicted by standard
+    	perturbative QCD.
 
-
-  \section{CGC/intial state}
-  The color glass condensate (CGC) is an effective theory of parton saturation
-  	and coupling that aims to explain the initial state of hadronic matter 
-  	in high energy heavy ions collisions \cite{CGCandGlasma}. 
-  CGC was developed to calculate the distribution of partons within a nucleus. 
-  The theory's name is instructive of how this is achieved \cite{CGC2Lec}. 
-  The first term color steams simply from the fact that the partons carry a color 
-  	charge.
-  The second terms refers to a coupling within the theory of the low momentum 
-  	partons to the high momentum partons.
-  In CGC the low momentum partons take on the time scales of the higher momentum 
-  	partons, which can be described perturbatively. 
-  This behavior is analogous to glass, which behaves like a solid on short time 
-  	scales and a liquid on long time scales.
-  The last term condensate refers to saturation.
-  The CGC predicts that as the hadronic matter is boosted to higher and higher 
-  	energies, low momentum states are filled and become increasingly less 
-  	favorable to higher momentum states.
-  In the theory the higher momentum states are treated as the source of the lower
-  	momentum states in the same manor that an electron is the source of an
-  	electric and magnetic field.
-  This couples the low momentum partons to the weakly coupled high momentum 
-  	partons. 
-  
-  \begin{figure}[h]
-    \centering
-      \includegraphics[width=0.5\textwidth]{HeraData}
-    \caption{A representation of HERA deep inelastic scattering data, which shows
-  	the accumulation of low-x partons from Reference~\cite{CGC2Lec}.}
-    \label{HeraData}
-  \end{figure}
-  The CGC was inspired by and gives a natural explanation of deep inelastic
-  	scattering data. 
-  Figure~\ref{HeraData} gives a representation of the data collected by the HERA 
-  	experiment. 
-  The HERA data shows that as the constituents of a heavy ion are explored the
-  	number constituents at lower momentum grows. 
-  Following from right to left in Figure~\ref{HeraData} the gluon density
-  	increases as $x$ decreases, where $x$ is the fraction of the total
-  	momentum the constituent holds.
-  The number of low momentum constituents can not however grow with out bound, a 
-  	plateau must emerge.
-  A plateau is required in order to assure unitarity, which requires that the
-  	probability of scattering off the nucleus does not exceed one. 
-  Emergence of a plateau would indicate evidence of saturation, the point where 
-  	it becomes less favorable to produce more low momentum constituents. 
-  As seen in Figure~\ref{HeraData}, the saturation scale increases as the momentum 
-  	transfered to the probe $Q^2$ increases.
-  This effect suggests that the saturation scale can be used to measure the 
-  	running of the strong coupling constant predicted by standard
-  	perturbative QCD.
-
-  \section{Weizs\"{a}cker-Williams Approximation}
+  \section{Weizs\"{a}cker-Williams Approximation \label{sec:wwAprox}}
     The Weizsi\"{a}cker-Williams approximation relates the electric field of a 
       stationary point charge to the photon field that arises at ultra 
       relativistic velocities. 
@@ -327,10 +324,10 @@
       Eq.~\ref{eq:photonFluxtmp} yields the semiclassical photon flux of an 
       ultra-relativistic nucleus.
     \begin{equation} \label{eq:photonFluxFinaltmp}
-	N(\omega,b)=\frac{\alpha}{\hbar\omega}
-	 \left(\frac{Z}{b\beta\pi}\right)^{2}
-	 \left(\frac{\omega b}{\gamma v}\right)^{2}
-	 K_{1}^{2}\left(\frac{\omega b}{\gamma v}\right)
+      N(\omega,b)=\frac{\alpha}{\hbar\omega}
+       \left(\frac{Z}{b\beta\pi}\right)^{2}
+       \left(\frac{\omega b}{\gamma v}\right)^{2}
+       K_{1}^{2}\left(\frac{\omega b}{\gamma v}\right)
     \end{equation}
     Eq.~\ref{eq:photonFluxFinaltmp} replaces the classical electric field of a 
       point charge with a semiclassical field of photons. 
@@ -338,12 +335,11 @@
       with the final result of the Weizs\"{a}cker-Williams approximation, 
       Eq.~\ref{eq:photonFluxFinaltmp}.
     The photon flux in Eq.~\ref{eq:photonFluxFinaltmp} provides the 
-      electromagnetic input to the $J/\psi$ photoproduction cross section 
+      electromagnetic input to the \JPsi{} photoproduction cross section 
       calculation. 
 
-
   \section{\label{sec:vdmTheory}Vector Meson Dominance}
-    The Vector Messon Dominace method for calculating the $J/\psi$
+    The Vector Messon Dominace method for calculating the \JPsi{}
       photoproduction cross section has three main components.
     VMD approach is constructed from the Weizsi\"{a}cker-Williams photon
       flux, the VMD fit to the proton-electron data, and the Glauber model for 
@@ -352,7 +348,7 @@
     The Weizsi\"{a}cker-Williams photon flux provides the probe. 
     The proton-electron scattering data combine with the Glauber model  
       create a picture of the initial state of the nucleus. 
-    Each of the different approaches to calculating the UPC $J/\psi$ 
+    Each of the different approaches to calculating the UPC \JPsi{} 
       photoproduction cross section use these same elements.
     However, the different models each use the last two elements differently 
       to produce different pictures of the nucleus and different cross 
@@ -440,7 +436,7 @@
       parameters.  
     The $XW^{\epsilon}$ term characterizes pomeron mediated interactions, and
       the $YW^{\eta}$ term characterizes meson mediated interactions\cite{vmd1999}. 
-    $J/\psi$'s high mass relative to the $\pi$ and $\rho$ renders the second 
+    \JPsi{}'s high mass relative to the $\pi$ and $\rho$ renders the second 
       term in Eq. ~\ref{eq:proElFit} negligible as the term falls rapidly with
       increasing $W$. 
     Eq.~\ref{eq:proElFit} allows for extrapolation and interpolation of the 
@@ -549,7 +545,7 @@
       experiment. 
 
 
-      \section{\label{sec:ltaTheory}Leading Twist Approach Derivation}
+  \section{\label{sec:ltaTheory}Leading Twist Approach Derivation}
     The LTA method for calculating UPC photoproduction cross sections
       combines elements of the Glauber model with direct use of gluon 
       densities. 
@@ -607,7 +603,7 @@
    Here $G_{N}$ is the gluon density of the nucleon, $x$ is the fraction of
      the nucleon's momentum the gluon carries, and $\mu$ is related
      to momentum at which the nucleon is being probed, which is equal to 
-     $M_{J/\psi}/2$ for $J/\psi$ photoproduction.
+     $M_{J/\psi}/2$ for \JPsi{} photoproduction.
    In Eq.~\ref{eq:ltaFowardPhotoXSec} the nucleon cross section is explicitly 
      connected to the gluon density.
    By connecting the gluon density to the cross section, Eq.~\ref{eq:ltaFowardPhotoXSec}
@@ -635,7 +631,7 @@
      through $R_{g}$.
 
    From Eq.~\ref{eq:ltaOptTheWNucMo}, the LTA method can predict the angular 
-     distribution of photoproduced $J/\psi$ with respect to the beam axis. 
+     distribution of photoproduced \JPsi{} with respect to the beam axis. 
    In Ref. \cite{lta2012.03} the angular distribution is expressed in the form 
      of the rapidity dependency of the UPC photoproduction cross section. 
    \begin{eqnarray} \label{eq:ltaRapDist}
@@ -660,7 +656,7 @@
    As opposed to using $R_{g}$, the pQCD method uses the nuclear gluon 
      density, and VMD model uses proton photoproduction cross sections 
      directly. 
-   In the LTA method, $R_{g}$ is calculated through a combination of $J/\psi$ 
+   In the LTA method, $R_{g}$ is calculated through a combination of \JPsi{} 
      photoproduction data from proton-electron scattering and DGLAP evolution 
      equations, which incorporates nuclear multiple scattering effects 
      \cite{lta2011.09}. 
@@ -670,13 +666,13 @@
    The unique way the LTA method calculates $R_{g}$ results in lower cross 
      sections than the other major methods and allows for experimental
      sensitivity. 
-   Experimental measurements of the UPC $J/\psi$ photoprodcution cross section 
+   Experimental measurements of the UPC \JPsi{} photoprodcution cross section 
      with CMS have the opportunity to distinguish whether $R_{g}$ as calculated 
      in the LTA method accurately predicts the gluon density of the nucleus. 
   
  
-  \section{Perturbative Quantum Chromo-dynamics}
-    To calculate the UPC $J/\psi$ photoproduction cross section, the pQCD 
+  \section{Perturbative Quantum Chromo-dynamics \label{sec:pQCDapp}}
+    To calculate the UPC \JPsi{} photoproduction cross section, the pQCD 
       method uses the nuclear gluon density to characterize the nucleus and 
       the Weizs\"{a}cker-Williams approximation for the probing photon flux. 
     The pQCD method combines these components such that the nuclear gluon 
@@ -685,37 +681,37 @@
       the use of a variety of nuclear gluon density models.
     A range of nuclear gluon densities are present in the available models
       resulting in a wide range of cross section values. 
-    The UPC $J/\psi$ photoproduction cross section is correlated with the gluon
+    The UPC \JPsi{} photoproduction cross section is correlated with the gluon
       density of the nucleus rising with higher densities and shrinking with 
       lower densities. 
-    In the pQCD approach, the calculation of the UPC $J/\psi$ photoproduction 
+    In the pQCD approach, the calculation of the UPC \JPsi{} photoproduction 
       cross section allows experiments to constrain many different nuclear 
       gluon density models. 
     
     In the pQCD method, the photon interacts with the nucleus by fluctuating to 
       a quark-anitquark pair.
-    For $J/\psi$, the photon fluctuates to a $c\bar{c}$ pair. 
+    For \JPsi{}, the photon fluctuates to a $c\bar{c}$ pair. 
     The probability for the photon to fluctuate to a $c\bar{c}$ pair
-      depends on the $M_{J/\psi}$, the mass of $J/\psi$, $\Gamma_{l^{+}l^{-}}$, 
-      the $J/\psi$ leptonic decay width, and $\alpha$, the electromagnetic 
+      depends on the $M_{J/\psi}$, the mass of \JPsi{}, $\Gamma_{l^{+}l^{-}}$, 
+      the \JPsi{} leptonic decay width, and $\alpha$, the electromagnetic 
       coupling constant.
     These three variables connect the c quark to the electromagnetic force 
       mediator, the photon. 
     Recast as a $c\bar{c}$ pair, the photon couples to the nuclear gluon 
       density.
     Ref. \cite{pQCD2011.08} uses the fluctuation of the photon to a $c\bar{c}$ 
-      pair as the foundation for calculating the forward $J/\psi$ 
+      pair as the foundation for calculating the forward \JPsi{} 
       photoproduction cross section. 
 
     The $c\bar{c}$ pair arising from the photon fluctuation scatters off the 
       gluons of the nucleus. 
     The density of gluons in the nucleus determines how likely and therefore 
       how large the cross section is for the quarks to scatter and form a 
-      $J/\psi$.
+      \JPsi{}.
     The forward scattering cross section is the portion of those scattering 
       events which transfer the minimum amount of momentum between the 
       photon and the nucleus. 
-    The forward cross section for $J/\psi$ photoproduction in the nucleus has 
+    The forward cross section for \JPsi{} photoproduction in the nucleus has 
       the following form \cite{pQCD2011.08}:
     \begin{equation} \label{eq:pQCDfowardScat}
       \frac{d\sigma_{\gamma A\rightarrow J/\psi A}}{dt}\Big|_{t=0}=\xi_{J/\psi}
@@ -741,7 +737,7 @@
       Eq.~\ref{eq:pQCDfowardScat} to the total photoproduction cross section. 
     The total cross section calculated by use of the optical theorem gives 
       the probability that a photon incident on the nucleus will produce a 
-      $J/\psi$ regardless of the momentum transfered in the interaction. 
+      \JPsi{} regardless of the momentum transfered in the interaction. 
     Ref. \cite{pQCD2011.08} gives the form of the total cross section equation:
     \begin{equation} \label{eq:pQCDtotXSec}
       \sigma_{\gamma A\rightarrow J/\psi A}(k)=
@@ -749,7 +745,7 @@
       \int_{t_{min}(k)}^{\infty}dt|F(t)|^{2}
     \end{equation} 
     Here $t_{min}=(M_{J/\psi}^{2}/4k\gamma_{L})^2$, which is the minimum amount
-      of momentum transfer required to produce a $J/\psi$ given the photon wave
+      of momentum transfer required to produce a \JPsi{} given the photon wave
       number $k$.
     The $k$ dependence of $t_{min}$ produces the rapidity, $y$, dependence of
       the total cross section.
@@ -765,170 +761,283 @@
       exploration of any gluon density model. 
 
 
-  \section{Incoherent Photoproduction}
+  \section{\label{sec:nucBreakUp}Photon Induced Nuclear Break-up}
+    In addition to the photoproduction of resonances such as \JPsi{}, 
+      photo-nuclear interactions can also result in nuclear break-up. 
+    The overwhelming result is the emission of a neutron from the struck 
+      nucleus.
+    To calculated the cross-section for neutron production through through 
+      photon exchange of colliding nuclei, the photon flux calculated from the
+      Weizs\"{a}cker-Williams approximation is combined with a calculation of
+      the cross-section for the nuclei to absorb a photon. 
+    In this section, this model of photon-induced nuclear break up is discussed.
 
-
-  \section{Photon Induced Nuclear Break-up}
-    Two different approaches are discussed.
-    The first is to measure the desired cross-section directly.
-    This can be done by bombarding the target material with mono-energetic real photons, varying the energies of the photons over a range of frequencies, and extrapolating that data up to the photon energies that arise in the Weizäcker-Williams approximation [3].
-    The other approach is to create a theoretical model of how the target reacts to a photon flux [4].
-    In the theoretical model that will be discussed in this paper, the photonuclear cross-section, the cross-section governing the absorption of photons by a nucleus, is formulated as the sum of two other cross-sections that are known better.
-    In both, the more detailed theoretical approach and the empirical approach to the problem, the interaction of the Weizäcker-Williams quasi-real photons is assumed to be identical to the interaction of real photons with the target.
-
-    To model the interaction of the photons with the target nuclei, as done in Ref.
-    [4], the photonuclear cross-section is broken down into two parts.
-    
-    (16)
-    The Giant Dipole Resonance (GDR) cross-section dominates at lower photon frequencies and is the result of the collective motion of the protons relative to the neutrons.
-    The Quasi-Deuterium (QD) cross-section dominates at higher photon energies and is the result of treating the nucleus as a collection of proton-neutron pairs, which is deuterium.
+    Following the formulation of Ref.\cite{emPCite4}, the cross-section for a
+      nucleus to absorb a photon, $\sigma_{PN}$, has two contributions, 
+      \begin{equation}
+        \sigma_{PN}=\sigma_{GDR}+\sigma_{QD}
+        \label{eq:photoNucDis}
+      \end{equation}
+    The Giant Dipole Resonance (GDR) cross-section, $sigma_{GDR}$ dominates at 
+      lower photon frequencies and is the result of the collective motion of the 
+      protons relative to the neutrons.
+    The Quasi-Deuterium (QD) cross-section, $sigma_{QD}$ dominates at higher photon energies 
+      and is the result of treating the nucleus as a collection of 
+      proton-neutron pairs, which is deuterium.
 
     The giant dipole resonance has been studied for decades.
-    In 1947, Baldwin and Klaiber first observed the giant dipole resonance [6].
-    At the General Electric Research Laboratory, Baldwin and Klaiber found that by bombarding a uranium target with photons in the range 10 – 100 MeV, a peak in the spectrum was found for photons at 20 MeV.
-    A year later, Goldhaber and Teller theorized that this was the result of the protons moving back and forth with respect to the neutrons [6].
-    In this model, the protons and neutrons are treated as two separate liquid dots.
-    Then in 1950, Steinwedel and Jensen modified this theory by modeling the protons and neutrons as fluids contained in a single sphere rather than two separate dots moving back and forth [6].
+    In 1947, Baldwin and Klaiber first observed the giant dipole resonance \cite{emPCite6}.
+    At the General Electric Research Laboratory, Baldwin and Klaiber found that
+      by bombarding a uranium target with photons in the range 10 – 100 MeV, a 
+      peak in the spectrum was found for photons at 20 MeV.
+    A year later, Goldhaber and Teller theorized that this was the result of 
+      the protons moving back and forth with respect to the neutrons \cite{emPCite6}.
+    In this model, the protons and neutrons are treated as two separate liquid 
+      dots.
+    Then in 1950, Steinwedel and Jensen modified this theory by modeling the 
+      protons and neutrons as fluids contained in a single sphere rather than 
+      two separate dots moving back and forth \cite{emPCite6}.
     
-    In order to understand the Goldhaber and Teller model, it is useful to consider a nucleus where the number of protons and neutrons are equal, Z=A/2.
-    The collection of protons and the collection of neutrons move opposite each other and only in the z direction.
-    In order to construct a Hamiltonian, first the kinetic energy should be considered.
+    In order to understand the Goldhaber and Teller model, it is useful to 
+      consider a nucleus where the number of protons and neutrons are equal, 
+      Z=A/2.
+    The collection of protons and the collection of neutrons move opposite each
+      other and only in the $z$ direction.
+    In order to construct a Hamiltonian, first the kinetic energy should be 
+      considered.
+    \begin{equation}
+      T=\sum_{protons} \frac{1}{2}m_{p}\dot{z}^{2} +\sum_{neutrons}\frac{1}{2}m_{n}\dot{z}^{2}=
+        \frac{1}{2}Am\dot{z}^{2}
+      \label{eq:kenEnGDR}
+    \end{equation}
+    Equation~\ref{eq:kenEnGDR} is the familiar equation for kinetic energy 
+      summed over all the constituent nucleons of the nucleus.
+    The protons and neutrons are modeled as separate liquid drops with 
+    densities $\rho{p}$ and  $\rho_{n}$.
+    These liquid dots will oscillate back and forth in opposite phase relative 
+      to the center of mass maintaining there individual density profiles.
     
-    (17)
-    Eq.
-    17 is the familiar equation for kinetic energy simply summed over all the constituent nucleons of the nucleus.
-    The protons and neutrons are modeled as separate liquid drops with densities $\rho$p and  $\rho$n.
-    These liquid dots will oscillate back and forth in opposite phase relative to the center of mass maintaining there individual density profiles.
-    
-    The potential holding protons and neutrons together depends on the difference of the two densities squared.
-    If the two exactly overlap, there is no difference in the densities and the potential energy is zero.
-    If the two density distributions are separated, there will be regions where the neutron density is greater and regions where the proton density is greater.
+    The potential holding protons and neutrons together depends on the 
+      difference of the two densities squared.
+    If the two exactly overlap, there is no difference in the densities and the
+      potential energy is zero.
+    If the two density distributions are separated, there will be regions where
+      the neutron density is greater and regions where the proton density is 
+      greater.
     In the separated configuration, there will be potential energy.
-    The potential energy can be shown to have the form of a harmonic oscillator with a spring constant that depends on the initial density distribution [6].
-
-    (18)
-    If the nucleus has a shape cut off in density at it's very edge, then the integral is dominated  by the region at the surface, and the spring constant K becomes proportional to the mass number to the 2/3rds power, A2/3.
+    The potential energy can be shown to have the form of a harmonic oscillator
+      with a spring constant that depends on the initial density distribution 
+      \cite{emPCite6}.
+    \begin{equation}
+      U=\frac{1}{2}Kz^{2} \qquad K=k\int d^{3}r\left(\nabla\rho_{0}\right)^{2}
+      \label{eq:potEnGDR}
+    \end{equation}
+    If the nucleus has a shape cut off in density at it's very edge, then the 
+      integral is dominated  by the region at the surface, and the spring 
+      constant $K$ becomes proportional to the mass number to the 2/3rds power, 
+      $A^{2/3}$.
     This is the consequence of the of geometry of a sphere.
-    The surface area of a sphere is proportional to its volume to the 2/3rds power.
+    The surface area of a sphere is proportional to its volume to the 2/3rds 
+      power.
     Recalling the angular frequency of a harmonic oscillator,
-    (19)
-    it is seen that the frequency of the giant dipole resonance in the Goldhaber and Teller model is proportional to the mass number to the negative 1/6th power, A-1/6.
-    This dependence describes light nuclei well, but it does not describe heavier nuclei [6].
+    \begin{equation}
+      \omega=\sqrt{\frac{K}{M}} \propto \sqrt{\frac{A^{2/3}}{A}}=A^{-1/6}
+      \label{eq:omegaGDR}
+    \end{equation}
+      it is seen that the frequency of the giant dipole resonance in the 
+      Goldhaber and Teller model is proportional to the mass number to the 
+      negative 1/6th power.
+    This dependence describes light nuclei well, but it does not describe 
+      heavier nuclei \cite{emPCite6}.
 
-    In order to describe heavier nuclei, the Steinwedel and Jensen model must be used.
-    In the  Steinwedel and Jensen model, the proton and neutron fluids are confined to a single sphere where they are allowed to slosh back and forth creating the same effect as the Goldhaber and Teller model.
-    In this model, there is no global separation of the proton and neutron fluids.
-    The dipole is created by underdensities and overdensities of the proton and neutron fluids.
-    It can be shown that this results in a frequency of oscillation which depends on one over the radius of the nucleus [6]:
-    (20)
-    As before, the relationship in Eq.
-    20 arises from the geometry of a sphere.
-    The dependence of the giant dipole resonance that is seen in the Steinwedel and Jensen describes medium and heavier mass nuclei well.
-    Empirically, both models are stitched together to give the following mass number dependence of the peak dipole resonance [6].
-
-    (21)
-    In order to compute the effect of an excitation in either model, the harmonic oscillator solutions found earlier can be driven by an interacting force.
-    The resulting differential equation can then be solved using a Fourier transform to eliminate the time derivatives and reduce the equation to an algebraic equation.
-    Following this procedure produces the shape of energy dependence of the giant dipole resonance, and this gives a cross-section for photon absorption by the giant dipole resonance with Lorentzian form [6]:
-    (22)
-    here $\sigma$max is the maximum cross-section, when E$\gamma$g = EGDR, EGDR is the peak resonance energy, and $\Gamma$GDR is the width of the resonance.
-    The width, $\Gamma$GDR, of this distribution lies in a range from 4-8 MeV and depends on the orbital arrangement to the neutrons and protons in the given nucleus [6].
+    The Steinwedel and Jensen model can be used to describe heavier nuclei.
+    In the  Steinwedel and Jensen model, the proton and neutron fluids are 
+      confined to a single sphere where they are allowed to slosh back and 
+      forth creating the same effect as the Goldhaber and Teller model.
+    In this model, there is no global separation of the proton and neutron 
+      fluids.
+    The dipole is created by underdensities and overdensities of the proton and
+      neutron fluids.
+    It can be shown that this results in a frequency of oscillation which 
+      depends on one over the radius of the nucleus \cite{emPCite6}:
+    \begin{equation}
+      \omega \propto \frac{1}{R} \propto A^{-1/3}
+      \label{eq:omegaGDRSJ}
+    \end{equation}
+    As before, the relationship in Eq.~\ref{eq:omegaGDRSJ} arises from the geometry of a sphere.
+    The dependence of the giant dipole resonance that is seen in the Steinwedel 
+      and Jensen describes medium and heavier mass nuclei well.
+    Empirically, both models are stitched together to give the following mass 
+      number dependence of the peak dipole resonance \cite{emPCite6}.
+    \begin{equation}
+      E_{GDR}=32.2A^{-1/3}+20.6A^{1/6}
+      \label{eq:enGDR}
+    \end{equation}
+    
+    In order to compute the effect of an excitation in either model, 
+      the harmonic oscillator solutions found earlier can be driven by an 
+      interacting force.
+    The resulting differential equation can then be solved using a Fourier 
+      transform to eliminate the time derivatives and reduce the equation to an
+      algebraic equation.
+    Following this procedure produces the shape of energy dependence of the 
+      giant dipole resonance, and this gives a cross-section for photon 
+      absorption by the giant dipole resonance with Lorentzian form \cite{emPCite6}:
+    \begin{equation}
+      \sigma_{GDR}(E_{\gamma})=\frac{\sigma_{max}E_{\gamma}\Gamma_{GDR}^{2}}
+      {\left(E_{\gamma}^{2}-E_{GDR}^{2}\right)^{2}+E_{\gamma}^{2}\Gamma^{2}}
+      \label{eq:gdrRes}
+    \end{equation}
+      where $\sigma_{max}$ is the maximum cross-section, when $E_{\gamma}$ = 
+      $E_{GDR}$, $E_{GDR}$ is the peak resonance energy, and $\Gamma_{GDR}$ is 
+      the width of the resonance.
+    The width, $\Gamma_{GDR}$, of this distribution lies in a range from 4-8 
+      MeV and depends on the orbital arrangement to the neutrons and protons in
+      the given nucleus \cite{emPCite6}.
     
     For higher energy photons, the quasi-deuterium cross-section is needed.
-    The quasi-deuterium approach amounts to treating the nucleus as a bunch of proton-neutron pairs, which are screened by the rest of the nucleus.
-    Eq.
-    23 models this behavior [4].
-    
-    (23)
-    Here $\sigma$d is the deuterium disintegration cross-section for $\gamma$g+d $\rightarrow$ p+n.
-    F is a function that arising from Pauli blocking of fermions, and L is an empirical parameter set by data that is equal to 6.5.
-    Certain energy levels are not available to the products of the deuterium disintegration process because of the presence of the rest of the nucleus.
+    The quasi-deuterium approach amounts to treating the nucleus as a bunch of 
+      proton-neutron pairs, which are screened by the rest of the nucleus.
+    Equation~\ref{eq:qdSigma} models this behavior \cite{emPCite4}.
+    \begin{equation}
+      \sigma_{QD}(E_{gamma})=L\frac{(L-A)Z}{A}\sigma_{d}(E_{\gamma})F(E_{\gamma})
+      \label{eq:qdSigma}
+    \end{equation}
+    Here $\sigma_{d}$ is the deuterium disintegration cross-section for 
+      $\gamma+d$ $\rightarrow$ $p+n$.
+    $F$ is a function that arising from Pauli blocking of fermions, and $L$ is 
+      an empirical parameter set by data that is equal to 6.5.
+    Certain energy levels are not available to the products of the deuterium 
+      disintegration process because of the presence of the rest of the nucleus.
     The result is a reduction of the cross-section.
     
-    F can be modeled with an exponential cutoff below 20 MeV, a polynomial in the intermediate range with nearly linear dependence on E$\gamma$g, and above 140 MeV an inverted exponential pushing F to one at higher values of E$\gamma$g [4].
-    Essentially, the model at low photon energies disallows deuterium disintegration because the products have no available state to occupy, and at high energies the rest of the nucleus becomes transparent and looks more and more like a collection of deuterium.
-    The deuterium disintegration cross-section is found empirically and is fit to the following function [4]:
-    (24)
-    In order to produce a final state for the target nucleus, a branching ratio is needed.
-    The branching ratio gives the probability that the photo-excited nucleus will end up in a particular state.
-    This determines the sort of emission that will result from the de-excitation process.
-    There are two phases of deexcitation, the nonequlibrium phase and the equilibrium phase.
+    $F$ can be modeled with an exponential cutoff below 20 MeV, a polynomial in 
+      the intermediate range with nearly linear dependence on $E_{\gamma}$, and 
+      above 140 MeV an inverted exponential pushing F to one at higher values 
+      of $E_{\gamma}$ \cite{emPCite4}.
+    Essentially, the model at low photon energies disallows deuterium 
+      disintegration because the products have no available state to occupy, 
+      and at high energies the rest of the nucleus becomes transparent and 
+      looks more and more like a collection of deuterium.
+    The deuterium disintegration cross-section is found empirically and is fit 
+      to the following function \cite{emPCite4}:
+    \begin{equation}
+      \sigma_{d}(E_{\gamma})=61.2\left(E_{\gamma}-2.224\right)^{3/2}/E_{gamma}
+      \label{eq:deDisSigma}
+    \end{equation}
+    In order to produce a final state for the target nucleus, a branching ratio
+      is needed.
+    The branching ratio gives the probability that the photo-excited nucleus 
+      will end up in a particular state.
+    This determines the sort of emission that will result from the 
+      de-excitation process.
+    There are two phases of de-excitation, the non-equilibrium phase and the 
+      equilibrium phase.
     In the time before reaching equilibrium, fast nucleons are emitted.
     Subsequently, in the equilibrium phase, slow nucleons evaporate.
-    These two phases are simulated in complex computer codes that calculate branching ratios (see discussion in Ref.
-    [4]).
+    These two phases are simulated in complex computer codes that calculate 
+      branching ratios (see discussion in Ref.\cite{emPCite4}).
 
-    All the tools are now assembled to calculate the cross-section for any particular electromagnetic dissociation process.
-    The first step in the calculation is to assume that the number of photons absorbed by either nucleus in the collision obeys the Poisson distribution [3,4].
-    An average number of absorptions is calculated and used in the construction of the distribution.
+    All the tools are now assembled to calculate the cross-section for any 
+      particular electromagnetic dissociation process.
+    The first step in the calculation is to assume that the number of photons 
+      absorbed by either nucleus in the collision obeys the Poisson 
+      distribution \cite{emPCite3,emPCite4}.
+    An average number of absorptions is calculated and used in the construction
+      of the distribution.
+      \begin{equation}
+        m(b)=\int^{\omega_{max}}_{\omega_{min}}N(\omega,b)\sigma_{x}(\omega)d\omega
+        \label{eq:meanOfSigma}
+      \end{equation}
+    When using the model of Ref.\cite{emPCite4}, the cross-section involved in Eq.~\ref{eq:meanOfSigma} will 
+      be the photonuclear cross-section, and the calculation will produce the 
+      average number of photons absorbed by the target.
+    If instead the empirically measured photoneutron cross-section is used as 
+      in Ref.\cite{emPCite3}, the mean calculated in Eq.~\ref{eq:meanOfSigma} will be the number of photons 
+      absorbed that result in neutron emission from the target.
+    This restricts the calculation to only de-excitation modes that produce 
+      neutrons.
+    Both averages are for a given impact parameter $b$.
 
-    (25)
-    When using the model of Ref.
-    [4], the cross-section involved in Eq.
-    25 will be the photonuclear cross-section, and the calculation will produce the average number of photons absorbed by the target.
-    If instead the empirically measured photoneutron cross-section is used as in Ref.
-    [3], the mean calculated in Eq.
-    25 will be the number of photons absorbed that result in neutron emission from the target.
-    This restricts the calculation to only de-excitation modes that produce neutrons.
-    Both averages are for a given impact parameter b.
-
-    Following Ref.
-    [3] and using the experimentally measured photoneutron cross-section, the probability Pn for the target to produce a number of neutrons, k, due to the photon flux of the projectile can be calculated using Eq.
-    26.
-
-    (26)
+    Following Ref.\cite{emPCite3} and using the experimentally measured photoneutron 
+    cross-section, the probability $P_{n}$ for the target to produce a number 
+    of neutrons, k, due to the photon flux of the projectile can be calculated 
+    using Eq.\ref{eq:poison}.
+    \begin{equation}
+      P_{n}(b,k)=\frac{m^{k}(b)e^{-m(b)}}{k!}
+      \label{eq:poison}
+    \end{equation}
     This is just the Poisson distribution.
-    In the collider situation, where both nuclei can be treated as the target and the projectile, the probability of mutual emission, one nucleus emitting x neutrons and the other emitting y neutrons, can be calculated from Eq 27.
+    In the collider situation, where both nuclei can be treated as the target 
+      and the projectile, the probability of mutual emission, one nucleus 
+      emitting x neutrons and the other emitting y neutrons, can be calculated 
+      from Eq.~\ref{eq:poisMultDis}.
+    \begin{equation}
+      P{n}(b,x,y)=\frac{m^{x}(b)e^{-m(b)}}{x!}\frac{m^{y}(b)e^{-m(b)}}{y!}
+      \label{eq:poisMultDis}
+    \end{equation}
+    It is also interesting to consider the situation where at least one neutron
+      is emitted.
+    This can be calculated by subtracting the probability of no neutrons being 
+      emitted from one.
 
-    (27)
-    It is also interesting to consider the situation where at least one neutron is emitted.
-    This can be calculated by subtracting the probability of no neutrons being emitted from one.
+    When using the model of Ref.\cite{emPCite4}, a branching ratio is needed to calculate 
+      the probability of de-exciting into a given state.
+    The probability of photon absorption is calculated as in Eq.~\ref{eq:poison}, only using 
+      the model of Ref.\cite{emPCite4}.
+    This is the probability of the target absorbing k photons rather than then 
+      the nucleus absorbing a photon and emitting a neutron.
+    In Ref.\cite{emPCite4}, the probability of any final state i due to the absorption of a
+      single photon can be calculated using Eq.~\ref{eq:photonProi}.
+    \begin{equation}
+      P_{i}(b)=\int^{\omega_{max}}_{\omega_{min}}P_{a}(b,1)q(b,\omega)f_{i}(\omega)d\omega=
+      e^{-m(b)}\int^{\omega_{max}}_{\omega_{min}}N(b,\omega)\sigma_{a}(\omega)f_{i}(\omega)d\omega
+      \label{eq:photonProi}
+    \end{equation}<++>
+    Here $P{a}$ is the probability that the target absorbs a single photon as 
+      calculated by Eq.~\ref{eq:poison}, $q$ is the probability that the photon will have the
+      frequency $\omega$, and $f{i}$ is the branching ratio.
+    The following equation describes $q$ \cite{emPCite5}.
+    \begin{equation}
+      q(b,\omega)=\frac{N(b,\omega)\sigma_{a}(\omega)}{m(b)}
+      \label{eq:freqProb}
+    \end{equation}
+    By multiplying Eq.~\ref{eq:poison} and Eq.~\ref{eq:freqProb} in 
+      Eq.~\ref{eq:photonProi}, the $m(b)$ terms cancel and produce a simplified
+      equation.
+    The forms for probability functions, like Eq.~\ref{eq:photonProi}, that 
+      involve absorption of multiple photons have additional terms.
+    But they follow that same scheme of multiplying the probability of 
+      absorption times the probability that the absorbed photon has a 
+      particular frequency times the branching ratio.
 
-    When using the model of Ref.
-    [4], a branching ratio is needed to calculate the probability of de-exciting into a given state.
-    The probability of photon absorption is calculated as in Eq.
-    26, only using the model of Ref.
-    [4].
-    This is the probability of the target absorbing k photons rather than then the nucleus absorbing a photon and emitting a neutron.
-    In Ref.
-    [4], the probability of any final state i due to the absorption of a single photon can be calculated using Eq.
-    28.
-
-    (28)
-    Here Pa is the probability that the target absorbs a single photon as calculated by Eq.
-    26, q is the probability that the photon will have the frequency $\omega$, and fi is the branching ratio.
-    The following equation describes q [5].
-
-    (29)
-    By multiplying Eq.
-    26 and 29 in Eq.
-    28, the m(b) terms cancel and produce a simplified equation.
-    The forms for probability functions, like Eq.
-    28, that involve absorption of multiple photons have additional terms.
-    But they follow that same scheme of multiplying the probability of absorption times the probability that the absorbed photon has a particular frequency times the branching ratio.
-
-    The probability functions Eq.
-    26 and Eq.
-    28 can than be used to produce cross-sections.
-    For any given process, using Eq.
-    28 can be used by inserting the appropriate branching ratio.
-    For emission of neutrons, Eq.
-    26 can be used.
-    This is done by integrating over the impact parameter to get an area that is weighted by the probability functions [3,4].
-
-    (30)
-    If the branching ratio for neutron emission is selected in Eq.28, then Eq.28 
-      and Eq.26 can be used to compute the same cross-section through the use 
-      of Eq.30.
-    
-    Three parameters arise when calculating the cross-section in Eq.
-    30, the minimum impact parameter bo, the minimum emitted photon frequency $\omega$min, and the maximum emitted photon frequency $\omega$max.
-    The need for a minimum impact parameter is necessitated by the Bessel function in the photon flux in Eq.
-    14.
+    The probability functions Eq.~\ref{eq:poison} and Eq.~\ref{eq:photonProi} can than be used to produce 
+      cross-sections.
+    For any given process, using Eq.~\ref{eq:photonProi} can be used by inserting the appropriate
+      branching ratio.
+    For emission of neutrons, Eq.~\ref{eq:poison} can be used.
+    This is done by integrating over the impact parameter to get an area that 
+      is weighted by the probability functions \cite{emPCite3,emPCite4}.
+      \begin{equation}
+        \sigma_{i}=2\pi\int^{\infty}_{b_{0}}bP_{i}(b)db
+        \label{eq:sigmaPi}
+      \end{equation}
+    If the branching ratio for neutron emission is selected in Eq.~\ref{eq:photonProi}, then 
+      Eq.~\ref{eq:photonProi} and Eq.~\ref{eq:poison} can be used to compute the same 
+      cross-section through the use of Eq.~\ref{eq:sigmaPi}.
+    Three parameters arise when calculating the cross-section in Eq.~\ref{eq:sigmaPi}, the 
+      minimum impact parameter $b_{0}$, the minimum emitted photon frequency 
+      $\omega_{min}$, and the maximum emitted photon frequency $\omega_{max}$.
+    The need for a minimum impact parameter is necessitated by the Bessel 
+      function in the photon flux in Eq.~\ref{eq:photonFluxFinaltmp}.
     At zero, the modified Bessel function does not converge.
-    Physically, a minimum impact parameter is selected in order to separate the domains between electromagnetic interactions and the strong interactions that happen inside the nucleus.
-    To serve this end, the minimum impact parameter is set to the radius of the nuclei [3,4].
-    This excludes collisions where the nuclei overlap in the calculation, and assures only electromagnetic interactions are involved.
+    Physically, a minimum impact parameter is selected in order to separate the
+      domains between electromagnetic interactions and the strong interactions 
+      that happen inside the nucleus.
+    To serve this end, the minimum impact parameter is set to the radius of the
+      nuclei \cite{emPCite3,emPCite4}.
+    This excludes collisions where the nuclei overlap in the calculation, and 
+      ensures only electromagnetic interactions are involved.
 
   \section{Experimental Results}
 
@@ -1060,7 +1169,7 @@
   The dependence of the cross section on rapidity shows where in phase space 
     a measurement of the cross section is most sensitive.
    
-  The predicted value for the UPC $J/\psi$ photoproduction cross section in 
+  The predicted value for the UPC \JPsi{} photoproduction cross section in 
     PbPb collisions at the LHC differ widely depending.
   The cross section value calculated by Eq.~\ref{eq:finalVMDResult} in the 
     VMD, LTA, and the various gluon density models in pQCD method vary 
@@ -1098,7 +1207,7 @@
     the models at certain values of $y$ leaving the models indistinguishable at
     that rapidity.
   Fig.~\ref{fig:rapDepAll} \cite{alice2012.09} shows the rapidity dependency of 
-    the UPC $J/\psi$ photoproduction cross section for the three main models 
+    the UPC \JPsi{} photoproduction cross section for the three main models 
     including several different gluon density models using the pQCD method.
   \begin{figure}[h] 
     \begin{center}
@@ -1110,7 +1219,7 @@
   In Fig.~\ref{fig:rapDepAll} at higher rapidities, in particular $|y|>3$, the 
     various models give similar values for $d\sigma/dy$. 
   At $y=0$ the models vary the most. 
-  Fig.~\ref{fig:rapDepAll} shows that experiments that can measure $J/\psi$
+  Fig.~\ref{fig:rapDepAll} shows that experiments that can measure \JPsi{}
     at $y=0$ have the best opportunity to distinguish between the models.
   The high sensitivity at $y=0$ creates an advantage for experiments that can 
     measure particles with small rapidity and low momentum.  
@@ -1126,7 +1235,7 @@
   The differing slopes provide an additional experimental observable. 
   The shape of the rapidity distributions provide experimental sensitivity at 
     rapidities away from $y=0$ and creates an opportunity for experiments that 
-    can not measure $J/\psi$ at $y=0$.
+    can not measure \JPsi{} at $y=0$.
 
   The nuclear suppression factor, S, demonstrates the difference between how 
     the models represent the nucleus. 

@@ -68,13 +68,6 @@ J.~D. Bjorken, ``Highly relativistic nucleus-nucleus collisions: The central
   Phys. Rev. D} {\bfseries 27} (Jan, 1983) 140--151}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.27.140}.
 
-\bibitem{phobosFlow}
-B.~Alver {\em et~al.}, ``Importance of correlations and fluctuations on the
-  initial source eccentricity in high-energy nucleus-nucleus collisions,''
-  \href{http://dx.doi.org/10.1103/PhysRevC.77.014906}{{\em Phys. Rev. C}
-  {\bfseries 77} (Jan, 2008) 014906}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevC.77.014906}.
-
 \bibitem{cmsFlow}
 {\bfseries CMS Collaboration} Collaboration, S.~Chatrchyan {\em et~al.},
   ``Measurement of the elliptic anisotropy of charged particles produced in
@@ -89,14 +82,6 @@ H.~Song, S.~A. Bass, U.~Heinz, T.~Hirano, and C.~Shen, ``200 $a$ gev
   liquid,'' \href{http://dx.doi.org/10.1103/PhysRevLett.106.192301}{{\em Phys.
   Rev. Lett.} {\bfseries 106} (May, 2011) 192301}.
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.106.192301}.
-
-\bibitem{starFlow}
-{\bfseries STAR Collaboration and STAR-RICH Collaboration} Collaboration,
-  J.~Adams {\em et~al.}, ``Azimuthal anisotropy in au+au collisions at
-  $\sqrt{{s}_{\mathit{NN}}}=200\phantom{\rule{0.3em}{0ex}}\mathrm{GeV}$,''
-  \href{http://dx.doi.org/10.1103/PhysRevC.72.014904}{{\em Phys. Rev. C}
-  {\bfseries 72} (Jul, 2005) 014904}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevC.72.014904}.
 
 \bibitem{CGCandGlasma}
 F.~Gelis, ``Color glass condensate and glasma,''
@@ -154,6 +139,36 @@ A.~Adeluyi and C.~A. Bertulani, ``Gluon distributions in nuclei probed at
   \href{http://dx.doi.org/10.1103/PhysRevC.84.024916}{{\em Phys. Rev. C}
   {\bfseries 84} (Aug, 2011) 024916}.
   \url{http://link.aps.org/doi/10.1103/PhysRevC.84.024916}.
+
+\bibitem{emPCite4}
+I.~A. Pshenichnov, J.~P. Bondorf, I.~N. Mishustin, A.~Ventura, and S.~Masetti,
+  ``Mutual heavy ion dissociation in peripheral collisions at ultrarelativistic
+  energies,'' \href{http://dx.doi.org/10.1103/PhysRevC.64.024903}{{\em Phys.
+  Rev. C} {\bfseries 64} (Jul, 2001) 024903}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.64.024903}.
+
+\bibitem{emPCite6}
+P.~Chomaz,
+``{Collective excitations in nuclei},''.
+%%CITATION = GANIL-P-98-01 ETC.;%%.
+
+\bibitem{emPCite3}
+A.~J. Baltz, C.~Chasman, and S.~N. White, ``Correlated forward–backward
+  dissociation and neutron spectra as a luminosity monitor in heavy-ion
+  colliders,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/S0168-9002(98)00575-0}{{\em
+  Nuclear Instruments and Methods in Physics Research Section A: Accelerators,
+  Spectrometers, Detectors and Associated Equipment} {\bfseries 417} no.~1,
+  (1998) 1 -- 8}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0168900298005750}.
+
+\bibitem{emPCite5}
+I.~A. Pshenichnov, I.~N. Mishustin, J.~P. Bondorf, A.~S. Botvina, and A.~S.
+  Iljinov, ``Particle emission following coulomb excitation in
+  ultrarelativistic heavy-ion collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.60.044901}{{\em Phys. Rev. C}
+  {\bfseries 60} (Sep, 1999) 044901}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.60.044901}.
 
 \bibitem{upcRhoSTAR12}
 {\bfseries STAR Collaboration} Collaboration, G.~Agakishiev and otheres,
