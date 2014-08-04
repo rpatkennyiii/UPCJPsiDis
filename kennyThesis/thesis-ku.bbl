@@ -18,11 +18,6 @@ M.~Wilde, ``Measurement of direct photons in pp and pb–pb collisions with
   Quark Matter 2012 Proceedings of the \{XXIII\} International Conference on
   Ultrarelativistic Nucleus-Nucleus Collisions.
 
-\bibitem{CGC2Lec}
-L.~McLerran, ``{The Color Glass Condensate and Glasma},''
-\href{http://arxiv.org/abs/0804.1736}{{\ttfamily arXiv:0804.1736 [hep-ph]}}.
-%%CITATION = ARXIV:0804.1736;%%.
-
 \bibitem{upcNeuPHENIX}
 M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
   ``Measurement of mutual coulomb dissociation in
@@ -83,14 +78,6 @@ H.~Song, S.~A. Bass, U.~Heinz, T.~Hirano, and C.~Shen, ``200 $a$ gev
   Rev. Lett.} {\bfseries 106} (May, 2011) 192301}.
   \url{http://link.aps.org/doi/10.1103/PhysRevLett.106.192301}.
 
-\bibitem{CGCandGlasma}
-F.~Gelis, ``Color glass condensate and glasma,''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysa.2010.09.001}{{\em
-  Nuclear Physics A} {\bfseries 854} no.~1, (2011) 10 -- 17}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0375947410006615}.
-  Saturation, the Color Glass Condensate and the Glasma: What Have We Learned
-  from RHIC?
-
 \bibitem{WWJackson}
 J.~D. Jackson, {\em Classical electrodynamics}.
 \newblock Wiley, New York, {NY}, 3rd ed.~ed., 1999.
@@ -124,21 +111,6 @@ V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``{Coherent rho and J/psi
   {\bfseries B710} (2012) 647--653},
 \href{http://arxiv.org/abs/1109.0737}{{\ttfamily arXiv:1109.0737 [hep-ph]}}.
 %%CITATION = ARXIV:1109.0737;%%.
-
-\bibitem{lta2012.03}
-V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``Coherent $\rho$ and {J/$\Psi$}
-  photoproduction in ultraperipheral processes with electromagnetic
-  dissociation of heavy ions at {RHIC} and {LHC},''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.03.041}{{\em
-  Physics Letters B} {\bfseries 710} no.~4–5, (2012) 647 -- 653}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269312003152}.
-
-\bibitem{pQCD2011.08}
-A.~Adeluyi and C.~A. Bertulani, ``Gluon distributions in nuclei probed at
-  energies available at the {CERN} large hadron collider,''
-  \href{http://dx.doi.org/10.1103/PhysRevC.84.024916}{{\em Phys. Rev. C}
-  {\bfseries 84} (Aug, 2011) 024916}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevC.84.024916}.
 
 \bibitem{emPCite4}
 I.~A. Pshenichnov, J.~P. Bondorf, I.~N. Mishustin, A.~Ventura, and S.~Masetti,
@@ -199,16 +171,6 @@ S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
   \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2009.07.061}{{\em
   Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
   \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
-
-\bibitem{pQCD2013.02}
-A.~Adeluyi and T.~Nguyen, ``{Coherent photoproduction of $\psi$ and $\Upsilon$
-  mesons in ultraperipheral pPb and PbPb collisions at the {CERN} Large Hadron
-  Collider at $\sqrt {S_{NN}}=5$ TeV and $\sqrt {S_{NN}}=2.76$ TeV},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.87.027901}{{\em Phys. Rev. C}
-  {\bfseries 87} (Feb, 2013) 027901},
-  \href{http://arxiv.org/abs/1302.4288}{{\ttfamily arXiv:1302.4288 [nucl-th]}}.
-\url{http://link.aps.org/doi/10.1103/PhysRevC.87.027901}.
-%%CITATION = ARXIV:1302.4288;%%.
 
 \bibitem{alice2012.09}
 {\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Coherent $J/\psi$
@@ -276,6 +238,24 @@ T.~C. collaboration, ``Performance of cms muon reconstruction in pp collision
   \href{http://dx.doi.org/10.1103/PhysRevD.86.010001}{{\em Phys. Rev. D}
   {\bfseries 86} (Jul, 2012) 010001}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
+
+\bibitem{pQCD2013.02}
+A.~Adeluyi and T.~Nguyen, ``{Coherent photoproduction of $\psi$ and $\Upsilon$
+  mesons in ultraperipheral pPb and PbPb collisions at the {CERN} Large Hadron
+  Collider at $\sqrt {S_{NN}}=5$ TeV and $\sqrt {S_{NN}}=2.76$ TeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.87.027901}{{\em Phys. Rev. C}
+  {\bfseries 87} (Feb, 2013) 027901},
+  \href{http://arxiv.org/abs/1302.4288}{{\ttfamily arXiv:1302.4288 [nucl-th]}}.
+\url{http://link.aps.org/doi/10.1103/PhysRevC.87.027901}.
+%%CITATION = ARXIV:1302.4288;%%.
+
+\bibitem{lta2012.03}
+V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``Coherent $\rho$ and {J/$\Psi$}
+  photoproduction in ultraperipheral processes with electromagnetic
+  dissociation of heavy ions at {RHIC} and {LHC},''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.03.041}{{\em
+  Physics Letters B} {\bfseries 710} no.~4–5, (2012) 647 -- 653}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269312003152}.
 
 \bibitem{aliceIclJpsi}
 A.~Lardeux, ``{J/$\psi$ production in Pb-Pb collisions at $\sqrt{s_{NN}}$ =2.76

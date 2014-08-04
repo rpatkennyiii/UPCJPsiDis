@@ -30,46 +30,48 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "sps"
 Warning--I didn't find a database entry for "qgpThresh"
 Warning--I didn't find a database entry for "whi"
+Warning--I didn't find a database entry for "AB2011.08"
+Warning--I didn't find a database entry for "AB2013.02"
 Warning--I didn't find a database entry for "upcJets1"
-You've used 39 entries,
+You've used 36 entries,
             2328 wiz_defined-function locations,
-            921 strings with 13782 characters,
-and the built_in function-call counts, 13340 in all, are:
-= -- 1473
-> -- 358
+            901 strings with 13181 characters,
+and the built_in function-call counts, 12488 in all, are:
+= -- 1372
+> -- 342
 < -- 0
-+ -- 135
-- -- 96
-* -- 1149
-:= -- 1520
-add.period$ -- 82
-call.type$ -- 39
-change.case$ -- 75
++ -- 128
+- -- 92
+* -- 1076
+:= -- 1422
+add.period$ -- 75
+call.type$ -- 36
+change.case$ -- 70
 chr.to.int$ -- 0
-cite$ -- 39
-duplicate$ -- 767
-empty$ -- 1227
-format.name$ -- 96
-if$ -- 3539
+cite$ -- 36
+duplicate$ -- 719
+empty$ -- 1146
+format.name$ -- 92
+if$ -- 3310
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 146
-newline$ -- 145
-num.names$ -- 41
-pop$ -- 181
+int.to.str$ -- 36
+missing$ -- 135
+newline$ -- 134
+num.names$ -- 38
+pop$ -- 169
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 613
+skip$ -- 578
 stack$ -- 0
-substring$ -- 681
-swap$ -- 425
+substring$ -- 641
+swap$ -- 401
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 89
-width$ -- 41
-write$ -- 343
+while$ -- 83
+width$ -- 38
+write$ -- 318
 (There was 1 error message)
