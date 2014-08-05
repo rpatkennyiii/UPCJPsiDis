@@ -103,6 +103,13 @@ S.~R. Klein and J.~Nystrand, ``Exclusive vector meson production in
   {\bfseries 60} (Jun, 1999) 014903}.
   \url{http://link.aps.org/doi/10.1103/PhysRevC.60.014903}.
 
+\bibitem{pQCD2011.08}
+A.~Adeluyi and C.~A. Bertulani, ``Gluon distributions in nuclei probed at
+  energies available at the {CERN} large hadron collider,''
+  \href{http://dx.doi.org/10.1103/PhysRevC.84.024916}{{\em Phys. Rev. C}
+  {\bfseries 84} (Aug, 2011) 024916}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevC.84.024916}.
+
 \bibitem{lta2011.09}
 V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``{Coherent rho and J/psi
   photoproduction in ultraperipheral processes with electromagnetic
@@ -172,13 +179,15 @@ S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
   Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
   \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
 
-\bibitem{alice2012.09}
-{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Coherent $J/\psi$
-  photoproduction in ultra-peripheral Pb-Pb collisions at $\sqrt{s_{NN}} =
-  2.76$ TeV},''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.11.059}{{\em
-  Physics Letters B} {\bfseries 718} no.~4–5, (2013) 1273 -- 1283}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269312012257}.
+\bibitem{pQCD2013.02}
+A.~Adeluyi and T.~Nguyen, ``{Coherent photoproduction of $\psi$ and $\Upsilon$
+  mesons in ultraperipheral pPb and PbPb collisions at the {CERN} Large Hadron
+  Collider at $\sqrt {S_{NN}}=5$ TeV and $\sqrt {S_{NN}}=2.76$ TeV},''
+  \href{http://dx.doi.org/10.1103/PhysRevC.87.027901}{{\em Phys. Rev. C}
+  {\bfseries 87} (Feb, 2013) 027901},
+  \href{http://arxiv.org/abs/1302.4288}{{\ttfamily arXiv:1302.4288 [nucl-th]}}.
+\url{http://link.aps.org/doi/10.1103/PhysRevC.87.027901}.
+%%CITATION = ARXIV:1302.4288;%%.
 
 \bibitem{lta2013.05}
 V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
@@ -239,16 +248,6 @@ T.~C. collaboration, ``Performance of cms muon reconstruction in pp collision
   {\bfseries 86} (Jul, 2012) 010001}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
 
-\bibitem{pQCD2013.02}
-A.~Adeluyi and T.~Nguyen, ``{Coherent photoproduction of $\psi$ and $\Upsilon$
-  mesons in ultraperipheral pPb and PbPb collisions at the {CERN} Large Hadron
-  Collider at $\sqrt {S_{NN}}=5$ TeV and $\sqrt {S_{NN}}=2.76$ TeV},''
-  \href{http://dx.doi.org/10.1103/PhysRevC.87.027901}{{\em Phys. Rev. C}
-  {\bfseries 87} (Feb, 2013) 027901},
-  \href{http://arxiv.org/abs/1302.4288}{{\ttfamily arXiv:1302.4288 [nucl-th]}}.
-\url{http://link.aps.org/doi/10.1103/PhysRevC.87.027901}.
-%%CITATION = ARXIV:1302.4288;%%.
-
 \bibitem{lta2012.03}
 V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``Coherent $\rho$ and {J/$\Psi$}
   photoproduction in ultraperipheral processes with electromagnetic
@@ -256,6 +255,14 @@ V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``Coherent $\rho$ and {J/$\Psi$}
   \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.03.041}{{\em
   Physics Letters B} {\bfseries 710} no.~4–5, (2012) 647 -- 653}.
   \url{http://www.sciencedirect.com/science/article/pii/S0370269312003152}.
+
+\bibitem{alice2012.09}
+{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Coherent $J/\psi$
+  photoproduction in ultra-peripheral Pb-Pb collisions at $\sqrt{s_{NN}} =
+  2.76$ TeV},''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.11.059}{{\em
+  Physics Letters B} {\bfseries 718} no.~4–5, (2013) 1273 -- 1283}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269312012257}.
 
 \bibitem{aliceIclJpsi}
 A.~Lardeux, ``{J/$\psi$ production in Pb-Pb collisions at $\sqrt{s_{NN}}$ =2.76
