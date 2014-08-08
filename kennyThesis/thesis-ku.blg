@@ -31,36 +31,36 @@ Warning--I didn't find a database entry for "sps"
 Warning--I didn't find a database entry for "qgpThresh"
 Warning--I didn't find a database entry for "whi"
 Warning--I didn't find a database entry for "upcJets1"
-You've used 37 entries,
+You've used 38 entries,
             2328 wiz_defined-function locations,
-            906 strings with 13388 characters,
-and the built_in function-call counts, 12822 in all, are:
-= -- 1410
-> -- 350
+            912 strings with 13496 characters,
+and the built_in function-call counts, 12980 in all, are:
+= -- 1429
+> -- 354
 < -- 0
-+ -- 131
-- -- 94
-* -- 1102
-:= -- 1457
-add.period$ -- 77
-call.type$ -- 37
-change.case$ -- 73
++ -- 133
+- -- 95
+* -- 1114
+:= -- 1480
+add.period$ -- 79
+call.type$ -- 38
+change.case$ -- 74
 chr.to.int$ -- 0
-cite$ -- 37
-duplicate$ -- 741
-empty$ -- 1175
-format.name$ -- 94
-if$ -- 3401
+cite$ -- 38
+duplicate$ -- 749
+empty$ -- 1192
+format.name$ -- 95
+if$ -- 3442
 int.to.chr$ -- 0
-int.to.str$ -- 37
-missing$ -- 139
-newline$ -- 137
-num.names$ -- 39
-pop$ -- 174
+int.to.str$ -- 38
+missing$ -- 142
+newline$ -- 142
+num.names$ -- 40
+pop$ -- 178
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 598
+skip$ -- 599
 stack$ -- 0
 substring$ -- 653
 swap$ -- 415
@@ -69,7 +69,7 @@ text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 85
-width$ -- 39
-write$ -- 326
+while$ -- 86
+width$ -- 40
+write$ -- 334
 (There was 1 error message)
