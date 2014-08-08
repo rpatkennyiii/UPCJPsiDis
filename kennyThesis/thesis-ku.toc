@@ -22,30 +22,31 @@
 \contentsline {section}{\numberline {3.5}Muons}{42}{section.3.5}
 \contentsline {section}{\numberline {3.6}Trigger}{47}{section.3.6}
 \contentsline {chapter}{\numberline {4} Analysis}{49}{chapter.4}
-\contentsline {section}{\numberline {4.1} MC simulation}{49}{section.4.1}
-\contentsline {section}{\numberline {4.2} Trigger development}{52}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1} L1 trigger}{53}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}HLT trigger}{54}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3} Event selection}{55}{section.4.3}
+\contentsline {section}{\numberline {4.1} Physics generators and Monte Carlo simulations}{49}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}STARlight and particle gun MC in CMS}{50}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2} Trigger development}{53}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1} L1 trigger}{54}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}HLT trigger}{55}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3} Event selection}{56}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Data sets}{56}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Event selection cuts}{57}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.2}Event selection cuts}{58}{subsection.4.3.2}
 \contentsline {section}{\numberline {4.4} Break up determination}{60}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}ZDC signal reconstruction}{60}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{62}{subsection.4.4.2}
-\contentsline {section}{\numberline {4.5} Signal extraction}{64}{section.4.5}
+\contentsline {subsection}{\numberline {4.4.1}ZDC signal reconstruction}{61}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Determination of the one neutron thresholds}{63}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5} Signal extraction}{65}{section.4.5}
 \contentsline {section}{\numberline {4.6} Efficiency determination}{69}{section.4.6}
-\contentsline {subsection}{\numberline {4.6.1}Muon efficiencies}{69}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.1}Muon efficiencies}{70}{subsection.4.6.1}
 \contentsline {subsection}{\numberline {4.6.2}ZDC trigger efficiency}{74}{subsection.4.6.2}
-\contentsline {section}{\numberline {4.7} Systematic checks}{75}{section.4.7}
+\contentsline {section}{\numberline {4.7} Systematic checks}{76}{section.4.7}
 \contentsline {subsection}{\numberline {4.7.1}HF noise threshold}{76}{subsection.4.7.1}
-\contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{77}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{78}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{80}{subsection.4.7.3}
-\contentsline {subsection}{\numberline {4.7.4}MC acceptance}{80}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{82}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.4}MC acceptance}{81}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{83}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}ZDC trigger efficiency}{84}{subsection.4.7.6}
-\contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{84}{subsection.4.7.7}
-\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{87}{subsection.4.7.8}
-\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{89}{subsection.4.7.9}
+\contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{86}{subsection.4.7.7}
+\contentsline {subsection}{\numberline {4.7.8}Tag and probe}{88}{subsection.4.7.8}
+\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{90}{subsection.4.7.9}
 \contentsline {chapter}{\numberline {5}Results}{92}{chapter.5}
 \contentsline {section}{\numberline {5.1}Coherent cross section}{92}{section.5.1}
 \contentsline {chapter}{\numberline {6}Summary}{95}{chapter.6}
@@ -58,4 +59,4 @@
 \contentsline {subsection}{\numberline {7.2.1}pPb $J/\psi $}{102}{subsection.7.2.1}
 \contentsline {subsection}{\numberline {7.2.2}UPC $J/\psi $ and $\Upsilon $ in 2015}{103}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}UPC jets}{103}{subsection.7.2.3}
-\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{112}{appendix.A}
+\contentsline {chapter}{\numberline {A}My Appendix, Next to my Spleen}{111}{appendix.A}

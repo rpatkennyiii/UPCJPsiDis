@@ -12,7 +12,7 @@
   Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
     for the measurement. 
 
-  \section{\label{sec:mcSim} MC simulation}
+  \section{\label{sec:mcSim} Physics generators and Monte Carlo simulations}
     Every physical measurement is the product of the underlying physics 
       folded with the response of the detector used to do the measurement. 
     In order to understand the underlying physical process, the detector's 
@@ -21,24 +21,25 @@
       of the many parts of the detector makes an analytic approach to the 
       problem untenable.
     For this reason, the numerical technique of Monte Carlo (MC) simulation is
-      often the most effective approach.
+      often the most effective approach for describing detector effects.
 
     MC simulations use random number generation to model the many statistical 
       effects of particles interacting with different parts of the detector. 
     First, particles are generated according to theoretical distributions.
     These particles are then propagated through a simulation of the detector.
-    As the particles pass through the detector, random numbers are again used
+    As the particles pass through the detector, random numbers are used
       to determine how these particles interact with the materials of the 
       detector based on the known properties of the material. 
     In this way, the theoretical distributions are convolved with a realistic 
       model of the detector's response. 
     A more detailed picture of how the detector shapes the underlaying 
-      distributions emerges with each successive event. 
-    The set of events that are produced resemble as closely as possible the 
-      results that would be seen were the physical process to be measured 
-      by the detector.
-    
-    In this thesis, two main classes of MC simulation samples were used, 
+      distributions emerges with each successive event.
+    The final goal of the MC simulation is to produce a set of events that 
+      accurately reproduce what would be measured if the theoretical input 
+      describes nature well. 
+
+  \subsection{STARlight and particle gun MC in CMS}
+    In this thesis, two classes of generator input samples were used, 
       STARlight and a particle gun.
     The STARlight samples corresponds to the theoretical calculations 
       described in Section~\ref{sec:vdmTheory}, while the particle gun produces
@@ -51,8 +52,9 @@
       of oppositely charge muons directly.
     All three STARlight samples contain a $\mu^{+}$ and $\mu^{-}$ in the final 
       state.
-    The second class uses PYTHIA6 to decay \JPsi{}s produced with a user 
-      defined \pt{} and rapidity distribution into muon pairs.
+    The second class simulates \JPsi{} particles with a user 
+      defined \pt{} and rapidity distribution and isotropic decay to muon pairs
+      in the \JPsi{} rest frame.
 
     Because STARlight is not integrated into the standard CMS software 
       framework (CMSSW), a simulation software chain with 5 steps was developed.
@@ -82,7 +84,9 @@
     The particle gun samples were created entirely within CMSSW.
     \JPsi{} mesons were created according to user defined \pt{} and rapidity
       distributions. 
-    PYTHIA6 \cite{pythia} decays the \JPsi{}s to $\mu^{+}$ and $\mu^{-}$.
+    The decay of \JPsi{}s to $\mu^{+}$ and $\mu^{-}$ was simulated with a 
+      a uniform decay distribution, corresponding to unpolarized \JPsi{} 
+      particles.
     As with the STARlight samples, these muons are propagated through the GEANT4
       simulation of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
@@ -97,7 +101,7 @@
     There are at least 10 interactions lengths of material through which the 
       muons must travel in order reach the muon chambers 
       (see Fig.~\ref{fig:matThick}).
-    This imposes an effect momentum threshold on which muons can fire the 
+    This imposes an effective momentum threshold on which muons can fire the 
       trigger and be reconstructed. 
 
     The \pt{} distribution and the polarization of the \JPsi{}s produced are 
@@ -116,7 +120,8 @@
       direction will have decreased momentum. 
 
     In Fig.~\ref{fig:starlightRapPtDist} the \pt{} of \JPsi{}s from the 
-      coherent, incoherent, and photon-photon samples are compared.
+      STARlight generated coherent, and incoherent, and the dimuon \pt for 
+      photon-photon samples are compared.
     Both the coherent and the photon-photon samples are concentrated a low 
       \pt{}, and neither sample extends much beyond 0.15 GeV.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
@@ -125,8 +130,6 @@
     The first sample has a Gaussian \pt{} distribution extending to 
       approximately 0.15 GeV, whereas the second is flat in \pt{} up to
       2 GeV.
-
-
     \begin{figure}[!Hhbt]
       \centering
       $ \begin{array}{cc}
@@ -141,8 +144,8 @@
     
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization.
-    In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the particle 
-      gun samples and the STARlight samples are shown.
+    In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the 
+      particle gun samples and the STARlight samples are shown.
     For the STARlight sample the helicity angle, the angle between the 
       direction of the $\mu^{+}$ daughter and the \JPsi{} direction in the rest
       frame of the \JPsi{}, prefer to be either parallel or anit-parallel.
@@ -157,7 +160,9 @@
       \label{fig:genHXAngle}
     \end{figure}
     
-  \section{\label{sec:TrigDev} Trigger development} 
+  \section{\label{sec:TrigDev} Trigger development}
+    A collection of triggers was needed in order to select UPC events from the
+      collisions at the LHC. 
     The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
       nearly a factor of 15. 
     To accommodate this increase in rate, the 2011 trigger scheme needed to be 
@@ -168,11 +173,11 @@
     From this consideration, bandwidth limits were placed on the trigger rates
       for each analysis group's trigger package. 
     To ensure that UPC physics could be explored all while respecting the
-      goals of the CMS Heavy Ions group as a whole, a collection of UPC triggers
-      were commissioned. 
+      goals of the CMS Heavy Ions group as a whole, a UPC triggers were 
+      commissioned. 
   
-    The UPC trigger for 2011 were created by combining existing triggers from 
-      the 2010 run. 
+    The UPC trigger rate estimates for commissioning the 2011 triggers were 
+      calculated by combining existing triggers from the 2010 run. 
     By calculating the ratio between the UPC trigger rates and the minimum bias
       trigger rate, the UPC trigger rates were scaled up to the anticipated 2011 
       interaction rates using the 2010 data.
@@ -182,12 +187,14 @@
       electron triggers.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
-      The goal of the UPC L1 triggers were to record enough data to measure 
+      The UPC L1 triggers were designed to record enough data to measure 
         UPC \JPsi{} production via the dimuon and dielectron channels.
       To achieve this, the loosest muon and electron triggers where paired with
-        a trigger on energy in the ZDC and a veto on energy in the BSCs.
-      Additional triggers that vetoed on energy in HF were commissioned in case
-        radiation damage during the run reduced the sensitivity of the BSCs.
+        a trigger on energy in the ZDC were used as a trigger selection 
+        criteria, and energy in the BSCs was used as a rejection criteria.
+      Additional triggers with rejection criteria based on energy in HF were 
+        commissioned in case radiation damage during the run reduced the 
+        sensitivity of the BSCs.
       These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
       The 5 and 2 in the ECAL trigger names in Table~\ref{tab:l1Triggers2011}
         indicate a 5 and 2 GeV threshold on $E_{T}$ measured in the ECAL.
@@ -229,8 +236,10 @@
         signal triggers.
 
     \subsection{HLT trigger}
+      An event must pass the selection criteria of an HLT path in order to be
+        recorded. 
       As opposed to the L1 trigger, which has access only to information from
-        calorimeters and muon chambers, the HLT has access to all the 
+        calorimeters and muon chambers, the HLT has access to all of the CMS 
         sub-detectors including the tracker. 
       Reconstruction of a track in the pixel detector is used by the UPC 
         trigger paths.
@@ -279,20 +288,27 @@
         the tracks lost. 
 
   \section{\label{sec:DataSetEvSel} Event selection}
-    In order to investigate novel physics processes like UPC \JPsi{} 
-     production, the LHC has delivered unprecedented amounts of data.
-    The data for this analysis was recorded during the 2011 LHC PbPb run. 
-    During this period, 150 $\mu$$b^{-1}$ where recorded by the CMS detector,
+    The unprecedented amounts of data produced by the LHC has made it possible 
+      to investigate novel physics processes like UPC \JPsi{} production.
+    The data for this analysis were recorded during the 2011 LHC PbPb run. 
+    During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
       corresponding to over a billion PbPb collisions. 
-    Of this, 143 $\mu$$b^{-1}$ were used in this analysis.
+    Of this, 143 $\mu$$b^{-1}$ of data were used in this analysis.
   
     \subsection{Data sets}
-      Three specially selected samples were used for this analysis, 
-        Physics, Monitoring, and Zero bias (see Table~\ref{tab:sampleLumiNevt}).
+      The data were dived into three specially selected samples, Physics, Monitoring, 
+        and Zero bias, based on the triggers which recored the events (see 
+        Table~\ref{tab:sampleLumiNevt}).
       By recording this hierarchy of samples, interesting events are selected 
-        with a much higher purity in the physics sample, while the zero bias and 
-        ZDC triggered samples allow for the investigation of the selection 
+        with a much higher purity in the physics sample, while the zero bias 
+        and ZDC triggered samples allow for the investigation of the selection 
         criteria. 
+      The purity, which is a measure of how many signal events relative to
+        background events are in an sample, is obtained by using more selective
+        triggers.
+      Less selective triggers, those assigned to the monitoring and zero bias 
+        samples, were used to investigate to what extent signal events are lost
+        due to the higher selectivity of physics triggers. 
       These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Section~\ref{sec:TrigDev}.
       The \JPsi{} events discussed in this thesis were obtained analyzing the 
@@ -323,9 +339,10 @@
       In order to investigate the muon trigger and the other parts of the event 
         selection, a monitoring sample was recorded by requiring energy 
         consistent with at least one neutron in either of the ZDCs.
-      This process is much more common than the UPC \JPsi{} production.
-      Neutron production has cross sections on the order of 100 b compared
-        to 10 mb predicted from \JPsi{} production. 
+      Neutron production is much more common process than the UPC \JPsi{} 
+        production.
+      This process has cross sections on the order of 100 b compared
+        to 10 mb predicted for \JPsi{} production. 
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
       From this trigger the pixel track portion of the HLT trigger efficiency 
@@ -346,7 +363,8 @@
         interactions.
   
       The integrated luminosity for each of the three samples is calculated
-        by recording activity in HF \cite{cmsLumi}. 
+        by recording activity in HF, the forward hadronic calorimeter in CMS
+        \cite{cmsLumi}. 
       The cross section for HF activity is measured from a van der Meer scan, 
         and the cross section was found to be 45 mb for proton-proton running.
       In this way, the amount of integrated luminosity for any running period is
@@ -474,8 +492,8 @@
       be distinguished by the two ZDCs.
     By separating events where the ZDC signal is consistent with 1 neutron 
       versus several neutrons, or where neutrons are present on only one or 
-      both sides, the different break-up modes can be separated
-      and compared to theory. 
+      both sides, the fraction of events which correspond to a given 
+      break-up mode can be measured and compared to theory. 
 
     In order to maximize the ability to explore the one neutron peak, which 
       sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
@@ -530,7 +548,7 @@
         signal contribution to time slice 5, $C$ is a random noise constant
         from the low frequency noise, and $R_{Ts5/Ts4}$ is the ratio between
         the signal contribution from time slice 5 over time slice 4.
-      Fig.~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
+      Figure~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
         fraction and validates the unconventional method of using the falling 
         tail of the signal to estimate the low frequency noise. 
       By using time slice 5, the chances of measuring the noise are maximized. 
@@ -551,8 +569,9 @@
       
       When summing the 9 channels in each ZDC only channels with signals above 
         zero in time slices 4 and 5 were included. 
-      The EM section of the calorimeter is more densely packed with quartz 
-        fibers and therefore has a higher gain relative to the HAD section. 
+      The EM, electromagnetic, section of the calorimeter is more densely 
+        packed with quartz fibers and therefore has a higher gain relative to 
+        the HAD, hadronic, section. 
       To account for this, the EM channels were weighted with
         a factor of 0.1 to match the HAD channel gains.
 
@@ -644,25 +663,26 @@
         are measured separately.
       Fig~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
         EM and HAD sections for the two ZDCs.
-      If the HAD or EM signals measured from the in time time slices, 
-        time slices 4 and 5, are less than 2$\sigma$ above the mean of the 
-        noise distribution or lower, these sections are considered consistent 
-        with noise.
+      If the HAD or EM signals measured from time slices which match the 
+        timing for a collision, time slices 4 and 5, are less than 2$\sigma$ 
+        above the mean of the noise distribution or lower, these sections are 
+        considered consistent with noise.
       A ZDC is considered consistent with noise if both the HAD section and EM 
         section from that ZDC have signal measurements consistent with noise.
 
   \section{\label{sec:sigEx} Signal extraction}
-    After all event selection cuts, the coherent \JPsi{}, incoherent \JPsi{},
-      and photon-photon process all contribute to the remaining events.
+    After all event selection cuts, the remaining events contain a combination 
+      of coherent \JPsi{}, incoherent \JPsi{}, and dimuons from the 
+      photon-photon process.
     Each process must be separated from the final mix.
     To achieve this, the invariant mass and \pt{} distributions are used 
       to distinguish between the three processes. 
     The photon-photon process is extended in invariant mass whereas the 
       \JPsi{} is peak strongly near 3.1 GeV.
-    In \pt{} the photon-photon and coherent process have similar 
-      distributions, both peaked shapely below 0.1 GeV, whereas the incoherent 
-      process is more broadly distributed across an interval extending to 
-      nearly 1 GeV.
+    In dimuon transverse momentum distribution of the photon-photon and 
+      coherent process have similar distributions, both peaked shapely below 
+        0.1 GeV, whereas the incoherent process is more broadly distributed 
+        across an interval extending to nearly 1 GeV.
     The mass distribution was fit to separate the photon-photon process from
       the \JPsi{} process.
     The \pt{} distribution was used to separate the incoherent process from 
@@ -716,7 +736,7 @@
     \end{figure}
 
     The shape of the photon-photon and coherent \JPsi{} process are very 
-      similar in \pt{}.
+      similar in transverse momentum.
     Accordingly, the contribution from the photon-photon process and the 
       coherent process are difficult to separate from the \pt{} distribution.
     The confidence contours in Fig.~\ref{fig:ptOnlyCor} from the template fit
@@ -852,7 +872,7 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
-      The tag and probe method is a data driven approach used to measure the 
+      The "tag and probe method" is a data driven approach used to measure the 
         trigger efficiency of the muon daughters from \JPsi{} decays.
       In this method there are three categories of daughter muons. 
       \textit{Tag muons} are high quality muons.
@@ -892,7 +912,7 @@
         \label{fig:tnpFitPlot}
       \end{figure}
       This fit was done for each bin of the probes \pt{} and $\eta$.
-      The efficiency from the fits in each bin are in Fig.~\ref{fig:tnpTrigMap}.
+      The efficiency from the fits in each bin are shown in Fig.~\ref{fig:tnpTrigMap}.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}

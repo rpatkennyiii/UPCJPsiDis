@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  8 AUG 2014 00:08
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  8 AUG 2014 00:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,8 +652,8 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \ULC@box=\box34
 Package: ulem 2012/05/18
 \ULdepth=\dimen158
-)
-No file diffMain.aux.
+) (./diffMain.aux
+(./mmDiff.aux) (./diffTheory.aux))
 \openout1 = `diffMain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
@@ -671,6 +671,7 @@ LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
 LaTeX Font Info:    ... okay on input line 97.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 97.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -752,6 +753,8 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 97.
 LaTeX Info: Redefining \pageref on input line 97.
 LaTeX Info: Redefining \nameref on input line 97.
+
+(./diffMain.out) (./diffMain.out)
 \@outlinefile=\write3
 \openout3 = `diffMain.out'.
 
@@ -772,54 +775,54 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 17
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 17
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 17
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 17
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
 .
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 17.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 17.
-LaTeX Font Info:    Try loading font information for U+esint on input line 17.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+LaTeX Font Info:    Try loading font information for U+esint on input line 18.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 33.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
 
 
-LaTeX Warning: Citation `Klasen:2007pm' on page 1 undefined on input line 33.
+LaTeX Warning: Citation `Klasen:2007pm' on page 1 undefined on input line 34.
 
 
-LaTeX Warning: Reference `ch:analysis' on page 1 undefined on input line 43.
+LaTeX Warning: Reference `ch:analysis' on page 1 undefined on input line 44.
 
 [1
 
@@ -829,519 +832,245 @@ LaTeX Warning: Reference `ch:analysis' on page 1 undefined on input line 43.
 
 {/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 49.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
 
-<TheoryChapter/figures/boost.png, id=15, 291.0875pt x 155.58125pt>
+<TheoryChapter/figures/boost.png, id=50, 291.0875pt x 155.58125pt>
 File: TheoryChapter/figures/boost.png Graphic file (type png)
 
 <use TheoryChapter/figures/boost.png>
-Package pdftex.def Info: TheoryChapter/figures/boost.png used on input line 61.
+Package pdftex.def Info: TheoryChapter/figures/boost.png used on input line 62.
 
 (pdftex.def)             Requested size: 305.33789pt x 163.2108pt.
  [2 <./TheoryChapter/figures/boost.png (PNG copy)>]
 
-LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 3 undefined on input l
-ine 74.
+LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 98.
 
 
-LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 3 undefined on input l
-ine 89.
-
-
-LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
-line 95.
-
-
-LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 97.
-
-
-LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
-line 107.
-
-
-LaTeX Warning: Reference `eq:staticEFromTarg3tmp' on page 3 undefined on input 
-line 108.
-
-
-LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 108.
-
-
-LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
-line 118.
+LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 109.
 
 [3]
 
-LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 4 undefined on input l
-ine 121.
-
-
-LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 4 undefined on input 
-line 122.
-
-
-LaTeX Warning: Reference `fig:boost' on page 4 undefined on input line 142.
-
-
-LaTeX Warning: Reference `eq:fourier1tmp' on page 4 undefined on input line 158
-.
-
-
-LaTeX Warning: Reference `eq:fourier1tmp' on page 4 undefined on input line 169
-.
-
-
-LaTeX Warning: Citation `WWFermi' on page 4 undefined on input line 170.
+LaTeX Warning: Citation `WWFermi' on page 4 undefined on input line 171.
 
 [4]
 
-LaTeX Warning: Reference `eq:fourier2tmp' on page 5 undefined on input line 179
-.
-
-
-LaTeX Warning: Reference `eq:fourier1tmp' on page 5 undefined on input line 191
-.
-
-
-LaTeX Warning: Reference `eq:fourier3tmp' on page 5 undefined on input line 195
-.
-
-
-LaTeX Warning: Reference `eq:fourier3tmp' on page 5 undefined on input line 195
-.
-
-
-LaTeX Warning: Citation `WWBrau' on page 5 undefined on input line 224.
+LaTeX Warning: Citation `WWBrau' on page 5 undefined on input line 225.
 
 [5]
 
-LaTeX Warning: Reference `eq:specturalFluencytmp' on page 6 undefined on input 
-line 241.
+LaTeX Warning: Citation `WWJackson' on page 6 undefined on input line 247.
+
+[6] [7]
+
+LaTeX Warning: Citation `vmd1999' on page 8 undefined on input line 363.
+
+[8] [9] [10]
+
+LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 487.
 
 
-LaTeX Warning: Citation `WWJackson' on page 6 undefined on input line 246.
-
-
-LaTeX Warning: Reference `eq:specturalFluencytmp' on page 6 undefined on input 
-line 251.
-
-
-LaTeX Warning: Reference `eq:photonFluxtmp' on page 6 undefined on input line 2
-52.
-
-
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 6 undefined on input l
-ine 261.
-
-[6]
-
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
-ine 283.
-
-
-LaTeX Warning: Reference `eq:TaNuc' on page 7 undefined on input line 301.
-
-
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
-ine 316.
-
-
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
-ine 323.
-
-[7]
-
-LaTeX Warning: Reference `eq:fluxMod' on page 8 undefined on input line 343.
-
-
-LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 358.
-
-
-LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 359.
-
-
-LaTeX Warning: Citation `vmd1999' on page 8 undefined on input line 362.
-
-
-LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 364.
-
-
-LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 366.
-
-[8]
-
-LaTeX Warning: Reference `eq:proElFit' on page 9 undefined on input line 377.
-
-
-LaTeX Warning: Reference `eq:STARlightforwardScat' on page 9 undefined on input
- line 395.
-
-
-LaTeX Warning: Reference `eq:STARlightforwardScat' on page 9 undefined on input
- line 398.
-
-
-LaTeX Warning: Reference `eq:glauber' on page 9 undefined on input line 412.
-
-
-LaTeX Warning: Reference `eq:glauber' on page 9 undefined on input line 416.
-
-[9]
-
-LaTeX Warning: Reference `eq:glauber' on page 10 undefined on input line 418.
-
-
-LaTeX Warning: Reference `eq:optTheA' on page 10 undefined on input line 431.
-
-
-LaTeX Warning: Reference `eq:finalSTARlightResult' on page 10 undefined on inpu
-t line 437.
-
-
-LaTeX Warning: Reference `eq:finalSTARlightResult' on page 10 undefined on inpu
-t line 440.
-
-[10]
-
-LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 486.
-
-
-LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
-98.
-
-
-LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
-99.
-
-
-LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 500.
-
-
-LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 5
-01.
-
-
-LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 5
-06.
+LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 501.
 
 [11]
 
-LaTeX Warning: Reference `eq:ABtotXSec' on page 12 undefined on input line 521.
-
-
-
-LaTeX Warning: Reference `eq:ltaRapDist' on page 12 undefined on input line 522
-.
-
-
-LaTeX Warning: Reference `eq:ABtotXSec' on page 12 undefined on input line 525.
-
-
-
-LaTeX Warning: Reference `eq:ltaRapDist' on page 12 undefined on input line 525
-.
-
-
-LaTeX Warning: Reference `eq:ABfowardScat' on page 12 undefined on input line 5
-29.
-
-
-LaTeX Warning: Citation `lta2011.09' on page 12 undefined on input line 542.
+LaTeX Warning: Citation `lta2011.09' on page 12 undefined on input line 543.
 
 [12]
 
-LaTeX Warning: Citation `lta2011.09' on page 13 undefined on input line 564.
-
-
-LaTeX Warning: Reference `eq:ltaFowardPhotoXSec' on page 13 undefined on input 
-line 573.
-
-
-LaTeX Warning: Reference `eq:ltaOptTheWNucMo' on page 13 undefined on input lin
-e 591.
-
-
-LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 601
-.
-
-
-LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 604
-.
-
-
-LaTeX Warning: Reference `eq:finalSTARlightResult' on page 13 undefined on inpu
-t line 605.
-
-
-LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 607
-.
+LaTeX Warning: Citation `lta2011.09' on page 13 undefined on input line 565.
 
 [13]
 
-LaTeX Warning: Citation `emPCite4' on page 14 undefined on input line 622.
+LaTeX Warning: Citation `emPCite4' on page 14 undefined on input line 623.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 639.
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 640.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 641.
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 642.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 653.
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 654.
 
 [14]
 
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 672.
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 673.
 
 
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 681.
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 682.
 
 
-LaTeX Warning: Reference `eq:omegaGDRSJ' on page 15 undefined on input line 686
-.
-
-
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 690.
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 691.
 
 [15]
 
-LaTeX Warning: Citation `emPCite6' on page 16 undefined on input line 712.
+LaTeX Warning: Citation `emPCite6' on page 16 undefined on input line 713.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 717.
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 718.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 725.
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 726.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 733.
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 734.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 739.
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 740.
 
 [16]
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 749.
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 750.
 
 
-LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 755.
+LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 756.
 
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 755.
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 756.
 
 
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 17 undefined on input 
-line 762.
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 765.
 
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 764.
+LaTeX Warning: Citation `emPCite5' on page 17 undefined on input line 776.
 
 
-LaTeX Warning: Citation `emPCite5' on page 17 undefined on input line 775.
+LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 783.
 
 
-LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 782.
-
-
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 782.
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 783.
 
 [17]
 
-LaTeX Warning: Reference `eq:sigmaPi' on page 18 undefined on input line 787.
+LaTeX Warning: Citation `emPCite3' on page 18 undefined on input line 799.
 
 
-LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 18 undefined on input 
-line 791.
+LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 799.
 
 
-LaTeX Warning: Citation `emPCite3' on page 18 undefined on input line 798.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 805.
 
 
-LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 798.
+LaTeX Warning: Reference `sec:zdcDet' on page 18 undefined on input line 813.
 
-
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 804.
-
-
-LaTeX Warning: Reference `sec:zdcDet' on page 18 undefined on input line 812.
-
-<TheoryChapter/figures/neuSpecRHIC.png, id=134, 503.8825pt x 380.42125pt>
+<TheoryChapter/figures/neuSpecRHIC.png, id=221, 503.8825pt x 380.42125pt>
 File: TheoryChapter/figures/neuSpecRHIC.png Graphic file (type png)
 
 <use TheoryChapter/figures/neuSpecRHIC.png>
 Package pdftex.def Info: TheoryChapter/figures/neuSpecRHIC.png used on input li
-ne 815.
+ne 816.
 (pdftex.def)             Requested size: 305.33789pt x 230.52415pt.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 817.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 818.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 817.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 818.
 
 
-LaTeX Warning: Reference `fig:neuSpecRHIC' on page 18 undefined on input line 8
-20.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 828.
 
 
-LaTeX Warning: Reference `fig:neuSpecRHIC' on page 18 undefined on input line 8
-21.
+LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 830.
 
-
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 827.
-
-
-LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 829.
-
-
-LaTeX Warning: Reference `fig:neuRHICEMvHad' on page 18 undefined on input line
- 838.
-
-<TheoryChapter/figures/neuRHICEMvHad.png, id=136, 514.92375pt x 369.38pt>
+<TheoryChapter/figures/neuRHICEMvHad.png, id=226, 514.92375pt x 369.38pt>
 File: TheoryChapter/figures/neuRHICEMvHad.png Graphic file (type png)
 
 <use TheoryChapter/figures/neuRHICEMvHad.png>
 Package pdftex.def Info: TheoryChapter/figures/neuRHICEMvHad.png used on input 
-line 841.
+line 842.
 (pdftex.def)             Requested size: 305.33789pt x 219.03702pt.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 843.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 844.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 843.
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 844.
 
 
-LaTeX Warning: Reference `fig:neuRHICEMvHad' on page 18 undefined on input line
- 846.
-
-
-LaTeX Warning: Reference `ch:triggChp' on page 18 undefined on input line 851.
+LaTeX Warning: Reference `ch:triggChp' on page 18 undefined on input line 852.
 
 [18] [19 <./TheoryChapter/figures/neuSpecRHIC.png> <./TheoryChapter/figures/neu
 RHICEMvHad.png>]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 854.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 855.
 
 
-LaTeX Warning: Citation `upcRhoSTAR12' on page 20 undefined on input line 859.
+LaTeX Warning: Citation `upcRhoSTAR12' on page 20 undefined on input line 860.
 
 
-LaTeX Warning: Citation `upcRhoSTAR02' on page 20 undefined on input line 860.
+LaTeX Warning: Citation `upcRhoSTAR02' on page 20 undefined on input line 861.
 
 
-LaTeX Warning: Citation `upcRhoSTAR08' on page 20 undefined on input line 860.
+LaTeX Warning: Citation `upcRhoSTAR08' on page 20 undefined on input line 861.
 
 
-LaTeX Warning: Citation `upcJPsiPHENIX' on page 20 undefined on input line 861.
+LaTeX Warning: Citation `upcJPsiPHENIX' on page 20 undefined on input line 862.
 
-
-
-LaTeX Warning: Reference `sec:vdmTheory' on page 20 undefined on input line 863
-.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 867.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 867.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 867.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 867.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\psi' on input line 867.
+(hyperref)                removing `math shift' on input line 868.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 867.
+(hyperref)                removing `\psi' on input line 868.
 
 
-LaTeX Warning: Reference `fig:aliceMoney' on page 20 undefined on input line 90
-1.
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 868.
 
-<TheoryChapter/figures/aliceJpsiCo.png, id=153, 633.36626pt x 426.59375pt>
+<TheoryChapter/figures/aliceJpsiCo.png, id=244, 633.36626pt x 426.59375pt>
 File: TheoryChapter/figures/aliceJpsiCo.png Graphic file (type png)
 
 <use TheoryChapter/figures/aliceJpsiCo.png>
 Package pdftex.def Info: TheoryChapter/figures/aliceJpsiCo.png used on input li
-ne 904.
+ne 905.
 (pdftex.def)             Requested size: 305.33789pt x 205.66095pt.
  [20]
 
-LaTeX Warning: Reference `sec:wwAprox' on page 21 undefined on input line 919.
+LaTeX Warning: Citation `pQCD2013.02' on page 21 undefined on input line 932.
 
 
-LaTeX Warning: Reference `eq:finalSTARlightResult' on page 21 undefined on inpu
-t line 927.
+LaTeX Warning: Citation `lta2011.09' on page 21 undefined on input line 932.
 
 
-LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 930.
-
-
-LaTeX Warning: Citation `pQCD2013.02' on page 21 undefined on input line 931.
-
-
-LaTeX Warning: Citation `lta2011.09' on page 21 undefined on input line 931.
-
-
-LaTeX Warning: Citation `vmd1999' on page 21 undefined on input line 931.
-
-
-LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 951.
-
-
-LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 953.
+LaTeX Warning: Citation `vmd1999' on page 21 undefined on input line 932.
 
 [21 <./TheoryChapter/figures/aliceJpsiCo.png>]
 
-LaTeX Warning: Reference `fig:ltaAndPqcdNucSub' on page 22 undefined on input l
-ine 963.
+LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 964.
 
 
-LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 963.
-
-
-LaTeX Warning: Reference `eq:ltaOptTheWNucMo' on page 22 undefined on input lin
-e 964.
-
-
-<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=166, 516.93124pt x 583.17876pt>
+<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=263, 516.93124pt x 583.17876pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSub.png Graphic file (type png)
 <use TheoryChapter/figures/ltaAndPqcdNucSub.png>
 Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSub.png used on inp
-ut line 968.
+ut line 969.
 (pdftex.def)             Requested size: 234.8775pt x 264.9819pt.
 
-<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=167, 570.13pt x 343.2825pt>
+<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=264, 570.13pt x 343.2825pt>
 File: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png Graphic file (type png)
 
 <use TheoryChapter/figures/ltaAndPqcdNucSubVMD.png>
 Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png used on 
-input line 974.
+input line 975.
 (pdftex.def)             Requested size: 234.8775pt x 141.42244pt.
 
 
-LaTeX Warning: Reference `fig:ltaAndPqcdNucSubSTARlight' on page 22 undefined o
-n input line 978.
-
-
-LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 979.
-
-
-LaTeX Warning: Reference `fig:ltaAndPqcdNucSub' on page 22 undefined on input l
-ine 980.
-
-
-LaTeX Warning: Reference `fig:ltaAndPqcdNucSubSTARlight' on page 22 undefined o
-n input line 980.
+LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 980.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `ch:analysis' on page 22 undefined on input line 994.
+LaTeX Warning: Reference `ch:analysis' on page 22 undefined on input line 995.
 
 ) [22] [23 <./TheoryChapter/figures/ltaAndPqcdNucSub.png>] [24 <./TheoryChapter
 /figures/ltaAndPqcdNucSubVMD.png>]
@@ -1351,28 +1080,19 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
 (./diffTheory.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
+Package rerunfilecheck Info: File `diffMain.out' has not changed.
+(rerunfilecheck)             Checksum: 3B163633DCC5049237C2327845292912;677.
 
-
-Package rerunfilecheck Warning: File `diffMain.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `diffMain.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  3B163633DCC5049237C2327845292912;677.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
  ) 
 Here is how much of TeX's memory you used:
- 10634 strings out of 493308
- 155030 string characters out of 6137822
- 264678 words of memory out of 5000000
- 13802 multiletter control sequences out of 15000+600000
+ 10656 strings out of 493308
+ 155309 string characters out of 6137822
+ 269907 words of memory out of 5000000
+ 13814 multiletter control sequences out of 15000+600000
  58657 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  44i,11n,42p,386b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1389,10 +1109,10 @@ ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
 w/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
 usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diffMain.pdf (24 pages, 522604 bytes).
+Output written on diffMain.pdf (24 pages, 526216 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 194 compressed objects within 2 object streams
+ 346 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
  81 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
