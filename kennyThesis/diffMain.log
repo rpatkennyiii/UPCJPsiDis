@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  8 AUG 2014 00:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  8 AUG 2014 11:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,26 +652,24 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \ULC@box=\box34
 Package: ulem 2012/05/18
 \ULdepth=\dimen158
-) (./diffMain.aux
-(./mmDiff.aux) (./diffTheory.aux))
+) (./diffMain.aux)
 \openout1 = `diffMain.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
-LaTeX Font Info:    ... okay on input line 97.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 97.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
+LaTeX Font Info:    ... okay on input line 98.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 98.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
@@ -740,7 +738,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 97.
+Package hyperref Info: Link coloring OFF on input line 98.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -750,9 +748,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count153
 )
-LaTeX Info: Redefining \ref on input line 97.
-LaTeX Info: Redefining \pageref on input line 97.
-LaTeX Info: Redefining \nameref on input line 97.
+LaTeX Info: Redefining \ref on input line 98.
+LaTeX Info: Redefining \pageref on input line 98.
+LaTeX Info: Redefining \nameref on input line 98.
 
 (./diffMain.out) (./diffMain.out)
 \@outlinefile=\write3
@@ -761,13 +759,9 @@ LaTeX Info: Redefining \nameref on input line 97.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `mmDiff.aux'.
+\openout2 = `diffAn.aux'.
 
-
-No file mmDiff.tex.
-\openout2 = `diffTheory.aux'.
-
-(./diffTheory.tex
+ (./diffAn.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -775,344 +769,920 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 18
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
+
+
+LaTeX Warning: Reference `sec:mcSim' on page 1 undefined on input line 3.
+
+
+LaTeX Warning: Reference `sec:TrigDev' on page 1 undefined on input line 5.
+
+
+LaTeX Warning: Reference `sec:DataSetEvSel' on page 1 undefined on input line 7
 .
+
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 8.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 18
-.
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 8.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 18
-.
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 8.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 18
-.
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 8.
+
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 18.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 8.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 18.
-LaTeX Font Info:    Try loading font information for U+esint on input line 18.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+LaTeX Font Info:    Try loading font information for U+esint on input line 8.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 34.
+
+LaTeX Warning: Reference `sec:sigEx' on page 1 undefined on input line 9.
 
 
-LaTeX Warning: Citation `Klasen:2007pm' on page 1 undefined on input line 34.
+LaTeX Warning: Reference `sec:effDet' on page 1 undefined on input line 11.
 
 
-LaTeX Warning: Reference `ch:analysis' on page 1 undefined on input line 44.
+LaTeX Warning: Reference `sec:sysCheck' on page 1 undefined on input line 12.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
+
+Overfull \hbox (34.40051pt too wide) in paragraph at lines 15--15
+[][] []|   []   |   [][][]|   []   |   []   |   []   |   []   |   []   |   [][]
+ 
+ []
 
 [1
 
 
 
-
-
 {/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 50.
-
-<TheoryChapter/figures/boost.png, id=50, 291.0875pt x 155.58125pt>
-File: TheoryChapter/figures/boost.png Graphic file (type png)
-
-<use TheoryChapter/figures/boost.png>
-Package pdftex.def Info: TheoryChapter/figures/boost.png used on input line 62.
-
-(pdftex.def)             Requested size: 305.33789pt x 163.2108pt.
- [2 <./TheoryChapter/figures/boost.png (PNG copy)>]
-
-LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 98.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
 
 
-LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 109.
+LaTeX Warning: Reference `sec:vdmTheory' on page 2 undefined on input line 46.
+
+
+LaTeX Warning: Citation `lheFormat' on page 2 undefined on input line 66.
+
+[2]
+
+LaTeX Warning: Citation `geant' on page 3 undefined on input line 76.
+
+
+LaTeX Warning: Citation `pythia' on page 3 undefined on input line 92.
+
+
+LaTeX Warning: Reference `fig:matThick' on page 3 undefined on input line 108.
+
+
+LaTeX Warning: Citation `oniaPol' on page 3 undefined on input line 116.
 
 [3]
 
-LaTeX Warning: Citation `WWFermi' on page 4 undefined on input line 171.
+LaTeX Warning: Reference `fig:starlightRapPtDist' on page 4 undefined on input 
+line 127.
 
-[4]
+<AnalysisChapter/figures/genRapDis.pdf, id=28, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/genRapDis.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `WWBrau' on page 5 undefined on input line 225.
+<use AnalysisChapter/figures/genRapDis.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/genRapDis.pdf used on input li
+ne 144.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-[5]
+<AnalysisChapter/figures/genPtDis.pdf, id=29, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/genPtDis.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `WWJackson' on page 6 undefined on input line 247.
-
-[6] [7]
-
-LaTeX Warning: Citation `vmd1999' on page 8 undefined on input line 363.
-
-[8] [9] [10]
-
-LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 487.
-
-
-LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 501.
-
-[11]
-
-LaTeX Warning: Citation `lta2011.09' on page 12 undefined on input line 543.
-
-[12]
-
-LaTeX Warning: Citation `lta2011.09' on page 13 undefined on input line 565.
-
-[13]
-
-LaTeX Warning: Citation `emPCite4' on page 14 undefined on input line 623.
+<use AnalysisChapter/figures/genPtDis.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/genPtDis.pdf used on input lin
+e 145.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 640.
+LaTeX Warning: Reference `fig:genHXAngle' on page 4 undefined on input line 155
+.
+
+<AnalysisChapter/figures/polCosThetaHXGen.png, id=30, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/polCosThetaHXGen.png Graphic file (type png)
+
+<use AnalysisChapter/figures/polCosThetaHXGen.png>
+Package pdftex.def Info: AnalysisChapter/figures/polCosThetaHXGen.png used on i
+nput line 164.
+(pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
+ [4 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./An
+alysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees>] [5 <./Analysis
+Chapter/figures/polCosThetaHXGen.png>]
+
+LaTeX Warning: Reference `tab:l1Triggers2011' on page 6 undefined on input line
+ 206.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 642.
+LaTeX Warning: Reference `tab:l1Triggers2011' on page 6 undefined on input line
+ 207.
+
+[6]
+
+LaTeX Warning: Reference `tab:hltTriggers2011' on page 7 undefined on input lin
+e 261.
 
 
-LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 654.
-
-[14]
-
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 673.
+LaTeX Warning: Reference `tab:l1Triggers2011' on page 7 undefined on input line
+ 263.
 
 
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 682.
+Overfull \hbox (38.91328pt too wide) in paragraph at lines 267--278
+ [][] 
+ []
+
+[7]
+
+LaTeX Warning: Reference `tab:sampleLumiNevt' on page 8 undefined on input line
+ 310.
 
 
-LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 691.
-
-[15]
-
-LaTeX Warning: Citation `emPCite6' on page 16 undefined on input line 713.
+LaTeX Warning: Reference `tab:hltTriggers2011' on page 8 undefined on input lin
+e 322.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 718.
+LaTeX Warning: Reference `sec:TrigDev' on page 8 undefined on input line 322.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 726.
+LaTeX Warning: Reference `tab:sampleLumiNevt' on page 8 undefined on input line
+ 324.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 734.
+LaTeX Warning: Reference `tab:hltTriggers2011' on page 8 undefined on input lin
+e 332.
 
 
-LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 740.
+Overfull \hbox (31.00964pt too wide) in paragraph at lines 330--347
+[]\T1/ptm/m/n/12 The physics sam-ple con-tain-ing the J/$\OML/ztmcm/m/it/12  $ 
+\T1/ptm/m/n/12 sig-nal was recorded by the muon trig-ger la-beled "L1UPCMuon
+ []
 
-[16]
+[8]
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 750.
-
-
-LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 756.
-
-
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 756.
+LaTeX Warning: Reference `sec:effDet' on page 9 undefined on input line 359.
 
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 765.
+LaTeX Warning: Reference `sec:breakUpDet' on page 9 undefined on input line 367
+.
 
 
-LaTeX Warning: Citation `emPCite5' on page 17 undefined on input line 776.
+LaTeX Warning: Citation `cmsLumi' on page 9 undefined on input line 376.
+
+[9]
+
+LaTeX Warning: Reference `tab:evSelCutNumbers' on page 10 undefined on input li
+ne 403.
+
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 426.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 426.
+ [10]
+
+LaTeX Warning: Reference `tab:evSelCutNumbers' on page 11 undefined on input li
+ne 462.
 
 
-LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 783.
+LaTeX Warning: Reference `fig:hfNoiseDist' on page 11 undefined on input line 4
+72.
+
+<AnalysisChapter/figures/hfNoiseComp.pdf, id=159, 569.12625pt x 385.44pt>
+File: AnalysisChapter/figures/hfNoiseComp.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/hfNoiseComp.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/hfNoiseComp.pdf used on input 
+line 476.
+(pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
+ [11]
+
+LaTeX Warning: Reference `sec:ltaTheory' on page 12 undefined on input line 497
+.
+
+[12 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `fig:zdcPulseShape' on page 13 undefined on input line
+ 520.
+
+<AnalysisChapter/figures/zdcPulseShape.png, id=215, 1397.22pt x 473.77pt>
+File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcPulseShape.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
+t line 527.
+(pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
+ [13 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:zdcTs4OvTs5VTs5' on page 14 undefined on input li
+ne 561.
+
+<AnalysisChapter/figures/negTs5overTs4vts5.png, id=223, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/negTs5overTs4vts5.png Graphic file (type png)
+
+<use AnalysisChapter/figures/negTs5overTs4vts5.png>
+Package pdftex.def Info: AnalysisChapter/figures/negTs5overTs4vts5.png used on 
+input line 571.
+(pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
+
+<AnalysisChapter/figures/posTs5overTs4vts5.png, id=224, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/posTs5overTs4vts5.png Graphic file (type png)
+
+<use AnalysisChapter/figures/posTs5overTs4vts5.png>
+Package pdftex.def Info: AnalysisChapter/figures/posTs5overTs4vts5.png used on 
+input line 572.
+(pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
 
 
-LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 783.
+LaTeX Warning: Reference `fig:zdcM2Fit' on page 14 undefined on input line 591.
+
+
+
+LaTeX Warning: Reference `fig:zdcM2Fit' on page 14 undefined on input line 598.
+
+
+[14 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figure
+s/posTs5overTs4vts5.png>]
+<AnalysisChapter/figures/zdcFit45Neg.png, id=232, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/zdcFit45Neg.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcFit45Neg.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Neg.png used on input 
+line 615.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+<AnalysisChapter/figures/zdcFit45Pos.png, id=233, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/zdcFit45Pos.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcFit45Pos.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Pos.png used on input 
+line 616.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+
+LaTeX Warning: Reference `fig:zdcM2Fit' on page 15 undefined on input line 624.
+
+
+[15 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdcF
+it45Pos.png>]
+
+LaTeX Warning: Reference `fig:zdcPulseShape' on page 16 undefined on input line
+ 646.
+
+
+<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=240, 698.61pt x 473.7
+7pt>
+File: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png Graphic file (type p
+ng)
+ <use AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png u
+sed on input line 657.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=241, 698.61pt x 473.7
+7pt>
+File: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png Graphic file (type p
+ng)
+ <use AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png u
+sed on input line 658.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=242, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcNegHDNoiseFromZB.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png used o
+n input line 659.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=243, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png used o
+n input line 660.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+
+LaTeX Warning: Reference `fig:zdcNoiseSpectra' on page 16 undefined on input li
+ne 674.
+
+[16 <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./AnalysisChapter
+/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figures/zdcNegHDNoise
+FromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
+
+LaTeX Warning: Reference `fig:massFit' on page 17 undefined on input line 704.
 
 [17]
+<AnalysisChapter/figures/massFitSimple.pdf, id=254, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `emPCite3' on page 18 undefined on input line 799.
-
-
-LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 799.
-
-
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 805.
-
-
-LaTeX Warning: Reference `sec:zdcDet' on page 18 undefined on input line 813.
-
-<TheoryChapter/figures/neuSpecRHIC.png, id=221, 503.8825pt x 380.42125pt>
-File: TheoryChapter/figures/neuSpecRHIC.png Graphic file (type png)
-
-<use TheoryChapter/figures/neuSpecRHIC.png>
-Package pdftex.def Info: TheoryChapter/figures/neuSpecRHIC.png used on input li
-ne 816.
-(pdftex.def)             Requested size: 305.33789pt x 230.52415pt.
+<use AnalysisChapter/figures/massFitSimple.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
+t line 719.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 818.
+LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 725.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 818.
+LaTeX Warning: Reference `fig:massFit' on page 18 undefined on input line 726.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 828.
+LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 730.
 
 
-LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 830.
+LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 739.
 
-<TheoryChapter/figures/neuRHICEMvHad.png, id=226, 514.92375pt x 369.38pt>
-File: TheoryChapter/figures/neuRHICEMvHad.png Graphic file (type png)
+<AnalysisChapter/figures/ptOnly.pdf, id=255, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
 
-<use TheoryChapter/figures/neuRHICEMvHad.png>
-Package pdftex.def Info: TheoryChapter/figures/neuRHICEMvHad.png used on input 
-line 842.
-(pdftex.def)             Requested size: 305.33789pt x 219.03702pt.
-
-
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 844.
+<use AnalysisChapter/figures/ptOnly.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
+744.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 844.
+LaTeX Warning: Reference `fig:ptOnlyCor' on page 18 undefined on input line 754
+.
 
 
-LaTeX Warning: Reference `ch:triggChp' on page 18 undefined on input line 852.
-
-[18] [19 <./TheoryChapter/figures/neuSpecRHIC.png> <./TheoryChapter/figures/neu
-RHICEMvHad.png>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 855.
+LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 755.
 
 
-LaTeX Warning: Citation `upcRhoSTAR12' on page 20 undefined on input line 860.
+Overfull \hbox (17.56993pt too wide) in paragraph at lines 749--765
+[]\T1/ptm/m/n/12 The shape of the photon-photon and co-her-ent J/$\OML/ztmcm/m/
+it/12  $ \T1/ptm/m/n/12 pro-cess are very sim-i-lar in []|   []   |   [][].
+ []
+
+[18 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=304, 569.12625pt x 546.04pt
+>
+File: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf Graphic file (type pdf)
+ <use AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf used on
+ input line 768.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `upcRhoSTAR02' on page 20 undefined on input line 861.
+LaTeX Warning: Reference `fig:simFitMassPtGauss' on page 19 undefined on input 
+line 779.
+
+[19 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=354, 569.12625pt x 272.0162
+5pt>
+File: AnalysisChapter/figures/ptMassSimGaussLine.pdf Graphic file (type pdf)
+ <use AnalysisChapter/figures/ptMassSimGaussLine.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/ptMassSimGaussLine.pdf used on
+ input line 793.
+(pdftex.def)             Requested size: 422.77664pt x 202.07748pt.
 
 
-LaTeX Warning: Citation `upcRhoSTAR08' on page 20 undefined on input line 861.
+LaTeX Warning: Reference `fig:simGaussCor' on page 20 undefined on input line 7
+98.
 
 
-LaTeX Warning: Citation `upcJPsiPHENIX' on page 20 undefined on input line 862.
+LaTeX Warning: Reference `fig:simFitMassPtGauss' on page 20 undefined on input 
+line 799.
 
 
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 868.
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 868.
+LaTeX Warning: Reference `fig:simGaussCor' on page 20 undefined on input line 8
+00.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\psi' on input line 868.
+LaTeX Warning: Reference `fig:ptOnlyCor' on page 20 undefined on input line 801
+.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 868.
+LaTeX Warning: Reference `fig:ptOnlyCor' on page 20 undefined on input line 803
+.
 
-<TheoryChapter/figures/aliceJpsiCo.png, id=244, 633.36626pt x 426.59375pt>
-File: TheoryChapter/figures/aliceJpsiCo.png Graphic file (type png)
-
-<use TheoryChapter/figures/aliceJpsiCo.png>
-Package pdftex.def Info: TheoryChapter/figures/aliceJpsiCo.png used on input li
-ne 905.
-(pdftex.def)             Requested size: 305.33789pt x 205.66095pt.
- [20]
-
-LaTeX Warning: Citation `pQCD2013.02' on page 21 undefined on input line 932.
-
-
-LaTeX Warning: Citation `lta2011.09' on page 21 undefined on input line 932.
+[20 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degre
+es> <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degre
+es>]
+<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=448, 569.12625pt x 546.04pt
+>
+File: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf Graphic file (type pdf)
+ <use AnalysisChapter/figures/nCoNGammaCorPtMass.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf used on
+ input line 810.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `vmd1999' on page 21 undefined on input line 932.
-
-[21 <./TheoryChapter/figures/aliceJpsiCo.png>]
-
-LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 964.
+LaTeX Warning: Reference `sec:DataSetEvSel' on page 21 undefined on input line 
+835.
 
 
-<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=263, 516.93124pt x 583.17876pt>
-File: TheoryChapter/figures/ltaAndPqcdNucSub.png Graphic file (type png)
-<use TheoryChapter/figures/ltaAndPqcdNucSub.png>
-Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSub.png used on inp
-ut line 969.
-(pdftex.def)             Requested size: 234.8775pt x 264.9819pt.
+LaTeX Warning: Citation `cmsTnP' on page 21 undefined on input line 837.
 
-<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=264, 570.13pt x 343.2825pt>
-File: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png Graphic file (type png)
-
-<use TheoryChapter/figures/ltaAndPqcdNucSubVMD.png>
-Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png used on 
-input line 975.
-(pdftex.def)             Requested size: 234.8775pt x 141.42244pt.
+[21 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degre
+es>]
+<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=498, 569.12625pt x 546.04p
+t>
+File: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf Graphic file (type pdf)
+ <use AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf used o
+n input line 854.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
 
-LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 980.
+LaTeX Warning: Reference `fig:muonDaughterDet' on page 22 undefined on input li
+ne 858.
+
+[22 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 degr
+ees>]
+
+LaTeX Warning: Reference `eq:jpsiAccEq' on page 23 undefined on input line 873.
+
+
+
+LaTeX Warning: Reference `fig:jpsiAcceptance' on page 23 undefined on input lin
+e 874.
+
+
+<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=548, 598.235pt x 574.
+145pt>
+File: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png Graphic file (type p
+ng)
+ <use AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png>
+Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png u
+sed on input line 878.
+(pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
+
+<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=549, 598.235pt x 57
+4.145pt>
+File: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png Graphic file (type
+ png)
+ <use AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png>
+Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png
+ used on input line 879.
+(pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
+
+<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=550, 598.235pt x 574
+.145pt>
+File: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png Graphic file (type 
+png)
+ <use AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png>
+Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png 
+used on input line 880.
+(pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
+ [23 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapte
+r/figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/
+detAccGammaStep.png>]
+
+LaTeX Warning: Reference `fig:tnpFitPlot' on page 24 undefined on input line 91
+8.
+
+<AnalysisChapter/figures/tNp/tnpFits.pdf, id=557, 569.12625pt x 385.44pt>
+File: AnalysisChapter/figures/tNp/tnpFits.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/tNp/tnpFits.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFits.pdf used on input 
+line 921.
+(pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
+
+
+LaTeX Warning: Reference `fig:tnpTrigMap' on page 24 undefined on input line 92
+7.
+
+<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=558, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
+ut line 930.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+ [24 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `eq:dimuTrigEff' on page 25 undefined on input line 94
+6.
+
+
+<AnalysisChapter/figures/averageTriggerEff.png, id=607, 598.235pt x 574.145pt>
+File: AnalysisChapter/figures/averageTriggerEff.png Graphic file (type png)
+
+<use AnalysisChapter/figures/averageTriggerEff.png>
+Package pdftex.def Info: AnalysisChapter/figures/averageTriggerEff.png used on 
+input line 956.
+(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
+
+<AnalysisChapter/figures/averageExA.png, id=608, 598.235pt x 574.145pt>
+File: AnalysisChapter/figures/averageExA.png Graphic file (type png)
+
+<use AnalysisChapter/figures/averageExA.png>
+Package pdftex.def Info: AnalysisChapter/figures/averageExA.png used on input l
+ine 973.
+(pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
+ [25 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>
+]
+
+LaTeX Warning: Reference `sec:mcSim' on page 26 undefined on input line 985.
+
+
+LaTeX Warning: Reference `sec:breakUpDet' on page 26 undefined on input line 99
+2.
+
+
+LaTeX Warning: Reference `tab:hltTriggers2011' on page 26 undefined on input li
+ne 993.
+
+[26 <./AnalysisChapter/figures/averageTriggerEff.png>] [27 <./AnalysisChapter/f
+igures/averageExA.png>]
+
+LaTeX Warning: Reference `tab:sumsyst' on page 28 undefined on input line 1042.
+
+
+
+LaTeX Warning: Reference `tab:evSelCutNumbers' on page 28 undefined on input li
+ne 1071.
+
+[28]
+
+LaTeX Warning: Reference `fig:hfNoiseDist' on page 29 undefined on input line 1
+087.
+
+
+LaTeX Warning: Reference `tab:hfNoiseThreshAsym' on page 29 undefined on input 
+line 1096.
+
+
+LaTeX Warning: Reference `tab:hfAdjThreshYields' on page 29 undefined on input 
+line 1099.
+
+File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
+<use AnalysisChapter/figures/ptOnly.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
+1165.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+
+
+LaTeX Warning: Reference `sec:sigEx' on page 29 undefined on input line 1172.
+
+[29]
+
+LaTeX Warning: Text page 30 contains only floats.
+
+[30]
+<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=695, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/cbPolyBkgEst.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/cbPolyBkgEst.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/cbPolyBkgEst.pdf used on input
+ line 1195.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<AnalysisChapter/figures/gausLinBkgEst.pdf, id=696, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/gausLinBkgEst.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/gausLinBkgEst.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/gausLinBkgEst.pdf used on inpu
+t line 1196.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<AnalysisChapter/figures/gausCCBkgEst.pdf, id=697, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/gausCCBkgEst.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/gausCCBkgEst.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/gausCCBkgEst.pdf used on input
+ line 1197.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<AnalysisChapter/figures/cbPoly.pdf, id=698, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/cbPoly.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/cbPoly.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/cbPoly.pdf used on input line 
+1198.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<AnalysisChapter/figures/gausLin.pdf, id=699, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/gausLin.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/gausLin.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/gausLin.pdf used on input line
+ 1199.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+<AnalysisChapter/figures/gausCC.pdf, id=700, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/gausCC.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/gausCC.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/gausCC.pdf used on input line 
+1200.
+(pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
+
+
+LaTeX Warning: Reference `fig:massPtFitsForSyst' on page 31 undefined on input 
+line 1207.
+
+[31 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
+/AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Anal
+ysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisCh
+apter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figure
+s/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.pd
+f, page is rotated 90 degrees>]
+File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/massFitSimple.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
+t line 1238.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
+
+<AnalysisChapter/figures/massFitCBPoly2.pdf, id=967, 569.12625pt x 495.8525pt>
+File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/massFitCBPoly2.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
+ut line 1239.
+(pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
+
+
+LaTeX Warning: Reference `fig:massFitSys' on page 32 undefined on input line 12
+45.
+
+[32 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>]
+
+<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1017, 569.12625pt x 272.01625pt>
+File: AnalysisChapter/figures/ptMassSimTemp.pdf Graphic file (type pdf)
+<use AnalysisChapter/figures/ptMassSimTemp.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/ptMassSimTemp.pdf used on inpu
+t line 1261.
+(pdftex.def)             Requested size: 281.85587pt x 134.72108pt.
+ [33 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
+
+<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1068, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/coCorInCoAcc.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/coCorInCoAcc.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/coCorInCoAcc.pdf used on input
+ line 1286.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+
+<AnalysisChapter/figures/coCoGaussGun.pdf, id=1069, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/coCoGaussGun.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/coCoGaussGun.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/coCoGaussGun.pdf used on input
+ line 1295.
+(pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+ [34 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `sec:breakUpDet' on page 35 undefined on input line 13
+21.
+
+
+LaTeX Warning: Reference `fig:zdcM1Fit' on page 35 undefined on input line 1332
+.
+
+
+<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1119, 698.61pt x 473.77pt
+>
+File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
+ <use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
+on input line 1343.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+
+<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1120, 698.61pt x 473.77pt>
+File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
+<use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
+n input line 1344.
+(pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+ [35 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 36 undefined on input l
+ine 1369.
+
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 36 undefined on input l
+ine 1417.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 36 undefined on input line 14
+25.
+
+[36 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
+ures/zdcPlusZBFitTimeCut.png>] [37]
+
+LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 38 undefined on input l
+ine 1436.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
+47.
+
+<AnalysisChapter/figures/zdcSpec2v1.png, id=1181, 1397.22pt x 473.77pt>
+File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
+
+<use AnalysisChapter/figures/zdcSpec2v1.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
+ine 1450.
+(pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
+56.
+
+
+LaTeX Warning: Reference `fig:zdcPulseShape' on page 38 undefined on input line
+ 1468.
+
+[38 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+
+LaTeX Warning: Reference `fig:zdcTimingCuts' on page 39 undefined on input line
+ 1480.
+
+
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1188, 698.61pt x 473.77p
+t>
+File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
+
+ <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
+ on input line 1483.
+(pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
+
+
+LaTeX Warning: Reference `fig:zdcTimingCuts' on page 39 undefined on input line
+ 1492.
+
+
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1189, 698.61pt x 473.77p
+t>
+File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
+
+ <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
+Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
+ on input line 1499.
+(pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
+
+
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 39 undefined on i
+nput line 1504.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[39 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>]
+
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 40 undefined on i
+nput line 1509.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 40 undefined on input line 15
+09.
+
+
+LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 40 undefined on i
+nput line 1512.
+
+
+LaTeX Warning: Reference `fig:zdcSpec2v1' on page 40 undefined on input line 15
+15.
+
+
+LaTeX Warning: Reference `fig:tnpFitPlot' on page 40 undefined on input line 15
+28.
+
+[40 <./AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>]
+<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1201, 569.12625pt x 546.04pt>
+File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/tNp/tnpCounting.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
+put line 1555.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
+File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
+
+<use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
+ut line 1556.
+(pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
+
+
+LaTeX Warning: Reference `fig:tnpCntVFit' on page 41 undefined on input line 15
+63.
+
+[41 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degrees>
+]
+<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1250, 569.12625p
+t x 546.04pt>
+File: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf Graphic file (t
+ype pdf)
+ <use AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.
+pdf used on input line 1581.
+(pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
+
+<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1251, 569.12625pt x
+ 546.04pt>
+File: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf Graphic file (type
+ pdf)
+ <use AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
+ used on input line 1588.
+(pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-LaTeX Warning: Reference `ch:analysis' on page 22 undefined on input line 995.
+<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1252, 569.12625pt x 
+546.04pt>
+File: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf Graphic file (type 
+pdf)
+ <use AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf>
+Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf 
+used on input line 1595.
+(pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
-) [22] [23 <./TheoryChapter/figures/ltaAndPqcdNucSub.png>] [24 <./TheoryChapter
-/figures/ltaAndPqcdNucSubVMD.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 103.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 103.
- (./diffMain.aux (./mmDiff.aux)
-(./diffTheory.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 103.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 103.
-Package rerunfilecheck Info: File `diffMain.out' has not changed.
-(rerunfilecheck)             Checksum: 3B163633DCC5049237C2327845292912;677.
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [42 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
+ated 90 degrees>] [43 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
+, page is rotated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoher
+ent.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
+ (./diffMain.aux (./diffAn.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+
+
+Package rerunfilecheck Warning: File `diffMain.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `diffMain.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  F7117A7C957DAC1951FEFEB532C55B25;1873.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 103.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
  ) 
 Here is how much of TeX's memory you used:
- 10656 strings out of 493308
- 155309 string characters out of 6137822
- 269907 words of memory out of 5000000
- 13814 multiletter control sequences out of 15000+600000
- 58657 words of font info for 104 fonts, out of 8000000 for 9000
+ 10910 strings out of 493308
+ 165112 string characters out of 6137822
+ 270687 words of memory out of 5000000
+ 13942 multiletter control sequences out of 15000+600000
+ 48974 words of font info for 76 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,11n,42p,386b,366s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,13n,42p,495b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
 exlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/ur
-w/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
-b8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
-usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diffMain.pdf (24 pages, 526216 bytes).
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/fo
+nts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
+1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbo
+l/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diffMain.pdf (43 pages, 968879 bytes).
 PDF statistics:
- 346 PDF objects out of 1000 (max. 8388607)
- 294 compressed objects within 3 object streams
- 81 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1463 PDF objects out of 1728 (max. 8388607)
+ 729 compressed objects within 8 object streams
+ 119 named destinations out of 1000 (max. 500000)
+ 226 words of extra memory for PDF output out of 10000 (max. 10000000)
 

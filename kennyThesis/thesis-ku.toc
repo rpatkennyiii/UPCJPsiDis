@@ -12,7 +12,7 @@
 \contentsline {section}{\numberline {2.4}Leading Twist Approach Derivation}{23}{section.2.4}
 \contentsline {section}{\numberline {2.5}Photon-induced nuclear break-up}{25}{section.2.5}
 \contentsline {section}{\numberline {2.6}Experimental Results}{29}{section.2.6}
-\contentsline {subsection}{\numberline {2.6.1} UPC vector mesons photoproduction at RHIC }{30}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.1} UPC measurements at RHIC }{29}{subsection.2.6.1}
 \contentsline {subsection}{\numberline {2.6.2} UPC J/$\psi ${} at the LHC}{31}{subsection.2.6.2}
 \contentsline {chapter}{\numberline {3} The Compact Muon Spectrometer detector}{36}{chapter.3}
 \contentsline {section}{\numberline {3.1}Tracker}{37}{section.3.1}
@@ -42,11 +42,11 @@
 \contentsline {subsection}{\numberline {4.7.2}Template fit normalization}{78}{subsection.4.7.2}
 \contentsline {subsection}{\numberline {4.7.3}Mass fit}{80}{subsection.4.7.3}
 \contentsline {subsection}{\numberline {4.7.4}MC acceptance}{81}{subsection.4.7.4}
-\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{83}{subsection.4.7.5}
+\contentsline {subsection}{\numberline {4.7.5}ZDC reconstruction}{81}{subsection.4.7.5}
 \contentsline {subsection}{\numberline {4.7.6}ZDC trigger efficiency}{84}{subsection.4.7.6}
 \contentsline {subsection}{\numberline {4.7.7}ZDC reconstruction method comparison}{86}{subsection.4.7.7}
 \contentsline {subsection}{\numberline {4.7.8}Tag and probe}{88}{subsection.4.7.8}
-\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{90}{subsection.4.7.9}
+\contentsline {subsection}{\numberline {4.7.9}MC vs Data compairson}{89}{subsection.4.7.9}
 \contentsline {chapter}{\numberline {5}Results}{92}{chapter.5}
 \contentsline {section}{\numberline {5.1}Coherent cross section}{92}{section.5.1}
 \contentsline {chapter}{\numberline {6}Summary}{95}{chapter.6}

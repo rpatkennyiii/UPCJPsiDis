@@ -12,7 +12,7 @@
   Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
     for the measurement. 
 
-  \section{\label{sec:mcSim} Physics generators and Monte Carlo simulations}
+  \section{\label{sec:mcSim} \DIFdelbegin \DIFdel{MC simulation}\DIFdelend \DIFaddbegin \DIFadd{Physics generators and Monte Carlo simulations}\DIFaddend }
     Every physical measurement is the product of the underlying physics 
       folded with the response of the detector used to do the measurement. 
     In order to understand the underlying physical process, the detector's 
@@ -21,25 +21,26 @@
       of the many parts of the detector makes an analytic approach to the 
       problem untenable.
     For this reason, the numerical technique of Monte Carlo (MC) simulation is
-      often the most effective approach for describing detector effects.
+      often the most effective approach \DIFaddbegin \DIFadd{for describing detector effects}\DIFaddend .
 
     MC simulations use random number generation to model the many statistical 
       effects of particles interacting with different parts of the detector. 
     First, particles are generated according to theoretical distributions.
     These particles are then propagated through a simulation of the detector.
-    As the particles pass through the detector, random numbers are used
+    As the particles pass through the detector, random numbers are \DIFdelbegin \DIFdel{again }\DIFdelend used
       to determine how these particles interact with the materials of the 
       detector based on the known properties of the material. 
     In this way, the theoretical distributions are convolved with a realistic 
       model of the detector's response. 
     A more detailed picture of how the detector shapes the underlaying 
       distributions emerges with each successive event.
-    The final goal of the MC simulation is to produce a set of events that 
-      accurately reproduce what would be measured if the theoretical input 
-      describes nature well. 
+    The \DIFaddbegin \DIFadd{final goal of the MC simulation is to produce a }\DIFaddend set of events that 
+      \DIFdelbegin \DIFdel{are produced resemble as closely as possible the 
+      results that would be seen were the physical process to be measured by the detector}\DIFdelend \DIFaddbegin \DIFadd{accurately reproduce what would be measured if the theoretical input 
+      describes nature well}\DIFaddend . 
 
-  \subsection{STARlight and particle gun MC in CMS}
-    In this thesis, two classes of generator input samples were used, 
+  \DIFaddbegin \subsection{\DIFadd{STARlight and particle gun MC in CMS}}
+    \DIFaddend In this thesis, two \DIFdelbegin \DIFdel{main classes of MC simulation }\DIFdelend \DIFaddbegin \DIFadd{classes of generator input }\DIFaddend samples were used, 
       STARlight and a particle gun.
     The STARlight samples corresponds to the theoretical calculations 
       described in Section~\ref{sec:vdmTheory}, while the particle gun produces
@@ -52,9 +53,10 @@
       of oppositely charge muons directly.
     All three STARlight samples contain a $\mu^{+}$ and $\mu^{-}$ in the final 
       state.
-    The second class simulates \JPsi{} particles with a user 
-      defined \pt{} and rapidity distribution and isotropic decay to muon pairs
-      in the \JPsi{} rest frame.
+    The second class \DIFdelbegin \DIFdel{uses PYTHIA6 to decay }\DIFdelend \DIFaddbegin \DIFadd{simulates }\DIFaddend \JPsi{} \DIFdelbegin \DIFdel{s produced }\DIFdelend \DIFaddbegin \DIFadd{particles }\DIFaddend with a user 
+      defined \pt{} and rapidity distribution \DIFdelbegin \DIFdel{into muon pairs
+      }\DIFdelend \DIFaddbegin \DIFadd{and isotropic decay to muon pairs
+      in the }\JPsi{} \DIFadd{rest frame}\DIFaddend .
 
     Because STARlight is not integrated into the standard CMS software 
       framework (CMSSW), a simulation software chain with 5 steps was developed.
@@ -84,9 +86,12 @@
     The particle gun samples were created entirely within CMSSW.
     \JPsi{} mesons were created according to user defined \pt{} and rapidity
       distributions. 
-    The decay of \JPsi{}s to $\mu^{+}$ and $\mu^{-}$ was simulated with a 
-      a uniform decay distribution, corresponding to unpolarized \JPsi{} 
-      particles.
+    \DIFdelbegin \DIFdel{PYTHIA6 \mbox{%DIFAUXCMD
+\cite{pythia}
+}%DIFAUXCMD
+decays the }\DIFdelend \DIFaddbegin \DIFadd{The decay of }\DIFaddend \JPsi{}s to $\mu^{+}$ and $\mu^{-}$ \DIFaddbegin \DIFadd{was simulated with a 
+      a uniform decay distribution, corresponding to unpolarized }\JPsi{} 
+      \DIFadd{particles}\DIFaddend .
     As with the STARlight samples, these muons are propagated through the GEANT4
       simulation of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
@@ -101,7 +106,7 @@
     There are at least 10 interactions lengths of material through which the 
       muons must travel in order reach the muon chambers 
       (see Fig.~\ref{fig:matThick}).
-    This imposes an effective momentum threshold on which muons can fire the 
+    This imposes an \DIFdelbegin \DIFdel{effect }\DIFdelend \DIFaddbegin \DIFadd{effective }\DIFaddend momentum threshold on which muons can fire the 
       trigger and be reconstructed. 
 
     The \pt{} distribution and the polarization of the \JPsi{}s produced are 
@@ -120,8 +125,8 @@
       direction will have decreased momentum. 
 
     In Fig.~\ref{fig:starlightRapPtDist} the \pt{} of \JPsi{}s from the 
-      STARlight generated coherent, and incoherent, and the dimuon \pt for 
-      photon-photon samples are compared.
+      \DIFdelbegin \DIFdel{coherent, }\DIFdelend \DIFaddbegin \DIFadd{STARlight generated coherent, and }\DIFaddend incoherent, and \DIFaddbegin \DIFadd{the dimuon }\pt \DIFadd{for 
+      }\DIFaddend photon-photon samples are compared.
     Both the coherent and the photon-photon samples are concentrated a low 
       \pt{}, and neither sample extends much beyond 0.15 GeV.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
@@ -130,7 +135,10 @@
     The first sample has a Gaussian \pt{} distribution extending to 
       approximately 0.15 GeV, whereas the second is flat in \pt{} up to
       2 GeV.
-    \begin{figure}[!Hhbt]
+    \DIFdelbegin %DIFDELCMD < 
+
+%DIFDELCMD <     %%%
+\DIFdelend \begin{figure}[!Hhbt]
       \centering
       $ \begin{array}{cc}
         \includegraphics[width=0.45\textwidth]{genRapDis} &
@@ -141,7 +149,7 @@
           and photon-photon process (green).}
       \label{fig:starlightRapPtDist}
     \end{figure}
-    
+
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization.
     In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the 
@@ -159,11 +167,11 @@
         cosine of the helicity angle.} 
       \label{fig:genHXAngle}
     \end{figure}
-    
+
   \section{\label{sec:TrigDev} Trigger development}
-    A collection of triggers was needed in order to select UPC events from the
+    \DIFaddbegin \DIFadd{A collection of triggers was needed in order to select UPC events from the
       collisions at the LHC. 
-    The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
+    }\DIFaddend The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
       nearly a factor of 15. 
     To accommodate this increase in rate, the 2011 trigger scheme needed to be 
       more selective than in 2010 where CMS could take any event which 
@@ -173,11 +181,11 @@
     From this consideration, bandwidth limits were placed on the trigger rates
       for each analysis group's trigger package. 
     To ensure that UPC physics could be explored all while respecting the
-      goals of the CMS Heavy Ions group as a whole, a UPC triggers were 
+      goals of the CMS Heavy Ions group as a whole, a \DIFdelbegin \DIFdel{collection of }\DIFdelend UPC triggers were 
       commissioned. 
-  
-    The UPC trigger rate estimates for commissioning the 2011 triggers were 
-      calculated by combining existing triggers from the 2010 run. 
+
+    The UPC trigger \DIFdelbegin \DIFdel{for }\DIFdelend \DIFaddbegin \DIFadd{rate estimates for commissioning the }\DIFaddend 2011 \DIFdelbegin \DIFdel{were created }\DIFdelend \DIFaddbegin \DIFadd{triggers were 
+      calculated }\DIFaddend by combining existing triggers from the 2010 run. 
     By calculating the ratio between the UPC trigger rates and the minimum bias
       trigger rate, the UPC trigger rates were scaled up to the anticipated 2011 
       interaction rates using the 2010 data.
@@ -187,12 +195,12 @@
       electron triggers.
 
     \subsection{\label{sec:l1Trigger} L1 trigger}
-      The UPC L1 triggers were designed to record enough data to measure 
+      The \DIFdelbegin \DIFdel{goal of the }\DIFdelend UPC L1 triggers were \DIFaddbegin \DIFadd{designed }\DIFaddend to record enough data to measure 
         UPC \JPsi{} production via the dimuon and dielectron channels.
       To achieve this, the loosest muon and electron triggers where paired with
-        a trigger on energy in the ZDC were used as a trigger selection 
-        criteria, and energy in the BSCs was used as a rejection criteria.
-      Additional triggers with rejection criteria based on energy in HF were 
+        a trigger on energy in the ZDC \DIFdelbegin \DIFdel{and a veto on }\DIFdelend \DIFaddbegin \DIFadd{were used as a trigger selection 
+        criteria, and }\DIFaddend energy in the BSCs \DIFaddbegin \DIFadd{was used as a rejection criteria}\DIFaddend .
+      Additional triggers \DIFdelbegin \DIFdel{that vetoed }\DIFdelend \DIFaddbegin \DIFadd{with rejection criteria based }\DIFaddend on energy in HF were 
         commissioned in case radiation damage during the run reduced the 
         sensitivity of the BSCs.
       These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
@@ -236,11 +244,12 @@
         signal triggers.
 
     \subsection{HLT trigger}
-      An event must pass the selection criteria of an HLT path in order to be
+      \DIFaddbegin \DIFadd{An event must pass the selection criteria of an HLT path in order to be
         recorded. 
-      As opposed to the L1 trigger, which has access only to information from
-        calorimeters and muon chambers, the HLT has access to all of the CMS 
-        sub-detectors including the tracker. 
+      }\DIFaddend As opposed to the L1 trigger, which has access only to information from
+        calorimeters and muon chambers, the HLT has access to all \DIFdelbegin \DIFdel{the 
+        }\DIFdelend \DIFaddbegin \DIFadd{of the CMS 
+        }\DIFaddend sub-detectors including the tracker. 
       Reconstruction of a track in the pixel detector is used by the UPC 
         trigger paths.
       The use of the pixel detector only, as opposed to using the whole tracker 
@@ -288,28 +297,28 @@
         the tracks lost. 
 
   \section{\label{sec:DataSetEvSel} Event selection}
-    The unprecedented amounts of data produced by the LHC has made it possible 
-      to investigate novel physics processes like UPC \JPsi{} production.
-    The data for this analysis were recorded during the 2011 LHC PbPb run. 
-    During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
+    \DIFdelbegin \DIFdel{In order }\DIFdelend \DIFaddbegin \DIFadd{The unprecedented amounts of data produced by the LHC has made it possible 
+      }\DIFaddend to investigate novel physics processes like UPC \JPsi{} production\DIFdelbegin \DIFdel{, the LHC has delivered unprecedented amounts of data}\DIFdelend .
+    The data for this analysis \DIFdelbegin \DIFdel{was }\DIFdelend \DIFaddbegin \DIFadd{were }\DIFaddend recorded during the 2011 LHC PbPb run. 
+    During this period, 150 $\mu$$b^{-1}$ \DIFdelbegin \DIFdel{where }\DIFdelend \DIFaddbegin \DIFadd{were }\DIFaddend recorded by the CMS detector,
       corresponding to over a billion PbPb collisions. 
-    Of this, 143 $\mu$$b^{-1}$ of data were used in this analysis.
-  
+    Of this, 143 $\mu$$b^{-1}$ \DIFaddbegin \DIFadd{of data }\DIFaddend were used in this analysis.
+
     \subsection{Data sets}
-      The data were dived into three specially selected samples, Physics, Monitoring, 
-        and Zero bias, based on the triggers which recored the events (see 
+      \DIFdelbegin \DIFdel{Three }\DIFdelend \DIFaddbegin \DIFadd{The data were dived into three }\DIFaddend specially selected samples\DIFdelbegin \DIFdel{were used for this analysis}\DIFdelend , Physics, Monitoring, 
+        and Zero bias\DIFaddbegin \DIFadd{, based on the triggers which recored the events }\DIFaddend (see 
         Table~\ref{tab:sampleLumiNevt}).
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias 
         and ZDC triggered samples allow for the investigation of the selection 
         criteria. 
-      The purity, which is a measure of how many signal events relative to
+      \DIFaddbegin \DIFadd{The purity, which is a measure of how many signal events relative to
         background events are in an sample, is obtained by using more selective
         triggers.
       Less selective triggers, those assigned to the monitoring and zero bias 
         samples, were used to investigate to what extent signal events are lost
         due to the higher selectivity of physics triggers. 
-      These samples were recorded using subsets of the HLT triggers found in 
+      }\DIFaddend These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Section~\ref{sec:TrigDev}.
       The \JPsi{} events discussed in this thesis were obtained analyzing the 
         sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
@@ -317,7 +326,7 @@
         efficiencies.
       Lastly, a zero bias sample was recored for investigating the ZDC and the 
         noise distributions of HF.
-  
+
       The physics sample containing the \JPsi{} signal was recorded by the muon 
         trigger labeled "L1UPCMuon and Pixel Track" in 
         Table~\ref{tab:hltTriggers2011}. 
@@ -335,20 +344,20 @@
       This trigger was designed to balance reducing the rate with maximizing 
         the efficiency, allowing for the data to be recorded without 
         producing high rates resulting in dead time for the detector.  
-      
+
       In order to investigate the muon trigger and the other parts of the event 
         selection, a monitoring sample was recorded by requiring energy 
         consistent with at least one neutron in either of the ZDCs.
-      Neutron production is much more common process than the UPC \JPsi{} 
+      \DIFdelbegin \DIFdel{This process }\DIFdelend \DIFaddbegin \DIFadd{Neutron production }\DIFaddend is much more common \DIFaddbegin \DIFadd{process }\DIFaddend than the UPC \JPsi{} 
         production.
-      This process has cross sections on the order of 100 b compared
-        to 10 mb predicted for \JPsi{} production. 
+      \DIFdelbegin \DIFdel{Neutron production }\DIFdelend \DIFaddbegin \DIFadd{This process }\DIFaddend has cross sections on the order of 100 b compared
+        to 10 mb predicted \DIFdelbegin \DIFdel{from }\DIFdelend \DIFaddbegin \DIFadd{for }\DIFaddend \JPsi{} production. 
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
       From this trigger the pixel track portion of the HLT trigger efficiency 
         was estimated as well as the ZDC trigger efficiency, as will be described 
         in Section~\ref{sec:effDet}. 
-  
+
       In addition to the monitoring and physics sample, a zero bias sample was 
         recorded to examine the ZDC neutron reconstruction and the HF noise 
         distributions. 
@@ -361,10 +370,10 @@
       This allowed for a measurement of the electronic noise distribution in
         the HF, which are important to reducing contamination from hadronic
         interactions.
-  
+
       The integrated luminosity for each of the three samples is calculated
-        by recording activity in HF, the forward hadronic calorimeter in CMS
-        \cite{cmsLumi}. 
+        by recording activity in HF\DIFaddbegin \DIFadd{, the forward hadronic calorimeter in CMS
+        }\DIFaddend \cite{cmsLumi}. 
       The cross section for HF activity is measured from a van der Meer scan, 
         and the cross section was found to be 45 mb for proton-proton running.
       In this way, the amount of integrated luminosity for any running period is
@@ -381,7 +390,7 @@
   	      samples used in this analysis.}
   	    \label{tab:sampleLumiNevt}
       \end{table}
-  
+
     \subsection{Event selection cuts}
       The analysis described in this thesis focuses on UPC \JPsi{}s decaying to 
         muons. 
@@ -392,7 +401,7 @@
       The first set rejects background from the beam.
       The second rejects events where hadronic collisions have occurred.
       Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts. 
- 
+
       \begin{table}
         \centering
         \begin{tabular}{|c|c|c|} \hline 
@@ -411,7 +420,7 @@
         \caption{Effects of event selection cuts.}
         \label{tab:evSelCutNumbers}
       \end{table}
-      
+
       To reject beam induced background the following cuts were applied:
       \begin{itemize}
         \item The reconstructed vertex must be within 2 cm in 
@@ -428,7 +437,7 @@
             back to the reconstructed  primary vertex. 
       \end{itemize}
       These beam background cuts do not reject any UPC \JPsi{} candidates. 
-  
+
       The second set of background rejection cuts were designed to 
         reduce contamination from hadronic interactions. 
       \begin{itemize}
@@ -492,8 +501,9 @@
       be distinguished by the two ZDCs.
     By separating events where the ZDC signal is consistent with 1 neutron 
       versus several neutrons, or where neutrons are present on only one or 
-      both sides, the fraction of events which correspond to a given 
-      break-up mode can be measured and compared to theory. 
+      both sides, the \DIFdelbegin \DIFdel{different }\DIFdelend \DIFaddbegin \DIFadd{fraction of events which correspond to a given 
+      }\DIFaddend break-up \DIFdelbegin \DIFdel{modes can be separated
+      }\DIFdelend \DIFaddbegin \DIFadd{mode can be measured }\DIFaddend and compared to theory. 
 
     In order to maximize the ability to explore the one neutron peak, which 
       sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
@@ -502,7 +512,7 @@
       many neutron threshold.
     This section describes the ZDC signal reconstruction and how the neutron 
       thresholds on this signal were set.
-    
+
     \subsection{ZDC signal reconstruction}
       The signal from each ZDC is built up from the pulse shapes for each of 
         the 18 individual ZDC channels. 
@@ -548,7 +558,7 @@
         signal contribution to time slice 5, $C$ is a random noise constant
         from the low frequency noise, and $R_{Ts5/Ts4}$ is the ratio between
         the signal contribution from time slice 5 over time slice 4.
-      Figure~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
+      \DIFdelbegin \DIFdel{Fig.}\DIFdelend \DIFaddbegin \DIFadd{Figure}\DIFaddend ~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
         fraction and validates the unconventional method of using the falling 
         tail of the signal to estimate the low frequency noise. 
       By using time slice 5, the chances of measuring the noise are maximized. 
@@ -566,12 +576,12 @@
           ZDC$^{+}$ (right).}
         \label{fig:zdcTs4OvTs5VTs5}
       \end{figure}
-      
+
       When summing the 9 channels in each ZDC only channels with signals above 
         zero in time slices 4 and 5 were included. 
-      The EM, electromagnetic, section of the calorimeter is more densely 
+      The EM\DIFaddbegin \DIFadd{, electromagnetic, }\DIFaddend section of the calorimeter is more densely 
         packed with quartz fibers and therefore has a higher gain relative to 
-        the HAD, hadronic, section. 
+        the HAD\DIFaddbegin \DIFadd{, hadronic, }\DIFaddend section. 
       To account for this, the EM channels were weighted with
         a factor of 0.1 to match the HAD channel gains.
 
@@ -663,23 +673,24 @@
         are measured separately.
       Fig~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
         EM and HAD sections for the two ZDCs.
-      If the HAD or EM signals measured from time slices which match the 
-        timing for a collision, time slices 4 and 5, are less than 2$\sigma$ 
+      If the HAD or EM signals measured from \DIFdelbegin \DIFdel{the in time time slices }\DIFdelend \DIFaddbegin \DIFadd{time slices which match the 
+        timing for a collision}\DIFaddend , time slices 4 and 5, are less than 2$\sigma$ 
         above the mean of the noise distribution or lower, these sections are 
         considered consistent with noise.
       A ZDC is considered consistent with noise if both the HAD section and EM 
         section from that ZDC have signal measurements consistent with noise.
 
   \section{\label{sec:sigEx} Signal extraction}
-    After all event selection cuts, the remaining events contain a combination 
-      of coherent \JPsi{}, incoherent \JPsi{}, and dimuons from the 
-      photon-photon process.
+    After all event selection cuts, the \DIFaddbegin \DIFadd{remaining events contain a combination 
+      of }\DIFaddend coherent \JPsi{}, incoherent \JPsi{}, and \DIFaddbegin \DIFadd{dimuons from the 
+      }\DIFaddend photon-photon process\DIFdelbegin \DIFdel{all contribute to the remaining events}\DIFdelend .
     Each process must be separated from the final mix.
     To achieve this, the invariant mass and \pt{} distributions are used 
       to distinguish between the three processes. 
     The photon-photon process is extended in invariant mass whereas the 
       \JPsi{} is peak strongly near 3.1 GeV.
-    In dimuon transverse momentum distribution of the photon-photon and 
+    In \DIFdelbegin %DIFDELCMD < \pt{} %%%
+\DIFdelend \DIFaddbegin \DIFadd{dimuon transverse momentum distribution of }\DIFaddend the photon-photon and 
       coherent process have similar distributions, both peaked shapely below 
         0.1 GeV, whereas the incoherent process is more broadly distributed 
         across an interval extending to nearly 1 GeV.
@@ -688,7 +699,7 @@
     The \pt{} distribution was used to separate the incoherent process from 
       the photon-photon process, and the coherent process. 
     In this way, a separate yield was extracted for all three processes. 
-    
+
     The invariant mass distribution for opposite sign dimuons is shown in 
       Fig.~\ref{fig:massFit}. 
     A \JPsi{} signal is clearly visible together with tails at higher and
@@ -710,7 +721,7 @@
         signal and a first order polynomial for the photon-photon continuum}
       \label{fig:massFit}
     \end{figure}
-  
+
     Figure~\ref{fig:ptTemps} shows the \pt{} spectrum of the events plotted 
       in Fig.~\ref{fig:massFit}.  
     There is a clear coherent peak at \pt{} = 60 MeV followed by broad 
@@ -736,7 +747,8 @@
     \end{figure}
 
     The shape of the photon-photon and coherent \JPsi{} process are very 
-      similar in transverse momentum.
+      similar in \DIFdelbegin %DIFDELCMD < \pt{}%%%
+\DIFdelend \DIFaddbegin \DIFadd{transverse momentum}\DIFaddend .
     Accordingly, the contribution from the photon-photon process and the 
       coherent process are difficult to separate from the \pt{} distribution.
     The confidence contours in Fig.~\ref{fig:ptOnlyCor} from the template fit
@@ -775,7 +787,7 @@
     In this way, the correlation between the yield parameters was broken, and 
       the contribution from the three process were made independent of each 
       other.
-      
+
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=0.9\textwidth]{ptMassSimGaussLine}
@@ -872,7 +884,7 @@
           \label{fig:jpsiAcceptance}
         \end{figure*}
 
-      The "tag and probe method" is a data driven approach used to measure the 
+      The \DIFaddbegin \DIFadd{"}\DIFaddend tag and probe method\DIFaddbegin \DIFadd{" }\DIFaddend is a data driven approach used to measure the 
         trigger efficiency of the muon daughters from \JPsi{} decays.
       In this method there are three categories of daughter muons. 
       \textit{Tag muons} are high quality muons.
@@ -912,7 +924,7 @@
         \label{fig:tnpFitPlot}
       \end{figure}
       This fit was done for each bin of the probes \pt{} and $\eta$.
-      The efficiency from the fits in each bin are shown in Fig.~\ref{fig:tnpTrigMap}.
+      The efficiency from the fits in each bin are \DIFaddbegin \DIFadd{shown }\DIFaddend in Fig.~\ref{fig:tnpTrigMap}.
       \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=.6\textwidth]{tNp/tnpFromFit}
@@ -979,7 +991,7 @@
     \subsection{ZDC trigger efficiency}
       As discussed in Section~\ref{sec:breakUpDet}, the trigger labeled 
         "L1ZDCOr and Pixel Track" in Table~\ref{tab:hltTriggers2011} was used 
-        to measure the ZDC trigger efficiency. 
+        to estimate the measure the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
         least one pixel track. 
       The veto on the BSC minimum bias trigger, as in the physics triggers, was
@@ -989,7 +1001,7 @@
       This trigger was used in order to collect the most inclusive possible 
         sample without using the minimum bias triggers designed to collect 
         hadronic interactions.
-        
+
       This ZDC triggered sample suffers from a trigger bias. 
       For example, a sample triggered by ZDC$^{+}$ would always produce a 
         ZDC$^{+}$ trigger efficiency of one. 
@@ -1001,9 +1013,9 @@
 
       To estimate the efficiency, the number of events with energy in 
         ZDC$^{+}$ greater than the single neutron threshold, N$_{events}$, 
-        was measured.
+        were measured.
       From this set of events, the number of events that also fire the 
-        ZDC$^{+}$, N$_{trig}$, was measured.
+        ZDC$^{+}$ was measured.
       The ratio between the number of single neutron events that fired the 
         trigger and all single neutron events was taken as the estimate of 
         trigger efficiency. 
@@ -1011,12 +1023,14 @@
       The trigger efficiency was found to be 98\% for ZDC$^{-}$
         and 94\% for ZDC$^{+}$.
 
-      \begin{table}
+      \begin{table}zo
         \centering
         \begin{tabular}{|c|c|c|c|c|}
-           \hline ZDC Side & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-           ZDC$^{+}$ & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
-           ZDC$^{-}$ & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+           ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
+           ZDC$^{+}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+           ZDC$^{+}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
         \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
           2}
@@ -1024,22 +1038,22 @@
       \end{table}
 
   \section{\label{sec:sysCheck} Systematic checks}
-    
+
     Table~\ref{tab:sumsyst} shows the systematic errors that were estimated.
     The method used to separate the coherent from the photon-photon process 
      is the most dominant error.
     The ZDC reconstruction method used to estimate the neutron thresholds 
       is the next most dominant, followed by the method used to estimate
       the HF noise threshold. 
-    
+
     \begin{table}[!Hhtb]
       \begin{center}
         \begin{tabular}{|c|c|c|}
           \hline
           systematic & uncertainty in \%  \\ \hline
           Template fit normalized & +9.5\% -12\%    \\ \hline
-          ZDC trigger efficiency & 2.2\%    \\ \hline
           ZDC reconstruction  & 2.9\%  \\ \hline
+          ZDC trigger efficiency & 2.2\%    \\ \hline
           HF noise threshold & +1.3\% -3.4\%    \\ \hline 
           MC acceptance & 1.1\%    \\ \hline
           \hline \hline
@@ -1056,13 +1070,13 @@
       This cut plays a significant role in rejecting hadronic events.
       In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
         is evident. 
-      The HF noise cut rejects nearly 1/5 of the remaining events. 
+      The HF noise cut rejects a nearly 1/5 of the remaining events. 
       The systematic uncertainties on the HF noise requirement is important for
         this reason.
-     
+
       The most fine grained data from the HF detectors are called RecHits. 
-      There is one RecHit per phototube on HF. 
-      The RecHit signal is calibrated in GeV, and no noise subtraction is done. 
+      Their is one RecHit per phototube on HF. 
+      The RecHit signal is calibrated in GeV and no noise subtraction is done. 
       The CaloTowers are formed from geometrical groups of RecHits. 
       They are the first stage of the CMS jet trigger and perform some noise 
         suppression.
@@ -1080,7 +1094,7 @@
       \end{enumerate}
 
       Table~\ref{tab:hfNoiseThreshAsym} shows the noise thresholds for RecHits 
-        and CaloTowers for both the combined HF+ and HF- calorimeters and the 
+        and CalowTowers for both the combined HF+ and HF- calorimeters and the 
         individual calorimeters when 99\% of noise events are accepted.
       Table~\ref{tab:hfAdjThreshYields} compares the threshold for the cases 
         when 99\%, 98\% and 97\% of noise events are accepted.
@@ -1144,6 +1158,7 @@
         \end{center}
       \end{table}
 
+
     \subsection{Template fit normalization}
       \begin{figure}[!Hhtb]
         \centering
@@ -1151,7 +1166,7 @@
         \caption{Coherent, incoherent, and photon-photon process \pt{} template fit to data.}
         \label{fig:ptTempFit}
       \end{figure}
-     
+
       The \pt{} template fit depends on the functions chosen for the fit
         to the mass distribution.
       As described in Section~\ref{sec:sigEx}, the similarity of the of the 
@@ -1216,7 +1231,7 @@
         functions is found to be +9.5\% -12\%.
 
     \subsection{Mass fit}
-      
+
       \begin{figure}[!Hhtb]
         \centering
         $ \begin{array}{cc}
@@ -1272,7 +1287,7 @@
         \caption{Yields corrected by the MC incoherent acceptance map.}
         \label{fig:coYieldInCoCor}
       \end{figure}
-      
+
       The effect of polarization was estimated by correcting by the acceptance
         for an unpolarized \JPsi{} sample.
       \begin{figure}[!Hhtb]
@@ -1302,7 +1317,7 @@
       However, by using time slices 1 and 2 for measuring the noise, the noise
         can only be measured half the time due to unmeasurable negative 
         fluctuations of the dominant low frequency component of the noise.
-      
+
       As in the new method described in Section~\ref{sec:breakUpDet}, 
         the standard method combines the channels to create a signal 
         measurement from the whole of each side of the ZDC, one
@@ -1313,7 +1328,7 @@
       The EM section is weighted by a factor of 0.1 as in the new method. 
       After the weighting the EM and HAD channels are added to each to create
         one measurement for ZDC$^{+}$ and another measurement for ZDC$^{-}$.
-    
+
       Fig.~\ref{fig:zdcM1Fit} shows the spectra for ZDC$^{+}$ and ZDC${-}$ 
         using the standard method. 
       The same fit used for the new method is applied to standard method. 
@@ -1347,47 +1362,62 @@
     \subsection{ZDC trigger efficiency}
       The ZDC trigger efficiency measurement is sensitive to the underlying 
         neutron distribution.
-      The more neutrons that hit the ZDC, the higher the trigger efficiency 
+      The more neutrons that high the ZDC the higher the trigger efficiency 
         will be.
       To estimate the effect the input sample has on the efficiency, the ZDC 
         trigger efficiency was measured from five different samples.
       The Table~\ref{tab:zdcEfficiencySys} shows the results from the 
-       three samples, which require reconstruction a pixel track to reduce
-       the contribution from noise. 
+       five samples. 
       Both the new and standard ZDC reconstruction methods are shown for 
         comparison.
+
       \begin{table}
         \centering
         \begin{tabular}{|c|c|c|c|c|}
           \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
            \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track} \\ \hline 
-           ZDC$^{-}$ & standard & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
-           ZDC$^{-}$ & new & 73028  & 71706  & 0.982  $\pm$ 0.005  \\ \hline
-           ZDC$^{+}$ & standard & 76137  & 71786  & 0.943  $\pm$ 0.005  \\ \hline
-           ZDC$^{+}$ & new & 76132  & 71859  & 0.944  $\pm$ 0.005  \\ \hline
+           ZDC$^{-}$ & 1 & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+           ZDC$^{-}$ & 2 & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
+           ZDC$^{+}$ & 1 & 76137  & 71786  & 0.9429  $\pm$ 0.005  \\ \hline
+           ZDC$^{+}$ & 2 & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
            \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 EG trigger } \\ \hline 
-           ZDC$^{-}$ & standard & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
-           ZDC$^{-}$ & new & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
-           ZDC$^{+}$ & standard & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
-           ZDC$^{+}$ & new & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
+           ZDC$^{-}$ & 1 & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
+           ZDC$^{-}$ & 2 & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
+           ZDC$^{+}$ & 1 & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
+           ZDC$^{+}$ & 2 & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
            \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 Muon trigger} \\ \hline 
-           ZDC$^{-}$ & standard & 65466  & 63376  & 0.968 $\pm$ 0.005  \\ \hline
-           ZDC$^{-}$ & new & 65543  & 63358  & 0.967 $\pm$ 0.005 \\ \hline
-           ZDC$^{+}$ & standard & 71929  & 63512  & 0.883  $\pm$ 0.005 \\ \hline
-           ZDC$^{+}$ & new & 72932  & 63582  & 0.872  $\pm$ 0.005 \\ \hline
-         \end{tabular}
+           ZDC$^{-}$ & 1 & 65466  & 63376  & 0.9681 $\pm$ 0.0054  \\ \hline
+           ZDC$^{-}$ & 2 & 65543  & 63358  & 0.9667 $\pm$ 0.0054 \\ \hline
+           ZDC$^{+}$ & 1 & 71929  & 63512  & 0.8830  $\pm$ 0.0048 \\ \hline
+           ZDC$^{+}$ & 2 & 72932  & 63582  & 0.8718  $\pm$ 0.0047 \\ \hline
+           \multicolumn{5}{|c|}{ Zero Bias with ZDC timing cuts} \\ \hline 
+           ZDC$^{-}$ & 1 & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
+           ZDC$^{-}$ & 2 & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
+           ZDC$^{+}$ & 1 & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
+           ZDC$^{+}$ & 2 & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
+           \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$)} \\ \hline 
+           ZDC$^{-}$ & 1 & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
+           ZDC$^{-}$ & 2 & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
+           ZDC$^{+}$ & 1 & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
+           ZDC$^{+}$ & 2 & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
+           \multicolumn{5}{|c|}{ Zero Bias} \\ \hline 
+           ZDC$^{-}$ & 1 & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
+           ZDC$^{-}$ & 2 & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
+           ZDC$^{+}$ & 1 & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
+           ZDC$^{+}$ & 2 & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
+        \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
-          2 for trigger sample which require a pixel track.}
+          2 for different trigger samples}
         \label{tab:zdcEfficiencySys}
       \end{table}
-      
+
       The amount of electronic noise in the sample also effects the measurement.
-      The more noise sits below the one neutron peak, the lower the efficiency 
+      The more noise sits below the one neutron peak, the worse the efficiency 
         is. 
-      In Table~\ref{tab:zdcEfficiencySysNoiseSample}, the Zero Bias sample 
-        compared the Zero Bias sample with the timing cuts, which were 
-        described in the previous section, shows a significant increase in 
-        the estimated efficiency in the sample with reduced noise. 
+      In Table~\ref{tab:zdcEfficiencySys}, the Zero Bias sample compared the 
+        Zero Bias sample with the timing cuts the described in the previous 
+        section shows a significant increase in efficiency in the sample
+        with reduced noise. 
       The same increase is seen when comparing the ZDC triggered sample with 
         the ZDC triggered sample that also requires a pixel track. 
       The effect of the electronic noise is also present in the difference seen
@@ -1395,38 +1425,17 @@
       As seen in Fig.~\ref{fig:zdcSpec2v1}, the new reconstruction method 
         shows better separation of the one neutron peak from the electronic 
         noise, in particular in ZDC$^{+}$ where the signal gain is lower.
-      For this reason, the Zero Bias data, which contains the largest 
+      For this reason, the Zero Bias data, which contains that largest 
         contribution from electronic noise, shows the most separation between 
         the two methods and give the lowest estimate for the ZDC trigger 
         efficiency.
-      \begin{table}
-        \centering
-        \begin{tabular}{|c|c|c|c|c|}
-          \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-          \multicolumn{5}{|c|}{ Zero Bias with ZDC timing cuts} \\ \hline 
-           ZDC$^{-}$ & standard & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
-           ZDC$^{-}$ & new & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
-           ZDC$^{+}$ & standard & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
-           ZDC$^{+}$ & new & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
-           \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$)} \\ \hline 
-           ZDC$^{-}$ & standard & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
-           ZDC$^{-}$ & new & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
-           ZDC$^{+}$ & standard & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
-           ZDC$^{+}$ & new & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
-           \multicolumn{5}{|c|}{ Zero Bias} \\ \hline 
-           ZDC$^{-}$ & standard & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
-           ZDC$^{-}$ & new & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
-           ZDC$^{+}$ & standard & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
-           ZDC$^{+}$ & new & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
-        \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
-          2 for samples that do not require a pixel track.}
-        \label{tab:zdcEfficiencySysNoiseSample}
-      \end{table}
 
-      The systematic uncertainty in the ZDC trigger efficiency due to the 
-        uncertainty in the underlying distribution was estimated by calculating 
-        the standard deviation of efficiency measurements in Table~\ref{tab:zdcEfficiencySys}.
-      The uncertainty in the ZDC trigger efficiency is taken to be  
+      The systematic uncertainty due to the uncertainty in the 
+        underlying distribution was estimated by calculating the standard 
+        deviation of the least extreme values from 
+        Table~\ref{tab:zdcEfficiencySys}.
+      Any value greater than three standard deviations from the mean was thrown
+        out. 
 
     \subsection{ZDC reconstruction method comparison}
       The new method relative to the standard method separates low signal from 
@@ -1508,7 +1517,7 @@
         ZDC$^{-}$ where signal is better separated from the electronic noise. 
       This allows for confidence that the signal seen in ZDC$^{+}$ using 
         the new method is the one neutron peak.
- 
+
     \subsection{Tag and probe}
       The main purpose for fitting the mass spectra to estimate the efficiency
         is to separate the background from true signal. 
