@@ -1,37 +1,5 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
-\bibitem{phenixPhoton2010}
-{\bfseries PHENIX Collaboration} Collaboration, A.~Adare {\em et~al.},
-  ``Enhanced production of direct photons in $\mathrm{Au}+\mathrm{Au}$
-  collisions at $\sqrt{{s}_{NN}}=200\mathrm{GeV}$ and implications for the
-  initial temperature,''
-  \href{http://dx.doi.org/10.1103/PhysRevLett.104.132301}{{\em Phys. Rev.
-  Lett.} {\bfseries 104} (Mar, 2010) 132301}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevLett.104.132301}.
-
-\bibitem{photonALICE}
-M.~Wilde, ``Measurement of direct photons in pp and pb–pb collisions with
-  \{ALICE\},''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysa.2013.02.079}{{\em
-  Nuclear Physics A} {\bfseries 904–905} no.~0, (2013) 573c -- 576c}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0375947413001954}. The
-  Quark Matter 2012 Proceedings of the \{XXIII\} International Conference on
-  Ultrarelativistic Nucleus-Nucleus Collisions.
-
-\bibitem{upcNeuPHENIX}
-M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
-  ``Measurement of mutual coulomb dissociation in
-  $\sqrt{{s}_{\mathrm{NN}}}\phantom{\rule{0ex}{0ex}}=\phantom{\rule{0ex}{0ex}}130\mathrm{GeV}$
-  $au+au$ collisions,''
-  \href{http://dx.doi.org/10.1103/PhysRevLett.89.012302}{{\em Phys. Rev. Lett.}
-  {\bfseries 89} (Jun, 2002) 012302}.
-  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.012302}.
-
-\bibitem{tCmsE}
-S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
-  Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
-  \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
-
 \bibitem{dAuOniaPHENIX}
 {\bfseries PHENIX Collaboration} Collaboration, A.~Adare {\em et~al.}, ``{Cold
   Nuclear Matter Effects on $J/\psi$ Yields as a Function of Rapidity and
@@ -62,6 +30,24 @@ J.~D. Bjorken, ``Highly relativistic nucleus-nucleus collisions: The central
   rapidity region,'' \href{http://dx.doi.org/10.1103/PhysRevD.27.140}{{\em
   Phys. Rev. D} {\bfseries 27} (Jan, 1983) 140--151}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.27.140}.
+
+\bibitem{phenixPhoton2010}
+{\bfseries PHENIX Collaboration} Collaboration, A.~Adare {\em et~al.},
+  ``Enhanced production of direct photons in $\mathrm{Au}+\mathrm{Au}$
+  collisions at $\sqrt{{s}_{NN}}=200\mathrm{GeV}$ and implications for the
+  initial temperature,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.104.132301}{{\em Phys. Rev.
+  Lett.} {\bfseries 104} (Mar, 2010) 132301}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.104.132301}.
+
+\bibitem{photonALICE}
+M.~Wilde, ``Measurement of direct photons in pp and pb–pb collisions with
+  \{ALICE\},''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.nuclphysa.2013.02.079}{{\em
+  Nuclear Physics A} {\bfseries 904–905} no.~0, (2013) 573c -- 576c}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0375947413001954}. The
+  Quark Matter 2012 Proceedings of the \{XXIII\} International Conference on
+  Ultrarelativistic Nucleus-Nucleus Collisions.
 
 \bibitem{cmsFlow}
 {\bfseries CMS Collaboration} Collaboration, S.~Chatrchyan {\em et~al.},
@@ -154,6 +140,15 @@ I.~A. Pshenichnov, I.~N. Mishustin, J.~P. Bondorf, A.~S. Botvina, and A.~S.
   {\bfseries 60} (Sep, 1999) 044901}.
   \url{http://link.aps.org/doi/10.1103/PhysRevC.60.044901}.
 
+\bibitem{upcNeuPHENIX}
+M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
+  ``Measurement of mutual coulomb dissociation in
+  $\sqrt{{s}_{\mathrm{NN}}}\phantom{\rule{0ex}{0ex}}=\phantom{\rule{0ex}{0ex}}130\mathrm{GeV}$
+  $au+au$ collisions,''
+  \href{http://dx.doi.org/10.1103/PhysRevLett.89.012302}{{\em Phys. Rev. Lett.}
+  {\bfseries 89} (Jun, 2002) 012302}.
+  \url{http://link.aps.org/doi/10.1103/PhysRevLett.89.012302}.
+
 \bibitem{upcRhoSTAR12}
 {\bfseries STAR Collaboration} Collaboration, G.~Agakishiev and otheres,
   ``$\rho^{0}$ photoproduction in auau collisions at $\sqrt{s_{NN}}$ = 62.4 gev
@@ -208,6 +203,11 @@ V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
 \href{http://dx.doi.org/10.1088/0954-3899/34/6/S01}{{\em J.Phys.} {\bfseries
   G34} (2007) 995--1579}.
 %%CITATION = JPHGB,G34,995;%%.
+
+\bibitem{tCmsE}
+S.~Chatrchyan {\em et~al.}, ``The cms experiment at the cern lhc,'' {\em
+  Journal of Instrumentation} {\bfseries 3} no.~08, (2008) S08004.
+  \url{http://stacks.iop.org/1748-0221/3/i=08/a=S08004}.
 
 \bibitem{lheFormat}
 J.~Alwall, A.~Ballestrero, P.~Bartalini, S.~Belov, E.~Boos, {\em et~al.}, ``{A
