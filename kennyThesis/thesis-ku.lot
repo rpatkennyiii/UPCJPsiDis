@@ -4,18 +4,19 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces $\sigma _{AA\rightarrow AAJ/\psi } (mb)$ the LTA, STARlight, AB methods. Four different gluon density models are used in the AB method. STARlight is a simulation software package that utilizes the STARlight model.\relax }}{33}{table.caption.13}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces List of 2011 L1 seeds.\relax }}{54}{table.caption.29}
-\contentsline {table}{\numberline {4.2}{\ignorespaces List of 2011 HLT trigger.\relax }}{55}{table.caption.30}
-\contentsline {table}{\numberline {4.3}{\ignorespaces Integrated luminosities and number of events for the three samples used in this analysis.\relax }}{58}{table.caption.31}
-\contentsline {table}{\numberline {4.4}{\ignorespaces Effects of event selection cuts.\relax }}{58}{table.caption.32}
-\contentsline {table}{\numberline {4.5}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2\relax }}{76}{table.caption.49}
-\contentsline {table}{\numberline {4.6}{\ignorespaces Summary of systematic uncertainties\relax }}{76}{table.caption.50}
-\contentsline {table}{\numberline {4.7}{\ignorespaces HF noise theresholds for various noise measurement methods.\relax }}{77}{table.caption.51}
-\contentsline {table}{\numberline {4.8}{\ignorespaces Candidate yields below 1.05 GeV $p_{T}${} for various HF noise cuts.\relax }}{77}{table.caption.52}
-\contentsline {table}{\numberline {4.9}{\ignorespaces Values of the energy cuts for the HF calorimeter for RecHit and CaloTower in GeV.\relax }}{77}{table.caption.53}
-\contentsline {table}{\numberline {4.10}{\ignorespaces Number of dimuon candidates with p$_{T} <$1.05 when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{78}{table.caption.54}
-\contentsline {table}{\numberline {4.11}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for trigger sample which require a pixel track.\relax }}{85}{table.caption.62}
-\contentsline {table}{\numberline {4.12}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for samples that do not require a pixel track.\relax }}{85}{table.caption.63}
+\contentsline {table}{\numberline {4.1}{\ignorespaces List of 2011 L1 seeds.\relax }}{50}{table.caption.27}
+\contentsline {table}{\numberline {4.2}{\ignorespaces List of 2011 HLT trigger.\relax }}{51}{table.caption.28}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Integrated luminosities and number of events for the three samples used in this analysis.\relax }}{60}{table.caption.31}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Effects of event selection cuts.\relax }}{60}{table.caption.32}
+\contentsline {table}{\numberline {5.3}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2\relax }}{78}{table.caption.49}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Summary of systematic uncertainties\relax }}{78}{table.caption.50}
+\contentsline {table}{\numberline {5.5}{\ignorespaces HF noise theresholds for various noise measurement methods.\relax }}{79}{table.caption.51}
+\contentsline {table}{\numberline {5.6}{\ignorespaces Candidate yields below 1.05 GeV $p_{T}${} for various HF noise cuts.\relax }}{80}{table.caption.52}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Values of the energy cuts for the HF calorimeter for RecHit and CaloTower in GeV.\relax }}{80}{table.caption.53}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Number of dimuon candidates with p$_{T} <$1.05 when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{80}{table.caption.54}
+\contentsline {table}{\numberline {5.9}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for trigger sample which require a pixel track.\relax }}{87}{table.caption.62}
+\contentsline {table}{\numberline {5.10}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2 for samples that do not require a pixel track.\relax }}{88}{table.caption.63}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

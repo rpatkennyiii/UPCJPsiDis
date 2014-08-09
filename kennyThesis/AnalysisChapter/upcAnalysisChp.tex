@@ -1,9 +1,173 @@
+\chapter{\label{ch:trigg}UPC Trigger development for CMS}
+  Rare physics process at the LHC require dedicated triggers in order to sort
+    these processes from the billions of ordinary nucleus-nucleus collisions. 
+  Unlike most heavy-ion triggers, UPC triggers are optimized for low-\pt{} 
+    and low multiplicity events. 
+  For this reason trigger development specific to UPC events was required to
+    carry out the analysis in this thesis.
+
+  The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
+    nearly a factor of 15. 
+  To accommodate this increase in rate, the 2011 trigger scheme needed to be 
+    more selective than in 2010 where CMS could take any event which 
+    appeared to have a collision.
+  The available bandwidth was allocated equally amongst the various heavy ion
+    analysis groups to pursue as wide a physics program as possible.
+  From this consideration, bandwidth limits were placed on the trigger rates
+    for each analysis group's trigger package. 
+  
+  \section{\label{sec:l1Trigger}L1 trigger}
+    The UPC L1 triggers were designed to study UPC \JPsi{} production via the 
+      dimuon and dielectron channels (see Section~\ref{sec:detTrg}).
+    To achieve this, the loosest muon and electron triggers where combined with
+      a trigger on energy in the ZDCs and no activity in BSCs (BSC veto).
+    Additional triggers were commissioned in case radiation damage during the 
+      run reduced the sensitivity of the BSCs.
+    This required no activity in HF (HF veto). 
+    These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
+    The ECAL2 and ECAL5 triggers in Table~\ref{tab:l1Triggers2011}
+      indicate a 5 and 2 GeV threshold on $E_{T}$ measured in the ECAL.
+    The MuonOpen trigger indicates that the trigger only 
+      requires a muon candidate in one of the three muon sub-systems and that
+      there is no momentum threshold.
+    ZDC in the trigger names indicate energy constant with at least one neutron.
+    The sign on the ZDC label indicates which of the two ZDCs is required. 
+
+    \begin{table}[h]
+      \centering
+      \begin{tabular}{|l|l|l|l|l|}
+        \hline L1 trigger name & Rate (Hz) & Prescale & Id & Type \\ \hline \hline
+        MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 2.1 & 1 & 1 & \multirow{3}{*}{Physics} \\  \hhline{----~}
+        ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 1.8 & 2 & 2 & \\  \hhline{----~}
+        ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 0.3 & 1 & 3 & \\  \hline
+        (ZDC$^{+}$~or~ZDC$^{-}$) & 35 & 1500 & 4 & Monitor \\  \hline
+        MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 5 & \multirow{3}{*}{Backup} \\ \hhline{----~}
+        ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 6 & \\  \hhline{----~}
+        ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 7 & \\  \hline
+      \end{tabular}
+      \caption{List of 2011 L1 seeds.}
+      \label{tab:l1Triggers2011}
+    \end{table}
+    The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
+      required to be no greater than 200 Hz.
+    This requirement comes from the need to keep the tracker read-out rate
+      low. 
+    The trackers baseline voltage can fluctuate due to the high tracker hit 
+      multiplicities in PbPb collisions.
+    In order to monitor the zero suppression of the tracker, the zero 
+      suppression algorithm was executed using the HLT computing farm 
+	      rather than in the tracker firmware.
+
+    In order to record the efficiency monitoring data, the ZDC triggers were
+      reduce to a lower rate by only keeping a fraction of the total trigger 
+      rate. 
+    The factor that the trigger rate is reduced by is called the prescale.
+    A prescale of 2 for example means that half the triggers that were 
+      accepted.
+    If the prescale is set to 1, then whole trigger rate is accepted. 
+    The prescales for the triggers were set to balance the competing objectives 
+      of rate reduction and increasing the overlap between the monitoring and
+      signal triggers.
+
+  \section{\label{sec:hltTrigger}HLT trigger}
+    An event must pass the selection criteria of an HLT path in order to be
+      recorded. 
+    As opposed to the L1 trigger, which has access only to information from
+      calorimeters and muon chambers, the HLT has access to all of the CMS 
+      sub-detectors including the tracker. 
+    Reconstruction of a track in the pixel detector is used by the UPC 
+      trigger paths.
+    The use of the pixel detector only, as opposed to using the whole tracker 
+      including the silicon strip detector, allows for quick track 
+      reconstruction saving computing cycles.
+    The UPC triggers were required to have at lease one reconstructed pixel 
+      track in order to reject backgrounds where no particles are 
+      reconstructed by the tracker.
+    For the muon trigger in Table~\ref{tab:hltTriggers2011} the rate was 
+      reduced by nearly a factor or 4 compared to its L1 seed rate in 
+      Table~\ref{tab:l1Triggers2011}.
+    \begin{table}[h]
+      \centering
+      \begin{tabular}{|l|l|l|l|l|l|}
+        \hline HLT trigger  & Rate (Hz) & L1 prescale & HLT prescale & L1 seed & Type \\ \hline \hline
+        L1UPCMuon and Pixel Track & 0.52 & 1 & 1 & 1 & \multirow{3}{*}{Physics} \\ \hhline{-----~} 
+        L1UPCECAL2 and Pixel Track & 1.65 & 2 & 1 & 2 & \\ \hhline{-----~}
+        L1UPCECAL5 and Pixel Track & 0.26 & 1 & 1 & 3 & \\ \hline
+        L1ZDCOr & 3.6 & 1500 & 11 & 4 & \multirow{2}{*}{Monitor}  \\ \hhline{-----~}
+        L1ZDCOr and Pixel Track & 2.8 & 1500 & 1 & 4 & \\ \hline
+        L1UPCMuonHFVeto and Pixel Track & 0 & off & off & 5 & \multirow{3}{*}{Backup}   \\ \hhline{-----~}
+        L1UPCECAL2HFVeto and Pixel Track & 0 & off & off & 6 & \\ \hhline{-----~}
+        L1UPCECAL5HFVeto and Pixel Track & 0 & off & off & 7 & \\ \hline 
+      \end{tabular}
+      \caption{List of 2011 HLT trigger.}
+      \label{tab:hltTriggers2011}
+    \end{table}
+
+    The total HLT output for the UPC trigger package was limited to 20 Hz. 
+    The limiting factor for the HLT rate was the amount of disk space given 
+      to this analysis. 
+    To meet the bandwidth requirements and collect a significant sample
+      of data for estimating efficiencies, the prescales were balanced with 
+      the goal of achieving at least 5\% statistical precision on the 
+      efficiency measurements. 
+    As an example of the balancing of the prescales, the HLT  ZDC trigger that 
+      did not require a pixel track was given a additional prescale factor 
+      of 11 on the HLT.
+    The ZDC path that also required a pixel track on the HLT, which used 
+      the same L1 seed, was only prescaled at the L1.
+    The prescale of 11 was set to ensure that at least 1000 of the pixel track 
+      ZDC triggers overlapped with the ZDC L1 only triggers so that efficiency
+      of the pixel track requirement in the trigger could be estimated from 
+      the tracks lost.
+
+ \section{\label{sec:pPbTrigDev}Trigger development for the LHC pPb Run}
+   Specific UPC triggers were also developed for the pPb run in 2013. 
+    For this period of running a much higher total trigger rate was read out 
+      relative to 2011.
+    The total rate allocated for UPC triggers at the L1 in 2013 was 5 kHz and 
+      50 Hz at the HLT.
+    This factor of 5 increase in HLT and factor of 25 in L1 bandwidth,
+      allowed for a change in emphasis from the L1 to the HLT. 
+
+    The basic strategy in 2013 was the same as in 2012, use the loosest 
+      available ECAL and muon L1 triggers to push to capture the lowest \pt{}
+      electrons and muons possible and reject hadronic interactions.
+    Because of the L1 bandwidth restrictions in 2011, both the ZDCs and the 
+      BCSs were used on the L1 to reduce rates.
+    In 2013 only the muon and ECAL triggers were used on the L1 allowing for 
+      rejection of hadronic interactions through cuts on track multiplicity. 
+    In addition, a more sophisticated trigger using full dimuon reconstructed 
+      was developed to increase purity.
+    The main advantage in this shift in strategy was a higher purity due to 
+      the increased sophistication of the reconstruction on the HLT.
+    In addition, an increase in cross section of the underlying physics process
+      was achieved by relaxing the neutron emission requirement.
+
+    The HLT triggers in 2013 rejected hadronic interactions through counting
+      tracks. 
+    For the five UPC trigger paths included in the HLT menu, 
+      three levels of reconstruction were done at the HLT.
+
+    \begin{itemize}
+      \item Pixel tracks were reconstructed from the inner pixel section of the 
+        silicone tracker alone, tracks were reconstructed using the full
+        tracker using the strips as well, and full dimuon reconstruction was 
+        done using the tracker and muon detector. 
+      \item The least restrictive pixel track paths required at least 
+        one track reconstructed from the pixel detector and less than 10 pixel 
+        tracks in the event.
+      \item Full tracking paths were added on top of the pixel track paths and included
+        an additional requirement of one full track and less than 7 reconstructed
+        tracks.
+      \item The most restrictive path added to the pixel and full tracking paths and 
+        required reconstruction of dimuons with a mass between 2 and 12 GeV.
+    \end{itemize}
+
+
 \chapter{\label{ch:analysis} Analysis}
   In this chapter the various parts of the analysis are explained. 
   In Section~\ref{sec:mcSim}, the simulations used to estimate the detector's 
     ability to measure UPC processes are discussed. 
-  Section~\ref{sec:TrigDev} explains the considerations that went into the 
-    triggers that were developed for this measurement.
   The selection of UPC events is detailed in Section~\ref{sec:DataSetEvSel}.
   Extraction of the number of coherent \JPsi{} candidates is explained in 
     Section~\ref{sec:sigEx}.
@@ -40,24 +204,24 @@
 
   \subsection{STARlight and particle gun MC in CMS}
     In this thesis, two classes of generator input samples were used, 
-      STARlight and a particle gun.
-    The STARlight samples corresponds to the theoretical calculations 
+      STARlight \cite{vmd1999 , starlight} and a particle gun.
+    The STARlight samples correspond to the theoretical calculations 
       described in Section~\ref{sec:vdmTheory}, while the particle gun produces
-      particles with a user defined momentum distribution. 
-    For STARlight three different physical process are simulated;
+      particles with a user defined transverse momentum distribution and 
+      rapidity distribution and isotropic decay to muon pairs in the \JPsi{} 
+      rest frame. 
+    For STARlight, three different physical process were simulated:
       coherent \JPsi{} production, where the photon couples to the nucleus as
-      a whole, incoherent \JPsi{} production, where the photon couples to a
-      nucleon within the nucleus, and photon-photon interactions, where the 
-      photons from the two nuclei interact with each other to produce a pair 
-      of oppositely charge muons directly.
+      a whole; incoherent \JPsi{} production; where the photon couples to a
+      single nucleon within the nucleus, and photon-photon interactions, where 
+      the photons from the two nuclei interact with each other to produce a 
+      pair of oppositely charge muons.
     All three STARlight samples contain a $\mu^{+}$ and $\mu^{-}$ in the final 
       state.
-    The second class simulates \JPsi{} particles with a user 
-      defined \pt{} and rapidity distribution and isotropic decay to muon pairs
-      in the \JPsi{} rest frame.
 
     Because STARlight is not integrated into the standard CMS software 
-      framework (CMSSW), a simulation software chain with 5 steps was developed.
+      framework (CMSSW) \cite{cmssw}, a simulation software chain with 5 steps 
+      was developed.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process. 
     In step 2, the STARlight output file is converted to the Les Houches (LHE) 
@@ -84,25 +248,25 @@
     The particle gun samples were created entirely within CMSSW.
     \JPsi{} mesons were created according to user defined \pt{} and rapidity
       distributions. 
-    The decay of \JPsi{}s to $\mu^{+}$ and $\mu^{-}$ was simulated with a 
+    The decay of \JPsi{}s to a $\mu^{+}$$\mu^{-}$ pair was simulated with
       a uniform decay distribution, corresponding to unpolarized \JPsi{} 
       particles.
     As with the STARlight samples, these muons are propagated through the GEANT4
-      simulation of the detector, and the raw data is produced.
+      simulation \cite{geant} of the detector, and the raw data is produced.
     The remaining steps of running the reconstruction code and reducing the 
-      data to the final data needed for the analysis are identical to the 
-      STARlight production.
+      data to the final data format needed for the analysis are identical to 
+      the STARlight production.
 
-    The momentum of the final state muons is the main drivers of whether the 
+    The momentum of the final state muons is the main driver of whether the 
       candidate can be measured.
-    One of the two daughters muons must have enough momentum to fire the 
-      trigger, and both muons  must have enough momentum to be 
+    One of the two daughter muons must have large enough momentum to fire the 
+      trigger, and both muons must have enough momentum to be 
       reconstructed and tagged as a muon. 
-    There are at least 10 interactions lengths of material through which the 
+    There are at least 10 interaction lengths of material through which the 
       muons must travel in order reach the muon chambers 
       (see Fig.~\ref{fig:matThick}).
-    This imposes an effective momentum threshold on which muons can fire the 
-      trigger and be reconstructed. 
+    This imposes an effective momentum threshold of about 7 GeV in order for 
+      muons can fire the trigger. 
 
     The \pt{} distribution and the polarization of the \JPsi{}s produced are 
       the main factors controlling the momentum of the muon daughters, which
@@ -119,8 +283,8 @@
       momentum, whereas the daughter traveling opposite to the \JPsi{} 
       direction will have decreased momentum. 
 
-    In Fig.~\ref{fig:starlightRapPtDist} the \pt{} of \JPsi{}s from the 
-      STARlight generated coherent, and incoherent, and the dimuon \pt for 
+    In Fig.~\ref{fig:starlightRapPtDist} the \JPsi{}s \pt{} from the 
+      STARlight generated coherent, and incoherent, and the dimuon \pt{} for 
       photon-photon samples are compared.
     Both the coherent and the photon-photon samples are concentrated a low 
       \pt{}, and neither sample extends much beyond 0.15 GeV.
@@ -150,7 +314,6 @@
       direction of the $\mu^{+}$ daughter and the \JPsi{} direction in the rest
       frame of the \JPsi{}, prefer to be either parallel or anit-parallel.
     However, the particle gun samples have no preferred direction of emission.
-
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
@@ -159,133 +322,6 @@
         cosine of the helicity angle.} 
       \label{fig:genHXAngle}
     \end{figure}
-    
-  \section{\label{sec:TrigDev} Trigger development}
-    A collection of triggers was needed in order to select UPC events from the
-      collisions at the LHC. 
-    The increase in collision rate of the LHC PbPb beams from 2010 to 2011 was
-      nearly a factor of 15. 
-    To accommodate this increase in rate, the 2011 trigger scheme needed to be 
-      more selective than in 2010 where CMS could take any event which 
-      appeared to have a collision.
-    The available bandwidth was allocated equally amongst the various heavy ion
-      analysis groups to pursue as wide a physics program as possible.
-    From this consideration, bandwidth limits were placed on the trigger rates
-      for each analysis group's trigger package. 
-    To ensure that UPC physics could be explored all while respecting the
-      goals of the CMS Heavy Ions group as a whole, a UPC triggers were 
-      commissioned. 
-  
-    The UPC trigger rate estimates for commissioning the 2011 triggers were 
-      calculated by combining existing triggers from the 2010 run. 
-    By calculating the ratio between the UPC trigger rates and the minimum bias
-      trigger rate, the UPC trigger rates were scaled up to the anticipated 2011 
-      interaction rates using the 2010 data.
-    The trigger package for 2011 contained ZDC based efficiency monitoring 
-      triggers, muon and electron based triggers for measuring \JPsi{}, and 
-      backup triggers in case there was a problem with the original muon and 
-      electron triggers.
-
-    \subsection{\label{sec:l1Trigger} L1 trigger}
-      The UPC L1 triggers were designed to record enough data to measure 
-        UPC \JPsi{} production via the dimuon and dielectron channels.
-      To achieve this, the loosest muon and electron triggers where paired with
-        a trigger on energy in the ZDC were used as a trigger selection 
-        criteria, and energy in the BSCs was used as a rejection criteria.
-      Additional triggers with rejection criteria based on energy in HF were 
-        commissioned in case radiation damage during the run reduced the 
-        sensitivity of the BSCs.
-      These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
-      The 5 and 2 in the ECAL trigger names in Table~\ref{tab:l1Triggers2011}
-        indicate a 5 and 2 GeV threshold on $E_{T}$ measured in the ECAL.
-      The Open in the muon trigger indicates that the trigger only 
-        requires a muon candidate in one of the three muon sub-systems and that
-        there is not momentum threshold.
-
-      \begin{table}[h]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|}
-          \hline L1 trigger & Rate (Hz) & Prescale & Id & Type \\ \hline \hline
-          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 2.1 & 1 & 1 & \multirow{3}{*}{Physics} \\  \hhline{----~}
-          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 1.8 & 2 & 2 & \\  \hhline{----~}
-          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and BSC veto & 0.3 & 1 & 3 & \\  \hline
-          (ZDC$^{+}$~or~ZDC$^{-}$) & 35 & 1500 & 4 & Monitor \\  \hline
-          MuonOpen and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 5 & \multirow{3}{*}{Backup} \\ \hhline{----~}
-          ECAL2 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 6 & \\  \hhline{----~}
-          ECAL5 and (ZDC$^{+}$~or~ZDC$^{-}$) and HF veto & 0 & off & 7 & \\  \hline
-        \end{tabular}
-        \caption{List of 2011 L1 seeds.}
-        \label{tab:l1Triggers2011}
-      \end{table}
-      The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
-        required to be no greater than 200 Hz.
-      This requirement stemmed from the need to keep the tracker read-out rate
-        low. 
-      The trackers baseline voltage can fluctuate due to the high tracker hit 
-        multiplicities in PbPb collisions.
-      In order to monitor the zero suppression of the tracker, the zero 
-        suppression algorithm was executed using the HLT computing farm 
-	      rather than in the tracker firmware.
-
-      In order to record the efficiency monitoring data, the ZDC triggers had 
-        to be prescaled to a lower rate. 
-      The scaling down of the monitoring trigger was setup to ensure overlap
-        with the signal triggers.
-      The prescales for the triggers were set to balance the competing objectives 
-        of rate reduction and increasing the overlap between the monitoring and
-        signal triggers.
-
-    \subsection{HLT trigger}
-      An event must pass the selection criteria of an HLT path in order to be
-        recorded. 
-      As opposed to the L1 trigger, which has access only to information from
-        calorimeters and muon chambers, the HLT has access to all of the CMS 
-        sub-detectors including the tracker. 
-      Reconstruction of a track in the pixel detector is used by the UPC 
-        trigger paths.
-      The use of the pixel detector only, as opposed to using the whole tracker 
-        including the silicon strip detector, allows for quick track 
-        reconstruction saving computing cycles.
-      The requirement of at least one reconstructed pixel track for the HLT 
-        triggers was designed to reject backgrounds where no particles are 
-        reconstructed by the tracker.
-      For the muon trigger in Table~\ref{tab:hltTriggers2011} the rate was 
-        reduced by nearly a factor or 4 compared to its L1 seed rate in 
-        Table~\ref{tab:l1Triggers2011}.
-      This is due to the additional pixel track requirement. 
-      \begin{table}[h]
-        \centering
-        \begin{tabular}{|l|l|l|l|l|l|}
-          \hline HLT trigger  & Rate (Hz) & L1 prescale & HLT prescale & L1 seed & Type \\ \hline \hline
-          L1UPCMuon and Pixel Track & 0.52 & 1 & 1 & 1 & \multirow{3}{*}{Physics} \\ \hhline{-----~} 
-          L1UPCECAL2 and Pixel Track & 1.65 & 2 & 1 & 2 & \\ \hhline{-----~}
-          L1UPCECAL5 and Pixel Track & 0.26 & 1 & 1 & 3 & \\ \hline
-          L1ZDCOr & 3.6 & 1500 & 11 & 4 & \multirow{2}{*}{Monitor}  \\ \hhline{-----~}
-          L1ZDCOr and Pixel Track & 2.8 & 1500 & 1 & 4 & \\ \hline
-          L1UPCMuonHFVeto and Pixel Track & 0 & off & off & 5 & \multirow{3}{*}{Backup}   \\ \hhline{-----~}
-          L1UPCECAL2HFVeto and Pixel Track & 0 & off & off & 6 & \\ \hhline{-----~}
-          L1UPCECAL5HFVeto and Pixel Track & 0 & off & off & 7 & \\ \hline 
-        \end{tabular}
-        \caption{List of 2011 HLT trigger.}
-        \label{tab:hltTriggers2011}
-      \end{table}
-
-      The total HLT output for the UPC trigger package was limited to 20 Hz. 
-      The limiting factor for the HLT rate was the amount of disk space 
-        available to store the data. 
-      To meet the bandwidth requirements and collect a significant sample
-        of data for estimating efficiencies, the prescales were balanced with 
-        the goal of achieving at least 5\% statistical precision on the 
-        efficiency estimates. 
-      As an example of the balancing of the prescales, the  ZDC trigger that 
-        was passed through from the L1 was given a additional prescale factor 
-        of 11 on the HLT.
-      The ZDC path that also required a pixel track on the HLT, which used 
-        the same L1 seed, was only prescaled at the L1.
-      The prescale of 11 was set to ensure that at least 1000 of the pixel track 
-        ZDC triggers overlapped with the ZDC L1 only triggers so that efficiency
-        of the pixel track requirement in the trigger could be estimated from 
-        the tracks lost. 
 
   \section{\label{sec:DataSetEvSel} Event selection}
     The unprecedented amounts of data produced by the LHC has made it possible 
@@ -293,7 +329,8 @@
     The data for this analysis were recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
       corresponding to over a billion PbPb collisions. 
-    Of this, 143 $\mu$$b^{-1}$ of data were used in this analysis.
+    Of this, 143 $\mu$$b^{-1}$ of data were used in this analysis due to the 
+      ZDCs being temporally disconnected to test the Forward Shower Counters.
   
     \subsection{Data sets}
       The data were dived into three specially selected samples, Physics, Monitoring, 
@@ -310,7 +347,7 @@
         samples, were used to investigate to what extent signal events are lost
         due to the higher selectivity of physics triggers. 
       These samples were recorded using subsets of the HLT triggers found in 
-        Table~\ref{tab:hltTriggers2011} of Section~\ref{sec:TrigDev}.
+        Table~\ref{tab:hltTriggers2011} of Chapter~\ref{ch:trigg}.
       The \JPsi{} events discussed in this thesis were obtained analyzing the 
         sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered monitoring sample was recorded for the sake of estimating
@@ -324,9 +361,9 @@
       Because of the characteristically low momentum of UPC \JPsi{} as compared
         to \JPsi{} created by other physics processes, the loosest muon 
         trigger was used.
-      The noise trigger rate for the muon trigger alone was 50Hz, but in 
+      The noise trigger rate for the muon trigger alone was 50 Hz, but in 
         coincidence with the BCS veto and the ZDC trigger the noise rate was
-        below 2Hz. 
+        below 2 Hz. 
       By pairing the muon trigger with the ZDC on the L1, the noise contribution
         was reduced from the noise contribution from either of the two 
         sub-detectors to the noise coincidence between the two sub-detectors. 
@@ -334,12 +371,13 @@
         BSCs.
       This trigger was designed to balance reducing the rate with maximizing 
         the efficiency, allowing for the data to be recorded without 
-        producing high rates resulting in dead time for the detector.  
+        producing high rates that would have resulted in dead time for the 
+        detector.  
       
       In order to investigate the muon trigger and the other parts of the event 
         selection, a monitoring sample was recorded by requiring energy 
         consistent with at least one neutron in either of the ZDCs.
-      Neutron production is much more common process than the UPC \JPsi{} 
+      Neutron production is a much more common process than the UPC \JPsi{} 
         production.
       This process has cross sections on the order of 100 b compared
         to 10 mb predicted for \JPsi{} production. 
@@ -356,17 +394,15 @@
       Only 4 events out of every million triggered were recorded for this sample. 
       This sample allowed for an unbiased measurement of the ZDC neutron 
         threshold energies as discussed in Section~\ref{sec:breakUpDet}. 
-      Because the zero bias trigger does not require any activity in any of the
-        CMS sub detectors, the sample contains very few hadronic collisions. 
+      Because the zero bias trigger only requires the presents of both LHC 
+        beams, the sample contains very few hadronic collisions. 
       This allowed for a measurement of the electronic noise distribution in
         the HF, which are important to reducing contamination from hadronic
         interactions.
   
       The integrated luminosity for each of the three samples is calculated
-        by recording activity in HF, the forward hadronic calorimeter in CMS
-        \cite{cmsLumi}. 
-      The cross section for HF activity is measured from a van der Meer scan, 
-        and the cross section was found to be 45 mb for proton-proton running.
+        by recording activity in HF \cite{cmsLumi}. 
+      The cross section for HF activity is measured from a van der Meer scan. 
       In this way, the amount of integrated luminosity for any running period is
         related to the activity in HF. 
       \begin{table}
@@ -392,8 +428,7 @@
       The first set rejects background from the beam.
       The second rejects events where hadronic collisions have occurred.
       Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts. 
- 
-      \begin{table}
+      \begin{table}[!Hhbt]
         \centering
         \begin{tabular}{|c|c|c|} \hline 
           Cut type & Cut & Events \\ \hline
@@ -477,12 +512,12 @@
         \item Cut on number of tracker layers with hits $>$ 5.
         \item Number of pixel layers $>$ 0.
         \item The $\chi^{2}$ per degrees of freedom of the track fit $<$ 3. 
-        \item Loose transverse and longitudinal impact parameter cuts, with in 3 
-          cm in the transverse direction and withing 30 cm in the longitudinal 
+        \item Loose transverse and longitudinal impact parameter cuts, within 3 
+          cm in the transverse direction and within 30 cm in the longitudinal 
           direction with respect to the primary vertex.
       \end{itemize}
       These cuts are applied to reduce the number of fake muons and have been 
-        validated for standard muon analyses.
+        validated for other muon analyses \cite{cmsJpPP}.
 
   \section{\label{sec:breakUpDet} Break up determination}
     As described in Section~\ref{sec:ltaTheory}, UPC \JPsi{} photoproduction 
@@ -492,7 +527,7 @@
       be distinguished by the two ZDCs.
     By separating events where the ZDC signal is consistent with 1 neutron 
       versus several neutrons, or where neutrons are present on only one or 
-      both sides, the fraction of events which correspond to a given 
+      both sides, the fraction of events which corresponds to a given 
       break-up mode can be measured and compared to theory. 
 
     In order to maximize the ability to explore the one neutron peak, which 
@@ -507,7 +542,7 @@
       The signal from each ZDC is built up from the pulse shapes for each of 
         the 18 individual ZDC channels. 
       The pulse shape is recorded in 250 ns second chunks and is divided into
-        10 time slices of 25 ns (See Fig~\ref{fig:zdcPulseShape}).
+        10 time slices of 25 ns (see Fig~\ref{fig:zdcPulseShape}).
       Counting from 0, the 4th time slice is synced with the timing of the rest
         of the detector and corresponds to when the products of the recorded 
         collision reached the ZDC.
@@ -548,7 +583,7 @@
         signal contribution to time slice 5, $C$ is a random noise constant
         from the low frequency noise, and $R_{Ts5/Ts4}$ is the ratio between
         the signal contribution from time slice 5 over time slice 4.
-      Figure~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistence of the 
+      Figure~\ref{fig:zdcTs4OvTs5VTs5} demonstrates the consistency of the 
         fraction and validates the unconventional method of using the falling 
         tail of the signal to estimate the low frequency noise. 
       By using time slice 5, the chances of measuring the noise are maximized. 
@@ -581,7 +616,7 @@
       Figure~\ref{fig:zdcM2Fit} shows the weighted sum of the EM and 
         HAD sections for  ZDC$^{-}$ and  ZDC$^{+}$ for the zero bias 
         dataset.
-      The neutron spectrum for this dataset does is biased since the 
+      The neutron spectrum for this dataset is biased since the 
         trigger only required that both beams were present in CMS. 
       This does, however, include a significant electronic noise contribution due
         to events where no neutrons are emitted in the direction of the ZDC.
@@ -661,7 +696,7 @@
       The noise distributions do not depend on the amount of quartz fibers, but
         because the signal does, the noise distributions for EM and HAD sections
         are measured separately.
-      Fig~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
+      Figure~\ref{fig:zdcNoiseSpectra} shows the noise spectrum for each of the 
         EM and HAD sections for the two ZDCs.
       If the HAD or EM signals measured from time slices which match the 
         timing for a collision, time slices 4 and 5, are less than 2$\sigma$ 
@@ -693,8 +728,8 @@
       Fig.~\ref{fig:massFit}. 
     A \JPsi{} signal is clearly visible together with tails at higher and
       lower mass due to the photon-photon process.
-    A fit to the invariant mass distribution was done using a Gaussian
-      to account for the \JPsi{} signal and a first order polynomial function 
+    A fit to the invariant mass distribution was performed using a Gaussian
+      to account for the \JPsi{} signal and a first-order polynomial function 
       for the photon-photon process.
     The extracted number of \JPsi{} candidates from this fit includes all 
       \JPsi{}s in the mass window that passed the analysis cuts, i.e. both
@@ -707,7 +742,7 @@
       \centering
       \includegraphics[width=.6\textwidth]{massFitSimple}
       \caption{Mass fit to \JPsi{} using Gaussian for the 
-        signal and a first order polynomial for the photon-photon continuum}
+        signal and a first-order polynomial for the photon-photon continuum.}
       \label{fig:massFit}
     \end{figure}
   
@@ -884,7 +919,7 @@
       One histogram is created from all pairs. 
       The second comes from pairs where the probe is a passing probe.  
       The last histogram comes from pairs where the probe fails to fulfill
-        the trigger, \textit{i.e.} the probe is a failing probe. 
+        the trigger, it is a failing probe. 
       By matching the tag to the trigger, the probe is unbiased by the trigger 
         and the  efficiency can be measured by fitting the three mass 
         histograms. 
@@ -894,11 +929,11 @@
         probe is created.
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
         each set of invariant mass histograms were simultaneously fit. 
-      The signal was fitted using a Crystal Ball function, and the background 
-        was fitted to an exponential.
-      The Crystal Ball parameters were simultaneously fitted to all three 
+      The signal was fit using a Crystal Ball function, and the background 
+        was fit to an exponential.
+      The Crystal Ball parameters were simultaneously fit to all three 
         histograms.
-      The exponential function was fitted to the failing and passing probe 
+      The exponential function was fit to the failing and passing probe 
         histograms separately.
       Because the background shapes are in principle different for the two 
         samples, the efficiency is driven by this difference. 
@@ -946,7 +981,7 @@
           in each (\pt{},$|y|$) bin.}
         \label{fig:avTrigEffCo}
       \end{figure}
-      The dimuon trigger efficiency ranges from $\approx 50$\% to 87\%. 
+      The dimuon trigger efficiency ranges from about 50\% to 90\%. 
       As expected the \JPsi{} trigger efficiency increase with rapidity since 
         the longitudinal momentum of the \JPsi{} is given 
         $p_Z= M_{J/\psi} \cdot sinh(y)$. 
@@ -1023,7 +1058,7 @@
         \label{tab:zdcEfficiency}
       \end{table}
 
-  \section{\label{sec:sysCheck} Systematic checks}
+  \section{\label{sec:sysCheck}Systematic uncertainties}
     
     Table~\ref{tab:sumsyst} shows the systematic errors that were estimated.
     The method used to separate the coherent from the photon-photon process 
@@ -1031,13 +1066,12 @@
     The ZDC reconstruction method used to estimate the neutron thresholds 
       is the next most dominant, followed by the method used to estimate
       the HF noise threshold. 
-    
     \begin{table}[!Hhtb]
       \begin{center}
         \begin{tabular}{|c|c|c|}
           \hline
           systematic & uncertainty in \%  \\ \hline
-          Template fit normalized & +9.5\% -12\%    \\ \hline
+          Template fit normalization & +9.5\% -12\%    \\ \hline
           ZDC trigger efficiency & 2.2\%    \\ \hline
           ZDC reconstruction  & 2.9\%  \\ \hline
           HF noise threshold & +1.3\% -3.4\%    \\ \hline 
@@ -1052,7 +1086,7 @@
 
     \subsection{HF noise threshold}
       The way in which the HF noise distribution is measured effects the event 
-        selection and therefore the final candidate yeild.
+        selection and therefore the final candidate yield.
       This cut plays a significant role in rejecting hadronic events.
       In Table~\ref{tab:evSelCutNumbers} the importance of cutting on HF noise
         is evident. 
@@ -1427,7 +1461,8 @@
       The systematic uncertainty in the ZDC trigger efficiency due to the 
         uncertainty in the underlying distribution was estimated by calculating 
         the standard deviation of efficiency measurements in Table~\ref{tab:zdcEfficiencySys}.
-      The uncertainty in the ZDC trigger efficiency is taken to be  
+      The uncertainty in the ZDC trigger efficiency is taken to be 1\% for 
+      ZDC$^{-}$ and 4\% for ZDC$^{+}$.
 
     \subsection{ZDC reconstruction method comparison}
       The new method relative to the standard method separates low signal from 
