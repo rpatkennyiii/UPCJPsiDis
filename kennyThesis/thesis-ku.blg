@@ -4,14 +4,15 @@ The top-level auxiliary file: thesis-ku.aux
 A level-1 auxiliary file: IntroductionChapter/upcIntroductionChp.aux
 A level-1 auxiliary file: TheoryChapter/upcTheoryChp.aux
 A level-1 auxiliary file: DetectorChapter/upcDetectorChp.aux
+A level-1 auxiliary file: ZDCRecoChapter/upcZDCRecoChp.aux
+A level-1 auxiliary file: TriggerChapter/upcTriggerChp.aux
 A level-1 auxiliary file: AnalysisChapter/upcAnalysisChp.aux
-White space in argument---line 23 of file AnalysisChapter/upcAnalysisChp.aux
+White space in argument---line 9 of file AnalysisChapter/upcAnalysisChp.aux
  : \citation{vmd1999
  :                   }
 I'm skipping whatever remains of this command
+A level-1 auxiliary file: SystematicsChapter/upcSystematicsChp.aux
 A level-1 auxiliary file: ResultsChapter/upcResultsChp.aux
-A level-1 auxiliary file: ConclusionChapter/upcConclusionChp.aux
-A level-1 auxiliary file: FutureWorksChapter/upcFutureWorksChp.aux
 The style file: bbl/utphys.bst
 A level-1 auxiliary file: Appendix1/Appendix1.aux
 Database file #1: bbl/upcTheoryChp.bib
@@ -37,48 +38,47 @@ Warning--I didn't find a database entry for "sps"
 Warning--I didn't find a database entry for "qgpThresh"
 Warning--I didn't find a database entry for "whi"
 Warning--I didn't find a database entry for "cmssw"
-Warning--I didn't find a database entry for "upcJets1"
 Warning--all relevant fields are empty in starlight
 Warning--empty pages in cmsJpPP
-You've used 39 entries,
+You've used 37 entries,
             2328 wiz_defined-function locations,
-            915 strings with 13560 characters,
-and the built_in function-call counts, 13012 in all, are:
-= -- 1430
-> -- 352
+            898 strings with 12977 characters,
+and the built_in function-call counts, 12157 in all, are:
+= -- 1334
+> -- 333
 < -- 0
-+ -- 133
-- -- 94
-* -- 1118
-:= -- 1479
-add.period$ -- 80
-call.type$ -- 39
-change.case$ -- 74
++ -- 126
+- -- 89
+* -- 1040
+:= -- 1384
+add.period$ -- 76
+call.type$ -- 37
+change.case$ -- 72
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 749
-empty$ -- 1208
-format.name$ -- 94
-if$ -- 3449
+cite$ -- 39
+duplicate$ -- 707
+empty$ -- 1129
+format.name$ -- 89
+if$ -- 3224
 int.to.chr$ -- 0
-int.to.str$ -- 39
-missing$ -- 142
-newline$ -- 145
-num.names$ -- 40
-pop$ -- 182
+int.to.str$ -- 37
+missing$ -- 134
+newline$ -- 139
+num.names$ -- 38
+pop$ -- 175
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 599
+skip$ -- 561
 stack$ -- 0
-substring$ -- 647
-swap$ -- 410
+substring$ -- 567
+swap$ -- 384
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 85
-width$ -- 41
-write$ -- 339
+while$ -- 79
+width$ -- 39
+write$ -- 322
 (There were 2 error messages)

@@ -209,6 +209,13 @@ V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
   G34} (2007) 995--1579}.
 %%CITATION = JPHGB,G34,995;%%.
 
+\bibitem{aliceIclJpsi}
+A.~Lardeux, ``{J/$\psi$ production in Pb-Pb collisions at $\sqrt{s_{NN}}$ =2.76
+  TeV in the ALICE experiment},''
+\href{http://dx.doi.org/10.1088/1742-6596/446/1/012042}{{\em J.Phys.Conf.Ser.}
+  {\bfseries 446} (2013) 012042}.
+%%CITATION = 00462,446,012042;%%.
+
 \bibitem{starlight}
 \url{http://starlight.hepforge.org}.
 
@@ -257,28 +264,5 @@ T.~C. collaboration, ``Performance of cms muon reconstruction in pp collision
   \href{http://dx.doi.org/10.1103/PhysRevD.86.010001}{{\em Phys. Rev. D}
   {\bfseries 86} (Jul, 2012) 010001}.
   \url{http://link.aps.org/doi/10.1103/PhysRevD.86.010001}.
-
-\bibitem{lta2012.03}
-V.~Rebyakova, M.~Strikman, and M.~Zhalov, ``Coherent $\rho$ and {J/$\Psi$}
-  photoproduction in ultraperipheral processes with electromagnetic
-  dissociation of heavy ions at {RHIC} and {LHC},''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.03.041}{{\em
-  Physics Letters B} {\bfseries 710} no.~4–5, (2012) 647 -- 653}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269312003152}.
-
-\bibitem{alice2012.09}
-{\bfseries ALICE} Collaboration, B.~Abelev {\em et~al.}, ``{Coherent $J/\psi$
-  photoproduction in ultra-peripheral Pb-Pb collisions at $\sqrt{s_{NN}} =
-  2.76$ TeV},''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2012.11.059}{{\em
-  Physics Letters B} {\bfseries 718} no.~4–5, (2013) 1273 -- 1283}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269312012257}.
-
-\bibitem{aliceIclJpsi}
-A.~Lardeux, ``{J/$\psi$ production in Pb-Pb collisions at $\sqrt{s_{NN}}$ =2.76
-  TeV in the ALICE experiment},''
-\href{http://dx.doi.org/10.1088/1742-6596/446/1/012042}{{\em J.Phys.Conf.Ser.}
-  {\bfseries 446} (2013) 012042}.
-%%CITATION = 00462,446,012042;%%.
 
 \end{thebibliography}\endgroup

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  8 AUG 2014 11:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  9 AUG 2014 01:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -652,7 +652,8 @@ File: babel.def 2013/12/03 3.9h Babel common definitions
 \ULC@box=\box34
 Package: ulem 2012/05/18
 \ULdepth=\dimen158
-) (./diffMain.aux)
+) (./diffMain.aux
+(./diffAn.aux))
 \openout1 = `diffMain.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 98.
@@ -670,7 +671,7 @@ LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 98.
 LaTeX Font Info:    ... okay on input line 98.
 LaTeX Font Info:    Try loading font information for T1+ptm on input line 98.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 *geometry* driver: auto-detecting
@@ -759,9 +760,9 @@ LaTeX Info: Redefining \nameref on input line 98.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
-\openout2 = `diffAn.aux'.
+\openout2 = `diffTh.aux'.
 
- (./diffAn.tex
+ (./diffTh.tex
 Chapter 1.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
@@ -769,879 +770,1687 @@ LaTeX Font Info:    Try loading font information for T1+lmss on input line 1.
 (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 3.
-
-
-LaTeX Warning: Reference `sec:mcSim' on page 1 undefined on input line 3.
-
-
-LaTeX Warning: Reference `sec:TrigDev' on page 1 undefined on input line 5.
-
-
-LaTeX Warning: Reference `sec:DataSetEvSel' on page 1 undefined on input line 7
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 16
 .
-
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 8.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 8.
-
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 16
+.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 8.
-
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 16
+.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 8.
-
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 16
+.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 8.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 16.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 8.
-LaTeX Font Info:    Try loading font information for U+esint on input line 8.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 16.
+LaTeX Font Info:    Try loading font information for U+esint on input line 16.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/esint/uesint.fd
 File: uesint.fd 
 )
-
-LaTeX Warning: Reference `sec:sigEx' on page 1 undefined on input line 9.
-
-
-LaTeX Warning: Reference `sec:effDet' on page 1 undefined on input line 11.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 29.
 
 
-LaTeX Warning: Reference `sec:sysCheck' on page 1 undefined on input line 12.
-
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 15.
-
-Overfull \hbox (34.40051pt too wide) in paragraph at lines 15--15
-[][] []|   []   |   [][][]|   []   |   []   |   []   |   []   |   []   |   [][]
- 
- []
+LaTeX Warning: Citation `Klasen:2007pm' on page 1 undefined on input line 29.
 
 [1
 
 
 
 {/usr/local/texlive/2013/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 42.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 45.
+
+<TheoryChapter/figures/boost.png, id=118, 291.0875pt x 155.58125pt>
+File: TheoryChapter/figures/boost.png Graphic file (type png)
+
+<use TheoryChapter/figures/boost.png>
+Package pdftex.def Info: TheoryChapter/figures/boost.png used on input line 57.
+
+(pdftex.def)             Requested size: 305.33789pt x 163.2108pt.
+ [2 <./TheoryChapter/figures/boost.png (PNG copy)>]
+
+LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 3 undefined on input l
+ine 70.
 
 
-LaTeX Warning: Reference `sec:vdmTheory' on page 2 undefined on input line 46.
+LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 3 undefined on input l
+ine 85.
 
 
-LaTeX Warning: Citation `lheFormat' on page 2 undefined on input line 66.
-
-[2]
-
-LaTeX Warning: Citation `geant' on page 3 undefined on input line 76.
+LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
+line 91.
 
 
-LaTeX Warning: Citation `pythia' on page 3 undefined on input line 92.
+LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 93.
 
 
-LaTeX Warning: Reference `fig:matThick' on page 3 undefined on input line 108.
+LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
+line 103.
 
 
-LaTeX Warning: Citation `oniaPol' on page 3 undefined on input line 116.
+LaTeX Warning: Reference `eq:staticEFromTarg3tmp' on page 3 undefined on input 
+line 104.
+
+
+LaTeX Warning: Citation `WWJackson' on page 3 undefined on input line 104.
+
+
+LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 3 undefined on input 
+line 114.
 
 [3]
 
-LaTeX Warning: Reference `fig:starlightRapPtDist' on page 4 undefined on input 
-line 127.
+LaTeX Warning: Reference `eq:staticEFromTargtmp' on page 4 undefined on input l
+ine 117.
 
-<AnalysisChapter/figures/genRapDis.pdf, id=28, 569.12625pt x 546.04pt>
+
+LaTeX Warning: Reference `eq:staticEFromTarg2tmp' on page 4 undefined on input 
+line 118.
+
+
+LaTeX Warning: Reference `fig:boost' on page 4 undefined on input line 138.
+
+
+LaTeX Warning: Reference `eq:fourier1tmp' on page 4 undefined on input line 154
+.
+
+
+LaTeX Warning: Reference `eq:fourier1tmp' on page 4 undefined on input line 165
+.
+
+
+LaTeX Warning: Citation `WWFermi' on page 4 undefined on input line 166.
+
+[4]
+
+LaTeX Warning: Reference `eq:fourier2tmp' on page 5 undefined on input line 175
+.
+
+
+LaTeX Warning: Reference `eq:fourier1tmp' on page 5 undefined on input line 187
+.
+
+
+LaTeX Warning: Reference `eq:fourier3tmp' on page 5 undefined on input line 189
+.
+
+
+LaTeX Warning: Reference `eq:fourier3tmp' on page 5 undefined on input line 190
+.
+
+
+LaTeX Warning: Citation `WWBrau' on page 5 undefined on input line 219.
+
+[5]
+
+LaTeX Warning: Reference `eq:specturalFluencytmp' on page 6 undefined on input 
+line 236.
+
+
+LaTeX Warning: Citation `WWJackson' on page 6 undefined on input line 241.
+
+
+LaTeX Warning: Reference `eq:specturalFluencytmp' on page 6 undefined on input 
+line 246.
+
+
+LaTeX Warning: Reference `eq:photonFluxtmp' on page 6 undefined on input line 2
+47.
+
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 6 undefined on input l
+ine 256.
+
+[6]
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
+ine 278.
+
+
+LaTeX Warning: Reference `eq:TaNuc' on page 7 undefined on input line 296.
+
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
+ine 311.
+
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 7 undefined on input l
+ine 315.
+
+[7]
+
+LaTeX Warning: Reference `eq:fluxMod' on page 8 undefined on input line 334.
+
+
+LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 349.
+
+
+LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 350.
+
+
+LaTeX Warning: Citation `vmd1999' on page 8 undefined on input line 353.
+
+
+LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 355.
+
+
+LaTeX Warning: Reference `eq:proElFit' on page 8 undefined on input line 357.
+
+[8]
+
+LaTeX Warning: Reference `eq:proElFit' on page 9 undefined on input line 368.
+
+
+LaTeX Warning: Reference `eq:STARlightforwardScat' on page 9 undefined on input
+ line 386.
+
+
+LaTeX Warning: Reference `eq:STARlightforwardScat' on page 9 undefined on input
+ line 389.
+
+
+LaTeX Warning: Reference `eq:glauber' on page 9 undefined on input line 403.
+
+
+LaTeX Warning: Reference `eq:glauber' on page 9 undefined on input line 407.
+
+
+LaTeX Warning: Reference `eq:glauber' on page 9 undefined on input line 409.
+
+[9]
+
+LaTeX Warning: Reference `eq:optTheA' on page 10 undefined on input line 422.
+
+
+LaTeX Warning: Reference `eq:finalSTARlightResult' on page 10 undefined on inpu
+t line 428.
+
+
+LaTeX Warning: Reference `eq:finalSTARlightResult' on page 10 undefined on inpu
+t line 431.
+
+[10]
+
+LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 477.
+
+
+LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
+89.
+
+
+LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
+90.
+
+
+LaTeX Warning: Citation `pQCD2011.08' on page 11 undefined on input line 491.
+
+
+LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
+92.
+
+
+LaTeX Warning: Reference `eq:ABfowardScat' on page 11 undefined on input line 4
+97.
+
+[11]
+
+LaTeX Warning: Reference `eq:ABtotXSec' on page 12 undefined on input line 512.
+
+
+
+LaTeX Warning: Reference `eq:ltaRapDist' on page 12 undefined on input line 513
+.
+
+
+LaTeX Warning: Reference `eq:ABtotXSec' on page 12 undefined on input line 516.
+
+
+
+LaTeX Warning: Reference `eq:ltaRapDist' on page 12 undefined on input line 516
+.
+
+
+LaTeX Warning: Reference `eq:ABfowardScat' on page 12 undefined on input line 5
+20.
+
+
+LaTeX Warning: Citation `lta2011.09' on page 12 undefined on input line 533.
+
+[12]
+
+LaTeX Warning: Citation `lta2011.09' on page 13 undefined on input line 555.
+
+
+LaTeX Warning: Reference `eq:ltaFowardPhotoXSec' on page 13 undefined on input 
+line 564.
+
+
+LaTeX Warning: Reference `eq:ltaOptTheWNucMo' on page 13 undefined on input lin
+e 582.
+
+
+LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 592
+.
+
+
+LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 595
+.
+
+
+LaTeX Warning: Reference `eq:finalSTARlightResult' on page 13 undefined on inpu
+t line 596.
+
+
+LaTeX Warning: Reference `eq:ltaRapDist' on page 13 undefined on input line 598
+.
+
+[13]
+
+LaTeX Warning: Citation `emPCite4' on page 14 undefined on input line 613.
+
+
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 630.
+
+
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 632.
+
+
+LaTeX Warning: Citation `emPCite6' on page 14 undefined on input line 644.
+
+[14]
+
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 663.
+
+
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 672.
+
+
+LaTeX Warning: Reference `eq:omegaGDRSJ' on page 15 undefined on input line 677
+.
+
+
+LaTeX Warning: Citation `emPCite6' on page 15 undefined on input line 681.
+
+[15]
+
+LaTeX Warning: Citation `emPCite6' on page 16 undefined on input line 703.
+
+
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 708.
+
+
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 716.
+
+
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 724.
+
+
+LaTeX Warning: Citation `emPCite4' on page 16 undefined on input line 730.
+
+[16]
+
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 740.
+
+
+LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 746.
+
+
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 746.
+
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 17 undefined on input 
+line 753.
+
+
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 755.
+
+
+LaTeX Warning: Citation `emPCite5' on page 17 undefined on input line 766.
+
+
+LaTeX Warning: Citation `emPCite3' on page 17 undefined on input line 773.
+
+
+LaTeX Warning: Citation `emPCite4' on page 17 undefined on input line 773.
+
+[17]
+
+LaTeX Warning: Reference `eq:sigmaPi' on page 18 undefined on input line 778.
+
+
+LaTeX Warning: Reference `eq:photonFluxFinaltmp' on page 18 undefined on input 
+line 782.
+
+
+LaTeX Warning: Citation `emPCite3' on page 18 undefined on input line 789.
+
+
+LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 789.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 794.
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 796.
+
+
+LaTeX Warning: Reference `sec:zdcDet' on page 18 undefined on input line 804.
+
+<TheoryChapter/figures/neuSpecRHIC.png, id=233, 503.8825pt x 380.42125pt>
+File: TheoryChapter/figures/neuSpecRHIC.png Graphic file (type png)
+
+<use TheoryChapter/figures/neuSpecRHIC.png>
+Package pdftex.def Info: TheoryChapter/figures/neuSpecRHIC.png used on input li
+ne 807.
+(pdftex.def)             Requested size: 305.33789pt x 230.52415pt.
+
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 809.
+
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 809.
+
+
+LaTeX Warning: Reference `fig:neuSpecRHIC' on page 18 undefined on input line 8
+12.
+
+
+LaTeX Warning: Reference `fig:neuSpecRHIC' on page 18 undefined on input line 8
+13.
+
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 819.
+
+
+LaTeX Warning: Citation `emPCite4' on page 18 undefined on input line 821.
+
+
+LaTeX Warning: Reference `fig:neuRHICEMvHad' on page 18 undefined on input line
+ 830.
+
+<TheoryChapter/figures/neuRHICEMvHad.png, id=235, 514.92375pt x 369.38pt>
+File: TheoryChapter/figures/neuRHICEMvHad.png Graphic file (type png)
+
+<use TheoryChapter/figures/neuRHICEMvHad.png>
+Package pdftex.def Info: TheoryChapter/figures/neuRHICEMvHad.png used on input 
+line 833.
+(pdftex.def)             Requested size: 305.33789pt x 219.03702pt.
+
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 835.
+
+
+LaTeX Warning: Citation `upcNeuPHENIX' on page 18 undefined on input line 835.
+
+
+LaTeX Warning: Reference `fig:neuRHICEMvHad' on page 18 undefined on input line
+ 838.
+
+
+LaTeX Warning: Reference `ch:triggChp' on page 18 undefined on input line 843.
+
+
+LaTeX Warning: Reference `ch:trigg' on page 18 undefined on input line 843.
+
+[18]
+
+LaTeX Warning: Citation `upcRhoSTAR12' on page 19 undefined on input line 848.
+
+
+LaTeX Warning: Citation `upcRhoSTAR02' on page 19 undefined on input line 849.
+
+
+LaTeX Warning: Citation `upcRhoSTAR08' on page 19 undefined on input line 849.
+
+
+LaTeX Warning: Citation `upcJPsiPHENIX' on page 19 undefined on input line 850.
+
+
+
+LaTeX Warning: Reference `sec:vdmTheory' on page 19 undefined on input line 852
+.
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 856.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 856.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 856.
+[19 <./TheoryChapter/figures/neuSpecRHIC.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\psi' on input line 856.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 856.
+
+
+LaTeX Warning: Reference `fig:aliceMoney' on page 20 undefined on input line 89
+0.
+
+<TheoryChapter/figures/aliceJpsiCo.png, id=249, 633.36626pt x 426.59375pt>
+File: TheoryChapter/figures/aliceJpsiCo.png Graphic file (type png)
+
+<use TheoryChapter/figures/aliceJpsiCo.png>
+Package pdftex.def Info: TheoryChapter/figures/aliceJpsiCo.png used on input li
+ne 893.
+(pdftex.def)             Requested size: 305.33789pt x 205.66095pt.
+ [20 <./TheoryChapter/figures/neuRHICEMvHad.png>]
+
+LaTeX Warning: Reference `sec:wwAprox' on page 21 undefined on input line 908.
+
+
+LaTeX Warning: Reference `eq:finalSTARlightResult' on page 21 undefined on inpu
+t line 916.
+
+
+LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 919.
+
+
+LaTeX Warning: Citation `pQCD2013.02' on page 21 undefined on input line 920.
+
+
+LaTeX Warning: Citation `lta2011.09' on page 21 undefined on input line 920.
+
+
+LaTeX Warning: Citation `vmd1999' on page 21 undefined on input line 920.
+
+
+LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 940.
+
+
+LaTeX Warning: Reference `tab:allXsec' on page 21 undefined on input line 942.
+
+[21 <./TheoryChapter/figures/aliceJpsiCo.png>]
+
+LaTeX Warning: Reference `fig:ltaAndPqcdNucSub' on page 22 undefined on input l
+ine 952.
+
+
+LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 952.
+
+
+LaTeX Warning: Reference `eq:ltaOptTheWNucMo' on page 22 undefined on input lin
+e 953.
+
+
+<TheoryChapter/figures/ltaAndPqcdNucSub.png, id=262, 516.93124pt x 583.17876pt>
+File: TheoryChapter/figures/ltaAndPqcdNucSub.png Graphic file (type png)
+<use TheoryChapter/figures/ltaAndPqcdNucSub.png>
+Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSub.png used on inp
+ut line 957.
+(pdftex.def)             Requested size: 234.8775pt x 264.9819pt.
+
+<TheoryChapter/figures/ltaAndPqcdNucSubVMD.png, id=263, 570.13pt x 343.2825pt>
+File: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png Graphic file (type png)
+
+<use TheoryChapter/figures/ltaAndPqcdNucSubVMD.png>
+Package pdftex.def Info: TheoryChapter/figures/ltaAndPqcdNucSubVMD.png used on 
+input line 963.
+(pdftex.def)             Requested size: 234.8775pt x 141.42244pt.
+
+
+LaTeX Warning: Reference `fig:ltaAndPqcdNucSubSTARlight' on page 22 undefined o
+n input line 967.
+
+
+LaTeX Warning: Citation `lta2013.05' on page 22 undefined on input line 968.
+
+
+LaTeX Warning: Reference `fig:ltaAndPqcdNucSub' on page 22 undefined on input l
+ine 969.
+
+
+LaTeX Warning: Reference `fig:ltaAndPqcdNucSubSTARlight' on page 22 undefined o
+n input line 969.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+) [22] [23 <./TheoryChapter/figures/ltaAndPqcdNucSub.png>] [24 <./TheoryChapter
+/figures/ltaAndPqcdNucSubVMD.png>]
+\openout2 = `diffAn.aux'.
+
+ (./diffAn.tex
+Chapter 2.
+
+LaTeX Warning: Reference `sec:detTrg' on page 25 undefined on input line 37.
+
+[25
+
+
+
+]
+Overfull \hbox (53.91328pt too wide) in paragraph at lines 96--107
+ [][] 
+ []
+
+[26] [27]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 161.
+
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 161.
+
+Overfull \hbox (2.79959pt too wide) in paragraph at lines 173--173
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]   |   []   |   []   |   []   |   []   |   []   |   []
+ []
+
+[28]
+Chapter 3.
+[29
+
+]
+
+LaTeX Warning: Citation `vmd1999 ' on page 30 undefined on input line 221.
+
+
+LaTeX Warning: Citation `starlight' on page 30 undefined on input line 221.
+
+
+LaTeX Warning: Reference `sec:vdmTheory' on page 30 undefined on input line 223
+.
+
+
+Overfull \hbox (0.13625pt too wide) in paragraph at lines 217--243
+|   [][][]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []
+   |   []   |   []   |   []
+ []
+
+
+LaTeX Warning: Citation `cmssw' on page 30 undefined on input line 248.
+
+
+LaTeX Warning: Citation `lheFormat' on page 30 undefined on input line 253.
+
+[30]
+
+LaTeX Warning: Citation `geant' on page 31 undefined on input line 263.
+
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+
+LaTeX Warning: Citation `geant' on page 31 undefined on input line 604.
+
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+Runaway argument?
+\@empty 
+! Paragraph ended before \UL@word was complete.
+<to be read again> 
+                   \par 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Dimension too large.
+\UL@on ...UL@height \advance \UL@height -\ULdepth 
+                                                  \setbox \UL@box \hbox {{#1...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Undefined control sequence.
+\UL@leaders ...L@skip \tw@ \UL@pixel \UL@leadtype 
+                                                  \LA@hskip \UL@skip \LA@hsk...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+
+LaTeX Warning: Reference `fig:matThick' on page 31 undefined on input line 604.
+
+
+
+LaTeX Warning: Citation `oniaPol' on page 31 undefined on input line 604.
+
+[31] <AnalysisChapter/figures/genRapDis.pdf, id=335, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genRapDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genRapDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genRapDis.pdf used on input li
-ne 144.
+ne 604.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/genPtDis.pdf, id=29, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/genPtDis.pdf, id=336, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/genPtDis.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/genPtDis.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/genPtDis.pdf used on input lin
-e 145.
+e 604.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-
-LaTeX Warning: Reference `fig:genHXAngle' on page 4 undefined on input line 155
-.
-
-<AnalysisChapter/figures/polCosThetaHXGen.png, id=30, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/polCosThetaHXGen.png, id=338, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/polCosThetaHXGen.png Graphic file (type png)
 
 <use AnalysisChapter/figures/polCosThetaHXGen.png>
 Package pdftex.def Info: AnalysisChapter/figures/polCosThetaHXGen.png used on i
-nput line 164.
+nput line 604.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
- [4 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./An
-alysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees>] [5 <./Analysis
-Chapter/figures/polCosThetaHXGen.png>]
-
-LaTeX Warning: Reference `tab:l1Triggers2011' on page 6 undefined on input line
- 206.
-
-
-LaTeX Warning: Reference `tab:l1Triggers2011' on page 6 undefined on input line
- 207.
-
-[6]
-
-LaTeX Warning: Reference `tab:hltTriggers2011' on page 7 undefined on input lin
-e 261.
-
-
-LaTeX Warning: Reference `tab:l1Triggers2011' on page 7 undefined on input line
- 263.
-
-
-Overfull \hbox (38.91328pt too wide) in paragraph at lines 267--278
- [][] 
+ [32 <./AnalysisChapter/figures/genRapDis.pdf, page is rotated 90 degrees> <./A
+nalysisChapter/figures/genPtDis.pdf, page is rotated 90 degrees>]
+Overfull \hbox (12.1083pt too wide) in paragraph at lines 604--604
+[]|   []   |   []   |   []   |   []   |   []   |   []   |   []   |   []   |   [
+]   |   []   |   []   |   []   |   []   |   []
  []
 
-[7]
+pdfTeX warning (ext4): destination with the same identifier (name{subsection.3.
+1.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+[33 <./AnalysisChapter/figures/polCosThetaHXGen.png>]pdfTeX warning (ext4): des
+tination with the same identifier (name{subsection.3.1.1}) has been already use
+d, duplicate ignored
+<to be read again> 
+                   \relax 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+[34]pdfTeX warning (ext4): destination with the same identifier (name{section.3
+.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
 
-LaTeX Warning: Reference `tab:sampleLumiNevt' on page 8 undefined on input line
- 310.
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing \endgroup inserted.
+<inserted text> 
+                \endgroup 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+
+! LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{linenomath}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+
+! LaTeX Error: \begin{document} ended by \end{displaymath}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra \endgroup.
+<recently read> \endgroup 
+                          
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\DIFaddtex #1->{\protect \color {blue}\uwave {#1}}
+                                                  
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+! Extra }, or forgotten $.
+\DIFdeltex #1->{\protect \color {red}\sout {#1}}
+                                                
+l.604 ..., 143 \DIFdelbegin \DIFdel{$\mu}b^{-1}$ }
+                                                  \DIFdelend \DIFaddbegin \D...
+
+? 
+Runaway argument?
+{$\mu $$b^{-1}$ $$\DIFaddend of data were used in this analysis \DIFaddbegin \E
+TC.
+! Paragraph ended before \UL@on was complete.
+<to be read again> 
+                   \par 
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+
+! LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! You can't use a prefix with `\unpenalty'.
+<to be read again> 
+                   \unpenalty 
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+[35]
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten \endgroup.
+\UL@stop ... \UL@putbox \fi \else \egroup \egroup 
+                                                  \UL@putbox \fi \ifnum \UL@...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Undefined control sequence.
+\UL@leaders ...L@skip \tw@ \UL@pixel \UL@leadtype 
+                                                  \LA@hskip \UL@skip \LA@hsk...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+
+LaTeX Warning: Reference `ch:trigg' on page 36 undefined on input line 686.
 
 
-LaTeX Warning: Reference `tab:hltTriggers2011' on page 8 undefined on input lin
-e 322.
+Overfull \hbox (168.08751pt too wide) in paragraph at lines 686--686
+\T1/ptm/m/n/12 based on the trig-gers which recored the events (see Ta-ble[]|  
+ [][]|   []   |   [][].
+ []
 
 
-LaTeX Warning: Reference `sec:TrigDev' on page 8 undefined on input line 322.
-
-
-LaTeX Warning: Reference `tab:sampleLumiNevt' on page 8 undefined on input line
- 324.
-
-
-LaTeX Warning: Reference `tab:hltTriggers2011' on page 8 undefined on input lin
-e 332.
-
-
-Overfull \hbox (31.00964pt too wide) in paragraph at lines 330--347
+Overfull \hbox (31.00964pt too wide) in paragraph at lines 686--686
 []\T1/ptm/m/n/12 The physics sam-ple con-tain-ing the J/$\OML/ztmcm/m/it/12  $ 
 \T1/ptm/m/n/12 sig-nal was recorded by the muon trig-ger la-beled "L1UPCMuon
  []
 
-[8]
+[36]
 
-LaTeX Warning: Reference `sec:effDet' on page 9 undefined on input line 359.
+LaTeX Warning: Citation `cmsLumi' on page 37 undefined on input line 686.
 
+! Improper \spacefactor.
+<argument> ...def \UL@spfactor {\the \spacefactor 
+                                                  }
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten $.
+\UL@word ...r \ifx \expandafter \UL@end #1\egroup 
+                                                  \egroup \unskip \unskip \u...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten $.
+\UL@word ...expandafter \UL@end #1\egroup \egroup 
+                                                  \unskip \unskip \unskip \s...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! You can't use `\spacefactor' in math mode.
+\UL@word ... \unskip \unskip \unskip \spacefactor 
+                                                  \UL@spfactor \let \UL@word...
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten $.
+\UL@word ...stop \UL@leaders \fi \fi \fi \UL@word 
+                                                  \@empty 
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Extra }, or forgotten $.
+\DIFaddtex #1->{\protect \color {blue}\uwave {#1}}
+                                                  
+l.686 ...L \DIFaddbeginFL \DIFaddFL{$\mu}b^{-1}$ }
+                                                  \DIFaddendFL \\ \hline
+? 
+! Undefined control sequence.
+\UL@leaders ...L@skip \tw@ \UL@pixel \UL@leadtype 
+                                                  \LA@hskip \UL@skip \LA@hsk...
+l.686 ...L \DIFaddFL{$\mu}b^{-1}$ }\DIFaddendFL \\
+                                                   \hline
+? 
+! Misplaced \noalign.
+\hline ->\noalign 
+                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
+l.686 ...ddFL{$\mu}b^{-1}$ }\DIFaddendFL \\ \hline
+                                                  
+? 
+! You can't use `\hrule' here except with leaders.
+\hline ->\noalign {\ifnum 0=`}\fi \hrule 
+                                         \@height \arrayrulewidth \futurelet...
+l.686 ...ddFL{$\mu}b^{-1}$ }\DIFaddendFL \\ \hline
+                                                  
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   \futurelet 
+l.686 ...ddFL{$\mu}b^{-1}$ }\DIFaddendFL \\ \hline
+                                                  
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \futurelet 
+l.686 ...ddFL{$\mu}b^{-1}$ }\DIFaddendFL \\ \hline
+                                                  
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.687           Monitor &
+                          1.1M & 31.6 $mb^{-1}$ \\ \hline
+? 
+! Missing } inserted.
+<inserted text> 
+                }
+l.687           Monitor &
+                          1.1M & 31.6 $mb^{-1}$ \\ \hline
+? 
+! Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.687           Monitor &
+                          1.1M & 31.6 $mb^{-1}$ \\ \hline
+? 
 
-LaTeX Warning: Reference `sec:breakUpDet' on page 9 undefined on input line 367
-.
+Overfull \hbox (2907.63797pt too wide) in paragraph at lines 686--691
+ [][] 
+ []
 
-
-LaTeX Warning: Citation `cmsLumi' on page 9 undefined on input line 376.
-
-[9]
-
-LaTeX Warning: Reference `tab:evSelCutNumbers' on page 10 undefined on input li
-ne 403.
-
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 426.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
-File: omsptm.fd 
-)
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 426.
- [10]
-
-LaTeX Warning: Reference `tab:evSelCutNumbers' on page 11 undefined on input li
-ne 462.
-
-
-LaTeX Warning: Reference `fig:hfNoiseDist' on page 11 undefined on input line 4
-72.
-
-<AnalysisChapter/figures/hfNoiseComp.pdf, id=159, 569.12625pt x 385.44pt>
+[37] [38]
+<AnalysisChapter/figures/hfNoiseComp.pdf, id=478, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/hfNoiseComp.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/hfNoiseComp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/hfNoiseComp.pdf used on input 
-line 476.
+line 780.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
- [11]
+ [39 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `sec:ltaTheory' on page 12 undefined on input line 497
+LaTeX Warning: Citation `cmsJpPP' on page 40 undefined on input line 801.
+
+
+LaTeX Warning: Reference `sec:ltaTheory' on page 40 undefined on input line 804
 .
 
-[12 <./AnalysisChapter/figures/hfNoiseComp.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `fig:zdcPulseShape' on page 13 undefined on input line
- 520.
-
-<AnalysisChapter/figures/zdcPulseShape.png, id=215, 1397.22pt x 473.77pt>
+<AnalysisChapter/figures/zdcPulseShape.png, id=528, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPulseShape.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPulseShape.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPulseShape.png used on inpu
-t line 527.
+t line 833.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
- [13 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:zdcTs4OvTs5VTs5' on page 14 undefined on input li
-ne 561.
-
-<AnalysisChapter/figures/negTs5overTs4vts5.png, id=223, 698.61pt x 473.77pt>
+ [40]
+<AnalysisChapter/figures/negTs5overTs4vts5.png, id=537, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/negTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/negTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/negTs5overTs4vts5.png used on 
-input line 571.
+input line 877.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
 
-<AnalysisChapter/figures/posTs5overTs4vts5.png, id=224, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/posTs5overTs4vts5.png, id=538, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/posTs5overTs4vts5.png Graphic file (type png)
 
 <use AnalysisChapter/figures/posTs5overTs4vts5.png>
 Package pdftex.def Info: AnalysisChapter/figures/posTs5overTs4vts5.png used on 
-input line 572.
+input line 878.
 (pdftex.def)             Requested size: 187.89914pt x 127.42802pt.
-
-
-LaTeX Warning: Reference `fig:zdcM2Fit' on page 14 undefined on input line 591.
-
-
-
-LaTeX Warning: Reference `fig:zdcM2Fit' on page 14 undefined on input line 598.
-
-
-[14 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figure
-s/posTs5overTs4vts5.png>]
-<AnalysisChapter/figures/zdcFit45Neg.png, id=232, 698.61pt x 473.77pt>
+ [41 <./AnalysisChapter/figures/zdcPulseShape.png (PNG copy)>]
+<AnalysisChapter/figures/zdcFit45Neg.png, id=548, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Neg.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Neg.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Neg.png used on input 
-line 615.
+line 921.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcFit45Pos.png, id=233, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcFit45Pos.png, id=549, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcFit45Pos.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcFit45Pos.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcFit45Pos.png used on input 
-line 616.
+line 922.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
-
-
-LaTeX Warning: Reference `fig:zdcM2Fit' on page 15 undefined on input line 624.
-
-
-[15 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdcF
-it45Pos.png>]
-
-LaTeX Warning: Reference `fig:zdcPulseShape' on page 16 undefined on input line
- 646.
-
-
-<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=240, 698.61pt x 473.7
+ [42 <./AnalysisChapter/figures/negTs5overTs4vts5.png> <./AnalysisChapter/figur
+es/posTs5overTs4vts5.png>]
+<AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png, id=558, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png u
-sed on input line 657.
+sed on input line 963.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=241, 698.61pt x 473.7
+<AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png, id=559, 698.61pt x 473.7
 7pt>
 File: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png u
-sed on input line 658.
+sed on input line 964.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=242, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcNegHDNoiseFromZB.png, id=560, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcNegHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcNegHDNoiseFromZB.png used o
-n input line 659.
+n input line 965.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=243, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPosHDNoiseFromZB.png, id=561, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPosHDNoiseFromZB.png used o
-n input line 660.
+n input line 966.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
+ [43 <./AnalysisChapter/figures/zdcFit45Neg.png> <./AnalysisChapter/figures/zdc
+Fit45Pos.png>] [44 <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./
+AnalysisChapter/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figure
+s/zdcNegHDNoiseFromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
 
-
-LaTeX Warning: Reference `fig:zdcNoiseSpectra' on page 16 undefined on input li
-ne 674.
-
-[16 <./AnalysisChapter/figures/zdcNegEMNoiseFromZBNoCor.png> <./AnalysisChapter
-/figures/zdcPosEMNoiseFromZBNoCor.png> <./AnalysisChapter/figures/zdcNegHDNoise
-FromZB.png> <./AnalysisChapter/figures/zdcPosHDNoiseFromZB.png>]
-
-LaTeX Warning: Reference `fig:massFit' on page 17 undefined on input line 704.
-
-[17]
-<AnalysisChapter/figures/massFitSimple.pdf, id=254, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/massFitSimple.pdf, id=575, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 719.
+t line 1024.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-
-LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 725.
-
-
-LaTeX Warning: Reference `fig:massFit' on page 18 undefined on input line 726.
-
-
-LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 730.
-
-
-LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 739.
-
-<AnalysisChapter/figures/ptOnly.pdf, id=255, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/ptOnly.pdf, id=580, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-744.
+1049.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+ [45]
 
+LaTeX Warning: Text page 46 contains only floats.
 
-LaTeX Warning: Reference `fig:ptOnlyCor' on page 18 undefined on input line 754
-.
-
-
-LaTeX Warning: Reference `fig:ptTemps' on page 18 undefined on input line 755.
-
-
-Overfull \hbox (17.56993pt too wide) in paragraph at lines 749--765
-[]\T1/ptm/m/n/12 The shape of the photon-photon and co-her-ent J/$\OML/ztmcm/m/
-it/12  $ \T1/ptm/m/n/12 pro-cess are very sim-i-lar in []|   []   |   [][].
- []
-
-[18 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=304, 569.12625pt x 546.04pt
+[46 <./AnalysisChapter/figures/massFitSimple.pdf, page is rotated 90 degrees> <
+./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, id=683, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf used on
- input line 768.
+ input line 1072.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-
-LaTeX Warning: Reference `fig:simFitMassPtGauss' on page 19 undefined on input 
-line 779.
-
-[19 <./AnalysisChapter/figures/ptOnly.pdf, page is rotated 90 degrees>]
-<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=354, 569.12625pt x 272.0162
+ [47 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degr
+ees>]
+<AnalysisChapter/figures/ptMassSimGaussLine.pdf, id=733, 569.12625pt x 272.0162
 5pt>
 File: AnalysisChapter/figures/ptMassSimGaussLine.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/ptMassSimGaussLine.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimGaussLine.pdf used on
- input line 793.
+ input line 1097.
 (pdftex.def)             Requested size: 422.77664pt x 202.07748pt.
 
-
-LaTeX Warning: Reference `fig:simGaussCor' on page 20 undefined on input line 7
-98.
-
-
-LaTeX Warning: Reference `fig:simFitMassPtGauss' on page 20 undefined on input 
-line 799.
-
-
-LaTeX Warning: Reference `fig:simGaussCor' on page 20 undefined on input line 8
-00.
-
-
-LaTeX Warning: Reference `fig:ptOnlyCor' on page 20 undefined on input line 801
-.
-
-
-LaTeX Warning: Reference `fig:ptOnlyCor' on page 20 undefined on input line 803
-.
-
-[20 <./AnalysisChapter/figures/nCoNGammaCorPtOnly.pdf, page is rotated 90 degre
-es> <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degre
-es>]
-<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=448, 569.12625pt x 546.04pt
+<AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, id=739, 569.12625pt x 546.04pt
 >
 File: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/nCoNGammaCorPtMass.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/nCoNGammaCorPtMass.pdf used on
- input line 810.
+ input line 1114.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
+ [48 <./AnalysisChapter/figures/ptMassSimGaussLine.pdf, page is rotated 90 degr
+ees>]
+
+LaTeX Warning: Citation `cmsTnP' on page 49 undefined on input line 1141.
 
 
-LaTeX Warning: Reference `sec:DataSetEvSel' on page 21 undefined on input line 
-835.
-
-
-LaTeX Warning: Citation `cmsTnP' on page 21 undefined on input line 837.
-
-[21 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degre
-es>]
-<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=498, 569.12625pt x 546.04p
+<AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, id=790, 569.12625pt x 546.04p
 t>
 File: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf Graphic file (type pdf)
  <use AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf used o
-n input line 854.
+n input line 1158.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-
-LaTeX Warning: Reference `fig:muonDaughterDet' on page 22 undefined on input li
-ne 858.
-
-[22 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 degr
+ [49 <./AnalysisChapter/figures/nCoNGammaCorPtMass.pdf, page is rotated 90 degr
 ees>]
-
-LaTeX Warning: Reference `eq:jpsiAccEq' on page 23 undefined on input line 873.
-
-
-
-LaTeX Warning: Reference `fig:jpsiAcceptance' on page 23 undefined on input lin
-e 874.
-
-
-<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=548, 598.235pt x 574.
+<AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png, id=844, 598.235pt x 574.
 145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png Graphic file (type p
 ng)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png u
-sed on input line 878.
+sed on input line 1182.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=549, 598.235pt x 57
+<AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png, id=845, 598.235pt x 57
 4.145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png Graphic file (type
  png)
  <use AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccJpInCoStep.png
- used on input line 879.
+ used on input line 1183.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
 
-<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=550, 598.235pt x 574
+<AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png, id=846, 598.235pt x 574
 .145pt>
 File: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png Graphic file (type 
 png)
  <use AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png>
 Package pdftex.def Info: AnalysisChapter/figures/mcEffMaps/detAccGammaStep.png 
-used on input line 880.
+used on input line 1184.
 (pdftex.def)             Requested size: 211.38832pt x 202.87236pt.
- [23 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapte
-r/figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/
-detAccGammaStep.png>]
-
-LaTeX Warning: Reference `fig:tnpFitPlot' on page 24 undefined on input line 91
-8.
-
-<AnalysisChapter/figures/tNp/tnpFits.pdf, id=557, 569.12625pt x 385.44pt>
+ [50 <./AnalysisChapter/figures/mcEffMaps/accMuJpCo.pdf, page is rotated 90 deg
+rees>]
+[51 <./AnalysisChapter/figures/mcEffMaps/detAccJpCoStep.png> <./AnalysisChapter
+/figures/mcEffMaps/detAccJpInCoStep.png> <./AnalysisChapter/figures/mcEffMaps/d
+etAccGammaStep.png>]
+<AnalysisChapter/figures/tNp/tnpFits.pdf, id=904, 569.12625pt x 385.44pt>
 File: AnalysisChapter/figures/tNp/tnpFits.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFits.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFits.pdf used on input 
-line 921.
+line 1226.
 (pdftex.def)             Requested size: 281.85587pt x 190.8963pt.
 
-
-LaTeX Warning: Reference `fig:tnpTrigMap' on page 24 undefined on input line 92
-7.
-
-<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=558, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/tNp/tnpFromFit.pdf, id=906, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 930.
+ut line 1235.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [24 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `eq:dimuTrigEff' on page 25 undefined on input line 94
-6.
-
-
-<AnalysisChapter/figures/averageTriggerEff.png, id=607, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageTriggerEff.png, id=908, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageTriggerEff.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageTriggerEff.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageTriggerEff.png used on 
-input line 956.
+input line 1261.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
 
-<AnalysisChapter/figures/averageExA.png, id=608, 598.235pt x 574.145pt>
+<AnalysisChapter/figures/averageExA.png, id=909, 598.235pt x 574.145pt>
 File: AnalysisChapter/figures/averageExA.png Graphic file (type png)
 
 <use AnalysisChapter/figures/averageExA.png>
 Package pdftex.def Info: AnalysisChapter/figures/averageExA.png used on input l
-ine 973.
+ine 1278.
 (pdftex.def)             Requested size: 281.85587pt x 270.50523pt.
- [25 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>
-]
+ [52 <./AnalysisChapter/figures/tNp/tnpFits.pdf, page is rotated 90 degrees>] [
+53 <./AnalysisChapter/figures/tNp/tnpFromFit.pdf, page is rotated 90 degrees>]
 
-LaTeX Warning: Reference `sec:mcSim' on page 26 undefined on input line 985.
+LaTeX Warning: Text page 54 contains only floats.
 
-
-LaTeX Warning: Reference `sec:breakUpDet' on page 26 undefined on input line 99
-2.
-
-
-LaTeX Warning: Reference `tab:hltTriggers2011' on page 26 undefined on input li
-ne 993.
-
-[26 <./AnalysisChapter/figures/averageTriggerEff.png>] [27 <./AnalysisChapter/f
-igures/averageExA.png>]
-
-LaTeX Warning: Reference `tab:sumsyst' on page 28 undefined on input line 1042.
-
-
-
-LaTeX Warning: Reference `tab:evSelCutNumbers' on page 28 undefined on input li
-ne 1071.
-
-[28]
-
-LaTeX Warning: Reference `fig:hfNoiseDist' on page 29 undefined on input line 1
-087.
-
-
-LaTeX Warning: Reference `tab:hfNoiseThreshAsym' on page 29 undefined on input 
-line 1096.
-
-
-LaTeX Warning: Reference `tab:hfAdjThreshYields' on page 29 undefined on input 
-line 1099.
-
+[54 <./AnalysisChapter/figures/averageTriggerEff.png> <./AnalysisChapter/figure
+s/averageExA.png>] [55] [56]
 File: AnalysisChapter/figures/ptOnly.pdf Graphic file (type pdf)
-<use AnalysisChapter/figures/ptOnly.pdf>
+ <use AnalysisChapter/figures/ptOnly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptOnly.pdf used on input line 
-1165.
+1469.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
-
-
-LaTeX Warning: Reference `sec:sigEx' on page 29 undefined on input line 1172.
-
-[29]
-
-LaTeX Warning: Text page 30 contains only floats.
-
-[30]
-<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=695, 569.12625pt x 546.04pt>
+ [57]
+[58]
+<AnalysisChapter/figures/cbPolyBkgEst.pdf, id=1058, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPolyBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPolyBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPolyBkgEst.pdf used on input
- line 1195.
+ line 1499.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLinBkgEst.pdf, id=696, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLinBkgEst.pdf, id=1059, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLinBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLinBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLinBkgEst.pdf used on inpu
-t line 1196.
+t line 1500.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCCBkgEst.pdf, id=697, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCCBkgEst.pdf, id=1060, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCCBkgEst.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCCBkgEst.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCCBkgEst.pdf used on input
- line 1197.
+ line 1501.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/cbPoly.pdf, id=698, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/cbPoly.pdf, id=1061, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/cbPoly.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/cbPoly.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/cbPoly.pdf used on input line 
-1198.
+1502.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausLin.pdf, id=699, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausLin.pdf, id=1062, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausLin.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausLin.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausLin.pdf used on input line
- 1199.
+ 1503.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
 
-<AnalysisChapter/figures/gausCC.pdf, id=700, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/gausCC.pdf, id=1063, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/gausCC.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/gausCC.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/gausCC.pdf used on input line 
-1200.
+1504.
 (pdftex.def)             Requested size: 140.92793pt x 135.20988pt.
-
-
-LaTeX Warning: Reference `fig:massPtFitsForSyst' on page 31 undefined on input 
-line 1207.
-
-[31 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <.
-/AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Anal
-ysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisCh
-apter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figure
-s/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.pd
-f, page is rotated 90 degrees>]
+ [59 <./AnalysisChapter/figures/cbPolyBkgEst.pdf, page is rotated 90 degrees> <
+./AnalysisChapter/figures/gausLinBkgEst.pdf, page is rotated 90 degrees> <./Ana
+lysisChapter/figures/gausCCBkgEst.pdf, page is rotated 90 degrees> <./AnalysisC
+hapter/figures/cbPoly.pdf, page is rotated 90 degrees> <./AnalysisChapter/figur
+es/gausLin.pdf, page is rotated 90 degrees> <./AnalysisChapter/figures/gausCC.p
+df, page is rotated 90 degrees>]
 File: AnalysisChapter/figures/massFitSimple.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/massFitSimple.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitSimple.pdf used on inpu
-t line 1238.
+t line 1542.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 
-<AnalysisChapter/figures/massFitCBPoly2.pdf, id=967, 569.12625pt x 495.8525pt>
+<AnalysisChapter/figures/massFitCBPoly2.pdf, id=1330, 569.12625pt x 495.8525pt>
 File: AnalysisChapter/figures/massFitCBPoly2.pdf Graphic file (type pdf)
-
 <use AnalysisChapter/figures/massFitCBPoly2.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/massFitCBPoly2.pdf used on inp
-ut line 1239.
+ut line 1543.
 (pdftex.def)             Requested size: 211.38832pt x 184.17377pt.
 
-
-LaTeX Warning: Reference `fig:massFitSys' on page 32 undefined on input line 12
-45.
-
-[32 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>]
-
-<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1017, 569.12625pt x 272.01625pt>
+<AnalysisChapter/figures/ptMassSimTemp.pdf, id=1332, 569.12625pt x 272.01625pt>
 File: AnalysisChapter/figures/ptMassSimTemp.pdf Graphic file (type pdf)
 <use AnalysisChapter/figures/ptMassSimTemp.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/ptMassSimTemp.pdf used on inpu
-t line 1261.
+t line 1565.
 (pdftex.def)             Requested size: 281.85587pt x 134.72108pt.
- [33 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
-
-<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1068, 569.12625pt x 546.04pt>
+ [60 <./AnalysisChapter/figures/massFitCBPoly2.pdf, page is rotated 90 degrees>
+]
+<AnalysisChapter/figures/coCorInCoAcc.pdf, id=1384, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCorInCoAcc.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCorInCoAcc.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCorInCoAcc.pdf used on input
- line 1286.
+ line 1590.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
 
-<AnalysisChapter/figures/coCoGaussGun.pdf, id=1069, 569.12625pt x 546.04pt>
+<AnalysisChapter/figures/coCoGaussGun.pdf, id=1385, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/coCoGaussGun.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/coCoGaussGun.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/coCoGaussGun.pdf used on input
- line 1295.
+ line 1599.
 (pdftex.def)             Requested size: 281.85587pt x 270.43645pt.
- [34 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees>]
-
-LaTeX Warning: Reference `sec:breakUpDet' on page 35 undefined on input line 13
-21.
+ [61 <./AnalysisChapter/figures/ptMassSimTemp.pdf, page is rotated 90 degrees>]
 
 
-LaTeX Warning: Reference `fig:zdcM1Fit' on page 35 undefined on input line 1332
-.
+LaTeX Warning: Text page 62 contains only floats.
 
-
-<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1119, 698.61pt x 473.77pt
+[62 <./AnalysisChapter/figures/coCorInCoAcc.pdf, page is rotated 90 degrees> <.
+/AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
+<AnalysisChapter/figures/zdcMinusZBFitTimeCut.png, id=1531, 698.61pt x 473.77pt
 >
 File: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png Graphic file (type png)
  <use AnalysisChapter/figures/zdcMinusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusZBFitTimeCut.png used 
-on input line 1343.
+on input line 1647.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
 
-<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1120, 698.61pt x 473.77pt>
+<AnalysisChapter/figures/zdcPlusZBFitTimeCut.png, id=1532, 698.61pt x 473.77pt>
 File: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png Graphic file (type png)
 <use AnalysisChapter/figures/zdcPlusZBFitTimeCut.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcPlusZBFitTimeCut.png used o
-n input line 1344.
+n input line 1648.
 (pdftex.def)             Requested size: 211.38832pt x 143.35382pt.
- [35 <./AnalysisChapter/figures/coCoGaussGun.pdf, page is rotated 90 degrees>]
+ [63 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fi
+gures/zdcPlusZBFitTimeCut.png>]
 
-LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 36 undefined on input l
-ine 1369.
+LaTeX Warning: Reference `tab:zdcEfficiencySysNoiseSample' on page 64 undefined
+ on input line 1706.
 
-
-LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 36 undefined on input l
-ine 1417.
-
-
-LaTeX Warning: Reference `fig:zdcSpec2v1' on page 36 undefined on input line 14
-25.
-
-[36 <./AnalysisChapter/figures/zdcMinusZBFitTimeCut.png> <./AnalysisChapter/fig
-ures/zdcPlusZBFitTimeCut.png>] [37]
-
-LaTeX Warning: Reference `tab:zdcEfficiencySys' on page 38 undefined on input l
-ine 1436.
-
-
-LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
-47.
-
-<AnalysisChapter/figures/zdcSpec2v1.png, id=1181, 1397.22pt x 473.77pt>
+[64] <AnalysisChapter/figures/zdcSpec2v1.png, id=1550, 1397.22pt x 473.77pt>
 File: AnalysisChapter/figures/zdcSpec2v1.png Graphic file (type png)
 
 <use AnalysisChapter/figures/zdcSpec2v1.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcSpec2v1.png used on input l
-ine 1450.
+ine 1763.
 (pdftex.def)             Requested size: 469.75502pt x 159.28683pt.
-
-
-LaTeX Warning: Reference `fig:zdcSpec2v1' on page 38 undefined on input line 14
-56.
-
-
-LaTeX Warning: Reference `fig:zdcPulseShape' on page 38 undefined on input line
- 1468.
-
-[38 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:zdcTimingCuts' on page 39 undefined on input line
- 1480.
-
-
-<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1188, 698.61pt x 473.77p
+ [65]
+<AnalysisChapter/figures/zdcMinusSingleNuNoInc.png, id=1559, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoInc.png used
- on input line 1483.
+ on input line 1796.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
-
-
-LaTeX Warning: Reference `fig:zdcTimingCuts' on page 39 undefined on input line
- 1492.
-
-
-<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1189, 698.61pt x 473.77p
+ [66 <./AnalysisChapter/figures/zdcSpec2v1.png (PNG copy)>]
+<AnalysisChapter/figures/zdcMinusSingleNuNoSub.png, id=1567, 698.61pt x 473.77p
 t>
 File: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png Graphic file (type png)
 
  <use AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>
 Package pdftex.def Info: AnalysisChapter/figures/zdcMinusSingleNuNoSub.png used
- on input line 1499.
+ on input line 1812.
 (pdftex.def)             Requested size: 281.85587pt x 191.14566pt.
-
-
-LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 39 undefined on i
-nput line 1504.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[39 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png>]
-
-LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 40 undefined on i
-nput line 1509.
-
-
-LaTeX Warning: Reference `fig:zdcSpec2v1' on page 40 undefined on input line 15
-09.
-
-
-LaTeX Warning: Reference `fig:zdcTimingAfterNoiseSub' on page 40 undefined on i
-nput line 1512.
-
-
-LaTeX Warning: Reference `fig:zdcSpec2v1' on page 40 undefined on input line 15
-15.
-
-
-LaTeX Warning: Reference `fig:tnpFitPlot' on page 40 undefined on input line 15
-28.
-
-[40 <./AnalysisChapter/figures/zdcMinusSingleNuNoSub.png>]
-<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1201, 569.12625pt x 546.04pt>
+ [67 <./AnalysisChapter/figures/zdcMinusSingleNuNoInc.png> <./AnalysisChapter/f
+igures/zdcMinusSingleNuNoSub.png>]
+<AnalysisChapter/figures/tNp/tnpCounting.pdf, id=1581, 569.12625pt x 546.04pt>
 File: AnalysisChapter/figures/tNp/tnpCounting.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpCounting.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpCounting.pdf used on in
-put line 1555.
+put line 1868.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
 File: AnalysisChapter/figures/tNp/tnpFromFit.pdf Graphic file (type pdf)
 
 <use AnalysisChapter/figures/tNp/tnpFromFit.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/tNp/tnpFromFit.pdf used on inp
-ut line 1556.
+ut line 1869.
 (pdftex.def)             Requested size: 211.38832pt x 202.81483pt.
-
-
-LaTeX Warning: Reference `fig:tnpCntVFit' on page 41 undefined on input line 15
-63.
-
-[41 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degrees>
-]
-<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1250, 569.12625p
+ [68]
+<AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, id=1588, 569.12625p
 t x 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf Graphic file (t
 ype pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.
-pdf used on input line 1581.
+pdf used on input line 1894.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1251, 569.12625pt x
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+<AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, id=1589, 569.12625pt x
  546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf Graphic file (type
  pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
- used on input line 1588.
+ used on input line 1901.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1252, 569.12625pt x 
+<AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf, id=1590, 569.12625pt x 
 546.04pt>
 File: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf Graphic file (type 
 pdf)
  <use AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf>
 Package pdftex.def Info: AnalysisChapter/figures/jpsiMcComp/jpsiPtCoherent.pdf 
-used on input line 1595.
+used on input line 1908.
 (pdftex.def)             Requested size: 234.8775pt x 225.35258pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [42 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is rot
-ated 90 degrees>] [43 <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf
-, page is rotated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoher
-ent.pdf, page is rotated 90 degrees>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 101.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 101.
- (./diffMain.aux (./diffAn.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 101.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 101.
+) [69 <./AnalysisChapter/figures/tNp/tnpCounting.pdf, page is rotated 90 degree
+s>] [70 <./AnalysisChapter/figures/jpsiMcComp/jpsiAbsRapCoherent.pdf, page is r
+otated 90 degrees> <./AnalysisChapter/figures/jpsiMcComp/jpsiPhiCoherent.pdf, p
+age is rotated 90 degrees>] [71 <./AnalysisChapter/figures/jpsiMcComp/jpsiPtCoh
+erent.pdf, page is rotated 90 degrees>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
+ (./diffMain.aux (./diffTh.aux)
+(./diffAn.aux))
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 
 
 Package rerunfilecheck Warning: File `diffMain.out' has changed.
@@ -1649,40 +2458,141 @@ Package rerunfilecheck Warning: File `diffMain.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `diffMain.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  F7117A7C957DAC1951FEFEB532C55B25;1873.
+(rerunfilecheck)             Before: F7117A7C957DAC1951FEFEB532C55B25;1873
+(rerunfilecheck)             After:  127998F46FCCD292B3B6A998A7D78800;2774.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 101.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 10910 strings out of 493308
- 165112 string characters out of 6137822
- 270687 words of memory out of 5000000
- 13942 multiletter control sequences out of 15000+600000
- 48974 words of font info for 76 fonts, out of 8000000 for 9000
+ 11212 strings out of 493308
+ 170036 string characters out of 6137822
+ 341282 words of memory out of 5000000
+ 14097 multiletter control sequences out of 15000+600000
+ 60369 words of font info for 105 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,13n,42p,495b,418s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/t
-exlive/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-
-dist/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/fo
-nts/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type
-1/urw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbo
-l/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb
-></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/loc
-al/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on diffMain.pdf (43 pages, 968879 bytes).
+ 44i,13n,42p,495b,430s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{table.caption.36} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.31} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.30} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.28} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.25} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.24} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.1.6.3} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{equation.1.6.2} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.13} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.12} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{figure.caption.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.6} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.4} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{table.caption.3} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.9} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.8} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.7} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.6} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.5} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.4} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.7.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{section.1.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.4.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.3.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.2.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{subsection.1.1.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/local/tex
+live/2013/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2013/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/esint-type1/esint10.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/latxfont/lasy6.pfb></usr/local/texlive/2013/texmf
+-dist/fonts/type1/public/lm/lmss8.pfb></usr/local/texlive/2013/texmf-dist/fonts
+/type1/public/rsfs/rsfs10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
+rw/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbol/u
+syr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></
+usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on diffMain.pdf (71 pages, 1445935 bytes).
 PDF statistics:
- 1463 PDF objects out of 1728 (max. 8388607)
- 729 compressed objects within 8 object streams
- 119 named destinations out of 1000 (max. 500000)
- 226 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1881 PDF objects out of 2073 (max. 8388607)
+ 1102 compressed objects within 12 object streams
+ 238 named destinations out of 1000 (max. 500000)
+ 464 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,42 +1,36 @@
-\chapter{Results} 
-  The main results of this thesis are give here:
-    the cross section for coherent \JPsi~production.
-
-  \section{Coherent cross section}
-  The coherent cross section in calculated from the following equation:
+\chapter{Results and summary}
+  In the previous two chapters the analysis steps to measure the coherent
+    \JPsi{} photoproduction were given.
+  In this chapter, the measured cross section for this process is given
+    in Section~\ref{sec:jpCoRes}.
+  Comparisons to the theoretical models are discussed. 
+  In addition, the rapidity corrections between UPC \JPsi{} and forward
+    neutrons are presented and compared to model calculations in 
+    Section~\ref{sec:upcCor}. 
+  Finally, a summary of the complete thesis is given.  
+  
+  \section{Coherent \JPsi{} cross section}
+  The coherent \JPsi{} cross section is calculated using the following formula:
   \begin{equation}
     \frac{d\sigma^{J/\psi}_{co}}{dy}  = \frac{N_{cor} f_{co}  }
     { \Delta y\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon_{p_{T}} 
-      BR_{\mu^{+}\mu^{-}}}
+    BR_{\mu^{+}\mu^{-}}}\textrm{,}
     \label{eq:expXSecCo}
    \end{equation}
-   where $N_{cor}$ is corrected dimuon yield, $f_{co}$ is the 
+   where $N_{cor}$ is the corrected dimuon yield, $f_{co}$ is the 
      fraction of events that come from the coherent process, 
-     $BR_{\mu^{+}\mu^{-}}$ is the branching ratio for \JPsi~to $\mu^{+}\mu^{-}$, 
+     $BR_{\mu^{+}\mu^{-}}$ is the branching ratio for \JPsi{} to $\mu^{+}\mu^{-}$, 
      $\varepsilon_{ZDC}$ is the efficiency for triggering the ZDC, 
      $\varepsilon_{p_{T}}$ is the efficiency for the 0.15 GeV cut in $p_{T}$, 
      $\mathcal{L}_{int}$ is the integrated luminosity, and $\Delta y$ is the 
-     width the rapidity interval.
+     width of the rapidity interval.
 
   The raw yield of dimuon candidates was measured after applying the cuts 
     described in Section~\ref{sec:DataSetEvSel}.
-  \begin{figure}[!Hhtb]
-    \centering
-    \includegraphics[width=0.6\textwidth]{rawYield}
-    \caption{Raw yield for the Coherent cross section measurement.}
-    \label{fig:rawYieldCo}
-  \end{figure}
-  $N_{cor}$ was calculated by dividing the raw yields from 
-    Fig.~\ref{fig:rawYieldCo} by the acceptance and efficiency factor from 
-    Fig.~\ref{fig:avAccEff}, which combines $A$ and 
+  $N_{cor}$ was calculated by dividing the raw yields by acceptance and 
+    efficiency factor from which combines the acceptance from MC, $A$, and 
     $\varepsilon^{dimuon}_{trigger}$ as described in Section.~\ref{sec:effDet}.
   The corrected yields, $N_{cor}$, are shown in Fig.~\ref{fig:corYieldCo}.
-  \begin{figure}[!Hhtb]
-    \centering
-    \includegraphics[width=0.6\textwidth]{correctedYieldAverage}
-    \caption{Corrected yields for the coherent p$_{T}$ region.}
-    \label{fig:corYieldCo}
-  \end{figure}
   For the coherent cross section measurement, $N_{cor}$ is taken from the 
     region 2.0 < $|y|$ < 2.2 and $p_{T}$ < 0.15 GeV to avoid the edges of the
     detectors acceptance, bin migration in the calculation of $A$, and overlap
@@ -49,7 +43,8 @@
   by the fit as described in Section~\ref{sec:sigEx}.
   The normalized coherent template is integrated up to 0.15 GeV in $p_{T}$ and
     divided by the integral of the data $p_{T}$ spectrum up to 0.15 GeV.
-  The statistical error taken from the fit, $f_{co}$ = 0.60 $\pm$ 0.11.
+  The statistical error was taken from the template fit and is included in the
+    coherent fraction, $f_{co}$ = 0.60 $\pm$ 0.11.
 
   The two efficiency terms, $\varepsilon_{ZDC}$ and $\varepsilon_{p_{T}}$, were
     measured from data and MC respectively.
@@ -64,87 +59,12 @@
   From this method $\varepsilon_{p_{T}}$ = 0.95.
   
   The remaining two terms, $\mathcal{L}_{int}$ and $BR_{\mu^{+}\mu^{-}}$, 
-    depend on Ref.~\cite{cmsLumi} and Ref.~\cite{pdg}.
-  Ref.~\cite{cmsLumi} describes the method of using activity in HF to measure 
+    depend on \cite{cmsLumi} and \cite{pdg}.
+  \cite{cmsLumi} describes the method of using activity in HF to measure 
     the luminosity. 
   From this method, $\mathcal{L}_{int}$ was measured to be 143.3$\mu b^{-1}\pm$7.2.
-  $BR_{\mu^{+}\mu^{-}}$ from Ref.~\cite{pdg} is 0.0593 $\pm$ 0.0006.
+  $BR_{\mu^{+}\mu^{-}}$ from \cite{pdg} is 0.0593 $\pm$ 0.0006.
   From Equation~\ref{eq:expXSecCo}, $\frac{d\sigma^{J/\psi}_{co}}{dy}$ = 368 $\mu$b.
-
-\iffalse
-  \section{Incoherent cross section}
-  The same basic procedure for measuring the coherent cross section was used to 
-    calculate the incoherent cross section.  
-  \section{Break up ratios}
-    In Table~\ref{tab:r2} the ratio between raw yields for different break up 
-      modes are shown.
-    \begin{figure}[!Hhtb]
-      \centering
-      \includegraphics[width=.6\textwidth]{coherentBreakup}
-      \caption{Ratio between J/$\psi$ yeilds XnXn and 1n0n break-up modes 
-        compared the Xn0n break-up mode for J/$\psi$ with $p_{T}$ below 150 
-        MeV.}
-      \label{fig:coherentBreakUp}
-    \end{figure}
-   
-    Fig.~\ref{fig:coherentBreakUp} and Fig.~\ref{fig:incoherentBreakUp} compare
-      the raw break up ratios two STARlight and LTA predictions. 
-    \begin{figure}[!Hhtb]
-      \centering
-      \includegraphics[width=.6\textwidth]{incoherentBreakup}
-      \caption{Ratio between J/$\psi$ yeilds XnXn and 1n0n break-up modes 
-        compared the Xn0n break-up mode for J/$\psi$ with 0.2 $< p_{T} <$ 
-        1.5 GeV.}
-      \label{fig:incoherentBreakUp}
-    \end{figure}
-
-    The number of the coherent and incoherent J/$\psi$ for each break-up mode are
-      given in the Tab.~\ref{tab:r1}. 
-    The ratios between the modes X$_{n}$X$_{n}$, 1$_{n}$0$_{n}$, 1$_{n}$1$_{n}$ and
-      the mode  X$_{n}$0$_{n}$ are given in the table Tab.~\ref{tab:r2}. 
-    Some of the  ratios can be obtained from  {\sc starlight} and from the Zhalov 
-      and thus are given in Tab.~\ref{tab:r3}.
-    \begin{table}[h]
-      \begin{center}
-      \begin{tabular}{|c|c|c|c|c|c|}
-        \hline
-         &  X$_{n}$0$_{n}$& X$_{n}$X$_{n}$ & 1$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$  \\ \hline
-        coherent J/$\psi$ &  242$\pm$16&94$\pm$10&58$\pm$8&8$\pm$3\\ \hline
-        incoherent J/$\psi$ & 291$\pm$17&57$\pm$8&19$\pm$4&2$\pm$1\\ \hline
-      \end{tabular}
-      \caption{\label{tab:r1} Number of coherent J/$\psi$ integrated over $p_{T}$ and $y$ 
-        with statistical uncertainty.}
-      \end{center}
-    \end{table}
-    
-    \begin{table}[h]
-      \begin{center}
-        \begin{tabular}{|c|c|c|c|c|}
-          \hline
-          & X$_{n}$X$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$0$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$/X$_{n}$0$_{n}$  \\ \hline
-          coherent J/$\psi$ &  0.39$\pm$0.05&0.24$\pm$0.04&0.03$\pm$0.01\\ \hline
-          incoherent J/$\psi$ &  0.20$\pm$0.03&0.07$\pm$0.02&0.007$\pm$0.005 \\ \hline
-        \end{tabular}
-      \caption{\label{tab:r2} Number of coherent J/$\psi$ integrated over $p_{T}$ and $y$ 
-        with statistical uncertainty.}
-      \end{center}
-    \end{table}
-
-    In Table~\ref{tab:r3} the ratio between break up modes are shown for 
-      different theories and processes.
-    \begin{table}[h]
-      \begin{center}
-        \begin{tabular}{|c|c|c|c|c|}
-          \hline
-          & X$_{n}$X$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$0$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$/X$_{n}$0$_{n}$  \\ \hline
-          STARlight coherent &  0.37&-&0.02\\ \hline
-          Zhalov coherent& 0.32&0.30&0.02\\ \hline
-          STARlight incoherent &  0.37&-&0.007$\pm$0.02 \\ \hline
-        \end{tabular}
-        \caption{\label{tab:r3} Number of  J/$\psi$ integrated over $p_{T}$ and $y$ with 
-          statistical uncertainty.}
-      \end{center}
-    \end{table}
 
   \section{diMuon-neutron correlations}
     In this section the correlation between the rapidity of the $\mu^{+}\mu^{-}$ 
@@ -380,4 +300,174 @@
       rapidity and neutron rapidity in the case of the low-\pt \JPsi and 
       dimuons coming from $\gamma \gamma$ sample. 
     In the case of the high-\pt \JPsi the correlation is clearly visible. 
+
+\iffalse
+  \section{Incoherent cross section}
+  The same basic procedure for measuring the coherent cross section was used to 
+    calculate the incoherent cross section.  
+  \section{Break up ratios}
+    In Table~\ref{tab:r2} the ratio between raw yields for different break up 
+      modes are shown.
+    \begin{figure}[!Hhtb]
+      \centering
+      \includegraphics[width=.6\textwidth]{coherentBreakup}
+      \caption{Ratio between J/$\psi$ yeilds XnXn and 1n0n break-up modes 
+        compared the Xn0n break-up mode for J/$\psi$ with $p_{T}$ below 150 
+        MeV.}
+      \label{fig:coherentBreakUp}
+    \end{figure}
+   
+    Fig.~\ref{fig:coherentBreakUp} and Fig.~\ref{fig:incoherentBreakUp} compare
+      the raw break up ratios two STARlight and LTA predictions. 
+    \begin{figure}[!Hhtb]
+      \centering
+      \includegraphics[width=.6\textwidth]{incoherentBreakup}
+      \caption{Ratio between J/$\psi$ yeilds XnXn and 1n0n break-up modes 
+        compared the Xn0n break-up mode for J/$\psi$ with 0.2 $< p_{T} <$ 
+        1.5 GeV.}
+      \label{fig:incoherentBreakUp}
+    \end{figure}
+
+    The number of the coherent and incoherent J/$\psi$ for each break-up mode are
+      given in the Tab.~\ref{tab:r1}. 
+    The ratios between the modes X$_{n}$X$_{n}$, 1$_{n}$0$_{n}$, 1$_{n}$1$_{n}$ and
+      the mode  X$_{n}$0$_{n}$ are given in the table Tab.~\ref{tab:r2}. 
+    Some of the  ratios can be obtained from  {\sc starlight} and from the Zhalov 
+      and thus are given in Tab.~\ref{tab:r3}.
+    \begin{table}[h]
+      \begin{center}
+      \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+         &  X$_{n}$0$_{n}$& X$_{n}$X$_{n}$ & 1$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$  \\ \hline
+        coherent J/$\psi$ &  242$\pm$16&94$\pm$10&58$\pm$8&8$\pm$3\\ \hline
+        incoherent J/$\psi$ & 291$\pm$17&57$\pm$8&19$\pm$4&2$\pm$1\\ \hline
+      \end{tabular}
+      \caption{\label{tab:r1} Number of coherent J/$\psi$ integrated over $p_{T}$ and $y$ 
+        with statistical uncertainty.}
+      \end{center}
+    \end{table}
+    
+    \begin{table}[h]
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|c|}
+          \hline
+          & X$_{n}$X$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$0$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$/X$_{n}$0$_{n}$  \\ \hline
+          coherent J/$\psi$ &  0.39$\pm$0.05&0.24$\pm$0.04&0.03$\pm$0.01\\ \hline
+          incoherent J/$\psi$ &  0.20$\pm$0.03&0.07$\pm$0.02&0.007$\pm$0.005 \\ \hline
+        \end{tabular}
+      \caption{\label{tab:r2} Number of coherent J/$\psi$ integrated over $p_{T}$ and $y$ 
+        with statistical uncertainty.}
+      \end{center}
+    \end{table}
+
+    In Table~\ref{tab:r3} the ratio between break up modes are shown for 
+      different theories and processes.
+    \begin{table}[h]
+      \begin{center}
+        \begin{tabular}{|c|c|c|c|c|}
+          \hline
+          & X$_{n}$X$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$0$_{n}$/X$_{n}$0$_{n}$ & 1$_{n}$1$_{n}$/X$_{n}$0$_{n}$  \\ \hline
+          STARlight coherent &  0.37&-&0.02\\ \hline
+          Zhalov coherent& 0.32&0.30&0.02\\ \hline
+          STARlight incoherent &  0.37&-&0.007$\pm$0.02 \\ \hline
+        \end{tabular}
+        \caption{\label{tab:r3} Number of  J/$\psi$ integrated over $p_{T}$ and $y$ with 
+          statistical uncertainty.}
+      \end{center}
+    \end{table}
+
+  \section{\label{sec:summary}Summary}
+    As physicists' understanding of the QGP has deepened over the past 30 years
+      of doing experimental heavy ion physics, the questions surrounding the
+      QGP have shift from the confirmation of creation of a deconfined state
+      to understanding the properties of the state that is created.
+    It appears that the QGP is a hot nearly viscosity free fluid of strongly 
+      coupled quarks and gluons. 
+    The control measurements from dAu collisions at RHIC, and pPb collisions
+      at the LHC have shown signs of collective behavior such as flow, which 
+      made these results difficult to interpret.
+    Additional knowledge of the initial state of the colliding nuclei is needed
+      in order to fully understand the QGP signal seen in PbPb and AuAu 
+      collisions.
+    UPC events can provide this needed knowledge. 
+    This thesis contributes to the understanding of the initial state through
+      the measurement of the UPC \JPsi{} photoproduction cross section. 
+  
+    Ultra-peripheral collisions are clean probe of the initial state. 
+    In UPC \JPsi{} photoproduction, the nuclei interact through the 
+      electromagnetic force precluding the possibility of creating a collective
+      medium.
+    The theoretical models of coherent UPC \JPsi{} photoproduction model these 
+      electromagnetic interactions by combining a semi-classical calculation 
+      of the photon flux with a variety of phenomenological and QCD based 
+      calculations of the nuclear gluon density. 
+    The Weis\"{a}cker-Williams approximation \cite{WWFermi} is used to calculate 
+      the flux of photons that surround the colliding nuclei. 
+    The interaction of these photons with the nucleus is either calculated 
+      through a nuclear modification of the proton gluon density 
+      \cite{pQCD2013.02, lta2012.03}, or by using the Glauber model approach 
+      that consists in modeling the nucleus as a collection
+      of nucleons and scaling the nucleon photoproduction cross sections from 
+      e-p collisions \cite{vmd1999}. 
+    Photoproduction cross sections from from UPC events can determine at what 
+      energy scale the Glauber based method breaks down.
+    For the gluon density based calculations, there is a wide discrepancy
+      between the predictions, and photoproduction cross sections constrain which
+      gluon density models are viable. 
+  
+    In this thesis, the CMS detector was used to measure the coherent UPC \JPsi{} 
+      photoproduction cross section.
+    The three major subsystems of CMS were used, the tracker, 
+      the muon system, the calorimeter system.
+    The tracker records the position charge excitations in the silicon due to 
+      particle hits, which are used to reconstruct the trajectory of charged 
+      particles. 
+    The muon system is comprised of the three gaseous detectors, the DTs, the 
+      RPC, and the CSCs, which record charge deposits as high momentum particles
+      ionize the gas within the detector.
+    The muon system primary purpose is for triggering on and identifying muons.
+    The calorimeter system measures the energy of deposited by particle induced
+      showers as a means of reconstructing neutral particles and jets.
+    
+    The analysis in this thesis consists of three major components, development
+      of a trigger, estimation of efficiency, and measurement of signal events.
+    The trigger development involved designing a trigger based on rate estimates
+      from past data that ensured a sample that could be used for both measuring
+      the signal and estimate the efficiency of the trigger, reconstruction, and
+      event selection.
+    The number of \JPsi{} candidates was measured by first applying a set 
+      of event selection cuts that rejected background events such as hadronic
+      collisions and beam gas collisions, then fitting the remaining events to
+      templates from simulation to separate the three remaining physics processes,
+      the coherent, incoherent, and photon-photon process.
+    The efficiencies for each part of the trigger were measured from data. 
+    The acceptance and reconstruction efficiency were estimated from MC.
+    The cross section was calculated by combining the efficiency with the 
+      measured luminosity and number of coherent \JPsi{}.
+    The statistical uncertainties were taken from the template fit.
+    The systematic uncertainties were estimated by varying the method used on 
+      each component of the analysis. 
+  
+    The UPC \JPsi{} photoproduction cross section, $\frac{d\sigma^{J/\psi}_{co}}{dy}$,
+      was found to be \textcolor{red}{368 $\pm$ 38 $\mu$b}. 
+    When rescaled by a factor of 5.06 to account for the difference of break-up mode between 
+      the measurement in this thesis and the ALICE result in \cite{alice2012.09}, the 
+      result of \textcolor{red}{1.86 $\pm$ 19 mb} was found to be consistent with the 
+      predictions in \cite{pQCD2013.02} of \textcolor{red}{1.8 mb}.  
+    The calculation in \cite{pQCD2013.02} is also favored by the ALICE measurements. 
+    Of the gluon distributions used in \cite{pQCD2013.02}, a gluon distribution with 
+      moderately strong gluon shadowing, EPSO9, is consistent with both the results from this
+      thesis and the previous ALICE results. 
+    This indicates that at the scale of the mass of the \JPsi{} the nucleus gluon density is 
+      significantly suppressed compared to the gluon densities of a nucleon.
+    At this scale the nucleus can not be represented as a collection of nucleons as in the 
+      Glauber like model described in \cite{vmd1999}.
+  
+    The measurement in this thesis confirms the ability to increase the knowledge of the 
+      initial state through the exploration of UPC events. 
+    This confirmation opens the door to additional measurements in this growing field of UPC
+      research.
+    A whole host of measurements will be possible with the data already recorded,
+      and with that to recorded in the coming years by CMS and the other LHC 
+      experiments. 
 \fi
