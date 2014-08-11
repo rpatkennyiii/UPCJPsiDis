@@ -10,53 +10,64 @@
   Finally, a summary of the complete thesis is given.  
   
   \section{Coherent \JPsi{} cross section\label{sec:jpCoRes}}
-%
- The coherent \JPsi{} cross section is calculated using the following formula:
-%
-\begin{equation}
-\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)= \frac{N^{J/\psi}_{coh}}{\mathcal{L} \cdot (2 \cdot \Delta y )\cdot BR}~\textrm{,}
-\label{eq:expXSecCo}
-\end{equation}
-%
-where $N^{J/\psi}_{coh}$ is the corrected number of coherent $J/\psi$ candidates,  $\mathcal{L}$ is the integrated luminosity used for
-this analysis, $\Delta y$ is the width of the rapidity interval, and $BR$ is the branching ratio for \JPsi{} to $\mu^{+}\mu^{-}$. To obtain $N^{J/\psi}_{coh}$ the following
-formula was used  
-%
-\begin{equation}
-N^{J/\psi}_{coh}(Xn0n) = \frac{N^{J/\psi}_{yield}}{(A\times \varepsilon) \cdot \varepsilon^{ZDC}_{trig} \cdot \varepsilon^{J/\psi}_{trig}}~\textrm{,}
-\end{equation}
-%
-where $N^{J/\psi}_{yield}$ is the $J/\psi$ yield with a $p_{T} <$ 0.15 GeV, $A\times \varepsilon$ is the combined acceptance and efficiency, $\varepsilon^{ZDC}_{trig}$ is the ZDC triggering efficiency for detecting at least one neutron emitted in the forward region, and $\varepsilon^{J/\psi}_{trig}$ is the $J/\psi$ trigger efficiency measured by the ``tag and probe" method. Each of these quantities can be found in Table~\ref{tab:nJpCoh}.
-%
-\begin{table}
-  \centering
-  \begin{tabular}{|c|c|} \hline 
-    $N^{J/\psi}_{yield}$ & \textcolor{red}{X} \\ \hline  
-    $A\times \varepsilon$ & \textcolor{red}{X} \\ \hline
-    $\varepsilon^{ZDC}_{trig}$ & \textcolor{red}{X} \\ \hline
-    $\varepsilon^{J/\psi}_{trig}$ & \textcolor{red}{X} \\ \hline \hline 
-    $N^{J/\psi{}}_{coh} (Xn0n)$ & \textcolor{red}{X} \\ \hline 
-  \end{tabular}
-  \caption{\label{tab:nJpCoh}}
-\end{table}  
-
-\begin{table}
-  \centering
-  \begin{tabular}{|c|c|} \hline 
-    $N^{J/\psi}_{coh}$ & \textcolor{red}{X} \\ \hline  
-    $\mathcal{L}$ & \textcolor{red}{X} \\ \hline
-    $BR$ & \textcolor{red}{X} \\ \hline
-    $\Delta y$ & 0.2 \\ \hline \hline 
-    $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ & \textcolor{red}{X} \\ \hline 
-  \end{tabular}
-  \caption{\label{tab:nJpCoh}}
-\end{table}  
-
-The coherent J/$\psi$ cross section $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ includes the emission of at least one neutron emitted, Xn0n. Previous measurements carried 
-by the ALICE Collaboration measured the cross section without any break-up requirement. In order to compare to their results, the cross section is scaled by the 
-factor 5.06 to account for the increase in cross section. This value was obtained from STARlight. The resulting cross section is \textcolor{blue}{X $\pm$ Y}.
-
-Figure~X shows the measured cross section compared to the ALICE data points, as well as STARligh, AB and LTA models (see Chapter~\ref{ch:photoNuc}. The measured cross section is in agreement with previous measurements, and favors the AB-EPS09 model. Given the measured cross section is significantly below STARlight, nuclear gluon shadowing plays an important role for $x\sim$ 10$^{-2}$. 
+  %
+    The coherent \JPsi{} cross section is calculated using the following
+      formula:
+  %
+    \begin{equation}
+    \frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)= \frac{N^{J/\psi}_{coh}}{\mathcal{L} \cdot (2 \cdot \Delta y )\cdot BR}~\textrm{,}
+    \label{eq:expXSecCo}
+    \end{equation}
+  %
+      where $N^{J/\psi}_{coh}$ is the corrected number of coherent $J/\psi$
+      candidates,  $\mathcal{L}$ is the integrated luminosity used for this 
+      analysis, $\Delta y$ is the width of the rapidity interval, and $BR$ is 
+      the branching ratio for \JPsi{} to $\mu^{+}\mu^{-}$. 
+    To obtain $N^{J/\psi}_{coh}$ the following formula was used:
+  %
+    \begin{equation}
+    N^{J/\psi}_{coh}(Xn0n) = \frac{N^{J/\psi}_{yield}}{(A\times \varepsilon) \cdot \varepsilon^{ZDC}_{trig} \cdot \varepsilon^{J/\psi}_{trig}}~\textrm{,}
+    \end{equation}
+  %
+      where $N^{J/\psi}_{yield}$ is the $J/\psi$ yield with a $p_{T} <$ 0.15 
+      GeV, $A\times \varepsilon$ is the combined acceptance and efficiency, 
+      $\varepsilon^{ZDC}_{trig}$ is the ZDC triggering efficiency for detecting
+      at least one neutron emitted in the forward region, and 
+      $\varepsilon^{J/\psi}_{trig}$ is the $J/\psi$ trigger efficiency measured
+      by the ``tag and probe" method. 
+    Each of these quantities can be found in Table~\ref{tab:nJpCoh}.
+  %
+    \begin{table}
+      \centering
+      \begin{tabular}{|c|c|c|c|c|} \hhline{--~--} 
+        $N^{J/\psi}_{yield}$ & 65 $\pm$ 12 & & $N^{J/\psi}_{coh}$  & 1180 $\pm$ 220 \\ \hhline{--~--}  
+        $A\times \varepsilon$ & 0.0725  & & $\mathcal{L}$ & 143.3 $\pm$ 7.2 \\ \hhline{--~--}
+        $\varepsilon^{ZDC}_{trig}$ & 0.96 & & $BR$ & 0.0593  \\ \hhline{--~--}
+        $\varepsilon^{J/\psi}_{trig}$ & 0.79 & & $\Delta y$ & 0.2 \\ \hhline{--~--} \hhline{--~--}
+        $N^{J/\psi{}}_{coh} (Xn0n)$ & 1180 $\pm$ 220 & & $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ & 347.7 $\mu$b \\  \hhline{--~--}
+      \end{tabular}
+      \caption{\label{tab:nJpCoh}The measured quantities used to calculate the 
+        corrected number of coherent \JPsi{}, $N^{J/\psi}_{coh} (Xn0n)$ (right),
+        and the quantities used to calculate the cross section for UPC \JPsi{} 
+        photoproduction, $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ (left).}
+    \end{table}  
+    
+    The coherent J/$\psi$ cross section 
+      $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ includes the emission of at 
+      least one neutron emitted, Xn0n. 
+    Previous measurements carried by the ALICE Collaboration measured the cross
+      section without any break-up requirement. 
+    In order to compare to their results, the cross section is scaled by the 
+      factor 5.06 to account for the increase in cross section. 
+    This value was obtained from STARlight. 
+    The resulting cross section is 1.76\textcolor{blue}{$\pm$ Y} mb.
+    
+    Figure~X shows the measured cross section compared to the ALICE data points,
+      as well as STARligh, AB and LTA models (see Chapter~\ref{ch:photoNuc}. 
+    The measured cross section is in agreement with previous measurements, and 
+      favors the AB-EPS09 model. 
+    Given the measured cross section is significantly below STARlight, nuclear 
+      gluon shadowing plays an important role for $x\sim$ 10$^{-2}$. 
 
   \section{\JPsi{} neutron correlations~\label{sec:upcCor}}
     In this section the correlation between the rapidity of the $\mu^{+}\mu^{-}$ 
@@ -79,17 +90,10 @@ Figure~X shows the measured cross section compared to the ALICE data points, as 
           In the data sample this corresponds to the high-\pt \JPsi 
             (0.15$<$\pt$<$1.05). 
       \end{itemize}
-      \item $\gamma \gamma$ collisions: two photons collide and produce the 
-        $\mu^{+}\mu^{-}$  and the third photon is needed to excite one of
-          the nucleons and produce neutron. 
-        Thus we don't expect to see the correlation between the rapidity of the
-          neutron and the rapidity of the $\mu^{+}\mu^{-}$. 
-        In the data sample this corresponds to the $\mu^{+}\mu^{-}$ with the
-          invariant mass between 4 and 8~GeV. 
     \end{itemize}
 
     In order to study the correlation in rapidity between the neutron and
-      dimuon direction we below four quantities and give they values in 
+      dimuon direction, four quantities are defined and given in 
       Table~\ref{tab:corrneutronjpsi}.  
     \begin{itemize}
       \item $y^{-}_{\mu\mu} \wedge y_{n}^{-}$: number of $\mu^{+}\mu^{-}$ having
@@ -106,18 +110,16 @@ Figure~X shows the measured cross section compared to the ALICE data points, as 
     \begin{equation}
       R_{opp/same} = \frac{y^{-}_{\mu\mu} \wedge y_{n}^{+} + y^{+}_{\mu\mu} 
         \wedge y_{n}^{-}}{y^{-}_{\mu\mu} \wedge y_{n}^{-} + y^{+}_{\mu\mu} 
-        \wedge y_{n}^{+}}
+        \wedge y_{n}^{+}}.
     \end{equation}
     
     Ratios studied in this section are only sensitive to the difference between
       the ZDC$^{-}$ and ZDC$^{-}$.
-    It is seen that the efficiency of both ZDCs in not exactly the same i.e.
-      the efficiencies of ZDC$^{-}$ and ZDC$^{+}$ are respectively 
-      $\varepsilon_{ZDC^{-}}$=0.98 and  $\varepsilon_{ZDC^{+}}$=0.94 and this 
-      is taken in the account in the estimations. 
-    The $R_{opp/same}$ radio corrected by the ZDCs efficiencies is also 
-      included in Table~\ref{tab:corrneutronjpsi} and called 
-      $R_{opp/same}^{\varepsilon_{ZDC}}$. 
+    The efficiencies of ZDC$^{-}$ and ZDC$^{+}$ are respectively 
+      $\varepsilon_{ZDC^{-}}$=0.98 and  $\varepsilon_{ZDC^{+}}$=0.94.
+    The $R_{opp/same}$ ratio is corrected by the ZDCs efficiencies in 
+      Table~\ref{tab:corrneutronjpsi} and relabeled 
+      $R_{opp/same}^{\varepsilon_{ZDC}}$ to indicate the is corrected. 
     It is seen that the difference between corrected and uncorrected results is
       very small. 
     Other uncertainties cancel. 
@@ -125,14 +127,14 @@ Figure~X shows the measured cross section compared to the ALICE data points, as 
       are not necessary and thus they are released.
     
     Figure~\ref{fig:PtcorrandRation} gives \pt distributions of the \JPsi 
-      when \JPsi and neutron have the opposite rapidity direction or when they 
-      have the same rapidity direction for low-\pt and high-\pt \JPsi. 
+      when the \JPsi{} candidate and neutron have the opposite rapidity 
+      direction or when they have the same rapidity direction for low-\pt and 
+      high-\pt \JPsi{}. 
     Also the Fig~\ref{fig:PtcorrandRation} gives the $R_{opp/same}$ for low-\pt
       and high-\pt \JPsi. 
     In is send from this plot that in the case of the low-\pt \JPsi this 
       $R_{opp/same}$ ratio is close to 1 and is decreasing when the \pt of
-      \JPsi increases.
-  
+      \JPsi{} increases.
     \begin{figure*}[!Hhtb]
       \begin{center}
         \includegraphics[angle=0,width=0.45\textwidth]{cohOppAndSameNeutronDir}
@@ -149,7 +151,7 @@ Figure~X shows the measured cross section compared to the ALICE data points, as 
       \end{center}
     \end{figure*}
     
-    Compiled for \pt$<$1.05~GeV $R_{opp/same}$ ratio between the \pt 
+    Compiled for \pt$<$1.05~GeV, $R_{opp/same}$ ratio between the \pt 
       distribution of the \JPsi having neutron emitted in the opposite 
       direction and  the \JPsi having the neutron emitted in the same
       direction is shown on Fig.~\ref{fig:r2}. 
