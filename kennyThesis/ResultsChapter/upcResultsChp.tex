@@ -4,69 +4,61 @@
   In this chapter, the measured cross section for this process is given
     in Section~\ref{sec:jpCoRes}.
   Comparisons to the theoretical models are discussed. 
-  In addition, the rapidity corrections between UPC \JPsi{} and forward
+  In addition, the rapidity correlation between UPC \JPsi{} and forward
     neutrons are presented and compared to model calculations in 
     Section~\ref{sec:upcCor}. 
   Finally, a summary of the complete thesis is given.  
   
-  \section{Coherent \JPsi{} cross section}
-  The coherent \JPsi{} cross section is calculated using the following formula:
-  \begin{equation}
-    \frac{d\sigma^{J/\psi}_{co}}{dy}  = \frac{N_{cor} f_{co}  }
-    { \Delta y\mathcal{L}_{int} \varepsilon_{ZDC} \varepsilon_{p_{T}} 
-    BR_{\mu^{+}\mu^{-}}}\textrm{,}
-    \label{eq:expXSecCo}
-   \end{equation}
-   where $N_{cor}$ is the corrected dimuon yield, $f_{co}$ is the 
-     fraction of events that come from the coherent process, 
-     $BR_{\mu^{+}\mu^{-}}$ is the branching ratio for \JPsi{} to $\mu^{+}\mu^{-}$, 
-     $\varepsilon_{ZDC}$ is the efficiency for triggering the ZDC, 
-     $\varepsilon_{p_{T}}$ is the efficiency for the 0.15 GeV cut in $p_{T}$, 
-     $\mathcal{L}_{int}$ is the integrated luminosity, and $\Delta y$ is the 
-     width of the rapidity interval.
+  \section{Coherent \JPsi{} cross section\label{sec:jpCoRes}}
+%
+ The coherent \JPsi{} cross section is calculated using the following formula:
+%
+\begin{equation}
+\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)= \frac{N^{J/\psi}_{coh}}{\mathcal{L} \cdot (2 \cdot \Delta y )\cdot BR}~\textrm{,}
+\label{eq:expXSecCo}
+\end{equation}
+%
+where $N^{J/\psi}_{coh}$ is the corrected number of coherent $J/\psi$ candidates,  $\mathcal{L}$ is the integrated luminosity used for
+this analysis, $\Delta y$ is the width of the rapidity interval, and $BR$ is the branching ratio for \JPsi{} to $\mu^{+}\mu^{-}$. To obtain $N^{J/\psi}_{coh}$ the following
+formula was used  
+%
+\begin{equation}
+N^{J/\psi}_{coh}(Xn0n) = \frac{N^{J/\psi}_{yield}}{(A\times \varepsilon) \cdot \varepsilon^{ZDC}_{trig} \cdot \varepsilon^{J/\psi}_{trig}}~\textrm{,}
+\end{equation}
+%
+where $N^{J/\psi}_{yield}$ is the $J/\psi$ yield with a $p_{T} <$ 0.15 GeV, $A\times \varepsilon$ is the combined acceptance and efficiency, $\varepsilon^{ZDC}_{trig}$ is the ZDC triggering efficiency for detecting at least one neutron emitted in the forward region, and $\varepsilon^{J/\psi}_{trig}$ is the $J/\psi$ trigger efficiency measured by the ``tag and probe" method. Each of these quantities can be found in Table~\ref{tab:nJpCoh}.
+%
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c|} \hline 
+    $N^{J/\psi}_{yield}$ & \textcolor{red}{X} \\ \hline  
+    $A\times \varepsilon$ & \textcolor{red}{X} \\ \hline
+    $\varepsilon^{ZDC}_{trig}$ & \textcolor{red}{X} \\ \hline
+    $\varepsilon^{J/\psi}_{trig}$ & \textcolor{red}{X} \\ \hline \hline 
+    $N^{J/\psi{}}_{coh} (Xn0n)$ & \textcolor{red}{X} \\ \hline 
+  \end{tabular}
+  \caption{\label{tab:nJpCoh}}
+\end{table}  
 
-  The raw yield of dimuon candidates was measured after applying the cuts 
-    described in Section~\ref{sec:DataSetEvSel}.
-  $N_{cor}$ was calculated by dividing the raw yields by acceptance and 
-    efficiency factor from which combines the acceptance from MC, $A$, and 
-    $\varepsilon^{dimuon}_{trigger}$ as described in Section.~\ref{sec:effDet}.
-  The corrected yields, $N_{cor}$, are shown in Fig.~\ref{fig:corYieldCo}.
-  For the coherent cross section measurement, $N_{cor}$ is taken from the 
-    region 2.0 < $|y|$ < 2.2 and $p_{T}$ < 0.15 GeV to avoid the edges of the
-    detectors acceptance, bin migration in the calculation of $A$, and overlap
-    between the coherent and incoherent process.
-  From this procedure, the $N_{cor}$ was measured to be 1903.
-  
-  To measure $f_{co}$, the simultaneous fit shown in 
-    Fig.~\ref{fig:simFitMassPtGauss} was used.
-  The normalizations for each of the three components to the signal are fixed 
-  by the fit as described in Section~\ref{sec:sigEx}.
-  The normalized coherent template is integrated up to 0.15 GeV in $p_{T}$ and
-    divided by the integral of the data $p_{T}$ spectrum up to 0.15 GeV.
-  The statistical error was taken from the template fit and is included in the
-    coherent fraction, $f_{co}$ = 0.60 $\pm$ 0.11.
+\begin{table}
+  \centering
+  \begin{tabular}{|c|c|} \hline 
+    $N^{J/\psi}_{coh}$ & \textcolor{red}{X} \\ \hline  
+    $\mathcal{L}$ & \textcolor{red}{X} \\ \hline
+    $BR$ & \textcolor{red}{X} \\ \hline
+    $\Delta y$ & 0.2 \\ \hline \hline 
+    $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ & \textcolor{red}{X} \\ \hline 
+  \end{tabular}
+  \caption{\label{tab:nJpCoh}}
+\end{table}  
 
-  The two efficiency terms, $\varepsilon_{ZDC}$ and $\varepsilon_{p_{T}}$, were
-    measured from data and MC respectively.
-  As described in Section~\ref{sec:breakUpDet}, $\varepsilon_{ZDC}$ was 
-    measured in the from the ZDC triggered data set by dividing the number of 
-    events both fire the ZDC trigger and pass the one neutron threshold.
-  $\varepsilon_{ZDC}$ was measured to be 0.96 with a negligible statistical 
-    error.
-  The efficiency of the 0.15 GeV $p_{T}$ cut was estimated from MC by dividing 
-    the number of events that are lost by applying the $p_{T}$ cut after all
-    other cuts are applied. 
-  From this method $\varepsilon_{p_{T}}$ = 0.95.
-  
-  The remaining two terms, $\mathcal{L}_{int}$ and $BR_{\mu^{+}\mu^{-}}$, 
-    depend on \cite{cmsLumi} and \cite{pdg}.
-  \cite{cmsLumi} describes the method of using activity in HF to measure 
-    the luminosity. 
-  From this method, $\mathcal{L}_{int}$ was measured to be 143.3$\mu b^{-1}\pm$7.2.
-  $BR_{\mu^{+}\mu^{-}}$ from \cite{pdg} is 0.0593 $\pm$ 0.0006.
-  From Equation~\ref{eq:expXSecCo}, $\frac{d\sigma^{J/\psi}_{co}}{dy}$ = 368 $\mu$b.
+The coherent J/$\psi$ cross section $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ includes the emission of at least one neutron emitted, Xn0n. Previous measurements carried 
+by the ALICE Collaboration measured the cross section without any break-up requirement. In order to compare to their results, the cross section is scaled by the 
+factor 5.06 to account for the increase in cross section. This value was obtained from STARlight. The resulting cross section is \textcolor{blue}{X $\pm$ Y}.
 
-  \section{\JPsi{} neutron correlations}
+Figure~X shows the measured cross section compared to the ALICE data points, as well as STARligh, AB and LTA models (see Chapter~\ref{ch:photoNuc}. The measured cross section is in agreement with previous measurements, and favors the AB-EPS09 model. Given the measured cross section is significantly below STARlight, nuclear gluon shadowing plays an important role for $x\sim$ 10$^{-2}$. 
+
+  \section{\JPsi{} neutron correlations~\label{sec:upcCor}}
     In this section the correlation between the rapidity of the $\mu^{+}\mu^{-}$ 
       and of the neutron is studied. The following samples are studied: 
     \begin{itemize}
@@ -375,6 +367,7 @@
           statistical uncertainty.}
       \end{center}
     \end{table}
+\fi
 
   \section{\label{sec:summary}Summary}
     As physicists' understanding of the QGP has deepened over the past 30 years
@@ -451,7 +444,7 @@
     The UPC \JPsi{} photoproduction cross section, $\frac{d\sigma^{J/\psi}_{co}}{dy}$,
       was found to be \textcolor{red}{368 $\pm$ 38 $\mu$b}. 
     When rescaled by a factor of 5.06 to account for the difference of break-up mode between 
-      the measurement in this thesis and the ALICE result in \cite{alice2012.09}, the 
+      the measurement in this thesis and the ALICE result in~\cite{Abelev:2012ba,Abbas:2013oua}, the 
       result of \textcolor{red}{1.86 $\pm$ 19 mb} was found to be consistent with the 
       predictions in \cite{pQCD2013.02} of \textcolor{red}{1.8 mb}.  
     The calculation in \cite{pQCD2013.02} is also favored by the ALICE measurements. 
@@ -470,4 +463,3 @@
     A whole host of measurements will be possible with the data already recorded,
       and with that to recorded in the coming years by CMS and the other LHC 
       experiments. 
-\fi
