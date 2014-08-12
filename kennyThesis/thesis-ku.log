@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  11 AUG 2014 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.15)  12 AUG 2014 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1690,54 +1690,47 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 72.
 
-<ResultsChapter/figures/ZDCDimuCorrCoh.png, id=2642, 598.235pt x 574.145pt>
+[98]
+<ResultsChapter/figures/ZDCDimuCorrCoh.png, id=2648, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/ZDCDimuCorrCoh.png Graphic file (type png)
 
 <use ResultsChapter/figures/ZDCDimuCorrCoh.png>
 Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrCoh.png used on inpu
-t line 76.
+t line 99.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
 
-<ResultsChapter/figures/ZDCDimuCorrIncoh.png, id=2643, 598.235pt x 574.145pt>
+<ResultsChapter/figures/ZDCDimuCorrIncoh.png, id=2649, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/ZDCDimuCorrIncoh.png Graphic file (type png)
 
 <use ResultsChapter/figures/ZDCDimuCorrIncoh.png>
 Package pdftex.def Info: ResultsChapter/figures/ZDCDimuCorrIncoh.png used on in
-put line 77.
+put line 100.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
 
-<ResultsChapter/figures/RoppsameVsTheory.png, id=2644, 598.235pt x 574.145pt>
+<ResultsChapter/figures/RoppsameVsTheory.png, id=2653, 598.235pt x 574.145pt>
 File: ResultsChapter/figures/RoppsameVsTheory.png Graphic file (type png)
 
 <use ResultsChapter/figures/RoppsameVsTheory.png>
 Package pdftex.def Info: ResultsChapter/figures/RoppsameVsTheory.png used on in
-put line 87.
+put line 119.
 (pdftex.def)             Requested size: 598.23354pt x 574.1436pt.
- [98]
-
-LaTeX Warning: Text page 99 contains only floats.
-
-
-Overfull \vbox (0.97112pt too high) has occurred while \output is active []
-
-
-[99 <./ResultsChapter/figures/ZDCDimuCorrCoh.png> <./ResultsChapter/figures/ZDC
-DimuCorrIncoh.png> <./ResultsChapter/figures/RoppsameVsTheory.png>] [100])
-[101] [102] (./thesis-ku.bbl
+ [99 <./ResultsChapter/figures/ZDCDimuCorrCoh.png> <./ResultsChapter/figures/ZD
+CDimuCorrIncoh.png>] [100 <./ResultsChapter/figures/RoppsameVsTheory.png>] [101
+] [102]) [103]
+(./thesis-ku.bbl
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 10.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [103
+)
+[104
 
 
-] [104]
-[105] [106] [107] [108] [109] [110] [111] [112])
+] [105] [106] [107] [108] [109] [110] [111] [112] [113])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 130.
- [113]
+ [114]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
- (./thesis-ku.aux
-(./IntroductionChapter/upcIntroductionChp.aux)
+
+(./thesis-ku.aux (./IntroductionChapter/upcIntroductionChp.aux)
 (./TheoryChapter/upcTheoryChp.aux) (./DetectorChapter/upcDetectorChp.aux)
 (./ZDCRecoChapter/upcZDCRecoChp.aux) (./TriggerChapter/upcTriggerChp.aux)
 (./AnalysisChapter/upcAnalysisChp.aux)
@@ -1746,13 +1739,13 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 130.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 130.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 130.
 Package rerunfilecheck Info: File `thesis-ku.out' has not changed.
-(rerunfilecheck)             Checksum: F44084702AD0C7C1601DFFE7EE70F261;4355.
+(rerunfilecheck)             Checksum: 62EF31EACD02D2802951B503624FEB74;4364.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 130.
  ) 
 Here is how much of TeX's memory you used:
- 11457 strings out of 493308
- 177558 string characters out of 6137822
- 288234 words of memory out of 5000000
+ 11458 strings out of 493308
+ 177566 string characters out of 6137822
+ 288245 words of memory out of 5000000
  14055 multiletter control sequences out of 15000+600000
  73769 words of font info for 136 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -1770,10 +1763,10 @@ w/symbol/usyr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/symbol/us
 yr.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></u
 sr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/t
 exlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on thesis-ku.pdf (126 pages, 2725829 bytes).
+Output written on thesis-ku.pdf (127 pages, 2730448 bytes).
 PDF statistics:
- 3029 PDF objects out of 3580 (max. 8388607)
- 2170 compressed objects within 22 object streams
- 403 named destinations out of 1000 (max. 500000)
+ 3047 PDF objects out of 3580 (max. 8388607)
+ 2187 compressed objects within 22 object streams
+ 404 named destinations out of 1000 (max. 500000)
  859 words of extra memory for PDF output out of 10000 (max. 10000000)
 
