@@ -58,5 +58,5 @@
 \contentsline {subsection}{\numberline {7.6.3}The effect of noise on ZDC trigger efficiency estimates}{95}{subsection.7.6.3}
 \contentsline {chapter}{\numberline {8}Results and summary}{97}{chapter.8}
 \contentsline {section}{\numberline {8.1}Coherent J/$\psi ${} cross section}{97}{section.8.1}
-\contentsline {section}{\numberline {8.2}UPC J/$\psi ${}-neutron rapidity correlations~}{98}{section.8.2}
+\contentsline {section}{\numberline {8.2}UPC J/$\psi ${}-neutron rapidity correlation~}{98}{section.8.2}
 \contentsline {section}{\numberline {8.3}Summary}{101}{section.8.3}
