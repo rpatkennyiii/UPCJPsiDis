@@ -36,29 +36,6 @@
       accurately reproduce what would be measured if the theoretical input 
       describes nature well. 
 
-    \subsection{MC and data comparisons}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
-        \caption{Comparison of the of the dimuon rapidity distributions between 
-          coherent \JPsi{} MC sample and data.}
-        \label{fig:jpsiAbsRapCoherent}
-      \end{figure}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
-        \caption{Comparison of the of the dimuon $\varphi$ distributions 
-          between coherent \JPsi{} MC sample and data.}
-        \label{fig:jpsiPhiCoherent}
-      \end{figure}
-      \begin{figure}[h]
-        \centering
-        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-        \caption{Comparison of the of the dimuon \pt{} distributions 
-          between coherent \JPsi{} MC sample and data.}
-        \label{fig:jpsiPtCoherent}
-      \end{figure}
-
   \subsection{STARlight and particle gun MC}
     In this thesis, two classes of generator input samples were used, 
       STARlight \cite{vmd1999, starlight} and a particle gun.
@@ -180,13 +157,36 @@
       \label{fig:genHXAngle}
     \end{figure}
 
+    \subsection{MC and data comparisons}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
+        \caption{Comparison of the of the dimuon rapidity distributions between 
+          coherent \JPsi{} MC sample and data.}
+        \label{fig:jpsiAbsRapCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
+        \caption{Comparison of the of the dimuon $\varphi$ distributions 
+          between coherent \JPsi{} MC sample and data.}
+        \label{fig:jpsiPhiCoherent}
+      \end{figure}
+      \begin{figure}[h]
+        \centering
+        \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
+        \caption{Comparison of the of the dimuon \pt{} distributions 
+          between coherent \JPsi{} MC sample and data.}
+        \label{fig:jpsiPtCoherent}
+      \end{figure}
+
   \section{\label{sec:DataSetEvSel} Event selection}
     The unprecedented amounts of data produced by the LHC has made it possible 
       to investigate novel physics processes like UPC \JPsi{} production.
     The data for this analysis were recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
       corresponding to over a billion PbPb collisions. 
-    Of this, 143 $\mu$$b^{-1}$ of data were used in this analysis due to the 
+    Of this, 143 $\pm$ 7 (syst) $\mu$$b^{-1}$ of data were used in this analysis due to the 
       ZDCs being temporally disconnected to test the Forward Shower Counters.
   
     \subsection{Data sets}
@@ -213,7 +213,7 @@
         noise distributions of HF.
   
       The physics sample containing the \JPsi{} signal was recorded by the muon 
-        trigger labeled "L1UPCMuon and Pixel Track" in 
+        trigger labeled ``L1UPCMuon and Pixel Track'' in 
         Table~\ref{tab:hltTriggers2011}. 
       Because of the characteristically low momentum of UPC \JPsi{} as compared
         to \JPsi{} created by other physics processes, the loosest muon 
@@ -555,10 +555,10 @@
         that fall into a (\pt{},$|\eta|$) bin that has an efficiency less 
         than 20\% were rejected.
       This condition defines the detectability region.
-      The acceptance for reconstructing dimuons was calculated from MC
-        using the following formula:
+      The acceptance and reconstruction efficiency for reconstructing dimuons 
+        was calculated from MC using the following formula:
       \begin{equation}
-        A=\frac{N_{det}(|y|,p_{T})}{N_{gen}(|y|,p_{T})},
+        A \times \varepsilon=\frac{N_{det}(|y|)}{N_{gen}(|y|)},
         \label{eq:jpsiAccEq}
       \end{equation}
         where $N_{det}$ is the number of reconstructed dimuons where both 
@@ -566,19 +566,14 @@
         number of generated dimuons. 
       From Eq.~\ref{eq:jpsiAccEq}, the acceptance for \JPsi{} was calculated
         as a function of $|y|$, and \pt{} (see Fig.~\ref{fig:jpsiAcceptance}).
-        \begin{figure*}[!Hhtb]
+        \begin{figure}[!Hhtb]
           \centering
-          $ \begin{array}{cc}
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpCoStep} &
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpInCoStep} \\
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccGammaStep}
-          \end{array} $
-          \caption{Dimuon acceptance from coherent \JPsi{} (top left), incoherent 
-            J$\psi$ (top right), and photon-photon interactions (lower).}
+            \includegraphics[width=.45\textwidth]{accXeffFromMC1d}
+          \caption{Dimuon acceptance from coherent \JPsi{}.}
           \label{fig:jpsiAcceptance}
-        \end{figure*}
+        \end{figure}
 
-      The "tag and probe method" is a data driven approach used to measure the 
+      The ``tag and probe method'' is a data driven approach used to measure the 
         trigger efficiency of the muon daughters from \JPsi{} decays.
       In this method there are three categories of daughter muons. 
       \textit{Tag muons} are high quality muons.
@@ -642,15 +637,15 @@
         probability that neither daughter fires the trigger,
         thus giving the dimuon trigger efficiency. 
 
-      The average dimuon trigger efficiency for each dimuon (\pt{},$|y|$) bin
+      The average dimuon trigger efficiency for each dimuon $|y|$ bin
         was calculated by averaging the efficiency of dimuon candidates in each
         bin. 
       \begin{figure}[!Hhbt]
         \centering
-        \includegraphics[width=0.6\textwidth]{averageTriggerEff}
+        \includegraphics[width=0.6\textwidth]{muTrigEffFromTnP1d}
         \caption{The trigger efficiency from tag and probe averaged over candidates
-          in each (\pt{},$|y|$) bin.}
-        \label{fig:avTrigEffCo}
+          in each $|y|$ bin.}
+        \label{fig:triggerEffDiMu}
       \end{figure}
       The dimuon trigger efficiency ranges from about 50\% to 90\%. 
       As expected the \JPsi{} trigger efficiency increase with rapidity since 
@@ -664,13 +659,13 @@
         both efficiency and acceptance. 
       \begin{figure}[!Hhtb]
         \centering
-        \includegraphics[width=0.6\textwidth]{averageExA}
+        \includegraphics[width=0.6\textwidth]{accXeffTrigg}
         \caption{The acceptance times averaged trigger efficiency from tag and 
           probe.}
-        \label{fig:avAccEff}
+        \label{fig:averageExA}
       \end{figure}
 
-      The total combined efficiency and acceptance factor coherent \JPsi{} 
+      The total combined efficiency and acceptance factor for coherent \JPsi{} 
         between $2.0 \le |y| \le 2.2$ was found to be $\approx 5$\%.
       The acceptance factor of roughly 7\% from the MC was found to be the main
         contributor to the total efficiency. 
@@ -684,7 +679,7 @@
 
     \subsection{ZDC trigger efficiency}
       As discussed in Section~\ref{sec:breakUpDet}, the trigger labeled 
-        "L1ZDCOr and Pixel Track" in Table~\ref{tab:hltTriggers2011} was used 
+        ``L1ZDCOr and Pixel Track'' in Table~\ref{tab:hltTriggers2011} was used 
         to measure the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
         least one pixel track. 
