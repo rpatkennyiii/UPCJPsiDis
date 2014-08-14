@@ -157,28 +157,36 @@
       \label{fig:genHXAngle}
     \end{figure}
 
-    Figures \ref{fig:jpsiAbsRapCoherent}, {fig:jpsiPhiCoherent} show  the rapidity, $\varphi$, and  \pt{} distributions of reconstructed coherent \JPsi{} MC from STARLight and data. All distributions are normalized to unity. The rapidity distribution of the STARLight is very slightly higher than for the data, with a difference in the mean rapidity of $\approx 0.1$ unit.  The $\varphi$, and  \pt{} distributions are for STARLight and data are both very similar. 
-      \begin{figure}[h]
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
         \caption{Comparison of the of the dimuon rapidity distributions between 
           coherent \JPsi{} MC sample and data.}
         \label{fig:jpsiAbsRapCoherent}
       \end{figure}
-      \begin{figure}[h]
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
         \caption{Comparison of the of the dimuon $\varphi$ distributions 
           between coherent \JPsi{} MC sample and data.}
         \label{fig:jpsiPhiCoherent}
       \end{figure}
-      \begin{figure}[h]
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
         \caption{Comparison of the of the dimuon \pt{} distributions 
           between coherent \JPsi{} MC sample and data.}
         \label{fig:jpsiPtCoherent}
       \end{figure}
+    Figures \ref{fig:jpsiAbsRapCoherent}, \ref{fig:jpsiPhiCoherent}, and
+      \ref{fig:jpsiPtCoherent} show  the rapidity, $\phi$, and  \pt{} 
+      distributions of reconstructed coherent \JPsi{} from STARLight MC and 
+      data. 
+    All distributions are normalized to one. 
+    The mean of the STARLight rapidity distribution is slightly shift by 
+      $\approx 0.1$ to higher rapidity. 
+    The $\phi$, and  \pt{} distributions from STARLight and data are both
+      very similar. 
 
   \section{\label{sec:DataSetEvSel} Event selection}
     The unprecedented amounts of data produced by the LHC has made it possible 
@@ -284,7 +292,9 @@
       Two sets of event selection cuts were applied to reject background events. 
       The first set rejects background from the beam.
       The second rejects events where hadronic collisions have occurred.
-      Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts. 
+      Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts.
+      Figure~\ref{fig:evDisplay} shows a candidate event after applying all 
+        event selection cuts. 
       \begin{table}[!Hhbt]
         \centering
         \begin{tabular}{|c|c|c|} \hline 
@@ -303,6 +313,13 @@
         \caption{Effects of event selection cuts.}
         \label{tab:evSelCutNumbers}
       \end{table}
+      \begin{figure*}[!Hhbt]
+        \centering
+        \includegraphics[width=.45\textwidth]{3dRecHitWhite}
+        \includegraphics[width=.45\textwidth]{phiRhoWhite}
+        \caption{Event display of a UPC \JPsi{} candidate event.}
+      \label{fig:evDisplay}
+      \end{figure*}
       
       To reject beam induced background the following cuts were applied:
       \begin{itemize}

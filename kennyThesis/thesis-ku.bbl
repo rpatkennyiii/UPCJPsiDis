@@ -27,6 +27,11 @@ M.~Wilde, ``Measurement of direct photons in pp and pb–pb collisions with
 \href{http://arxiv.org/abs/1305.0609}{{\ttfamily arXiv:1305.0609 [nucl-ex]}}.
 %%CITATION = ARXIV:1305.0609;%%.
 
+\bibitem{WWJackson}
+J.~D. Jackson, {\em Classical electrodynamics}.
+\newblock Wiley, New York, {NY}, 3rd ed.~ed., 1999.
+\newblock \url{http://cdsweb.cern.ch/record/490457}.
+
 \bibitem{upcNeuPHENIX}
 M.~Chiu, A.~Denisov, E.~Garcia, J.~Katzy, A.~Makeev, M.~Murray, and S.~White,
   ``Measurement of mutual coulomb dissociation in
@@ -391,11 +396,6 @@ J.~Hufner, B.~Kopeliovich, and A.~B. Zamolodchikov, ``{Inelastic J / psi
 \href{http://arxiv.org/abs/nucl-th/9607033}{{\ttfamily arXiv:nucl-th/9607033
   [nucl-th]}}.
 %%CITATION = NUCL-TH/9607033;%%.
-
-\bibitem{WWJackson}
-J.~D. Jackson, {\em Classical electrodynamics}.
-\newblock Wiley, New York, {NY}, 3rd ed.~ed., 1999.
-\newblock \url{http://cdsweb.cern.ch/record/490457}.
 
 \bibitem{WWFermi}
 E.~{Fermi}, \href{http://dx.doi.org/10.1142/9789812704214_0026}{``{On the
