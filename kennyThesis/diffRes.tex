@@ -8,7 +8,7 @@
     neutrons are presented and compared to model calculations in 
     Section~\ref{sec:upcCor}. 
   Finally, a summary of the complete thesis is given.  
-  
+
   \section{Coherent \JPsi{} cross section\label{sec:jpCoRes}}
   %
     The coherent \JPsi{} cross section is calculated using the following
@@ -34,44 +34,46 @@
       $\varepsilon^{ZDC}_{trig}$ is the ZDC triggering efficiency for detecting
       at least one neutron emitted in the forward region, and 
       $\varepsilon^{J/\psi}_{trig}$ is the $J/\psi$ trigger efficiency measured
-      by the ``tag and probe'' method. 
+      by the ``tag and probe\DIFdelbegin \DIFdel{" }\DIFdelend \DIFaddbegin \DIFadd{'' }\DIFaddend method. 
     Each of these quantities can be found in Table~\ref{tab:nJpCoh}.
   %
     \begin{table}
       \centering
       \begin{tabular}{|c|c|c|c|c|} \hhline{--~--} 
-        $N^{J/\psi}_{yield}$ & 65 $\pm$ 12 & & $N^{J/\psi}_{coh}$  & 1213 $\pm$ 240 \\ \hhline{--~--}  
-        $A\times \varepsilon$ & 0.07 & & $\mathcal{L}$ & 143 \\ \hhline{--~--}
+        $N^{J/\psi}_{yield}$ & 65 $\pm$ 12 & & $N^{J/\psi}_{coh}$  & \DIFdelbeginFL \DIFdelFL{1180 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{1213 }\DIFaddendFL $\pm$ \DIFdelbeginFL \DIFdelFL{220 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{240 }\DIFaddendFL \\ \hhline{--~--}  
+        $A\times \varepsilon$ & \DIFdelbeginFL \DIFdelFL{0.0725  }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{0.07 }\DIFaddendFL & & $\mathcal{L}$ & \DIFdelbeginFL \DIFdelFL{143.3 $\pm$ 7.2 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{143 }\DIFaddendFL \\ \hhline{--~--}
         $\varepsilon^{ZDC}_{trig}$ & 0.96 & & $BR$ & 0.0593 \\ \hhline{--~--}
-        $\varepsilon^{J/\psi}_{trig}$ & 0.79 $\pm$ 0.05 & & $\Delta y$ & 0.2 \\ \hhline{--~--} \hhline{--~--}
-        $N^{J/\psi{}}_{coh} (Xn0n)$ & 1213 $\pm$ 240 & & $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ & 356 $\pm$ 71 (stat) $^{+43}_{-50}$ (syst) $\mu$b \\  \hhline{--~--}
+        $\varepsilon^{J/\psi}_{trig}$ & 0.79 \DIFaddbeginFL \DIFaddFL{$\pm$ 0.05 }\DIFaddendFL & & $\Delta y$ & 0.2 \\ \hhline{--~--} \hhline{--~--}
+        $N^{J/\psi{}}_{coh} (Xn0n)$ & \DIFdelbeginFL \DIFdelFL{1180 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{1213 }\DIFaddendFL $\pm$ \DIFdelbeginFL \DIFdelFL{220 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{240 }\DIFaddendFL & & $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ & \DIFdelbeginFL \DIFdelFL{347.7 }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{356 $\pm$ 71 (stat) $^{+43}_{-50}$ (syst) }\DIFaddendFL $\mu$b \\  \hhline{--~--}
       \end{tabular}
       \caption{\label{tab:nJpCoh}The measured quantities used to calculate the 
         corrected number of coherent \JPsi{}, $N^{J/\psi}_{coh} (Xn0n)$ (right),
         and the quantities used to calculate the cross section for UPC \JPsi{} 
         photoproduction, $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ (left).}
     \end{table}  
-    
+
     The coherent J/$\psi$ cross section 
-      $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ requires single-sided neutron
-      emission, Xn0n. 
+      $\frac{d\sigma^{J/\psi}_{coh}}{dy} (Xn0n)$ \DIFdelbegin \DIFdel{includes the emission of at 
+      least one neutron
+      emitted}\DIFdelend \DIFaddbegin \DIFadd{requires single-sided neutron
+      emission}\DIFaddend , Xn0n. 
     Previous measurements carried by the ALICE Collaboration measured the cross
       section without any break-up requirement. 
     In order to compare to their results, the cross section is scaled by the 
       factor 5.06 to account for the increase in cross section. 
     This value was obtained from STARlight. 
-    The resulting cross section is 1.80 $\pm$ 0.37(stat) $^{+0.22}_{-0.25}$ (syst) mb.
- 
-    \begin{figure}[!Hhbt]
+    The resulting cross section is \DIFdelbegin \DIFdel{1.76\textcolor{blue}{$\pm$ Y} }\DIFdelend \DIFaddbegin \DIFadd{1.80 $\pm$ 0.37(stat) $^{+0.22}_{-0.25}$ (syst) }\DIFaddend mb.
+
+    \DIFdelbegin \DIFdel{Figure~X }\DIFdelend \DIFaddbegin \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.8\textwidth]{patkenny_thesis}
-      \caption{Coherent \JPsi{} photoproduction cross section measured by ALICE 
-        and CMS including feed-down and rescaled for nuclear break-up.}
+      \caption{\DIFaddFL{Coherent }\JPsi{} \DIFaddFL{photoproduction cross section measured by ALICE 
+        and CMS including feed-down and rescaled for nuclear break-up.}}
       \label{fig:coJpXsec}
     \end{figure}
-    Figure~\ref{fig:coJpXsec} shows the measured cross section compared to the 
+    \DIFadd{Figure~\ref{fig:coJpXsec} }\DIFaddend shows the measured cross section compared to the 
       ALICE data points, as well as STARligh, AB and LTA models 
-      (see Chapter~\ref{ch:photoNuc}). 
+      (see Chapter~\ref{ch:photoNuc}\DIFaddbegin \DIFadd{)}\DIFaddend . 
     The measured cross section is in agreement with previous measurements, and 
       favors the AB-EPS09 model. 
     Given the measured cross section is significantly below STARlight, nuclear 
@@ -99,7 +101,7 @@
       the neutron was detected in. 
     Low-\pt{} corresponds to the \pt{} < 0.15 GeV, and high \pt{} corresponds
       to 0.15 GeV < \pt < 1 GeV.
-    The filled black circles correspond to candidates that are produced in 
+    The filled black circles correspond to candidates that are \DIFdelbegin \DIFdel{produce }\DIFdelend \DIFaddbegin \DIFadd{produced }\DIFaddend in 
       conjunction with a neutron in ZDC$^{-}$, whereas the open squares 
       indicate a neutron in ZDC$^{+}$.
     \begin{figure*}[!Hhtb]
@@ -141,21 +143,21 @@
       photoproduction \cite{Strikman:2005ze}.
     In coherent photoproduction, the photon couples elastically to the nucleus 
       as a whole.
-    In this case the nucleus will typically stay intact.
+    In this case the nucleus will typically stay \DIFdelbegin \DIFdel{in tacked}\DIFdelend \DIFaddbegin \DIFadd{intact}\DIFaddend .
     Neutron emission then occurs though exchange of an additional photon. 
     The target struck by this additional photon need not be the same nucleus
       that was the target of the photoproduction process. 
     For this reason, the neutron and \JPsi{} in coherent production are not 
       expected to be correlated.
-    Neutron emission in incoherent production is due to the excitation of the 
-      nucleus that occurs when the photon couples to an individual nucleon within 
+    Neutron emission in incoherent production is due to the excitation \DIFaddbegin \DIFadd{of the 
+      }\DIFaddend nucleus that occurs when the photon couples to \DIFdelbegin \DIFdel{the }\DIFdelend \DIFaddbegin \DIFadd{an individual }\DIFaddend nucleon within 
       the nucleus.
-    The excited nucleus then decays by neutron emission. 
-    In this case, the target nucleus for both the \JPsi{} and the neutron 
+    \DIFaddbegin \DIFadd{The excited nucleus then decays by neutron emission. 
+    }\DIFaddend In this case, the target nucleus for both the \JPsi{} and the neutron 
        are the same, and there for correlated. 
 
-    The correlation demonstrated in Fig.~\ref{fig:r2} can potentially offer a 
-      means of separating the two terms of Eq.\ref{eq:ltaRapDist}, which probe 
+    The correlation demonstrated in Fig.~\ref{fig:r2} can \DIFdelbegin \DIFdel{potential }\DIFdelend \DIFaddbegin \DIFadd{potentially }\DIFaddend offer a 
+      means of separating the \DIFdelbegin \DIFdel{part }\DIFdelend \DIFaddbegin \DIFadd{two terms }\DIFaddend of Eq.\ref{eq:ltaRapDist}, which probe 
       different values of $x$. 
     In incoherent events, because the neutron indicates the direction in which
       the target was traveling, the momentum of the photon can be deduced. 
@@ -164,10 +166,11 @@
       photon in the direction opposite the emitted neutron. 
     This would correspond to the low-$x$ contribution to Eq.\ref{eq:ltaRapDist}.
     When the gluons within the nucleus are of higher longitudinal momentum, 
-      the \JPsi{} will travel in the direction of the target and the emitted 
-      neutron. 
-    This gives the high-$x$ contribution. 
-    
+      the \JPsi{} will travel in the direction of the target \DIFdelbegin \DIFdel{, and therefore
+      }\DIFdelend \DIFaddbegin \DIFadd{and }\DIFaddend the emitted 
+      neutron\DIFdelbegin \DIFdel{giving }\DIFdelend \DIFaddbegin \DIFadd{. 
+    This gives }\DIFaddend the high-$x$ contribution. 
+
     The measurement of $R_{opp/same}$ shown in Fig.~\ref{fig:r2} agrees 
       qualitatively with the predictions of \cite{Guzey:2013jaa}.
     This indicates that neutron tagging can both aid in separating the coherent
@@ -220,13 +223,13 @@
         \wedge y_{n}^{-}}{y^{-}_{\mu\mu} \wedge y_{n}^{-} + y^{+}_{\mu\mu} 
         \wedge y_{n}^{+}}.
     \end{equation}
-    
+
     It is seen that the difference between corrected and uncorrected results is
       very small. 
     Other uncertainties cancel. 
     In this case cuts related to the acceptance and efficiencies corrections 
       are not necessary and thus they are released.
-    
+
     Figure~\ref{fig:PtcorrandRation} gives \pt distributions of the \JPsi 
       when the \JPsi{} candidate and neutron have the opposite rapidity 
       direction or when they have the same rapidity direction for low-\pt and 
@@ -236,14 +239,14 @@
     In is send from this plot that in the case of the low-\pt \JPsi this 
       $R_{opp/same}$ ratio is close to 1 and is decreasing when the \pt of
       \JPsi{} increases.
-      
+
     Compiled for \pt$<$1.05~GeV, $R_{opp/same}$ ratio between the \pt 
       distribution of the \JPsi having neutron emitted in the opposite 
       direction and  the \JPsi having the neutron emitted in the same
       direction is shown on Fig.~\ref{fig:r2}. 
     Integrated over rapidity, separately for $y<0$ and $y>0$ ratios from 
       Table~\ref{tab:corrneutronjpsieffcorr} are shown in the 
-    
+
     \begin{figure*}[!Hhtb]
       \begin{center}
         \includegraphics[angle=0,width=0.52\textwidth]{RCompiledYCorr}
@@ -254,7 +257,7 @@
           from $\gamma \gamma$ sample. }
       \end{center}
     \end{figure*}
-    
+
     From the Tab~\ref{tab:corrneutronjpsi} and the Fig.~\ref{fig:rNeutDimuCorr} 
       it is seen as expected that there is no correlation between the \JPsi 
       rapidity and neutron rapidity in the case of the low-\pt \JPsi and 
@@ -277,7 +280,7 @@
         MeV.}
       \label{fig:coherentBreakUp}
     \end{figure}
-   
+
     Fig.~\ref{fig:coherentBreakUp} and Fig.~\ref{fig:incoherentBreakUp} compare
       the raw break up ratios two STARlight and LTA predictions. 
     \begin{figure}[!Hhtb]
@@ -307,7 +310,7 @@
         with statistical uncertainty.}
       \end{center}
     \end{table}
-    
+
     \begin{table}[h]
       \begin{center}
         \begin{tabular}{|c|c|c|c|c|}
@@ -354,7 +357,7 @@
     UPC events can provide this needed knowledge. 
     This thesis contributes to the understanding of the initial state through
       the measurement of the UPC \JPsi{} photoproduction cross section. 
-  
+
     Ultra-peripheral collisions are clean probe of the initial state. 
     In UPC \JPsi{} photoproduction, the nuclei interact through the 
       electromagnetic force precluding the possibility of creating a collective
@@ -376,8 +379,25 @@
     For the gluon density based calculations, there is a wide discrepancy
       between the predictions, and photoproduction cross sections constrain which
       gluon density models are viable. 
-  
-    The analysis in this thesis consists of three major components, development
+
+    \DIFdelbegin \DIFdel{In this thesis, the CMS detector was used to measure the coherent UPC }%DIFDELCMD < \JPsi{} 
+%DIFDELCMD <       %%%
+\DIFdel{photoproduction cross section.
+    The three major subsystems of CMS were used, the tracker, 
+      the muon system, the calorimeter system.
+    The tracker records the position charge excitations in the silicon due to 
+      particle hits, which are used to reconstruct the trajectory of charged 
+      particles. 
+    The muon system is comprised of the three gaseous detectors, the DTs, the 
+      RPC, and the CSCs, which record charge deposits as high momentum particles
+      ionize the gas within the detector.
+    The muon system primary purpose is for triggering on and identifying muons.
+    The calorimeter system measures the energy of deposited by particle induced
+      showers as a means of reconstructing neutral particles and jets.
+    }%DIFDELCMD < 
+
+%DIFDELCMD <     %%%
+\DIFdelend The analysis in this thesis consists of three major components, development
       of a trigger, estimation of efficiency, and measurement of signal events.
     The trigger development involved designing a trigger based on rate estimates
       from past data that ensured a sample that could be used for both measuring
@@ -395,13 +415,13 @@
     The statistical uncertainties were taken from the template fit.
     The systematic uncertainties were estimated by varying the method used on 
       each component of the analysis. 
-  
-    The UPC \JPsi{} photoproduction cross section in the Xn0n break-up mode, $\frac{d\sigma^{J/\psi}_{co}}{dy}$ (Xn0n),
-      was found to be 356 $\pm$ 71 (stat) $^{+43}_{-50}$ (syst) $\mu$b. 
+
+    The UPC \JPsi{} photoproduction cross section \DIFaddbegin \DIFadd{in the Xn0n break-up mode}\DIFaddend , $\frac{d\sigma^{J/\psi}_{co}}{dy}$ \DIFaddbegin \DIFadd{(Xn0n)}\DIFaddend ,
+      was found to be \DIFdelbegin \DIFdel{\textcolor{red}{368 $\pm$ 38 $\mu$b}}\DIFdelend \DIFaddbegin \DIFadd{356 $\pm$ 71 (stat) $^{+43}_{-50}$ (syst) $\mu$b}\DIFaddend . 
     When rescaled by a factor of 5.06 to account for the difference of break-up mode between 
       the measurement in this thesis and the ALICE result in~\cite{Abelev:2012ba,Abbas:2013oua}, the 
-      result of 1.80 $\pm$ 0.37(stat) $^{+0.22}_{-0.25}$ (syst) mb was found to be consistent with the 
-      predictions in \cite{pQCD2013.02}.  
+      result of \DIFdelbegin \DIFdel{\textcolor{red}{1.86 $\pm$ 19 mb} }\DIFdelend \DIFaddbegin \DIFadd{1.80 $\pm$ 0.37(stat) $^{+0.22}_{-0.25}$ (syst) mb }\DIFaddend was found to be consistent with the 
+      predictions in \cite{pQCD2013.02}\DIFdelbegin \DIFdel{of \textcolor{red}{1.8 mb}}\DIFdelend .  
     The calculation in \cite{pQCD2013.02} is also favored by the ALICE measurements. 
     Of the gluon distributions used in \cite{pQCD2013.02}, a gluon distribution with 
       moderately strong gluon shadowing, EPS09~\cite{Eskola:2009uj}, is consistent with both the results from this
@@ -409,11 +429,11 @@
     This indicates that at the scale of the mass of the \JPsi{} the nucleus gluon density is 
       significantly suppressed compared to the gluon densities of a nucleon.
     At this scale the nucleus can not be represented as a collection of nucleons as in the 
-      Glauber like model described in \cite{vmd1999}.
-    In addition, the \JPsi{}-neutron rapidity correlation shown in Fig.~\ref{fig:r2} by 
+      Glauber like model described in \cite{vmd1999}\DIFaddbegin \DIFadd{.
+    In addition, the }\JPsi{}\DIFadd{-neutron rapidity correlation shown in Fig.~\ref{fig:r2} by 
       by the $R_{opp/same}$ ratio demonstrates the potential to separate the low-$x$ 
-      and high-$x$ contributions to the photoproduction cross section.
-  
+      and high-$x$ contributions to the photoproduction cross section}\DIFaddend .
+
     The measurement in this thesis confirms the ability to increase the knowledge of the 
       initial state through the exploration of UPC events. 
     This confirmation opens the door to additional measurements in this growing field of UPC

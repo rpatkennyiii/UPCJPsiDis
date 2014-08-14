@@ -20,8 +20,8 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces The $E_{T}$ resolution of HCAL as a function of $|\eta |$ and $E_{T}$~\cite {tCmsE}.\relax }}{40}{figure.caption.20}
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The CMS muon system showing the four DT stations in the barrel (MB1-MB4), the four CSC stations in the endcap (ME1-ME4), and the RPC stations.\relax }}{43}{figure.caption.21}
 \contentsline {figure}{\numberline {3.7}{\ignorespaces Schematic of the DT chambers and an individual DT cell.\relax }}{44}{figure.caption.22}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic of a RPC cell.\relax }}{44}{figure.caption.23}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic of the CSC chambers and an individual CSC cell.\relax }}{45}{figure.caption.24}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Schematic of a RPC cell.\relax }}{45}{figure.caption.23}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Schematic of the CSC chambers and an individual CSC cell.\relax }}{46}{figure.caption.24}
 \contentsline {figure}{\numberline {3.10}{\ignorespaces The momentum resolution for muons using only the tracker and the whole muon system in the barrel (left) and end cap (right)~\cite {tCmsE}.\relax }}{46}{figure.caption.25}
 \contentsline {figure}{\numberline {3.11}{\ignorespaces The amount of material in CMS as a function of $\eta $ in number of interaction lengths~\cite {tCmsE}.\relax }}{47}{figure.caption.26}
 \addvspace {10\p@ }
@@ -29,9 +29,9 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces The fraction of signal in time slice 5 over time slice 4 as a function of the signal in time slice 5 in ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{51}{figure.caption.28}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ (right)\relax }}{52}{figure.caption.29}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces ZDC noise spectra from ZDC$^{-}$ EM section (upper left), ZDC$^{+}$ EM section (upper right), ZDC$^{-}$ HAD section (lower left), and ZDC$^{+}$ HAD section (lower right) from out of time time slices.\relax }}{53}{figure.caption.30}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using the comparison reconstruction method\relax }}{54}{figure.caption.31}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of the nominal (red) ZDC reconstruction method and the comparison (blue) method for ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{55}{figure.caption.32}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Effects of requiring in-time signal in successively more ZDC hadronic channels, no timing, at least one (red), at least two (green), at least three (blue), and all four (yelow) HAD channels have a maximum signal in the fourth time slice.\relax }}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ (right) using the alternative reconstruction method\relax }}{55}{figure.caption.31}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Comparison of the nominal (red) ZDC reconstruction method and the alternative (blue) method for ZDC$^{-}$ (left) and ZDC$^{+}$ (right).\relax }}{55}{figure.caption.32}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Effects of requiring in-time signal in successively more ZDC$^{-}$ hadronic channels, no timing, at least one (red), at least two (green), at least three (blue), and all four (yelow) HAD channels have a maximum signal in the fourth time slice.\relax }}{56}{figure.caption.33}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Effect of ZDC signal timing requirements after noise subtraction.\relax }}{57}{figure.caption.34}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Coherent excess in inclusive $J/\psi $ $p_{T}$ spectrum.\relax }}{62}{figure.caption.37}
@@ -54,12 +54,10 @@
 \contentsline {figure}{\numberline {6.16}{\ignorespaces The trigger efficiency from tag and probe averaged over candidates in each $|y|$ bin.\relax }}{84}{figure.caption.55}
 \contentsline {figure}{\numberline {6.17}{\ignorespaces The acceptance times averaged trigger efficiency from tag and probe.\relax }}{84}{figure.caption.56}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Coherent, incoherent, and photon-photon process $p_{T}${} template fit to data.\relax }}{87}{figure.caption.59}
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Various mass distribution fits and the corresponding $p_{T}${} template fit.\relax }}{88}{figure.caption.60}
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Mass fit to J/$\psi ${} using Gaussian (Left) and Crystal Ball (Right) for the signal and a polynomial for the background\relax }}{92}{figure.caption.65}
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Simultaneous fit to the mass and $p_{T}${} using mass templates for the mass fit. \relax }}{93}{figure.caption.66}
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Tag and probe trigger efficiencies from counting (left) compared to fitting (right).\relax }}{94}{figure.caption.67}
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Various mass distribution fits and the corresponding $p_{T}${} template fit.\relax }}{87}{figure.caption.59}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Simultaneous fit to the mass and $p_{T}${} using mass templates for the mass fit. \relax }}{92}{figure.caption.64}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Tag and probe trigger efficiencies from counting (left) compared to fitting (right).\relax }}{93}{figure.caption.65}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {8.1}{\ignorespaces Coherent J/$\psi ${} photoproduction cross section measured by ALICE and CMS including feed-down and rescaled for nuclear break-up.\relax }}{98}{figure.caption.70}
-\contentsline {figure}{\numberline {8.2}{\ignorespaces Rapidity distribution of J/$\psi ${} in the case of the events having the neutron in negative and positive rapidity for the low-$p_{T}${} J/$\psi ${} (left), high-$p_{T}${} J/$\psi ${} (right) and dimuons from $\gamma \gamma $ sample (bottom). \relax }}{99}{figure.caption.71}
-\contentsline {figure}{\numberline {8.3}{\ignorespaces Ratio between the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the opposite direction and the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same direction.\relax }}{100}{figure.caption.72}
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Coherent J/$\psi ${} photoproduction cross section measured by ALICE and CMS including feed-down and rescaled for nuclear break-up.\relax }}{97}{figure.caption.68}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Rapidity distribution of J/$\psi ${} in the case of the events having the neutron in negative and positive rapidity for the low-$p_{T}${} J/$\psi ${} (left), high-$p_{T}${} J/$\psi ${} (right) and dimuons from $\gamma \gamma $ sample (bottom). \relax }}{98}{figure.caption.69}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Ratio between the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the opposite direction and the transverse momentum distribution of the $J/\psi $ when $J/\psi $ and neutron have the same direction.\relax }}{99}{figure.caption.70}

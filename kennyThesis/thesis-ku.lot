@@ -13,10 +13,10 @@
 \contentsline {table}{\numberline {6.3}{\ignorespaces ZDC trigger efficiencies for ZDC reconstruction method 1 and 2\relax }}{85}{table.caption.57}
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {7.1}{\ignorespaces Summary of systematic uncertainties\relax }}{86}{table.caption.58}
-\contentsline {table}{\numberline {7.2}{\ignorespaces ZDC trigger efficiencies using the nominal and comparison ZDC reconstructions for trigger sample that require a pixel track.\relax }}{89}{table.caption.61}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Thresholds from combined HF noise distributions and two-side noise distributions.\relax }}{90}{table.caption.62}
-\contentsline {table}{\numberline {7.4}{\ignorespaces HF noise thresholds for keeping various fractions of the noise sample for RecHit and CaloTower.\relax }}{91}{table.caption.63}
-\contentsline {table}{\numberline {7.5}{\ignorespaces Number of upc dimuon candidates with p$_{T} <$ 1 GeV when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{91}{table.caption.64}
-\contentsline {table}{\numberline {7.6}{\ignorespaces ZDC trigger efficiencies using the nominal and comparison ZDC reconstructions for trigger sample that do no require a pixel track.\relax }}{95}{table.caption.68}
+\contentsline {table}{\numberline {7.2}{\ignorespaces ZDC trigger efficiencies using the nominal and alternative ZDC reconstructions for trigger sample that require a pixel track.\relax }}{89}{table.caption.60}
+\contentsline {table}{\numberline {7.3}{\ignorespaces Thresholds from combined HF noise distributions and two-side noise distributions.\relax }}{90}{table.caption.61}
+\contentsline {table}{\numberline {7.4}{\ignorespaces HF noise thresholds for keeping various fractions of the noise sample for RecHit and CaloTower.\relax }}{90}{table.caption.62}
+\contentsline {table}{\numberline {7.5}{\ignorespaces Number of upc dimuon candidates with p$_{T} <$ 1 GeV when changing HF calorimeter cuts for RecHit and CaloTower.\relax }}{91}{table.caption.63}
+\contentsline {table}{\numberline {7.6}{\ignorespaces ZDC trigger efficiencies using the nominal and alternative ZDC reconstructions for trigger sample that do no require a pixel track.\relax }}{94}{table.caption.66}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8.1}{\ignorespaces The measured quantities used to calculate the corrected number of coherent J/$\psi ${}, $N^{J/\psi }_{coh} (Xn0n)$ (right), and the quantities used to calculate the cross section for UPC J/$\psi ${} photoproduction, ${\begingroup d\sigma ^{J/\psi }_{coh}\endgroup \over dy} (Xn0n)$ (left).\relax }}{97}{table.caption.69}
+\contentsline {table}{\numberline {8.1}{\ignorespaces The measured quantities used to calculate the corrected number of coherent J/$\psi ${}, $N^{J/\psi }_{coh} (Xn0n)$ (right), and the quantities used to calculate the cross section for UPC J/$\psi ${} photoproduction, ${\begingroup d\sigma ^{J/\psi }_{coh}\endgroup \over dy} (Xn0n)$ (left).\relax }}{96}{table.caption.67}

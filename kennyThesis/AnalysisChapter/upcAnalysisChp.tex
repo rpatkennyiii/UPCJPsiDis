@@ -1,4 +1,4 @@
-\chapter{\label{ch:analysis} Analysis}
+\chapter{\label{ch:analysis}Analysis}
   In this chapter the various parts of the analysis are explained. 
   In Section~\ref{sec:mcSim}, the simulations used to estimate the detector's 
     ability to measure UPC processes are discussed. 
@@ -7,7 +7,7 @@
     Section~\ref{sec:sigEx}.
   The determination of the detector's efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
-  Finally, Section~\ref{sec:sysCheck} lays out the systematic uncertainties 
+  Finally, in Chapter~\ref{sec:sysCheck} lays out the systematic uncertainties 
     for the measurement. 
 
   \section{\label{sec:mcSim} Physics generators and Monte Carlo simulations}
@@ -58,9 +58,9 @@
       was developed.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process. 
-    In step 2, the STARlight output file is converted to the Les Houches (LHE) 
-      format \cite{lheFormat}, and the momentum of the parent \JPsi{} or the 
-      initial photon-photon pair is added to the record of each event.
+    In step 2, the STARlight output file is converted to the Les Houches Event 
+      (LHE) format \cite{lheFormat}, and the momentum of the parent \JPsi{} or 
+      the initial photon-photon pair is added to the record of each event.
     The event record produced by STARlight only contains the final state 
       particles.
     To process the events in parallel, the STARlight files are subdivided 
@@ -157,7 +157,7 @@
       \label{fig:genHXAngle}
     \end{figure}
 
-    \subsection{MC and data comparisons}
+    Figures \ref{fig:jpsiAbsRapCoherent}, {fig:jpsiPhiCoherent} show  the rapidity, $\varphi$, and  \pt{} distributions of reconstructed coherent \JPsi{} MC from STARLight and data. All distributions are normalized to unity. The rapidity distribution of the STARLight is very slightly higher than for the data, with a difference in the mean rapidity of $\approx 0.1$ unit.  The $\varphi$, and  \pt{} distributions are for STARLight and data are both very similar. 
       \begin{figure}[h]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
@@ -205,8 +205,8 @@
         due to the higher selectivity of physics triggers. 
       These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Chapter~\ref{ch:trigg}.
-      The \JPsi{} events discussed in this thesis were obtained analyzing the 
-        sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
+      The \JPsi{} events discussed in this thesis were obtained by analyzing 
+        the sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered monitoring sample was recorded for the sake of estimating
         efficiencies.
       Lastly, a zero bias sample was recored for investigating the ZDC and the 
@@ -224,7 +224,7 @@
       By pairing the muon trigger with the ZDC on the L1, the noise contribution
         was reduced from the noise contribution from either of the two 
         sub-detectors to the noise coincidence between the two sub-detectors. 
-      Contributions from hadronic interactions are reduced by the veto on the 
+      Contributions from hadronic interactions were reduced by the veto on the 
         BSCs.
       This trigger was designed to balance reducing the rate with maximizing 
         the efficiency, allowing for the data to be recorded without 
@@ -236,7 +236,7 @@
         consistent with at least one neutron in either of the ZDCs.
       Neutron production is a much more common process than the UPC \JPsi{} 
         production.
-      This process has cross sections on the order of 100 b compared
+      This process has cross sections on the order of 200 b compared
         to 10 mb predicted for \JPsi{} production. 
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
@@ -278,7 +278,7 @@
     \subsection{Event selection cuts}
       The analysis described in this thesis focuses on UPC \JPsi{}s decaying to 
         muons. 
-      The trigger used for this analysis recored 346841 events.
+      The trigger used for this analysis recorded 346841 events.
       A set of off-line cuts were applied to increase the relative contribution 
         of UPC events to background processes. 
       Two sets of event selection cuts were applied to reject background events. 
@@ -332,7 +332,7 @@
           Nearly all hadronic interactions (about 98\%) produce particles in 
             the range $3<|\eta|<5$ covered by the HF detector.
           By requiring that the energy deposits in HF resemble noise, nearly all
-            elastic hadronic collisions are expected to be rejected.
+            inelastic hadronic collisions are expected to be rejected.
   	    \item Energy in the ZDCs consistent with neutrons on only one side 
             of the interaction point.
           In hadronic interactions both nuclei break-up. 
@@ -540,7 +540,7 @@
       The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
         is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
         where $N^{\mu}_{reco}$ is the number reconstructed muons obtained 
-        after the full CMS detector simulation and that passed the standard
+        after the full CMS detector simulation that passed the standard
         muon quality cuts, and $N^{\mu}_{gen}$ is the number of generated 
         muons from STARlight.
       \begin{figure}[!Hhtb]
@@ -648,8 +648,8 @@
         \label{fig:triggerEffDiMu}
       \end{figure}
       The dimuon trigger efficiency ranges from about 50\% to 90\%. 
-      As expected the \JPsi{} trigger efficiency increase with rapidity since 
-        the longitudinal momentum of the \JPsi{} is given 
+      As expected the \JPsi{} trigger efficiency increases with rapidity since 
+        the longitudinal momentum of the \JPsi{} is given by 
         $p_Z= M_{J/\psi} \cdot sinh(y)$. 
       Thus \JPsi{} mesons at forward rapidity distribute more momentum to their
         daughter muons which therefore have a greater chance of punching 
@@ -670,7 +670,7 @@
       The acceptance factor of roughly 7\% from the MC was found to be the main
         contributor to the total efficiency. 
       The interplay of the polarization of the \JPsi{} and the material in 
-        detector drive down the efficiency by creating an effective momentum 
+        detector drives down the efficiency by creating an effective momentum 
         threshold for detection (see Section~\ref{sec:mcSim}).
       The reconstruction efficiency of the daughters range between 
         20\%-60\% for muons in the defined detectability range. 
@@ -715,8 +715,8 @@
         \centering
         \begin{tabular}{|c|c|c|c|c|}
            \hline ZDC Side & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-           ZDC$^{+}$ & 73028  & 71706  & 0.9819  $\pm$ 0.005  \\ \hline
-           ZDC$^{-}$ & 76132  & 71859  & 0.9439  $\pm$ 0.005  \\ \hline
+           ZDC$^{+}$ & 73028  & 71706  & 0.9819  $\pm$ 0.0037 \\ \hline
+           ZDC$^{-}$ & 76132  & 71859  & 0.9439  $\pm$ 0.0035 \\ \hline
         \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
           2}

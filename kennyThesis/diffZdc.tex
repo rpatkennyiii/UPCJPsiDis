@@ -14,10 +14,10 @@
       sits at the bottom of the ZDCs dynamic range, a new ZDC reconstruction 
       method was devised. 
     This new reconstruction method was then used to establish 
-      thresholds for one and more than one neutron in each ZDC. 
+      \DIFdelbegin \DIFdel{a one neutron and many neutron threshold}\DIFdelend \DIFaddbegin \DIFadd{thresholds for one and more than one neutron in each ZDC}\DIFaddend . 
     This section describes the ZDC signal reconstruction and how the neutron 
       thresholds on this signal were set.
-    
+
     \subsection{ZDC signal reconstruction}
       The signal from each ZDC is built up from the pulse shapes for each of 
         the 18 individual ZDC channels. 
@@ -26,7 +26,7 @@
       Counting from 0, the 4th time slice is synced with the timing of the rest
         of the detector and corresponds to when the products of the recorded 
         collision reached the ZDC.
-      The signal is therefore taken from the 4th time slice.
+      The \DIFdelbegin \DIFdel{channel }\DIFdelend signal is therefore taken from the 4th time slice.
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{zdcPulseShape}
@@ -81,7 +81,7 @@
           ZDC$^{+}$ (right).}
         \label{fig:zdcTs4OvTs5VTs5}
       \end{figure}
-      
+
       When summing the 9 channels in each ZDC only channels with signals above 
         zero in time slices 4 and 5 were included. 
       The EM, electromagnetic, section of the calorimeter is more densely 
@@ -96,9 +96,9 @@
       Figure~\ref{fig:zdcM2Fit} shows the weighted sum of the EM and 
         HAD sections for  ZDC$^{-}$ and  ZDC$^{+}$ for the zero bias 
         dataset.
-      The neutron spectrum for this dataset is not biased since the 
+      The neutron spectrum for this dataset is \DIFaddbegin \DIFadd{not }\DIFaddend biased since the 
         trigger only required that both beams were present in CMS. 
-      This dataset does, however, include a significant electronic noise contribution due
+      This \DIFaddbegin \DIFadd{dataset }\DIFaddend does, however, include a significant electronic noise contribution due
         to events where no neutrons are emitted in the direction of the ZDC.
       It is clear from Fig.~\ref{fig:zdcM2Fit} that the gain of  
         ZDC$^{+}$ is lower than that of ZDC$^{-}$. 
@@ -107,7 +107,8 @@
 
       To determine the thresholds for one and multiple neutrons, the ZDC$^{+}$ 
         and ZDC$^{-}$ spectra were 
-        each fit to the sum of four Gaussians. 
+        \DIFdelbegin \DIFdel{fit.
+      Four Gaussian functions were combined to fit the spectra}\DIFdelend \DIFaddbegin \DIFadd{each fit to the sum of four Gaussians}\DIFaddend . 
       The electronic noise was fit to a Gaussian around zero.
       The one, two, and three neutron peaks are fit to Gaussians that are 
         successively broader.
@@ -115,10 +116,10 @@
         one neutron peak. 
       \begin{figure}[!Hh]
         \centering
-        $
+        $ 
           \begin{array}{cc}
-            \includegraphics[width=0.45\textwidth]{zdcFit45Neg.pdf} &
-            \includegraphics[width=0.45\textwidth]{zdcFit45Pos.pdf}
+            \includegraphics[width=0.45\textwidth]{zdcFit45Neg} &
+            \includegraphics[width=0.45\textwidth]{zdcFit45Pos}
           \end{array} 
         $
         \caption{Fit to the signal spectra for ZDC$^{-}$ (left) and ZDC$^{+}$ 
@@ -140,7 +141,7 @@
       These modes can be hard to identify because the single neutron peak in 
         ZDC$^{+}$ overlaps with the noise peak at zero.
       To identify events where the ZDCs only measured noise, the noise
-        spectra were measured directly.
+        \DIFdelbegin \DIFdel{spectrum }\DIFdelend \DIFaddbegin \DIFadd{spectra }\DIFaddend were measured directly.
       Placing an additional criteria based on the ZDCs noise distributions for
         when the ZDCs are devoid of signal provides assurance that the events 
         tagged as single sided events are truly single sided.
@@ -187,11 +188,11 @@
 
     \subsection{\label{sec:zdcCompare}ZDC reconstruction method comparison}
       In this section the nominal ZDC reconstruction method designed for this
-        thesis is compared to an alternative method.
+        thesis is compared to an alternative \DIFdelbegin \DIFdel{comparison }\DIFdelend method.
       This additional method, used in previous ZDC measurements, differs 
         in the way the signal time slices are used to calculate the signal from
         each channel.
-      In the additional alternative method, the signal is taken from the sum of 
+      In the additional \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method, the signal is taken from the sum of 
         time slices 4, 5, and 6.
       To estimate the event by event noise pedestal the sum of time slice 
         1 and 2 are used. 
@@ -200,7 +201,7 @@
         weighted by a factor of 3/2 to account for the differing number of 
         noise versus signal time slices.
       As in the nominal method described in Section~\ref{sec:breakUpDet}, 
-        the alternative method combines the channels to create a signal 
+        the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method combines the channels to create a signal 
         measurement from the whole of each side of the ZDC, one
         measurement for ZDC$^{+}$, and one for ZDC$^{-}$.
       The noise subtracted signal from each of the HAD channels are added 
@@ -210,9 +211,10 @@
       After the weighting the EM and HAD channels are added to each to create
         one measurement for ZDC$^{+}$ and another measurement for ZDC$^{-}$.
       Figure~\ref{fig:zdcM1Fit} shows the spectra for ZDC$^{+}$ and ZDC${-}$ 
-        using the alternative method. 
-      The same fit used for the nominal method is applied to the alternative 
-        method. 
+        using the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method. 
+      The same fit used for the nominal method is applied to the \DIFdelbegin \DIFdel{comparison 
+        }\DIFdelend \DIFaddbegin \DIFadd{alternative 
+        }\DIFaddend method. 
       As in the nominal method, the single neutron threshold is set to 2$\sigma$
         below the mean from the fit to the one neutron peak.
       The multi-neutron threshold was set to 2$\sigma$ above the one neutron
@@ -224,52 +226,52 @@
           \includegraphics[width=0.45\textwidth]{zdcPlusZBFitTimeCut}
         \end{array} $
         \caption{Fit to charge spectrum from ZDC$^{-}$ (left) and ZDC$^{+}$ 
-          (right) using the alternative reconstruction method}
+          (right) using the \DIFdelbeginFL \DIFdelFL{comparison }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{alternative }\DIFaddendFL reconstruction method}
         \label{fig:zdcM1Fit}
       \end{figure}
 
-      The advantage of the alternative method is that by using multiple signal
+      The advantage of the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method is that by using multiple signal
         and noise time slices the signal and noise are effectively averaged
         reducing time slice to time slice fluctuations.
       However, by using time slices 1 and 2 for measuring the noise, the noise
         can only be measured half the time due to unmeasurable negative 
         fluctuations of the dominant low frequency component of the noise.
-      The nominal method relative to the alternative method separates low signal
+      The nominal method relative to the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method separates low signal
         from the noise more effectively  for both sides of the ZDC.
       This is particularly important for ZDC$^{+}$ where the 1st HAD section
         had a lower gain than the other sections. 
       The ZDC$^{+}$ and ZDC$^{-}$ signals near the one neutron peak using the
-        alternative and nominal reconstruction methods were plotted for comparison in 
+        \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend and nominal reconstruction methods were plotted for comparison in 
         Fig.~\ref{fig:zdcSpec2v1}.
       \begin{figure}[h]
         \centering
         \includegraphics[width=\textwidth]{zdcSpec2v1}
         \caption{Comparison of the nominal (red) ZDC reconstruction 
-          method and the alternative (blue) method for ZDC$^{-}$ (left) and 
+          method and the \DIFdelbeginFL \DIFdelFL{comparison }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{alternative }\DIFaddendFL (blue) method for ZDC$^{-}$ (left) and 
           ZDC$^{+}$ (right).}
         \label{fig:zdcSpec2v1}
       \end{figure}
       In Fig.~\ref{fig:zdcSpec2v1}, the shrinking of width of the noise peak 
         around zero in the nominal method versus the old method is apparent for
         both ZDC$^{+}$ and ZDC$^{-}$.
-      For the alternative method no single neutron peak is resolved in ZDC$^{+}$,
+      For the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method no single neutron peak is resolved in ZDC$^{+}$,
         whereas the single neutron peak is resolved using the nominal method. 
 
       Timing cuts were applied to enhance the signal relative to the background
         in order to resolve the one neutron peak in ZDC$^{+}$ using the 
-        alternative method. 
+        \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method. 
       Because the products of the collision are synced with time slice 4, noise
         can be rejected by selecting channels where the maximum signal falls 
         into time slice 4.
       The noise will have no preferred time slice (see Fig.~\ref{fig:zdcPulseShape}). 
-      Using this fact, neutron events can be selected by requiring that the
+      Using this fact, \DIFdelbegin \DIFdel{signal can be preferably }\DIFdelend \DIFaddbegin \DIFadd{neutron events can be }\DIFaddend selected by requiring that the
         hadronic channels of the ZDC have a peak signal in the fourth time 
         slice.
       Through these timing cuts the single neutron peak was recovered using the
-       alternative reconstruction for ZDC$^{+}$.
+       \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend reconstruction for ZDC$^{+}$.
 
       To examine the effectiveness of the timing cuts, event by event noise 
-        subtraction was removed from the alternative reconstruction.
+        subtraction was removed from the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend reconstruction.
       The signal from each channel was taken from time slices 4,5, and 6 with
         out subtracting 1 and 2.
       The signal spectrum from ZDC$^{-}$ was then plotted with the result
@@ -278,7 +280,7 @@
         \centering
         \includegraphics[width=0.6\textwidth]{zdcMinusSingleNuNoInc}
         \caption{Effects of requiring in-time signal in successively more 
-          ZDC$^{-}$ hadronic channels, no timing, at least one (red), at least two (green),
+          ZDC\DIFaddbeginFL \DIFaddFL{$^{-}$ }\DIFaddendFL hadronic channels, no timing, at least one (red), at least two (green),
             at least three (blue), and all four (yelow) HAD channels have a maximum signal
             in the fourth time slice.}
         \label{fig:zdcTimingCuts}
@@ -288,7 +290,7 @@
       Figure~\ref{fig:zdcTimingCuts} demonstrates that the single neutron peak 
         can be recovered from the noise using timing cuts alone. 
 
-      Using the alternative noise subtraction method, the same signal that emerges
+      Using the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend noise subtraction method, the same signal that emerges
         from the timing cuts alone appear without timing cuts.
        \begin{figure}[h]
         \centering
@@ -309,7 +311,7 @@
         timing requirement method in ZDC$^{-}$ by showing that the same
         signal emerges from the noise subtraction method as the timing method.
       Fig.~\ref{fig:zdcSpec2v1} demonstrates the correspondence between
-        the nominal noise subtraction method and the alternative method in 
-        ZDC$^{-}$ where the signal is better separated from the electronic noise. 
+        the nominal noise subtraction method and the \DIFdelbegin \DIFdel{comparison }\DIFdelend \DIFaddbegin \DIFadd{alternative }\DIFaddend method in 
+        ZDC$^{-}$ where \DIFaddbegin \DIFadd{the }\DIFaddend signal is better separated from the electronic noise. 
       This provides confidence that the signal seen in ZDC$^{+}$ using 
         the nominal method is the one neutron peak.

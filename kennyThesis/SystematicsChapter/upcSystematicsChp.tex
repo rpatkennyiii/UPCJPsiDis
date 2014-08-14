@@ -1,5 +1,6 @@
 \chapter{\label{sec:sysCheck}Systematic uncertainties}
-  
+  In this chapter the methods used to estimate the systematic 
+    uncertainties are described. 
   Table~\ref{tab:sumsyst} shows the systematic errors that were estimated.
   The method used to separate the coherent from the photon-photon process 
    is the most dominant uncertainty.
@@ -28,13 +29,6 @@
   \end{table}
 
   \section{Template fit normalization}
-    \begin{figure}[!Hhtb]
-      \centering
-      \includegraphics[width=.6\textwidth]{ptOnly}
-      \caption{Coherent, incoherent, and photon-photon process \pt{} template fit to data.}
-      \label{fig:ptTempFit}
-    \end{figure}
-   
     The \pt{} template fit depends on the functions chosen for fitting
       the mass distribution.
     As described in Section~\ref{sec:sigEx}, the similarity of the 
@@ -107,28 +101,28 @@
     Table~\ref{tab:zdcEfficiencySys} shows the results from the 
       three samples, which require a reconstructed pixel track in the event to 
       reduce noise. 
-    Both the nominal and comparison ZDC reconstruction methods are shown.
+    Both the nominal and alternative ZDC reconstruction methods are shown.
     \begin{table}
       \centering
       \begin{tabular}{|c|c|c|c|c|}
         \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
          \multicolumn{5}{|c|}{(ZDC$^{+}$ or ZDC$^{-}$) and 1 pixel track} \\ \hline 
-         ZDC$^{-}$ & comparison & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
+         ZDC$^{-}$ & alternative & 72946  & 71688 & 0.982 $\pm$ 0.005 \\ \hline
          ZDC$^{-}$ & nominal & 73028  & 71706  & 0.982  $\pm$ 0.005  \\ \hline
-         ZDC$^{+}$ & comparison & 76137  & 71786  & 0.943  $\pm$ 0.005  \\ \hline
+         ZDC$^{+}$ & alternative & 76137  & 71786  & 0.943  $\pm$ 0.005  \\ \hline
          ZDC$^{+}$ & nominal & 76132  & 71859  & 0.944  $\pm$ 0.005  \\ \hline
          \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 EG trigger } \\ \hline 
-         ZDC$^{-}$ & comparison & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
+         ZDC$^{-}$ & alternative & 613758  & 602123  & 0.9810 $\pm$ 0.0018 \\ \hline
          ZDC$^{-}$ & nominal & 614014  & 601863  & 0.9802 $\pm$ 0.0018 \\ \hline
-         ZDC$^{+}$ & comparison & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
+         ZDC$^{+}$ & alternative & 643905  & 602671  & 0.9360  $\pm$ 0.0017 \\ \hline
          ZDC$^{+}$ & nominal & 647888  & 603089  & 0.9309  $\pm$ 0.0017 \\ \hline
          \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$), 1 pixel track, and L1 Muon trigger} \\ \hline 
-         ZDC$^{-}$ & comparison & 65466  & 63376  & 0.968 $\pm$ 0.005  \\ \hline
+         ZDC$^{-}$ & alternative & 65466  & 63376  & 0.968 $\pm$ 0.005  \\ \hline
          ZDC$^{-}$ & nominal & 65543  & 63358  & 0.967 $\pm$ 0.005 \\ \hline
-         ZDC$^{+}$ & comparison & 71929  & 63512  & 0.883  $\pm$ 0.005 \\ \hline
+         ZDC$^{+}$ & alternative & 71929  & 63512  & 0.883  $\pm$ 0.005 \\ \hline
          ZDC$^{+}$ & nominal & 72932  & 63582  & 0.872  $\pm$ 0.005 \\ \hline
        \end{tabular}
-      \caption{ZDC trigger efficiencies using  the nominal and comparison 
+      \caption{ZDC trigger efficiencies using  the nominal and alternative 
         ZDC reconstructions for trigger sample that require a pixel track.}
       \label{tab:zdcEfficiencySys}
     \end{table}
@@ -142,13 +136,13 @@
 
   \section{ZDC reconstruction}
     In order to estimated the systematic uncertainty in the ZDC reconstruction
-      method, the comparison ZDC reconstruction method described in 
+      method, the alternative ZDC reconstruction method described in 
       Section~\ref{sec:zdcCompare} is used to measure the number of candidates
       in the Xn0n mode.
     The systematic uncertainty due to the ZDC reconstruction method is
       estimated from the difference between the UPC \JPsi{} candidate yields 
-      when using the comparison versus the nominal method.
-    The yields for the nominal and comparison ZDC reconstruction method in the 
+      when using the alternative versus the nominal method.
+    The yields for the nominal and alternative ZDC reconstruction method in the 
       Xn0n break up were found to be 298 and 315 respectively. 
     Half the difference between the two methods was used as an estimate of 
       the systematic uncertainty, giving 2.9\%.
@@ -244,37 +238,15 @@
   \section{MC acceptance}
     The MC derived acceptance correction factors depend on the input physics
       generator. 
-    The underlaying \pt{} distribution was assumed to be correctly 
+    The underlying \pt{} distribution was assumed to be correctly 
       described by STARlight for the coherent cross section measurement.
-    To estimate the effect of changing the underlaying \pt{} distribution 
+    To estimate the effect of changing the underlying \pt{} distribution 
       on the acceptance measured from the MC, the incoherent sample was used 
       to correct the coherent yield.
     Half the difference was used as the estimate and was found to be 1.1\%.
 
-  \section{\label{sec:extraSys}Additional systematic checks}
-    \subsection{Mass fit}
-      \begin{figure}[!Hhtb]
-        \centering
-        $ \begin{array}{cc}
-          \includegraphics[width=.45\textwidth]{massFitSimple} &
-          \includegraphics[width=.45\textwidth]{massFitCBPoly2}
-        \end{array} $
-        \caption{Mass fit to \JPsi{} using Gaussian (Left) and Crystal Ball (Right) for the 
-          signal and a polynomial for the background}
-        \label{fig:massFitSys}
-      \end{figure}
-      Fig.~\ref{fig:massFitSys} demonstrates the small dependence the raw 
-        \JPsi{} yield has on the fitting function. 
-      Both fit functions agree well, with reduced $\chi^{2}$ values below one.
-      The Crystal ball fit gives an upper estimate for the \JPsi{} yield.
-      The Gaussian fit gives a lower estimate. 
-      The main difference comes from the lower mass tails.
-      In the Crystal ball fit the lower tail is considered to be signal due to 
-        shifting of the mass spectrum to lower mass due to radiation from the 
-        final state muons. 
-      In the Gaussian fit the lower mass tail is considered to be background and 
-        the signal is sharper.
-  
+  \section{\label{sec:extraSys}Additional cross checks}
+    \subsection{Simultaneous fit using mass templates}
       As check on the simultaneous \pt{} and mass fit, the mass fit is done
         using mass templates from STARlight.
       The coherent fraction, $f_{co}$, using the mass template for the 
@@ -322,7 +294,7 @@
       \begin{figure}[!Hhbt]
         \centering
         $ \begin{array}{cc}
-          \includegraphics[width=.45\textwidth]{tNp/tnpCounting} &
+          \includegraphics[width=.45\textwidth]{tNp/tnpFromCounting} &
           \includegraphics[width=.45\textwidth]{tNp/tnpFromFit}
         \end{array} $ 
         \caption{Tag and probe trigger efficiencies from counting (left) 
@@ -334,6 +306,10 @@
         function, and, therefore, the amount of background from the mass side 
         bands is included in the signal measurement has very little effect on 
         the tag and probe efficiency measurement.
+      For example for muons with $\eta$ between 2.0 and 2.2 and \pt{} between
+        1.50 GeV and 1.75 GeV the counting method gives a trigger efficiency 
+        of $0.764 \pm 0.034$ compared to $0.794 \pm 0.044$ for the fitting 
+        method. 
       The small effect of including the side bands are due to the side bands 
         being comprised mostly of photon-photon events.
       Because this background is neither decays from other particles like pions,
@@ -345,7 +321,7 @@
         little effect on the measurement because of this similarity.
       The counting and fitting trigger efficiency measurements agree within 
         statistical uncertainties, so this uncertainty was taken to be 
-        negligibly.
+        negligible.
   
     \subsection{The effect of noise on ZDC trigger efficiency estimates}
       The amount of electronic noise in the sample effects the ZDC energy 
@@ -354,7 +330,7 @@
         efficiency estimate will be. 
       In Table~\ref{tab:zdcEfficiencySysNoiseSample}, the zero bias sample 
         with the timing cuts desribed in Section~\ref{sec:zdcCompare} gives a 
-        significantly hifher 
+        significantly higher
         estimated efficiency compared the zero bias sample with out timing cuts
         in Table~\ref{tab:zdcEfficiencySysNoiseSample}.
       The same increase is seen when comparing the ZDC triggered sample with 
@@ -374,22 +350,22 @@
         \begin{tabular}{|c|c|c|c|c|}
           \hline ZDC Side & Reco Method & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
           \multicolumn{5}{|c|}{ Zero bias with ZDC timing cuts} \\ \hline 
-           ZDC$^{-}$ & comparison & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
+           ZDC$^{-}$ & alternative & 88676  & 84429  & 0.9521 $\pm$ 0.0046 \\ \hline
            ZDC$^{-}$ & nominal & 88480  & 84202  & 0.9517 $\pm$ 0.0046 \\ \hline
-           ZDC$^{+}$ & comparison & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
+           ZDC$^{+}$ & alternative & 59878  & 54728  & 0.9140  $\pm$ 0.0054 \\ \hline
            ZDC$^{+}$ & nominal & 60467  & 54733  & 0.9052  $\pm$ 0.0053 \\ \hline
            \multicolumn{5}{|c|}{(ZDC$^{-}$ or ZDC$^{+}$)} \\ \hline 
-           ZDC$^{-}$ & comparison & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
+           ZDC$^{-}$ & alternative & 30986 & 30333 & 0.9789 $\pm$ 0.0079 \\ \hline
            ZDC$^{-}$ & nominal & 31029 & 30339 & 0.9778 $\pm$ 0.0079 \\ \hline
-           ZDC$^{+}$ & comparison & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
+           ZDC$^{+}$ & alternative & 39178 & 30164 & 0.7699 $\pm$ 0.0059 \\ \hline
            ZDC$^{+}$ & nominal & 35703 & 30443 & 0.8527 $\pm$ 0.0067 \\ \hline
            \multicolumn{5}{|c|}{ Zero bias} \\ \hline 
-           ZDC$^{-}$ & comparison & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
+           ZDC$^{-}$ & alternative & 109967  & 101598  & 0.9239 $\pm$ 0.0040 \\ \hline
            ZDC$^{-}$ & nominal & 110230  & 101561  & 0.9214 $\pm$ 0.0040 \\ \hline
-           ZDC$^{+}$ & comparison & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
+           ZDC$^{+}$ & alternative & 253241  & 86660  & 0.3422 $\pm$ 0.0013 \\ \hline
            ZDC$^{+}$ & nominal & 156336  & 87401  & 0.5591 $\pm$ 0.0024 \\ \hline
          \end{tabular}
-        \caption{ZDC trigger efficiencies using  the nominal and comparison 
+        \caption{ZDC trigger efficiencies using  the nominal and alternative 
         ZDC reconstructions for trigger sample that do no require a pixel track.}
         \label{tab:zdcEfficiencySysNoiseSample}
       \end{table}
