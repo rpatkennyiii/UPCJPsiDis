@@ -7,8 +7,9 @@
     Section~\ref{sec:sigEx}.
   The determination of the detector's efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
-  Finally, \DIFdelbegin \DIFdel{Section}\DIFdelend \DIFaddbegin \DIFadd{in Chapter}\DIFaddend ~\ref{sec:sysCheck} lays out the systematic uncertainties 
+\DIFdelbegin \DIFdel{Finally, in Chapter~\ref{sec:sysCheck} lays out the systematic uncertainties 
     for the measurement. 
+}\DIFdelend 
 
   \section{\label{sec:mcSim} Physics generators and Monte Carlo simulations}
     Every physical measurement is the product of the underlying physics 
@@ -36,50 +37,7 @@
       accurately reproduce what would be measured if the theoretical input 
       describes nature well. 
 
-  \DIFdelbegin \subsection{\DIFdel{MC and data comparisons}}
-      %DIFAUXCMD
-\addtocounter{subsection}{-1}%DIFAUXCMD
-%DIFDELCMD < \begin{figure}[h]
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-\DIFdel{Comparison of the of the dimuon rapidity distributions between 
-          coherent }%DIFDELCMD < \JPsi{} %%%
-\DIFdel{MC sample and data.}}
-        %DIFAUXCMD
-%DIFDELCMD < \label{fig:jpsiAbsRapCoherent}
-%DIFDELCMD <       \end{figure}
-%DIFDELCMD <       \begin{figure}[h]
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-\DIFdel{Comparison of the of the dimuon $\varphi$ distributions 
-          between coherent }%DIFDELCMD < \JPsi{} %%%
-\DIFdel{MC sample and data.}}
-        %DIFAUXCMD
-%DIFDELCMD < \label{fig:jpsiPhiCoherent}
-%DIFDELCMD <       \end{figure}
-%DIFDELCMD <       \begin{figure}[h]
-%DIFDELCMD <         \centering
-%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
-%DIFDELCMD <         %%%
-%DIFDELCMD < \caption{%
-{%DIFAUXCMD
-\DIFdel{Comparison of the of the dimuon }%DIFDELCMD < \pt{} %%%
-\DIFdel{distributions 
-          between coherent }%DIFDELCMD < \JPsi{} %%%
-\DIFdel{MC sample and data.}}
-        %DIFAUXCMD
-%DIFDELCMD < \label{fig:jpsiPtCoherent}
-%DIFDELCMD <       \end{figure}
-%DIFDELCMD < 
-
-%DIFDELCMD <   %%%
-\DIFdelend \subsection{STARlight and particle gun MC}
+  \subsection{STARlight and particle gun MC}
     In this thesis, two classes of generator input samples were used, 
       STARlight \cite{vmd1999, starlight} and a particle gun.
     The STARlight samples correspond to the theoretical calculations 
@@ -87,7 +45,7 @@
       particles with a user defined transverse momentum distribution and 
       rapidity distribution and isotropic decay to muon pairs in the \JPsi{} 
       rest frame. 
-    For STARlight, three different physical process were simulated:
+    For STARlight, three different physical \DIFdelbegin \DIFdel{process }\DIFdelend \DIFaddbegin \DIFadd{processes }\DIFaddend were simulated:
       coherent \JPsi{} production, where the photon couples to the nucleus as
       a whole; incoherent \JPsi{} production; where the photon couples to a
       single nucleon within the nucleus, and photon-photon interactions, where 
@@ -101,8 +59,8 @@
       was developed.
     First, STARlight is run in the specified mode, and a single file is 
       created for each physics process. 
-    In step 2, the STARlight output file is converted to the Les Houches \DIFaddbegin \DIFadd{Event 
-      }\DIFaddend (LHE) format \cite{lheFormat}, and the momentum of the parent \JPsi{} or 
+    In step 2, the STARlight output file is converted to the Les Houches Event 
+      (LHE) format \cite{lheFormat}, and the momentum of the parent \JPsi{} or 
       the initial photon-photon pair is added to the record of each event.
     The event record produced by STARlight only contains the final state 
       particles.
@@ -125,7 +83,7 @@
     The particle gun samples were created entirely within CMSSW.
     \JPsi{} mesons were created according to user defined \pt{} and rapidity
       distributions. 
-    The decay of \JPsi{}s to a $\mu^{+}$$\mu^{-}$ pair was simulated with
+    The decay of \JPsi{}s to a $\mu^{+}\MATHBLOCKDOLLARDOLLAR{\mu^{-}$ pair was simulated with
       a uniform decay distribution, corresponding to unpolarized \JPsi{} 
       particles.
     As with the STARlight samples, these muons are propagated through the GEANT4
@@ -154,8 +112,8 @@
       daughter muon. 
     However in the lab frame of the detector, the muon daughters which are 
       emitted from transversely polarized \JPsi{} will tend to be emitted in
-      the direction the \JPsi{} is traveling and will have unequal momentum in 
-      the lab frame.
+      the direction the \JPsi{} is traveling and will have unequal \DIFdelbegin \DIFdel{momentum in 
+      the lab frame}\DIFdelend \DIFaddbegin \DIFadd{momenta}\DIFaddend .
     The daughter traveling in the direction of the \JPsi{} will have increased
       momentum, whereas the daughter traveling opposite to the \JPsi{} 
       direction will have decreased momentum. 
@@ -185,12 +143,18 @@
 
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization.
-    In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the 
-      particle gun samples and the STARlight samples are shown.
-    For the STARlight sample the helicity angle, the angle between the 
-      direction of the $\mu^{+}$ daughter and the \JPsi{} direction in the rest
-      frame of the \JPsi{}, prefer to be either parallel or anit-parallel.
-    However, the particle gun samples have no preferred direction of emission.
+    \DIFdelbegin \DIFdel{In Fig.~\ref{fig:genHXAngle}, the }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend cosine of the helicity angle\DIFdelbegin \DIFdel{of the 
+      }\DIFdelend \DIFaddbegin \DIFadd{, the angle between the }\JPsi{} \DIFadd{spin vector
+      in the rest frame and the direction of the boost to the lab frame, are 
+      shown for the }\DIFaddend particle gun samples and the STARlight samples \DIFdelbegin \DIFdel{are shown}\DIFdelend \DIFaddbegin \DIFadd{in 
+      Fig.~\ref{fig:genHXAngle}}\DIFaddend . 
+    For the STARlight sample the helicity angle \DIFdelbegin \DIFdel{, the angle between the 
+      direction of the $\mu^{+}$ daughter and the }%DIFDELCMD < \JPsi{} %%%
+\DIFdel{direction in the rest
+      frame of the }%DIFDELCMD < \JPsi{}%%%
+\DIFdel{, }\DIFdelend prefer to be either parallel or
+      anit-parallel.
+    However, the particle gun samples have no preferred direction\DIFdelbegin \DIFdel{of emission}\DIFdelend .
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
@@ -200,63 +164,114 @@
       \label{fig:genHXAngle}
     \end{figure}
 
-    \DIFaddbegin \DIFadd{Figures \ref{fig:jpsiAbsRapCoherent}, }{\DIFadd{fig:jpsiPhiCoherent}} \DIFadd{show  the rapidity, $\varphi$, and  }\pt{} \DIFadd{distributions of reconstructed coherent }\JPsi{} \DIFadd{MC from STARLight and data. All distributions are normalized to unity. The rapidity distribution of the STARLight is very slightly higher than for the data, with a difference in the mean rapidity of $\approx 0.1$ unit.  The $\varphi$, and  }\pt{} \DIFadd{distributions are for STARLight and data are both very similar. 
-      }\begin{figure}[h]
+      \DIFaddbegin \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
         \caption{\DIFaddFL{Comparison of the of the dimuon rapidity distributions between 
           coherent }\JPsi{} \DIFaddFL{MC sample and data.}}
         \label{fig:jpsiAbsRapCoherent}
       \end{figure}
-      \begin{figure}[h]
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
         \caption{\DIFaddFL{Comparison of the of the dimuon $\varphi$ distributions 
           between coherent }\JPsi{} \DIFaddFL{MC sample and data.}}
         \label{fig:jpsiPhiCoherent}
       \end{figure}
-      \begin{figure}[h]
+      \begin{figure}[!Hhbt]
         \centering
         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
         \caption{\DIFaddFL{Comparison of the of the dimuon }\pt{} \DIFaddFL{distributions 
           between coherent }\JPsi{} \DIFaddFL{MC sample and data.}}
         \label{fig:jpsiPtCoherent}
       \end{figure}
+    \DIFaddend Figures \ref{fig:jpsiAbsRapCoherent}, \DIFdelbegin %DIFDELCMD < {%%%
+\DIFdel{fig:jpsiPhiCoherent}%DIFDELCMD < } %%%
+\DIFdelend \DIFaddbegin \DIFadd{\ref{fig:jpsiPhiCoherent}, and
+      \ref{fig:jpsiPtCoherent} }\DIFaddend show  the rapidity, \DIFdelbegin \DIFdel{$\varphi$}\DIFdelend \DIFaddbegin \DIFadd{$\phi$}\DIFaddend , and  \pt{} 
+      distributions of reconstructed coherent \JPsi{} \DIFdelbegin \DIFdel{MC from STARLight }\DIFdelend \DIFaddbegin \DIFadd{from STARLight MC }\DIFaddend and 
+      data. 
+    All distributions are normalized to \DIFdelbegin \DIFdel{unity. 
+    The rapidity distribution }\DIFdelend \DIFaddbegin \DIFadd{one. 
+    The mean }\DIFaddend of the STARLight \DIFdelbegin \DIFdel{is very slightly higher than for the data, with a difference in the mean rapidityof }\DIFdelend \DIFaddbegin \DIFadd{rapidity distribution is slightly shift by 
+      }\DIFaddend $\approx 0.1$ \DIFdelbegin \DIFdel{unit. 
+    The $\varphi$}\DIFdelend \DIFaddbegin \DIFadd{to higher rapidity. 
+    The $\phi$}\DIFaddend , and  \pt{} distributions \DIFdelbegin \DIFdel{are for }\DIFdelend \DIFaddbegin \DIFadd{from }\DIFaddend STARLight and data are both
+      very similar. 
+\DIFdelbegin %DIFDELCMD < \begin{figure}[h]
+%DIFDELCMD <         \centering
+%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiAbsRapCoherent}
+%DIFDELCMD <         %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Comparison of the of the dimuon rapidity distributions between 
+          coherent }%DIFDELCMD < \JPsi{} %%%
+\DIFdelFL{MC sample and data.}}
+        %DIFAUXCMD
+%DIFDELCMD < \label{fig:jpsiAbsRapCoherent}
+%DIFDELCMD <       \end{figure}
+%DIFDELCMD <       \begin{figure}[h]
+%DIFDELCMD <         \centering
+%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPhiCoherent}
+%DIFDELCMD <         %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Comparison of the of the dimuon $\varphi$ distributions 
+          between coherent }%DIFDELCMD < \JPsi{} %%%
+\DIFdelFL{MC sample and data.}}
+        %DIFAUXCMD
+%DIFDELCMD < \label{fig:jpsiPhiCoherent}
+%DIFDELCMD <       \end{figure}
+%DIFDELCMD <       \begin{figure}[h]
+%DIFDELCMD <         \centering
+%DIFDELCMD <         \includegraphics[width=0.5\textwidth]{jpsiMcComp/jpsiPtCoherent}
+%DIFDELCMD <         %%%
+%DIFDELCMD < \caption{%
+{%DIFAUXCMD
+\DIFdelFL{Comparison of the of the dimuon }%DIFDELCMD < \pt{} %%%
+\DIFdelFL{distributions 
+          between coherent }%DIFDELCMD < \JPsi{} %%%
+\DIFdelFL{MC sample and data.}}
+        %DIFAUXCMD
+%DIFDELCMD < \label{fig:jpsiPtCoherent}
+%DIFDELCMD <       \end{figure}
+%DIFDELCMD < %%%
+\DIFdelend 
 
-  \DIFaddend \section{\label{sec:DataSetEvSel} Event selection}
+  \section{\label{sec:DataSetEvSel} Event selection}
     The unprecedented amounts of data produced by the LHC has made it possible 
       to investigate novel physics processes like UPC \JPsi{} production.
     The data for this analysis were recorded during the 2011 LHC PbPb run. 
-    During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
-      corresponding to over a billion PbPb collisions. 
-    Of this, 143 \DIFaddbegin \DIFadd{$\pm$ 7 (syst) }\DIFaddend $\mu$$b^{-1}$ of data were used in this analysis due to the 
+    During this period, 150 $\mu}b^{-1}$ were recorded by the CMS detector,
+      corresponding to \DIFdelbegin \DIFdel{over a billion }\DIFdelend \DIFaddbegin \DIFadd{> 10$^{9}$ }\DIFaddend PbPb collisions. 
+    Of this, 143 $\pm$ 7 (syst) $\mu$$b^{-1}$ of data were used in this analysis due to the 
       ZDCs being temporally disconnected to test the Forward Shower Counters.
 
     \subsection{Data sets}
       The data were dived into three specially selected samples, Physics, Monitoring, 
-        and Zero bias, based on the triggers which recored the events (see 
+        and Zero bias, based on the triggers which \DIFdelbegin \DIFdel{recored }\DIFdelend \DIFaddbegin \DIFadd{recorded }\DIFaddend the events (see 
         Table~\ref{tab:sampleLumiNevt}).
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias 
         and ZDC triggered samples allow for the investigation of the selection 
         criteria. 
       The purity, which is a measure of how many signal events relative to
-        background events are in an sample, is obtained by using more selective
+        background events are in \DIFdelbegin \DIFdel{an }\DIFdelend \DIFaddbegin \DIFadd{a }\DIFaddend sample, is obtained by using more selective
         triggers.
       Less selective triggers, those assigned to the monitoring and zero bias 
         samples, were used to investigate to what extent signal events are lost
-        due to the higher selectivity of physics triggers. 
+        \DIFdelbegin \DIFdel{due to }\DIFdelend \DIFaddbegin \DIFadd{because of }\DIFaddend the higher selectivity of physics triggers. 
       These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Chapter~\ref{ch:trigg}.
-      The \JPsi{} events discussed in this thesis were obtained \DIFaddbegin \DIFadd{by }\DIFaddend analyzing 
+      The \JPsi{} events discussed in this thesis were obtained by analyzing 
         the sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered monitoring sample was recorded for the sake of estimating
         efficiencies.
-      Lastly, a zero bias sample was recored for investigating the ZDC and the 
+      Lastly, a zero bias sample was \DIFdelbegin \DIFdel{recored }\DIFdelend \DIFaddbegin \DIFadd{recorded }\DIFaddend for investigating the ZDC and the 
         noise distributions of HF.
 
       The physics sample containing the \JPsi{} signal was recorded by the muon 
-        trigger labeled \DIFdelbegin \DIFdel{"}\DIFdelend \DIFaddbegin \DIFadd{``}\DIFaddend L1UPCMuon and Pixel Track\DIFdelbegin \DIFdel{" }\DIFdelend \DIFaddbegin \DIFadd{'' }\DIFaddend in 
+        trigger labeled ``L1UPCMuon and Pixel Track'' in 
         Table~\ref{tab:hltTriggers2011}. 
       Because of the characteristically low momentum of UPC \JPsi{} as compared
         to \JPsi{} created by other physics processes, the loosest muon 
@@ -264,10 +279,10 @@
       The noise trigger rate for the muon trigger alone was 50 Hz, but in 
         coincidence with the BCS veto and the ZDC trigger the noise rate was
         below 2 Hz. 
-      By pairing the muon trigger with the ZDC on the L1, the noise contribution
+      By pairing the muon trigger with the ZDC on the L1 \DIFaddbegin \DIFadd{trigger}\DIFaddend , the noise contribution
         was reduced from the noise contribution from either of the two 
         sub-detectors to the noise coincidence between the two sub-detectors. 
-      Contributions from hadronic interactions \DIFdelbegin \DIFdel{are }\DIFdelend \DIFaddbegin \DIFadd{were }\DIFaddend reduced by the veto on the 
+      Contributions from hadronic interactions were reduced by the veto on the 
         BSCs.
       This trigger was designed to balance reducing the rate with maximizing 
         the efficiency, allowing for the data to be recorded without 
@@ -279,7 +294,7 @@
         consistent with at least one neutron in either of the ZDCs.
       Neutron production is a much more common process than the UPC \JPsi{} 
         production.
-      This process has cross sections on the order of \DIFdelbegin \DIFdel{100 }\DIFdelend \DIFaddbegin \DIFadd{200 }\DIFaddend b compared
+      This process has cross sections on the order of 200 b compared
         to 10 mb predicted for \JPsi{} production. 
       For this reason, the rates of this trigger are much higher than the physics
         trigger, and only a small sub set of these events are recorded.
@@ -294,15 +309,20 @@
       Only 4 events out of every million triggered were recorded for this sample. 
       This sample allowed for an unbiased measurement of the ZDC neutron 
         threshold energies as discussed in Section~\ref{sec:breakUpDet}. 
-      Because the zero bias trigger only requires the presents of both LHC 
+      Because the zero bias trigger only requires the \DIFdelbegin \DIFdel{presents }\DIFdelend \DIFaddbegin \DIFadd{presence }\DIFaddend of both LHC 
         beams, the sample contains very few hadronic collisions. 
-      This allowed for a measurement of the electronic noise distribution in
-        the HF, which are important to reducing contamination from hadronic
-        interactions.
+      This allowed for a measurement of the electronic noise distribution \DIFdelbegin \DIFdel{in
+        the HF , which are }\DIFdelend \DIFaddbegin \DIFadd{of
+        the HF detector, which is }\DIFaddend important to reducing contamination from 
+        hadronic interactions.
 
       The integrated luminosity for each of the three samples is calculated
         by recording activity in HF \cite{cmsLumi}. 
-      The cross section for HF activity is measured from a van der Meer scan. 
+      The cross section for HF activity is measured from a van der Meer scan 
+        \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{vanderMeer:1968zz}
+}%DIFAUXCMD
+}\DIFaddend . 
       In this way, the amount of integrated luminosity for any running period is
         related to the activity in HF. 
       \begin{table}
@@ -321,14 +341,16 @@
     \subsection{Event selection cuts}
       The analysis described in this thesis focuses on UPC \JPsi{}s decaying to 
         muons. 
-      The trigger used for this analysis \DIFdelbegin \DIFdel{recored }\DIFdelend \DIFaddbegin \DIFadd{recorded }\DIFaddend 346841 events.
-      A set of off-line cuts were applied to increase the relative contribution 
+      The trigger used for this analysis recorded 346841 events.
+      A set of off-line cuts \DIFdelbegin \DIFdel{were }\DIFdelend \DIFaddbegin \DIFadd{was }\DIFaddend applied to increase the relative contribution 
         of UPC events to background processes. 
       Two sets of event selection cuts were applied to reject background events. 
       The first set rejects background from the beam.
       The second rejects events where hadronic collisions have occurred.
-      Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts. 
-      \begin{table}[!Hhbt]
+      Table~\ref{tab:evSelCutNumbers} summarizes all the event selection cuts.
+      \DIFaddbegin \DIFadd{Figure~\ref{fig:evDisplay} shows a candidate event after applying all 
+        event selection cuts. 
+      }\DIFaddend \begin{table}[!Hhbt]
         \centering
         \begin{tabular}{|c|c|c|} \hline 
           Cut type & Cut & Events \\ \hline
@@ -346,6 +368,14 @@
         \caption{Effects of event selection cuts.}
         \label{tab:evSelCutNumbers}
       \end{table}
+      \DIFaddbegin \begin{figure*}[!Hhbt]
+        \centering
+        \includegraphics[width=.45\textwidth]{3dRecHitWhite}
+        \includegraphics[width=.45\textwidth]{phiRhoWhite}
+        \caption{\DIFaddFL{Event display of a UPC }\JPsi{} \DIFaddFL{candidate event.}}
+      \label{fig:evDisplay}
+      \end{figure*}
+      \DIFaddend 
 
       To reject beam induced background the following cuts were applied:
       \begin{itemize}
@@ -359,23 +389,25 @@
           The beam halo cut rejects events where muons surrounding the beam 
           stream through the detector. 
   	    \item Pixel cluster shape should be compatible with the vertex. 
-          This cut requires that energy deposits in the silicon tracker point 
-            back to the reconstructed  primary vertex. 
+          This cut requires that energy \DIFdelbegin \DIFdel{deposits }\DIFdelend \DIFaddbegin \DIFadd{deposited }\DIFaddend in the silicon tracker \DIFdelbegin \DIFdel{point 
+            back to the reconstructed  }\DIFdelend \DIFaddbegin \DIFadd{have a
+            shape consistant with the }\DIFaddend primary vertex. 
       \end{itemize}
-      These beam background cuts do not reject any UPC \JPsi{} candidates. 
+      \DIFdelbegin \DIFdel{These }\DIFdelend \DIFaddbegin \DIFadd{When applied after all other cut these }\DIFaddend beam background cuts do not reject
+        any UPC \JPsi{} candidates. 
 
       The second set of background rejection cuts were designed to 
         reduce contamination from hadronic interactions. 
       \begin{itemize}
   	    \item No more than 2 reconstructed tracks in the event.
-          The track requirement rejects events that produce many charged 
+  	    \DIFdelbegin \DIFdel{The track requirement rejects events that produce many charged 
           particles.
-  	    \item Maximum reconstructed hit energy in HF was required to be below 
+  	    }\DIFdelend \item Maximum reconstructed hit energy in HF was required to be below 
             the threshold for electronic noise. 
           Nearly all hadronic interactions (about 98\%) produce particles in 
             the range $3<|\eta|<5$ covered by the HF detector.
           By requiring that the energy deposits in HF resemble noise, nearly all
-            \DIFdelbegin \DIFdel{elastic }\DIFdelend \DIFaddbegin \DIFadd{inelastic }\DIFaddend hadronic collisions are expected to be rejected.
+            inelastic hadronic collisions are expected to be rejected.
   	    \item Energy in the ZDCs consistent with neutrons on only one side 
             of the interaction point.
           In hadronic interactions both nuclei break-up. 
@@ -427,11 +459,11 @@
     To achieve this, the invariant mass and \pt{} distributions are used 
       to distinguish between the three processes. 
     The photon-photon process is extended in invariant mass whereas the 
-      \JPsi{} is peak strongly near 3.1 GeV.
-    In dimuon transverse momentum distribution of the photon-photon and 
-      coherent process have similar distributions, both peaked shapely below 
-        0.1 GeV, whereas the incoherent process is more broadly distributed 
-        across an interval extending to nearly 1 GeV.
+      \JPsi{} is \DIFdelbegin \DIFdel{peak }\DIFdelend \DIFaddbegin \DIFadd{peaked }\DIFaddend strongly near 3.1 GeV.
+    \DIFdelbegin \DIFdel{In }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend dimuon transverse momentum distribution of the photon-photon and 
+      \DIFaddbegin \DIFadd{the }\DIFaddend coherent process have similar distributions, both \DIFdelbegin \DIFdel{peaked shapely }\DIFdelend \DIFaddbegin \DIFadd{are sharply peaked 
+        }\DIFaddend below 0.1 GeV, whereas the incoherent process is more broadly 
+        distributed across an interval extending to nearly 1 GeV.
     The mass distribution was fit to separate the photon-photon process from
       the \JPsi{} process.
     The \pt{} distribution was used to separate the incoherent process from 
@@ -462,8 +494,8 @@
 
     Figure~\ref{fig:ptTemps} shows the \pt{} spectrum of the events plotted 
       in Fig.~\ref{fig:massFit}.  
-    There is a clear coherent peak at \pt{} = 60 MeV followed by broad 
-      distribution that peaks near \pt{} = 450 MeV. 
+    There is a clear coherent peak at \pt{} = 60 MeV followed by \DIFaddbegin \DIFadd{a }\DIFaddend broad 
+      distribution that \DIFdelbegin \DIFdel{peaks }\DIFdelend \DIFaddbegin \DIFadd{with a mean }\DIFaddend near \pt{} = 450 MeV. 
     To extract the contribution of coherent, incoherent and gamma-gamma 
       processes in the data the spectrum in  Fig.~\ref{fig:ptTemps} was fit to 
       the sum of three MC templates corresponding to the final output of the MC
@@ -479,8 +511,10 @@
 
     \begin{figure}[!Hhbt]
       \centering
-      \includegraphics[width=.6\textwidth]{ptOnly}
-      \caption{ Fit to MC \pt{} templates. }
+      \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=.6\textwidth]{ptOnly}
+%DIFDELCMD <       %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=.6\textwidth]{gaussCC}
+      \DIFaddendFL \caption{ Fit to MC \pt{} templates. }
       \label{fig:ptTemps}
     \end{figure}
 
@@ -560,7 +594,7 @@
     The efficiency of the pixel track requirement, and the veto on activity in 
       the BSCs from the trigger are also estimated but found to be consistent 
       with fully efficient. 
-    The following section explains how each of these efficiencies were measured
+    The following section explains how each of these efficiencies \DIFdelbegin \DIFdel{were }\DIFdelend \DIFaddbegin \DIFadd{was }\DIFaddend measured
       with a special emphasis on the ZDC trigger efficiency and the muon 
       trigger and reconstruction efficiencies. 
 
@@ -583,7 +617,7 @@
       The efficiency for reconstructing single muons $\varepsilon^{\mu}_{reco}$ 
         is defined by $\varepsilon^{\mu}_{reco} = \frac{N^{\mu}_{reco}}{N^{\mu}_{gen}}$, 
         where $N^{\mu}_{reco}$ is the number reconstructed muons obtained 
-        after the full CMS detector simulation \DIFdelbegin \DIFdel{and }\DIFdelend that passed the standard
+        after the full CMS detector simulation that passed the standard
         muon quality cuts, and $N^{\mu}_{gen}$ is the number of generated 
         muons from STARlight.
       \begin{figure}[!Hhtb]
@@ -598,10 +632,10 @@
         that fall into a (\pt{},$|\eta|$) bin that has an efficiency less 
         than 20\% were rejected.
       This condition defines the detectability region.
-      The acceptance \DIFaddbegin \DIFadd{and reconstruction efficiency }\DIFaddend for reconstructing dimuons 
+      The acceptance and reconstruction efficiency for reconstructing dimuons 
         was calculated from MC using the following formula:
       \begin{equation}
-        A \DIFaddbegin \DIFadd{\times \varepsilon}\DIFaddend =\DIFdelbegin \DIFdel{\frac{N_{det}(|y|,p_{T})}{N_{gen}(|y|,p_{T})}}\DIFdelend \DIFaddbegin \DIFadd{\frac{N_{det}(|y|)}{N_{gen}(|y|)}}\DIFaddend ,
+        A \times \varepsilon=\frac{N_{det}(|y|)}{N_{gen}(|y|)},
         \label{eq:jpsiAccEq}
       \end{equation}
         where $N_{det}$ is the number of reconstructed dimuons where both 
@@ -609,25 +643,14 @@
         number of generated dimuons. 
       From Eq.~\ref{eq:jpsiAccEq}, the acceptance for \JPsi{} was calculated
         as a function of $|y|$, and \pt{} (see Fig.~\ref{fig:jpsiAcceptance}).
-        \DIFdelbegin %DIFDELCMD < \begin{figure*}[!Hhtb]
-%DIFDELCMD <           %%%
-\DIFdelend \DIFaddbegin \begin{figure}[!Hhtb]
-          \DIFaddendFL \centering
-            \DIFdelbeginFL \DIFdelFL{$ \begin{array}{cc}
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpCoStep} &
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccJpInCoStep} \\
-            \includegraphics[width=.45\textwidth]{mcEffMaps/detAccGammaStep}
-          \end{array} $
-          }\DIFdelendFL \DIFaddbeginFL \includegraphics[width=.45\textwidth]{accXeffFromMC1d}
-          \DIFaddendFL \caption{Dimuon acceptance from coherent \JPsi{}\DIFdelbeginFL \DIFdelFL{(top left), incoherent 
-            J$\psi$ (top right), and photon-photon interactions (lower)}\DIFdelendFL .}
+        \begin{figure}[!Hhtb]
+          \centering
+            \includegraphics[width=.45\textwidth]{accXeffFromMC1d}
+          \caption{Dimuon acceptance from coherent \JPsi{}.}
           \label{fig:jpsiAcceptance}
-        \DIFdelbeginFL %DIFDELCMD < \end{figure*}
-%DIFDELCMD < %%%
-\DIFdelendFL \DIFaddbeginFL \end{figure}
-\DIFaddend 
+        \end{figure}
 
-      The \DIFdelbegin \DIFdel{"}\DIFdelend \DIFaddbegin \DIFadd{``}\DIFaddend tag and probe method\DIFdelbegin \DIFdel{" }\DIFdelend \DIFaddbegin \DIFadd{'' }\DIFaddend is a data driven approach used to measure the 
+      The ``tag and probe method'' is a data driven approach used to measure the 
         trigger efficiency of the muon daughters from \JPsi{} decays.
       In this method there are three categories of daughter muons. 
       \textit{Tag muons} are high quality muons.
@@ -649,7 +672,10 @@
         probe is created.
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
         each set of invariant mass histograms were simultaneously fit. 
-      The signal was fit using a Crystal Ball function, and the background 
+      The signal was fit using a Crystal Ball function \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Gaiser:1982yw}
+}%DIFAUXCMD
+}\DIFaddend , and the background 
         was fit to an exponential.
       The Crystal Ball parameters were simultaneously fit to all three 
         histograms.
@@ -661,8 +687,10 @@
       Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
       \begin{figure}[!Hh]
         \centering
-        \includegraphics[width=.6\textwidth]{tNp/tnpFits}
-        \caption{Fits to tag and probe pairs in the \JPsi{} mass region for
+        \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=.6\textwidth]{tNp/tnpFits}
+%DIFDELCMD <         %%%
+\DIFdelendFL \DIFaddbeginFL \includegraphics[width=1.0\textwidth]{tNp/tnpFits}
+        \DIFaddendFL \caption{Fits to tag and probe pairs in the \JPsi{} mass region for
         pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt{} < 1.8 GeV.}
         \label{fig:tnpFitPlot}
       \end{figure}
@@ -691,26 +719,20 @@
         probability that neither daughter fires the trigger,
         thus giving the dimuon trigger efficiency. 
 
-      The average dimuon trigger efficiency for each dimuon \DIFdelbegin \DIFdel{(}%DIFDELCMD < \pt{}%%%
-\DIFdel{,}\DIFdelend $|y|$ \DIFdelbegin \DIFdel{) }\DIFdelend bin
+      The average dimuon trigger efficiency for each dimuon $|y|$ bin
         was calculated by averaging the efficiency of dimuon candidates in each
         bin. 
       \begin{figure}[!Hhbt]
         \centering
-        \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.6\textwidth]{averageTriggerEff}
-%DIFDELCMD <         %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.6\textwidth]{muTrigEffFromTnP1d}
-        \DIFaddendFL \caption{The trigger efficiency from tag and probe averaged over candidates
-          in each \DIFdelbeginFL \DIFdelFL{(}%DIFDELCMD < \pt{}%%%
-\DIFdelFL{,}\DIFdelendFL $|y|$ \DIFdelbeginFL \DIFdelFL{) }\DIFdelendFL bin.}
-        \DIFdelbeginFL %DIFDELCMD < \label{fig:avTrigEffCo}
-%DIFDELCMD <       %%%
-\DIFdelendFL \DIFaddbeginFL \label{fig:triggerEffDiMu}
-      \DIFaddendFL \end{figure}
+        \includegraphics[width=0.6\textwidth]{muTrigEffFromTnP1d}
+        \caption{The trigger efficiency from tag and probe averaged over candidates
+          in each $|y|$ bin.}
+        \label{fig:triggerEffDiMu}
+      \end{figure}
       The dimuon trigger efficiency ranges from about 50\% to 90\%. 
-      As expected the \JPsi{} trigger efficiency \DIFdelbegin \DIFdel{increase }\DIFdelend \DIFaddbegin \DIFadd{increases }\DIFaddend with rapidity since 
-        the longitudinal momentum of the \JPsi{} is given \DIFaddbegin \DIFadd{by 
-        }\DIFaddend $p_Z= M_{J/\psi} \cdot sinh(y)$. 
+      As expected the \JPsi{} trigger efficiency increases with rapidity since 
+        the longitudinal momentum of the \JPsi{} is given by 
+        $p_Z= M_{J/\psi} \cdot sinh(y)$. 
       Thus \JPsi{} mesons at forward rapidity distribute more momentum to their
         daughter muons which therefore have a greater chance of punching 
         through into the muon chamber.  
@@ -719,22 +741,18 @@
         both efficiency and acceptance. 
       \begin{figure}[!Hhtb]
         \centering
-        \DIFdelbeginFL %DIFDELCMD < \includegraphics[width=0.6\textwidth]{averageExA}
-%DIFDELCMD <         %%%
-\DIFdelendFL \DIFaddbeginFL \includegraphics[width=0.6\textwidth]{accXeffTrigg}
-        \DIFaddendFL \caption{The acceptance times averaged trigger efficiency from tag and 
+        \includegraphics[width=0.6\textwidth]{accXeffTrigg}
+        \caption{The acceptance times averaged trigger efficiency from tag and 
           probe.}
-        \DIFdelbeginFL %DIFDELCMD < \label{fig:avAccEff}
-%DIFDELCMD <       %%%
-\DIFdelendFL \DIFaddbeginFL \label{fig:averageExA}
-      \DIFaddendFL \end{figure}
+        \label{fig:averageExA}
+      \end{figure}
 
-      The total combined efficiency and acceptance factor \DIFaddbegin \DIFadd{for }\DIFaddend coherent \JPsi{} 
+      The total combined efficiency and acceptance factor for coherent \JPsi{} 
         between $2.0 \le |y| \le 2.2$ was found to be $\approx 5$\%.
       The acceptance factor of roughly 7\% from the MC was found to be the main
         contributor to the total efficiency. 
       The interplay of the polarization of the \JPsi{} and the material in 
-        detector \DIFdelbegin \DIFdel{drive }\DIFdelend \DIFaddbegin \DIFadd{drives }\DIFaddend down the efficiency by creating an effective momentum 
+        detector drives down the efficiency by creating an effective momentum 
         threshold for detection (see Section~\ref{sec:mcSim}).
       The reconstruction efficiency of the daughters range between 
         20\%-60\% for muons in the defined detectability range. 
@@ -743,7 +761,7 @@
 
     \subsection{ZDC trigger efficiency}
       As discussed in Section~\ref{sec:breakUpDet}, the trigger labeled 
-        \DIFdelbegin \DIFdel{"}\DIFdelend \DIFaddbegin \DIFadd{``}\DIFaddend L1ZDCOr and Pixel Track\DIFdelbegin \DIFdel{" }\DIFdelend \DIFaddbegin \DIFadd{'' }\DIFaddend in Table~\ref{tab:hltTriggers2011} was used 
+        ``L1ZDCOr and Pixel Track'' in Table~\ref{tab:hltTriggers2011} was used 
         to measure the ZDC trigger efficiency. 
       This trigger required either a ZDC$^{+}$ or ZDC$^{-}$ trigger, together with at 
         least one pixel track. 
@@ -779,8 +797,8 @@
         \centering
         \begin{tabular}{|c|c|c|c|c|}
            \hline ZDC Side & N$_{events}$ & N$_{trig}$ & $\varepsilon_{ZDC}$ \\ \hline
-           ZDC$^{+}$ & 73028  & 71706  & 0.9819  $\pm$ \DIFdelbeginFL \DIFdelFL{0.005  }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{0.0037 }\DIFaddendFL \\ \hline
-           ZDC$^{-}$ & 76132  & 71859  & 0.9439  $\pm$ \DIFdelbeginFL \DIFdelFL{0.005  }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{0.0035 }\DIFaddendFL \\ \hline
+           ZDC\DIFdelbeginFL \DIFdelFL{$^{+}$ }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{$^{-}$ }\DIFaddendFL & 73028  & 71706  & 0.9819  $\pm$ 0.0037 \\ \hline
+           ZDC\DIFdelbeginFL \DIFdelFL{$^{-}$ }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{$^{+}$ }\DIFaddendFL & 76132  & 71859  & 0.9439  $\pm$ 0.0035 \\ \hline
         \end{tabular}
         \caption{ZDC trigger efficiencies for ZDC reconstruction method 1 and 
           2}

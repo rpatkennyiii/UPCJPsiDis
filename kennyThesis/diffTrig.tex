@@ -1,7 +1,9 @@
 \chapter{\label{ch:trigg}UPC trigger development for CMS}
-  Rare physics process at the LHC require dedicated triggers in order to sort
-    these processes from the billions of ordinary nucleus-nucleus collisions. 
-  Unlike most heavy-ion triggers, UPC triggers are optimized for low-\pt{} 
+  \DIFdelbegin \DIFdel{Rare physics process at the LHC require dedicated triggers in order to sort
+    these processes from the billions }\DIFdelend \DIFaddbegin \DIFadd{In the 2011 LHC PbPb run the rate of UPC J/$\psi$ production was about 
+    10$^{5}$ times smaller than that }\DIFaddend of ordinary nucleus-nucleus collisions.
+  \DIFaddbegin \DIFadd{To recorded these events dedicated UPC triggers were needed. 
+  }\DIFaddend Unlike most heavy-ion triggers, UPC triggers are optimized for low-\pt{} 
     and low multiplicity events. 
   For this reason trigger development specific to UPC events was required to
     carry out the analysis in this thesis.
@@ -26,7 +28,7 @@
     This required no activity in HF (HF veto). 
     These triggers are summarized in Table~\ref{tab:l1Triggers2011}.
     The ECAL2 and ECAL5 triggers in Table~\ref{tab:l1Triggers2011}
-      indicate a \DIFdelbegin \DIFdel{5 and }\DIFdelend 2 \DIFaddbegin \DIFadd{and 5 }\DIFaddend GeV threshold on $E_{T}$ measured in the ECAL.
+      indicate a 2 and 5 GeV threshold on $E_{T}$ measured in the ECAL.
     The MuonOpen trigger indicates that the trigger only 
       requires a muon candidate in one of the three muon sub-systems and that
       there is no momentum threshold.
@@ -50,7 +52,7 @@
     \end{table}
     The cumulative L1 trigger rate for all the UPC L1 trigger seeds was
       required to be no greater than 200 Hz.
-    This requirement \DIFdelbegin \DIFdel{comes }\DIFdelend \DIFaddbegin \DIFadd{came }\DIFaddend from the need to keep the tracker read-out rate
+    This requirement came from the need to keep the tracker read-out rate
       low. 
     The trackers baseline voltage can fluctuate due to the high tracker hit 
       multiplicities in PbPb collisions.
@@ -58,11 +60,9 @@
       suppression algorithm was executed using the HLT computing farm 
 	      rather than in the tracker firmware.
 
-    \DIFdelbegin \DIFdel{In order to record the efficiency monitoring data, the ZDC triggers were
-      reduce to a lower rate by only keeping a fraction of the total trigger 
-      rate}\DIFdelend \DIFaddbegin \DIFadd{The (ZDC$^{+}$ or ZDC$^{-}$) was used to estimate the efficiency of the UPC electron and muon triggers}\DIFaddend . 
-    The factor that the \DIFdelbegin \DIFdel{trigger }\DIFdelend rate is reduced by is called the prescale.
-    A prescale of 2 for example means that half the triggers that were 
+    The (ZDC$^{+}$ or ZDC$^{-}$) was used to estimate the efficiency of the UPC electron and muon triggers. 
+    The factor that the rate is reduced by is called the prescale.
+    A prescale of 2 for example means that half the triggers \DIFdelbegin \DIFdel{that }\DIFdelend were 
       accepted.
     If the prescale is set to 1, then whole trigger rate is accepted. 
     The prescale factors for the triggers were set to balance the competing objectives 
@@ -81,9 +81,8 @@
       including the silicon strip detector, allows for quick track 
       reconstruction saving computing cycles.
     The UPC triggers were required to have at lease one reconstructed pixel 
-      track in order to reject backgrounds where no particles \DIFdelbegin \DIFdel{are 
-      }\DIFdelend \DIFaddbegin \DIFadd{were 
-      }\DIFaddend reconstructed by the tracker.
+      track in order to reject backgrounds where no particles were 
+      reconstructed by the tracker.
     For the muon trigger in Table~\ref{tab:hltTriggers2011} the rate was 
       reduced by nearly a factor or 4 compared to its L1 seed rate in 
       Table~\ref{tab:l1Triggers2011}.
@@ -131,29 +130,37 @@
       This measurement would make use of the electron triggers and combine the 
         current dimuon data with dielectron data from the ECAL triggers.
       Because of the smaller mass of the electron,
-        dielectron production is slightly favor compared to dimuon 
+        dielectron production is slightly \DIFdelbegin \DIFdel{favor }\DIFdelend \DIFaddbegin \DIFadd{favored }\DIFaddend compared to dimuon 
         production.
       STARlight predicts that dielectron cross section is a factor of 
         2.5 higher in Xn break-up mode than for the dimuons channel when looking 
         at masses above 4 GeV.
-      The ECAL is position just beyond the tracker, whereas the muon system is 
-        the outermost sub-detector. 
-      This elevates the main reduction of muon acceptance, which is the material
-        budget. 
+      The ECAL is \DIFdelbegin \DIFdel{position }\DIFdelend \DIFaddbegin \DIFadd{positioned }\DIFaddend just beyond the tracker, whereas the muon system is 
+        the outermost sub-detector.
+      \DIFdelbegin \DIFdel{This elevates the main reduction of muon acceptance}\DIFdelend \DIFaddbegin \DIFadd{Electrons would therefore be less effected by the material budget}\DIFaddend , which
+        is the \DIFdelbegin \DIFdel{material
+        budget}\DIFdelend \DIFaddbegin \DIFadd{main factor in reducing yields of reconstructed dimuon 
+        candidates}\DIFaddend .
 
       The contribution from higher order diagrams can be explored by studying 
         photoproduction of dilepton pairs.
-      Because the Pb nucleus has a charge 82 times higher than the proton,
-        the electromagnetic coupling is stronger, and therefore, higher
-        order terms is the perturbative expansion would potentially be more 
-        important.
+      Because the Pb nucleus has a charge 82 times higher than \DIFaddbegin \DIFadd{that of }\DIFaddend the 
+        proton, the electromagnetic coupling is stronger\DIFdelbegin \DIFdel{, and therefore, }\DIFdelend \DIFaddbegin \DIFadd{. 
+      Thus }\DIFaddend higher order terms \DIFdelbegin \DIFdel{is }\DIFdelend \DIFaddbegin \DIFadd{in }\DIFaddend the perturbative expansion \DIFdelbegin \DIFdel{would }\DIFdelend \DIFaddbegin \DIFadd{could }\DIFaddend potentially 
+        be more important \DIFdelbegin \DIFdel{.
       By measuring the cross section for $\gamma\gamma \rightarrow e^{+} e^{-}$,
         the extent to which higher order terms are needed in coherent photon
-        coupling can be constrained. 
+        coupling can be constrained}\DIFdelend \DIFaddbegin \DIFadd{for the Pb nucleus compared to the proton}\DIFaddend .
       Recent results by ALICE favor very small contributions for higher order
-        terms \cite{}.
+        terms \DIFdelbegin \DIFdel{\mbox{%DIFAUXCMD
+\cite{}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Abbas:2013oua}
+}%DIFAUXCMD
+}\DIFaddend .
       In addition, this analysis provides a useful cross check to the UPC 
-        quarkonia analysis such as \JPsi{} by verifying the cross section 
+        quarkonia \DIFdelbegin \DIFdel{analysis }\DIFdelend \DIFaddbegin \DIFadd{analyses }\DIFaddend such as \JPsi{} by verifying the cross section 
         normalization.
 
     \subsection{UPC hadronic overlap}
@@ -185,20 +192,19 @@
       This measurement would open up the door to exploring the boundary between
         photoproduction and hadronic production.
 
-    \subsection{UPC \JPsi{} with \DIFdelbegin \DIFdel{muons }\DIFdelend \DIFaddbegin \DIFadd{electrons }\DIFaddend in HF}
+    \subsection{UPC \JPsi{} with electrons in HF}
       As higher rapidities are explored both lower and higher momentum partons
         of the nucleus are probed. 
       Because these two contributions to the UPC photoproduction cross section 
         can be separated using neutron tagging in incoherent events, exploring
-        higher dimuon rapidities becomes attractive.
+        higher \DIFdelbegin \DIFdel{dimuon }\DIFdelend \DIFaddbegin \DIFadd{dilepton }\DIFaddend rapidities becomes attractive.
       HF extends to 5 in $\eta$, which is 2.6 units beyond the edge of the 
         tracker.
-      By combining hits in HF with tracks in the tracker\DIFdelbegin \DIFdel{the higher dimuon 
-        rapidities could be explored}\DIFdelend \DIFaddbegin \DIFadd{,  
-        }\JPsi{} \DIFadd{from higher rapidities can be measured}\DIFaddend . 
+      By combining hits in HF with tracks in the tracker,  
+        \JPsi{} from higher rapidities can be measured. 
       When combined with neutron tagging of incoherently produced quarkonia,
         the current study can be extended to probe lower-$x$ nuclear partons 
-        by identifying muons in HF. 
+        by identifying \DIFdelbegin \DIFdel{muons }\DIFdelend \DIFaddbegin \DIFadd{leptons }\DIFaddend in HF. 
 
  \section{\label{sec:pPbTrigDev}Trigger development for the LHC pPb Run}
    Specific UPC triggers were also developed for the pPb run in 2013. 
@@ -210,7 +216,7 @@
       allowed for a change in emphasis from the L1 to the HLT. 
 
     The basic strategy in 2013 was the same as in 2012, use the loosest 
-      available ECAL and muon L1 triggers \DIFdelbegin \DIFdel{to push }\DIFdelend to capture the lowest \pt{}
+      available ECAL and muon L1 triggers to capture the lowest \pt{}
       electrons and muons possible and reject hadronic interactions.
     Because of the L1 bandwidth restrictions in 2011, both the ZDCs and the 
       BCSs were used on the L1 to reduce rates.
@@ -220,8 +226,11 @@
       was developed to increase purity.
     The main advantage in this shift in strategy was a higher purity due to 
       the increased sophistication of the reconstruction on the HLT.
-    In addition, an increase in cross section of the underlying physics process
-      was achieved by relaxing the neutron emission requirement.
+    In addition, \DIFdelbegin \DIFdel{an increase in cross section of the underlying physics process
+      was achieved by relaxing the neutron emission requirement}\DIFdelend \DIFaddbegin \DIFadd{the cross section for photoproduciton without regard to 
+      neutron emission is higher.
+    Therefore, relaxing the requirement of activity in the ZDCs further 
+      increases measurable yields}\DIFaddend . 
 
     The HLT triggers in 2013 rejected hadronic interactions through counting
       tracks. 
@@ -230,7 +239,7 @@
 
     \begin{itemize}
       \item Pixel tracks were reconstructed from the inner pixel section of the 
-        silicone tracker alone, tracks were reconstructed using the full
+        \DIFdelbegin \DIFdel{silicone }\DIFdelend \DIFaddbegin \DIFadd{silicon }\DIFaddend tracker alone, tracks were reconstructed using the full
         tracker using the strips as well, and full dimuon reconstruction was 
         done using the tracker and muon detector. 
       \item The least restrictive pixel track paths required at least 
@@ -244,14 +253,16 @@
     \end{itemize}
 
     \subsection{$J/\psi$ photoproduction in ultra-peripheral pPb collisions}
-      The CMS UPC triggers commissioned for the 2013 LHC pPb will allow for the
-        study of \JPsi{} photoproduciton.
-      This process is dominated $\gamma-p$ interactions~\cite{Frankfurt:2006tp,Guzey:2013taa}.
+      The CMS UPC triggers commissioned for the 2013 LHC pPb \DIFaddbegin \DIFadd{run }\DIFaddend will allow for
+        \DIFdelbegin \DIFdel{the
+        study }\DIFdelend \DIFaddbegin \DIFadd{further analysis }\DIFaddend of \JPsi{} photoproduciton.
+      \DIFdelbegin \DIFdel{This process }\DIFdelend \DIFaddbegin \DIFadd{In ultra-peripheral pPb collisions, }\JPsi{} \DIFadd{photoproduciton }\DIFaddend is dominated 
+        $\gamma-p$ interactions~\cite{Frankfurt:2006tp,Guzey:2013taa}.
       The measurement would primarily probe the proton gluon densities.
       In Eq.~\ref{eq:photonFluxFinaltmp} the photon flux depends on the square
-      of the number of protons in parent nucleus, $Z^{2}$. 
-      However, the cross section of the target only increase as the total 
-        number of nucleons to $A^{2/3}$.
+        of the number of protons in \DIFaddbegin \DIFadd{the }\DIFaddend parent nucleus, $Z^{2}$. 
+      However, the cross section of the target \DIFdelbegin \DIFdel{only }\DIFdelend increase as the total 
+        number of nucleons to \DIFaddbegin \DIFadd{the two thirds power, }\DIFaddend $A^{2/3}$.
       The much higher photon flux from the Pb-ion compensates for 
         the decreased size of the proton.
 
@@ -266,6 +277,6 @@
       In addition, an excess in the UPC cross section compared to HERA 
         measurements would indicate a non-exclusive contribution to the pPb UPC 
         \JPsi{} cross section. 
-      This measurement will both help enhance the current understanding of 
-        the $\gamma$p \JPsi{} photoproduction cross section as a function of 
-        $W_{\gamma p}$.
+      This measurement will \DIFdelbegin \DIFdel{both help }\DIFdelend enhance the current understanding of 
+        the \DIFdelbegin \DIFdel{$\gamma$p }\DIFdelend \JPsi{} photoproduction cross section as a function of \DIFaddbegin \DIFadd{the 
+        photon-proton center of mass energy, }\DIFaddend $W_{\gamma p}$.

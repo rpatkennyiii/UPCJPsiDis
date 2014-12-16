@@ -7,7 +7,7 @@
   This is followed by the systematic uncertainty on the integrated luminosity,
     which is discussed in \cite{cmsLumi}.
   The ZDC reconstruction method used to estimate the neutron thresholds 
-    is the next most dominant uncertianty, followed by the method used to 
+    is the next most dominant \DIFaddbegin \DIFadd{uncertianty}\DIFaddend , followed by the method used to 
     estimate the HF noise threshold. 
   \begin{table}[!Hhtb]
     \begin{center}
@@ -37,7 +37,7 @@
       \pt{} distribution alone.
     The mass distribution was used to distinguish between these two processes.
 
-    The systematic uncertainty due to the functions used to fit
+    The systematic uncertainty due to the \DIFdelbegin \DIFdel{choose of }\DIFdelend functions used to fit
       the mass distribution was estimated by varying the signal and 
       background functions.
     The contribution to the background from the mass fit was used to fix the
@@ -46,13 +46,21 @@
     Two functions were used to describe the signal, a Gaussian, and a Crystal
       ball function. 
     The background was fit to a linear function, a 2nd order polynomial, and
-      a 2nd order Chebyshev polynomial. 
-    The resulting variation on the coherent contribution was used as an
+      a 2nd order \DIFdelbegin \DIFdel{Cheby-Chev }\DIFdelend \DIFaddbegin \DIFadd{Chebyshev }\DIFaddend polynomial. 
+    The resulting variation on the coherent contribution was used \DIFdelbegin \DIFdel{to }\DIFdelend as an
       estimate of this systematic effect. 
 
     \begin{figure}[!Hhbt]
       \centering
-      $ \begin{array}{cc}
+      \DIFdelbeginFL \DIFdelFL{$ \begin{array}{ccc}
+        \includegraphics[width=.3\textwidth]{cbPolyBkgEst} &
+        \includegraphics[width=.3\textwidth]{gausLinBkgEst} &
+        \includegraphics[width=.3\textwidth]{gausCCBkgEst} \\
+        \includegraphics[width=.3\textwidth]{cbPoly} &
+        \includegraphics[width=.3\textwidth]{gausLin} &
+        \includegraphics[width=.3\textwidth]{gausCC}
+      \end{array} $
+      }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{$ \begin{array}{cc}
         \includegraphics[width=.4\textwidth]{cbPolyBkgEst} &
         \includegraphics[width=.4\textwidth]{cbPoly} \\ 
         \includegraphics[width=.4\textwidth]{gausLinBkgEst} &
@@ -60,23 +68,24 @@
         \includegraphics[width=.4\textwidth]{gausCCBkgEst} &
         \includegraphics[width=.4\textwidth]{gausCC}
       \end{array} $
-      \caption{Various mass distribution fits and the corresponding \pt{}
+      }\DIFaddendFL \caption{Various mass distribution fits and the corresponding \pt{}
         template fit.}
       \label{fig:massPtFitsForSyst}
     \end{figure}
 
     Moving from left to right in Fig~\ref{fig:massPtFitsForSyst}, the 
       contribution from the photon-photon process increases.
-    The $\chi^{2}$ / degree of freedom is similar for the three 
+    The $\chi^{2}$ / degree of freedom is similar \DIFdelbegin \DIFdel{between }\DIFdelend \DIFaddbegin \DIFadd{for }\DIFaddend the three 
       fits indicating a similar goodness of fit.
-    On this basis, none the three fits are preferred. 
+    On this basis, \DIFdelbegin \DIFdel{neither fit is }\DIFdelend \DIFaddbegin \DIFadd{none the three fits are }\DIFaddend preferred. 
     The left most fit uses a Crystal Ball function to account for the 
       radiative decay of the final state daughters of the \JPsi{}.
     The low mass exponential portion however picks up background events 
       and overestimates the \JPsi{} contribution. 
-    The right most plot fits the background to a 2$^{nd}$-order Chebyshev 
-      polynomial.
-    Because the Chebyshev peaks just below the \JPsi{} peak, this fit 
+    The right most plot fits the background to a \DIFdelbegin \DIFdel{2nd order Cheby-Chev 
+      }\DIFdelend \DIFaddbegin \DIFadd{2$^{nd}$-order Chebyshev 
+      }\DIFaddend polynomial.
+    Because the \DIFdelbegin \DIFdel{Cheby-Chev }\DIFdelend \DIFaddbegin \DIFadd{Chebyshev }\DIFaddend peaks just below the \JPsi{} peak, this fit 
       overestimates the background and in turn underestimates the signal 
       contribution.
     The Gaussian fit with a linear background however does a reasonable job
@@ -87,16 +96,16 @@
     The difference between the Gaussian-Linear fit and the 
       Crystal Ball-polynomial fit was taken as an upper bound. 
     The difference between the Gaussian-Linear fit and the 
-        Gaussian-Chebyshev fit was taken as a lower bound. 
+        \DIFdelbegin \DIFdel{Gaussian-Cheby-Chev }\DIFdelend \DIFaddbegin \DIFadd{Gaussian-Chebyshev }\DIFaddend fit was taken as a lower bound. 
     The overall systematic uncertainty due to the choose of normalization for
       the photon-photon template is found to be $^{+9.5\%}_{-12\%}$.
 
   \section{ZDC trigger efficiency}
     The ZDC trigger efficiency measurement is sensitive to the underlying 
       neutron distribution.
-    The more neutrons per event that hit the ZDC, the higher the trigger 
+    The more neutrons \DIFaddbegin \DIFadd{per event }\DIFaddend that hit the ZDC, the higher the trigger 
       efficiency will be.
-    To estimate the effect that the trigger used to recorded the data has on the 
+    To estimate the effect the \DIFdelbegin \DIFdel{input sample }\DIFdelend \DIFaddbegin \DIFadd{trigger used to recorded the data }\DIFaddend has on the 
       efficiency, the ZDC trigger efficiency was measured from five different 
       samples.
     Table~\ref{tab:zdcEfficiencySys} shows the results from the 
@@ -128,11 +137,11 @@
       \label{tab:zdcEfficiencySys}
     \end{table}
 
-    The systematic uncertainty in the ZDC trigger efficiency coming from the 
+    The systematic uncertainty in the ZDC trigger efficiency \DIFdelbegin \DIFdel{due to }\DIFdelend \DIFaddbegin \DIFadd{coming from }\DIFaddend the 
       uncertainty in the underlying distribution was estimated by calculating 
       the standard deviation of efficiency measurements in Table~\ref{tab:zdcEfficiencySys}.
     The uncertainty in the ZDC trigger for ZDC$^{-}$ was found to be less than 
-      1\% and was taken to be negligible. 
+      1\% and taken to be negligible. 
     For ZDC$^{+}$, the systematic uncertainty was taken to be 3.5\%.
 
   \section{ZDC reconstruction}
@@ -149,15 +158,16 @@
       the systematic uncertainty, giving 2.9\%.
 
   \section{HF noise threshold}
-    The way in which the HF noise distribution is measured affects the event 
+    The way in which the HF noise distribution is measured \DIFdelbegin \DIFdel{effects }\DIFdelend \DIFaddbegin \DIFadd{affects }\DIFaddend the event 
       selection and therefore the final candidate yield.
     This cut plays a significant role in rejecting hadronic events.
-    In Table~\ref{tab:evSelCutNumbers} the importance of HF signal rejection 
-      cut is evident. 
-    The HF signal rejection cut rejects nearly 1/5 of the remaining events. 
+    In Table~\ref{tab:evSelCutNumbers} the importance of \DIFdelbegin \DIFdel{cutting on HF noise
+      }\DIFdelend \DIFaddbegin \DIFadd{HF signal rejection 
+      cut }\DIFaddend is evident. 
+    The HF \DIFdelbegin \DIFdel{noise }\DIFdelend \DIFaddbegin \DIFadd{signal rejection }\DIFaddend cut rejects nearly 1/5 of the remaining events. 
     The systematic uncertainties on the HF noise requirement is important for
       this reason.
-   
+
     The most basic information from the HF detectors are contained in RecHits. 
     There is one RecHit per phototube on HF. 
     The RecHit signal is calibrated in GeV, and no noise subtraction is done. 
@@ -165,8 +175,8 @@
     They are the first stage of the CMS jet trigger and perform some noise 
       suppression.
 
-    In UPC events, the signal in HF should be consistent with noise.  
-    The default HF signal rejection cut required that the maximum RecHit energy
+    \DIFaddbegin \DIFadd{In UPC events, the signal in HF should be consistent with noise.  
+    }\DIFaddend The default HF \DIFdelbegin \DIFdel{noise }\DIFdelend \DIFaddbegin \DIFadd{signal rejection }\DIFaddend cut required that the maximum RecHit energy
       from both HF+ and HF- be less than 3.85 GeV.
     This cut was designed to accept 99\% of the noise events, 
       see Fig.~\ref{fig:hfNoiseDist}. 
@@ -233,7 +243,7 @@
           97 & 284 & 292 & 280 & 289 & \\ \hline \hline
           99 & 290 & 293 & 288 & 291 & Two-sided \\ \hline
         \end{tabular}
-      \caption{Number of UPC dimuon candidates with  p$_{T} <$ 1 GeV when changing HF calorimeter cuts for RecHit and CaloTower.}
+      \caption{Number of \DIFdelbeginFL \DIFdelFL{upc }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{UPC }\DIFaddendFL dimuon candidates with  p$_{T} <$ 1 GeV when changing HF calorimeter cuts for RecHit and CaloTower.}
       \label{tab:hfAdjThreshYields}
     \end{table}
 
@@ -261,10 +271,10 @@
           for the mass fit. }
         \label{fig:simFitTemp}
       \end{figure}
-  
+
     \subsection{Tag and probe from counting compared to fitting}
       The main purpose for fitting the mass spectra to estimate the efficiency
-        is to separate the background from the true signal. 
+        is to separate the background from \DIFaddbegin \DIFadd{the }\DIFaddend true signal. 
       The background may not have the same efficiency as the signal, so 
         separating the two is important if this is the case.
       In the tag and probe fit the signal peak from the \JPsi{} resonance
@@ -280,12 +290,12 @@
       When the background comes from sources other than the physical signal,
         the background may give an efficiency estimate that is lower than
         the signal. 
-  
+
       The trigger efficiency measured by the tag and probe method depends on
-        the fitting functions used to estimate the background and signal 
+        the fitting functions \DIFdelbegin \DIFdel{use }\DIFdelend \DIFaddbegin \DIFadd{used }\DIFaddend to estimate the background and signal 
         contributions. 
       Depending on what functions is used to fit the spectra, the amount of
-        background can be over or underestimated and affect the efficiency 
+        background can be over or underestimated and \DIFdelbegin \DIFdel{effect }\DIFdelend \DIFaddbegin \DIFadd{affect }\DIFaddend the efficiency 
         measurement.
       To estimate this effect, the tag and probe efficiencies were additionally
         measured by counting probes in the \JPsi{} mass window. 
@@ -303,7 +313,7 @@
           compared to fitting (right).}
         \label{fig:tnpCntVFit}
       \end{figure}
-  
+
       From Fig.~\ref{fig:tnpCntVFit} it is apparent that the choice of fit 
         function, and, therefore, the amount of background from the mass side 
         bands is included in the signal measurement has very little effect on 
@@ -324,16 +334,16 @@
       The counting and fitting trigger efficiency measurements agree within 
         statistical uncertainties, so this uncertainty was taken to be 
         negligible.
-  
+
     \subsection{The effect of noise on ZDC trigger efficiency estimates}
-      The amount of electronic noise in the sample affects the ZDC energy 
+      The amount of electronic noise in the sample \DIFdelbegin \DIFdel{effects }\DIFdelend \DIFaddbegin \DIFadd{affects }\DIFaddend the ZDC energy 
         distribution and, therefore, the trigger efficiency measurement.
       The more noise that sits below the one neutron peak, the lower the 
         efficiency estimate will be. 
       In Table~\ref{tab:zdcEfficiencySysNoiseSample}, the zero bias sample 
         with the timing cuts desribed in Section~\ref{sec:zdcCompare} gives a 
         significantly higher
-        estimated efficiency compared the zero bias sample without timing cuts
+        estimated efficiency compared the zero bias sample \DIFdelbegin \DIFdel{with out }\DIFdelend \DIFaddbegin \DIFadd{without }\DIFaddend timing cuts
         in Table~\ref{tab:zdcEfficiencySysNoiseSample}.
       The same increase is seen when comparing the ZDC triggered sample with 
         the ZDC triggered sample that also requires a pixel track shown in

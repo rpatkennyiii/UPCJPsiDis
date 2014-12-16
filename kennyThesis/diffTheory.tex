@@ -1,21 +1,19 @@
 \chapter{Photo-nuclear interactions \label{ch:photoNuc}}
-    \DIFdelbegin \DIFdel{The }\DIFdelend \DIFaddbegin \DIFadd{In ultra-peripheral heavy-ion collision, the }\DIFaddend colliding nuclei interact \DIFdelbegin \DIFdel{electromagnetically in an ultra-peripheral 
-      heavy-ion collision}\DIFdelend \DIFaddbegin \DIFadd{only 
-      electromagnetically}\DIFaddend .   
+    In ultra-peripheral heavy-ion collision, the colliding nuclei interact only 
+      electromagnetically~\cite{Baltz:2007kq,Bertulani:2005ru}.   
     In such events, no QGP state emerges, and the effects arising from the QGP 
       no longer obscure the initial state effects.
     Other initial state probes such as peripheral nuclear collisions and 
       proton-nucleus collisions have the potential to create the QGP obscuring 
-      which effects come from the initial state.
-    \DIFdelbegin \DIFdel{It is impossible to create the QGP in UPC events because the nucleons 
-      within the nucleus }\DIFdelend \DIFaddbegin \DIFadd{In UPC events the nuclei }\DIFaddend do not collide\DIFaddbegin \DIFadd{, therefore final state effects coming
-      from the QGP are not expected}\DIFaddend . 
+      \DIFdelbegin \DIFdel{which effects }\DIFdelend \DIFaddbegin \DIFadd{effects that }\DIFaddend come from the initial state.
+    \DIFdelbegin \DIFdel{In UPC events the nuclei do not collide}\DIFdelend \DIFaddbegin \DIFadd{Hadronic interactions do no occur in ultra-peripheral collisions (UPC)}\DIFaddend , 
+      therefore final state effects coming from the QGP are not expected. 
     Thus, UPC events provide clarity by enhancing physicists' 
       understanding of the initial state. 
 
     In particular, these interactions between the field of photons surrounding 
       the colliding nuclei and the gluons within the nuclei can produce a 
-      \JPsi{}, probing the gluon density.
+      \JPsi{}, probing the gluon density~\cite{Ryskin:1992ui,Brodsky:1994kf}.
     The \JPsi{} can be produced either coherently or incoherently. 
     In the case of coherent interactions, the photon couples to the nucleus 
       as a whole.
@@ -25,43 +23,54 @@
       the initial state of the nucleus.
 
     This cross section can be calculated using three steps.   
-    First, the Weizs\"{a}cker-Williams approximation provides a way to calculate the 
+    First, the Weizs\"{a}cker-Williams approximation~\cite{vonWeizsacker:1934sx,Williams:1934ad} provides a way to calculate the 
       density of probing photons that surrounds the nucleus. 
     Second, the electron-proton scattering data gives a value for the proton 
-      photoproduction cross section at lower energies \DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
-\cite{Klasen:2007pm}
-}%DIFAUXCMD
-}\DIFaddend .
+      photoproduction cross section at lower energies \cite{Klasen:2007pm}.
     Last, a specific model is used to combined the previous two steps in order
       to calculate the nuclear photoproduction cross section. 
-    In this thesis the perterbutive Adeluyi and Bertulani (AB), STARlight, and 
-      the Leading Twist (LTA) models are discussed. 
+    In this thesis the Adeluyi and Bertulani (AB)~\cite{pQCD2011.08,pQCD2013.02}, STARlight~\cite{vmd1999,starlight}, and 
+      the Leading Twist (LTA)~\cite{Frankfurt:2011cs,lta2011.09} models are discussed. 
     Each of these methods handle the gluon density of the nucleus differently 
       producing a measurable difference in the value of the \JPsi{} 
-      photoproduction cross section.
-    Measurements at the LHC have provided important constrains to models of the 
-      nuclear gluon density.
+      photoproduction cross section. 
+    There are other UPC models available~\cite{Goncalves:2011vf,Cisek:2012yt,Lappi:2013am,Hufner:1996jw}, 
+      but this thesis focuses on \DIFdelbegin \DIFdel{STARlight because it is used as the Monte 
+      Carlo generator throughout, and the ABand LTA models 
+      show the best agreement with previous measurements by the ALICE 
+      Collaboration~\mbox{%DIFAUXCMD
+\cite{Abelev:2012ba,Abbas:2013oua}
+}%DIFAUXCMD
+. 
+    They have provided important constrains to modelsof the nuclear gluon 
+      density~\mbox{%DIFAUXCMD
+\cite{lta2013.05}
+}%DIFAUXCMD
+}\DIFdelend \DIFaddbegin \DIFadd{the STARlight, the AB, and the LTA models}\DIFaddend .
     The analysis presented in Chapter~\ref{ch:analysis} adds to the existing 
       data in a new kinematic region.
-    In this Chapter the theoretical framework for photon-nuclear
+    In this Chapter\DIFaddbegin \DIFadd{, }\DIFaddend the theoretical framework for photon-nuclear
       interactions, together with an experimental review of recent results on 
       ultra-peripheral heavy-ion collisions are described. 
 
   \section{Weizs\"{a}cker-Williams approximation \label{sec:wwAprox}}
     The density of photons surrounding the colliding nuclei can be calculated 
-      using the Weizs\"{a}cker-Williams approximation. 
+      using the Weizs\"{a}cker-Williams approximation~\cite{vonWeizsacker:1934sx,Williams:1934ad}. 
     This approximation relates the electric field of a stationary point charge 
       to the photon field that arises at ultra relativistic velocities. 
-    The approximation is semi-classical and combines both classical and quantum 
-      elements.
-    In the Weizs\"{a}cker-Williams 
-      approximation, a Fourier transform of Maxwell's equations is combined 
-      with the quantum mechanical equation for the energy of the photon.   
+    The approximation is semi-classical\DIFdelbegin \DIFdel{and combines both classical and quantum 
+      elements}\DIFdelend . 
+    In the Weizs\"{a}cker-Williams approximation, a Fourier transform of Maxwell's 
+      equations is combined with the quantum mechanical equation for the energy of the photon.   
     \begin{figure}[!Hhbt]
       \begin{center}
         \includegraphics[width=.65\textwidth]{boost.png}
       \end{center}
-      \caption{ \label{fig:boost} The electromagnetic field boosted and at rest. }
+      \caption{ \label{fig:boost} The electromagnetic field boosted \DIFaddbeginFL \DIFaddFL{(right) }\DIFaddendFL and 
+        at rest \DIFaddbeginFL \DIFaddFL{(left) \mbox{%DIFAUXCMD
+\cite{WWJackson}
+}%DIFAUXCMD
+}\DIFaddendFL .}
     \end{figure}
     The frequency modes of the electrostatic field are treated as photons. 
     The Weizs\"{a}cker-Williams approximation makes the calculation of 
@@ -69,7 +78,7 @@
 
     The Weizs\"{a}cker-Williams approximation begins with the equation for the 
       electric field of the projectile nucleus at rest. 
-    To calculate the photon flux on the target nucleus, \DIFaddbegin \DIFadd{the }\DIFaddend electromagnetic field 
+    To calculate the photon flux on the target nucleus, the electromagnetic field 
       only needs to be considered at the position of the target nucleus. 
     From the projectile's point of view, the target is moving and contributes
      $-vt$ to Eq.~\ref{eq:staticEFromTargtmp}, the equation for the electric 
@@ -116,7 +125,7 @@
     \end{eqnarray}
     The Lorentz transformation reduces the six components of the 
       electromagnetic field in the target's frame to the three equations in 
-      Eq.~\ref{eq:staticEFromTarg2tmp} by relating them to the fields \DIFdelbegin \DIFdel{of }\DIFdelend \DIFaddbegin \DIFadd{in }\DIFaddend the 
+      Eq.~\ref{eq:staticEFromTarg2tmp} by relating them to the fields in the 
       projectile's frame. 
 
     By combining Eq.~\ref{eq:staticEFromTargtmp} and 
@@ -149,7 +158,7 @@
       wave.
 
     Separating the electromagnetic field into even and odd functions of time 
-      \DIFdelbegin \DIFdel{simplify }\DIFdelend \DIFaddbegin \DIFadd{simplifies }\DIFaddend the decomposition of the field equations into Fourier frequency 
+      simplifies the decomposition of the field equations into Fourier frequency 
       modes.
     The even functions decompose into cosine functions, odd functions 
       into sine functions. 
@@ -189,11 +198,10 @@
      \left(\frac{\omega b}{\gamma v}\right).\qquad
     \end{equation}
     The $y$-component of the electric field does not have a factor of $t$ in 
-      the numerator \DIFaddbegin \DIFadd{in Eq.~\ref{eq:fourier1tmp}}\DIFaddend , therefore the factor of $\gamma$ 
-      remains outside of the integral \DIFdelbegin \DIFdel{.
-    }\DIFdelend \DIFaddbegin \DIFadd{for the Bessel functions in 
+      the numerator in Eq.~\ref{eq:fourier1tmp}, therefore the factor of $\gamma$ 
+      remains outside of the integral for the Bessel functions in 
       Eq.~\ref{eq:fourier3tmp}.
-    }\DIFaddend In Eq.~\ref{eq:fourier3tmp}, $E_{y}$ carries an additional factor of 
+    In Eq.~\ref{eq:fourier3tmp}, $E_{y}$ carries an additional factor of 
       $\gamma$ in the numerator relative to the $E_{x}$, therefore in the case
       when $\gamma >> 1$, $E_{x}$ can be neglected. 
 
@@ -207,7 +215,7 @@
     \begin{equation} \label{eq:ultraRelAprox}
       \gamma \gg 1 \Rightarrow \gamma E_{x} \gg E_{x} \Rightarrow E_{y} \gg E_{x} \textrm{.}
     \end{equation}
-    The six field components \DIFaddbegin \DIFadd{are }\DIFaddend reduced to one electric component and one 
+    The six field components are reduced to one electric component and one 
       perpendicular magnetic field component, which have a configuration 
       identical to a plane wave. 
 
@@ -264,14 +272,17 @@
       calculation. 
 
   \section{\label{sec:vdmTheory}The STARlight model}
-    The STARlight model for calculating the \JPsi{}
+    The STARlight model~\cite{vmd1999,starlight} for calculating the \JPsi{}
       photoproduction cross section has three main components.
     The STARlight approach is constructed from the Weizs\"{a}cker-Williams 
-      photon flux, uses the vector meson dominance fit to the proton-electron data, 
-      and uses the Glauber model for calculating the nuclear cross sections from 
+    photon flux, uses the vector meson dominance\DIFaddbegin \DIFadd{~\mbox{%DIFAUXCMD
+\cite{Bauer:1977iq}
+}%DIFAUXCMD
+}\DIFaddend fit to the proton-electron data, 
+      and uses the Glauber model~\cite{Miller:2007ri} for calculating the nuclear cross sections from 
       the proton-electron cross sections.
     The Weizs\"{a}cker-Williams photon flux provides the probe. 
-    The proton-electron scattering data combine with the Glauber model  
+    The proton-electron scattering data \DIFdelbegin \DIFdel{combine }\DIFdelend \DIFaddbegin \DIFadd{combined }\DIFaddend with the Glauber model  
       create a picture of the initial state of the nucleus. 
     Each of the different approaches discussed in this thesis to calculating 
       the UPC \JPsi{}  photoproduction cross section use these same elements.
@@ -298,43 +309,46 @@
     where $s$ is the distance from the center of the 
       nucleus, $R_{WS}$ is the radius of the nucleus, and $d$ is the skin depth, 
       which determines how quickly the nucleon density falls off beyond the 
-      nuclear radius. 
-    In Eq.~\ref{eq:TaNuc} the depth of the nucleus is integrated out leaving
-      just the transverse dimension in $T_{A}$.
-    The average number of nucleons in the overlap region is given by a
-      convolution of $T_A$ from each of the two nuclei to produce 
-    \DIFaddbegin \DIFadd{The average number of nucleons in the overlap region is given by a 
+      nuclear radius.
+    \DIFaddbegin \DIFadd{Here WS refers to the Wood-Saxon distribution. 
+    }\DIFaddend In Eq.~\ref{eq:TaNuc} the depth of the nucleus is integrated out leaving
+    just the transverse \DIFdelbegin \DIFdel{dimension in $T_{A}$}\DIFdelend \DIFaddbegin \DIFadd{dimensions in $T_{A}(\vec{r})$}\DIFaddend .
+    The average number of nucleons in the overlap region\DIFaddbegin \DIFadd{, $T_{AA}$, }\DIFaddend is given by
+      a convolution of $T_A$ from each of the two nuclei\DIFdelbegin \DIFdel{to produce 
+    The average number of nucleons in the overlap region is given by a 
       convolution of $T_A$ from each of the two nuclei to produce nuclear overlap 
-      integral, }\DIFaddend $T_{AA}$\DIFaddbegin \DIFadd{,
+      integral, $T_{AA}$,
+    }\DIFdelend \DIFaddbegin \DIFadd{.
     }\DIFaddend \begin{eqnarray} \label{eq:TaNuc}
       T_{A}(\vec{r})=\int{dz\rho_{A}(\sqrt{|\vec{r}|^{2}+z^{2}})}\textrm{, and} \nonumber \\ 
-      T_{AA}(|\vec{b}|)=\int{d^{2}\vec{r}T_{A}(\vec{r})T_{A}(\vec{r}-\vec{b})}\DIFaddbegin \textrm{\DIFadd{.}}
-    \DIFaddend \end{eqnarray}
-    \DIFaddbegin \DIFadd{For a given impact parameter $b$, the product of $T_{AA}(|\vec{b}|)$ and
-      $\sigma_{NN}$ gives the average number of nucleon-nucleon collisions. 
-    }\DIFaddend It is $T_{AA}$ that modulates the photon flux. 
+      T_{AA}(|\vec{b}|)=\int{d^{2}\vec{r}T_{A}(\vec{r})T_{A}(\vec{r}-\vec{b})}\textrm{.}
+    \end{eqnarray}
+    For a given impact parameter $b$, the product of $T_{AA}(|\vec{b}|)$ and
+      $\sigma_{NN}$ gives the average number of nucleon-nucleon collisions.
+    \DIFdelbegin \DIFdel{It is $T_{AA}$ that modulates the photon flux. 
     As input to the Poisson distribution, $T_{AA}$ reduces 
       Eq.~\ref{eq:photonFluxFinaltmp} at values of $b$ where the nuclei overlap 
       significantly and eliminates the divergency in the photon flux. 
-    \DIFdelbegin %DIFDELCMD < 
-
-%DIFDELCMD <     %%%
-\DIFdelend The convolution of the photon flux with the $b$-dependent probability that 
+    The convolution of the photon flux with the $b$-dependent probability that 
       no nucleon-nucleon collisions occur removes the divergency in 
       Eq.~\ref{eq:photonFluxFinaltmp}. 
+     }%DIFDELCMD < 
 
-    The Poisson distribution gives the probability that no collisions 
-      occur at a given $b$ using the mean number of nucleons in the overlap 
+%DIFDELCMD <     %%%
+\DIFdelend The Poisson distribution gives the probability that no collisions 
+      occur\DIFdelbegin \DIFdel{at a given $b$ using the mean number of nucleons in the overlap 
       region given by $T_{AA}$:
-    \begin{equation} \label{eg:poisNoCol}
-      P_{0}(b)=exp[-T_{AA}(b)\sigma_{NN}],
+    }\DIFdelend \DIFaddbegin \DIFadd{:
+    }\DIFaddend \begin{equation}\DIFdelbegin \DIFdel{ \label{eg:poisNoCol}
+      }\DIFdelend \DIFaddbegin \DIFadd{ \label{eq:poisNoCol}
+      }\DIFaddend P_{0}(b)=exp[-T_{AA}(b)\sigma_{NN}],
     \end{equation}
-    where $\sigma_{NN}$ is the cross section for a 
+      where $\sigma_{NN}$ is the cross section for a 
       nucleon-nucleon interaction, which gives the probability that a collision
       will occur given the average number of nucleons in the overlap region.
-    The \DIFdelbegin \DIFdel{average photon flux }\DIFdelend \DIFaddbegin \DIFadd{photon flux is averaged }\DIFaddend over impact parameter \DIFdelbegin \DIFdel{can be calculated 
-      from the }\DIFdelend \DIFaddbegin \DIFadd{by }\DIFaddend integration of the 
-      $b$-dependent photon flux \DIFdelbegin \DIFdel{with }\DIFdelend \DIFaddbegin \DIFadd{multiplied by }\DIFaddend the $b$-dependent probability of having no 
+    \DIFaddbegin \DIFadd{$T_{AA}$ is the mean of the Poisson distribution in Eq.~\ref{eq:poisNoCol}.
+    }\DIFaddend The photon flux is averaged over impact parameter by integration of the 
+      $b$-dependent photon flux multiplied by the $b$-dependent probability of having no 
       nucleon-nucleon interactions: 
     \begin{equation} \label{eq:fluxMod}
       \frac{dN_{\gamma}(k)}{dk}=\int_{0}^{\infty}{2\pi bdbP_{0}(b)
@@ -344,14 +358,21 @@
     Although Eq.~\ref{eq:fluxMod} goes down to $b=0$ where the photon flux is 
       infinite, the fact that the probability of having a nucleon-nucleon collisions 
       is high eliminates the divergency.
+    \DIFaddbegin \DIFadd{$T_{AA}$ reduces Eq.~\ref{eq:photonFluxFinaltmp} at values of $b$ where the
+      nuclei overlap significantly and eliminates the divergency in the photon 
+      flux. 
+    The convolution of the photon flux with the $b$-dependent probability that 
+      no nucleon-nucleon collisions occur removes the divergency in 
+      Eq.~\ref{eq:photonFluxFinaltmp}. 
+}\DIFaddend 
 
-    A power-law fit to the proton photoproduction data gives an analytic 
-      expression for the energy dependence of the proton photoproduction 
+    A power-law fit to the \DIFdelbegin \DIFdel{proton photoproduction data }\DIFdelend \DIFaddbegin \DIFadd{photoproduction data off of proton targets }\DIFaddend gives an 
+      analytic expression for the energy dependence of the \DIFdelbegin \DIFdel{proton }\DIFdelend \DIFaddbegin \DIFadd{this }\DIFaddend photoproduction 
       cross section.
-    The fitting function depends on the photon-proton center of mass energy. 
-    The parameterization of the forward proton photoproduction cross section 
-      fit:
-    \begin{equation} \label{eq:proElFit}
+    The \DIFdelbegin \DIFdel{fitting function depends on the photon-proton center of mass energy. 
+    The parameterization of the forward proton }\DIFdelend \DIFaddbegin \DIFadd{forward }\DIFaddend photoproduction cross section \DIFdelbegin \DIFdel{fit:
+    }\DIFdelend \DIFaddbegin \DIFadd{is parameterized by
+    }\DIFaddend \begin{equation} \label{eq:proElFit}
       \frac{d\sigma(\gamma p\rightarrow Vp)}{dt}\Big|_{t=0}
         =b_{v}(XW^{\epsilon}+YW^{-\eta}),
     \end{equation}
@@ -359,11 +380,16 @@
       Eq.~\ref{eq:proElFit}.
     The remaining variables in Eq.~\ref{eq:proElFit} are power-law fit 
       parameters.  
-    The $XW^{\epsilon}$ term characterizes pomeron mediated interactions, and
-      the $YW^{\eta}$ term characterizes meson mediated interactions~\cite{vmd1999}. 
-    \JPsi{}'s high mass relative to the $\pi$ and $\rho^{0}$ renders the second 
+    The $XW^{\epsilon}$ term characterizes Pomeron\DIFaddbegin \DIFadd{\mbox{%DIFAUXCMD
+\cite{Donnachie:2002en}
+}%DIFAUXCMD
+}\DIFaddend mediated interactions, and the $YW^{\eta}$ term characterizes meson 
+      mediated interactions~\cite{vmd1999}.
+    \DIFaddbegin \DIFadd{The Pomeron can be considered to be a pair of gluons in a color singlet 
+      state.
+    }\DIFaddend \JPsi{}'s high mass relative to the $\pi$ and $\rho^{0}$ renders the second 
       term in Eq. ~\ref{eq:proElFit} negligible as the term falls rapidly with
-      increasing $W$. 
+      increasing $W$.
     Eq.~\ref{eq:proElFit} allows for extrapolation and interpolation of the 
       measured forward proton photoproduction cross section. 
     The fit to the data provides estimates for energies that have not yet been 
@@ -381,9 +407,9 @@
       $d\sigma/dt|_{t=0}$, where $t$ is the momentum transfer squared.
     The most likely fluctuations of the photon are to vector mesons because of 
       the quantum numbers of the photon.
-    \DIFaddbegin \DIFadd{Due to this consideration, vector meson dominance asserts that only the 
+    \DIFdelbegin \DIFdel{Due to this consideration}\DIFdelend \DIFaddbegin \DIFadd{For this reason}\DIFaddend , vector meson dominance asserts that only the 
       vector meson fluctuations of the photon need to be considered. 
-    }\DIFaddend The forward scattering cross section is given by the following
+    The forward scattering cross section is given by the following
     \begin{eqnarray} \label{eq:STARlightforwardScat}
       \frac{d\sigma(\gamma p\rightarrow Vp)}{dt}\Big|_{t=0}=
       \frac{4\pi \alpha}{f^{2}_{v}(M_{V},\Gamma_{l^{+}l^{-}})}\frac{d\sigma(Vp\rightarrow Vp)}{dt}
@@ -403,8 +429,9 @@
       nucleon interaction cross sections by use of $T_{AA}$. 
     The combination of the mean number of nucleons in the overlapping region
       of a nucleus-nucleus collision, $T_{AA}$, the nucleon cross section, 
-      $\sigma$, and the Poisson distribution make-up the core of the Glauber 
-      model. 
+      $\sigma$, and the Poisson distribution make-up the core of 
+      \DIFdelbegin \DIFdel{the Glauber 
+      model}\DIFdelend \DIFaddbegin \DIFadd{Eq.~\ref{eq:glauber}}\DIFaddend . 
     For the total nucleus-meson scattering cross section, the equation has the 
       following form:
     \begin{equation} \label{eq:glauber}
@@ -444,13 +471,13 @@
 
   \section{The Adeluyi and Bertulani model \label{sec:pQCDapp}}
     To calculate the UPC \JPsi{} photoproduction cross section, the Adeluyi 
-      and Bertulani model uses the nuclear gluon density to characterize the 
+      and Bertulani model~\cite{pQCD2011.08,pQCD2013.02,Pumplin:2002vw,Martin:2009iq} uses the nuclear gluon density to characterize the 
       nucleus and the Weizs\"{a}cker-Williams approximation for the probing 
       photon flux. 
     The AB method combines these components such that the nuclear gluon 
       density is a direct variable.
     The nuclear gluon density term in the AB formulation allows for 
-      the use of a variety of nuclear gluon density models.
+      the use of a variety of nuclear gluon density models~\cite{Eskola:2008ca,Eskola:2009uj}.
     A range of nuclear gluon densities are present in the available models
       resulting in a wide range of possible cross section values. 
     The UPC \JPsi{} photoproduction cross section is correlated with the gluon
@@ -464,7 +491,7 @@
       a quark-anitquark pair.
     For \JPsi{}, the photon fluctuates to a $c\bar{c}$ pair. 
     The probability for the photon to fluctuate to a $c\bar{c}$ pair
-      depends on the $M_{J/\psi}$, the mass of \JPsi{}, $\Gamma_{l^{+}l^{-}}$, 
+      depends on \DIFdelbegin \DIFdel{the }\DIFdelend $M_{J/\psi}$, the mass of \JPsi{}, $\Gamma_{l^{+}l^{-}}$, 
       the \JPsi{} leptonic decay width, and $\alpha$, the electromagnetic 
       coupling constant.
     These three variables connect the $c$ quark to the electromagnetic force 
@@ -498,7 +525,7 @@
       coupling results in the squared dependence of the cross section on the 
       gluon density in Eq.~\ref{eq:ABfowardScat}. 
     Fitting Eq.~\ref{eq:ABfowardScat} to proton-electron scattering data 
-      sets $\xi_{J/\psi}$ \cite{pQCD2011.08}.
+      sets $\xi_{J/\psi}$~\cite{pQCD2011.08}.
     The forward scattering cross section given by Eq.~\ref{eq:ABfowardScat} 
       connects the photon flux to the gluon density and provides the input to 
       calculate the total cross section by the optical theorem. 
@@ -506,7 +533,7 @@
     The optical theorem relates the forward cross section in 
       Eq.~\ref{eq:ABfowardScat} to the total photoproduction cross section. 
     The total cross section gives the probability that a photon incident on 
-      the nucleus will produce a \JPsi{} regardless of the momentum transfered 
+      the nucleus will produce a \JPsi{} regardless of the momentum transferred 
       in the interaction. 
     The total cross section equation is given by
     \begin{equation} \label{eq:ABtotXSec}
@@ -514,7 +541,7 @@
       \frac{d\sigma_{\gamma A\rightarrow J/\psi A}}{dt}\Big|_{t=0}
       \int_{t_{min}(k)}^{\infty}dt|F(t)|^{2},
     \end{equation} 
-      where $t_{min}=(M_{J/\psi}^{2}/4k\gamma_{L})^2$, which is the minimum 
+      where \DIFdelbegin \DIFdel{$t_{min}=(M_{J/\psi}^{2}/4k\gamma_{L})^2$}\DIFdelend \DIFaddbegin \DIFadd{$t_{min}=(M_{J/\psi}^{2}/4k\gamma)^2$}\DIFaddend , which is the minimum 
       amount of momentum transfer required to produce a \JPsi{} 
       given the photon wave number $k$.
     The $k$ dependence of $t_{min}$ translates to the rapidity 
@@ -530,8 +557,8 @@
       Eq.~\ref{eq:ABfowardScat}, the AB method allows for experimental 
       exploration of any gluon density model. 
 
-  \section{\label{sec:ltaTheory}Leading Twist Approach Derivation}
-    The Leading Twist Approach is another method for calculating UPC 
+  \section{\label{sec:ltaTheory}The Leading Twist Approach model}
+    The Leading Twist Approach~\cite{Frankfurt:2011cs,lta2011.09} is another method for calculating UPC 
       photoproduction cross sections. 
     Contrary to the STARlight model, the LTA model introduces additional 
       nuclear effects originating from modification of the nuclear gluon
@@ -546,17 +573,21 @@
         db\frac{x^{2}}{b}\Big[K_{1}^{2}(x)+\frac{K_{0}^{2}(x)}{\gamma_{L}^{2}}\Big]
         P_{0}(b)P_{C}^{i}(b)\textrm{,} 
     \end{equation}
-    where $x=\frac{\omega b}{\gamma_{L}}$, and $K_{0}^{2}(x)$ term contributes 
+    where $x=\frac{\omega b}{\gamma_{L}}$, and \DIFdelbegin \DIFdel{$K_{0}^{2}(x)$ }\DIFdelend \DIFaddbegin \DIFadd{$K_{0}(x)$ }\DIFaddend term contributes 
       a photon flux in the transverse direction, and $P_{C}^{i}(b)$ is an 
       modulation factor that requires various additional interactions. 
     These interactions result in emission of neutrons from the 
       receding nuclei as the nuclei relax from excited states. 
-    The terms $P_{C}^{i}$ and $K_{0}$ provide additional ways to distinguish UPC
-      events from nuclear collisions experimentally but leave the underlying 
+    The \DIFdelbegin \DIFdel{terms }\DIFdelend \DIFaddbegin \DIFadd{term }\DIFaddend $P_{C}^{i}$ \DIFdelbegin \DIFdel{and $K_{0}$ provide }\DIFdelend \DIFaddbegin \DIFadd{provides }\DIFaddend additional ways to distinguish UPC
+      events from nuclear collisions experimentally but \DIFdelbegin \DIFdel{leave }\DIFdelend \DIFaddbegin \DIFadd{leaves }\DIFaddend the underlying 
       interaction mechanism the same. 
-    For example, the additional terms in the LTA formulation of the photon flux
-      produce calculations of asymmetric neutron emission, which separate UPC 
-      events from nuclear collisions.  
+    For example, \DIFdelbegin \DIFdel{the additional terms }\DIFdelend \DIFaddbegin \DIFadd{this additional term }\DIFaddend in the LTA formulation of the photon flux
+      \DIFdelbegin \DIFdel{produce }\DIFdelend \DIFaddbegin \DIFadd{produces }\DIFaddend calculations of asymmetric neutron emission, which separate UPC 
+      events from nuclear collisions.
+    \DIFaddbegin \DIFadd{In UPC events the number of forward neutrons on either side of the 
+      interaction can differ significantly, whereas in nuclear collisions this
+      is rare. 
+}\DIFaddend 
 
     The LTA model derives the nucleon cross section from derivations
      of the nucleon gluon densities from electron-proton scattering data and
@@ -606,17 +637,17 @@
      that is present in Eq.~\ref{eq:finalSTARlightResult}.
    The rapidity distribution of the photoproduction cross section given in 
    Eq.~\ref{eq:ltaRapDist} provides a more detailed prediction and allows for
-     more direct experimental \DIFdelbegin \DIFdel{comparison}\DIFdelend \DIFaddbegin \DIFadd{comparisons}\DIFaddend .
+     more direct experimental comparisons.
 
   \section{\label{sec:nucBreakUp}Photon-induced nuclear break-up}
     In addition to the photoproduction of quark anti-quark resonances such as 
       the \JPsi{}, photo-nuclear interactions can also result in emission of a 
-      neutron from the struck target nucleus.
+      neutron from the struck target nucleus~\cite{Strikman:2005ze,Guzey:2013jaa}.
     To calculate the cross section for neutron emission in UPC events, the 
       photon flux calculated from the Weizs\"{a}cker-Williams approximation is
       combined with the nuclear photon absorption cross section. 
     The absorption of photons can be described by two processes, namely the 
-      Giant Dipole Resonance (GDR), and the dissociation of deuterium.
+      Giant Dipole Resonance (GDR)~\cite{Emling:1994gu,dePassos:2001dc}, and the dissociation of deuterium.
     In this section, the theoretical description of photon-induced nuclear 
       break-up is discussed.
 
@@ -633,8 +664,8 @@
       nucleus as a collection of proton-neutron pairs (deuterium) and dominates 
       at higher photon energies.
 
-    There are two models for the GDR: the Goldhaber and Teller model, and the 
-      Steinwedel and Jensen model.
+    There are two models for the GDR: the Goldhaber and Teller model~\cite{Goldhaber:1948zza}, and the 
+      Steinwedel and Jensen model~\cite{Jensen:1950}.
     Goldhaber and Teller treats the protons and neutrons as two separate and 
       ridged density profiles that, when excited, oscillate with respect to 
       each other \cite{emPCite6}.
@@ -800,59 +831,59 @@
     This excludes collisions where the nuclei overlap in the calculation, and 
       ensures that only electromagnetic interactions are involved.
 
-  \section{Experimental Results}
-  One of the first \DIFdelbegin \DIFdel{UPC }\DIFdelend results from RHIC was \DIFaddbegin \DIFadd{a UPC measurement, }\DIFaddend the measurement of the 
-    neutron spectrum from photon-induced nuclear break-up \cite{upcNeuPHENIX}.
-  Neutrons due to the nuclear photon absorption are emitted with momenta on the
-    order of the giant dipole resonance, about 60 MeV.
-  Momenta of 60 MeV compared to the 100 GeV beam energy at RHIC result in 
-    neutron emission at very small angles, $\sim 2 \textrm{mrad}$, relative to 
-    the beam.
-  These neutrons are captured by calorimeters, which are set in line with the 
-    beam called Zero Degree Calorimeters (ZDCs).
-  These detectors are described in Section~\ref{sec:zdcDet}.
-  \begin{figure}[!Hhbt]
-    \centering
-    \includegraphics[width=.65\textwidth]{neuSpecRHIC}
-    \caption{ZDC neutron spectrum at RHIC with each a Gaussian fit 
-       to the 1, 2, 3, 5, and 5 neutron peak \cite{upcNeuPHENIX}.}
-    \label{fig:neuSpecRHIC}
-  \end{figure}
-  Figure~\ref{fig:neuSpecRHIC} shows the charge recorded by the ZDCs.
-  The peak at $\sim 30$ in Fig.~\ref{fig:neuSpecRHIC} is due to emission of a 
-    single neutron. 
-  Each successive peak is due to emission of an additional neutron. 
-  From these peaks, the cross section for nuclear break-up by neutron 
-    emission by both nuclei was measured.
-  The fraction of nuclear interaction in all events with neutrons on both sides
-    of the interaction point was found to be 0.661 $\pm$ 0.014 \cite{upcNeuPHENIX},
-    which is in agreement the value 0.659 predicted by the model described in 
-    \cite{emPCite4}.
+  \section{Experimental results}
+  \subsection{ UPC measurements at RHIC }
+    One of the first results from RHIC was a UPC measurement, the measurement of the 
+      neutron spectrum from photon-induced nuclear break-up \cite{upcNeuPHENIX}.
+    Neutrons due to the nuclear photon absorption are emitted with momenta on the
+      order of the giant dipole resonance, about 60 MeV.
+    Momenta of 60 MeV compared to the 100 GeV beam energy at RHIC result in 
+      neutron emission at very small angles, $\sim 2 \textrm{mrad}$, relative to 
+      the beam.
+    These neutrons are captured by calorimeters, which are set in line with the 
+      beam called Zero Degree Calorimeters (ZDCs).
+    These detectors are described in Section~\ref{sec:zdcDet}.
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=.65\textwidth]{neuSpecRHIC}
+      \caption{ZDC neutron spectrum at RHIC with each a Gaussian fit 
+         to the 1, 2, 3, 5, and 5 neutron peak \cite{upcNeuPHENIX}.}
+      \label{fig:neuSpecRHIC}
+    \end{figure}
+    Figure~\ref{fig:neuSpecRHIC} shows the charge recorded by the ZDCs (see Section~\ref{sec:zdcDet}).
+    The peak at $\sim 30$ in Fig.~\ref{fig:neuSpecRHIC} is due to emission of a 
+      single neutron. 
+    Each successive peak is due to emission of an additional neutron. 
+    From these peaks, the cross section for nuclear break-up by neutron 
+      emission by both nuclei was measured.
+    The fraction of nuclear interaction in all events with neutrons on both sides
+      of the interaction point was found to be 0.661 $\pm$ 0.014 \cite{upcNeuPHENIX},
+      which is in agreement the value 0.659 predicted by the model described in 
+      \cite{emPCite4} \DIFaddbegin \DIFadd{and Section~\ref{sec:nucBreakUp}}\DIFaddend .
 
-  Nuclear collisions were separated from photon-induced break up by counting
-    hits in the central scintillating counter similar to a tracker. 
-  Events with hits on both sides of the interaction point were categorized as
-    nuclear interactions, and those with no hits or hits on only one side were
-    categorized as electromagnetic interactions. 
-  The difference in the charge measured on each of the two sides of the 
-    interaction point, by the two ZDCs, is divided by the total charge
-    for both ZDCs (see Fig.~\ref{fig:neuRHICEMvHad}).
-  \begin{figure}[!Hhbt]
-    \centering
-    \includegraphics[width=.65\textwidth]{neuRHICEMvHad}
-    \caption{The energy asymmetry in the ZDCs for photon-induced interaction, 
-      coulomb events, and nuclear interaction, hadronic events \cite{upcNeuPHENIX}.}
-    \label{fig:neuRHICEMvHad}
-  \end{figure}
-  Figure~\ref{fig:neuRHICEMvHad} shows that events created by electromagnetic 
-    interactions result in asymmetric neutron emission, whereas nuclear 
-    interactions produce neutrons on both sides. 
-  In the analysis presented in this thesis, the energy asymmetry in the ZDCs is
-    used to select UPC events.
-  This will be discussed in Chapter~\ref{ch:triggChp}.
-
-
-    \subsection{ UPC vector mesons photoproduction at RHIC }
+    Nuclear collisions were separated from photon-induced break up by counting
+      hits in the central scintillating counter similar to a tracker.
+    \DIFaddbegin \DIFadd{These scintillators covered the pseudo-rapidity region 3.05 < $|\eta|$ < 
+      3.85.
+    }\DIFaddend Events with hits on both sides of the interaction point were categorized as
+      nuclear interactions, and those with no hits or hits on only one side were
+      categorized as electromagnetic interactions. 
+    The difference in the charge measured on each of the two sides of the 
+      interaction point, by the two ZDCs, is divided by the total charge
+      for both ZDCs (see Fig.~\ref{fig:neuRHICEMvHad}).
+    \begin{figure}[!Hhbt]
+      \centering
+      \includegraphics[width=.65\textwidth]{neuRHICEMvHad}
+      \caption{The energy asymmetry in the ZDCs for \DIFdelbeginFL \DIFdelFL{photon-induced interaction}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{electromagnetic interactions}\DIFaddendFL , 
+        coulomb events, and nuclear interaction, hadronic events \cite{upcNeuPHENIX}.}
+      \label{fig:neuRHICEMvHad}
+    \end{figure}
+    Figure~\ref{fig:neuRHICEMvHad} shows that events created by electromagnetic 
+      interactions result in asymmetric neutron emission, whereas nuclear 
+      interactions produce neutrons on both sides. 
+    In the analysis presented in this thesis, the energy asymmetry in the ZDCs is
+      used to select UPC events.
+    This will be discussed in Chapter~\ref{ch:trigg}.
 
     Both the $\rho^{0}$ and \JPsi{} meson photoproduction cross sections in UPC 
       events were measured at RHIC.
@@ -860,9 +891,11 @@
       energies per nucleon of 62.4 GeV \cite{upcRhoSTAR12}, 130 GeV 
       \cite{upcRhoSTAR02}, and 200 GeV \cite{upcRhoSTAR08}. 
     The \JPsi{} was measured by PHENIX at 200 GeV \cite{upcJPsiPHENIX}.
-    The $\rho$ measurements by STAR were in good agreement with the theory
-      calculation method described in Section~\ref{sec:vdmTheory}.
-    The \JPsi{ } measurement where limited by statistic as only 10 \JPsi{}
+    The \DIFdelbegin \DIFdel{$\rho$ }\DIFdelend \DIFaddbegin \DIFadd{$\rho^{0}$ }\DIFaddend measurements by STAR were in good agreement with the \DIFdelbegin \DIFdel{theory
+      calculation method }\DIFdelend \DIFaddbegin \DIFadd{STARlight
+      calculation }\DIFaddend described in Section~\ref{sec:vdmTheory}.
+    The \DIFdelbegin %DIFDELCMD < \JPsi{ } %%%
+\DIFdelend \DIFaddbegin \JPsi{} \DIFaddend measurement where limited by statistic as only 10 \JPsi{}
       candidates were found. 
 
   \subsection{ UPC \JPsi{} at the LHC}
@@ -870,12 +903,11 @@
       results in an increase in the Lorentz $\gamma$ of about 10.
     Because the photon flux depends on $\gamma^{2}$, the photon flux
       at the LHC increases by a factor of about 100 compared to RHIC.
-    All major heavy ion experiments, ALICE and CMS, have studied the production
-      of UPC events. 
+    \DIFdelbegin \DIFdel{All major heavy ion experiments, }\DIFdelend ALICE and CMS \DIFdelbegin \DIFdel{, }\DIFdelend have studied the production of UPC events. 
     ALICE has studied coherent \JPsi{} photoproduction in ultra-peripheral PbPb
       collisions at $\sqrt{s_{NN}}$ = 2.76 TeV. 
    The cross section for this process was measured at both forward-rapidity, 
-      $y$ = 3, and mid-rapidity, $y$ = 0.
+      $y$ = 3~\cite{Abelev:2012ba}, and mid-rapidity, $y$ = 0~\cite{Abbas:2013oua}.
    With an integrated luminosity of 55 $\mu$$b^{-1}$, ALICE measured 
      78 $\pm$ 10(stat) $^{+7}_{-11}$(syst) coherent \JPsi{} candidates at 
      forward rapidity.
@@ -888,7 +920,8 @@
     parts of the gluon density. 
   At $y$ = 3  for PbPb collisions at the LHC, the cross section has a 
     contribution from both $x$ = 5 $\times 10^{-5}$ and $x$ = 2  $\times 
-    10^{-2}$.
+    10^{-2}$\DIFaddbegin \DIFadd{, where $x$ is the fraction nucleon's momentum carried by the 
+    struck parton}\DIFaddend .
   This ambiguity is not present at $y$ = 0.
   ALICE has also measured the coherent \JPsi{} photoproduction cross section 
     at $y$ = 0, using a integrated luminosity of about 23 $\mu$$b^{-1}$.
@@ -897,7 +930,7 @@
     channels, respectively. 
   The combined cross section from both channels was measured to be 
     2.38 $_{-0.24}^{+0.34}$ (stat+syst) mb. 
-  At $y$ = 0 $x$ $\sim$ 10$^{-3}$, which is a smaller $x$ than at forward 
+  At $y$ = 0\DIFaddbegin \DIFadd{, }\DIFaddend $x$ $\sim$ 10$^{-3}$, which is a smaller $x$ than at forward 
     rapidity, and more sensitive to the nuclear gluon shadowing 
     (see Fig.~\ref{fig:aliceMoney}).
     \begin{figure}[!Hhbt]
@@ -905,7 +938,7 @@
       \includegraphics[width=.65\textwidth]{aliceJpsiCo}
       \caption{Coherent \JPsi{} photoproduction cross section in ultra-peripheral
         PbPb collisions at $\sqrt{s_{NN}}$ = 2.76 TeV, measured by the ALICE 
-        experiment at forward and mid-rapidity \cite{}.}
+        experiment at forward and mid-rapidity~\cite{Abelev:2012ba,Abbas:2013oua}.}   
       \label{fig:aliceMoney}
     \end{figure}
 
@@ -944,37 +977,44 @@
      \hline
    \end{tabular}
    \caption{$\sigma_{AA\rightarrow AAJ/\psi} (mb)$
-    the LTA, STARlight, AB methods. Four different gluon density models are used 
+   \DIFaddbeginFL \DIFaddFL{obtained by }\DIFaddendFL the LTA, STARlight, AB methods \DIFaddbeginFL \DIFaddFL{for PbPb collisions at $\sqrt{s_{NN}}$ = 2.76 TeV}\DIFaddendFL . 
+    Four different gluon density models~\cite{pQCD2011.08,pQCD2013.02,Pumplin:2002vw} are used 
     in the AB method. STARlight is a simulation software package that utilizes 
     the STARlight model.}
    \label{tab:allXsec}
   \end{table}
   The cross sections in Table~\ref{tab:allXsec} differ by a factor of 4 
     from the smallest to largest and create an experimental opportunity. 
-  The clear discrepancy between the models in Table~\ref{tab:allXsec} 
+\DIFdelbegin \DIFdel{The clear discrepancy between the models in Table~\ref{tab:allXsec} 
     demonstrates the high amount of experimental sensitivity there is for 
     distinguishing between the models. 
+}\DIFdelend 
 
   The nuclear suppression factor, S, demonstrates the difference between how 
     the models represent the nucleus. 
   $S$ is the ratio between the nuclear photoproduction cross section and the     
-    free nucleon photoproduction cross seciton.
+    free nucleon photoproduction cross section.
   It is a measure of how the nuclear gluon densities evolve in each of the 
     models. 
   Figure.~\ref{fig:ltaAndPqcdNucSub} from \cite{lta2013.05} shows the nuclear 
     suppression, which is equivalent to $R_g$ in Eq.~\ref{eq:ltaOptTheWNucMo}, 
-    for the LTA and AB \DIFdelbegin \DIFdel{method}\DIFdelend \DIFaddbegin \DIFadd{methods}\DIFaddend .
+    for the LTA and AB methods.
   \begin{figure}[h] 
     \begin{center}
       \includegraphics[width=0.5\textwidth,keepaspectratio]{ltaAndPqcdNucSub.png}
     \end{center}
-    \caption{ \label{fig:ltaAndPqcdNucSub} Nuclear supression factor, $S$, in the AB and LTA methods.}
+    \caption{ \label{fig:ltaAndPqcdNucSub} \DIFdelbeginFL \DIFdelFL{Nuclear }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{Both panels show the nuclear 
+      }\DIFaddendFL supression factor, $S$, \DIFdelbeginFL \DIFdelFL{in }\DIFdelendFL \DIFaddbeginFL \DIFaddFL{obtain from the ALICE data points and calculations
+      by }\DIFaddendFL the AB \DIFaddbeginFL \DIFaddFL{(top) }\DIFaddendFL and LTA \DIFdelbeginFL \DIFdelFL{methods}\DIFdelendFL \DIFaddbeginFL \DIFaddFL{(bottom) models}\DIFaddendFL ~\cite{lta2013.05}. \DIFaddbeginFL \DIFaddFL{$S$ is denoted 
+      as $R_{pb}$ in this figure.}\DIFaddendFL }
   \end{figure}
   \begin{figure}
     \begin{center}
       \includegraphics[width=0.5\textwidth,keepaspectratio]{ltaAndPqcdNucSubVMD.png}
     \end{center}
-    \caption{ \label{fig:ltaAndPqcdNucSubSTARlight} Nuclear supression factor, $S$, in STARlight method.}
+    \caption{ \label{fig:ltaAndPqcdNucSubSTARlight} Nuclear supression factor, $S$, in STARlight method~\cite{lta2013.05}.
+      \DIFaddbeginFL \DIFaddFL{The y-axis is labeled $S$ because for the STARlight model $S$ is not 
+      necessary equal to $R$.}\DIFaddendFL }
   \end{figure}
   Fig.~\ref{fig:ltaAndPqcdNucSubSTARlight} shows the nuclear suppression for the STARlight 
     method \cite{lta2013.05}. 
@@ -989,7 +1029,7 @@
     provides insight into nuclear gluon densities.
 
   In addition, ALICE reported the measurement of the incoherent \JPsi{} 
-    photoproduction cross section at mid-rapidity.
+    photoproduction cross section at mid-rapidity~\cite{Abbas:2013oua}.
   This provided additional constraints to the models for gluon shadowing. 
 
   In Chapter~\ref{ch:analysis}, the coherent UPC \JPsi{} photoproduction 

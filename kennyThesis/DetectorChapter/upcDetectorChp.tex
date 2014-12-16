@@ -7,8 +7,9 @@
   While the search for the standard model Higgs boson was the 
     central driving design consideration, the wide range of possibilities for
   	finding new physics signals requires a general purpose detector.
-  CMS was optimized efficient muon triggering and identification. 
-  Muon capabilities developed for the Higgs boson can be used to study \JPsi{}. 
+  CMS was optimized for efficient muon triggering and identification. 
+  Muon capabilities developed for the Higgs boson studies can be used to study 
+    \JPsi{}. 
   A versatile trigger is needed to accommodate the high interaction rates that 
     accompany the high luminosities. 
   By exploiting the versatility of the trigger and muon systems it
@@ -23,14 +24,14 @@
   
   CMS is dominated by the massive 4T 
   	superconducting solenoid at its core.
-  The magnets is 13m long with a 6m diameter, and pushes the limits of power
+  The magnet is 13m long with a 6m diameter, and pushes the limits of power
   	and compactness \cite{tCmsE}. 
   These two conflicting limits are achieved through the novel design of 
   	interweaving structural and conducting elements together in the coil of
   	the solenoid.
 
   Within the solenoid resides three different sub detectors.
-  The inner most is the world's largest silicon tracker \cite{tCmsE}.
+  The innermost is the world's largest silicon tracker \cite{tCmsE}.
   The tracker is surrounded by a highly effective lead tungstate crystal 
     electromagnetic calorimeter (ECAL)~\cite{CMS:2002xia}.
   ECAL is encapsulated in a brass scintillating hadronic calorimeter (HCAL).
@@ -73,10 +74,11 @@
       as a function of radiation lengths ($X_{0}$).
     A radiation length is the mean distance a photon travels before 
       interacting. 
-    As opposed to the deflection angle set by the strength of the magnetic 
-      field, the momentum resolution for lower momentum tracks is limited by 
-      the loss of energy due to multiple scattering of these particles off the material 
-      of the detector.
+    The deflection angle set by the strength of the magnetic 
+      field determines the momentum resolution for high momentum particles. 
+    The momentum resolution for lower momentum tracks is limited by 
+      the loss of energy due to multiple scattering of these particles off the 
+      material of the detector.
     For UPC \JPsi{}, this is the primary factor contributing to the resolution 
       of the reconstructed muon tracks. 
     \begin{figure}[!Hhbt]
@@ -168,7 +170,7 @@
 
     The energy resolution for HF can be seen in Figure~\ref{HCALeRes}.  
     As with the ECAL, the fractional resolution increases with energy. 
-    This is dues to the random nature of shower development. 
+    This is due to the random nature of shower development. 
     At larger energies, the fluctuations in the shower of particles collected 
       in the calorimeter tend to average out.
    
@@ -198,7 +200,8 @@
       thesis by measuring energy due to neutrons produced by photon-induced 
       nuclear break.
     These measurements are used to identify events with asymmetric neutron 
-      emission, reducing the contribution to the sample by peripheral heavy-idon
+      emission, reducing the contribution to the sample by peripheral heavy-ion.
+      This will be discussed further in Chapter~\ref{ch:zdcReco}.
 
     The ZDC has a total of 18 channels.
         Half of these 18 channels are on either side of the interaction point.
@@ -234,7 +237,7 @@
       (QIE).
     The QIE integrates the current each 25 ns.
     The charge is then mapped logarithmically to the 128 bits. 
-    This bit is sent across a small fiber optic cable to the HTR firmware card.
+    These bits are sent across a small fiber optic cable to the HTR firmware card.
     Here each 25 ns signal is stored in a 250 ns buffer, and the timing is synchronize
       with the rest of the detector to ensure the ZDC signal arrives at the central
       data acquisition system at the same time as the other sub detectors from the 
@@ -242,7 +245,7 @@
     
   \section{Muons}
     The muon system~\cite{tCmsE} resides just outside of the superconducting magnet.
-    It consists of three complementary systems: drift tube (DT) in the
+    It consists of three complementary systems: drift tubes (DT) in the
       barrel, cathode strip chambers (CSC) in the endcaps, and resistive 
       plate chambers (RPC) in both the barrel and endcap regions \cite{tCmsE}.
     Each of these gaseous detectors function in the same way.
@@ -294,7 +297,7 @@
       MB2.
     For the outer two layers of the barrel, MB3 and MB4, a single layer of RPCs
       is mounted on the inner side of the DTs.
-    Each corresponding DT segment has two RPCs modules, expect in MB2 where 
+    Each corresponding DT segment has two RPCs modules, except in MB2 where 
       some segments contain 3 RPC modules. 
     The outer ring of the muon endcaps are instrumented with RPCs covering up to
       $|\eta|$ = 1.6.
@@ -429,4 +432,4 @@
       are a testament to the effectiveness and versatility of the CMS two 
       tiered triggering system.
     In Chapter~\ref{ch:trigg}, the development of L1 triggers and HLT paths 
-      for selecting UPC evens is discussed. 
+      for selecting UPC events are discussed. 

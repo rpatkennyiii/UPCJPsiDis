@@ -7,8 +7,6 @@
     Section~\ref{sec:sigEx}.
   The determination of the detector's efficiency for measuring UPC events is 
     explained in Section~\ref{sec:effDet}.
-  Finally, in Chapter~\ref{sec:sysCheck} lays out the systematic uncertainties 
-    for the measurement. 
 
   \section{\label{sec:mcSim} Physics generators and Monte Carlo simulations}
     Every physical measurement is the product of the underlying physics 
@@ -44,7 +42,7 @@
       particles with a user defined transverse momentum distribution and 
       rapidity distribution and isotropic decay to muon pairs in the \JPsi{} 
       rest frame. 
-    For STARlight, three different physical process were simulated:
+    For STARlight, three different physical processes were simulated:
       coherent \JPsi{} production, where the photon couples to the nucleus as
       a whole; incoherent \JPsi{} production; where the photon couples to a
       single nucleon within the nucleus, and photon-photon interactions, where 
@@ -111,8 +109,7 @@
       daughter muon. 
     However in the lab frame of the detector, the muon daughters which are 
       emitted from transversely polarized \JPsi{} will tend to be emitted in
-      the direction the \JPsi{} is traveling and will have unequal momentum in 
-      the lab frame.
+      the direction the \JPsi{} is traveling and will have unequal momenta.
     The daughter traveling in the direction of the \JPsi{} will have increased
       momentum, whereas the daughter traveling opposite to the \JPsi{} 
       direction will have decreased momentum. 
@@ -120,7 +117,7 @@
     In Fig.~\ref{fig:starlightRapPtDist} the \JPsi{}s \pt{} from the 
       STARlight generated coherent, and incoherent, and the dimuon \pt{} for 
       photon-photon samples are compared.
-    Both the coherent and the photon-photon samples are concentrated a low 
+    Both the coherent and the photon-photon samples are concentrated at low 
       \pt{}, and neither sample extends much beyond 0.15 GeV.
     The incoherent sample is peaked near 0.5 GeV and extends beyond 1 GeV.
     The two particle gun samples resemble the incoherent and coherent samples
@@ -142,12 +139,13 @@
     
     The particle gun samples are unpolarized, whereas the STARlight samples 
       have transverse polarization.
-    In Fig.~\ref{fig:genHXAngle}, the cosine of the helicity angle of the 
-      particle gun samples and the STARlight samples are shown.
-    For the STARlight sample the helicity angle, the angle between the 
-      direction of the $\mu^{+}$ daughter and the \JPsi{} direction in the rest
-      frame of the \JPsi{}, prefer to be either parallel or anit-parallel.
-    However, the particle gun samples have no preferred direction of emission.
+    The cosine of the helicity angle, the angle between the \JPsi{} spin vector
+      in the rest frame and the direction of the boost to the lab frame, are 
+      shown for the particle gun samples and the STARlight samples in 
+      Fig.~\ref{fig:genHXAngle}. 
+    For the STARlight sample the helicity angle prefers to be either parallel or
+      anti-parallel.
+    However, the particle gun samples have no preferred direction.
     \begin{figure}[!Hhbt]
       \centering
       \includegraphics[width=.6\textwidth]{polCosThetaHXGen}
@@ -193,31 +191,31 @@
       to investigate novel physics processes like UPC \JPsi{} production.
     The data for this analysis were recorded during the 2011 LHC PbPb run. 
     During this period, 150 $\mu$$b^{-1}$ were recorded by the CMS detector,
-      corresponding to over a billion PbPb collisions. 
+      corresponding to > 10$^{9}$ PbPb collisions. 
     Of this, 143 $\pm$ 7 (syst) $\mu$$b^{-1}$ of data were used in this analysis due to the 
       ZDCs being temporally disconnected to test the Forward Shower Counters.
   
     \subsection{Data sets}
       The data were dived into three specially selected samples, Physics, Monitoring, 
-        and Zero bias, based on the triggers which recored the events (see 
+        and Zero bias, based on the triggers which recorded the events (see 
         Table~\ref{tab:sampleLumiNevt}).
       By recording this hierarchy of samples, interesting events are selected 
         with a much higher purity in the physics sample, while the zero bias 
         and ZDC triggered samples allow for the investigation of the selection 
         criteria. 
       The purity, which is a measure of how many signal events relative to
-        background events are in an sample, is obtained by using more selective
+        background events are in a sample, is obtained by using more selective
         triggers.
       Less selective triggers, those assigned to the monitoring and zero bias 
         samples, were used to investigate to what extent signal events are lost
-        due to the higher selectivity of physics triggers. 
+        because of the higher selectivity of physics triggers. 
       These samples were recorded using subsets of the HLT triggers found in 
         Table~\ref{tab:hltTriggers2011} of Chapter~\ref{ch:trigg}.
       The \JPsi{} events discussed in this thesis were obtained by analyzing 
         the sample labeled in Table~\ref{tab:sampleLumiNevt} as physics.
       A ZDC triggered monitoring sample was recorded for the sake of estimating
         efficiencies.
-      Lastly, a zero bias sample was recored for investigating the ZDC and the 
+      Lastly, a zero bias sample was recorded for investigating the ZDC and the 
         noise distributions of HF.
   
       The physics sample containing the \JPsi{} signal was recorded by the muon 
@@ -229,7 +227,7 @@
       The noise trigger rate for the muon trigger alone was 50 Hz, but in 
         coincidence with the BCS veto and the ZDC trigger the noise rate was
         below 2 Hz. 
-      By pairing the muon trigger with the ZDC on the L1, the noise contribution
+      By pairing the muon trigger with the ZDC on the L1 trigger, the noise contribution
         was reduced from the noise contribution from either of the two 
         sub-detectors to the noise coincidence between the two sub-detectors. 
       Contributions from hadronic interactions were reduced by the veto on the 
@@ -259,15 +257,16 @@
       Only 4 events out of every million triggered were recorded for this sample. 
       This sample allowed for an unbiased measurement of the ZDC neutron 
         threshold energies as discussed in Section~\ref{sec:breakUpDet}. 
-      Because the zero bias trigger only requires the presents of both LHC 
+      Because the zero bias trigger only requires the presence of both LHC 
         beams, the sample contains very few hadronic collisions. 
-      This allowed for a measurement of the electronic noise distribution in
-        the HF, which are important to reducing contamination from hadronic
-        interactions.
+      This allowed for a measurement of the electronic noise distribution of
+        the HF detector, which is important to reducing contamination from 
+        hadronic interactions.
   
       The integrated luminosity for each of the three samples is calculated
         by recording activity in HF \cite{cmsLumi}. 
-      The cross section for HF activity is measured from a van der Meer scan. 
+      The cross section for HF activity is measured from a van der Meer scan 
+        \cite{vanderMeer:1968zz}. 
       In this way, the amount of integrated luminosity for any running period is
         related to the activity in HF. 
       \begin{table}
@@ -287,7 +286,7 @@
       The analysis described in this thesis focuses on UPC \JPsi{}s decaying to 
         muons. 
       The trigger used for this analysis recorded 346841 events.
-      A set of off-line cuts were applied to increase the relative contribution 
+      A set of off-line cuts was applied to increase the relative contribution 
         of UPC events to background processes. 
       Two sets of event selection cuts were applied to reject background events. 
       The first set rejects background from the beam.
@@ -333,17 +332,16 @@
           The beam halo cut rejects events where muons surrounding the beam 
           stream through the detector. 
   	    \item Pixel cluster shape should be compatible with the vertex. 
-          This cut requires that energy deposits in the silicon tracker point 
-            back to the reconstructed  primary vertex. 
+          This cut requires that energy deposited in the silicon tracker have a
+            shape consistant with the primary vertex. 
       \end{itemize}
-      These beam background cuts do not reject any UPC \JPsi{} candidates. 
+      When applied after all other cuts these beam background cuts do not reject
+        any UPC \JPsi{} candidates. 
   
       The second set of background rejection cuts were designed to 
         reduce contamination from hadronic interactions. 
       \begin{itemize}
   	    \item No more than 2 reconstructed tracks in the event.
-          The track requirement rejects events that produce many charged 
-          particles.
   	    \item Maximum reconstructed hit energy in HF was required to be below 
             the threshold for electronic noise. 
           Nearly all hadronic interactions (about 98\%) produce particles in 
@@ -401,11 +399,11 @@
     To achieve this, the invariant mass and \pt{} distributions are used 
       to distinguish between the three processes. 
     The photon-photon process is extended in invariant mass whereas the 
-      \JPsi{} is peak strongly near 3.1 GeV.
-    In dimuon transverse momentum distribution of the photon-photon and 
-      coherent process have similar distributions, both peaked shapely below 
-        0.1 GeV, whereas the incoherent process is more broadly distributed 
-        across an interval extending to nearly 1 GeV.
+      \JPsi{} is peaked strongly near 3.1 GeV.
+    The dimuon transverse momentum distribution of the photon-photon and 
+      the coherent process have similar distributions, both are sharply peaked 
+        below 0.1 GeV, whereas the incoherent process is more broadly 
+        distributed across an interval extending to nearly 1 GeV.
     The mass distribution was fit to separate the photon-photon process from
       the \JPsi{} process.
     The \pt{} distribution was used to separate the incoherent process from 
@@ -436,8 +434,8 @@
   
     Figure~\ref{fig:ptTemps} shows the \pt{} spectrum of the events plotted 
       in Fig.~\ref{fig:massFit}.  
-    There is a clear coherent peak at \pt{} = 60 MeV followed by broad 
-      distribution that peaks near \pt{} = 450 MeV. 
+    There is a clear coherent peak at \pt{} = 60 MeV followed by a broad 
+      distribution that with a mean near \pt{} = 450 MeV. 
     To extract the contribution of coherent, incoherent and gamma-gamma 
       processes in the data the spectrum in  Fig.~\ref{fig:ptTemps} was fit to 
       the sum of three MC templates corresponding to the final output of the MC
@@ -453,7 +451,7 @@
 
     \begin{figure}[!Hhbt]
       \centering
-      \includegraphics[width=.6\textwidth]{ptOnly}
+      \includegraphics[width=.6\textwidth]{gaussCC}
       \caption{ Fit to MC \pt{} templates. }
       \label{fig:ptTemps}
     \end{figure}
@@ -534,7 +532,7 @@
     The efficiency of the pixel track requirement, and the veto on activity in 
       the BSCs from the trigger are also estimated but found to be consistent 
       with fully efficient. 
-    The following section explains how each of these efficiencies were measured
+    The following section explains how each of these efficiencies was measured
       with a special emphasis on the ZDC trigger efficiency and the muon 
       trigger and reconstruction efficiencies. 
 
@@ -612,7 +610,7 @@
         probe is created.
       To extract the single muon trigger efficiency $\varepsilon^{\mu}_{trig}$, 
         each set of invariant mass histograms were simultaneously fit. 
-      The signal was fit using a Crystal Ball function, and the background 
+      The signal was fit using a Crystal Ball function \cite{Gaiser:1982yw}, and the background 
         was fit to an exponential.
       The Crystal Ball parameters were simultaneously fit to all three 
         histograms.
@@ -624,7 +622,7 @@
       Fig.~\ref{fig:tnpFitPlot} shows the fit of the three sets of pairs. 
       \begin{figure}[!Hh]
         \centering
-        \includegraphics[width=.6\textwidth]{tNp/tnpFits}
+        \includegraphics[width=1.0\textwidth]{tNp/tnpFits}
         \caption{Fits to tag and probe pairs in the \JPsi{} mass region for
         pairs with a probe 2 < |$\eta$| < 2.2 and 1.55 < \pt{} < 1.8 GeV.}
         \label{fig:tnpFitPlot}

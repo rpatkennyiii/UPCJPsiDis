@@ -31,7 +31,9 @@
 \graphicspath{{IntroductionChapter/figures/},{TheoryChapter/figures/}
   ,{DetectorChapter/figures/},{AnalysisChapter/figures/}
   ,{ResultsChapter/figures/},{ConclusionChapter/figures/}
-  ,{FutureWorksChapter/figures/}}
+  ,{FutureWorksChapter/figures/},{ZDCRecoChapter/figures/}
+  ,{TriggerChapter/figures/},{SystematicsChapter/figures/}}
+
 \newcommand{\JPsi}{J/$\psi$}
 \newcommand{\pt}{$p_{T}$}
 
@@ -97,9 +99,19 @@
 
 \begin{document}
   \linenumbers
+  \include{diffIntro}
+  \include{diffTheory}
   \include{diffDet}
   \include{diffZdc}
   \include{diffTrig}
   \include{diffAn}
+  \include{diffSyst}
   \include{diffRes}
+
+  \global\long\def\bibname{References}
+
+  \bibliographystyle{bbl/utphys}
+
+  \bibliography{bbl/upcTheoryChp}
+
 \end{document}
