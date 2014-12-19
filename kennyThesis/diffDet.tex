@@ -7,9 +7,9 @@
   While the search for the standard model Higgs boson was the 
     central driving design consideration, the wide range of possibilities for
   	finding new physics signals requires a general purpose detector.
-  CMS was optimized \DIFdelbegin \DIFdel{to make excellent measurements of muons}\DIFdelend \DIFaddbegin \DIFadd{for efficient muon triggering and identification}\DIFaddend . 
-  Muon capabilities developed for the Higgs boson \DIFaddbegin \DIFadd{studies }\DIFaddend can be used to study 
-    \JPsi{}. 
+  CMS was optimized for efficient muon triggering and identification. 
+  Muon capabilities developed for the Higgs boson studies can be used to study 
+    \JPsi{} \DIFaddbegin \DIFadd{production}\DIFaddend . 
   A versatile trigger is needed to accommodate the high interaction rates that 
     accompany the high luminosities. 
   By exploiting the versatility of the trigger and muon systems it
@@ -24,14 +24,14 @@
 
   CMS is dominated by the massive 4T 
   	superconducting solenoid at its core.
-  The \DIFdelbegin \DIFdel{magnets }\DIFdelend \DIFaddbegin \DIFadd{magnet }\DIFaddend is 13m long with a 6m diameter, and pushes the limits of power
+  The magnet is 13m long with a 6m diameter, and pushes the limits of power
   	and compactness \cite{tCmsE}. 
   These two conflicting limits are achieved through the novel design of 
   	interweaving structural and conducting elements together in the coil of
   	the solenoid.
 
   Within the solenoid resides three different sub detectors.
-  The \DIFdelbegin \DIFdel{inner most }\DIFdelend \DIFaddbegin \DIFadd{innermost }\DIFaddend is the world's largest silicon tracker \cite{tCmsE}.
+  The innermost is the world's largest silicon tracker \cite{tCmsE}.
   The tracker is surrounded by a highly effective lead tungstate crystal 
     electromagnetic calorimeter (ECAL)~\cite{CMS:2002xia}.
   ECAL is encapsulated in a brass scintillating hadronic calorimeter (HCAL).
@@ -45,11 +45,11 @@
     	elements as close as 4.4cm to the interaction point \cite{tCmsE}. 
     The tracker has a length 5.8m, a diameter of 2.6m and
     	covers a range in pseudorapidity of $|\eta| <$ 2.5.
-    At the center of the tracker are three rings of silicon pixels around the beam 
-    	with two disks of silicon pixels to cap the rings.
-    The pixel portion of the silicon tracker is comprised of 66$\times$10$^{6}$
+    At the center of the tracker are three rings of silicon pixels around the 
+      beam \DIFaddbegin \DIFadd{axis }\DIFaddend with two disks of silicon \DIFdelbegin \DIFdel{pixels }\DIFdelend \DIFaddbegin \DIFadd{pixel detectors }\DIFaddend to cap the rings.
+    The pixel \DIFaddbegin \DIFadd{detector }\DIFaddend portion of the silicon tracker is comprised of 66$\times$10$^{6}$
     	pixels.
-    The silicon pixels are surrounded by silicon strips.
+    The silicon \DIFdelbegin \DIFdel{pixels }\DIFdelend \DIFaddbegin \DIFadd{pixel detectors }\DIFaddend are surrounded by silicon strips.
     The silicon strips are separated into 4 different sections: 
     	the Tracker Inner Barrel, the Tracker Inner Disk, the Tracker Outer 
     	Barrel, and the Tracker End Caps.
@@ -74,9 +74,9 @@
       as a function of radiation lengths ($X_{0}$).
     A radiation length is the mean distance a photon travels before 
       interacting. 
-    \DIFdelbegin \DIFdel{As opposed to the }\DIFdelend \DIFaddbegin \DIFadd{The }\DIFaddend deflection angle set by the strength of the magnetic 
-      field \DIFdelbegin \DIFdel{, }\DIFdelend \DIFaddbegin \DIFadd{determines }\DIFaddend the momentum resolution for \DIFaddbegin \DIFadd{high momentum particles. 
-    The momentum resolution for }\DIFaddend lower momentum tracks is limited by 
+    The deflection angle set by the strength of the magnetic 
+      field determines the momentum resolution for high momentum particles. 
+    The momentum resolution for lower momentum tracks is limited by 
       the loss of energy due to multiple scattering of these particles off the 
       material of the detector.
     For UPC \JPsi{}, this is the primary factor contributing to the resolution 
@@ -170,7 +170,7 @@
 
     The energy resolution for HF can be seen in Figure~\ref{HCALeRes}.  
     As with the ECAL, the fractional resolution increases with energy. 
-    This is \DIFdelbegin \DIFdel{dues }\DIFdelend \DIFaddbegin \DIFadd{due }\DIFaddend to the random nature of shower development. 
+    This is due to the random nature of shower development. 
     At larger energies, the fluctuations in the shower of particles collected 
       in the calorimeter tend to average out.
 
@@ -200,10 +200,9 @@
       thesis by measuring energy due to neutrons produced by photon-induced 
       nuclear break.
     These measurements are used to identify events with asymmetric neutron 
-      emission, reducing the contribution to the sample by peripheral \DIFdelbegin \DIFdel{heavy-idon
-}\DIFdelend \DIFaddbegin \DIFadd{heavy-ion.
-      This will be discussed further in Chapter~\ref{ch:zdcReco}.
-}\DIFaddend 
+      emission, reducing the contribution to the sample \DIFdelbegin \DIFdel{by }\DIFdelend \DIFaddbegin \DIFadd{of }\DIFaddend peripheral heavy-ion 
+      \DIFaddbegin \DIFadd{collisions}\DIFaddend .
+    This will be discussed further in Chapter~\ref{ch:zdcReco}.
 
     The ZDC has a total of 18 channels.
         Half of these 18 channels are on either side of the interaction point.
@@ -239,7 +238,7 @@
       (QIE).
     The QIE integrates the current each 25 ns.
     The charge is then mapped logarithmically to the 128 bits. 
-    \DIFdelbegin \DIFdel{This bit is }\DIFdelend \DIFaddbegin \DIFadd{These bits are }\DIFaddend sent across a small fiber optic cable to the HTR firmware card.
+    These bits are sent across a small fiber optic cable to the HTR firmware card.
     Here each 25 ns signal is stored in a 250 ns buffer, and the timing is synchronize
       with the rest of the detector to ensure the ZDC signal arrives at the central
       data acquisition system at the same time as the other sub detectors from the 
@@ -247,7 +246,7 @@
 
   \section{Muons}
     The muon system~\cite{tCmsE} resides just outside of the superconducting magnet.
-    It consists of three complementary systems: drift \DIFdelbegin \DIFdel{tube }\DIFdelend \DIFaddbegin \DIFadd{tubes }\DIFaddend (DT) in the
+    It consists of three complementary systems: drift tubes (DT) in the
       barrel, cathode strip chambers (CSC) in the endcaps, and resistive 
       plate chambers (RPC) in both the barrel and endcap regions \cite{tCmsE}.
     Each of these gaseous detectors function in the same way.
@@ -299,7 +298,7 @@
       MB2.
     For the outer two layers of the barrel, MB3 and MB4, a single layer of RPCs
       is mounted on the inner side of the DTs.
-    Each corresponding DT segment has two RPCs modules, \DIFdelbegin \DIFdel{expect }\DIFdelend \DIFaddbegin \DIFadd{except }\DIFaddend in MB2 where 
+    Each corresponding DT segment has two RPCs modules, except in MB2 where 
       some segments contain 3 RPC modules. 
     The outer ring of the muon endcaps are instrumented with RPCs covering up to
       $|\eta|$ = 1.6.
@@ -389,7 +388,7 @@
   \section{\label{sec:detTrg}Trigger}
     The CMS trigger is two tiered~\cite{Dasu:2000ge,Sphicas:2002gg}. 
     The L1 trigger is the lower level hardware based system. 
-    The High Level Trigger (HLT) is a software base and runs on a computer farm
+    The High Level Trigger (HLT) is \DIFdelbegin \DIFdel{a software base }\DIFdelend \DIFaddbegin \DIFadd{software based }\DIFaddend and runs on a computer farm
       located at point 5.
 
     The purpose of the L1 trigger is to make quick decisions about which events
@@ -420,7 +419,7 @@
     Conversely, simpler, faster, methods must be used for more common high
       rate triggers. 
     Because of this time constraint in the HLT farm, the reconstruction 
-      algorithms used for triggering tended to differ from the final 
+      algorithms used for triggering \DIFdelbegin \DIFdel{tended }\DIFdelend \DIFaddbegin \DIFadd{tend }\DIFaddend to differ from the final 
       reconstruction algorithms.
     In the HLT these algorithms are optimized for quickness, whereas the final 
       reconstruction is optimized for precision and accuracy.
@@ -430,8 +429,8 @@
 
     The two tiered triggering system creates very low dead times while 
       maintaining purity and selectivity.
-    The wide gamete of physics topics that are pursued by the CMS collaboration
+    The wide \DIFdelbegin \DIFdel{gamete }\DIFdelend \DIFaddbegin \DIFadd{gamut }\DIFaddend of physics topics that are pursued by the CMS collaboration
       are a testament to the effectiveness and versatility of the CMS two 
       tiered triggering system.
     In Chapter~\ref{ch:trigg}, the development of L1 triggers and HLT paths 
-      for selecting UPC \DIFdelbegin \DIFdel{evens is }\DIFdelend \DIFaddbegin \DIFadd{events are }\DIFaddend discussed. 
+      for selecting UPC events are discussed. 

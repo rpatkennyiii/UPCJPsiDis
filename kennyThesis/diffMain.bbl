@@ -348,32 +348,6 @@ J.~Hufner, B.~Kopeliovich, and A.~B. Zamolodchikov, ``{Inelastic J / psi
   [nucl-th]}}.
 %%CITATION = NUCL-TH/9607033;%%.
 
-\bibitem{Abelev:2012ba}
-{\bfseries ALICE Collaboration} Collaboration, B.~Abelev {\em et~al.},
-  ``{Coherent $J/\psi$ photoproduction in ultra-peripheral Pb-Pb collisions at
-  $\sqrt{s_{NN}} = 2.76$ TeV},''
-  \href{http://dx.doi.org/10.1016/j.physletb.2012.11.059}{{\em Phys.Lett.}
-  {\bfseries B718} (2013) 1273--1283},
-\href{http://arxiv.org/abs/1209.3715}{{\ttfamily arXiv:1209.3715 [nucl-ex]}}.
-%%CITATION = ARXIV:1209.3715;%%.
-
-\bibitem{Abbas:2013oua}
-{\bfseries ALICE Collaboration} Collaboration, E.~Abbas {\em et~al.},
-  ``{Charmonium and $e^+e^-$ pair photoproduction at mid-rapidity in
-  ultra-peripheral Pb-Pb collisions at $\sqrt{s_{NN}}$ = 2.76 TeV},''
-  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2617-1}{{\em Eur.Phys.J.}
-  {\bfseries C73} (2013) 2617},
-\href{http://arxiv.org/abs/1305.1467}{{\ttfamily arXiv:1305.1467 [nucl-ex]}}.
-%%CITATION = ARXIV:1305.1467;%%.
-
-\bibitem{lta2013.05}
-V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
-  shadowing from the {ALICE} measurements of pbpb ultraperipheral exclusive
-  production,''
-  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2013.08.043}{{\%
-em Physics Letters B} {\bfseries 726} no.~1–3, (2013) 290 -- 295}.
-  \url{http://www.sciencedirect.com/science/article/pii/S0370269313006825}.
-
 \bibitem{WWJackson}
 J.~D. Jackson, {\em Classical electrodynamics}.
 \newblock Wiley, New York, {NY}, 3rd ed.~ed., 1999.
@@ -558,6 +532,32 @@ S.~Afanasiev {\em et~al.}, ``Photoproduction of and of high mass in
   \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2009.07.061}{{\%
 em Physics Letters B} {\bfseries 679} no.~4, (2009) 321 -- 329}.
   \url{http://www.sciencedirect.com/science/article/pii/S0370269309008983}.
+
+\bibitem{Abelev:2012ba}
+{\bfseries ALICE Collaboration} Collaboration, B.~Abelev {\em et~al.},
+  ``{Coherent $J/\psi$ photoproduction in ultra-peripheral Pb-Pb collisions at
+  $\sqrt{s_{NN}} = 2.76$ TeV},''
+  \href{http://dx.doi.org/10.1016/j.physletb.2012.11.059}{{\em Phys.Lett.}
+  {\bfseries B718} (2013) 1273--1283},
+\href{http://arxiv.org/abs/1209.3715}{{\ttfamily arXiv:1209.3715 [nucl-ex]}}.
+%%CITATION = ARXIV:1209.3715;%%.
+
+\bibitem{Abbas:2013oua}
+{\bfseries ALICE Collaboration} Collaboration, E.~Abbas {\em et~al.},
+  ``{Charmonium and $e^+e^-$ pair photoproduction at mid-rapidity in
+  ultra-peripheral Pb-Pb collisions at $\sqrt{s_{NN}}$ = 2.76 TeV},''
+  \href{http://dx.doi.org/10.1140/epjc/s10052-013-2617-1}{{\em Eur.Phys.J.}
+  {\bfseries C73} (2013) 2617},
+\href{http://arxiv.org/abs/1305.1467}{{\ttfamily arXiv:1305.1467 [nucl-ex]}}.
+%%CITATION = ARXIV:1305.1467;%%.
+
+\bibitem{lta2013.05}
+V.~Guzey, E.~Kryshen, M.~Strikman, and M.~Zhalov, ``Evidence for nuclear gluon
+  shadowing from the {ALICE} measurements of pbpb ultraperipheral exclusive
+  production,''
+  \href{http://dx.doi.org/http://dx.doi.org/10.1016/j.physletb.2013.08.043}{{\%
+em Physics Letters B} {\bfseries 726} no.~1–3, (2013) 290 -- 295}.
+  \url{http://www.sciencedirect.com/science/article/pii/S0370269313006825}.
 
 \bibitem{CmsPTdrv2}
 {\bfseries CMS Collaboration} Collaboration, G.~Bayatian {\em et~al.}, ``{CMS
